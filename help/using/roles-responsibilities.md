@@ -4,7 +4,7 @@ seo-title: AEM Screens项目角色和责任
 description: 本页介绍AEM Screens项目角色和责任
 seo-description: 本页介绍AEM Screens项目角色和责任
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ AV集成商负责与最终客户进行发现，以定义要求，确定围绕数
 | *第二天：启动后支持* |
 | 角色和责任协议 | RA | RA | RA |
 | 第1层支持 | 我 | 我 | RA |
-| 第1层支持 | 我 | C | RA |
-| 第1层支持 | 我 | RA | C |
+| 第2层支持 | 我 | C | RA |
+| 第3层支持 | 我 | RA | C |
 | 内容更新 | RA | 我 | 我 |
 | 评估UX的成功性并确定改进领域 | RA | C | 我 |
