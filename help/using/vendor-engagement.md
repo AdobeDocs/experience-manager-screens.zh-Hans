@@ -4,7 +4,7 @@ seo-title: AEM Screens的供应商参与度
 description: 本页介绍了《AEM Screens供应商参与最佳实践指南》
 seo-description: 本页介绍了《AEM Screens供应商参与最佳实践指南》
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -24,17 +24,3 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 * 确认所 *有交付商的交付提前期* ，并创建一个部署计划，以便从第一个必需安装的所需安装日期开始向后工作的所有提前期都能够满足。
 
 通过完成以前的所有步骤，我们现在应该拥有一个全面 *的第1天部署计划* ，随时可以执行。
-
-## 考虑硬件合作伙伴 {#selecting-hardware-partner}
-
-选择合适的硬件合作伙伴至关重要。 必须考虑以下问题：
-
-1. 服务级别协议的条款有哪些？
-
-1. 什么是全球覆盖？
-
-1. 24小时支持吗？
-
-1. 如何管理设备？
-
-1. 什么是活动监视和警告系统？
