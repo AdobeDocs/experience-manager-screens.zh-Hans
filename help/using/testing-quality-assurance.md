@@ -4,7 +4,7 @@ seo-title: AEM Screens的测试和质量保证
 description: 本页介绍《AEM Screens测试和质量保证最佳实践指南》
 seo-description: 本页介绍《AEM Screens测试和质量保证最佳实践指南》
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screens包括设备控制中心模块，该模块允许管理Screens播放�
 这是指已安装 *Screens播放器应用程序* ，并已注册到AEM实例的任何播放器硬件设备。
 此模块允许您：
 
-1. 监视应用程序错误日志
+1. 监视播放器应用程序错误日志
 1. 管理远程屏幕快照
 1. 管理内容下载
 1. 管理应用程序重启问题
@@ -66,8 +66,8 @@ AEM Screens包括设备控制中心模块，该模块允许管理Screens播放�
 >
 > 1. 安装播放器应用程序的新版本
 > 1. 监视系统级资源
-> 1. 配置系统级配置
-> 1. 允许远程桌面干预。
+> 1. 系统级错误疑难解答
+> 1. 允许远程桌面干预
 
 
 
@@ -80,6 +80,6 @@ AEM Screens包括设备控制中心模块，该模块允许管理Screens播放�
 
 * Google Chrome设备管理
 * TeamViewer
-* AirWatch42
-* 齿轮
-* 索蒂
+* AirWatch
+* 42Gears
+* 专有AV集成商中间件
