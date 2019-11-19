@@ -11,13 +11,12 @@ topic-tags: authoring
 discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
 
 # 资产层计划 {#asset-level-scheduling}
-
 
 本节介绍渠道中使用的资产的资产级别计划。
 
