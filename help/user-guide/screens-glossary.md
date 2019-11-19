@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 
 ---
 
 
-# 术语表{#glossary}
+# 术语表 {#glossary}
 
 **应用程序渠道** “应用程序渠道”显示由显示交互式内容的开发人员创建的应用程序。
 
@@ -28,9 +28,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 **Live Copy** Live copy是特定站点内容的副本，其中保留了与原始源的Live关系。 此Live关系允许Live copy从源继承内容和页面属性。
 
-**位置** “位置”根据不同屏幕的位置托管显示屏的配置。
+**位置／位置文件夹** “位置”文件夹内的位置或位置根据不同屏幕的位置托管显示屏的配置。
 
-**播放器软件** 播放器是在设备上运行的软件，通过该软件可在显示屏上显示渠道。
+**播放器软件** 播放器是在设备上运行的软件应用程序，它允许您在显示屏上显示渠道。
 
 **屏幕** A屏幕是能够产生可视输出的物理监视器或任何其他系统，显示来自其设备的内容。
 
