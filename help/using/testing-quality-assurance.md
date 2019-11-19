@@ -4,7 +4,7 @@ seo-title: AEM Screens的测试和质量保证
 description: 本页介绍《AEM Screens测试和质量保证最佳实践指南》
 seo-description: 本页介绍《AEM Screens测试和质量保证最佳实践指南》
 translation-type: tm+mt
-source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
+source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
 
 ---
 
@@ -57,7 +57,7 @@ AEM Screens包括设备控制中心模块，该模块允许管理Screens播放�
 1. 监视应用程序错误日志
 1. 管理远程屏幕快照
 1. 管理内容下载
-1. 应用程序重新启动
+1. 管理应用程序重启问题
 
 要详细了解设备控 ***制中心***，请参阅《 [AEM Screens用户指南》中的“设备](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 控制中心疑难解答” ****。
 
