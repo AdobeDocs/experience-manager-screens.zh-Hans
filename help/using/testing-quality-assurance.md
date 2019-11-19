@@ -4,7 +4,7 @@ seo-title: AEM Screens的测试和质量保证
 description: 本页介绍《AEM Screens测试和质量保证最佳实践指南》
 seo-description: 本页介绍《AEM Screens测试和质量保证最佳实践指南》
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -19,6 +19,9 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 在这一阶段，整个测试系统应该建立并充分测试。
 
 应创建一个清单，它标识所有以前定义的KPI并测量可交付项。
+
+>[!NOTE]
+> 此阶段还应用作创建安装和用户指南的工具，以后可随设备一起提供并保存在现场以供将来参考。
 
 应考虑以下要素：
 
@@ -42,8 +45,6 @@ source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
 * 播放
 * 数据库依赖关系（以前定义）
 
->[!NOTE]
-> 此阶段还应用作创建安装和用户指南的工具，以后可随设备一起提供并保存在现场以供将来参考。
 
 ## 3.设备管理注意事项 {#device-management-considerations}
 
@@ -58,8 +59,10 @@ AEM Screens包括设备控制中心模块，该模块允许管理Screens播放�
 1. 管理内容下载
 1. 应用程序重新启动
 
+要详细了解设备控 ***制中心***，请参阅《 [AEM Screens用户指南》中的“设备](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 控制中心疑难解答” ****。
+
 >[!CAUTION]
-> 您应使用设备控制中心来：
+> 您不应使用设备控制中心来：
 >
 > 1. 安装播放器应用程序的新版本
 > 1. 监视系统级资源
