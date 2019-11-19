@@ -11,14 +11,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
 
 # 什么是AEM Screens?{#what-is-aem-screens}
 
-**AEM(Adobe Experience Manager)Screens** - *一个数字标牌解决方案*，它允许您发布包含不同屏幕类型的动态交互式数字体验和交互，并结合一个全面的数字营销平台。
+**AEM(Adobe Experience Manager)Screens** —— 一种数字标牌解决方案，允许您发布动态和交互式数字体验以及与全面的数字营销平台相结合的涉及不同屏幕类型的交互。
 
 使用AEM Screens的Kickstart，开始使用简单的数字标牌体 [验并运行](kickstart-for-aem-screens.md)。
 
