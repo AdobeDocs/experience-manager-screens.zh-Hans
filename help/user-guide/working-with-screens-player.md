@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ Enabling the **Admin UI** from the preferences panel allows the user to open the
 >“更 **新固件** ”选项仅适用于cordova，如Android播放器。
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>建议在生产部 **署中禁用** “管理员UI”。
 
 您可以从 AEM Screens 播放器内的管理员 UI 中清除渠道和应用程序缓存。
 
