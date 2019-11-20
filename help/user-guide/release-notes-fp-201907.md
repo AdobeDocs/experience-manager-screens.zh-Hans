@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -34,13 +34,13 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 玩家在接收到由紧急系统触发的事件时切换到显示紧急信息的频道。 该频道专门播放，直到紧急情况结束。
 
-有关实施 [**，请参阅Exerncy Channel**](emergency-channel.md) Use Case。
+有关实施 [，请参阅Exerncy Channel](emergency-channel.md) Use Case。
 
 * **定位为异步组件(如&#x200B;*视频、嵌入式序列*)启用**
 
-现在可以为在AEM Screens项目中使用的资产启用定位** **。
+现在可以为在AEM Screens项目中使用的资产启用定位。
 
-要进一步了解如何在AEM Screens项目中为资产启用定位，请参阅在AEM Screens中 [**配置ContextHub**](configuring-context-hub.md)。
+要进一步了解如何在AEM Screens项目中为资产启用定位，请参阅在AEM Screens中 [配置ContextHub](configuring-context-hub.md)。
 
 为AEM Screens项目配置ContextHub后，请按照不同的使用案例了解数据触发资产如何在不同行业中扮演关键角色：
 
@@ -57,11 +57,11 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 * **启动项**
 
 启动项允许内容作者创建渠道的未来版本。 在启动项的帮助下，作者可以预览启动项中的每个渠道，并且应能够启动审核请求。 批准者组将收到通知，并可以批准或拒绝请求。 到达活动日期后，内容将在设备中播放。
-有关更多 [**详细信息**](launches.md) ，请参阅启动项。
+有关更多 [详细信息](launches.md) ，请参阅启动项。
 
 * **体验片段中的脱机配置**
 
-您现在可以在配置Screens体验片段时添加脱机配置（客户端库和静态文件）。 有关更多 [**详细信息，请参阅使用体验片段**](experience-fragments-in-screens.md) 。
+您现在可以在配置Screens体验片段时添加脱机配置（客户端库和静态文件）。 有关更多 [详细信息，请参阅使用体验片段](experience-fragments-in-screens.md) 。
 
 ### 已发布的AEM Screens播放器 {#released-aem-screens-players}
 
@@ -73,4 +73,4 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 #### AEM Screens播放器下载 {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [**AEM Screens播放器下载**](https://download.macromedia.com/screens/)。
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [AEM Screens播放器下载](https://download.macromedia.com/screens/)。
