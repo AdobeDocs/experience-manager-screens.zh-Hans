@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
+source-git-commit: 8b2a61d4e67f9641773a687572e7a56191a575d3
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [Screens服务器配置](configuring-screens-introduction.md)
    + [设置调度程序配置](dispatcher-configurations-aem-screens.md)
    + [安装Screens播放器](installing-screens-player.md)
-   + [连接Screens播放器应用程序](working-with-screens-player.md)
+   + [连接Screens播放器](working-with-screens-player.md)
    + [设备注册](device-registration.md)
    + [设置ACL](setting-up-acls.md)
    + [从ContentSync过渡到SmartSync](smartsync.md)
-   + 安装客户端 {#installing-client}
+   + 客户端特定注意事项 {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome Player作为故障排除的扩展](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
@@ -37,7 +37,10 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + Author Publish {#author-publish}
       + [作者——发布架构概述](author-publish-architecture-overview.md)
       + [配置作者和发布](author-and-publish.md)
-+ 创作 {#authoring}
+   + 与AEM Screens的Analytics集成 {#analytics-integration}
+      + [Adobe Analytics集成](adobe-analytics-integration-aem-screens.md)
+      + [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
++ 创作和用例示例 {#authoring}
    + 设置Screens项目 {#setting-up-projects}
       + [创建和管理项目](creating-a-screens-project.md)
       + [创建和管理渠道](managing-channels.md)
@@ -63,9 +66,11 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
       + [启动项](launches.md)
       + [从文件新建项目导入程序](project-importer.md)
       + [通道级批量图像播放持续时间](channel-level-image-playback.md)
-   + 与AEM Screens的Analytics集成 {#analytics-integration}
-      + [Adobe Analytics集成](adobe-analytics-integration-aem-screens.md)
-      + [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
+   + 用例示例 {#use-case-examples}
+      + [紧急渠道](emergency-channel.md)
+      + [旅行中心温度激活](local-temperature-activation.md)
+      + [酒店预订激活](hospitality-reservation-activation.md)
+      + [零售库存定向激活](retail-inventory-activation.md)
 + 开发 {#developing}
    + [REST API](rest-api.md)
    + [为AEM Screens开发自定义组件](developing-custom-component-tutorial-develop.md)
@@ -74,11 +79,6 @@ source-git-commit: 69cc1b6755f721b617e8b292daec0947db49259b
    + [创建组件](creating-components.md)
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [创建自定义模板多区域布局](creating-custom-templates-multizone-layouts.md)
-+ 用例示例 {#use-case-examples}
-   + [紧急渠道](emergency-channel.md)
-   + [旅行中心温度激活](local-temperature-activation.md)
-   + [酒店预订激活](hospitality-reservation-activation.md)
-   + [零售库存定向激活](retail-inventory-activation.md)
 + 疑难解答 {#troubleshooting}
    + [AEM Screens常见问题解答](aem-screens-faqs.md)
    + [设备控制中心故障排除](monitoring-screens.md)
