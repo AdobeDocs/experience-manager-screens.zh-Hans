@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -332,7 +332,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
    1. **仅包括直接子项**:此选项允许您仅管理对项目结构中子节点的更新。
    1. **仅包括已修改的页面**:此选项允许您仅管理项目中已修改页面的更新，在项目中可找到更改。
-   1. **仅包括已更新页面**:此选项仅允许管理之前发布的页面的更新。
+   1. **仅包括已发布的页面**:此选项仅允许管理之前发布的页面的更新。
 
 
 1. 从“管 **理发布** ”向导中 **单击“发布”。**
