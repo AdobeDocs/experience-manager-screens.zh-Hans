@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,19 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
    >默认情况下，将选中所有框，您必须手动取消选中这些框才能发布项目中的所有模块。
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **了解“包括子项”对话框**
+
+   上述步骤显示了如何发布整个内容。 如果要使用其他三个可用替代选项，则必须检查该特定选项。
+例如，下图允许您仅管理和更新项目中修改的页面：
+   ![图像](assets/author-publish-manage.png)
+
+   请按照以下说明了解可用选项：
+
+   1. **仅包括直接子项**:此选项允许您仅管理对项目结构中子节点的更新。
+   1. **仅包括已修改的页面**:此选项允许您仅管理项目中已修改页面的更新，在项目中可找到更改。
+   1. **仅包括已更新页面**:此选项仅允许管理之前发布的页面的更新。
+
 
 1. 从“管 **理发布** ”向导中 **单击“发布”。**
 
