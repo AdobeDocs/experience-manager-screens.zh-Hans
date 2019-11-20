@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -102,7 +102,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 启用Shell启动器。
 
-   有关更多信 ***息，请参阅Microsoft windows支持的***** Shell Launcher [](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**页中的配置Shell Launcher一节。
+   有关其他信 ***息，请参阅Microsoft windows支持在*****[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell Launcher页中配置Shell Launcher一节。
 
 1. 创建一个非管理用户（如果您还没有）用于Kiosk。 这可以是本地用户或域用户。
 1. 从 [AEM Screens播放器下载页面为该Kiosk用户安装Windows播放器](https://download.macromedia.com/screens/) 。
