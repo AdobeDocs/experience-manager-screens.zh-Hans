@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
+source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
 
 ---
 
@@ -82,6 +82,7 @@ source-git-commit: 04ad945a7cca9e41a4673d5c45888025a685f57e
    + [脱机渠道](offline-channels.md)
    + [扩展AEM Screens组件](extending-component-tutorial-develop.md)
    + [创建组件](creating-components.md)
+   + [使用AEM SPA Editor嵌入REACT应用程序并与AEM Screens分析集成](embedding-react-app.md)
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [创建自定义模板多区域布局](creating-custom-templates-multizone-layouts.md)
 + 疑难解答和常见问题解答 {#troubleshooting}
