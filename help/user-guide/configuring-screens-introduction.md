@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 #### 允许空的引用请求 {#allow-empty-referrer-requests}
 
-1. 通过AEM实例—&gt;锤子图标—&gt;操作—&gt; web控制台，导航到**Adobe Experience Manager Web Console配置** ********。
+1. 通过 **AEM实例—&gt;锤子图标—&gt;操作** —&gt; web控制台，导航到 **Adobe Experience Manager Web Console配置******。
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -57,7 +57,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 1. 导航到 *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 确保将“默 **认创作UI** ”模式设 **置为“TOUCH**”，如下图所示
 
-或者，您也可以使用*&lt;yourAuthorInstance&gt; *-&gt;工具* （锤子图标）* -&gt; **Operations** -&gt;** Web Console**执行相同的设置，并搜索 **WCM创作UI模式服务**。
+或者，您也可以使用 *&lt;yourAuthorInstance&gt;*-&gt;*(hammer图标-&gt;* Operations **-&gt;)对WCM创作模式服务进行搜索和Web Console创作，**********&#x200B;以及对Adobe Sui suite的ReadChonse执行相同的设置。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -83,7 +83,7 @@ AEM Screens播放器必须具备此功能才能播放联机渠道。
 
 请按照以下步骤配置 ***DeviceServiceImpl***:
 
-1. 通过AEM实例—&gt;锤子图标—&gt;操作—&gt; web控制台，导航到**Adobe Experience Manager Web Console配置** ********。
+1. 通过 **AEM实例—&gt;锤子图标—&gt;操作** —&gt; web控制台，导航到 **Adobe Experience Manager Web Console配置******。
 
 1. **Adobe Experience Manager web控制台配置**打开。 搜索deviceservice. 要搜索属性，请 **按Command+F** ( **Mac)和** Control+F(Windows) ********(Windows)。
 
