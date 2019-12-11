@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
 
 ---
 
@@ -75,8 +75,6 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
       + [旅行中心温度激活](local-temperature-activation.md)
       + [酒店预订激活](hospitality-reservation-activation.md)
       + [零售库存定向激活](retail-inventory-activation.md)
-      + [MultiZone到SingleZone过渡](multizone-to-singlezone.md)
-      + [MarQuee Takeover](marquee-takeover.md)
       + [应用过渡](applying-transitions.md)
 + 开发人员和API资源 {#developing}
    + [REST API](rest-api.md)
