@@ -6,19 +6,19 @@ seo-description: 可查看本页以了解如何将过渡应用到Screens项目�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
 
 ---
 
 
 # 应用过渡 {#applying-transitions}
 
-本节将介绍 **Transition** 组件如何允许您向Screens项目添加过渡。
+本节介绍如何在渠道中的 **不同资产** （图像和视频）之间应用过渡组件。
 
 
 >[!CAUTION]
 >
->要详细了解过渡组件的属性，请参阅过渡 [。](adding-components-to-a-channel.md#transition)
+>要详细了解“过渡”组件的属性，请参阅“过 [渡”](adding-components-to-a-channel.md#transition)。
 
 ## 向渠道中的资产添加过渡组件 {#adding-transition}
 
@@ -43,14 +43,13 @@ source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 1. 将“过渡”组 **件拖放到** “编辑器”中。
    >[!CAUTION]
    >
-   >在渠道中向资产添加过渡之前，请确保：您不会在顺序渠道中的第一个资产之前添加过渡。 渠道中的第一个项目必须是资产，而不是过渡。
+   >在向渠道中的资产添加过渡之前，请确保不要在顺序渠道中的第一个资产之前添加过渡。 渠道中的第一个项目必须是资产，而不是过渡。
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >默认情况下，过渡组件设置为“类型”( **Type** ),“持 **续时间”(Duration** )设 *置为600 ms*。  此外，不建议设置比其所应用的资产长的过渡持续时间。
-
+   >默认情况下，过渡组件的属性(如 **Type** )设置为 **Normal** , **Duration** （持续时间） **&#x200B;设置为600 msPhonet。  此外，不建议设置比其所应用的资产长的过渡持续时间。
 
 ## 向渠道中的视频添加过渡组件 {#adding-transition-videos}
 
