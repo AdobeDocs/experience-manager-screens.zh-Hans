@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
 
 * 作者—&gt; localhost:4502
 * Publish 1(pub1)—&gt; localhost:4503
-* 发布(pub2)—&gt; localhost:4504
+* Publish 2(pub2)—&gt; localhost:4504
 
 ## 在作者上设置复制代理 {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ Screens需要3个复制代理：
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. 单击 **编辑** ，打开“代理 **设置** ”对话框以输入详细信息。
+
+   >[!NOTE]
+   >
+   >用户需要选中“已 **启用** ”以启用复制代理。 必须在“默认”、“屏幕”和“反向复制代理”上选中此选项。
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -140,7 +144,7 @@ Screens需要3个复制代理：
 在每个Publish实例上：
 
 1. 在OSGi控制台中，导航到 **MAIN** —&gt; **Crypto Support** (*https://&lt;host&gt;:&lt;port&gt;/system/console/crypto*)。
-1. 在纯文本中键入所需的纯文本口令（对于所有实例都相同） ****
+1. 在纯文本中键入所需的纯文本口令（对于所有实例均相同） ****
 1. 单击“ **保护**”。
 1. 将值“受保护 **文本** ”复制到记事本或文本编辑器。 此值将用于ActiveMQ的OSGi配置。
 
