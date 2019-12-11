@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 选择渠 **道文件夹** ，然后单 **击创建** ，打开向导以创建渠道。
 
-   1. 从向导中选择**序列渠道**，然后创建标题为 **MainAdChannel的渠道**。
+   1. 从向 **导中选择序列渠道** ，然后创建标题为MainAdChannel **的渠道**。
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **将内容添加到序列渠道**
@@ -63,7 +63,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 选择渠 **道文** 件夹。
    1. 单击创 **建** ，打开向导以创建渠道。
-   1. 从向导中选择**序列渠道**，然后创建标题为 **ExergencyChannel的渠道**。
+   1. 从向 **导中选择序列渠道** ，然后创建标题为ExerencyChannel的 **渠道**。
    >[!NOTE]
    >
    >通常情况下，您的紧急渠道会添加到您的预先存在的生产项目中。
@@ -96,9 +96,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 将显示分配给您的计划并设置优先级
 
-   1. 选择计划**(StoreSchedule)**，然后单击操 **作栏中的** “功能板”。
+   1. 选择计划( **StoreSchedule)** ，然后单 **击操作栏中的Dashboard** 。
 
-   1. 单击 ****已分配渠道** **面板中的+分配渠道。
+   1. 从“已 **分配的渠道** ”面板中单 **击+分配渠道** 。
 
    1. 从“渠道 **分配** ”对话框中：
 
@@ -113,7 +113,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. 单击 ****已分配渠道** **面板中的+分配渠道。
+1. 从“已 **分配的渠道** ”面板中单 **击+分配渠道** 。
 
 1. 从“渠道 **分配** ”对话框中：
 
@@ -131,7 +131,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **将计划分配给每个显示屏**
 
-   1. 导航到每个显示屏，如 **EmergencyChannel** —&gt;位 **置** —&gt; **Store **—&gt;**StoreFront**。
+   1. 导航到每个显示屏，如 **Channel** —&gt;位置 **—&gt;** Store **—&gt;** StoreFront紧急调&#x200B;****&#x200B;用。
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **单击**...从“已分 **配的渠道和计划** ”面板，然后单击 **+分配计划**。
