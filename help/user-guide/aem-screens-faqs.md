@@ -6,7 +6,7 @@ seo-description: 可查看本页以获取与AEM Screens项目相关的常见问�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -33,7 +33,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
 对于 *静态引用*，分辨率只遵循指定的路径。
 
-对于 *动态引用*，将渠道分配给显示屏（而非计划）后，会出现解析。 显示路径将变为渠道的上下文，并且分辨率将按以下方式（从高到低优先级）进行：
+对于 *动态引用*，将渠道分配给显示屏（而非计划）后，会出现解析。 显示路径将成为渠道的上下文，并且分辨率将按如下方式（从高到低优先级）进行：
 
 1. 显示屏有一个与引用的渠道名称匹配的子节点
 1. 显示屏有一个与引用的渠道名称匹配的同级节点
@@ -75,7 +75,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 您需要启用Apache Sling引用过滤器允许空。 这是在AEM Screens播放器和AEM Screens服务器之间优化控制协议操作所必需的。
 
 1. 导航到 **Adobe Experience Manager Web Console配置**
-1. 选中**allow.empty **选项。
+1. 选中 **allow.empty选项** 。
 1. 单击&#x200B;**保存**。
 
 ### 3.如果在注册AEM Screens播放器时，设备显示FAILURE，而控制台日志显示ENAME_NOT_FOUND错误，如何进行疑难解答？ {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
