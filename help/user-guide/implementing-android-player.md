@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 本节介绍如何配置Android播放器。 它提供配置文件的信息以及可用选项，以及用于开发和测试的设置的建议。
 
-此外，**Watchdog** 是一种从崩溃中恢复播放器的解决方案。 应用程序需要向监视服务注册自己，然后定期向其处于活动状态的服务发送消息。 如果看门狗服务在规定的时间内没有收到保持活动消息，则服务尝试重新启动设备以进行干净恢复（如果它具有足够的权限）或重新启动应用程序。
+此外， **Watchdog** 是一种从崩溃中恢复播放器的解决方案。 应用程序需要向监视服务注册自己，然后定期向其处于活动状态的服务发送消息。 如果看门狗服务在规定的时间内没有收到保持活动消息，则服务尝试重新启动设备以进行干净恢复（如果它具有足够的权限）或重新启动应用程序。
 
 ## 安装Android Player {#installing-android-player}
 
