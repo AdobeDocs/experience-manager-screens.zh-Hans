@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 本节将介绍以下主题：
 
-* OvervieW
+* 概述
 * 使用资产层计划
 * 处理资产中的循环
 * 多资产计划
