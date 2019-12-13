@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ### 查看播放器屏幕截图 {#view-player-screenshot}
 
-您可以从**播放器屏幕截图**面板查看设备上的播放器屏幕截图。
+您可以从“播放器屏幕截图”面板查看设备中的播 **放器屏幕截图** 。
 
-单击“播放&#x200B;**器屏幕截图”面板右上角的(...**)，然后选择**刷新屏幕截图**以查看正在运行的播放器的快照。
+单击“播放&#x200B;**器屏幕截图”面板右上角的(...**)，然后选择“刷新屏幕截图” **** ，以查看正在运行的播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 请按照以下步骤启用Apache Sling引用过滤器允许空
 
 1. 导航到 **Adobe Experience Manager Web Console配置**，即 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
-1. 选中**allow.empty **选项。
+1. 选中 **allow.empty选项** 。
 1. 单击&#x200B;**保存**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
