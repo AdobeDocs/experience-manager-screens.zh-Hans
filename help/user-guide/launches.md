@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. 将启 **动项标题输入** SummerPromotions **** ，您无需设置**启动日期**，如下图所示。 单击&#x200B;**创建**。
+1. 将启 **动项标题输入****SummerPromotions******，您无需设置启动日期，如下图所示。 单击&#x200B;**创建**。
 
    >[!NOTE]
    >
@@ -117,7 +117,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >您可以在此步骤中设置实时启动日期，也可以在稍后编辑启动项的属性时设置该日期（一旦创建）。
+   >您可以在此步骤中设置实时启动日期，也可以在稍后编辑启动项的属性时设置它，直到该启动项已创建。
 
 1. 您将看到已创建启动项。 您可以单击“打 **开** ”以在编辑器中查看页面，或单击“完成 **** ”以导航回您的项目。
 
@@ -137,7 +137,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >从左边栏中选择“**内容树**”选项以打开您创建的启动项。
+   >从左边 **栏中选择** “内容树”选项以打开您创建的启动项。
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
