@@ -6,19 +6,19 @@ seo-description: 可查看本页以了解如何将过渡应用到Screens项目�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # 应用过渡 {#applying-transitions}
 
-本节介绍如何在渠道中的 **不同资产** （图像和视频）之间应用过渡组件。
+本节介绍如何在渠道中的不同资 **产** （图像和视频）和嵌入式序列之间应用过渡组件。
 
 
 >[!CAUTION]
 >
->要详细了解“过渡”组件的属性，请参阅“过 [渡”](adding-components-to-a-channel.md#transition)。
+>要详细了解“过渡”组件的属 **性** ，请参阅“过渡 [”](adding-components-to-a-channel.md#transition)。
 
 ## 向渠道中的资产添加过渡组件 {#adding-transition}
 
@@ -51,8 +51,12 @@ source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
    >
    >默认情况下，过渡组件的属性(如 **Type** )设置为 **Normal** , **Duration** （持续时间） **&#x200B;设置为600 msPhonet。  此外，不建议设置比其所应用的资产长的过渡持续时间。
 
+1. 此外，如果向此渠道编辑器添加了嵌入式序列组件(包括序列渠道 **** )，则可以在结尾处添加过渡组件，以便按顺序播放内容，如下图所示：
+
+   ![image3](assets/transitions5.png)
+
 ## 向渠道中的视频添加过渡组件 {#adding-transition-videos}
 
-在视频之间应用过渡组件时，请始终将 **Type** （类型） **设置为Fade** ，将 **Sequence Duration（序列持续时间）** 设置为 **** 1600 ms。
+在视频之间应用过渡组件时，建议将 **Type** （类型）设 **置为Fade** ，将 **Sequence Duration（序列持续时间）******&#x200B;设置为1600 ms。
 
 ![image3](assets/transitions4.png)
