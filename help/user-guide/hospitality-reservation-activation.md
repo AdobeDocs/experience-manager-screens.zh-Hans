@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 对于此用例，Google Sheet填充了两家餐馆 **Restaurant1和****Restaurant2的预订百分比**。 根据Restaurant1和Restaurant2的值应用公式，并根据公式将值1或2分配给 **AdTarget** 列。
 
-如果Restaurant1 **&gt;** Restaurant2的值 **，则为** AdTaget分配值***，否则， ************ AdTarget被分配值2AdTarget*。 Value 1生成 *牛排美食* ,Value 2在显示屏上 *显示泰式美食* 。
+如果值为 **Restaurant1** **Restaurant2**&gt; ，则 **AdTaget** 将赋值 **AdTaget********** 11，否则为AdTagetTarget分配的值为AdTargetIs赋值2AdTarget。 Value 1生成 *牛排美食* ,Value 2在显示屏上 *显示泰式美食* 。
 
 ## 先决条件 {#preconditions}
 
@@ -44,18 +44,18 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **根据要求在受众中配置区段**
 
-   1. 导航到受众中的区段(请参 ***阅步骤2:在**在AEM Screens*** **中配 [置ContextHub页面中设置受众细分](configuring-context-hub.md)**，了解更多详细信息)。
+   1. 导航到受众中的区段(请参 ***阅步骤2:有关更多详细信息*** ，请 **[在“AEM Screens”页面中配置ContextHub](configuring-context-hub.md)** ，设置受众细分。)
 
    1. 选择“ **工作表A1 1** ”，然后单 **击编辑**。
 
    1. 选择比较属性，然后单击配置图标以编辑属性。
    1. 从 **属性名称的下拉菜单中选择Googlesheets/value/1/2****。**
 
-   1. 从下 **拉菜单中选择运算符** **equal **
+   1. 从下拉 **菜单中选** 择“Operator **as** equal”（运算符为等）
 
    1. 输入 **值** 1 **。**
 
-   1. 同样，选择**工作表A1 2 **并单击“编 **辑”**。
+   1. 同样，选择“ **工作表A1 2** ”并单 **击编辑**。
 
    1. 选择比较属性，然后单击配置图标以编辑属性。
    1. 从 **属性名称的下拉菜单中选择Googlesheets/value/1/2****。**
