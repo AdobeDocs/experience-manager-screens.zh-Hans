@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -77,7 +77,7 @@ Live Copy 是已存在的渠道的副本。
 
 ### Live Copy 状态 {#live-copy-status}
 
-通过模式** Live copy状态**（如下图所示），可以查看渠道中所有资产的关系状态。
+如下图所示，**Live Copy 状态**&#x200B;模式允许您查看渠道中所有资产的关系状态。
 
 1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 
@@ -125,7 +125,7 @@ Live Copy 是已存在的渠道的副本。
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。Click **Save &amp; Close** to navigate back to the AEM dashboard..
+1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。Click **Save &amp; Close** to navigate back to the AEM dashboard.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
