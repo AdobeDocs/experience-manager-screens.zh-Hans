@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -46,7 +46,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 1. 选择要添加新组件的渠道。例如，**We.Retail In Store** --&gt; **渠道** --&gt; **Idle Channel**。
 
-1. 单击操作栏中的**编辑**以打开编辑器。
+1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
 1. Select **Design** mode.
 1. 选择右侧的整个设计编辑器，然后单击设置符号以打开 **ParSys 设计**&#x200B;对话框。
 1. 您可以选择要导入到 AEM Screens 项目的组件。以下示例显示 **了向AEM Screens项目添加的Livefyre** 组件。
