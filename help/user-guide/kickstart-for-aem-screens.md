@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 单击 **创建** ，以创建新的Screens项目（请参阅下图）。
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. Enter the title as *Test_Project*  and click **Create**.
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    创建项目后，它会将您带回Screens项目控制台。 现在，您可以选择自己的项目。在项目中，有五种文件夹，即 **Applications****Channels**、Devices **** Locations、 ******** LocationsSchedules和Schedules，如下图所示。
@@ -77,8 +77,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. 单击操作栏中的**创建**（请参阅下图）。 此时将打开一个向导。
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). 此时将打开一个向导。
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    请按照以下步骤将内容添加到项目中&#x200B;*的渠道*(TestChannel):
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Click **Edit** from the action bar (see the figure below). * testChannel*的编辑器将打开。
+   1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
    1. 单击操作栏左侧用于切换侧面板的图标以打开资产和组件。
    1. 将您希望添加的组件拖放到渠道中。
@@ -115,7 +115,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    请按照以下步骤为项目创建新位置：
 
-   1. 导览至您 *创建的Test_Project* ，然后选择**位置**文件夹。
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. 单 **击操作栏** 中加号图标旁边的创建（请参阅下图）。 此时将打开一个向导。
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 导航到要创建显示屏(*Test_* Project —&gt; **Locations** —&gt; *TestLocation)* 的位置（如上图所示），并选择 ** TestLocation。
 
-   1. 单击**从操作栏中创建**。
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. 单击操作栏中的&#x200B;**创建**。
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. 为显 **示位置输入名称** 和标题 **(输入TestDisplay作为标** 题 **)。
 
@@ -161,7 +161,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. 从Test_Project —&gt; **Schedules** ，导航到“计划”文 **件夹**。
 
-   1. 单击**从操作栏中创建**。 此时将打开一个向导。
+   1. 单击操作栏中的&#x200B;**创建**。此时将打开一个向导。
    1. 从创 **建向导页** ，选择 **计划** 。
 
    1. 在属性 **页面中** ，将名称 **和标题** 输入为MorningSchedule ** 。
@@ -187,13 +187,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. 在Channel中选择** Channel Path**(*Test_Project* —&gt; *Channel* — *TestChannel* ) ****。
+   1. 在Channel中 **选择Channel** Path *(* Test_Project *—&gt; Channels* — ******&gt; Test ChannelChannel)。
 
    1. Select the **Priority** for this channel as *1*.
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
 
-   1. 输入**计划**，并选择活动日期(从 **活动日期** ) **和活动日期**。
+   1. 输入 **计划** ，然后选择活动日期(从活 **动日期开始** )和活 **动日期（直到）**。
 
    1. 单击&#x200B;**保存**。
    此时将创建渠道并将其添加到面板。
@@ -241,7 +241,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    单击 **完成** ，以完成设备注册步骤。
 
