@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -71,11 +71,11 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
 1. 如果两 **台计算机上的注册代码相同** ，请点按／单击AEM中的验证 **** 按钮，如步骤(6)所示。
-1. 为设备设置所需的名称，然后单击**注册**。
+1. 为设备设置所需的名称，然后单击“注 **册”**。
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 点按／单击**完成**以完成注册过程。
+1. Tap/click **Finish** to complete the registration process.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
