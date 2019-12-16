@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | **辅助功能** |
 | ***替换文本*** | 图像的替换文本。 |
 | **序列** |
-| ***持续时间*** | 选择图像的整个持续时间。将持续时间设置为-1表示嵌入式图像将在特定渠道中运行其全长。 |
+| ***持续时间*** | 默认情况下，持续时间设 *置为8000毫秒*。 如果要更改图像的播放持续时间，请更新“持续时 **间** ”字段。 |
 
 ### 过渡 {#transition}
 
