@@ -5,16 +5,15 @@ description: 按照此用例创建单次使用接管渠道。
 seo-description: 按照此用例创建单次使用接管渠道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
+source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 
 ---
 
 
 # 单次使用接管渠道 {#single-use-takeover-channel}
 
-下页介绍了一个用例，重点介绍如何创建一个只播放一次的接管渠道来设置项目。
+以下页面展示了一个用例，重点介绍如何设置一个项目，以创建在特定时间内仅播放一次的单次转移渠道。
 
-供审阅。
 
 ## 用例描述 {#use-case-description}
 
@@ -40,7 +39,7 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
 **设置渠道和显示**
 
-1. 创建标题为 **TakeoverLoop的AEM Screens项目**，如下所示。
+1. 创建标题为 **SingleUseTakeOver的AEM Screens项目**，如下所示。
 
    ![资产](assets/single-takeover1.png)
 
@@ -52,8 +51,9 @@ source-git-commit: 58229f2ecbc098522d5d62972ba7f9362a538997
 
    ![资产](assets/single-takeover2.png)
 
-   >[!Note]
-   > 此示 **例中的MainAdChannel** 演示了连续播放内容的序列渠道。
+
+   >[!NOTE]
+   >此示 **例中的MainAdChannel** 演示了连续播放内容的序列渠道。
 
    ![资产](assets/single-takeover3.png)
 
