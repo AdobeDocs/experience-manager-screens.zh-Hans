@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -46,9 +46,9 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 您可以设置一个简单的示例，在该示例中，您可以承载一个作者和两个发布实例：
 
-* 作者—&gt; localhost:4502
-* Publish 1(pub1)—&gt; localhost:4503
-* Publish 2(pub2)—&gt; localhost:4504
+* 作者—> localhost:4502
+* Publish 1(pub1)—> localhost:4503
+* Publish 2(pub2)—> localhost:4504
 
 ## 在作者上设置复制代理 {#setting-replication-agents}
 
@@ -56,7 +56,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 Screens需要3个复制代理：
 
-1. **默认复制代&#x200B;***理(指定为&#x200B;***Standard Replication Agent**)
+1. **默认复制代&#x200B;***理(指定为***Standard Replication Agent **)
 1. **Screens复制代理**
 1. **反向复制代理**
 
@@ -64,7 +64,7 @@ Screens需要3个复制代理：
 
 请按照以下步骤创建默认复制代理：
 
-1. 导航到AEM实例—&gt;锤子图标—&gt; **Operations** —&gt; **Configuration**。
+1. 导航到AEM实例—>锤子图标—> **Operations** —> **Configuration**。
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -103,8 +103,8 @@ Screens需要3个复制代理：
 
 #### 创建标准复制代理 {#creating-standard-replication-agents}
 
-1. 为pub1创建标准复制代理（现成默认代理应已配置）(例如， *https://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. 创建适用于pub2的标准复制代理。 您可以复制pub1的rep代理，并通过更改传输配置中的端口来更新要用于pub2的传输。 (例如， *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. 为pub1创建标准复制代理（现成默认代理应已配置）(例如， *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
+1. 创建适用于pub2的标准复制代理。 您可以复制pub1的rep代理，并通过更改传输配置中的端口来更新要用于pub2的传输。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 创建Screens复制代理 {#creating-screens-replication-agents}
 
@@ -143,34 +143,37 @@ Screens需要3个复制代理：
 
 在每个Publish实例上：
 
-1. 在OSGi控制台中，导航到 **MAIN** —&gt; **Crypto Support** (*https://&lt;host&gt;:&lt;port&gt;/system/console/crypto*)。
-1. 在纯文本中键入所需的纯文本口令（对于所有实例均相同） ****
+1. 在OSGi控制台中，导航到 **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*)。
+1. 在纯文本中键入所需的纯文本口令（对于所有实例都相同） ****
 1. 单击“ **保护**”。
 1. 将值“受保护 **文本** ”复制到记事本或文本编辑器。 此值将用于ActiveMQ的OSGi配置。
 
 由于每个发布实例默认具有唯一的加密密钥，因此您需要在每个发布实例上执行此步骤，并保存下一个配置的唯一密钥。
 
-*例如*,
+>注意:
+>口令应以大括号开始和结束。
 
-Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 - `{8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}`
+*例如：*
+
+`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 第4步：激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
 在每个发布实例上：
 
-1. 导航到OSGi Config *manager https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr*
+1. 导航到OSGi Config *manager https://&lt;host>:&lt;port>/system/console/configMgr*
 1. 选择 **Apache ActiveMQ Artemis JMS提供者配置** 。
 1. 更新以下内容：
 
-* ***群集密码***:（在每个实例中使用上一步中的加密值）
-* ***主题***:{name:'commands'，地址：'com.adobe.cq.screens.commands', maxConsumers:50}
+* ***群集密码&#x200B;***:（在每个实例中使用上一步中的加密值）
+* ***主题&#x200B;***:{name:&#39;commands&#39;，地址：&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
 
 #### 验证ActiveMQ Artemis群集 {#verify-activemq-artemis-cluster}
 
 对每个Publish实例执行以下步骤：
 
-1. 导航到OSGi控制台-&gt;主&gt; ActiveMQ Artemis `[https://localhost:4505/system/console/mq`。
-1. 验证并检查以在“群集信息”&gt;“拓扑”&gt;“节点=2, members=2”下查看其他实例的端口。
+1. 导航到OSGi控制台->主> ActiveMQ Artemis `[https://localhost:4505/system/console/mq`。
+1. 验证并检查以在“群集信息”>“拓扑”>“节点=2, members=2”下查看其他实例的端口。
 1. 发送测试消息（屏幕顶部的“Broker Information”下）
 1. 在字段中输入以下更改：
 
@@ -192,7 +195,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 按照每个Publish实例中的步骤操作：
 
-1. 导航到 **OSGi控制台** &gt;配置 **管理器**
+1. 导航到 **OSGi控制台** >配置 **管理器**
 1. 选择 **Apache Sling引用过滤器**
 1. 更新配置并选 **中允许空**
 
@@ -217,7 +220,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 #### 第2步：在作者上注册设备 {#step-registering-a-device-on-author}
 
-1. 转到或选 `https://localhost:4502/screens.html/content/screens/we-retail` 择您的项目，然后导航到设备&gt;设备管理器。
+1. 转到或选 `https://localhost:4502/screens.html/content/screens/we-retail` 择您的项目，然后导航到设备>设备管理器。
 1. 选择“ **注册设备**”。
 1. 单击“ **设备注册** ”以查看设备。
 1. Select the device you want to register and click **Register Device**.
@@ -251,15 +254,15 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 您还可以从设备管理控制台激活设备。 按照以下步骤操作：
 
-1. 导航到您的Screens项目—&gt;设 **备**。
-1. 单击操作栏中的**设备管理器**。
+1. 导航到您的Screens项目—>设 **备**。
+1. Click **Device Manager** from the action bar.
 1. 选择设备，然后单 **击操作栏** ，如下图所示。
 
 ![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->或者，在激活设备后，您还可以通过单击操作栏中的**编辑服务器URL **来编辑或更新服务器URL，如下图所示，您所做的更改将传播到AEM Screens播放器。
+>或者，在激活设备后，您还可以通过单击操作栏中的编辑服务器 **URL** ，来编辑或更新服务器URL，如下图所示，您所做的更改将传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -267,7 +270,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 以下几点汇总了“发布检查”列表：
 
-* *Screens设备用户* -它存储为AEM用户，并从“工具” **** &gt;“安全性” **&gt;“用** 户”激活 ****。 用户将在前面加上带有长序列号字符串的“screens”。
+* *Screens设备用户* -它存储为AEM用户，并从“工具” **** >“安全性” **>“用** 户”激活 ****。 用户将在前面加上带有长序列号字符串的“screens”。
 
 * *项目* - AEM Screens项目。
 * *位置* -设备所连接的位置。
@@ -293,7 +296,7 @@ Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 
 
 1. 导航到您的AEM Screens项目，然后选择设备 **文件夹** 。
 1. Click **Device Manager** from the action bar.
-1. 选择设备，然后单击操作栏中的**编辑服务器URL **，如下图所示，您所做的更改将传播到AEM Screens播放器。
+1. 选择设备，然后单 **击操作栏中的编辑服务器URL** ，如下图所示，您所做的更改将传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
