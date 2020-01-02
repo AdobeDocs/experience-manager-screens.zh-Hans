@@ -5,7 +5,7 @@ description: 按照此用例创建单次使用接管渠道。
 seo-description: 按照此用例创建单次使用接管渠道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
    >[!NOTE]
    >要了解如何将渠道分配给显示屏，请参阅渠 **[道分配](channel-assignment.md)**。
 
-1. 从“渠道分配&#x200B;**保存”对话框和“单击** Channel AssignmentSave”对话框中填充字段 **(渠道路径、优先级和**************&#x200B;受支持事件)。 现在，您已将 **MainAdChannel分配到显示屏** 。
+1. 从“渠道分配&#x200B;**保存”对话框和“单击** Channel AssignmentSave”对话框中填充字段 **(渠道路径、优先级和**************&#x200B;受支持事件)。 您现在已将 **MainAdChannel分配到显示屏** 。
 
    ![资产](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
 本例中提 **及的** Schedule *（附表）的案文为12月31日23:58之后，也为1月1日00.01之前*。
 
       ![资产](assets/single-takeover8.png)
+
+      从 **SingleUseTakeOver** —>位置 **—** Lobby **—> LobbyDisplay主大堂显示屏********** >从操作中单击和单击控制板以查看分配的渠道及其优先级，如下所示。
+
+      >[!NOTE]
+      >必须将接管渠道的优先级设置为最高。
+
+      ![资产](assets/single-takeover9.png)
 
       >[!NOTE]
       >您可以提及不同用例的计划。 有关更多详细信息，请参阅永久用例。
