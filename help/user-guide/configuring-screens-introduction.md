@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 >
 >**重要信息**：
 >
->AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要配置AEM服务器并使其准备好用于AEM Screens，请通过允许空引用来跳过引用过滤器。
+>AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要配置AEM服务器并使其准备好用于AEM Screens，请通过允许空的引用来跳过引用过滤器。
 
 ### 前提条件 {#prerequisites}
 
@@ -34,7 +34,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 #### 允许空的引用请求 {#allow-empty-referrer-requests}
 
-1. 通过 **AEM实例—&gt;锤子图标—&gt;操作** —&gt; web控制台，导航到 **Adobe Experience Manager Web Console配置******。
+1. 通过 **AEM实例—>锤子图标—>操作** —> web控制台，导航到 **Adobe Experience Manager Web Console配置******。
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -44,7 +44,7 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. 选中“允许空”**选项，如下图所示。
+1. 选中“ **允许为空** ”选项，如下图所示。
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
@@ -54,10 +54,10 @@ source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的经典UI。
 
-1. 导航到 *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. 导航到 *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 确保将“默 **认创作UI** ”模式设 **置为“TOUCH**”，如下图所示
 
-或者，您也可以使用 *&lt;yourAuthorInstance&gt;*-&gt;*(hammer图标-&gt;* Operations **-&gt;)对WCM创作模式服务进行搜索和Web Console创作，**********&#x200B;以及对Adobe Sui suite的ReadChonse执行相同的设置。
+或者，您也可以使用 *&lt;yourAuthorInstance>*->*(hammer图标->* Operations **->)对WCM创作模式服务进行搜索和Web Console创作，**********&#x200B;以及对Adobe Sui suite的ReadChonse执行相同的设置。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -75,15 +75,15 @@ AEM Screens播放器必须具备此功能才能播放联机渠道。
 
 #### 密码限制 {#password-restrictions}
 
-对 ***DeviceServiceImpl进行最新更改***，您不必删除密码限制。
+对 ***DeviceServiceImpl进行最新更改&#x200B;***，您不必删除密码限制。
 
-您可以通过 ***以下链接配置DeviceServiceImpl*** ，以在为屏幕设备用户创建口令时启用口令限制：
+您可以通过 ***以下链接配置DeviceServiceImpl ***，以在为屏幕设备用户创建口令时启用口令限制：
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-请按照以下步骤配置 ***DeviceServiceImpl***:
+请按照以下步骤配置 ***DeviceServiceImpl ***:
 
-1. 通过 **AEM实例—&gt;锤子图标—&gt;操作** —&gt; web控制台，导航到 **Adobe Experience Manager Web Console配置******。
+1. 通过 **AEM实例—>锤子图标—>操作** —> web控制台，导航到 **Adobe Experience Manager Web Console配置******。
 
 1. **Adobe Experience Manager web控制台配置**打开。 搜索deviceservice. 要搜索属性，请 **按Command+F** ( **Mac)和** Control+F(Windows) ********(Windows)。
 
@@ -95,7 +95,7 @@ AEM Screens播放器必须具备此功能才能播放联机渠道。
 
 #### Java编码 {#java-encoding}
 
-将 ***Java编码设置为*** Unicode。 例如， *Dfile.encoding=Cp1252* 将不起作用。
+将 ***Java编码设置为&#x200B;***Unicode。 例如，*Dfile.encoding=Cp1252 *将不起作用。
 
 >[!NOTE]
 >
