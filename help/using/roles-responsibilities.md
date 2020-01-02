@@ -4,20 +4,20 @@ seo-title: AEM Screens项目角色和责任
 description: 本页介绍AEM Screens项目角色和责任
 seo-description: 本页介绍AEM Screens项目角色和责任
 translation-type: tm+mt
-source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
+source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 ---
 
 
 # 项目角色和职责 {#roles-responsibilities}
 
-作为经验丰富的AEM实施者，您可能已经看到这些角色被称为作者 **、开发 *人员**和IT/技术人员*。
+作为经验丰富的 AEM 实施者，您可能已经了解了称为&#x200B;*作者*、*开发人员*&#x200B;和 *IT/技术人员*&#x200B;的角色。
 
 在典型的AEM Screens项目中，角色会进一步细化，因为它们在项目中均具有重要用途。
 
 下图显示了我们将在整个指南中引用的角色。
 
-![](/help/assets/roles-used.png)
+![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
 > 其中许多角色可能是内部的，也可能是外包的，具体取决于每个项目的设置方式。
@@ -95,8 +95,7 @@ AV集成商负责与最终客户进行发现，以定义要求，确定围绕数
 
 >[!NOTE]
 >
-> 虽然本指南主要侧重于 *第一天* 、第 *二天*，但要执行成功的数字标牌项目，必须注意所有三个阶段。
-观看有关项目管理和 **[部署的其他视频](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** ，了解项目前期制作、项目启动和项目进度。
+> 虽然本指南着重介绍&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功地创建数字标记项目。观看有关项目管理和 **[部署的其他视频](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**，了解项目前期制作、项目启动和项目进度。
 
 ## RACI图表 {#raci-chart}
 
