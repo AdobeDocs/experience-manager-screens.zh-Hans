@@ -4,12 +4,12 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
 
-# AEM Screens用户指南 {#user-guide}
+# AEM Screens 用户指南 {#user-guide}
 
 + [Screens简介](aem-screens-introduction.md)
 + 概述和引题指南 {#overview}
@@ -76,6 +76,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
       + [酒店预订激活](hospitality-reservation-activation.md)
       + [零售库存定向激活](retail-inventory-activation.md)
       + [应用过渡](applying-transitions.md)
+      + [多区域到单区域过渡](multizone-to-singlezone.md)
+      + [单次使用接管渠道](single-use-takeover-channel.md)
 + 开发人员和API资源 {#developing}
    + [REST API](rest-api.md)
    + [为AEM Screens开发自定义组件](developing-custom-component-tutorial-develop.md)
@@ -90,8 +92,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
-   + [功能包201809发行说明](screens-release-notes.md)
-   + [功能包201812发行说明](release-notes-fp-201812.md)
-   + [功能包201905发行说明](screens-release-notes-fp-201905.md)
-   + [功能包201907发行说明](release-notes-fp-201907.md)
    + [功能包201909发行说明](release-notes-fp-201909.md)
+   + [功能包201907发行说明](release-notes-fp-201907.md)
+   + [功能包201905发行说明](screens-release-notes-fp-201905.md)
+   + [功能包201812发行说明](release-notes-fp-201812.md)
+   + [功能包201809发行说明](screens-release-notes.md)
