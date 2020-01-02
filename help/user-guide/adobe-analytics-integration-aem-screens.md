@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
 
@@ -22,8 +22,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >仅当您安装了AEM 6.4.2功能包2和AEM 6.3.3功能包4时，此AEM Screens功能才可用。
 
+>[!NOTE]
 >要访问这些功能包中的任何一个，您必须联系Adobe支持并请求访问权限。 您获得权限后，就可以从“包共享”下载它。
->
+
 本节涵盖以下主题：
 
 * **概述**
@@ -32,7 +33,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 概述 {#overview}
 
-***AEM Screens利用Adobe Analytics*** ，您可以实现市场上独一无二的功能——跨渠道分析可帮助将位置显示的内容与其他数据源关联起来。
+***AEM Screens利用Adobe Analytics ***，您可以实现市场上独一无二的功能——跨渠道分析可帮助将位置显示的内容与其他数据源关联起来。
 
 AEM Screens提供与Adobe Analytics的开箱即用集成，并为您提供播放证明。
 
@@ -69,14 +70,16 @@ AEM Screens客户希望了解在什么时间显示了哪些内容以及显示的
 ## 屏幕分析：启用流程 {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
-在配置属性之前，请与Adobe关系管理器联系以创建票证以获取 **Analytics API Key** and **Analytics Project** ，以便与AEM Screens一起使用。
+>
+>在配置属性之前，请与Adobe关系管理器联系以创建票证以获取 **Analytics API Key** and **Analytics Project** ，以便与AEM Screens一起使用。
 
 ![]()
 
 ### 配置属性 {#configuring-the-properties}
 
 >[!CAUTION]
-在配置属性之前，请与Adobe关系管理器联系以创建票证以获取 **Analytics API Key** and **Analytics Project** ，以便与AEM Screens一起使用。
+>
+>在配置属性之前，请与Adobe关系管理器联系以创建票证以获取 **Analytics API Key** and **Analytics Project** ，以便与AEM Screens一起使用。
 
 下表重点介绍了为AEM Screens配置Adobe Analytics的属性及其说明：
 
@@ -88,19 +91,20 @@ AEM Screens客户希望了解在什么时间显示了哪些内容以及显示的
   </tr>
   <tr>
    <td><strong>分析URL</strong></td>
-   <td>用于从播放器发布分析数据的URL<br /> </td>
+   <td>从播放器发布分析数据的URL。 <br>
+   针对开发／阶段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API密钥</strong></td>
-   <td>用于验证到Adobe Analytics服务器（由帐户管理器提供）的API密钥</td>
+   <td>用于验证到Adobe Analytics服务器（由帐户管理器提供）的API密钥。</td>
   </tr>
   <tr>
    <td><strong>分析项目</strong></td>
-   <td>在您的分析上配置的用于接收数据的AEM Screens项目（由客户经理提供）</td>
+   <td>在您的分析上配置用于接收数据的AEM Screens项目（由帐户管理器提供）。</td>
   </tr>
   <tr>
    <td><strong>环境</strong></td>
-   <td><p>舞台或生产环境。</p> <p><em>针对开发／阶段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</p> </td>
+   <td><p>舞台或生产环境（选择舞台或生产）。</p></td>
   </tr>
   <tr>
    <td><strong>分析发送频率</strong></td>
@@ -110,7 +114,8 @@ AEM Screens客户希望了解在什么时间显示了哪些内容以及显示的
 </table>
 
 >[!NOTE]
-默认情况下，**Analytics发送频率**为15分钟。
+>
+>默认情况下， **Analytics发送频率** 为15分钟。
 
 #### 在AEM Screens中使用Adobe Analytics Service {#using-adobe-analytics-service-in-aem-screens}
 
@@ -119,5 +124,6 @@ AEM Screens客户希望了解在什么时间显示了哪些内容以及显示的
 分析事件脱机存储在indexedDB中，稍后分组并发送到云。
 
 >[!NOTE]
-要进一步了解事 ***件的排序*** 和标 ***准数据模型***，请参阅为AEM Screens配 **[置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
+>
+>要进一步了解事 ***件的排序&#x200B;***和标***准数据模型***，请参阅为AEM Screens配 **[置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
 
