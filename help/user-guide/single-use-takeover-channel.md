@@ -5,7 +5,7 @@ description: 按照此用例创建单次使用接管渠道。
 seo-description: 按照此用例创建单次使用接管渠道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
    * **渠道路径**:选择TakeOver渠道的路径
    * **优先级**:将此渠道的优先级设置为大于 **MainAdChannel**。 例如，本例中设置的优先级为8。
+      >[!NOTE]
+      >优先级可以是高于正常播放渠道的优先级值的任何值。
    * **支持的事件**:选择“ **空闲屏幕** ”和 **“计时器”**。
    * **计划**:输入您希望此渠道运行显示屏的计划文本。 例如，此处的文本允许内容在12月31日凌晨12:00至凌晨12:01之前播放2分钟。
 本例中提 **及的** Schedule *（附表）的案文为12月31日23:58之后，也为1月1日00.01之前*。
 
       ![资产](assets/single-takeover8.png)
 
-      从 **SingleUseTakeOver** —>位置 **—** Lobby **—> LobbyDisplay主大堂显示屏********** >从操作中单击和单击控制板以查看分配的渠道及其优先级，如下所示。
+      从 **SingleUseTakeOver** —>位置 **—>** Lobby **—>********** MainTakeDisplay大堂——导航到显示屏，其中从SingleUseTakeOver操作到分配的渠道的视图，其优先级如下所示。
 
       >[!NOTE]
       >必须将接管渠道的优先级设置为最高。
 
       ![资产](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >您可以提及不同用例的计划。 有关更多详细信息，请参阅永久用例。
+>[!NOTE]
+>播放后，最好删除“单次使用接管”渠道。
