@@ -11,13 +11,12 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
 
 # 启动项 {#launches}
-
 
 内容作者可以创建渠道的未来版本(称为 **Launch** )，并进一步设置此启动的发布日期，使内容能够在设备或播放器中实时显示。
 
@@ -33,7 +32,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ### 了解宽限期 {#understanding-grace-period}
 
-以下设置允许管理员配置启动项 ***中所需的宽限期***。
+以下设置允许管理员配置启动项 ***中所需的宽限期&#x200B;***。
 
 **宽限期**，包括：
 
@@ -61,9 +60,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 如果要更改上述配置，请按照以下说明操作：
 
-* 创建 ***sling:OsgiConfig/ nt:file in /apps/system/config*** ，名称为 **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** 和内容
+* 创建 ***sling:OsgiConfig/ nt:file in /apps/system/config ***，名称为**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **和内容
 
-   *launches.eventhandler.updatelastmodification=B"false"launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/)。*):600"]launches.eventhandler.threadpool.maxsize=I"5"launches.eventhandler.threadpool.priority="MIN"*
+   *launches.eventhandler.updatelastmodification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/)。*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
 * `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`，允许您在路径／内容／屏幕中设置600秒 *的宽限期*。
 
@@ -80,7 +79,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 请按照以下步骤对您的AEM Screens项目实施将来的发布功能：
 
-1. 导航到AEM Screens项目中的渠道，例如 **LaunchesDemo** —&gt; **Channels** —&gt; **FutureLaunch**，如下所示。
+1. 导航到AEM Screens项目中的渠道，例如 **LaunchesDemo** —> **Channels** —> **FutureLaunch**，如下所示。
 
    >[!CAUTION]
    >
@@ -117,7 +116,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    >[!NOTE]
    >
-   >您可以在此步骤中设置实时启动日期，也可以在稍后编辑启动项的属性时设置它，直到该启动项已创建。
+   >您可以在此步骤中设置实时启动日期，也可以在稍后编辑启动项的属性时设置该日期（一旦创建）。
 
 1. 您将看到已创建启动项。 您可以单击“打 **开** ”以在编辑器中查看页面，或单击“完成 **** ”以导航回您的项目。
 
@@ -154,12 +153,9 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    >
    >了解“自动提升”下 **的“启动项”条目**:
 
-   >* **启动日期**，指实时日期，即根据播放器的时区，内容在Screens播放器中播放的日期／时间。
-   >
-   >
+   >    * **启动日期**，指实时日期，即根据播放器的时区，内容在Screens播放器中播放的日期／时间。
    >    * **生产就绪**，允许提升渠道，并表示启动项已准备好使用。
-
-   * **范围**，指在启动过程中可提升的渠道。
+   >    * **范围**，指在启动过程中可提升的渠道。
 
 
    以下三个选项可用于设置范围：
@@ -169,7 +165,8 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
    >[!CAUTION]
-   启动升级遵循播放器／设备的时区，而不是服务器的时区。
+   >
+   >启动升级遵循播放器／设备的时区，而不是服务器的时区。
 
 1. 单击 **保存并关闭** ，导航回 **FutureLaunch渠道** 。
 
