@@ -2,10 +2,10 @@
 title: 永久接管渠道
 seo-title: 永久接管渠道
 description: 请按照此用例创建永久接管渠道。
-seo-description: 按照此用例创建永久接管渠道。
+seo-description: 请按照此使用案例设置一个项目，该项目创建一个连续播放特定时间天数和时间的永久接管渠道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
 
 ---
 
@@ -40,61 +40,67 @@ source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 1. 创建标题为PerpetualTakeOver的AEM Screens **项目**，如下所示。
 
-   ![资产](assets/single-takeover1.png)
+   ![资产](assets/p_usecase1.png)
 
 1. 在“渠 **道”文件夹** 中创 **建MainAdChannel** 。
 
-   ![资产](assets/single-takeover2.png)
+   ![资产](assets/p_usecase2.png)
 
 1. 选择 **MainAdChannel** ，然 **后单击操作** 栏中的“编辑”。 将一些资产（图像、视频、嵌入式序列）拖放到渠道中。
 
-   ![资产](assets/single-takeover2.png)
+   ![资产](assets/p_usecase3.png)
 
 
    >[!NOTE]
    >此示 **例中的MainAdChannel** 演示了连续播放内容的序列渠道。
 
-   ![资产](assets/single-takeover3.png)
-
-1. 创建 **TakeOver** 频道，该频道接管 **** MainAdChannel中的内容，并且仅在特定日期和时间播放。
+1. 创建 **TakeOver** 频道，它接管 **** MainAdChannel中的内容，并将于每周三的下午2:00至4:00播放。
 
 1. 选择TakeOver **，然** 后单击操 **作栏中的** Edit。 将一些资产拖放到您的渠道。 以下示例展示了添加到此渠道的单个区域图像。
 
-   ![资产](assets/single-takeover4.png)
+   ![资产](assets/p_usecase4.png)
 
-1. 设置渠道的位置和显示。 例如，为此项目设 **置了以下****位置Lobby和display mainLobbyDisplay** 。
+1. 设置渠道的位置和显示。 例如，为此项目设 **置了以下位置** MainLobby和 **displayMainLobbyDisplay** 。
 
-   ![资产](assets/single-takeover5.png)
+   ![资产](assets/p_usecase5.png)
 
 **将渠道分配给显示屏**
 
-1. 从“位置” **文件夹中选择显** 示MainLobbyDisplay **** 。 单击 **操作栏中的** “分配渠道”。
-
-   ![资产](assets/single-takeover6.png)
+1. 从“位置” **文件夹中选择显** 示MainLobbyDisplay **** 。 单击 **操作栏中的分配渠道** ，以打开渠道 **分配对话框** 。
 
    >[!NOTE]
    >要了解如何将渠道分配给显示屏，请参阅渠 **[道分配](channel-assignment.md)**。
 
-1. 从“渠道分配&#x200B;**保存”对话框和“单击** Channel AssignmentSave”对话框中填充字段 **(渠道路径、优先级和**************&#x200B;受支持事件)。 您现在已将 **MainAdChannel分配到显示屏** 。
+1. 从Channel AssignmentDiagmentDialog和&#x200B;**clickSave**&#x200B;对话框中填充字段(Channel **、** Priority和 **Supported Events************** )，将Channel AssignmentSaveTos分配给您的显示屏的Channel Channel Ad主Display。
 
-   ![资产](assets/single-takeover7.png)
+   * **渠道路径**:选择MainAdChannel渠道的 **路径** 。
+   * **优先级**:将此渠道的优先级设置为1。
+   * **支持的事件**:选择“初 **始加载** ”和“ **空闲屏幕”**。
+   ![资产](assets/p_usecase6.png)
 
-1. 从“位置” **文件夹中** ，选择 **显示TakeOver** 。 单击 **操作栏中的分配渠道** ，以分配单次使用的接管渠道。
+1. 从“位置” **文件夹中** ，选择 **显示TakeOver** 。 单击 **操作栏中的分配渠道** ，以分配接管渠道。
 
 1. 要在计划时 **间将TakeOver** Channel分配给您的显示屏，并从“渠道分配”对话框中填充以下字段，然后单击“保 **存”******:
 
-   * **渠道路径**:选择TakeOver渠道的路径
+   * **渠道路径**:选择TakeOver渠道的 **路径** 。
    * **优先级**:将此渠道的优先级设置为大于 **MainAdChannel**。 例如，本例中设置的优先级为8。
    * **支持的事件**:选择“ **空闲屏幕** ”和 **“计时器”**。
-   * **计划**:输入您希望此渠道运行显示屏的计划文本。 例如，此处的文本允许内容在12月31日凌晨12:00至凌晨12:01之前播放2分钟。
-本例中提 **及的** Schedule *（附表）的案文为12月31日23:58之后，也为1月1日00.01之前*。
+   * **计划**:输入您希望此渠道运行显示屏的计划文本。 例如，此处的文本允许内容在每周三的下午2:00至下午4:00之间播放。
+本例中提 **及的** Schedule中的文本是 *在星期三14:00之后和16:00之前*。
 
-      ![资产](assets/single-takeover8.png)
+      ![资产](assets/p_usecase7.png)
 
-      从 **SingleUseTakeOver** —>位置 **—** Lobby **—> LobbyDisplay主大堂显示屏********** >从操作中单击和单击控制板以查看分配的渠道及其优先级，如下所示。
+      导航到显示屏，从 **TakeOver** —>位置 **—>** MainLobby **—>********** MainLobbyDisplayDisplayBar中导航到显示屏，以查看分配的渠道及其优先级的控制面板，如下所示。
 
       >[!NOTE]
       >必须将接管渠道的优先级设置为最高。
 
-      ![资产](assets/single-takeover9.png)
+      ![asset](assets/p_usecase8.png)Now, **TakeOver频道将于下午2:00接管** MainAdChannel **** ，持续两小时，直至每周三下午4:00，并在2020年1月9日至2020年1月31日播放其内容。
 
+### 示例表达式 {#example-expressions}
+
+下表汇总了几个示例表达式，您可以在将渠道分配给显示屏时添加到计划中。
+
+| **表达式** | **解释** |
+|---|---|
+| 12点15分后和12点45分前 | 该频道每天下午12:15后播放30分钟 |
