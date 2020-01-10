@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
+source-git-commit: b723f58ce58ccba6d0b7df7acf7ee00df98c2348
 
 ---
 
@@ -78,6 +78,7 @@ source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
       + [应用过渡](applying-transitions.md)
       + [多区域到单区域过渡](multizone-to-singlezone.md)
       + [单次使用接管渠道](single-use-takeover-channel.md)
+      + [永久使用接管渠道](perpetual-takeover-channel.md)
 + 开发人员和API资源 {#developing}
    + [REST API](rest-api.md)
    + [为AEM Screens开发自定义组件](developing-custom-component-tutorial-develop.md)
