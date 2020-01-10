@@ -5,7 +5,7 @@ description: 请按照此用例创建永久接管渠道。
 seo-description: 请按照此使用案例设置一个项目，该项目创建一个连续播放特定时间天数和时间的永久接管渠道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
+source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
 
 ---
 
@@ -85,17 +85,20 @@ source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
    * **渠道路径**:选择TakeOver渠道的 **路径** 。
    * **优先级**:将此渠道的优先级设置为大于 **MainAdChannel**。 例如，本例中设置的优先级为8。
    * **支持的事件**:选择“ **空闲屏幕** ”和 **“计时器”**。
-   * **计划**:输入您希望此渠道运行显示屏的计划文本。 例如，此处的文本允许内容在每周三的下午2:00至下午4:00之间播放。
-本例中提 **及的** Schedule中的文本是 *在星期三14:00之后和16:00之前*。
+   * **计划**:输入您希望此渠道运行显示屏的计划文本。 本例中提 **及的** Schedule中的文本是 *在星期三14:00之后和16:00之前*。
+   * **活动自**:开始日期和时间。
+   * **active until**:结束日期和时间。
+   例如，此处的“计划 **** ”中和“活动自”和“活动至”中的文本，允许每周三从2:00 pm到4:00 pm ******** 。
 
-      ![资产](assets/p_usecase7.png)
 
-      导航到显示屏，从 **TakeOver** —>位置 **—>** MainLobby **—>********** MainLobbyDisplayDisplayBar中导航到显示屏，以查看分配的渠道及其优先级的控制面板，如下所示。
+   ![资产](assets/p_usecase7.png)
 
-      >[!NOTE]
-      >必须将接管渠道的优先级设置为最高。
+   导航到显示屏，从 **TakeOver** —>位置 **—>** MainLobby **—>********** MainLobbyDisplayDisplayBar中导航到显示屏，以查看分配的渠道及其优先级的控制面板，如下所示。
 
-      ![asset](assets/p_usecase8.png)Now, **TakeOver频道将于下午2:00接管** MainAdChannel **** ，持续两小时，直至每周三下午4:00，并在2020年1月9日至2020年1月31日播放其内容。
+   >[!NOTE]
+   >必须将接管渠道的优先级设置为最高。
+
+   ![asset](assets/p_usecase8.png)Now, **TakeOver频道将于下午2:00接管** MainAdChannel **** ，持续两小时，直至每周三下午4:00，并在2020年1月9日至2020年1月31日播放其内容。
 
 ### 示例表达式 {#example-expressions}
 
