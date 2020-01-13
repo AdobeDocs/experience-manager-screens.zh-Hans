@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 ---
 
@@ -134,7 +134,7 @@ Screens需要3个复制代理：
 
 #### 第2步：验证发布拓扑 {#step-verify-publish-topology}
 
-对于任何Publish实例，导航到 `https://<host>:<port>/system/console/topology`。 您应当看到拓扑中表示的每个发布实例。
+对于任何发布实例，请导航到 `https://:/system/console/topology`。 应在传出拓扑连接器下看到拓扑中表示的每 **个发布实例**。
 
 #### 第3步：设置ActiveMQ Artemis群集 {#step-setup-activemq-artemis-cluster}
 
@@ -144,18 +144,15 @@ Screens需要3个复制代理：
 在每个Publish实例上：
 
 1. 在OSGi控制台中，导航到 **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*)。
-1. 在纯文本中键入所需的纯文本口令（对于所有实例都相同） ****
+1. 在纯文本中键入所需的纯文本口令（对于所有实例均相同） ****
 1. 单击“ **保护**”。
 1. 将值“受保护 **文本** ”复制到记事本或文本编辑器。 此值将用于ActiveMQ的OSGi配置。
 
 由于每个发布实例默认具有唯一的加密密钥，因此您需要在每个发布实例上执行此步骤，并保存下一个配置的唯一密钥。
 
->注意:
+>[!NOTE]
 >口令应以大括号开始和结束。
-
-*例如：*
-
-`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>例如：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
 
 #### 第4步：激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
