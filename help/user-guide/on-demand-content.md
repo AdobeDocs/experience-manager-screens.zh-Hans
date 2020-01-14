@@ -6,7 +6,7 @@ seo-description: '可查看本页以了解点播内容更新。  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -111,9 +111,7 @@ source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
    >
    >等待几秒／分钟，以便内容到达发布实例。
 
-1. 完成管理发布工作流后，您必须触发作者中的更新脱机内容，该内容将在作者实例上创建脱机更新。
-
-   导航到渠道功能板，然后单击“ **更新脱机内容”**。 此操作会将同一命令转发到发布实例，以便脱机zip也在发布实例上创建。
+1. 在渠 **道功能板中触发“更新脱机内容** ”将仅将脱机内容推送到创作实例，而不会将发布实例推送到发布实例。 步骤1-4用于将脱机内容推送到发布实例。
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
