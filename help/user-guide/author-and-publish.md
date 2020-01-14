@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ Screens需要3个复制代理：
 
 1. 导航至 `https://<host>:<port>/system/console/configMgr`
 1. 选择 **Apache Sling Oak-Based Discovery Service** Configuration。
-1. 更新拓扑连接器URL:添加所有参与发布实例的URL, `https://localhost:4502/libs/sling/topology/connector`
+1. 更新拓扑连接器URL:添加以下所有参与发布实例的URL:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. 拓扑连接器白名单：适应包含参与发布实例的IP或子网
 1. 启 **用自动停止本地循环**
 
@@ -144,7 +146,7 @@ Screens需要3个复制代理：
 在每个Publish实例上：
 
 1. 在OSGi控制台中，导航到 **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*)。
-1. 在纯文本中键入所需的纯文本口令（对于所有实例均相同） ****
+1. 在纯文本中键入所需的纯文本口令（对于所有实例都相同） ****
 1. 单击“ **保护**”。
 1. 将值“受保护 **文本** ”复制到记事本或文本编辑器。 此值将用于ActiveMQ的OSGi配置。
 
@@ -237,7 +239,7 @@ Screens需要3个复制代理：
 
 **验证设备**
 
-之前，请执行以下步骤，确保验证设备ID。 要进行验证，请在CRXDELite中搜索设备ID，路径为 */home/users/screens/{project}/devices*。
+之前，请执行以下步骤，确保验证设备ID。 要验证，请在CRXDELite中搜索设备ID，路径为 */home/users/screens/we-retail/devices*。
 
 按照以下步骤复制设备用户：
 
@@ -275,11 +277,15 @@ Screens需要3个复制代理：
 * *计划* -如果使用计划，请确保已发布此计划
 * *位置、计划和渠道文件夹* -如果相应的资源位于文件夹中。
 
-验证核对清单后，您需要验证渠道中的以下更改／行为：
+请按照以下步骤验证作者／发布行为：
 
-* 发布设备配置后，将打开Screens播放器配置并将其指向发布实例。 此外，您还可以从设备管理控制台激活设备。
-* 更新“作者”上的某些渠道内容并发布它，并验证已更新的渠道现在显示在AEM Screens播放器上。
-* 将Screens播放器连接到其他发布实例并验证上述行为。
+1. 更新创作实例上的某些渠道内容
+1. 执行 **管理发布** ，以将新更改发布到所有发布实例
+1. 按“ **激活** ”以从“设备管理器”激活 **设备**
+1. **编辑从作者实例** URL到某个发布实例URL的URL
+1. 验证AEM Screens播放器上显示的更新的渠道内容
+1. 使用其他发布实例重复这些步骤
+
 
 #### 第5步：在“管理面板”中指向设备以发布实例 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ Screens需要3个复制代理：
 1. 选择设备，然后单 **击操作栏中的编辑服务器URL** ，如下图所示，您所做的更改将传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+“管 **理发布** ”功能允许您将内容更新从作者发布到设备。 您可以发布／取消发布整个AEM Screens项目的内容，也只能发布／取消发布渠道、位置、设备、应用程序或计划之一的内容。 要进一步了解此功能，请参阅 [点播内容更新](on-demand-content.md)。
 
 
