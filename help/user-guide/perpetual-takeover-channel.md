@@ -5,7 +5,7 @@ description: 请按照此用例创建永久接管渠道。
 seo-description: 请按照此使用案例设置一个项目，该项目创建一个连续播放特定时间天数和时间的永久接管渠道。
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
       >要进一步了解可添加到“计划”的表达式 ****，请参阅以下“示 [例表达式](#example-expressions) ”部分。
    * **活动自**:开始日期和时间。
    * **active until**:结束日期和时间。
-   例如，此处的“计划 **** ”中和“活动自”和“活动至”中的文本，允许每周三从2:00 pm到4:00 pm ******** 。
+
+      例如，此处的“计划 **** ”中和“活动自”和“活动至”中的文本，允许每周三从2:00 pm到4:00 pm ******** 。
 
 
-   ![资产](assets/p_usecase7.png)
+      ![资产](assets/p_usecase7.png)
 
-   导航到显示屏，从 **TakeOver** —>位置 **—>** MainLobby **—>********** MainLobbyDisplayDisplayBar中导航到显示屏，以查看分配的渠道及其优先级的控制面板，如下所示。
+      导航到显示屏，从 **TakeOver** —>位置 **—>** MainLobby **—>********** MainLobbyDisplayDisplayBar中导航到显示屏，以查看分配的渠道及其优先级的控制面板，如下所示。
 
-   >[!NOTE]
-   >必须将接管渠道的优先级设置为最高。
+      >[!NOTE]
+      >必须将接管渠道的优先级设置为最高。
 
-   ![asset](assets/p_usecase8.png)Now, **TakeOver频道将于下午2:00接管** MainAdChannel **** ，持续两小时，直至每周三下午4:00，并在2020年1月9日至2020年1月31日播放其内容。
+      ![asset](assets/p_usecase8.png)Now, **TakeOver频道将于下午2:00接管** MainAdChannel **** ，持续两小时，直至每周三下午4:00，并在2020年1月9日至2020年1月31日播放其内容。
 
 ## 示例表达式 {#example-expressions}
 
