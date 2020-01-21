@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
+source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
    ![资产](assets/health-check2.png)
 
-   如果禁用了一个或两个过滤器，则会显示用户的警报，如下图所示。
+   如果禁用了其中一个或两个过滤器，则会为用户显示警报，如下图所示。
 
    以下警报显示是否同时禁用了这两个过滤器：
    ![资产](assets/health-check3.png)
