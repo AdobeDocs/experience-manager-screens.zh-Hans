@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
@@ -28,9 +28,42 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 >
 >AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要配置AEM服务器并使其准备好用于AEM Screens，请通过允许空的引用来跳过引用过滤器。
 
+## 运行状况检查框架 {#health-check-framework}
+
+运行AEM Screens项目之前，运行状况检查框架允许用户检查是否设置了两个必需的配置。
+
+它允许用户验证以下两个配置检查以运行AEM Screens项目，即检查以下两个过滤器的状态：
+
+1. **允许空参照**
+2. **https**
+
+请按照以下步骤检查是否为AEM Screens启用了这两个重要配置：
+
+1. 导航到 [Adobe Experience Manager Web ConsoleSling运行状况检查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)。
+
+   ![资产](assets/health-check1.png)
+
+
+2. 单击执 **行选定的运行状况检查** ，以对上面列出的两个属性运行验证。
+
+   如果同时启用了这两个过滤器，则 **Screens Configuration Health Service** （屏幕配置健康服务） **将“结果** ”显示为“ **确定** ”(OK)，同时启用这两个配置。
+
+   ![资产](assets/health-check2.png)
+
+   如果禁用了一个或两个过滤器，则会显示用户的警报，如下图所示。
+
+   以下警报显示是否同时禁用了这两个过滤器：
+   ![资产](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* 要启用 **Apache Sling引用过滤器**，请参阅 [允许空引用请求](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)。
+>* 要启用 **HTTP** ，请参阅 [Apache Felix Jetty基于HTTP服务](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)。
+
+
 ### 前提条件 {#prerequisites}
 
-以下要点可帮助配置AEM服务器并使其准备好用于AEM Screens:
+以下要点可帮助配置和AEM服务器以便准备好用于AEM Screens。
 
 #### 允许空的引用请求 {#allow-empty-referrer-requests}
 
@@ -49,6 +82,22 @@ source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
 1. 单击 **保存** ，以启用Apache Sling引用过滤器允许空。
+
+#### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
+
+1. 通过 **AEM实例—>锤子图标—>操作** —> web控制台，导航到 **Adobe Experience Manager Web Console配置******。
+
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+
+1. **Adobe Experience Manager Web Console配置将打开** 。 搜索基于Apache Felix Jetty的HTTP服务。
+
+   要搜索此属性，请 **按Command+F** ( **Mac** )和 **Control+F(****** Windows)。
+
+1. 选中 **“启用HTTP** ”选项，如下图所示。
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. 单击 **保存** ，以启用 *http服务* 。
 
 #### 为AEM Screens启用触屏UI {#enable-touch-ui-for-aem-screens}
 
@@ -102,4 +151,11 @@ AEM Screens播放器必须具备此功能才能播放联机渠道。
 >**推荐:**
 >
 >建议在生产使用中对AEM Screens服务器使用HTTPS。
+
+
+
+
+
+
+
 
