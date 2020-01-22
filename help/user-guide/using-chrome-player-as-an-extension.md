@@ -4,7 +4,7 @@ seo-title: 使用Chrome Player作为扩展
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
 
 ---
 
@@ -19,7 +19,7 @@ ChromeOS播放器可以在开发人员模式下作为Chrome浏览器插件安装
 
 可查看本页以了解有关将Chrome播放器作为浏览器扩展安装的信息。
 
-1. 单击此处下载最新的Chrome Player。
+1. 单 [击此处](https://download.macromedia.com/screens/) ，下载最新的Chrome Player。
 
 1. 解压缩并将其保存到磁盘上。
 
