@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
 
@@ -20,10 +20,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->仅当您安装了AEM 6.4.2功能包2和AEM 6.3.3功能包4时，此AEM Screens功能才可用。
-
+>仅当您安装了AEM 6.4.2功能包2和AEM 6.3.3功能包4时，此AEM Screens功能才可用。\
 >要访问这些功能包中的任何一个，您必须联系Adobe支持并请求访问权限。 您获得权限后，就可以从“包共享”下载它。
->
+
 本节涵盖以下主题：
 
 * **Adobe Analytics与AEM Screens中的排序**
@@ -31,7 +30,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## Adobe Analytics与AEM Screens中的排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-排序 ***过程从激活Adobe Analytics服务的数据存储服务开始*** 。 渠道内容将Adobe Analytics事件与工资单一起发送，即数据测试捕获到Windows I/O并将触发停留事件。 这些事件将保存到索引DB中，并进一步放入对象存储中。 管理员根据调度设置，从对象存储中剪切数据，并在块存储中进一步传输数据。 连接后，它会尝试发送最大数量的数据。
+排序 ***过程从激活Adobe Analytics服务的数据存储服务开始&#x200B;***。 渠道内容将Adobe Analytics事件与工资单一起发送，即数据测试捕获到Windows I/O并将触发停留事件。 这些事件将保存到索引DB中，并进一步放入对象存储中。 管理员根据调度设置，从对象存储中剪切数据，并在块存储中进一步传输数据。 连接后，它会尝试发送最大数量的数据。
 
 ### 排序图 {#sequencing-diagram}
 
