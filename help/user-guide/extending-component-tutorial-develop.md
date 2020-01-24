@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
 
 ---
 
@@ -33,7 +33,17 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 前提条件 {#prerequisites}
 
+要完成本教程，需要执行以下操作：
+
+1. [AEM 6.4或](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html)[AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) +最新屏幕功能包
+1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
+1. 本地开发环境
+
+教程步骤和屏幕截图是使用CRXDE-Lite执行的。 [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IDE也可用于完成教程。 有关使用IDE与AEM进行开 [发的更多信息，请访问此处](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)。
+
 ## 项目设置 {#project-setup}
+
+Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加速教程，使用 [AEM Project Archetype 13预生成了一个项目](https://github.com/adobe/aem-project-archetype)。 有关使用Maven AEM [项目原型创建项目的更多详细信息，请参阅此处](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule)。
 
 1. 使用 **CRX包管理下载并安装以下包**`http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -225,7 +235,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    </jcr:root>
    ```
 
-   在节点 `sling:hideChildren`上使 `"[linkURL,size]`用属性 `items` = **"，以确保linkURL和** size **** 字段在对话框中处于隐藏状态。 仅从海报对话框中删除这些节点是不够的。 辅助功 `sling:hideResource="{Boolean}true"` 能选项卡上的属性用于隐藏整个选项卡。
+   在节点 `sling:hideChildren`上使 `"[linkURL,size]`用属性 `items` = **&quot;，以确保linkURL和** size **** 字段在对话框中处于隐藏状态。 仅从海报对话框中删除这些节点是不够的。 辅助功 `sling:hideResource="{Boolean}true"` 能选项卡上的属性用于隐藏整个选项卡。
 
    向对话框中添加了两个选择字段，使作者能够控制标题和说明的文本位置和颜色。
 
@@ -496,7 +506,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 以下视频显示完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到位置显示屏，并最终分配给Screens播放器。
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## 完成的代码 {#finished-code}
 
