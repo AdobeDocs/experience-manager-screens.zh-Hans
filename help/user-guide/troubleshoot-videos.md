@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -32,13 +32,13 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 应有不同的再现（MP4或M4V）。
 
-如果没有再现，请确保在运行AEM的OS上安装了ffmpeg。
+如果没有再现，请确保在运行AEM的操作系统上安装了ffmpeg。
 
 >[!CAUTION]
 >
->如果没有再现，请确保在运行AEM的OS上安装了ffmpeg。
+>如果没有再现，请确保在运行AEM的操作系统上安装了ffmpeg。
 >
->单击 [此处](https://evermeet.cx/ffmpeg/) ，安装ffmpeg。
+>单击 [此处](https://www.ffmpeg.org/download.html) ，安装ffmpeg。
 
 ## 视频资产 {#video-assets}
 
@@ -107,7 +107,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 请按照以下步骤对Google的自动播放策略标记问题进行疑难解答：
 
-1. 导航到 ***chrome://flags/#autoplay-policy***
+1. 导航到 ***chrome://flags/#autoplay-policy ***
 1. 将“自 **动播放策略** ”从“ **默认** ”更改 **为不需要用户手势**
 
 1. 重新启动Web浏览器并更新播放器
@@ -149,7 +149,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 **在OS x上对齐时钟** 按照以下步骤在OSX上对齐时钟：
 
 1. 在每 **个OSX框上打开“日期和时间** ”首选项
-1. 检查**自动设置日期和时间**
+1. 选中 **自动设置日期和时间**
 1. 将值0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com粘贴到下拉列表中，或只运行 *sudo ntpdate -u -v 0.pool.ntp.org*
 1. 启动2+播放器
 
