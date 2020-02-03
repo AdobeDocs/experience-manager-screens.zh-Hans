@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 可查看本页以了解如何使用命令同步。
 seo-description: 可查看本页以了解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 1. 以下示例展示了一个名为 **CommandSyncDemo的演示项目** ，以及一个序列渠道 **ChannelLobby**。
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
    该渠道包含以下内容，如下图所示。
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. 在“位置”文件 **夹中** ，创建显示屏，如下图所示。
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. 将渠道ChannelLobby指 **定到您** 的 **LobbyDisplay**。
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >要了解如何将渠道分配给显示屏，请参阅创建和 [管理显示屏](/help/user-guide/managing-displays.md)
+   >要了解如何将渠道分配给显示屏，请参阅创 [建和管理显示屏](/help/user-guide/managing-displays.md)。
 
 1. 导航到“ **设备** ”文件夹，然后单 **击操作栏中的“设备管理器** ”以注册设备。
 
@@ -59,8 +59,23 @@ source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
    >
    >要了解如何将渠道分配给显示屏，请参阅创建和 [管理显示屏](/help/user-guide/managing-displays.md)
 
-1. 为便于演示，此示例将铬黄设备和Web播放器作为两个单独的设备进行展示。 这两个设备指向同一显示屏。
+1. 为便于演示，此示例将铬黄设备和Windows播放器作为两个单独的设备进行展示。 这两个设备指向同一显示屏。
    ![image1](assets/command-sync6.png)
+
+### 更新渠道设置
+
+1. 导航到 **ChannelLobby** ，然后单 **击操作栏中的编辑** ，以更新渠道设置。
+
+1. 选择整个渠道，如下图所示。
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. 单击扳手图标以打开“页 **面** ”对话框。
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. 在“策 *略* ”字段中输入 **synced关键字** 。
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### 设置主视图 {#setting-up-master}
 
