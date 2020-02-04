@@ -4,7 +4,7 @@ seo-title: 功能包201912发行说明
 description: 可查看本页以获取2020年1月20日发布的AEM Screens功能包201912的相关信息。
 seo-description: 可查看本页以获取2020年1月20日发布的AEM Screens功能包201912的相关信息。
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -23,8 +23,8 @@ AEM Screens功能包201912的发布日期为2020年1月21日。
 
 ### 新增功能 {#what-s-new}
 
-* **用于资产回放的命令同步**
-
+* **“资产播放命令同步”**“命令同步”允许不同播放器之间同步播放。 播放器可以播放不同的内容，但每个资产需要具有相同的持续时间。
+要进一步了解命令同步以及如何设置主和客户端，请参阅使 [用命令同步](using-command-sync.md)。
 
 * **运行状况检查框架可显示https状态并允许空引用** Health Check框架允许用户在运行AEM Screens项目之前检查是否设置了两个必要的配置（允许空引用请求和基于Apache Felix Jetty的HTTP服务）。
 
