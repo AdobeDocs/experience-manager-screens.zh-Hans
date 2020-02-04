@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 可查看本页以了解如何使用命令同步。
 seo-description: 可查看本页以了解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 1. 从 **CommandSyncDemo** —>位置 **—>** Locations **—>** Lobby **—** Lobby Lobby Display **** >从操作栏中导航到显示控制板并单击控制板。
 您将在“设备”面板中看到两个设备( **chrome和windows播放器** )，如下图所示。
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. 从“设 **备** ”面板中，选择要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击“ **设为主设备”**。
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. 在“设置为主设备” **中输入IP地址** ，然后单击“ **保存”**。
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> 您可以将多个设备设置为主设备。
 
 ### 与主同步 {#sync-up-master}
 
-1. 将Chrome设备设置为主设备后，您可以同步其他设备以与主设备同步。
-从“设备”面板中选 **择其他设备** ，然后单击“同 **步到主设备**”，如下图所示。
+1. 将Chrome设备设置为主设备后，可同步其他设备（本例中为Windows播放器）以与主设备同步。
+从“设备”面板中选择其他设备（本例中为Windows播放器），然后单击“同步到主设备 ********”，如下图所示。
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. 从列表中选择设备，然后单击“保 **存”**。
 
+1. 设备（Windows播放器）同步到主设备（Chrome播放器）后，您将在“设备”面板中看到同步的 **设备** 。
 
-1. 导航到 [Web播放器](http://localhost:4502/screens/player.html)。
+   ![image1](assets/command-sync/command-sync14.png)
 
+### 删除或取消与主同步 {#desync-up-master}
 
-
-
+在将设备或设备同步到主设备后，您可以取消同步或从该设备中删除分配。 要从主设备中删除同步，请选择设备，然后单击“ **DEVICES** ”面板中的“ **Desync** ”。
 
