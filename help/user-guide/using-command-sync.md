@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 可查看本页以了解如何使用命令同步。
 seo-description: 可查看本页以了解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
 1. 以下示例展示了一个名为 **CommandSyncDemo的演示项目** ，以及一个序列渠道 **ChannelLobby**。
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 
    该渠道包含以下内容，如下图所示。
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. 在“位置”文件 **夹中** ，创建显示屏，如下图所示。
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. 将渠道ChannelLobby指 **定到您** 的 **LobbyDisplay**。
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 1. 导航到 **ChannelLobby** ，然后单 **击操作栏中的编辑** ，以更新渠道设置。
 
 1. 选择整个渠道，如下图所示。
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. 单击扳手图标以打开“页 **面** ”对话框。
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. 在“策 *略* ”字段中输入 **synced关键字** 。
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### 设置主视图 {#setting-up-master}
 
 1. 从 **CommandSyncDemo** —>位置 **—>** Locations **—>** Lobby **—** Lobby Lobby Display **** >从操作栏中导航到显示控制板并单击控制板。
 您将在“设备”面板中看到两个设备( **chrome和windows播放器** )，如下图所示。
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. 从“设 **备** ”面板中，选择要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击“ **设为主设备”**。
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. 在“设置为主设备” **中输入IP地址** ，然后单击“ **保存”**。
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > 您可以将多个设备设置为主设备。
@@ -99,13 +99,13 @@ source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
 1. 将Chrome设备设置为主设备后，可同步其他设备（本例中为Windows播放器）以与主设备同步。
 从“设备”面板中选择其他设备（本例中为Windows播放器），然后单击“同步到主设备 ********”，如下图所示。
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. 从列表中选择设备，然后单击“保 **存”**。
 
 1. 设备（Windows播放器）同步到主设备（Chrome播放器）后，您将在“设备”面板中看到同步的 **设备** 。
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### 删除或取消与主同步 {#desync-up-master}
 
