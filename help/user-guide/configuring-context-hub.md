@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 先决条件 {#preconditions}
 
-在开始设置数据存储以配置AEM Screens项目的Context Hub配置之前，必须设置Google工作表（用于演示目的）。
+在开始为AEM Screens项目配置Context Hub配置之前，必须设置Google工作表（用于演示目的）。
 
 >[!CAUTION]
 >
@@ -50,21 +50,29 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 ## 第1步：设置数据存储 {#step-setting-up-a-data-store}
 
-请按照以下步骤设置一个数据存储区，通过该存储区，您可以使用ContextHub配置和AEM Screens渠道的区段路径。
+可以将数据存储设置为本地I/O事件或本地数据库事件。
+
+### 本地I/O事件 {#local-io-event}
+
+按照以下步骤设置数据存储（如ASCII事件），该事件允许您使用ContextHub配置和AEM Screens渠道的区段路径。
+
+### 本地数据库事件 {#local-db-event}
+
+请按照以下步骤设置数据存储（如Excel表），以便使用ContextHub配置和AEM Screens渠道的区段路径。
 
 1. **导航到ContextHub**
 
-   导航到您的AEM实例，然后单击左侧提要栏中的工具图标。 单 **击Sites** —&gt; **ContextHub**，如下图所示。
+   导航到您的AEM实例，然后单击左侧提要栏中的工具图标。 单 **击Sites** —> **ContextHub**，如下图所示。
 
    ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
 
 1. **创建新的ContextHub存储配置**
 
-   1. 导航到 **全局** &gt; **default** &gt; **ContextHub配置**。
+   1. 导航到 **全局** > **default** > **ContextHub配置**。
 
-   1. 单击**创建&gt;配置容 **器，然后输入** ContextHubDemo**标题。
+   1. 单击**创建>配置容 **器，然后输入** ContextHubDemo**标题。
 
-   1. **** 导航到&#x200B;**ContextHubDemo**&gt;**** ContentHub存储配置……打开配置 **向导**。
+   1. **** 导航到&#x200B;**ContextHubDemo**>**** ContentHub存储配置……打开配置 **向导**。
 
    1. 输入Google **Sheets** , **Store Sheets,** Store Name **, as************Google Sheets, Store Store Sheets Sheets, Store Name, as Contexthub-jsonp.**
 
@@ -93,7 +101,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    >在上述示例代码中， **pollInterval** 定义刷新值的频率（以毫秒为单位）。
    >
    >
-   >将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID&gt;和*&lt;API Key&gt;。
+   >将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID>和*&lt;API Key>。
 
    >[!CAUTION]
    如果您在旧版文件夹（例如您自己的项目文件夹中）之外创建Google工作表存储配置，则定位将不会开箱即用。
@@ -101,9 +109,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **在活动中创建品牌**
 
-   1. 从AEM实例导航到“个性化” **&gt;“活****动”**
+   1. 从AEM实例导航到“个性化” **>“活****动”**
 
-   1. 单击 **创建** &gt;创 **建品牌**
+   1. 单击 **创建** >创 **建品牌**
 
    1. Select **Brand** from the **Create Page** wizard and click **Next**
 
@@ -133,9 +141,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **在受众中创建区段**
 
-   1. 从您的AEM实例导航到“个 **性化** ”&gt;“受众 **”** &gt;“ **We.Retail**”。
+   1. 从您的AEM实例导航到“个 **性化** ”>“受众 **”** >“ **We.Retail**”。
 
-   1. 单击 **创建** &gt; **创建Context Hub区段。** “新 **建ContextHub区段** ”对话框打开。
+   1. 单击 **创建** > **创建Context Hub区段。** “新 **建ContextHub区段** ”对话框打开。
 
    1. Enter the **Title** as **SheetA1 1** and click **Create**. 同样，创建标题为 **SheetA2 2的另一个区段**。
 
@@ -171,7 +179,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 按照以下步骤在您的渠道中启用定位。
 
-1. 导航到其中一个AEM Screens渠道**。 **以下步骤演示如何使用在AEM Screens渠道中创建的 **DataDrivenRetail** 启用定位。
+1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创 **建的DataDrivenRetail** 启用定位。
 
 1. 选择渠道 **DataDrivenRetail** ，然后 **单击操作栏中的** “属性”。
 
@@ -179,9 +187,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. 选择“个 **性化** ”选项卡以设置ContextHub配置。
 
-   1. 选择“ **Hub Path** ”作 **为** Libs **&gt;** &gt; Settings &gt; DefaultHub **&gt;DefaultHob Context Configurations(Libs**************&gt; Settings &gt; DefaultHub Context And Click SelectCloud”的Context路径。
+   1. 选择“ **Hub Path** ”作 **为** Libs **>** > Settings > DefaultHub **>DefaultHob Context Configurations(Libs**************> Settings > DefaultHub Context And Click SelectCloud”的Context路径。
 
-   1. 选择“路径 **”** &gt;“会议” **&gt;“零售”****&gt;“零售”** &gt;“Wcm **”**************&gt;“Adobe ClickSelectSelectDign”的段。
+   1. 选择“路径 **”** >“会议” **>“零售”****>“零售”** >“Wcm **”**************>“Adobe ClickSelectSelectDign”的段。
 
    1. 单击 **保存并关闭**。
    >[!NOTE]
@@ -189,7 +197,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 导航并从DataDrivenAssets &gt; **Channels中选择** DataDriven Retail **，然后单击** ActionBar中 ******** 的EditRetail。
+1. 导航并从DataDrivenAssets > **Channels中选择** DataDriven Retail **，然后单击** ActionBar中 ******** 的EditRetail。
 
    >[!NOTE]
    如果您正确设置了所有内容，您将在编辑器的下拉框中看到 **Targeting** （定位）选项，如下图所示。
