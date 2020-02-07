@@ -4,7 +4,7 @@ seo-title: 使用命令同步
 description: 可查看本页以了解如何使用命令同步。
 seo-description: 可查看本页以了解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,11 +116,12 @@ source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 1. 导航到“设 **备** ”面板并选择设备。
 
-1. 单击“ **取消同步设备** ”，以从主设备使客户端同步。
+1. 单击“ **取消同步设备”** ，以从主设备取消客户端同步。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 单 **击确认** ，以从主设备中取消选定设备的同步。
+1. 单击 **确认** ，以取消与主设备的选定设备同步。
 
    >[注意:]
    > 如果您选择主设备并使用取消同步选项，则与主设备连接的所有设备将通过一个步骤取消同步。
+
