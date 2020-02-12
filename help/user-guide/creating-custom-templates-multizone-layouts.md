@@ -5,16 +5,55 @@ description: 可查看本页以了解如何在MultiZone布局中创建自定义�
 seo-description: 可查看本页以了解如何在MultiZone布局中创建自定义模板。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # 在MultiZone布局中创建自定义模板 {#creating-custom-templates-multizone}
 
-以下示例展示了如何在multiZone布局中创建自定义模板。
+此页面显示如何在多区域布局中创建自定义模板。
 
-例如，下面的部分演示了如何使用以下配置在多区域布局中创建自定义模板：
+## 命名规范 {#name-terms}
+
+在了解如何创建要在AEM Screens项目中使用的自定义多区域模板之前，您需要了解要创建的模板的版本。
+
+| **布局名称** | **描述** |
+|---|---|
+| Left20-LandscapeHD3Zone | 指3区横向布局，它允许您创建3个区域，其中区域1从左侧占水平和垂直屏幕的20%，区域2从水平屏幕的80%对齐，区域3从右侧垂直屏幕的20%对齐，区域3从水平屏幕的100%对齐，垂直屏幕的80%纵横比为16:9 |
+| Upper20-PortraitHD2Zone | 指从顶部覆盖屏幕20%的2区纵向模板，长宽比为16:9 |
+| Right20-LandscapeSD3Zone | 指从右侧覆盖屏幕20%的3区模板，长宽比为4:3 |
+
+## 示例用例 {#example-use-cases}
+
+## 创建Left20-LandscapeHD3Zone布局 {#landscape-layout-one}
+
+按照以下部分说明，使用以下配置创建自定义模板：
+
+* **Left20** 指左侧的顶部区域，覆盖20%的水平和垂直屏幕大小。
+* **横向** ：指屏幕方向
+* **HD** 将宽高比称为16:9
+* **3Zone** 是指显示器的三个区域
+
+## 多区域布局的可视化表示 {#multi-layout-visual-one}
+
+Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
+
+![图像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## 创建Upper20-PortraitHD2Zone布局 {#landscape-layout-two}
+
+按照以下部分说明，使用以下配置创建自定义模板：
+
+
+
+
+
 
 ![图像](assets/custom-template1.png)
 
