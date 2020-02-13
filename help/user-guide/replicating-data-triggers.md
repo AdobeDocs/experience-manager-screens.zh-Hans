@@ -4,7 +4,7 @@ seo-title: 将数据触发器复制到发布服务器
 description: 将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
 1. 导航到工具>部 **署** >分 **发** >发 **布代理**。
 
 1. 单击 **操作栏中的编辑****** ，并确保导入程序端点字段中的端点URL也指向Distribution agent中的发布服务器URL。
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. 如果您未使用默认管理员凭据，则需要使用其他管理员密码配置分发代理。
+1. 如果您没有使用默认管理员凭据，则需要使用其他用户名和密码配置分发代理。
 按照以下步骤操作：
 
    1. 导航到工具> **操作** > **Web控制台** , `http://localhost:4502/system/console/configMgr`以打开 **Adobe Experience Manager Web Console屏幕**。
