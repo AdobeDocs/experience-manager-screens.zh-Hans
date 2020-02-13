@@ -4,7 +4,7 @@ seo-title: 将数据触发器复制到发布服务器
 description: 将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
    >[!Note]
    >如果测试失败，您需要修复作者实例和发布实例之间的复制代理配置。 有关更多详 [细信息，请参阅Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 疑难解答。
 
-1. 从 **** Distribution Agent **（分发代理）屏幕树中选择** Add（添加），然后选择项目的配置路径，例如 `/conf/screens/settings/cloudsettings/configuration)`。
+1. 从 **** Distribution Agent **（分发代理）屏幕树中选择** Add（添加），然后选择项目的配置路径，例如 `/conf/screens/settings/cloudsettings/configuration`。
 
 1. 单击“提 **交”**
 
@@ -51,7 +51,7 @@ source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 1. 进入项目文件夹，例如 `/conf/screens/`。
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. 从用户界面中选择所有受众和区段。
 
@@ -114,3 +114,6 @@ source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
    1. 单击 **保存** ，然后再次从AEM实例的Distribution Agent屏幕中 **运行测试连接** 。
 
+   1. 用户需要从AEM实例重新访问 **Distribution Agent** （分发代理）页面，以将默认URL从更新／替换 `localhost:4503` 到其自己的发布URL。
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
