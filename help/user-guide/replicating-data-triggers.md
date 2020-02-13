@@ -4,7 +4,7 @@ seo-title: 将数据触发器复制到发布服务器
 description: 将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
 translation-type: tm+mt
-source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
+source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!Note]
-   >或者，您也可以使用链 [接](http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish) ，直接导航到屏幕以配置和测试连接。
+   >或者，您也可以使用 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 导航到屏幕来配置和测试连接。
 
 1. 单击 **操作栏中的“Test Connection** ”，验证作者与发布实例的通信，如下图所示。
 
@@ -41,18 +41,15 @@ source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
    >[!Note]
    >如果测试失败，您需要修复作者实例和发布实例之间的复制代理配置。 有关更多详 [细信息，请参阅Test Connection](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 疑难解答。
 
-1. 从上 **面的屏幕中单击****** “编辑”，确保“导入程序端点”字段中的端点URL也指向Distribution agent中的发布服务器URL。
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
-
-1. 从 **** Distribution Agent **屏幕树中选择添加** ，然后为项目选择配置路径，即 `/conf/screens/settings/cloudsettings/configuration)`。
+1. 从 **** Distribution Agent **（分发代理）屏幕树中选择** Add（添加），然后选择项目的配置路径，例如 `/conf/screens/settings/cloudsettings/configuration)`。
 
 1. 单击“提 **交”**
 
 ### 复制受众 {#replicating-audiences}
 
-1. 导航到工 **具** > **个性化** >受众 **，或直接**[](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html) 使用链接导航。
+1. 导航到您的AEM实例> **Personalization** > **Audiences** ，或用于 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` 直接导航。
 
-1. 进入您的项目文件夹，即 `/conf/screens/`。
+1. 进入项目文件夹，例如 `/conf/screens/`。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
 
@@ -64,7 +61,7 @@ source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
 
 ### 复制活动 {#replicating-activities}
 
-1. 导航到工 **具** > **Personalization** >活动，或使 **用链接直**[](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html) 接导航。
+1. 导航到您的AEM实例> **Personalization** > **Activities** ，或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 直接导航。
 
 1. 进入您的项目文件夹，即 `/content/campaigns/screens/…`。
 
@@ -89,25 +86,31 @@ source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
 
 如果复制ContextHub配置时测试连接失败，请按照以下部分对问题进行疑难解答：
 
-1. 导航到导 **入程序端点字段** ，并确保端点URL指向Distribution agent中的发布服务器URL。
+1. 导航到工具>部 **署** >分 **发** >发 **布代理**。
 
-1. 如果未使用默认凭据，则需要使用其他管理员密码配置分发代理。
+1. 单击 **操作栏中的编辑****** ，并确保导入程序端点字段中的端点URL也指向Distribution agent中的发布服务器URL。
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+
+1. 如果您未使用默认管理员凭据，则需要使用其他管理员密码配置分发代理。
 按照以下步骤操作：
 
-   1. 导航到“工具”>“ **操作** ”>“Web控制台”**, `http://localhost:4502/system/console/configMgr`以打开 **Adobe Experience Manager web控制台屏幕**。
+   1. 导航到工具> **操作** > **Web控制台** , `http://localhost:4502/system/console/configMgr`以打开 **Adobe Experience Manager Web Console屏幕**。
 
    1. 搜索 **Apache Sling Distribution Transport Credentials —— 基于用户凭据的DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. 通过填充Name **、** User name **** and **password（例如，slingTransportSecretProvider）来创建****&#x200B;配置。.
+   1. 通过填充Name **、** User name **** and **password（例如，slingTransportSecretProvider）来创建****&#x200B;配置。
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
+
    1. Click **Save**
 
-   1. 使用搜索您的分发代理的名称 `Cmd +F`。
+   1. 使用 `Cmd +F` 搜索 **Apache Sling Distribution Agent - Forward Agents Factory** ，打开配置并搜索传输机密提 **供者**。
 
-   1. 单击以打开分发代理OSGI配置。
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
-   1. 在osgi配置中查找传输机密提供者，并将其更新为 `"(name=slingTransportSecretProvider)"`。
+   1. 使用更 `(name=default)` 新 `(name=slingTransportSecretProvider)`。
 
-   1. 单击 **保存** ，然后运行测试连接。
+   1. 单击 **保存** ，然后再次从AEM实例的Distribution Agent屏幕中 **运行测试连接** 。
 
