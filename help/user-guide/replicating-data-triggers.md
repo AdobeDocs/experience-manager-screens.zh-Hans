@@ -4,7 +4,7 @@ seo-title: 将数据触发器复制到发布服务器
 description: 将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 1. 从 **** Distribution Agent **（分发代理）屏幕树中选择** Add（添加），然后选择项目的配置路径，例如 `/conf/screens/settings/cloudsettings/configuration`。
 
-1. 单击“提 **交”**
+1. 单击 **提交**。
 
 ### 复制受众 {#replicating-audiences}
 
@@ -71,8 +71,9 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 1. 单击“ **下一步** ”和 **“发布**”。
 
-> [!Note]
-> **重要信息&#x200B;**：>复制ContextHub配置和受众是在项目设置期间完成的，同时复制活动，并且每次在渠道内更改目标时都需要复制这些配置和受众。
+>[!IMPORTANT]
+>
+>复制ContextHub配置和受众是在项目设置期间完成的，同时复制活动，并且每次在渠道内更改目标时都需要复制这些配置和受众。
 
 #### 结果 {#result}
 
@@ -92,10 +93,10 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果您没有使用默认管理员凭据，则需要使用其他用户名和密码配置分发代理。
-按照以下步骤操作：
+
+   按照以下步骤操作：
 
    1. 导航到工具> **操作** > **Web控制台** , `http://localhost:4502/system/console/configMgr`以打开 **Adobe Experience Manager Web Console屏幕**。
-
    1. 搜索 **Apache Sling Distribution Transport Credentials —— 基于用户凭据的DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Click **Save**
-
    1. 使用 `Cmd +F` 搜索 **Apache Sling Distribution Agent - Forward Agents Factory** ，打开配置并搜索传输机密提 **供者**。
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 使用更 `(name=default)` 新 `(name=slingTransportSecretProvider)`。
-
    1. 单击 **保存** ，然后再次从AEM实例的Distribution Agent屏幕中 **运行测试连接** 。
