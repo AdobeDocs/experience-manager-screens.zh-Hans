@@ -4,7 +4,7 @@ seo-title: 将数据触发器复制到发布服务器
 description: 将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
 translation-type: tm+mt
-source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
+source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
 
 ---
 
@@ -71,8 +71,8 @@ source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 1. 单击“ **下一步** ”和 **“发布**”。
 
-   > [!Note]
-   >复制ContextHub配置和受众是在项目设置期间完成的，同时复制活动，并且每次在渠道内更改目标时都需要复制这些配置和受众。
+> [!Note]
+> **重要信息&#x200B;**：>复制ContextHub配置和受众是在项目设置期间完成的，同时复制活动，并且每次在渠道内更改目标时都需要复制这些配置和受众。
 
 #### 结果 {#result}
 
@@ -113,7 +113,3 @@ source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
    1. 使用更 `(name=default)` 新 `(name=slingTransportSecretProvider)`。
 
    1. 单击 **保存** ，然后再次从AEM实例的Distribution Agent屏幕中 **运行测试连接** 。
-
-   1. 用户需要从AEM实例重新访问 **Distribution Agent** （分发代理）页面，以将默认URL从更新／替换 `localhost:4503` 到其自己的发布URL。
-
-      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
