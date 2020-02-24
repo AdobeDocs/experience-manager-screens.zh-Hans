@@ -5,7 +5,7 @@ description: 可查看本页以了解如何在MultiZone布局中创建自定义�
 seo-description: 可查看本页以了解如何在MultiZone布局中创建自定义模板。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
+source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
 
 ---
 
@@ -61,14 +61,25 @@ Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
 1. 将左栏模板从复制到 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 中 `/apps/customtemplate/template`。
 
 1. 将复制 **的lbar-left** (`/apps/customtemplate/template`)重命名 **为my-custom-layout**。
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. 导航到 `/apps/customtemplate/template/my-custom-layout` 属性 **jcr:** Left20-LandscapeHD3Zone的“模板”和 *jtitle*******:titleToLeft20-LandscapeHD3Zone的“模板”。
 
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template4.png)
+
 1. 导航到 **offline-config** node `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` from，并将 **jcr:title** 更新为 *Left20-LandscapeHD3Zone*。
+
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. 导航到 *my-custom-template* 的jcr:content **属性，并将** cq:css Class `/apps/customtemplate/template/my-custom-layout/jcr:content`******** Class属性更新为Aem-My-custom-layout的Custom-layout属性。
 
-1. 在步骤(4)中，您复制了左栏模板，您将在下面查看3个响应式网格 `my-custom-layout/jcr:content`。 在 *cq:cssClass* 属性中为每个响应式网格添加自定义css类，例如， *my-custom-layout—top-left*, *my-custom-class—top-right*, ** my-custom-layout—bottomJayout。
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template6.png)
+
+1. 在步骤(4)中，您复制了左栏模板，您将在下面查看3个响应式网格 `my-custom-layout/jcr:content`。 在 *cq:cssClass* 属性中向每个响应式网格添加自定义css类，例如， *my-custom-layout—* r1c1节点的左上角 ** 。
+
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template7.png)
+
+   同样，为 *r1c2* 添加my-custom-layout—top-right *for* r1c2 *,* my-custom-layout—bottom *for* r2c1Node。
 
    >[!NOTE]
    >这些自定义类将用在css中，以设置这些响应式网格的宽度／高度。
@@ -76,72 +87,51 @@ Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
    >[!NOTE]
    > 您可以根据所需的网格总数添加或删除响应式网格。 在此示例中，我们展示第一行中的2个网格和第二行中的1个网格，因此总共有3个响应式网格(r1c1、r1c2、r2c1)。
 
-1. 复制 `/libs/settings/wcm/designs/screens` 到 `/apps/settings/wcm/designs/` 自定义模 **板设计并重命名**
+1. 复制 `/libs/settings/wcm/designs/screens` 到复 `/apps/settings/wcm/designs/` 制的设计，并将其重命名 **为自定义模板设计**。
 
 1. 导航到 `/apps/settings/wcm/designs/custom-template-designs` custom-template-designs的属 *性jcr:title* ，并将 **其更新为customtemplate-design****的属性**。
 
-1. 更新内 `/apps/settings/wcm/designs/<project>-designs/static.css` 容以匹配以下内容
+1. 导航到 `/apps/settings/wcm/designs/custom-template-designs` 并创建一个static.css文件。
 
-## 使用特定配置创建自定义模板 {#basic-flow-setting}
-
-![图像](assets/custom-template1.png)
-
-请按照以下步骤创建自定义模板。
-
-1. 在 `/apps/<project>/templates/my-custom-layout`
+1. 将内容复制到static.css文件：
 
    ```shell
-    <?xml version="1.0" encoding="UTF-8"?>
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="My Custom 3-zones layout "
-    jcr:primaryType="cq:Template"
-    jcr:title="3-zones layout"
-    allowedParents="[/libs/screens/core/templates/channelfolder]"
-    allowedPaths="[/content/screens(/.*)?]"
-    ranking="{Long}20000">
-    <jcr:content
-        cq:cssClass="aem-Layout aem-Layout--3x1 my-CustomLayout"
-        cq:designPath="/apps/settings/wcm/designs/<project>"
-        cq:deviceGroups="[mobile/groups/responsive]"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceSuperType="screens/core/components/channel"
-        sling:resourceType="screens/core/components/multiscreenchannel">
-        <r1c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-top"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r2c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-middle"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <r3c1
-            cq:cssClass="aem-LayoutCell--1-1 my-CustomLayout-bottom"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
-        <cq:responsive jcr:primaryType="nt:unstructured">
-            <breakpoints jcr:primaryType="nt:unstructured"/>
-        </cq:responsive>
-        <offline-config/>
-    </jcr:content>
-   </jcr:root>
+       /*my-custom-layout styles*/
+      .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-left {
+       width:20%;
+       height: 36%;
+      float: left !important;
+      }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--top-right {
+      width:80%;
+      height: 36%;
+     float: left !important;
+     }
+     .cq-Screens-channel--multizone.my-custom-layout .my-custom-layout--bottom {
+     width:100%;
+     height: 64%;
+     }
    ```
-
-1. 在中创建页面设计 `/apps/settings/wcm/designs/<project>`。
 
    >[!NOTE]
-   >
-   >确保上面 `cq:designPath` 的路径匹配。
+   > 您可以更新百分比以符合自定义模板的要求。
 
-1. 更新 **设计的offline-config** 节点，以同时指向新路径
+1. 导航到 `/apps/<project>/templates/my-custom-layout/jcr:content` 并更新属性 *cq:designPath* ，以加 `/apps/settings/wcm/designs/customtemplate-designs` 载static.css中配置的样式
 
-1. 在文 **件夹中添加static.css**`/apps/settings/wcm/designs/<project>` 文件并将其内容设置为
+   >[!NOTE]
+   > 建议您键入所有样式，而不是复制或粘贴，这会导致出现空格，从而导致css样式问题。
 
-   ```shell
-   .cq-Screens-channel--multizone.my-CustomLayout {}
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-top { height: 150px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-middle { height: 1470px; }
-   .cq-Screens-channel--multizone.my-CustomLayout .my-CustomLayout-bottom { height: 300px; }
-   ```
+## 查看结果 {#viewing-result}
+
+请按照以下步骤在AEM Screens项目中使用上述自定义模板：
+
+1. 导航到您在步骤(1)中创建的Screens项目，然后选择渠道文 **件夹** 。
+
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template8.png)
+
+1. 单 **击操作栏** “创建”，然后从“创建”向导中选择模板Left20-LandscapeHD3Zone ******** 。
+
+1. 使用自定义模板创建渠道后，您便可以从编辑器将资产添加到渠道。
 
 ## 将图像作为背景图层插入 {#inserting-image}
 
