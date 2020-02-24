@@ -5,7 +5,7 @@ description: 可查看本页以了解如何在MultiZone布局中创建自定义�
 seo-description: 可查看本页以了解如何在MultiZone布局中创建自定义模板。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
+source-git-commit: 6a0967580d06e749db878d74aad2ffb1fec82f43
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ## 命名规范 {#name-terms}
 
-在了解如何创建要在AEM Screens项目中使用的自定义多区域模板之前，您需要了解要创建的模板的版本。
+在了解如何创建要在AEM Screens项目中使用的自定义多区域模板之前，建议您先了解要创建的模板的版本。
 
 | **布局名称** | **描述** |
 |---|---|
@@ -26,9 +26,9 @@ source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ## 示例用例 {#example-use-cases}
 
-## 创建Left20-LandscapeHD3Zone布局 {#landscape-layout-one}
+## Left20-LandscapeHD3Zone布局 {#custom-template-one}
 
-按照以下部分说明，使用以下配置创建自定义模板：
+按照以下部分创建具有以下配置的 *自定义模板Left20-LandscapeHD3Zone* :
 
 * **Left20** 指左侧的顶部区域，覆盖20%的水平和垂直屏幕大小。
 * **横向** ：指屏幕方向
@@ -41,24 +41,50 @@ Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
 
 ![图像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
 
+## 创建Left20-LandscapeHD3Zone布局 {#landscape-layout-one}
 
+请按照以下步骤为AEM Screens项目创建Left20-LandscapeHD3Zone布局：
 
+1. 创建标题为自定义模板的AEM Screens **项目**。
 
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
+1. 从您的 **AEM实例** —>工具—> **CRXDE Lite**。
 
-## 创建Upper20-PortraitHD2Zone布局 {#landscape-layout-two}
+1. 在标题为“自定义模 **板** ”的应用程序下 **创建文件夹**。 同样，在customtemplate下创建另一个标 **题为** “ **template**”的文件夹，如下图所示。
 
-按照以下部分说明，使用以下配置创建自定义模板：
+   ![图像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
+   > [!NOTE]
+   > 建议您每次创建、编辑内容或将内容复制到任何节点时，都单击CRXDE Lite中操作栏中的“保存全部 **** ”，否则将无法提交更新。
 
+1. 将左栏模板从复制到 `/libs/screens/core/templates/splitscreenchannel/lbar-left` 中 `/apps/customtemplate/template`。
 
+1. 将复制 **的lbar-left** (`/apps/customtemplate/template`)重命名 **为my-custom-layout**。
 
+1. 导航到 `/apps/customtemplate/template/my-custom-layout` 属性 **jcr:** Left20-LandscapeHD3Zone的“模板”和 *jtitle*******:titleToLeft20-LandscapeHD3Zone的“模板”。
 
+1. 导航到 **offline-config** node `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` from，并将 **jcr:title** 更新为 *Left20-LandscapeHD3Zone*。
 
-![图像](assets/custom-template1.png)
+1. 导航到 *my-custom-template* 的jcr:content **属性，并将** cq:css Class `/apps/customtemplate/template/my-custom-layout/jcr:content`******** Class属性更新为Aem-My-custom-layout的Custom-layout属性。
 
+1. 在步骤(4)中，您复制了左栏模板，您将在下面查看3个响应式网格 `my-custom-layout/jcr:content`。 在 *cq:cssClass* 属性中为每个响应式网格添加自定义css类，例如， *my-custom-layout—top-left*, *my-custom-class—top-right*, ** my-custom-layout—bottomJayout。
+
+   >[!NOTE]
+   >这些自定义类将用在css中，以设置这些响应式网格的宽度／高度。
+
+   >[!NOTE]
+   > 您可以根据所需的网格总数添加或删除响应式网格。 在此示例中，我们展示第一行中的2个网格和第二行中的1个网格，因此总共有3个响应式网格(r1c1、r1c2、r2c1)。
+
+1. 复制 `/libs/settings/wcm/designs/screens` 到 `/apps/settings/wcm/designs/` 自定义模 **板设计并重命名**
+
+1. 导航到 `/apps/settings/wcm/designs/custom-template-designs` custom-template-designs的属 *性jcr:title* ，并将 **其更新为customtemplate-design****的属性**。
+
+1. 更新内 `/apps/settings/wcm/designs/<project>-designs/static.css` 容以匹配以下内容
 
 ## 使用特定配置创建自定义模板 {#basic-flow-setting}
+
+![图像](assets/custom-template1.png)
 
 请按照以下步骤创建自定义模板。
 
