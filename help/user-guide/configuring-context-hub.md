@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
 
    1. 导航到 **全局** > **default** > **ContextHub配置**。
 
-   1. 单击**创建>配置容 **器，然后输入** ContextHubDemo**标题。
+   1. 单击 **创建** > **配置容器** ，然后输入 **ContextHubDemo作为标题**。
 
    1. **** 导航到&#x200B;**ContextHubDemo**>**** ContentHub存储配置……打开配置 **向导**。
 
    1. 输入Google **Sheets** , **Store Sheets,** Store Name **, as************Google Sheets, Store Store Sheets Sheets, Store Name, as Contexthub-jsonp.**
 
    1. Click **Next**
-   1. 输入您的特定json配置**。**例如，您可以将以下json用于演示目的。
+   1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的。
    1. 单击&#x200B;**保存**。
 
    ```
