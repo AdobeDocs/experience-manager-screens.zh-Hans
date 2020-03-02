@@ -4,7 +4,7 @@ seo-title: 资产级别激活
 description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 seo-description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 1. 选择任何渠道，然后 **单击操作栏** 中的编辑，以在渠道中添加或编辑内容。
 
-   ![screen_shot_2018-04-23at11422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at11422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 1. 单击 **编辑** ，以打开渠道编辑器，然后选择要将计划应用到的资产。
 
-   ![图像](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![图像](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. 选择资产，然后单击左上角的 **配置** （扳手图标）以打开图像的属性。
 
    Click the **Activation** tab.
 
-   ![图像](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![图像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. 您可以使用“活动自”和“活动至”字段从日期选取 **器指定日期** , **直至字段** 。
 
