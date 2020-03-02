@@ -4,7 +4,7 @@ seo-title: 资产级别激活
 description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 seo-description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 利用此功能，您不仅可以指定开始和结束日期和时间，还可以指定循环模式。
 
-## 单个事件播放 {#single-event-playback}
+## 激活窗口 {#single-event-playback}
 
 资产级别激活是通过在访问资产属性 **时配置** “激活”选项卡来完成的。
 
