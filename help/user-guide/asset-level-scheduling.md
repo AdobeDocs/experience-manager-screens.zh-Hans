@@ -4,14 +4,14 @@ seo-title: 资产级别激活
 description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 seo-description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # 资产级别激活 {#asset-level-scheduling}
 
-本节介绍渠道中使用的资产的资产级别激活。
+本页介绍了渠道中使用的资产的资产级别激活。
 
 本节将介绍以下主题：
 
@@ -58,9 +58,9 @@ source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 1. 单击 **编辑** ，以打开渠道编辑器，然后选择要将计划应用到的资产。
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![图像](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. 选择资产，然后单击左上角 **的配置** 图标以打开图像的属性。
+1. 选择资产，然后单击左上角的 **配置** （扳手图标）以打开图像的属性。
 
    Click the **Activation** tab.
 
@@ -80,7 +80,7 @@ source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ### 分时段 {#day-parting}
 
-1. 选择资产，然后单击 **配置** 图标以打开属性对话框。
+1. 选择资产，然后单击 **配置** （扳手图标）以打开属性对话框。
 
 1. 输入开始日期／时间和结束／日期时间后，您可以使用表达式或自然文本版本指定循环计划。
 
@@ -108,7 +108,7 @@ source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ### 分周 {#week-parting}
 
-1. 选择资产，然后单击 **配置** 图标以打开属性对话框。
+1. 选择资产，然后单击 **配置** （扳手图标）以打开属性对话框。
 
 1. 输入开始日期／时间和结束／日期时间后，您可以使用表达式或自然文本版本指定循环计划。
 
@@ -135,7 +135,8 @@ source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ### 分月 {#month-parting}
 
-1. 选择资产，然后单击 **配置** 图标以打开属性对话框。
+1. 选择资产，然后单击 **配置** （扳手图标）以打开属性对话框。
+
 1. 输入开始日期／时间和结束／日期时间后，您可以使用表达式或自然文本版本指定循环计划。
 
    > [!NOTE]
