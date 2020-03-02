@@ -5,7 +5,7 @@ description: 可查看本页以了解如何在MultiZone布局中创建自定义�
 seo-description: 可查看本页以了解如何在MultiZone布局中创建自定义模板。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
+source-git-commit: 90d3d91f127432d8783748f00440bc6949262826
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
 
-![图像](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+![图像](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## 创建Left20-LandscapeHD3Zone布局 {#landscape-layout-one}
 
