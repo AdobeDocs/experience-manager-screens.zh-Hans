@@ -11,12 +11,12 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# 频道级别激活——单个事件播放 {#channel-level-activation-single-event-playback}
+# 渠道级别激活 {#channel-level-activation-single-event-playback}
 
 使用渠道级别激活涵盖以下主题：
 
@@ -87,7 +87,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **在位置下创建显示**
 
-   1. 导航到渠 **道级别激活** &gt;位 **置** &gt;区 **域**。
+   1. 导航到渠 **道级别激活** >位 **置** >区 **域**。
    1. 选择 **区域** ，然后单击操 **作栏中的** +创建。
    1. 从向 **导中选择** “显示”，然后创建标题为RegionDisplay的 **显示。**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    对于 **MainAdChannel:**
 
-   1. 导航到渠道 **级别激活** &gt; &gt; **位置** &gt; **区域** &gt;区域单击 ******** 操作中的显示和分配渠道分配。
+   1. 导航到渠道 **级别激活** > > **位置** > **区域** >区域单击 ******** 操作中的显示和分配渠道分配。
    1. **“渠道分配** ”对话框打开。
    1. Select **Reference Channel**.. by path.
-   1. 选择渠道 **路径** “渠道 **级别激活”** —&gt;“渠道 ***”—*********&gt;MainChannelAdChannel。
+   1. 选择渠道 **路径** “渠道 **级别激活”** —>“渠道 ***”—*********>MainChannelAdChannel。
    1. 渠 **道角色将填充** ，作为 **主渠道**。
    1. 选择优 **先级** , **为1**。
    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
@@ -108,14 +108,14 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >您还可以通过以下方式从显示控制板中分配 **渠道** ：渠道级别激活 **—&gt;位置** —&gt;位置 **—&gt;区域—********** &gt;显示区域显示从操作中导航到操作栏的单击和DisplayDashboardDashboard。 从“已 **分配的渠道和计划** ”面板 **中单击+分配渠道** 。
+   >您还可以通过以下方式从显示控制板中分配 **渠道** ：渠道级别激活 **—>位置** —>位置 **—>区域—********** >显示区域显示从操作中导航到操作栏的单击和DisplayDashboardDashboard。 从“已 **分配的渠道和计划** ”面板 **中单击+分配渠道** 。
 
    同样，为显示屏 **分配渠道TargetedSinglePlay** **:
 
-   1. 导航到渠 **道级别激活** —&gt;位 **置** —&gt;位置 **—&gt;** 区域 ******** — Region Display bar单击操作中的Channel Assign Assign From the action。
+   1. 导航到渠 **道级别激活** —>位 **置** —>位置 **—>** 区域 ******** — Region Display bar单击操作中的Channel Assign Assign From the action。
    1. **“渠道分配** ”对话框打开。
    1. Select **Reference Channel**.. by path.
-   1. 选择渠 **道路径** ，作 **为渠道级别激活*** —&gt;渠道 ***—*********&gt;目标SinglePlay Reactive。
+   1. 选择渠 **道路径** ，作 **为渠道级别激活*** —>渠道 ***—*********>目标SinglePlay Reactive。
    1. 渠道 **角色将填充** ，作为目 **标单独播放**。
    1. 将“优 **先级** ”设置为 **2**。
    1. 选择“支 **持的事件** ”, **如**“初始加载”、“空闲屏幕 **”和“******&#x200B;计时器”*，如下图所示。
