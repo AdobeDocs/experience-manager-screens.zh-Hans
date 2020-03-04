@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 23ecaf3533c2298d98c37f2bbcb6cbe50aed17fc
 
 ---
 
@@ -33,17 +33,17 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 ### 添加嵌入式序列 {#adding-an-embedded-sequence}
 
-您可以将嵌入式序列添加到渠道中。嵌入式序列是包含图像或视频等资产的另一个渠道。 Adding an embedded sequence allows the user to add the sequence to a channel by ***Channel Path***.
+您可以将嵌入式序列添加到渠道中。嵌入式序列是包含图像或视频等资产的另一个渠道。 添加嵌入式序列时，用户可以按“渠道路径”******&#x200B;将序列添加到渠道。
 
 >[!NOTE]
 >
->***渠道路径***定义对渠道的显式引用。
+>***渠道路径*** 定义对渠道的显式引用。
 >
 >要了解“渠道路径”**&#x200B;的更多信息，请参阅“创作屏幕”中的[渠道分配](channel-assignment.md)。
 
 请按照以下步骤向您的渠道中添加嵌入式序列：
 
-1. 选择要嵌入页面的渠道。For example, **We.Retail In-Store** --&gt; **Channels** --&gt;** Idle Channel**.
+1. 选择要嵌入页面的渠道。For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
 1. 单击左侧栏中的组件图标以添加嵌入式页面。Drag and drop the **Embedded Sequence** to the editor.
@@ -53,12 +53,9 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 1. 将“按量 **收费播放策略** ”设 **置为正常**。
 
-By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
->[!NOTE]
->
->**重要说明：**
->
+>[!I重要]
 >必须将渠道（在嵌入式序列中使用）分配到同一显示屏。
 >
 >在之前的步骤中将嵌入式序列添加到渠道后，请按照以下步骤操作：
@@ -88,21 +85,21 @@ By default, it is set to **normal**. Setting the value to **normal*** (Play all 
 
 >[!NOTE]
 >
->***“渠道角色”***&#x200B;定义了显示屏的上下文。
+>“渠道角色”******&#x200B;定义了显示屏的上下文。
 >
 >要了解“渠道角色”**&#x200B;的更多信息，请参阅“创作屏幕”中的[渠道分配](channel-assignment.md)。
 
 请按照以下步骤向您的渠道中添加嵌入式序列：
 
-1. 选择要嵌入动态序列的渠道。For example, **We.Retail In-Store** --&gt; **Channels** --&gt; **Idle Channel**.
+1. 选择要嵌入动态序列的渠道。For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
 1. 单击左侧栏中的组件图标以添加动态嵌入式序列。将动&#x200B;**态** **嵌入式序列**拖放到编辑器中。
 
-1. Double-click the **Dynamic** **Embedded Sequence **component to add the page to your sequence channel.
+1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
 1. Enter the **Channel Assignment Role**.
-1. 将“按量 **收费播放策略** ”设 **置为正常**。 By default, it is set to **normal**. Setting the value to **normal*** (Play all items)* means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item*** (Play a single item)* and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. 将“按量 **收费播放策略** ”设 **置为正常**。 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
 
