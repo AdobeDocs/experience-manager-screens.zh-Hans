@@ -185,7 +185,7 @@ source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. 从“组件激活”对话框 **的“活动****时间”和“活** 动到”中选 **择日期和时间** 。 选择计划后，单击复选标记图标。
+1. 从“组件激活”对话框 **的“活动** ”和“活 **动到”中选** 择日期和时间 **** 。 选择计划后，单击复选标记图标。
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
