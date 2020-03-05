@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
 
 ---
 
@@ -97,7 +97,7 @@ source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 1. **在位置下创建显示**
 
    1. 导航到渠 **道级别激活** >位 **置** >区 **域**。
-   1. 选择 **区域** ，然后单击操 **作栏中的** +创建。
+   1. 选择 **区域** ，然后单击操 **作栏中的+创建** 。
    1. 从向 **导中选择** “显示”，然后创建标题为RegionDisplay的 **显示。**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
