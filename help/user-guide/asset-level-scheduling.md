@@ -4,7 +4,7 @@ seo-title: 资产级别激活
 description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 seo-description: 可查看本页以了解如何在渠道中为播放器的本地时区内的预定时间范围激活特定资产。
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
    * 分时段
    * 分周
    * 分月
+   * 部分组合
 * 多资产激活
 
 >[!CAUTION]
