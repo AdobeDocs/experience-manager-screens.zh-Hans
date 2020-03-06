@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 121aee4c8bf08e30898cc25d274ef4fc6bded5aa
 
 ---
 
@@ -49,17 +49,17 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 | **属性** | **描述** |
 |---|---|
-| ***path {string*}** | 位置的资源路径 |
-| ***[./jcr:title]{string*}** | 要使用的模板的名称(即屏幕／核心／模 *板／位置的位置*) |
+| ***path {string *}** | 位置的资源路径 |
+| ***[./jcr:title]{string *}** | 要使用的模板的名称(即屏幕／核心／模 *板／位置的位置*) |
 | ***模板{string}*** | 用于页面的可选标题 |
 | ***[./jcr:description]{string}*** | 用于页面的可选说明 |
 
 因此，电子表格(CSV/XLS)文件需要以下列：
 
-* **path {string}** the path for the location the imported, where the path root of the project is the location folder for the project( */foo* will imported to */content/screens/&lt;project&gt;/locations/foo*)
+* **path {string}** the path for the location the imported, where the path root of the project is the location folder for the project( */foo* will imported to */content/screens/&lt;project>/locations/foo*)
 
 * **模板{string}** （用于新位置的模板），目前唯一允许的值是“location”，但此值将扩展到将来的所有Screens模板（“display”、“sequencechannel”等）
-* [**./*] {string}**要在该位置（即，）上设置的任何可选属性。/jcr:title, ./jcr:description, ./foo、。/条形图). 当前版本不允许过滤
+* **[./*]{string}**Any optional property to be set on the location(即，./jcr:title, ./jcr:description, ./foo、。/条形图). 当前版本不允许过滤
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 从侧栏中选择项目，** DemoProjectImporter **—** &gt; **创建—** &gt;导入位置**。
+1. 从侧栏中选择项目，** DemoProjectImporter **—** > **创建—** >导入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
