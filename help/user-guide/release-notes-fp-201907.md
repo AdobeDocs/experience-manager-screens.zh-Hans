@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 AEM Screens发布了AEM 6.4.5功能包5和AEM 6.5.1功能包1，其中包含以下详细信息。
 
-## 发布日期 {#release-date}
+## Release Date {#release-date}
 
 AEM Screens功能包201907的发布日期为2019年7月31日。
 
@@ -36,7 +36,7 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 有关实施 [，请参阅Exerncy Channel](emergency-channel.md) Use Case。
 
-* **定位为异步组件(如&#x200B;*视频、嵌入式序列*)启用**
+* **异步组件已启用定位
 
 现在可以为在AEM Screens项目中使用的资产启用定位。
 
