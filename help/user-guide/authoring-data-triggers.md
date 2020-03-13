@@ -3,7 +3,7 @@ title: 使用数据触发器进行创作
 seo-title: 使用数据触发器进行创作
 description: 可查看本页以了解如何使用数据触发器进行创作。
 translation-type: tm+mt
-source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
+source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
 ---
 
@@ -12,13 +12,20 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 本节重点介绍如何在渠道中启用定位。
 
+>[!IMPORTANT]
+> 在AEM Screens渠道中支持数据触发器的最低版本是AEM 6.4.3功能包3。
+
 ## 前提条件 {#prereqs}
 
-在按照以下步骤启用渠道定位之前，您必须了解以下主题：
+在按照以下步骤在渠道中启用定位之前，您必须先阅读在AEM Screens中配置中的关键术语 [](configuring-context-hub.md) ，了解AEM Screens中的ContextHub和定位。
 
-1. 在AEM Screens中配置的关键术语
-1. 设置数据存储
-1. 设置受众细分
+>[!IMPORTANT]
+> 建议您先了解并设置ContextHub配置，然后再在AEM Screens渠道中启用定位。
+
+请访问以下链接以了解更多信息：
+
+1. **[设置数据存储](configuring-context-hub.md)**
+1. **[设置受众细分](configuring-context-hub.md)**
 
 完成上述步骤后，您便可以在渠道中启用定位。
 
@@ -30,7 +37,7 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 按照以下步骤在您的渠道中启用定位。
 
-1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创 **建的DataDrivenRetail** 启用定位。
+1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创 **建的DataDrivenRetail***（序列渠道）* ，启用定位。
 
 1. 选择渠道 **DataDrivenRetail** ，然后 **单击操作栏中的** “属性”。
 
@@ -44,19 +51,22 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
    1. 单击 **保存并关闭**。
    >[!NOTE]
-   使用ContextHub和“区段”路径，您最初在该路径中保存了Context Hub配置和区段。
+   >
+   >使用ContextHub和“区段”路径，您最初在该路径中保存了Context Hub配置和区段。
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
 1. 导航并从DataDrivenAssets > **Channels中选择** DataDriven Retail **，然后单击** ActionBar中 ******** 的EditRetail。
 
    >[!NOTE]
-   如果您正确设置了所有内容，您将在编辑器的下拉框中看到 **Targeting** （定位）选项，如下图所示。
+   >
+   >如果您正确设置了所有内容，您将在编辑器的下拉框中看到 **Targeting** （定位）选项，如下图所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
    >[!NOTE]
-   为渠道配置ContextHub配置后，如果您希望遵循以下所有使用案例，请确保对其他三个序列渠道也遵循前面的步骤（从1到4）。
+   >
+   >为渠道配置ContextHub配置后，如果您希望遵循以下所有使用案例，请确保对其他三个序列渠道也遵循前面的步骤（从1到4）。
 
 ### 了解更多：示例用例 {#learn-more-example-use-cases}
 
