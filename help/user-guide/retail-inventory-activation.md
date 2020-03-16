@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -38,13 +38,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 1. **填充Google工作表**
 
-   1. 导航到ContextHubDemo google工作表。
+   1. 导航到ContextHubDemo Google工作表。
    1. 添加三列（红色、绿色和蓝色），并为三个不同的运动衫添加相应的值。
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **根据要求配置受众**
 
-   1. 导航到受众中的区段(请参 ***阅步骤2:有关更多详细信息*** ，请 **[在“AEM Screens”页面中配置ContextHub](configuring-context-hub.md)** ，设置受众细分。)
+   1. 导航到受众中的区段(请参 ***阅步骤2:有关更多详细信息*** ，请 **[在“AEM Screens”页面中配置ContextHub](configuring-context-hub.md)**，设置受众细分。)
 
    1. 添加三个 **新段For_Red**、 **For_Green**&#x200B;和 **For_Blue**。
 
@@ -53,16 +53,16 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    1. 拖放比 **较：属性** -编辑器的属性，然后单击配置图标以编辑属性。
    1. 从“ **第一个属性名称”的下拉菜单中选择“****工具表／值/1/2”**
 
-   1. 从下 **拉菜单中选择运算符** **greater-than **
+   1. 从下 **拉菜** 单中选择 **“大于”(Greater** -than)运算符
 
    1. 选择数 **据类型** ，作为 **数字**
 
-   1. 从 **第二个属性名称的下拉菜单中选择****googlesheets/value/1/1**
+   1. 从“ **第二个属性名称** ”的下拉菜单中选择 **googlesheets/value/1/1**。
 
-   1. 拖放**另一个比较：属性——对于编辑器的属性**，单击配置图标以编辑属性。
-   1. 从“ **第一个属性名称”的下拉菜单中选择“****工具表／值/1/2”**
+   1. 拖放另一 **个比较：属性** -编辑器的属性，然后单击配置图标以编辑属性。
+   1. 从 **“首个属性名称”的下拉菜单中选择** googlesheets/value/1/2 ****。
 
-   1. 从下 **拉菜单中选择运算符** **greater-than **
+   1. 从下 **拉菜** 单中选择 **“大于”(Greater** -than)运算符
 
    1. 选择数 **据类型** ，作为 **数字**
 
@@ -92,7 +92,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   要在启动定位流程 **时正确列出活动****** ，必须同时选择品牌和区域。
+   要在启动定位流 **程时正确列** 出活动 **** ，您必须选择品牌和区域。
 
 1. **添加默认图像**
 
