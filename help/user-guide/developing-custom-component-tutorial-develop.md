@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
 
 ---
 
@@ -83,15 +83,15 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
    * `/content/screens/we-retail-run`
    此包中包含项目所需的启动内容和配置结构。 **`/conf/we-retail-run`** 包含We.Retail Run项目的所有配置。 **`/content/dam/we-retail-run`** 包括为项目启动数字资产。 **`/content/screens/we-retail-run`** 包含Screens内容结构。 所有这些路径下的内容主要在AEM中更新。 为了提高环境（本地、开发、舞台、产品）之间的一致性，通常在源控件中保存基本内容结构。
 
-1. **导航到AEM Screens &gt; We.Retail Run项目：**
+1. **导航到AEM Screens > We.Retail Run项目：**
 
-   从AEM开始菜单&gt;单击屏幕，然后单击图标。 验证是否可以看到We.Retail Run Project。
+   从AEM开始菜单>单击屏幕，然后单击图标。 验证是否可以看到We.Retail Run Project。
 
    ![我们继续运行的起动器](assets/we-retaiul-run-starter.png)
 
-## 创建Hello world组件 {#hello-world-cmp}
+## 创建Hello World组件 {#hello-world-cmp}
 
-Hello world组件是一个简单的组件，它允许用户输入要在屏幕上显示的消息。 该组件基于 [AEM Screens组件模板：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)。
+Hello World组件是一个简单的组件，它允许用户输入要在屏幕上显示的消息。 该组件基于 [AEM Screens组件模板：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)。
 
 AEM Screens有一些有趣的限制，这对于传统的WCM Sites组件未必是如此。
 
@@ -154,7 +154,7 @@ AEM Screens有一些有趣的限制，这对于传统的WCM Sites组件未必是
    </div>
    ```
 
-   以上是Hello world组件的制作标记。 由于 `data-duration` 组件在序列渠道上使用，因此包含属性。 序 `data-duration` 列渠道使用该属性来了解要显示序列项的时长。
+   以上是Hello World组件的制作标记。 由于 `data-duration` 组件在序列渠道上使用，因此包含属性。 序 `data-duration` 列渠道使用该属性来了解要显示序列项的时长。
 
    组件使用文 `div` 本呈现 `h1` 和标记。 `${properties.message}` 是HTL脚本的一部分，它将输出名为的JCR属性的内容 `message`。 稍后会创建一个对话框，允许用户为属性文本输 `message` 入值。
 
@@ -185,11 +185,11 @@ AEM Screens有一些有趣的限制，这对于传统的WCM Sites组件未必是
    </div>
    ```
 
-   以上是Hello world组件的编辑标记。 如果填充了对话框消息，则第一个块会显示组件的编辑版本。
+   以上是Hello World组件的编辑标记。 如果填充了对话框消息，则第一个块会显示组件的编辑版本。
 
    如果未输入对话框消息，则呈现第二块。 在此 `cq-placeholder` 情 `data-emptytext` 况下，将标签 ***Hello World*** 作为占位符呈现。 标签的字符串可以使用i18n进行国际化，以便支持在多个区域设置中进行创作。
 
-1. **复制屏幕图像对话框，用于Hello world组件。**
+1. **复制屏幕图像对话框，用于Hello World组件。**
 
    最简单的方法是从现有对话框开始，然后进行修改。
 
@@ -269,7 +269,7 @@ AEM Screens有一些有趣的限制，这对于传统的WCM Sites组件未必是
 
 在编辑模式与预览／生产模式下，AEM Screens组件的呈现方式不同。 将创建两个客户端库，一个用于编辑模式，另一个用于预览／制作。
 
-1. 为Hello world组件的客户端库创建一个文件夹。
+1. 为Hello World组件的客户端库创建一个文件夹。
 
    在下 `/apps/weretail-run/components/content/helloworld`面创建一个名为的新文件夹 `clientlibs`。
 
@@ -379,7 +379,7 @@ AEM Screens有一些有趣的限制，这对于传统的WCM Sites组件未必是
 
 AEM Screens使用静 [态页面模板](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)[和设计配](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) 置进行全局更改。 设计配置通常用于为渠道上的Parsys配置允许的组件。 最佳实践是以特定于应用程序的方式存储这些配置。
 
-在We.Retail Run设计页面下创建，该页面将存储特定于We.Retail Run项目的所有配置。
+将在We.Retail Run设计页面下创建，该页面将存储特定于We.Retail Run项目的所有配置。
 
 1. 在 **CRXDE-Lite中**`http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs` ，导航到 `/apps/settings/wcm/designs`
 1. 在设计文件夹下创建一个新节点，该节 `we-retail-run` 点以类型命名 `cq:Page`。
@@ -399,7 +399,7 @@ AEM Screens使用静 [态页面模板](https://helpx.adobe.com/experience-manage
 
 Hello World组件旨在用于序列渠道。 要测试组件，将创建新的序列渠道。
 
-1. 从AEM开始菜单中，导航到 **Screens** &gt; **We.Retail** Run &gt;并选择 **渠道**。
+1. 从AEM开始菜单中，导航到 **Screens** > **We.Retail** Run >并选择 **渠道**。
 
 1. 单击“创 **建** ”按钮
 
@@ -408,11 +408,11 @@ Hello World组件旨在用于序列渠道。 要测试组件，将创建新的�
 
 1. 在创建向导中：
 
-1. 模板步骤——选择**序列渠道**
+1. 模板步骤——选择序 **列渠道**
 
    1. 属性步骤
-   * 基本选项卡&gt;标题=空 **闲渠道**
-   * 渠道选项卡&gt;选中使 **渠道联机**
+   * 基本选项卡>标题=空 **闲渠道**
+   * 渠道选项卡>选中使 **渠道联机**
    ![空闲通道](assets/idle-channel.gif)
 
 1. 打开空闲渠道的页面属性。 更新“设计”字段，以指 `/apps/settings/wcm/designs/we-retail-run,`向在上一节中创建的设计页面。
@@ -430,7 +430,7 @@ Hello World组件旨在用于序列渠道。 要测试组件，将创建新的�
    1. 选择 **Screens组** ，选择 **We.Retail Run - Content** 组。
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. 将页面模式切换为“ **编辑”**。 Hello world组件现在可添加到页面并与其他序列渠道组件组合。
+1. 将页面模式切换为“ **编辑”**。 Hello World组件现在可添加到页面并与其他序列渠道组件组合。
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
@@ -440,11 +440,89 @@ Hello World组件旨在用于序列渠道。 要测试组件，将创建新的�
 
    在/apps/settings/wcm/designs/we-retail-run下进行设计配置
 
+## 自定义处理函数模板 {#custom-handlers}
+
+下面的部分重点介绍自定义处理程序的模板以及该特定项目的pom.xml中的最低要求。
+
+```java
+   package …;
+
+   import javax.annotation.Nonnull;
+
+   import org.apache.felix.scr.annotations.Component;
+   import org.apache.felix.scr.annotations.Reference;
+   import org.apache.felix.scr.annotations.Service;
+   import org.apache.sling.api.resource.Resource;
+   import org.apache.sling.api.resource.ResourceUtil;
+   import org.apache.sling.api.resource.ValueMap;
+
+   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+
+   @Service(value = OfflineResourceHandler.class)
+   @Component(immediate = true)
+   public class MyCustomHandler extends AbstractResourceHandler 
+   {
+
+    @Reference
+    private …; // OSGi services injection
+
+    /**
+     * The resource types that are handled by the handler.
+     * @return the handled resource types
+     */
+    @Nonnull
+    @Override
+    public String[] getSupportedResourceTypes() {
+        return new String[] { … };
+   }
+
+    /**
+     * Accept the provided resource, visit and traverse it as needed.
+     * @param resource The resource to accept
+     */
+    @Override
+    public void accept(@Nonnull Resource resource) 
+      {
+        ValueMap properties = ResourceUtil.getValueMap(resource);
+        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
+        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
+        …
+        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
+        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
+        …
+      }
+   }
+```
+
+以下代码在pom.xml中为特定项目提供了最低要求：
+
+```css
+   <dependencies>
+        …
+        <!-- Felix annotations -->
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>org.apache.felix.scr.annotations</artifactId>
+            <version>1.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Screens core bundle with OfflineResourceHandler/AbstractResourceHandler -->
+        <dependency>
+            <groupId>com.adobe.cq.screens</groupId>
+            <artifactId>com.adobe.cq.screens</artifactId>
+            <version>1.5.90</version>
+            <scope>provided</scope>
+        </dependency>
+        …
+      </dependencies>
+```
+
 ## 整合 {#putting-it-all-together}
 
 以下视频显示完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到位置显示屏，并最终分配给Screens播放器。
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
 ## 完成的代码 {#finished-code}
 
