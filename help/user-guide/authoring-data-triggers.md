@@ -3,7 +3,7 @@ title: 使用数据触发器进行创作
 seo-title: 使用数据触发器进行创作
 description: 可查看本页以了解如何使用数据触发器进行创作。
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 本节重点介绍如何在渠道中启用定位。
 
 >[!IMPORTANT]
-> 在AEM Screens渠道中支持数据触发器的最低版本是AEM 6.4.3功能包3。
+> 在AEM Screens渠道中支持数据触发器的最低版本是AEM 6.5.3功能包3。
 
 ## 前提条件 {#prereqs}
 
@@ -56,7 +56,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 导航并从DataDrivenAssets > **Channels中选择** DataDriven Retail **，然后单击** ActionBar中 ******** 的EditRetail。
+1. 导航并从DataDrivenAssets > **Channels中选择** DataDriven Retail **，然后单击** ActionBar中 ******** 的EditRetail。 在渠道编辑器中拖放资产。
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >为渠道配置ContextHub配置后，如果您希望遵循以下所有使用案例，请确保对其他三个序列渠道也遵循前面的步骤（从1到4）。
+1. 单击 **定位**。
+
+1. 从下 **拉菜单中选择品** 牌 **和活动** ，然后单击开始 **定位**。
 
 ### 了解更多：示例用例 {#learn-more-example-use-cases}
 
