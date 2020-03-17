@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,17 +24,17 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 要实施适用于AEM Screens的Windows播放器，请安装适用于AEM Screens的Windows播放器。
 
-访问 [**AEM 6.4播放器下载页**](https://download.macromedia.com/screens/) 。
+访问 [**AEM 6.4播放器下载页&#x200B;**](https://download.macromedia.com/screens/)。
 
 ### Ad-Hoc方法 {#ad-hoc-method}
 
-临时方法允许您安装最新的Windows播放器(*.exe*)。 访问 [**AEM 6.4播放器下载页**](https://download.macromedia.com/screens/) 。
+临时方法允许您安装最新的Windows播放器(*.exe*)。 访问 [**AEM 6.4播放器下载页&#x200B;**](https://download.macromedia.com/screens/)。
 
 下载应用程序后，请按照播放器上的步骤完成临时安装：
 
 1. 长按左上角以打开管理面板。
 1. 从左 **侧操作菜单导航到** “配置”，然后输入要连接到的AEM实例的位置（地址）并单击“保 **存”**。
-1. 从左侧操作 **菜单导航到** Device **Registration** （设备注册）链接，检查设备注册过程的状态。
+1. 从左侧操 **作菜单导航到** “设备注册 **** ”链接，以检查设备注册过程的状态。
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 1. 启用Shell启动器。
 
-   有关其他信 ***息，请参阅Microsoft windows支持在*****[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell Launcher页中配置Shell Launcher一节。
+   有关其他信 ***息，请参阅Microsoft Windows支持在*****[](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**Shell Launcher页中配置Shell Launcher一节。
 
 1. 创建一个非管理用户（如果您还没有）用于Kiosk。 这可以是本地用户或域用户。
 1. 从 [AEM Screens播放器下载页面为该Kiosk用户安装Windows播放器](https://download.macromedia.com/screens/) 。
@@ -119,7 +119,7 @@ source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 Windows播放器的默认安装路径是：
 
-***C:\Users\&amp;lt；您的用户&gt;\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt；您的用户>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 链接中的示例脚本将启用和禁用自定义外壳程序。 因此，您可能需要将脚本拆分为两个，并启用／禁用以下适用行：
 
