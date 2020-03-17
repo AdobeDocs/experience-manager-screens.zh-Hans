@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 请按照以下步骤为显示屏分配渠道：
 
-1. 导航到所需的显示屏，例如， **DemoProject** —&gt; **Locations** —&gt; **SanJose** —&gt; **** StoreDisplayDisplay。
+1. 导航到所需的显示屏，例如， **DemoProject** —> **Locations** —> **SanJose** —> **** StoreDisplayDisplay。
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -78,7 +78,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
    * **用户交互**：如果在空闲渠道中屏幕（触控）上存在用户交互，播放器将切换到指定的渠道，并将在触摸屏幕时加载该渠道
    **计划**：
 
-   通过计划，您可以在应当显示渠道时提供文本形式的说明。It also let's you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 计划表达式的语法基于later.js的文本和cron语法：
+   通过计划，您可以在应当显示渠道时提供文本形式的说明。It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 计划表达式的语法基于later.js的文本和cron语法：
 
    * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
    * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
@@ -90,7 +90,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ### 分时段功能 {#dayparting}
 
-Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens 允许您按照要求在一天、一周或一个月内分时段计划渠道。
 
@@ -148,7 +148,7 @@ Schedules when when combined with **Dayparting**, allows you to set a global sch
 
 >[!NOTE]
 >
->此外，您可以为每个渠道定义&#x200B;***优先级**。*&#x200B;例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
+>此外，您可以为每个渠道定义&#x200B;***优先级***。例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
 
 #### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
 
