@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -442,7 +442,7 @@ Hello World组件旨在用于序列渠道。 要测试组件，将创建新的�
 
 ## 自定义处理函数模板 {#custom-handlers}
 
-下面的部分重点介绍自定义处理程序的模板以及该特定项目的pom.xml中的最低要求。
+以下部分显示了自定义处理程序的模板以及特定项目的pom.xml中的最低要求。
 
 ```java
    package …;
