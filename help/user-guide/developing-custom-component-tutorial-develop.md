@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
+source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
 
@@ -369,7 +369,7 @@ AEM Screens有一些有趣的限制，这对于传统的WCM Sites组件未必是
 
 第三个clientlibrary类别：可 `cq.screens.components.edit` 用于向组件添加仅编辑特定样式。
 
-| Clientlib类别 | 使用情况 |
+| Clientlib类别 | 使用 |
 |---|---|
 | `cq.screens.components` | 在编辑模式和生产模式之间共享的样式和脚本 |
 | `cq.screens.components.edit` | 仅在编辑模式中使用的样式和脚本 |
@@ -442,59 +442,76 @@ Hello World组件旨在用于序列渠道。 要测试组件，将创建新的�
 
 ## 自定义处理函数模板 {#custom-handlers}
 
-以下部分显示了自定义处理程序的模板以及特定项目的pom.xml中的最低要求。
+如果您的自定义组件使用外部资源(如资产（图像、视频、字体、图标等）、特定资产演绎版或客户端库（css、js等），则这些资源不会自动添加到脱机配置中，因为我们默认情况下只捆绑HTML标记。
+
+为了让您自定义和优化下载到播放器的确切资产，我们为自定义组件提供了一个扩展机制，以在Screens中显示其依赖关系到脱机缓存逻辑。
+
+以下部分显示了自定义脱机资源处理程序的模板以及该特定项目中 `pom.xml` 的最低要求。
 
 ```java
-   package …;
+package …;
 
-   import javax.annotation.Nonnull;
+import javax.annotation.Nonnull;
 
-   import org.apache.felix.scr.annotations.Component;
-   import org.apache.felix.scr.annotations.Reference;
-   import org.apache.felix.scr.annotations.Service;
-   import org.apache.sling.api.resource.Resource;
-   import org.apache.sling.api.resource.ResourceUtil;
-   import org.apache.sling.api.resource.ValueMap;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
+import org.apache.sling.api.resource.ValueMap;
 
-   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+import com.adobe.cq.screens.visitor.OfflineResourceHandler;
 
-   @Service(value = OfflineResourceHandler.class)
-   @Component(immediate = true)
-   public class MyCustomHandler extends AbstractResourceHandler 
-   {
+@Service(value = OfflineResourceHandler.class)
+@Component(immediate = true)
+public class MyCustomHandler extends AbstractResourceHandler {
 
-    @Reference
-    private …; // OSGi services injection
+ @Reference
+ private …; // OSGi services injection
 
-    /**
-     * The resource types that are handled by the handler.
-     * @return the handled resource types
-     */
-    @Nonnull
-    @Override
-    public String[] getSupportedResourceTypes() {
-        return new String[] { … };
+ /**
+  * The resource types that are handled by the handler.
+  * @return the handled resource types
+  */
+ @Nonnull
+ @Override
+ public String[] getSupportedResourceTypes() {
+     return new String[] { … };
+ }
+
+ /**
+  * Accept the provided resource, visit and traverse it as needed.
+  * @param resource The resource to accept
+  */
+ @Override
+ public void accept(@Nonnull Resource resource) {
+     ValueMap properties = ResourceUtil.getValueMap(resource);
+     
+     /* You can directly add explicit paths for offline caching using the `visit`
+        method of the visitor. */
+     
+     // retrieve a custom property from the component
+     String myCustomRenditionUrl = properties.get("myCustomRenditionUrl", String.class);
+     // adding that exact asset/rendition/path to the offline manifest
+     this.visitor.visit(myCustomRenditionUrl);
+     
+     
+     /* You can delegate handling for dependent resources so they are also added to
+        the offline cache using the `accept` method of the visitor. */
+     
+     // retrieve a referenced dependent resource
+     String referencedResourcePath = properties.get("myOtherResource", String.class);
+     ResourceResolver resolver = resource.getResourceResolver();
+     Resource referencedResource = resolver.getResource(referencedResourcePath);
+     // let the handler for that resource handle it
+     if (referencedResource != null) {
+         this.visitor.accept(referencedResource);
+     }
    }
-
-    /**
-     * Accept the provided resource, visit and traverse it as needed.
-     * @param resource The resource to accept
-     */
-    @Override
-    public void accept(@Nonnull Resource resource) 
-      {
-        ValueMap properties = ResourceUtil.getValueMap(resource);
-        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
-        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
-        …
-        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
-        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
-        …
-      }
-   }
+}
 ```
 
-以下代码在pom.xml中为特定项目提供了最低要求：
+以下代码为特定项目提供 `pom.xml` 了最低要求：
 
 ```css
    <dependencies>
