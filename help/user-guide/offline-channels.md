@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -93,7 +93,7 @@ ContentSync ****** 使用更新处理程序来分析和收集特定项目的所�
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **导航到渠道功能板，然后单**&#x200B;击……在“渠 **道信息** ”面板中更改属性。
+1. 导航到渠道功能板，然后单 **击……** 在“渠 **道信息** ”面板中更改属性。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -113,3 +113,5 @@ ContentSync ****** 使用更新处理程序来分析和收集特定项目的所�
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> 要进一步了解自定义脱机资源处理程序的模板以及特定项目中的最低要求，请参 `pom.xml` 阅为AEM Screens开发自定义组件中的 [自定义处理](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 程序模板 ****。
