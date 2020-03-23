@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -56,7 +56,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 >[!NOTE]
 >
->To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)** under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)**under Authoring section in AEM Screens documentation.
 
 ## 使用动态嵌入式序列 {#using-dynamic-embedded-sequence-2}
 
@@ -72,7 +72,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 * 将内容添加到 **Global** Channel(*请检查&#x200B;**Resources.zip**，获取相关资产*)
 
-下图显示了Channels文件夹 **中带** Global **channel的Demo****项目** 。
+下图显示了Channels文件夹 **中** Global Channel **的Demo****项目** 。
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### 资源 {#resources}
@@ -121,13 +121,13 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 1. **在每个位置文件夹下创建两个位置和一个渠道。**
 
-   1. 导航到 **演示** —&gt;位 **置** —&gt; **区域A**。
+   1. 导航到 **演示** —>位 **置** —> **区域A**。
    1. 选择 **区域A** ，然后单击操 **作栏中的** +创建。
    1. 从 **标题为** Store 1的向导中 **选择** “ **位置”**。 同样，从标题为“商店2”的向导中创建另一个 **位置** ，将标题 **设置为** 商店2 ****。 在创建商店1和 **商店** 2时，您可以将“名称 **”字段保留为空******。
-   1. 重复步骤(b)，现在从向导 **中选择序列渠道** 。 对于此 **渠道** ，输 **入标题** （A区域）和名 **称** （A区域）**区域**。
+   1. 重复步骤(b)，现在从向导 **中选择序列渠道** 。 对于此 **渠道** ，输 **入标题** （A区域）和名 **称** （A区域）。
    >[!CAUTION]
    >
-   >请确保在创建渠道区 **域A**&#x200B;时，输入 **Title** as **Region A **，并将 **Name****** as regionRegion。
+   >请确保在创建渠道 **A区域时**，输入 **Title** as **Region A，并将NameName**********&#x200B;作为Region A。
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -141,7 +141,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 1. **在每个位置下创建显示屏和渠道。**
 
-   1. 导航到 **Demo** — &gt; **Locations** — &gt; **Region A** — ****&gt; Store 1
+   1. 导航到 **Demo** — > **Locations** — > **Region A** — ****> Store 1
    1. 选 **择Store 1** ，然后单击操 **作栏中的Create** 。
    1. 从向 **导中选择** “显示”，然后创建 **Store1Display。**
    1. 重复步骤(b)，此时从向导中 **选择序列渠道** 。 输入 **Title** **as** Store1Channel **,** Name **as store** Therned。
@@ -149,11 +149,11 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
    >
    >创建序列渠道时，渠道的 **Title** （标题）可以作为您的要求，但 **Name** （名称）应在所有本地渠道中相同。
    >
-   >在这方面， **A** , **B区下的信道与** RegionAndB **StoreStoreStore 2,Store 3Store,Store 4StoreShoreShoreShore的同一RegionA区和** B区下的信道和Stre下的信道相同，例如ShoreShoreSheShopSheShChaShopShShopShopShShore **ShoreSShore ShoreChShoreChSShShoreSShoreSShoreShoreReSShoreShoreShoreShoreShoreShore************************** ShoreS
+   >在这方面， **A** , **B区下的信道与** RegionAndB **StoreStoreStore 2,Store 3Store,Store 4StoreShoreShoreShore的同一RegionA区和** B区下的信道和Stre下的信道相同，例如ShoreShoreSheShopSheShChaShopSheShShopShShore ShoreSShore Shore **************************** ShoreShS
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   同样，在** Store 2**(名 **称为Store****)下创建Store2Display和****** channel Store2Channel的显示屏。
+   同样，在 **Store 2** (名称为 **Store2Display)下创建Store2Display和** Store2Channel **(****** Store 2Channel)显示。
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 1. **将内容添加到相应位置的渠道。**
 
-   导航到演示 **- &gt;位置** - &gt;区域A **- &gt;区** 域A ************ - &gt;单击操作栏中的A和Edit Bar。 拖放要添加到渠道的资产。
+   导航到演示 **- >位置** - >区域A **- >区** 域A ************ - >单击操作栏中的A和Edit Bar。 拖放要添加到渠道的资产。
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   同样，导航到 **Demo** -&gt; **Locations** -&gt; **Region B** -&gt; **Region B****** -&gt; ClickBardEditAction from the Action，将资产拖放到您的渠道中，如下所示：
+   同样，导航到 **Demo** -> **Locations** -> **Region B** -> **Region B****** -> ClickBardEditAction from the Action，将资产拖放到您的渠道中，如下所示：
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -202,21 +202,21 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 1. **将渠道分配到计划**
 
-   1. 导航到演 **示** — **Schedules** —&gt; **AdSchedule** （计划），然后单击 **** 操作栏中的控制面板。
+   1. 导航到演 **示** — **Schedules** —> **AdSchedule** （计划），然后单击 **** 操作栏中的控制面板。
    1. 单击 **+从“已分配渠道** ”面 **板中指定渠道** ，以打开“渠道 **分配** ”对话框。
    1. Select **Reference Channel**.. by path.
-   1. 选择Channel **Path** as **Demo*** —&gt; Channels ***—*********&gt; GlobalPath。
+   1. 选择Channel **Path** as **Demo** —>Channels ***—*** > Global ****** Reading。
    1. Enter the **Channel Role** as **GlobalAdSegment**.
-   1. 选择“ **Events** Intial Load **”(初始加载**)、“Idle Screen **”（空闲屏幕）和“User Interaction Supported**”(用户交互支 ****&#x200B;持的Zhidle Load)。
+   1. 选择“ **Events** Intial Load **”(初始加载**)、“Idle Screen **”（空闲屏幕）和“User Interaction Supported**”(用户交互支 ****&#x200B;持的ZhidleJ)。
    1. 单击&#x200B;**保存**。
    **按角色为区域分配渠道：**
 
    1. 单击 **+从“已分配渠道** ”面 **板中指定渠道** ，以打开“渠道 **分配** ”对话框。
    1. 选择 **引用渠道**.. 按照名称.
-   1. 输入渠 **道名称** , **作为区**&#x200B;域*.*
+   1. 输入渠 **道名称** ，作 **为区域***。
    1. Enter the **Channel Role** as **RegionAdSegment**.
    1. 单击&#x200B;**保存**。
-   **按角色为商店分配渠道：**
+   **按角色为商店分配渠道：
 
    1. 单击 **+从“已分配渠道** ”面 **板中指定渠道** ，以打开“渠道 **分配** ”对话框。
    1. 选择 **引用渠道**.. 按照名称.
@@ -245,10 +245,10 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 1. **将计划分配给每个显示屏**
 
-   1. 导航到每个显示屏，如 **Adobe** —&gt; **Locations** &gt; **Region A** —&gt;******** Store 1-Display Store 1 DisplayStore。
+   1. 导航到每个显示屏，如 **Adobe** —> **Locations** > **Region A** —>******** Store 1-Display Store 1 DisplayStore。
    1. Click **Dashboard** from the action to open the display dashboard.
-   1. **单击**...从“已分 **配的渠道和计划** ”面板，然后单击 **+分配计划**。
-   1. 选择计划的路径(例如，此处， **Demo** —&gt;计划 **—&gt;** AdSchedule ****)。
+   1. 单击 **...** 从“已分 **配的渠道和计划** ”面板，然后单击 **+分配计划**。
+   1. 选择计划的路径(例如，此处， **Demo** —>计划 **—>** AdSchedule ****)。
    1. 单击&#x200B;**保存**。
 
 ## 查看结果 {#viewing-the-results}
@@ -268,13 +268,13 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
 **方案1**:
 
-如果将显示路径指定为 **Demo** —&gt; **Locations** —&gt; **A区域** —&gt;** Store 1** —&gt; **** Store1DisplayScreens，则以下内容将在您的AEM Screens播放器上显示。
+如果将显示路径指定为 **Demo** —> **Locations** —> **A区域** —>** Store 1** —> **** Store1DisplayScreens，则以下内容将在您的AEM Screens播放器上显示。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **方案1**:
 
-如果将显示路径指定为 **Demo** —&gt; **Locations** —&gt; **Region B** —&gt;** Store 3** —&gt; **Store 3* —&gt;** Store3DisplayScreens，则以下内容将在您的AEM Screens播放器上显示。
+如果将显示路径指定为 **Demo** —> **Locations** —> **Region B** —> **Region B —>****** Store 3 — Display Store3 Store，则后续内容将在您的AEM Screens播放器上显示。
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -309,7 +309,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 1. **创建组**
 
    1. 导航到 **Adobe Experience Manager**。
-   1. 单击 **工具** —&gt;安 **全** —&gt; **组**。
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. 单击 **创建组** ，然后在 **** ID **中输入全局作**&#x200B;者。
    1. 单击 **保存并关闭**。
    同样，创建另外两个组，如 **Region-Author****和Store-Author**。
@@ -319,7 +319,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 1. **创建用户并将用户添加到用户组**
 
    1. 导航到 **Adobe Experience Manager**。
-   1. 单击 **工具** —&gt;安 **全** —&gt; **用户**。
+   1. Click **Tools** --> **Security** --> **Users**.
    1. 单击 **创建用户** ，然后在 **** ID中输入全局用户 ****。
    1. 输入 **密码** ，并确认此用户的密码。
    1. 单击“ **Groups** ”选项卡，然后在“ **Select Group**”中输入用户组名称，例如，输入 **Global-Author** ，将 **** Global-UserAdd to that specific group。
@@ -335,7 +335,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 1. **将所有组添加到参与者**
 
    1. 导航到 **Adobe Experience Manager**。
-   1. 单击 **工具** —&gt;安 **全** —&gt; **组**。
+   1. Click **Tools** --> **Security** --> **Groups**.
    1. 从列 **表中选择** “参与者”，然后选择“ **成员** ”选项卡。
    1. 选择 **组** ，如Global-Author **、Region**- **Author和** Store-Author **** 给参与者。
    1. 单击 **保存并关闭**。
@@ -365,9 +365,9 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
    **对于区域——作者：**
 
    1. Navigate to the **Permissions** tab.
-   1. 导览至 ***/content/screens/demo*** ，并仅选中**阅读**权限。
+   1. 导览至 ***/content/screens/demo*** ，并仅选中“读取” **权限** 。
    1. 导览至 ***/content/screens/demo/locations*** ，并仅选中“阅读 **”权限** 。
-   1. 导航到***/content/screens/demo/channels，然 ***后取消检查全局渠道**的权限&#x200B;**。***
+   1. 导航到***/content/screens/demo/channels，然 ***后取消检查全局渠道&#x200B;**的权限**。***
    1. 导航到 ***/content/screens/demo/locations***/***region-a并检查所有权限*** 。 同样，请检查 **region-b的权限**。
    请参阅下图以了解这些步骤：
 
@@ -389,7 +389,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   下图显示， **Store-User** 只能访问四家商店，即 **Store 1**、 **Store 2、****************** Store 3Store 4，但不得访问GlobalGlobal或区域（*Region*A*Region A*和B Channels* Region*）。
+   下图显示， **Store-User** ，只有4家商店1 **、** Store **22、** Store 4、 **Store和Store只能访问Store-User** Store 12、 **************** Store 4，但目前没有到GlobalChops或Grobal区域（即B区）的访问权限。
 
    ![商店](assets/store.gif)
 
