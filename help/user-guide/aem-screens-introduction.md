@@ -76,4 +76,4 @@ AEM Screens是一款功能强大的基于Web的解决方案，它允许您创建
 
 * **AEM Screens 项目的“最佳实践指南”**
 
-   按照 **[AEM Screens项目的最佳实践指南进行操作](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**，该指南旨在确定实施AEM Screens项目时的常见缺陷。 本材料主要侧重于项目角色和责任、AEM Platform配置中不同角色的RACI图表以及支持和监控。
+   按照 [AEM Screens项目的最佳实践指南进行操作](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) ，该指南旨在确定实施AEM Screens项目时的常见缺陷。 本材料主要侧重于项目角色和责任、AEM Platform配置中不同角色的RACI图表以及支持和监控。
