@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ![图像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-以下验证是检查连接时将视图的验证，方法是输入以下格式的google表ID和API密钥：
+以下验证是通过输入以下格式的 *googlesheet ID和* API密钥这两个值检查连接时要视图的验证内容 ** :
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![图像](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**在AEM中使用Google工作表值&#x200B;**>Google工作表将在ContextHub Store中显示其值，并将在下面可用`<store-name>/values/<i>/<j>`，其中`<i>``<j>`和是电子表格中的行和列索引（从0开始）。
->
-> * /values/0/0点到A1
-> * /values/5/0点到A5
-> * /values/0/5点到E1
+> 以下特定示例将google工作表显示为一个数据存储库，如果该值大于100或小于50，则该数据存储将触发资产更改。
 
-
-以下特定示例将Excel工作表显示为一个数据存储库，如果该值高于100或小于50，则该数据库将触发资产更改。
-
+## 第2步：将Google工作表连接到AEM实例 {#step-connecting-aem-instance}
 
 1. **导航到ContextHub**
 
    导航到您的AEM实例，然后单击左侧提要栏中的工具图标。 单 **击Sites** —> **ContextHub**，如下图所示。
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![图像](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **创建新的ContextHub存储配置**
 
-   1. 导航到 **全局** > **default** > **ContextHub配置**。
+   1. 导航到标题为屏幕的配置容器 ****。
 
-   1. 单击 **创建** >配 **置容器** ，然后输入 **ContextHubDemo作为标题**。
+   1. 单击 **创建** >创 **建配置容器** ，然后输入 **ContextHubDemo作为标题**。
 
-   1. **导航到** ContextHubDemo **>****ContentHub存储配置……** 打开配置 **向导**。
+      ![图像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. 输入Google **Sheets** , **Store Sheets,** Store Name **, as************Google Sheets, Store Store Sheets Sheets, Store Name, as Contexthub-jsonp.**
+   1. **导航到** ContextHubDemo **>创建** ContentHubDemo配 **置中心** ，然后单击 **Save******（保存）。
 
-   1. Click **Next**
-   1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的。
-   1. 单击&#x200B;**保存**。
+      >[!NOTE]
+      > 单击“保 **存** ”后，将显示在 **ContextHub“配置”屏幕中** 。
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. 在ContextHub配置 **屏幕中** ，单击 **创建** > **ContentHub存储配置。**
+
+      ![图像](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. 在“ **Google Store Name** , **Google Store Sheets Type Store Store** AsConthuthub. ********************Jsonp”中输入Google Store Sheets、Google SheetsType StoreStoreS和ConteGleName。
+      ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的，然后单击“ **保存** ”，您会在ContextHub配置中看到标题为“ **Google工作表** ”的存储配置。
+
+      >[!IMPORTANT]
+      >确保将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID>和*&lt;API Key>。
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >在上述示例代码中， **pollInterval** 定义刷新值的频率（以毫秒为单位）。
-   >
-   >
-   >将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID>和*&lt;API Key>。
+      >[!NOTE]
+      在上述示例代码中， **pollInterval** 定义刷新值的频率（以毫秒为单位）。
+将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID>和*&lt;API Key>。
 
-   >[!CAUTION]
-   如果您在全局文件夹（例如您自己的项目文件夹中）之外创建Google工作表存储配置，则定位将不会立即生效。
-   如果要在全局文件夹之外配置Google Sheets商店配置，则必须将 **Store Name** (商店名称 **)设置为** segmentation，将 **Store Type（商店类型）设置为****** aem.segmentationStore。 此外，您还必须跳过定义上述定义的json的过程。
+      >[!CAUTION]
+      如果您在全局文件夹（例如您自己的项目文件夹中）之外创建Google工作表存储配置，则定位将不会立即生效。
+   >如果要在全局文件夹之外配置Google Sheets商店配置，则必须将 **Store Name** (商店名称 **)设置为** segmentation，将 **Store Type（商店类型）设置为****** aem.segmentationStore。 此外，您还必须跳过定义上述定义的json的过程。
 
 1. **在活动中创建品牌**
 
