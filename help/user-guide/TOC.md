@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [多区域布局](multi-zone-layout-aem-screens.md)
       + [视频演绎版](generating-renditions.md)
       + [使用动态嵌入式序列](dynamic-embedded-sequences.md)
-      + [通道级批量图像播放持续时间](channel-level-image-playback.md)
+      + [渠道级批量图像播放持续时间](channel-level-image-playback.md)
       + [命令同步](using-command-sync.md)
       + [使用数据触发器进行创作](authoring-data-triggers.md)
    + 管理内容更新 {#content-updates}
@@ -77,7 +77,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
       + [紧急渠道](emergency-channel.md)
       + [旅行中心温度激活](local-temperature-activation.md)
       + [酒店预订激活](hospitality-reservation-activation.md)
-      + [零售库存定向激活](retail-inventory-activation.md)
+      + [零售库存目标激活](retail-inventory-activation.md)
       + [应用过渡](applying-transitions.md)
       + [多区域到单区域过渡](multizone-to-singlezone.md)
       + [单次使用接管渠道](single-use-takeover-channel.md)
@@ -91,6 +91,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
    + [使用AEM SPA Editor嵌入REACT应用程序并与AEM Screens分析集成](embedding-react-app.md)
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [为MultiZone布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
+   + [为文本叠加应用自定义品牌和样式](custom-branding-text-overlays.md)
 + 疑难解答和常见问题解答 {#troubleshooting}
    + [AEM Screens常见问题解答](aem-screens-faqs.md)
    + [设备控制中心故障排除](monitoring-screens.md)
