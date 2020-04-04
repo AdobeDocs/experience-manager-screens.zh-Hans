@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 您必须跳过定义json的过程，将其留空。
 
 
-## 第3步：设置受众 {#setting-up-audience}
-
-待定：添加属性
+## 第3步：在受众中设置区段 {#setting-up-audience}
 
 1. **在受众中创建区段**
 
@@ -145,58 +143,20 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
    1. 单击 **创建** > **创建Context Hub区段。** “新 **建ContextHub区段** ”对话框打开。
 
-   1. Enter the **Title** as **TargetValue1** and click **Create**. 同样，创建标题为 **TargetValue2的另一个区段**。
+   1. Enter the **Title** as **Higherthan50** and click **Create**. 同样，创建标题为Lowerthan50的另 **一个区段**。
 
-      ![图像](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![图像](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. 选择区段高 **于50** ，然 **后单击操作** 栏中的“属性”。
+      ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. 从区段属 **性中** ，选择个性 **化选项卡**。 将ContextHub路径设 **置为** ContextHub路径，将 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` Segments路径设置为 **SaveHub**`/conf/screens/settings/wcm/segments`****，然后单击，如下图所示。
 
-## 第4步：设置受众分段 {#step-setting-up-audience-segmentation}
+      ![图像](/help/user-guide/assets/context-hub/context-hub13.png)
 
-待添加编辑
+   1. 同样，也可以 **为Lowerthan** 50段设 **置ContextHub路径和Segments路径****** 。
 
-设置数据存储并定义活动（品牌和区域）后，请按照以下步骤设置受众区段：
-
-1. **在受众中创建区段**
-
-   1. 从AEM实例导航到“个 **性化** ” > **受众** > **屏幕**。
-
-   1. 单击 **创建** > **创建Context Hub区段。** “新 **建ContextHub区段** ”对话框打开。
-
-   1. Enter the **Title** as **TargetValue1** and click **Create**. 同样，创建标题为 **TargetValue2的另一个区段**。
-
-      ![图像](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **编辑区段**
-
-   1. 选择区段 **TargetValue1**，然后单 **击操作栏中的** “编辑”。
-
-   1. 拖放比 **较：属性——编辑器的值组件** 。
-   1. 单击扳手图标以打开“ **将属性与值比较** ”对话框。
-   1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
-
-   1. 从下拉 **菜单中** , **选择“Operator** as equal”（运算符为等）。
-
-   1. 输入 **值** 1 ****。
-   >[!NOTE]
-   AEM会将区段显示为绿色，以验证Google工作表中的数据。
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   同样，将属性值编辑为 **TargetValue2**。
-
-   1. 拖放比 **较：属性——编辑器的值组件** 。
-   1. 单击扳手图标以打开“ **将属性与值比较** ”对话框。
-   1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
-
-   1. 从下拉 **菜单中** ，将运 **算符选为Equal** 。
-
-   1. 将值输 **入****为2**。
-
-
-
-## 第5步：设置品牌和区域 {#setting-brand-area}
+## 第4步：设置品牌和区域 {#setting-brand-area}
 
 请按照以下步骤在您的活动和品牌下的区域中创建品牌：
 
@@ -230,21 +190,64 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    1. Enter the **Title** as **ScreensValue** and click **Create**.
 将在您的品牌中创建区域。
 
-## 第6步：设置活动 {#step-setting-up-activity}
+## 第5步：在活动中创建区段 {#step-setting-up-audience-segmentation}
 
-按照以下步骤在品牌中创建区域：
+设置数据存储并定义活动（品牌和区域）后，请按照以下步骤在活动中创建区段。
 
-1. 导航到 **ScreensValue** （在前一步中创建），然后单击“创 **建** ” **>“**&#x200B;创建活动”。
+1. **在活动中创建区段**
 
-1. 将打 **开配置活动向导** 。 将标题输 **入为** targetvaluecheck **，将名称输** 入为 ******** targetvaluecheck。 从下拉 **菜单中选择****ContextHub(AEM)** 作为定位引擎，然后单击“下 **一步**”。
+   1. 从您的AEM实例导航到 **Personalization** > **ScreensBrand** > **ScreensValuePersonalization** >**** ScreensBrand。
 
-1. 单击 **配置活动向导** 中的 **添加体验**。
+   1. 单击 **创建** >创 **建活动。** 将打 **开配置活动向导** 。
 
-1. 从 **受众中**，选择TargetTargetValue ************************，然后单击Add ExperienceAdd TitleExperience，并将TitleHitleInter作为ValuececheckNameHeckAsValueCheckNameHeckAdAl进入ExperireAntAntAntAnAl的AnAntAAAAAAAAASSSAASSASAAAASSAASSASSASAAASReASAAAAASSAASiSASAASSA
+   1. 输入标 **题** ( **ValueCheck50** )和名 **称(****** valuecheck50)。 从下拉 **菜单中选择****ContextHub(AEM)** 作为定位引擎，然后单击“下 **一步**”。
 
-1. 同样，从 **受众中**，选择 **Value2Value2** ，然后单击TargetValue2 **,Experience As** ValuecheckNameAs **AstValueCheckAstValueCheckAsProducts的TargetValue2并进入AdExpecheckExperienceirience** 和 ************ AtireiechAs。
+      ![图像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. 单击 **配置活动向导** 中的 **添加体验**。
+
+   1. 从受众 **中**，选择Higherthan50 **and** Higherter Experience 50and the **Highenter Experience Than50ErNameShighNameAddTheHighter****************** 50，选择Higherthan50和Chighterererererereter50的。 Click **Ok**.
+
+   1. 从受众 **中**，选择Lowerthan50 **and** AddLickThe Lowerthan50Name和LowerAddInter体验，将Lowerthan50NameClickThe ******************** lower5AllName的经验设为Lower50Name。 Click **Ok**.
+
+      ![图像](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **ValueCheck50** 活动现已创建和配置。
+
+      ![图像](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## 第5步：编辑区段 {#editing-audience-segmentation}
+
+1. **编辑区段**
+
+   1. 
+      1. 从您的AEM实例导航到 **Personalization** > **Personalization** > **ScreensBrand**********>Value Screens品牌>ValueScreensValueCheck50。
+   1. 选择区段 **值Check50**，然后单 **击操作栏中的** 编辑。
+
+   1. 拖放比 **较：属性——编辑器的值组件** 。
+   1. 单击扳手图标以打开“ **将属性与值比较** ”对话框。
+   1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
+
+   1. 从下拉 **菜单中** , **选择“Operator** as equal”（运算符为等）。
+
+   1. 输入 **值** 1 ****。
+   >[!NOTE]
+   AEM会将区段显示为绿色，以验证Google工作表中的数据。
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   同样，将属性值编辑为 **TargetValue2**。
+
+   1. 拖放比 **较：属性——编辑器的值组件** 。
+   1. 单击扳手图标以打开“ **将属性与值比较** ”对话框。
+   1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
+
+   1. 从下拉 **菜单中** ，将运 **算符选为Equal** 。
+
+   1. 将值输 **入****为2**。
+
+
+
 
 ## 在渠道中启用定位 {#step-enabling-targeting-in-channels}
 
