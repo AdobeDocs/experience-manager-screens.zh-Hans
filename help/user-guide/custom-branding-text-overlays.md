@@ -5,7 +5,7 @@ description: 可查看本页以了解如何为文本叠加应用自定义品牌�
 seo-description: 可查看本页以了解如何为文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 请按照以下步骤为文本叠加创建自定义品牌和样式：
 
-1. 创建标题为Customstyle的AEM Screens项目 **和标题为****** DemoBrand的渠道，如下图所示。
+1. 创建AEM Screens项目。 此示例通过创建名为customstyle的项目和标题为 **DemoBrand****** 的渠道来展示该功能，如下图所示。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 1. 导航到 *static.css文件* ，并设置以下css规则。 另示为css规则下图的示例。
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![图像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 1. 单击 **保存并关闭** ，以更新设计路径。
 
+### 更新ACL {#updating-acls}
+
+您必须更新这些设计的ACL，以便播放器下载它们。
+
+1. 导航到用户群，选择 `screens-<project>-devices group` 该路径，并为其授予自定义设计路径的读取权限。
+
+1. 提供 `screens-<project>-administrators` 用户组对此路径的读取和修改权限。
 
 ## 查看结果 {#viewing-the-result}
 
