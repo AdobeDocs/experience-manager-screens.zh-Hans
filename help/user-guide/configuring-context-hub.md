@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -216,36 +216,39 @@ source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
       ![图像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 第5步：编辑区段 {#editing-audience-segmentation}
+## 第5步：在受众中编辑区段{#editing-audience-segmentation}
 
 1. **编辑区段**
 
-   1. 
-      1. 从您的AEM实例导航到 **Personalization** > **Personalization** > **ScreensBrand**********>Value Screens品牌>ValueScreensValueCheck50。
-   1. 选择区段 **值Check50**，然后单 **击操作栏中的** 编辑。
+   1. 从AEM实例导航到“个 **性化** ” > **受众** > **屏幕**。
+
+   1. 选择区段高 **于50**，然后单 **击操作栏中的** 编辑。
 
    1. 拖放比 **较：属性——编辑器的值组件** 。
+
    1. 单击扳手图标以打开“ **将属性与值比较** ”对话框。
+
    1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
 
-   1. 从下拉 **菜单中** , **选择“Operator** as equal”（运算符为等）。
+   1. 从下 **拉菜** 单中选择 **** “大于”(Operator)。
 
-   1. 输入 **值** 1 ****。
+   1. 输入 **值** 50 **作为**。
    >[!NOTE]
    AEM会将区段显示为绿色，以验证Google工作表中的数据。
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   同样，将属性值编辑为 **TargetValue2**。
+   同样，将属性值编辑为 **Lowerthan50**。
 
    1. 拖放比 **较：属性——编辑器的值组件** 。
+
    1. 单击扳手图标以打开“ **将属性与值比较** ”对话框。
+
    1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
 
-   1. 从下拉 **菜单中** ，将运 **算符选为Equal** 。
+   1. 从下 **拉菜** 单中选择 **** “运算符小于”。
 
-   1. 将值输 **入****为2**。
-
+   1. 输入 **值** 50 **作为**。
 
 
 
