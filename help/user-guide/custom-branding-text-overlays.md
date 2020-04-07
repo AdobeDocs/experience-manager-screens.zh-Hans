@@ -5,7 +5,7 @@ description: 可查看本页以了解如何为文本叠加应用自定义品牌�
 seo-description: 可查看本页以了解如何为文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
 
 ---
 
@@ -75,17 +75,17 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Click **Save &amp; Close** to update the design path.
+1. 单击 **保存并关闭** ，以更新设计路径。
 
 >[!IMPORTANT]
-> You have the option to overlay the existing Screens templates to inject your own designs by default or create your own template altogether. 有关更多详细信息，请参阅以下步骤。
+> 您可以选择覆盖现有的Screens模板，在默认情况下插入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
 
 1. 要覆盖现有Screens模板以在默认情况下注入您自己的设计，请执行以下操作：
 
-   1. Overlay `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
+   1. 叠加 `/libs/screens/core/templates/sequencechannel` 在 `/apps/screens/core/templates/sequencechannel`中。
    1. 在中修 *改cq:designPath* 属 `/apps/screens/core/templates/sequencechannel/jcr:content` 性以指向新设计。
 
-1. 要完全创建自己的模板，请执行以下操作：
+1. 要完全创建您自己的模板，请执行以下操作：
    1. 复制 `/libs/screens/core/templates/sequencechannel` 到 `/apps/customstyle/templates/styled-sequencechannel`。
    1. 在中修 *改cq:designPath* 属 `/apps/customstyle/templates/styled-sequencechannel/jcr:content` 性以指向新设计。
 
@@ -113,18 +113,18 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 1. 导览至CRXDE *Lite中的static.css* 文件，然后将字体（如）添加到此文件， `font-family: "Lucida Console", Courier, monospace;` 如下所示。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Once you save the changes and reload the preview you will see an update to the text overlay font, as shown in the figure below.
+1. 保存更改并重新加载预览后，您将看到文本叠加字体的更新，如下图所示。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Additionally, you can remove the last two blocks of code from *static.css* file to remove the the boxed styling around the text overlay.
+1. 此外，您还可以从 *static.css文件中删除最后两个代码块* ，以删除文本叠加周围的盒装样式。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. You will view the updated change in your preview where the text overlay is added to the image.
+1. 您将在将文本叠加添加到图像的预览中视图更新的更改。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Referring to the tutorial, now you can update your brand and custom styling for text overlays added to your assets.
+参阅本教程，您现在可以更新添加到资源中的文本叠加的品牌和自定义样式。
 
 
 
