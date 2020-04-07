@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -230,13 +230,18 @@ source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
    1. 从 **属性名称的下拉菜单中选择** googlesheets/value/1/0 ****。
 
+      >[!NOTE]
+googlesheets/ **value/1/0** is the row 2 and column as pellited in the google sheets in the buile:
+
+      ![图像](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. 从下 **拉菜** 单中选择 **** “大于”(Operator)。
 
-   1. 输入 **值** 50 **作为**。
+   1. 输入 **Value** **70**。
    >[!NOTE]
    AEM会将区段显示为绿色，以验证Google工作表中的数据。
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![图像](/help/user-guide/assets/context-hub/context-hub18.png)
 
    同样，将属性值编辑为 **Lowerthan50**。
 
