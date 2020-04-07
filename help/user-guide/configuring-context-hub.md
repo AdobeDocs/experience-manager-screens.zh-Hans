@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -65,9 +65,9 @@ source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 ![图像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> 以下特定示例将google工作表显示为一个数据存储库，如果该值大于100或小于50，则该数据存储将触发资产更改。
+> The specific example below showcases the the google sheets as a data store that will trigger asset change if the value is higher than 100 or less than 50.
 
-## 第2步：设置存储配置 {#step-setting-store-configurations}
+## Step 2: Setting up Store Configurations {#step-setting-store-configurations}
 
 1. **导航到ContextHub**
 
@@ -121,7 +121,7 @@ source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID>和*&lt;API Key>。
 
       >[!CAUTION]
-      如果您在全局文件夹（例如您自己的项目文件夹中）之外创建Google工作表存储配置，则定位将不会立即生效。
+      If you create your Google Sheets store configurations outside of the global folder (for instance in your own project folder), then targeting will not work out of the box.
 
 1. **设置商店分段**
 
@@ -132,7 +132,7 @@ source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
    1. Click **Next** and then **Save**.
 
       >[!NOTE]
-您必须跳过定义json的过程，将其留空。
+You have to skip the process of defining the json and leave it as blank.
 
 
 ## 第3步：在受众中设置区段 {#setting-up-audience}
@@ -150,7 +150,7 @@ source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
    1. 选择区段高 **于50** ，然 **后单击操作** 栏中的“属性”。
       ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 从区段属 **性中** ，选择个性 **化选项卡**。 将ContextHub路径设 **置为** ContextHub路径，将 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` Segments路径设置为 **SaveHub**`/conf/screens/settings/wcm/segments`****，然后单击，如下图所示。
+   1. 从区段属 **性中** ，选择个性 **化选项卡**。 将ContextHub路径设 **置为** ContextHub路径，将 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` Segments路径设置为 **SaveHub**`/conf/screens/settings/wcm/segments`****，然后单击，如下图所示。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -237,12 +237,12 @@ googlesheets/ **value/1/0** is the row 2 and column as pellited in the google sh
 
    1. 从下 **拉菜** 单中选择 **** “大于”(Operator)。
 
-   1. 输入 **Value** **70**。
-   >[!NOTE]
-   AEM会将区段显示为绿色，以验证Google工作表中的数据。
+   1. 输入 **值** 70 **作为**。
 
-   ![图像](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM会将区段显示为绿色，以验证Google工作表中的数据。
 
+      ![图像](/help/user-guide/assets/context-hub/context-hub18.png)
    同样，将属性值编辑为 **Lowerthan50**。
 
    1. 拖放比 **较：属性——编辑器的值组件** 。
@@ -261,11 +261,11 @@ googlesheets/ **value/1/0** is the row 2 and column as pellited in the google sh
 
 按照以下步骤在您的渠道中启用定位。
 
-1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创 **建的DataDrivenRetail** 启用定位。
+1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创 **建的DataDrivenChannel** ，启用定位。
 
-1. 选择渠道 **DataDrivenRetail** ，然后 **单击操作栏中的Properties** 。
+1. 选择渠道 **TargetChannel** ，然后 **单击操作栏中的** “属性”。
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![图像](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. 选择“个 **性化** ”选项卡以设置ContextHub配置。
 
@@ -274,20 +274,18 @@ googlesheets/ **value/1/0** is the row 2 and column as pellited in the google sh
    1. 选择“路径 **”** >“会议” **>“零售”****>“零售”** >“Wcm **”**************>“Adobe ClickSelectSelectDign”的段。
 
    1. 单击 **保存并关闭**。
-   >[!NOTE]
-   使用ContextHub和“区段”路径，您最初在该路径中保存了Context Hub配置和区段。
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      使用ContextHub和“区段”路径，您最初在该路径中保存了Context Hub配置和区段。
 
-1. 导航并从DataDrivenAssets >中选 **择DataDriven Retail** ，然后单 **击渠道** 栏中的 **DataDriven Retail** , **** 然后单击EditFrom the action bar。
+      ![图像](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   如果您正确设置了所有内容，您将在编辑器的下拉框中看到 **Targeting** （定位）选项，如下图所示。
+   1. 导航并选择 **TargetChannel渠道** ，然后单 **击操作栏中的** 编辑。
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      如果您正确设置了所有内容，您将在编辑器的下拉框中看到 **Targeting** （定位）选项，如下图所示。
 
-   >[!NOTE]
-   为渠道配置ContextHub配置后，如果您希望遵循以下所有使用案例，请确保对于其他三个序列渠道也遵循前面的步骤（从1到4）。
+      ![图像](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## 了解更多：示例用例 {#learn-more-example-use-cases}
 
