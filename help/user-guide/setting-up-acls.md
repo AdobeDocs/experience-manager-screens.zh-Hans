@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -19,13 +19,13 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 下节介绍如何使用ACL隔离项目，以便每个个人或团队都能处理他们自己的项目。
 
-作为AEM管理员，您需要确保项目的团队成员不会干扰其他项目，并根据项目要求为每个用户分配特定角色。
+作为AEM管理员，您需要确保项目的团队成员不会干扰其他项目，并且每个用户都会根据项目要求分配特定角色。
 
 ## 设置权限 {#setting-up-permissions}
 
 以下步骤概括了为项目设置ACL的过程：
 
-1. 登录到AEM，然后导航到工 **具** &gt;安 **全性**。
+1. 登录到AEM，然后导航到工 **具** >安 **全性**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -37,7 +37,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 从列 **表中选择** “参与者”，然后双击它。
+1. 从列表 **中选择** “参与者”，然后单击该多次。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -74,7 +74,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->在某些情况下，您可以将创作功能（如管理资产和创建渠道）与管理功能（如注册播放器）分开。 在这种情况下，创建两个用户组，并将作者组添加到参与者，将管理员组添加到参与者和用户管理员。
+>在某些情况下，您可以将创作功能(如管理资产和创建渠道)与管理功能（如注册播放器）分开。 在这种情况下，创建两个用户组，并将作者组添加到参与者，将管理员组添加到参与者和用户管理员。
 
 ### 创建组 {#creating-groups}
 
@@ -84,7 +84,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 * Screens项目管理员
 * Screens项目运营商（注册播放器，并管理位置和设备）
-* 屏幕项目用户（处理渠道、计划和渠道分配）
+* Screens项目用户(处理渠道、计划和渠道分配)
 
 下表汇总了具有AEM Screens项目描述和权限的用户组：
 
@@ -110,7 +110,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
   </tr>
   <tr>
    <td>屏幕用户<br /><em>屏幕用户</em></td>
-   <td>在AEM Screens中创建和更新渠道和计划并分配到位置</td>
+   <td>创建和更新渠道和计划，并分配到AEM Screens中的位置</td>
    <td>
     <ul>
      <li>参与者成员</li>
@@ -131,7 +131,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens播放器<br /> - <em>we-retail-devices</em></td>
+   <td>Screens播放<br /><em>器Screens-&lt;project&gt;-devices</em></td>
    <td>将所有播放器和所有播放器／设备自动分组为参与者的成员。</td>
    <td><p> 参与者成员</p> </td>
   </tr>
