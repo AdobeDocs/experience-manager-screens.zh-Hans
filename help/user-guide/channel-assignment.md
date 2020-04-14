@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
    ![图像](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
+   您可以从以下部分的“渠道分配”对 **话框中了解和配置** “属性”。
 
-### 了解渠道属性 {#channel-properties}
+### 从渠道分配了解渠道属性 {#channel-properties}
 
 #### Reference Channel {#ref-channel}
 
@@ -84,14 +84,17 @@ source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 #### 中断方法 {#interruption-method-channel}
 
+>[重要信息]
+> 此选项仅在AEM 6.4功能包8或AEM 6.5功能包4中可用。
+
 作为内容作者，您应该能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在因日程安排而切断播放之前让重要内容充分播放。
 以下选项可用于从“渠道分配”对话框中设置 **中断方法** :
 
-* **立即**:只要计划激活或收到更新，我们就会停止播放并立即刷新或播放新内容
-* **在当前项目的末尾**:当激活新计划或收到更新时，我们等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
+* **立即**:只要计划被激活或收到更新，您就可以切断播放并立即刷新或播放新内容
+* **在当前项目的末尾**:当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后才可以
    >[!NOTE]
    >这是选中的默认选项。
-* **在序列结尾**:当新计划被激活或收到更新时，我们会等待整个序列到达其结尾，并且在回到第1个元素之前，我们会刷新或播放新内容
+* **在序列结尾**:当激活新计划或收到更新时，您可以选择等待整个序列到达其结尾，而在所需序列之前，您将循环回第1个元素，刷新或播放新内容
 
 #### 计划 {#schedule-channel}
 
