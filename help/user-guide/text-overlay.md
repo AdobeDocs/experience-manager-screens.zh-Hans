@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
+source-git-commit: 651627223e1b9bd0f650b010d2b92f004b9e2ea2
 
 ---
 
@@ -22,8 +22,8 @@ source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 * **概述**
 * **使用文本叠加**
-* **前提条件**
 * **了解文本叠加属性**
+* **在文本叠加中使用ContextHub值**
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. 如本页的“使用文本叠加”部分中所述，向图像 **添加图像和文本叠加组件** 。
+1. 如本页的“使用文本叠加”部分中所述，向图像 [添加图像和文本叠加组件](/help/user-guide/text-overlay.md#using-text-overlay) 。
 
 1. 单击“ **配置** （扳手图标）”以打开“图 **像** ”对话框。
 
