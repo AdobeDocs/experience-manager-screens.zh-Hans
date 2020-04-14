@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -50,43 +50,57 @@ source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![图像](/help/user-guide/assets/channel-assign1.png)
 
-   您可以从&#x200B;**渠道分配**&#x200B;对话框中配置以下属性：
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **渠道角色**：
+### 了解渠道属性 {#channel-properties}
 
-   渠道角色定义了显示屏的上下文。该角色由各种操作定位，并且与完成该角色的实际渠道无关。
+#### Reference Channel {#ref-channel}
 
-   **引用渠道**：
+引用渠道允许您按渠道名称或渠道路径提供对所需渠道的引用。
 
-   引用渠道允许您按渠道名称或渠道路径提供对所需渠道的引用。
+* **按路径**：您可以使用渠道的绝对路径提供显式引用。
 
-   * **按路径**：您可以使用渠道的绝对路径提供显式引用。
-   * **按名称**:输入将根据上下文解析为实际渠道的渠道名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
-   **优先级：**
+* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-   优先级用于在多个分配匹配播放条件时对分配进行排序。具有最高值的分配将始终优先于具有较低值的分配。例如，如果有两个渠道 A 和 B。A 的优先级为 1，B 的优先级为 2，则会显示渠道 B，因为它的优先级高于 A。
+#### 渠道角色 {#role-channel}
 
-   如上所述，渠道的优先级会在&#x200B;**渠道分配**&#x200B;对话框中设置为数字（最小值为 1）。此外，分配的渠道会按优先级以降序排列。
+渠道角色定义了显示屏的上下文。该角色由各种操作定位，并独立于履行该角色的实际渠道。
 
-   **支持的事件**：
+#### 优先级 {#priority-channel}
 
-   * **初始加载**：播放器启动时加载渠道。可以将该事件与计划一起分配到多个渠道
-   * **空闲屏幕**：屏幕空闲时加载。可以将该事件与计划一起分配到多个渠道
-   * **计时器**：提供计划时需要对其进行设置
-   * **用户交互**：如果在空闲渠道中屏幕（触控）上存在用户交互，播放器将切换到指定的渠道，并将在触摸屏幕时加载该渠道
-   **计划**：
+优先级用于在多个分配匹配播放条件时对分配进行排序。具有最高值的分配将始终优先于具有较低值的分配。例如，如果有两个渠道 A 和 B。A 的优先级为 1，B 的优先级为 2，则会显示渠道 B，因为它的优先级高于 A。
 
-   通过计划，您可以在应当显示渠道时提供文本形式的说明。It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown. 计划表达式的语法基于later.js的文本和cron语法：
+>[!NOTE]
+>如上所述，渠道的优先级会在&#x200B;**渠道分配**&#x200B;对话框中设置为数字（最小值为 1）。此外，分配的渠道会按优先级以降序排列。
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **显示有趣内容工具提示**：
+#### 支持的事件 {#supported-events-channel}
 
-   “显示有趣内容工具提示”定义了在渠道运行时是否必须显示有趣内容工具提示（“触摸任何位置可开始&#x200B;**”）。
+* **初始加载**：播放器启动时加载渠道。可以将该事件与计划一起分配到多个渠道
+* **空闲屏幕**：屏幕空闲时加载。可以将该事件与计划一起分配到多个渠道
+* **计时器**：提供计划时需要对其进行设置
+* **用户交互**：如果在空闲渠道中屏幕（触控）上存在用户交互，播放器将切换到指定的渠道，并将在触摸屏幕时加载该渠道
 
-1. 单击&#x200B;**保存**&#x200B;可将创建的渠道分配给显示屏。
+#### 中断方法 {#interruption-method-channel}
+
+作为内容作者，您应该能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在因日程安排而切断播放之前让重要内容充分播放。
+以下选项可用于从“渠道分配”对话框中设置 **中断方法** :
+
+* **立即**:只要计划激活或收到更新，我们就会停止播放并立即刷新或播放新内容
+* **在当前项目的末尾**:当激活新计划或收到更新时，我们等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
+   >[!NOTE]
+   >这是选中的默认选项。
+* **在序列结尾**:当新计划被激活或收到更新时，我们会等待整个序列到达其结尾，并且在回到第1个元素之前，我们会刷新或播放新内容
+
+#### 计划 {#schedule-channel}
+
+通过计划，您可以在应当显示渠道时提供文本形式的说明。It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown.
+
+**显示有趣内容工具提示**：
+
+“显示有趣内容工具提示”定义了在渠道运行时是否必须显示有趣内容工具提示（“触摸任何位置可开始&#x200B;**”）。
+
 
 ### 分时段功能 {#dayparting}
 
@@ -100,7 +114,7 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 此示例显示了一家餐厅如何使用分时段功能展示其早餐、午餐和晚餐菜单。
 
-在此，我们将每天分为三个不同的时段，以便渠道内容按一天的指定时间播放：
+在此，我们将每天分为三个不同的时段，以便渠道内容按一天中的指定时间播放：
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
@@ -158,4 +172,10 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 |---|---|---|---|
 | A | 温特 | 1 | 2017年12月1日至2017年12月31日 |
 | B | 圣诞节 | 2 | 2017年12月24日至2017年12月31日 |
+
+>[!IMPORTANT]
+> 要进一步了解分时段功能，请参阅以下各节：
+>* [处理资产中的循环](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [处理渠道中资产的循环](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
