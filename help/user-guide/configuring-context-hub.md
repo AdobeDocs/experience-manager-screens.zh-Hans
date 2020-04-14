@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -65,9 +65,9 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 ![图像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
-> The specific example below showcases the the google sheets as a data store that will trigger asset change if the value is higher than 100 or less than 50.
+> 以下特定示例将google工作表显示为一个数据存储库，如果该值大于100或小于50，则该数据存储将触发资产更改。
 
-## Step 2: Setting up Store Configurations {#step-setting-store-configurations}
+## 第2步：设置存储配置 {#step-setting-store-configurations}
 
 1. **导航到ContextHub**
 
@@ -121,7 +121,7 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 将代码替换为您在设 *置Google工作表时获取的**&lt;Sheet ID>和*&lt;API Key>。
 
       >[!CAUTION]
-      If you create your Google Sheets store configurations outside of the global folder (for instance in your own project folder), then targeting will not work out of the box.
+      如果您在全局文件夹（例如您自己的项目文件夹中）之外创建Google工作表存储配置，则定位将不会立即生效。
 
 1. **设置商店分段**
 
@@ -132,7 +132,7 @@ source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
    1. Click **Next** and then **Save**.
 
       >[!NOTE]
-You have to skip the process of defining the json and leave it as blank.
+您必须跳过定义json的过程，将其留空。
 
 
 ## 第3步：在受众中设置区段 {#setting-up-audience}
@@ -208,7 +208,7 @@ You have to skip the process of defining the json and leave it as blank.
 
    1. 从受众 **中**，选择Higherthan50 **and** Higherter Experience 50and the **Highenter Experience Than50ErNameShighNameAddTheHighter****************** 50，选择Higherthan50和Chighterererererereter50的。 Click **Ok**.
 
-   1. 从受众 **中**，选择Lowerthan50 **and** AddLickThe Lowerthan50Name和LowerAddInter体验，将Lowerthan50NameClickThe ******************** lower5AllName的经验设为Lower50Name。 Click **Ok**.
+   1. 从受众 **中**，选择Lowerthan50 **and** AddLickThe Lowerthan50Name和LowerAddInter体验，将Lowerthan50NameClickThe LowerThe ******************** LowerName的体验设为小于50的LowerJorNameNamer。 Click **Ok**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub15.png)
 
@@ -269,9 +269,7 @@ googlesheets/ **value/1/0** is the row 2 and column as pellited in the google sh
 
 1. 选择“个 **性化** ”选项卡以设置ContextHub配置。
 
-   1. 选择“ **Hub Path** ”作 **为** Libs **>** > Settings > DefaultHub **>DefaultHob Context Configurations(Libs**************> Settings > DefaultHub Context And Click SelectCloveCt”。
-
-   1. 选择“路径 **”** >“会议” **>“零售”****>“零售”** >“Wcm **”**************>“Adobe ClickSelectSelectDign”的段。
+   1. 将ContextHub路径设 **置为**`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` ContextHub路径，将 **Segment Path** （段路径）设置为 `/conf/screens/settings/wcm/segments` Save **** Hub，然后单击。
 
    1. 单击 **保存并关闭**。
 
