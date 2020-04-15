@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
    >[!NOTE]
    >此选项在默认情况下处于选中状态。
 * **在序列结尾**:当激活新计划或收到更新时，您可以选择等待整个序列到达其结尾，而在所需序列之前，您将循环回第1个元素，刷新或播放新内容
+
+   >[!NOTE]
+   >使用第二或第三选项可能导致在分配上定义的调度时间稍微延迟，因为播放器在刷新之前（在指定时间之后）将等待项目或序列的结束。 延迟取决于项目的播放持续时间。
 
 #### 计划 {#schedule-channel}
 
