@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -47,20 +47,20 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 | **模板选项** | **描述** |
 |---|---|
 | 渠道文件夹 | 允许创建一个文件夹来存储渠道的集合。 |
-| 序列渠道 | 允许创建按顺序播放组件（在幻灯片中逐个播放）的渠道。 |
+| 序列渠道 | 允许创建按顺序（在幻灯片中逐个播放）播放组件的渠道。 |
 | 应用程序渠道 | 允许在 Screens 播放器中显示您的自定义 Web 应用程序。 |
-| 1x1 分屏渠道 | 允许在单个区域中查看组件。 |
-| 1x2 分屏渠道 | 允许在两个区域（水平拆分）中查看资产。 |
-| 2X1分屏通道 | 允许在两个区域（垂直拆分）中查看资产。 |
-| 2x2 分屏渠道 | 允许在四个区域（在矩阵中水平和垂直拆分）中查看资产。 |
-| 2x3 分屏渠道 | 允许查看两个区域（水平拆分）中的资产，其中一个区域大于另一个区域。 |
-| 左右L栏分屏渠道 | 允许内容作者查看大小适当的区域中不同类型的资产。 |
+| 1x1 分屏渠道 | 允许在单个区域中视图组件。 |
+| 1x2 分屏渠道 | 允许在两个区域中视图资产（水平拆分）。 |
+| 2X1分屏渠道 | 允许在两个区域中视图资产（垂直拆分）。 |
+| 2x2 分屏渠道 | 允许在四个区域（在矩阵中水平和垂直拆分）中视图资产。 |
+| 2x3 分屏渠道 | 允许视图两个区域（水平拆分）中的资产，其中一个区域大于另一个区域。 |
+| 左右L栏分屏渠道 | 允许内容作者在大小合适的区域中视图不同类型的资产。 |
 
 >[!NOTE]
 >
->“分屏”通道将显示屏拆分为多个区域，这样您可以同时并排播放多个体验。 体验可以是静态资产／文本或嵌入式序列。
+>“分屏”渠道将显示屏拆分为多个区域，这样您可以同时并排播放多个体验。 体验可以是静态资产／文本或嵌入式序列。
 
-The following example shows the creation of a Sequence Channel (C *hannelOne*) for a Screens project (*DemoProject*).
+以下示例显示了如何为Screens项目(*DemoProject*)创建序列渠道(*ChannelOne*)。
 
 ![demochannel](assets/demochannel.gif)
 
@@ -68,9 +68,8 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 >
 >您可以使用模板选项（例如上面所述的 1x2 分屏渠道、2x2 分屏渠道或 2x3 分屏渠道）创建不同的区域。
 
-***重要说明***:
-
-在创建渠道并向渠道中添加内容后，下一步是创建位置，之后是创建显示屏。此外，您还需要将该渠道分配到显示屏。请参阅此部分末尾的资源以了解更多信息。
+>[!IMPORTANT]
+> 在创建渠道并向渠道中添加内容后，下一步是创建位置，之后是创建显示屏。此外，您还需要将该渠道分配到显示屏。请参阅此部分末尾的资源以了解更多信息。
 
 ## 使用渠道 {#working-with-channels}
 
@@ -78,7 +77,7 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 >[!NOTE]
 >
->单击左侧的图标可选择某个项目。例如，单击渠道图标后，可执行以下操作，如下图所示。
+>选择渠道，如下图所示。
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,16 +85,18 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 要在渠道中添加或编辑内容，请按照以下步骤操作：
 
-1. 单击要编辑的渠道（如上图所示）。
+1. 选择要编辑的渠道（如上图所示）。
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. 此时会打开编辑器，您可以在其中将资产/组件添加到要发布的渠道。
 
 >[!NOTE]
 >
->您可以向渠道添加组件。 有关更多 **[详细信息，请参阅将组件添加到渠道](adding-components-to-a-channel.md)** 。
+>您可以向渠道添加组件。 有关更多 **[详细信息，请参阅将组件添加到渠道](adding-components-to-a-channel.md)**。
 
 ![demochannel1](assets/demochannel1.gif)
 
-**将视频上传到渠道** 按照以下步骤将视频上传到渠道：
+**将视频上传到渠道**
+
+请按照以下步骤将视频上传到渠道：
 
 1. 选择要上传视频的渠道。
 1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
@@ -118,16 +119,16 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 要查看渠道的功能板，请按照以下步骤操作：
 
-1. 单击要编辑的渠道。
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. 选择要编辑的渠道。
+1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
 
 ![仪表板](assets/dashboard.gif)
 
 ### 渠道信息 {#channel-information}
 
-“渠道信息”面板描述了渠道属性以及渠道的预览。 此外，该面板还提供了有关渠道是处于脱机还是联机状态的信息。
+“渠道信息”面板描述渠道属性以及渠道的预览。 此外，该面板还提供了有关渠道是处于脱机还是联机状态的信息。
 
-单击&#x200B;**渠道信息**&#x200B;操作栏中的 (**...**) 可查看渠道属性、编辑渠道内容或更新渠道缓存（脱机内容）。
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -135,21 +136,21 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 
 >[!NOTE]
 >
->默认情况下，当您创建渠道时，该渠道为脱机。
+>默认情况下，创建渠道时，渠道为脱机。
 
 创建渠道时，可以将其定义为联机渠道或脱机渠道。
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+“联机渠道”******&#x200B;将会在实时环境中显示更新的内容，而“脱机渠道”******&#x200B;则会显示缓存的内容。
 
 请按照以下步骤使渠道处于联机状态：
 
-1. 导航到渠道（**TestProject** --&gt; **渠道** --&gt; **TestChannel**）。
+1. 导航到渠道（**TestProject** --> **渠道** --> **TestChannel**）。
 
    选择渠道。
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. **渠道信息**面板提供有关渠道是联机还是脱机的信息。
+   Click **Dashboard** from the action bar to view the status of the player. **渠道信息**&#x200B;面板提供了有关渠道是处于联机还是脱机状态的信息。
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -157,7 +158,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. 选中“开 **发人** 员”模式 **（强制渠道联机）** ，使渠道联机。
+1. 检查“开 **发人** 员”模式 **(强制渠道联机)** ，使渠道联机。
 
    单击&#x200B;**保存并关闭**&#x200B;以保存您的选项。
 
@@ -169,7 +170,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
 >[!NOTE]
 >
->如果要再次将渠道配置为脱机，请从“属性”选项卡(如第(3)步所示)中取消选中“开发人员模式”选项，然后从“渠道信息 **”面板中单击“** 更新脱机内容 ********”，如下图所示。
+>如果要再次将渠道配置为脱机，请从“属性”选项卡(如第(3)步所示)中取消选中“开发人员模式”选项，然后从“ **渠道信息** ”面板中单击“更新脱机内容 ********”，如下图所示。
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -190,22 +191,22 @@ An ***Online Channel***, will show the updated content in the real time environm
    <td><p>在“设备：推送配置”</p> <p>或者，</p> <p>设备上更新的 <strong><i>内容：重新启动</i></strong></p> </td>
   </tr>
   <tr>
-   <td>脱机渠道中的更改，但不会触发渠道“推送内容”（无脱机包重新创建）</td>
+   <td>脱机渠道中的更改，但渠道“推送内容”未触发（无脱机包重新创建）</td>
    <td>无内容更新</td>
    <td>无内容更新</td>
   </tr>
   <tr>
-   <td>将触发脱机渠道和渠道“推送内容”中的更改（新的脱机包）</td>
+   <td>脱机渠道和渠道中的更改将触发“推送内容”（新的脱机包）</td>
    <td>内容已自动更新</td>
    <td><p>设备上更新的 <strong><i>内容：推送配置</i></strong></p> <p>或者，</p> <p>设备上更新的 <strong><i>内容：重新启动</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>配置更改</p>
     <ul>
-     <li>显示（强制渠道）</li>
+     <li>显示(强制渠道)</li>
      <li>设备</li>
-     <li>渠道分配（新渠道，已删除渠道）</li>
-     <li>渠道分配（角色、事件、计划）</li>
+     <li>渠道分配(新渠道，已删除渠道)</li>
+     <li>渠道分配(角色、事件、计划)</li>
     </ul> </td>
    <td>配置已自动更新</td>
    <td><p>在设备上更新 <strong><i>的配置：推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>的配置：重新启动</i></strong></p> </td>
