@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### 查看清单 {#view-manifest}
+
+您可以从视图仪表板中渠道清单。
+
+>[重要信息]
+> 此选项仅在AEM 6.4功能包8或AEM 6.5功能包4中可用。
+
+按照以下步骤从渠道仪表板中启用此选项：
+1. **将渠道设置为脱机**
+   1. 选择渠道，然后从操 **作栏** 中选择属性
+   1. 导航到 **渠道** 选项卡，并确保取消选中“开发 **人员模式”(强制渠道联机)选项**
+   1. 单击 **保存并关闭**
+1. **更新离线内容**
+   1. 选择渠道，然后从操 **作栏** 中选择仪表板
+   1. 导览至“ **渠道信息** ”面板，然后 *单击……*
+   1. 单击“ **更新脱机内容”**
+
+现在，您应该可以从视图渠道的 **“仪表板信息”面** 板中看到“渠道清单 **** ”选项。
+
+![image1](assets/channel-one.png)
+
 
 ### 联机和脱机渠道 {#online-and-offline-channels}
 
