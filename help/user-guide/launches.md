@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ### 配置开箱即用的宽限期 {#configuring-out-of-the-box-grace-period}
 
-开箱即用时，启动项的宽限期设置为24小时，这意味着当我们为 */content/screens下的资源的任何启动项设置起始日期时*，促销将与此偏移量开始。 例如，如果liveDate设置为11月24日，上午9:00，宽限期为24小时，则促销作业将于上午11月23日09:00开始。
+开箱即用时，启动项的宽限期将设置为24小时，这意味着当我们为 */content/screens下的资源的任何启动项设置起始日期时*，促销将与此偏移量开始。 例如，如果liveDate设置为11月24日，上午9:00，宽限期为24小时，则促销作业将于上午11月23日09:00开始。
 
 ### 下载配置 {#downloading-configurations}
 
@@ -75,27 +75,30 @@ source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 1. **创建屏幕启动项**
 1. **编辑屏幕启动项以设置实时日期和范围**
 
-### 创建将来发布 {#creating-a-launch}
+### 创建屏幕启动项 {#creating-a-launch}
 
 请按照以下步骤对AEM Screens项目实施启动项功能：
 
-1. 导航到AEM Screens项目中的序列渠道，例如 **LaunchesDemo** —> **渠道** —> **FutureLaunch**，如下所示。
+1. 在AEM Screens项目中创建序列渠道，例如 **LaunchesDemo** —> **渠道** —> **FutureLaunch**，如下所示。
 
    >[!CAUTION]
    >
    >您必须从AEM Screens项目中的预先存在的渠道创建启动项。
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![图像](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. 选择渠道 **FutureLaunch** ，然后 **单击操作栏中的创建启动项** 。
 
-1. 此时将 **打开创建启动** 项向导。 您可以选择向导中已显示的渠道，或单击 **+添加页面** ，以选择要为其创建启动项的屏幕渠道。
+   ![图像](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >以下示例展示了如何在向导中为现有渠道创建启动项。
+1. 此时将 **打开创建启动** 项向导。 您可以选择向导中已显示的渠道，或单击 **+添加渠道** ，以添加要为其创建启动项的渠道。
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### 使用现有渠道 {#existing-channel-launch}
+
+1. 选择在创建启动项向导中已存在 **的渠道** ，然后单击 **下一步**。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. 选择渠道，然后从操 **作栏** 中单击“下一步”。
 
@@ -124,6 +127,49 @@ source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    单击 **完成** ，可导航回您的 **FutureLaunch** 渠道。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### 使用添加渠道选项 {#add-channel-launch}
+
+1. 单击 **+添加渠道** ，以添加要为其创建启动项的渠道。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >如果 **您尝试选择多个渠道或用于添加启动项的文件夹，则“选择** ”选项将被禁用。
+
+1. 导航到要为其创建启动项的渠道，然后单击选 **择**。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. 现在，您可以选择添加的渠道，为其创建启动项，然后单击“下 **一步”**。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. 将启 **动项标题输入****SummerPromotions******，您无需设置启动日期，如下图所示。 单击&#x200B;**创建**。
+
+   >[!NOTE]
+   >
+   >*启用或选中* “继 **承源页面Live Data** ”选项，可在启动项中将渠道创建为Live Copy。 如果在原始渠道中进行了任何更改，则这些更改会自动应用于启动渠道。
+   >
+   >
+   >*禁用或取消选* 中“继承源页面动态数据 **** ”允许复制渠道，而不会在启动项中产生任何实时关系。 因此，如果对原始渠道进行了任何更改，则这些更改不会应用于启动渠道。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >您可以在此步骤中设置实时启动日期，也可以在稍后编辑启动项的属性时设置它，直到该启动项已创建。
+
+1. 您将看到已创建启动项。 您可以单击“打 **开** ”以视图编辑器中的页面，或单击“ **完成** ”以导航回项目。
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   单击 **完成** ，可导航回您的 **FutureLaunch** 渠道。
+
+   ![图像](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### 编辑启动项属性以设置实时日期和范围 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
