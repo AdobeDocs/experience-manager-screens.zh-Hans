@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -77,9 +77,9 @@ source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ### 创建将来发布 {#creating-a-launch}
 
-请按照以下步骤对您的AEM Screens项目实施将来的发布功能：
+请按照以下步骤对AEM Screens项目实施启动项功能：
 
-1. 导航到AEM Screens项目中的渠道，例如 **LaunchesDemo** —> **渠道** —> **FutureLaunch**，如下所示。
+1. 导航到AEM Screens项目中的序列渠道，例如 **LaunchesDemo** —> **渠道** —> **FutureLaunch**，如下所示。
 
    >[!CAUTION]
    >
@@ -87,21 +87,22 @@ source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. 选择渠道 **FutureLaunch** ，然后单 **击创建**。 从下 **拉菜单中选择** “启动项”。
+1. 选择渠道 **FutureLaunch** ，然后 **单击操作栏中的创建启动项** 。
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. 此时将 **打开创建启动** 项向导。 您可以选择向导中已显示的渠道，或单击 **+添加页面** ，以选择要为其创建启动项的屏幕渠道。
 
-1. 此时将 **打开创建启动** 项向导。 单 **击+添加页面** ，以选择要为其创建启动项的AEM Screens渠道。
+   >[!NOTE]
+   >以下示例展示了如何在向导中为现有渠道创建启动项。
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. 导航到渠道，然后单击“ **选择**”。
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. 选择渠道，然后从操 **作栏** 中单击“下一步”。
 
-1. 选择页面后，单击“下 **一步** ”，在“创建启动项”向导中进 **一步移动** 。
+   >[!NOTE]
+   >**默认情况下** ,“包括子页面”选项处于选中状态。
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![图像](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. 将启 **动项标题输入****SummerPromotions******，您无需设置启动日期，如下图所示。 单击&#x200B;**创建**。
 
@@ -112,7 +113,7 @@ source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
    >
    >*禁用或取消选* 中“继承源页面动态数据 **** ”允许复制渠道，而不会在启动项中产生任何实时关系。 因此，如果对原始渠道进行了任何更改，则这些更改不会应用于启动渠道。
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![图像](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -122,9 +123,7 @@ source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   单击 **完成** ，可导航回您的 **LaunchesDemo项目** 。
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   单击 **完成** ，可导航回您的 **FutureLaunch** 渠道。
 
 ### 编辑启动项属性以设置实时日期和范围 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
