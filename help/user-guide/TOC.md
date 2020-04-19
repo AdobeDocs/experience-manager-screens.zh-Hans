@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens帮助
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 4126b06f33216d2b2e10cbcd9b16333a347f791b
 
 ---
 
@@ -97,6 +97,7 @@ source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包202004发行说明](release-notes-fp-202004.md)
    + [功能包202001发行说明](release-notes-fp-202001.md)
    + [功能包201909发行说明](release-notes-fp-201909.md)
    + [功能包201907发行说明](release-notes-fp-201907.md)
