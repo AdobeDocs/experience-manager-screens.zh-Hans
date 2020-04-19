@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Adobe Experience Manager Screens帮助
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 + [Screens简介](aem-screens-introduction.md)
 + 概述和引题指南 {#overview}
    + [启动指南](kickstart-for-aem-screens.md)
-   + [Screens最佳实践指南](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Screens最佳实践指南](https://docs.adobe.com/content/help/zh-Hans/experience-manager-screens/using/about-guide.html)
    + [主要条款](screens-glossary.md)
 + 数字标牌网络基础 {#digital-signage-network}
    + [第1部分：项目角色和职责](project-roles-responsibilities.md)
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + 管理内容更新 {#content-updates}
       + [点播内容更新](on-demand-content.md)
       + [内容即服务更新](content-update-as-a-service.md)
-      + [使用启动项更新内容](launches.md)
+      + [使用Screens启动更新内容](launches.md)
    + 用例示例 {#use-case-examples}
       + [紧急渠道](emergency-channel.md)
       + [旅行中心温度激活](local-temperature-activation.md)
