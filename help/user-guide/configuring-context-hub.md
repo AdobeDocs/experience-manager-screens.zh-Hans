@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
    1. 在“ **Google Store Name** , **Google Store Sheets Type Store Store** AsConthuthub. ******************** Jsonp”中输入Google Store Sheets、Google SheetsType StoreStoreS和ConteGleName。
 
+      >[!CAUTION]
+      >如果您使用的是Adobe Experience Manager(AEM)6.4，请将 **Configuration Title** （配置标题）输入 **googlesheetsheets** ，将 **Store Type** （存储类型）输 ****&#x200B;入为contexthub.jsonp-generic Experip。
+
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >在AEM 6.4中，将配置标题 **输入为** googlesheets **，将存储类型输** 入为contexthub. ******** generic-jsonp。
+
 
    1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的，然后单击“ **保存** ”，您会在ContextHub配置中看到标题为“ **Google工作表** ”的存储配置。
 
