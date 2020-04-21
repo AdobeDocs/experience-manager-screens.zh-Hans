@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
+source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
 
 ---
 
@@ -92,8 +92,13 @@ source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
       ![图像](/help/user-guide/assets/context-hub/context-hub5.png)
 
-   1. 在“ **Google Store Name** , **Google Store Sheets Type Store Store** AsConthuthub. ********************Jsonp”中输入Google Store Sheets、Google SheetsType StoreStoreS和ConteGleName。
+   1. 在“ **Google Store Name** , **Google Store Sheets Type Store Store** AsConthuthub. ******************** Jsonp”中输入Google Store Sheets、Google SheetsType StoreStoreS和ConteGleName。
+
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
+
+      >[!NOTE]
+      >
+      >在AEM 6.4中，将配置标题 **输入为** googlesheets **，将存储类型输** 入为contexthub. ******** generic-jsonp。
 
    1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的，然后单击“ **保存** ”，您会在ContextHub配置中看到标题为“ **Google工作表** ”的存储配置。
 
@@ -208,7 +213,7 @@ source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
    1. 从受众 **中**，选择Higherthan50 **and** Higherter Experience 50and the **Highenter Experience Than50ErNameShighNameAddTheHighter****************** 50，选择Higherthan50和Chighterererererereter50的。 Click **Ok**.
 
-   1. 从受众 **中**，选择Lowerthan50 **and** AddLickThe Lowerthan50Name和LowerAddInter体验，将Lowerthan50NameClickThe LowerThe ******************** LowerName的体验设为小于50的LowerJorNameNamer。 Click **Ok**.
+   1. 从受众 **中**，选择Lowerthan50 **and** AddLickThe Lowerthan50Name和LowerAddInter体验，将Lowerthan50NameClickThe ******************** lower5AllName的经验设为Lower50Name。 Click **Ok**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub15.png)
 
@@ -237,7 +242,7 @@ googlesheets/ **value/1/0** is the row 2 and column as pellited in the google sh
 
    1. 从下 **拉菜** 单中选择 **** “大于”(Operator)。
 
-   1. 输入 **值** 70 **作为**。
+   1. 输入 **Value** **70**。
 
       >[!NOTE]
       AEM会将区段显示为绿色，以验证Google工作表中的数据。
