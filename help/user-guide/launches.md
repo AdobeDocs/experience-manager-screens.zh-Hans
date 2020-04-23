@@ -11,62 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # 使用Screens启动更新内容 {#launches}
 
-内容作者可以创建渠道的未来版本(称为 **Screens启动项** )，并进一步设置此启动项的发布日期，使内容能够在设备或播放器中实时显示。
+内容作者可以创建渠道的未来版本(称为 **Screens启动项** )，并进一步设置此启动项的起始日期。 这允许内容在指定的发布日期在设备或播放器中实时显示。
 
-在将来发布的帮助下，作者可以预览启动项中的每个渠道，并应能够发起审阅请求。 批准者组将收到通知，并可以批准或拒绝请求。 到达活动日期后，内容将在设备中播放。
+在Screens启动项的帮 **助下**，作者可以预览启动项中的每个渠道，并应能够启动审阅请求。 批准者组将收到通知，并可以批准或拒绝请求。 到达活动日期后，内容将在设备中播放。
 
 例如，如果作者要创建c1、c2(渠道)的未来版本，则会创建启动项并设置起始日期（例如，11月10日上午8:00）。 内容中的任何进一步更新都将发出以供审阅。 批准后，在实时日期（11月10日上午8:00），此启动项将在设备或播放器上播放内容。
 
 ## 要求 {#requirements}
 
-在开始在AEM Screens项目中将来发布的实施之前，请确保您了解宽限期的概念及其相关性。
+在开始AEM Screens项目中利用屏幕启动项之前，请确保您了解宽限期的概念及其相关性。
 
-下节将介绍宽限期，并进一步说明如何开箱即用配置宽限期。 您还可以下载示例测试配置以了解其用法。
+在播放器的设置起始日期运行体验涉及：
+
+* 启动项的升级（通常需要几秒钟）
+
+* 发布资源以发布实例(通常需要几分钟，具体取决于需要发布的渠道或资产的大小)
+
+* 更新脱机内容所花费的时间（通常需要几分钟）
+
+* 播放器从发布实例下载内容所花费的时间（通常需要几分钟，具体取决于需要下载的n/w带宽和资产大小）
+
+* 服务器和播放器的任何时间差异
 
 ### 了解宽限期 {#understanding-grace-period}
 
-以下设置允许管理员配置将来发 ***布所需的宽限期***。
+为了使播放器能够开始在设定的发布日期播放内容，我们需要在发布日期之前开始前面提到的活动。
 
-**宽限期**，包括：
-
-* 启动项的提升
-* 发布资源以发布实例
-* 设备从发布实例下载内容所花费的时间以及服务器和播放器的任何时间差异
+如果起始日期为11月24 *日，上午9:00* ，宽限期为 *24小时*，则上述操作序列将在（起始日期——宽限期）（即11月23日，上午9:00服务器时间）开始。 这为完成上述所有操作提供了24小时的时间，内容将到达玩家。 播放器将了解这是一个启动内容，因此内容不会立即播放，但播放器会将此内容存储为将来版本，并将在播放器的时区的设置实时日期正确开始播放。
 
 例如，假设服务器在PST中，设备在EST中，最大时间差为3小时，这种情况下，假定从作者开始发布到发布需要10分钟，播放器通常可以在10-15分钟内下载资源。 然后，宽限期=时间差（3小时）+提升启动时间（1分钟）+发布启动时间（10分钟）+在播放器（10-15分钟）下载时间+缓冲时间（要安全，例如30分钟）= 3小时56分钟= 14160秒。 因此，当我们实时计划任何启动项时，促销将在此偏差之前提前开始。 在上述等式中，大多数项目不需要花费很多时间，一旦我们知道服务器和任何播放器的最大时间差，我们就可以对此偏移量使用一个适当的猜测。
 
-### 配置开箱即用的宽限期 {#configuring-out-of-the-box-grace-period}
-
-开箱即用时，启动项的宽限期设置为24小时，这意味着当我们为 */content/screens下的资源的任何启动项设置起始日期时*，促销将与此偏移量开始。 例如，如果liveDate设置为11月24日，上午9:00，宽限期为24小时，则促销作业将于上午11月23日09:00开始。
-
-### 下载配置 {#downloading-configurations}
-
-下载以下测试配置：
-
-[获取文件](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->上述配置在此测试配置中的宽限期为600秒。
+>开箱即用时，屏幕启动的宽限期将设置为24小时，这意味着，当我们为 */content/screens下的资源的任何启动项设置起始日期时*，促销将与此偏移开始。
 
-#### 更新配置 {#updating-the-configurations}
+### 更新现成宽限期 {#updating-out-of-the-box-grace-period}
 
-如果要更改上述配置，请按照以下说明操作：
+本节将介绍如何将现成的宽限期更新为10分钟：
 
-* 创建 ***sling:OsgiConfig/ nt:file in /apps/system/config*** ，名称为 **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** 和内容
+1. 导航到CRXDE Lite，然后导航到 `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`。
+2. 右键单击并复制文件。
+3. 导航到 `/apps/system/config` 并右键单击并粘贴。
+4. 多次单 `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` 击以在CRXDE Lite的编辑器中打开文件。 它必须显示路径／内容/ *屏幕/* 86400的宽限期。 将该值更改 **为600**。
 
-   *launches.eventhandler.updatelastmodification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/)。*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+现在，文本文件中的内容应类似于：
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`，允许您在路径／内容／屏幕中设置600秒 *的宽限期*。
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-这意味着，当您在 */content/screens下为资源的任何启动项设置起始日期时*，促销将与此偏移量开始。 例如，如果实时日期设置为11月24日上午9:00，宽限期为600秒，则促销作业将于11月24日上午8:50开始。
+由于您在上一个示例中将宽限期设置为10分钟，因此，当您在 */content/screens下为资源的任何启动项设置起始日期时*，该促销将与此偏移量开始。
+
+例如，如果实时日期设置为11月24日，上午9:00，宽限期为600秒，则促销作业将于11月24日上午8:50开始。
 
 ## 使用Screens启动项 {#using-launches}
 
