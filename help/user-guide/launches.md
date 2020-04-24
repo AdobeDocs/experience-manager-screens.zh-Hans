@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 使用Screens启动项 {#using-launches}
 
-请按照以下部分在AEM Screens项目中实施启动项。 本节涵盖下列主题：
-
-1. **创建屏幕启动项**
-1. **编辑屏幕启动项以设置实时日期和范围**
+请按照以下部分在AEM Screens项目中实施启动项。
 
 ### 创建屏幕启动项 {#creating-a-launch}
 
@@ -97,60 +94,19 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 1. 此时将 **打开创建启动** 项向导。 您可以选择向导中已显示的渠道，或单击 **+添加渠道** ，以添加要为其创建启动项的渠道。
 
-
-#### 使用现有渠道 {#existing-channel-launch}
-
-1. 选择在创建启动项向导中已存在 **的渠道** ，然后单击 **下一步**。
+1. 单击 **创建启动** 向导中 **的下一步** 。 默认 **情况下，“包括子页** ”选项处于选中状态。
 
    ![图像](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. 选择渠道，然后从操 **作栏** 中单击“下一步”。
-
    >[!NOTE]
-   >**默认情况下** ,“包括子页面”选项处于选中状态。
-
-   ![图像](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. 将启 **动项标题输入****SummerPromotions******，您无需设置启动日期，如下图所示。 单击&#x200B;**创建**。
-
-   >[!NOTE]
-   >
-   >*启用或选中* “继 **承源页面Live Data** ”选项，可在启动项中将渠道创建为Live Copy。 如果在原始渠道中进行了任何更改，则这些更改会自动应用于启动渠道。
-   >
-   >
-   >*禁用或取消选* 中“继承源页面动态数据 **** ”允许复制渠道，而不会在启动项中产生任何实时关系。 因此，如果对原始渠道进行了任何更改，则这些更改不会应用于启动渠道。
-
-   ![图像](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >您可以在此步骤中设置实时启动日期，也可以在稍后编辑启动项的属性时设置它，直到该启动项已创建。
-
-1. 您将看到已创建启动项。 您可以单击“打 **开** ”以视图编辑器中的页面，或单击“ **完成** ”以导航回项目。
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   单击 **完成** ，可导航回您的 **FutureLaunch** 渠道。
-
-   ![图像](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### 使用添加渠道选项 {#add-channel-launch}
-
-1. 单击 **+添加渠道** ，以添加要为其创建启动项的渠道。
+   >可以使用 **+添加渠道** ，以添加要为其创建启动项的渠道。
 
    ![图像](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >如果 **您尝试选择多个渠道或用于添加启动项的文件夹，则“选择** ”选项将被禁用。
+   >1. 导航到要为其创建启动项的渠道，然后单击选 **择**。 如果 **您尝试选择多个渠道或用于添加启动项的文件夹，则“选择** ”选项将被禁用。
+   >
+   >![图像](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. 导航到要为其创建启动项的渠道，然后单击选 **择**。
-
-   ![图像](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. 现在，您可以选择添加的渠道，为其创建启动项，然后单击“下 **一步”**。
-
-   ![图像](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. 将启 **动项标题输入****SummerPromotions******，您无需设置启动日期，如下图所示。 单击&#x200B;**创建**。
 
@@ -174,6 +130,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    单击 **完成** ，可导航回您的 **FutureLaunch** 渠道。
 
    ![图像](/help/user-guide/assets/launches-images/launches-16.png)
+
 
 ### 编辑启动项属性以设置实时日期和范围 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
@@ -189,35 +146,23 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![图像](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 选择启动项，然后单击“待定启动项”面板中的任 **意所需操作** 。
+1. 选择启动项，然后从“待定 **的启动项** ”面板中 **单击启动项属性** 。
 
    ![图像](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. 例如，单击启动项 **属性** ，以编辑启动项 **SummerPromotions的属性**。
+#### 编辑屏幕启动项以添加或删除渠道 {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![图像](/help/user-guide/assets/launches-images/launches-20.png)
+在创建启动项后，您可以使用编辑启动项操作向现有启动项添加或删除 **渠道** 。
 
-1. 您可以编辑启 **动标题** ，并填充以下字段：
+完成操作后，单击保 **存并关闭** ，以导航回 **FutureLaunch** 渠道。
 
-   * 选择启 **动日期**
-   * 检查 **生产就绪**
-   * 从范 **围中选择提升已批准的页** 面 **。**
-   **了解“自动提升”下的“启动项”条目：**
+#### 手动提升屏幕启动{#promote-the-screens-launch-manually}
 
-   * **启动日期**，指实时日期，即根据播放器的时区，内容在Screens播放器中播放的日期／时间。
-   * **生产就绪**，允许提升渠道，并表示启动项已准备好使用。
-   * **范围**，指在启动过程中可提升的渠道。
-   以下三个选项可用于设置范围：
+您可以使用提升启动项操作手动 **提升启动项** 。
 
-   * **提升完整启动项**:启动项的所有渠道在设置的起始日期提升。
-   * **提升修改的页面**:将仅提升已编辑的启动项资源。 建议在不需要启动项审阅时使用此选项。 它允许提升启动渠道中的修改。
-   * **提升已批准的页面**:只有经过批准的页面才会在设置的起始日期提升。
+您可以在启动提升向导中选择要提升的资源，作为此手动提升的一 **部分**。
 
-      >[!CAUTION]
-      >
-      >启动升级遵循播放器／设备的时区，而不是服务器的时区。
+#### 删除屏幕启动项 {#deleting-the-screens-launch}
 
-
-
-1. 单击 **保存并关闭** ，导航回 **FutureLaunch渠道** 。
+您可以使用删除启动项操作 **来删除启动** 项。
 
