@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 使用Screens启动项 {#using-launches}
 
-请按照以下部分在AEM Screens项目中实施Screens启动。
+此部分演示如何在AEM Screens项目中实施Screens Launch。
 
 ### 创建屏幕启动项 {#creating-a-launch}
 
@@ -104,8 +104,6 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    >[!NOTE]
    >您可以使 **用+添加渠道** ，以添加要为其创建启动项的其他渠道。
-
-   ![图像](/help/user-guide/assets/launches-images/launches-13.png)
 
    要使用 **添加渠道** ，请导航到要为其创建启动项的渠道，然后单击选择 ****。
 
@@ -173,13 +171,13 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![图像](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### 编辑屏幕启动项以添加或删除渠道 {#editing-the-screens-launch-to-add-or-remove-channels}
+### 编辑屏幕启动项以添加或删除渠道 {#editing-the-screens-launch-to-add-or-remove-channels}
 
-在创建启动项后，您可以使用编辑启动项操作向现有启动项添加或删除 **渠道** 。
+创建启动项后，可以使用编辑启动项选项向现有启动项添加渠道或 **删除** 。
 
 完成操作后，单击保 **存** ，导航回 **FutureLaunch** 渠道。
 
-#### 手动提升屏幕启动{#promote-the-screens-launch-manually}
+### 手动提升屏幕启动{#promote-the-screens-launch-manually}
 
 您可以使用“待定启动项”面板中的“ **提升启动项** ”选项 **手动提升启动项** 。
 
@@ -196,11 +194,10 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 1. 单击 **提升** 启动 **向导中的下一步** 。
 1. 单击 **提升** ，以提升启动项。
 
+### 删除屏幕启动项 {#deleting-the-screens-launch}
 
-#### 删除屏幕启动项 {#deleting-the-screens-launch}
-
-您可以使用删除启动项操作 **来删除启动** 项。
+您可以使用“待定启动项”面 **板中的“删除启动项** ”选项 **来删除启动项** 。
 
 >[注意]
->此操作还将删除所有子代嵌套启动项。
+>此操作还将删除所有子体（嵌套启动项）。
 
