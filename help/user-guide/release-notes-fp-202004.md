@@ -1,10 +1,10 @@
 ---
 title: 功能包202004发行说明
 seo-title: 功能包202004发行说明
-description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的相关信息。
-seo-description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的相关信息。
+description: 可查看本页以获取2020年4月28日发布的AEM Screens功能包202004的相关信息。
+seo-description: 可查看本页以获取2020年4月28日发布的AEM Screens功能包202004的相关信息。
 translation-type: tm+mt
-source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
+source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0fe7d661c41675fc722b35a278dcbd510dca9084
 
 AEM Screens发布了AEM 6.4功能包8和AEM 6.5功能包4，其中包含以下详细信息。
 
-## Release Date {#release-date}
+## 发布日期 {#release-date}
 
-AEM Screens功能包202004的发布日期为2020年4月20日。
+AEM Screens功能包202004的发布日期为2020年4月28日。
 
 ### 新增功能 {#what-s-new}
 
