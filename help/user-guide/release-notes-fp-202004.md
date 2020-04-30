@@ -1,10 +1,10 @@
 ---
 title: 功能包202004发行说明
 seo-title: 功能包202004发行说明
-description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的相关信息。
-seo-description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的相关信息。
+description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的信息。
+seo-description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的信息。
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -22,7 +22,7 @@ AEM Screens发布了AEM 6.4功能包8和AEM 6.5功能包4。
 您可以从待定链接下载AEM Screens 6.4.8或AEM Screens 6.5.4版本的最新功 *能包*。
 
 >[!NOTE]
->请参阅 [如何使用包](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) ，了解包如何启用存储库内容的导入和导出以及如何从包管理器或包共享访问和／或维护包。
+>请参 [阅如何使用包](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) ，了解包如何启用存储库内容的导入和导出，以及如何从包管理器或包共享访问和／或维护包。
 
 
 ## 发布日期 {#release-date}
@@ -33,19 +33,19 @@ AEM Screens功能包202004的发布日期为2020年4月20日。
 
 * **播放中断策略选项**
 
-   作为内容作者，您应该能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在因日程安排而切断播放之前让重要内容充分播放。
+   作为内容作者，您应当能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在由于日程安排而中断播放之前让重要内容完全播放。
 
-   请参阅中断方 **[法一节](/help/user-guide/channel-assignment.md#interruption-method-channel)**，进一步了解在AEM Screens项目中实现此功能的“**渠道分配**”对话框中提供的选项。
+   请参阅中断方 **[法一节](/help/user-guide/channel-assignment.md#interruption-method-channel)**，进一步了解在AEM Screens项目中实&#x200B;**现此功能的“渠道分配**”对话框中提供的选项。
 
 * **屏幕启动**
 
    内容作者用户体验流已得到改进，并减少了使用将来发布的点击次数。
 
-   有关更多 **[详细信息，请参阅使用Screens Launch进行内容更新](launches.md)**。
+   有关更多 **[详细信息，请参阅使用Screens启动](launches.md)**“内容更新”。
 
 * **渠道功能板**
 
-   更新渠道仪表板和脱机对话框中的说明以阅读……“更新脱机内容”取代了“更新缓存”一词
+   在“渠道信息”面板中反映对渠道仪表板 **中说明的** 更新。
 
 
 * **查看清单**
@@ -56,22 +56,24 @@ AEM Screens功能包202004的发布日期为2020年4月20日。
 
 * **文本覆盖**
 
-   在向文本叠加功能添加测试时，字体大小是精确和改进的。
+   向文本叠加功能添加测试时，字体大小是精确和改进的。
 
-   请参阅 **[文本叠加](text-overlay.md)**，通过在图像顶部提供覆盖的标题或描述在序列渠道中创建引人入胜的体验。
+   请参阅 **[文本叠加](text-overlay.md)**，通过提供覆盖在图像顶部的标题或描述，在序列渠道中创建引人入胜的体验。
 
 * **命令同步的改进**
 
-   在此功能包版本中，资产更改之间的命令同步延迟的改进得到了反映。
+   在此功能包版本中，资产更改之间的命令同步延迟得到了改进。
+
+   有关更多 **[详细信息](using-command-sync.md)**，请参阅命令同步。
 
 ### 已发布的AEM Screens播放器 {#released-aem-screens-players}
 
-为发布的AEM Screens发布了以下AEM Screens播放器：AEM 6.4功能包8和AEM 6.5功能包4:
+为已发布的AEM Screens AEM 6.4功能包8和AEM 6.5功能包4发布了以下AEM Screens播放器：
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens播放器下载 {#aem-screens-player-downloads}
+#### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [**AEM Screens播放器下载&#x200B;**](https://download.macromedia.com/screens/)。
+要下载最新的AEM Screens播放器并进一步了解错误修复，请参 **[阅AEM Screens播放器下载](https://download.macromedia.com/screens/)**。
