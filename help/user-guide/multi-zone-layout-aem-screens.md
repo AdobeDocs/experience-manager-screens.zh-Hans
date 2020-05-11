@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 6%
 
 ---
@@ -69,13 +69,10 @@ ht-degree: 6%
 
    1. 导航到 **Zones** —> **渠道**—**> MultiZone**。
    1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **向渠道添加图像**
 
-   要在所有三个区域中播放单个图像或视频，只需在渠道编辑器中拖放图像，如下所示。
-
-   ![new1-1](assets/new1-1.gif)
+   要在所有三个区域中播放单个图像或视频，只需在渠道编辑器中拖放该图像。
 
 ### 在一个或多个区域中使用排序的内容 {#using-sequenced-content-in-one-or-more-zones}
 
