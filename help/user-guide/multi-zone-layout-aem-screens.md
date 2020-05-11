@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,10 @@ ht-degree: 6%
 
 使用上述步骤实施多区域布局后，将显示以下输出，如下图所示。
 
-Screens播放器中的以下输出在三个不同区域中显示内容。 左侧和右侧区域（均使用嵌入式序列作为组件）显示图像序列，下方区域显示静态图像。
+单击 **预览** ，从渠道编辑器中视图以下输出，该输出在两个不同的区域中显示内容。 左侧和右侧区域（两者都使用嵌入式序列作为组件）。
+
+>[!NOTE]
+>如果尝试视图Screens播放器中的内容，请确保单击“更 **新脱机内容** ”渠道仪表板。
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
