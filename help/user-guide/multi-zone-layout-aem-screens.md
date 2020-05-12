@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 4%
@@ -151,7 +151,7 @@ ht-degree: 4%
    1. 将支持 **的事件设** 置为 **初始负**&#x200B;载、Idle Screen **和** Timer **Dimer**。
    1. 单击&#x200B;**保存**。
 
-      ![图像](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![图像](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. 同样，必须使用步骤(2)将其&#x200B;**他两个嵌入渠道** ( **Zone1**&#x200B;和Zone2)分配给此显示屏。
    1. 将所有三个渠道分配给“休 **息室** ”显示屏后，您应该能够从显示仪表板视图分配的渠道。
 
