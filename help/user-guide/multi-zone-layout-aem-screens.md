@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 6%
+source-wordcount: '1175'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 在开始实现此功能之前，请确保您已准备好项目作为开始实现多区域布局的先决条件。 例如，
 
 * 创建标题为“区域”的AEM Screens项 **目**
-* 在标题为MultiZoneDisplay的 **位**&#x200B;置下创建&#x200B;**显示屏**
+* 在标题为MultiZoneDisplay **的** “位置” **下创建显示屏**。
 
 在Zones项目中创 **建标题为** MultiZone **的** 渠道。 按照以下步骤操作：
 
@@ -53,13 +53,11 @@ ht-degree: 6%
 1. 选择 Adobe Experience Manager 链接（左上方），然后选择&#x200B;**屏幕**。Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. 导航到 **渠道** 文件夹，然 **后单** 击操作栏中的创建。
 
-1. 从创 **建向导中选择左侧L** -bar分 **屏渠道** 。
+1. 从 **创建向导中选择** 1x2分 **屏渠道** 。
 
 1. 单 **击** “下一步 **”，然后输** 入Multi **Zone**&#x200B;标题。
 
 1. 单击 **创建** ，以完成渠道创建。
-
-![screen_shot_2018-12-07at120026pm](assets/screen_shot_2018-12-07at120026pm.png)
 
 ### 在一个或多个区域中使用单个资产 {#using-single-assets-in-one-or-more-zones}
 
@@ -72,11 +70,15 @@ ht-degree: 6%
 
 1. **向渠道添加图像**
 
-   要在所有三个区域中播放单个图像或视频，只需在渠道编辑器中拖放该图像。
+   要在两个区域中播放单个图像或视频，只需在渠道编辑器中将图像拖放到每个区域，如下图所示：
+
+   MultiZone-img3
+
+   ![图像](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### 在一个或多个区域中使用排序的内容 {#using-sequenced-content-in-one-or-more-zones}
 
-如果希望区域在三个不同区域中显示图像或内容序列以及静态图像，请按照以下步骤了解详细信息。
+如果希望区域在两个不同区域中显示图像或内容的序列和静态图像，请按照以下步骤了解详细信息。
 
 1. **创建渠道文件夹**
 
@@ -97,13 +99,13 @@ ht-degree: 6%
 
    添加到Zone1序列渠道 **编辑器** 的图像如下所示：
 
-   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   添加到Zone2序列渠道 **编辑器** 的图像如下所示：
+   添加到Zone2序列渠道 **编辑器** 的视频如下所示：
 
-   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
-1. **将嵌入式序列／组件添加到主渠道(MultiZone)**
+1. **将嵌入式序列（组件）添加到主渠道(MultiZone)**
 
    1. 导航到 **Zones** —> **渠道** — **>** MultiZone。
    1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
@@ -119,15 +121,70 @@ ht-degree: 6%
 
    ![图像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
+### 创建位置和显示 {#creating-location}
+
+您必须创建一个位置和显示屏来视图Screens播放器中的内容。 按照以下步骤创建位置和显示屏。
+
+1. **创建位置**
+
+   1. 导航到 **Zones** —> **位置** 文件夹。
+   1. 选择位 **置文** 件夹，然后 **单击操** 作栏中的“创建”。
+   1. Select **Location** from the **Create** wizard and click **Next**.
+   1. Enter the **Title** as **SanJose** and click **Create**.
+
+1. **创建显示屏**
+
+   1. 导航到 **Zones** —> **位置** 文件夹。
+   1. 选择SanJose **位置** ，然后 **单击操** 作栏中的“创建”。
+   1. Select **Display** from the **Create** wizard and click **Next**.
+   1. Enter the **Title** as **Lobby** and click **Create**.
+
+### 将渠道分配给显示屏 {#channel-channel}
+
+您必须为显示屏分配渠道，才能视图内容。 请按照以下步骤将渠道分配给显示屏。
+
+1. **将渠道分配给显示屏**
+
+   1. 导航到 **Zones** —>位 **置** —> **SanJose**— ****>大堂。
+   1. 选择“ **休息室** ”显示屏，然 **后单击操** 作栏中的“分配渠道”。
+   1. 在“渠道路径” **中输入** MultiZone **渠道的路径**。
+   1. 将支持 **的事件设** 置为 **初始负**&#x200B;载、Idle Screen **和** Timer **Dimer**。
+   1. 单击&#x200B;**保存**。
+
+      ![图像](/help/user-guide/assets/multi-zone/multizone-img7.png)
+   1. 同样，必须使用步骤(2)将其&#x200B;**他两个嵌入渠道** ( **Zone1**&#x200B;和Zone2)分配给此显示屏。
+   1. 将所有三个渠道分配给“休 **息室** ”显示屏后，您应该能够从显示仪表板视图分配的渠道。
+
+      ![图像](/help/user-guide/assets/multi-zone/multizone-img8.png)
+   >[!I重要]
+   > 一旦将主渠道(本例中为 **MultiZone**)分配给显示屏，则必须将另外两个嵌入的渠道Zone **1和****** Zone2也分配给同一显示屏。
+
+### 注册设备 {#registering-device}
+
+设置位置和显示屏后，请按照以下步骤注册设备并为设备分配显示屏。
+
+1. **注册设备**
+
+   1. 导航到 **Zones** —>设 **备文** 件夹。
+   1. Select the **Devices** folder and click **Device Manager** from the action bar.
+   1. 单击 **“设备注册** ”，然后从列表中选择待定设备。
+      >[!NOTE]
+      > 设备的标题必须与设备注册选项卡中显&#x200B;**示的设** 备令牌( **令牌字段** )匹配。
+   1. 如果标题与设备令牌匹配，请选择设备，然后单 **击操作栏** 中的注册设备。
+   1. 如果注册代码与Screens播放器注册选项卡中的代码匹配，请单 **击操** 作栏中的验证。
+      ![图像](/help/user-guide/assets/multi-zone/multizone-img6.png)
+   1. Enter the **Title** as **Chrome-Device1** and click **Register**.
+   1. 选 **择指定显** 示，然后选择设备配置的路径。
+
 #### 查看结果 {#viewing-the-result}
 
 使用上述步骤实施多区域布局后，将显示以下输出，如下图所示。
 
-单击 **预览** ，从渠道编辑器中视图以下输出，该输出在两个不同的区域中显示内容。 左侧和右侧区域（两者都使用嵌入式序列作为组件）。
+选中Screens播放器以视图显示两个不同区域中的内容的输出。 左侧和右侧区域（两者都使用嵌入式序列作为组件）。
 
 >[!NOTE]
 >如果尝试视图Screens播放器中的内容，请确保单击“更 **新脱机内容** ”渠道仪表板。
 
-![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
 
