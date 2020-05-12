@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
+source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -176,7 +176,7 @@ ht-degree: 4%
    >[!NOTE]
    >如果尝试视图Screens播放器中的内容，请确保单击“更 **新脱机内容** ”渠道仪表板。
 
-#### 查看结果 {#viewing-the-result}
+### 查看结果 {#viewing-the-result}
 
 使用上述步骤实施多区域布局后，将显示以下输出。
 
