@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -91,7 +91,9 @@ ht-degree: 4%
    1. 从创 **建向导** 中选 **择序列渠道** ，以创建标题为 **Zone1的渠道**。
    1. Select **Zone1** and click **Edit** from the action bar to open the editor.
    1. 将很少的图像拖放到此渠道。
-   同样，在EmbeddedChannels文件夹中创建另一个标 **题为** Zone2 **的序列** 渠道。
+   1. 同样，在EmbeddedChannels文件夹中创建另一个标 **题为** Zone2 **的序列** 渠道。
+   1. 将视频拖放到此渠道。
+   下图显示了渠道 **Zone1** 和 **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ ht-degree: 4%
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   将视频添加到Zone2 **序列渠道** 的编辑器中，如下图所示：
+   添加到Zone2序列渠道 **编辑器** 的视频如下所示：
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ ht-degree: 4%
 
    1. 导航到 **Zones** —> **渠道** — **>** MultiZone。
    1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
-   1. 将嵌入式序 **列组件拖** 放到两个区域。
+   1. 将嵌入式序 **列组件拖放** 到这两个区域。
    1. 选择其中一个区域中的嵌入式序列。
    1. 单击编 **辑器** 中某个嵌入式序列的“配置（扳手）”图标。
    1. 选择渠道路径 **作为** Zones **—>** BemdeddedChannels **—** Zone1渠道，如 ****&#x200B;下图所示。
