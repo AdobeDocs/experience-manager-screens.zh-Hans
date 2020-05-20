@@ -4,7 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens帮助
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 13%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [连接Screens播放器](working-with-screens-player.md)
    + [设备注册](device-registration.md)
    + [设置ACL](setting-up-acls.md)
+   + [AEM Screens安全核对清单](security-checklist.md)
    + [从ContentSync过渡到SmartSync](smartsync.md)
    + [从文件新建项目导入程序](project-importer.md)
    + [将数据触发器复制到发布服务器](replicating-data-triggers.md)
