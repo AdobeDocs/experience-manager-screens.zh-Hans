@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 ### 前提条件 {#prerequisites}
 
-在开始实施此功能之前，请确保您对以下方面的概念性知识：
+在开始实施此功能之前，请确保您对以下方面具有概念性知识：
 
 * [创建AEM Screens项目](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [创建显示屏](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ ht-degree: 4%
 
 ### 在一个或多个区域中使用单个资产 {#using-single-assets-in-one-or-more-zones}
 
-您可以在所有三个不同区域中使用单个资产，如图像或视频。 请按照以下步骤实施：
+您可以在所有单独的区域中使用单个资产，如图像或视频。 请按照以下步骤实施：
 
 1. **向渠道添加内容**
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 ### 在一个或多个区域中使用排序的内容 {#using-sequenced-content-in-one-or-more-zones}
 
-如果希望区域在两个不同区域中显示图像和视频的序列，请按照以下步骤了解详细信息。
+如果希望区域在不同区域中显示图像和视频的序列，请按照以下步骤了解详细信息。
 
 1. **创建渠道文件夹**
 
@@ -174,7 +174,7 @@ ht-degree: 4%
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. 选 **择指定显** 示，然后选择设备配置的路径。
    >[!NOTE]
-   >如果尝试视图Screens播放器中的内容，请确保单击“更 **新脱机内容** ”渠道仪表板。
+   >如果尝试视图Screens播放器中的内容，请确保从渠道中为分 **配到显示屏的每个** ，单击渠道仪表板中的更新脱机内容。
 
 ### 查看结果 {#viewing-the-result}
 
