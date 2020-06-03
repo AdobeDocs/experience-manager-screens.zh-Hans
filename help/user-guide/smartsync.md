@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 7832176cfb1e4647a49852ce382862978dddbfe2
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -81,7 +81,7 @@ SmartSync功能为您的AEM Screens项目提供了许多优势。 它允许
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web Console配置**打开。 搜索 *offlineconnectservice*。
+1. **此时将打开Adobe Experience Manager Web Console配置** 。 搜索 *offlineconnectservice*。
 
    要搜索“ **Screens脱机内容** Service”属性 **，请按** Command+F **（对于Mac）** 和Control **+F(******&#x200B;对于Windows)。
 
