@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -71,11 +71,9 @@ DemoProject **将被添** 加到您的AEM Screens中。
 
 1. **导航到We.Retail中的“站点”页面**
 
-   1. 导航到站点，然 **后选择We.Retail In-Store** -> **United States** -> English **，然后选****** 择EquipmentPage，将其用作Screens渠道的体验片段。
+   1. 导航到站点，然 **后选择We.Retail In** -Store -> **渠道** ->空闲渠道-夜间&#x200B;**** ，并选择此页以将其用作Screens渠道的体验片段。
 
    1. 单 **击操** 作栏中的编辑以打开要用作Screens渠道体验片段的页面。
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **重新使用内容**
 
