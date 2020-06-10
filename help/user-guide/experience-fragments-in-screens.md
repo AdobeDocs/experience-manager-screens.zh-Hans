@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 * **概述**
 * **在 AEM Screens 中使用体验片段**
-* **从主页传播更改**
+* **将更改传播到页面**
 
 ## 概述 {#overview}
 
@@ -163,7 +163,7 @@ DemoProject **将被添** 加到您的AEM Screens中。
 您将视图您 **渠道中** “站点”页面（体验片段的Live Copy）的内容，如下图所示：\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## 从主页传播更改 {#propagating-changes-from-the-master-page}
+## 将更改传播到页面 {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** 指由同步操作（由转出配置定义）维护的（源的）副本。
 
