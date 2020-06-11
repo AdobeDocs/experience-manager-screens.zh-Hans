@@ -4,7 +4,7 @@ seo-title: 功能包202004发行说明
 description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的信息。
 seo-description: 可查看本页以获取2020年4月20日发布的AEM Screens功能包202004的信息。
 translation-type: tm+mt
-source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 AEM Screens发布了AEM 6.4功能包8和AEM 6.5功能包4。
 
-您可以使用您的Adobe ID从软件分发门户下载AEM Screens 6.4.8或AEM Screens 6.5.4版 [本的最](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) 新功能包。 导航到 **Adobe Experience Manager** 选项卡并搜 **索Screens** ，获取最新功能包。
+您可以使用您的Adobe ID从软件分发门户下载AEM Screens 6.4.8或AEM Screens 6.5.4版 [本的最](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 新功能包。 导航到 **Adobe Experience Manager** 选项卡并搜 **索Screens** ，获取最新功能包。
 
 ## 发布日期 {#release-date}
 
