@@ -2,7 +2,7 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -54,7 +54,7 @@ AEM Screens为数字标牌用户提供了巨大优势。 它正在下载并本�
 
 下表提供网络连接密钥数据概述：
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >该信息允许您视图请求和下载因特网源的网络中每个设备的使用情况。 因此，每个请求都会累加并延长下载时间。
