@@ -1,8 +1,8 @@
 ---
-title: 在AEM Screens中配置创作和发布
-seo-title: 在AEM Screens中配置创作和发布
-description: AEM Screens体系结构类似于传统的AEM Sites体系结构。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
-seo-description: AEM Screens体系结构类似于传统的AEM Sites体系结构。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
+title: 在AEM Screens中配置作者和发布
+seo-title: 在AEM Screens中配置作者和发布
+description: AEM Screens建筑类似于传统的AEM Sites建筑。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
+seo-description: AEM Screens建筑类似于传统的AEM Sites建筑。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 ---
 
 
-# 在AEM Screens中配置创作和发布 {#configuring-author-and-publish-in-aem-screens}
+# 在AEM Screens中配置作者和发布 {#configuring-author-and-publish-in-aem-screens}
 
 本页重点介绍以下主题：
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->仅当您安装了AEM 6.4 Screens功能包2时，此AEM Screens功能才可用。 要获取此功能包，您必须联系 Adobe 支持人员并申请访问权限。您获得权限后，就可以从“包共享”下载它。
+>此AEM Screens功能仅在您安装了AEM 6.4 Screens功能包2时可用。 要获取此功能包，您必须联系 Adobe 支持人员并申请访问权限。您获得权限后，就可以从“包共享”下载它。
 
 ## 配置作者和发布实例 {#configuring-author-and-publish-instances}
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 1. 更新拓扑连接器URL: 添加以下所有参与发布实例的URL:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. 允许拓扑连接器列表: 适应包含参与发布实例的IP或子网
+1. **拓扑连接器白名单列表**: 适应包含参与发布实例的IP或子网
 1. 启 **用自动停止本地循环**
 
 每个发布实例的配置应相同，自动停止本地循环将阻止无限循环。
@@ -209,7 +209,7 @@ ht-degree: 2%
 >
 >**前提条件**
 >
->要开始使用此示例，请创建一个新的AEM Screens项目，然后在项目中创建位置、显示和渠道。 向渠道添加内容，并将渠道分配给显示屏。
+>要开始使用此示例，请新建一个AEM Screens项目，然后在项目中创建位置、显示和渠道。 向渠道添加内容，并将渠道分配给显示屏。
 
 #### 第1步： 启动AEM Screens播放器（设备） {#step-starting-an-aem-screens-player-device}
 
@@ -218,7 +218,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您可以使用您下载的AEM Screens应用程序或使用Web浏览器打开AEM Screens播放器。
+>您可以使用您下载的AEM Screens应用程序或Web浏览器打开AEM Screens播放器。
 
 #### 第2步： 在作者上注册设备 {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->或者，在激活设备后，您也可以通过单击操作栏中的 **编辑服务器** URL来编辑或更新服务器URL，如下图所示，您所做的更改将传播到AEM Screens播放器。
+>或者，在激活设备后，您还可以通过单击操作栏中的 **编辑服务器** URL来编辑或更新服务器URL，如下图所示，您所做的更改将传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -274,7 +274,7 @@ ht-degree: 2%
 
 * *Screens设备用户* -它存储为AEM用户，并从“工具”>“安 **全** ”> **“用** 户”激活 ****。 用户将在前面加上带有长序列号字符串的“screens”。
 
-* *项目* - AEM Screens项目。
+* *项目* -AEM Screens项目。
 * *位置* -设备所连接的位置。
 * *渠道* -在位置显示的一个或多个渠道
 * *计划* -如果使用计划，请确保已发布
@@ -286,13 +286,13 @@ ht-degree: 2%
 1. 执行 **管理发布** ，以将新更改发布到所有发布实例
 1. 按 **激活** ，以从设备管理器 **激活设备**
 1. **编辑从作** 者实例URL到某个发布实例URL的URL
-1. 验证AEM Screens播放器上显示的更新渠道内容
+1. 验证更新的渠道内容是否显示在AEM Screens播放器上
 1. 使用其他发布实例重复这些步骤
 
 
 #### 第5步： 在“管理面板”中将设备指向发布实例 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. 从Screens播放器视图管理员UI，长按左上角以打开管理员菜单、在启用触屏的AEM Screens播放器上或使用鼠标打开该菜单。
+1. 从Screens播放器视图管理员UI，长按左上角以打开“管理员”菜单、启用触屏的AEM Screens播放器或使用鼠标。
 1. 单击侧 **面板** 中的“配置”选项。
 1. 将创作实例更改为在服务器中发 **布实例**。
 
@@ -300,12 +300,12 @@ ht-degree: 2%
 
 或者，您也可以通过设备管理控制台使用以下步骤更新／编辑服务器URL:
 
-1. 导航到您的AEM Screens项目，然后选择“设 **备”文** 件夹。
+1. 导航到您的AEM Screens项目，然后选择 **设备** 文件夹。
 1. Click **Device Manager** from the action bar.
 1. 选择设备，然 **后单击操作栏** 中的编辑服务器URL，如下图所示，您所做的更改将传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-通过 **管理发布** ，您可以将内容更新从作者发布到设备。 您可以发布／取消发布整个AEM Screens项目的内容，也只能发布／取消发布渠道、位置、设备、应用程序或计划的内容。 要进一步了解此功能，请参 [阅点播内容更新](on-demand-content.md)。
+通过 **管理发布** ，您可以将内容更新从作者发布到设备。 您可以发布／取消发布整个AEM Screens项目或仅发布渠道、位置、设备、应用程序或计划的内容。 要进一步了解此功能，请参 [阅点播内容更新](on-demand-content.md)。
 
 
