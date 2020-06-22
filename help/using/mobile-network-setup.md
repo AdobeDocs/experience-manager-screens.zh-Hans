@@ -2,9 +2,9 @@
 title: 移动网络设置
 description: 本页介绍移动网络设置
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,18 @@ AEM Screens播放器与移动3/4/5G连接到移动服务数据提供者的连接
 此设置允许AEM Screen用户极大的灵活性，因为无需固定电话即可连接AEM Screens。
 
 
-## 设置直接访问网络的要求 {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**疑难解答提示&#x200B;**>如果AEM Screens连接不正常，且不显示预期内容：
+>
+>1. 如果存在任何限制，请检查您的Internet路由器防火墙 `TCP/IP Port 80/443`。
+>1. 确保允许所有需要的端口，然后重试。
+
+
+
+
+## 设置移动网络设置的要求 {#requirements-direct}
 
 按5.5所述，网络设置可以在三个块中进行逻辑分离。 WAN/Outer World/Internet连接块（此处为移动数据连接）、内部LAN/局域网以及LAN的可选子部分（由活动网络组件分隔）。
 要提供最佳性能，必须确保这两个部分都符合建议的最低标准。
