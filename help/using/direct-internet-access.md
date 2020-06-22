@@ -2,9 +2,9 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ AEM Screens通信的标准端口为：
 该配置还包括任何Internet服务提供商(ISP)及其Internet线路的Internet访问。 大多数ISP提供的Internet路由器涵盖Internet调制解调器、网络交换机、WIFI接入点、防火墙和其他网络功能（具体取决于制造商和型号）。
 
 >[!NOTE]
->**疑难解答提示&#x200B;**>如果AEM Screens连接不正确，并显示预期内容：
+>**疑难解答提示&#x200B;**>如果AEM Screens连接不正常，且不显示预期内容：
 >
 >1. 如果存在任何限制，请检查您的Internet路由器防火墙 `TCP/IP Port 80/443`。
 >1. 确保允许所有需要的端口，然后重试。
