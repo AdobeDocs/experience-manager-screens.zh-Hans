@@ -2,9 +2,9 @@
 title: 移动网络设置
 description: 本页介绍移动网络设置
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # 移动网络设置 {#mobile-network-setup}
 
-AdobeAEM Screens播放器也可以使用运行至少3G网络的移动／蜂窝网络进行连接。
-在AEM Screens中，所需内容将物理下载到播放器控制器／计算机，并正确存储在基础操作系统中。 因此，给定带宽只会影响初始下载时间，而不会影响显示系统性能。
-AEM Screens播放器与移动3/4/5G连接到移动服务数据提供者的连接。 此设置的优点是移动路由器可放置在优化位置，以确保最佳的网络覆盖。 这通常处于高架和开放位置，尽可能少地建造周围的混凝土或金属。
-此设置允许AEM Screen用户极大的灵活性，因为无需固定电话即可连接AEM Screens。
+AEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝网络进行连接。
 
+在AEM Screens中，所需内容将物理下载到播放器控制器或计算机，并正确存储在基础操作系统中。 因此，给定的带宽仅影响初始下载时间，而不影响显示器的性能。
+
+AEM Screens播放器与移动3/4/5G连接到移动服务数据提供者的连接。 此设置的好处是，移动路由器可放置在优化位置，以确保最佳的网络覆盖。 这通常处于高架和开放位置，尽可能少地建造周围的混凝土或金属。
+
+此设置允许AEM Screen用户极大的灵活性，因为无需固定连接即可连接AEM Screens。
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ AEM Screens播放器与移动3/4/5G连接到移动服务数据提供者的连接
 >
 >1. 如果存在任何限制，请检查您的Internet路由器防火墙 `TCP/IP Port 80/443`。
 >1. 确保允许所有需要的端口，然后重试。
-
 
 
 
