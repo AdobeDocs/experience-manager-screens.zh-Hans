@@ -2,7 +2,7 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
+source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 直接访问Internet {#direct-internet-access}
 
-直接Internet访问设置包含用于Internet访问的入口接入点，以便访问AEM Screens需要连接到的AEM Cloud服务。
+直接因特网访问设置包含用于因特网访问的入口接入点，以便到达AEM Screens需要连接的AEM cloud services。
 
-AEM Screens通信的标准端口包括：
+AEM Screens通信的标准端口为：
 * `http (TCP Port 80)`或者，
 * `ssl-secured https (TCP Port 443)`
 
@@ -22,10 +22,10 @@ AEM Screens通信的标准端口包括：
 
 ![](/help/assets/direct-access-2.png)
 
-该配置还包括任何Internet服务提供商及其Internet线路的Internet访问。 大多数ISP提供的Internet路由器包括Internet调制解调器、网络交换机、WIFI接入点、防火墙和其他网络功能（取决于制造商和型号）。
+该配置还包括任何Internet服务提供商(ISP)及其Internet线路的Internet访问。 大多数ISP提供的Internet路由器涵盖Internet调制解调器、网络交换机、WIFI接入点、防火墙和其他网络功能（具体取决于制造商和型号）。
 
 >[!NOTE]
->**疑难解答提示&#x200B;**>如果AEM Screens无法正确连接并显示预期内容：
+>**疑难解答提示&#x200B;**>如果AEM Screens连接不正确，并显示预期内容：
 >
 >1. 如果存在任何限制，请检查您的Internet路由器防火墙 `TCP/IP Port 80/443`。
 >1. 确保允许所有需要的端口，然后重试。
@@ -37,12 +37,12 @@ AEM Screens通信的标准端口包括：
 
 ### WAN/Internet连接 {#wan-connection}
 
-除了已描述的网络可通性外，Internet连接的性能还提供了足够的带宽，以便顺利地运行AEM Screens。 在详细信息中，“足够”取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾WIFI网络）的使用情况。
+除了已经描述的网络可到达性外，Internet连接的性能还提供了足够的带宽，使AEM Screens能够良好而顺畅地运行。 在详细信息中，“足够”取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾WIFI网络）的使用情况。
 请记住，所有设备都可以同时访问因特网连接，带宽通常线性减少，同时向网络添加更多消费者／计算机。
 
 ### LAN连接 {#lan-connection}
 
-除了已描述的网络可达性外，LAN的性能还提供了足够的带宽，以便顺利地运行AEM Screens。 如今，局域网通常至少与100MBit/s的网络匹配，因此应该有足够的带宽将许多性能良好的设备连接到系统。
+除了已描述的网络可通性外，LAN的性能还提供了足够的带宽，使AEM Screens能够良好、顺畅地运行。 如今，局域网通常至少与100MBit/s的网络匹配，因此应该有足够的带宽将许多性能良好的设备连接到系统。
 如果设想使用WIFI解决方案将屏幕连接到因特网链接，则建议使用IEEE 802.11g等现代WIFI标准作为最低要求。 此标准支持高达54Mb的连接。 任何 *较新* 的标准（如802.11h-n）都具有更好的质量。 如果需要WIFI中继器，我们强烈建议使用Google Nest Mesh WIFI或类似的Mesh WIFI接入点技术。
 其他WiFi重复技术最终导致整个网络的带宽大量丢失。
 
