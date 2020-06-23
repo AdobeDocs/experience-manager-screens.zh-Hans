@@ -2,7 +2,7 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -71,7 +71,7 @@ AEM Screens通信的标准端口为：
 局域网(LAN)的性能除了网络的可到达性外，还提供足够的带宽，使AEM Screens能够顺畅、顺畅地运行。
 
 LAN网络通常至少与100 MBit/s网络匹配，因此有足够的带宽将性能良好的许多设备连接到系统。
-如果设想使用WIFI解决方案将AEM Screens连接到Internet Link，则建议使用IEEE 802.11g等现代WIFI标准作为最低标准。 此标准支持高达54 Mb的连接。 任何 *较新* 的标准（如802.11h-n）都具有更好的质量。
+如果设想使用WIFI解决方案将AEM Screens连接到Internet Link，则建议使用IEEE 802.11g等现代WIFI标准作为最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新* 的标准（如802.11h-n）都具有更好的质量。
 
 >[!NOTE]
 >如果需要WIFI中继器，我们强烈建议使用Google Nest Mesh WIFI或类似的Mesh WIFI接入点技术。 其他WiFi重复技术最终导致整个网络的带宽大量丢失。
