@@ -2,15 +2,15 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# 封闭的公司网络 {#enclosed-corporate-networks}
+# 封闭的公司网络（有线／无线） {#enclosed-corporate-networks}
 
 封闭的公司网络设置适用于小型、大型和企业企业。 理论上可能更复杂，但逻辑设置如下图所示。
 
