@@ -4,9 +4,9 @@ seo-title: 标准网络设置简介
 description: 此页介绍标准网络设置
 seo-description: 此页介绍标准网络设置
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 
 网络设置有三种主要类型：
 
-1. [直接访问Internet](/help/using/direct-internet-access.md)
-1. [直接移动网络](/help/using/mobile-network-setup.md)
-1. [具有移动数据路由器和活动网络组件的移动网络](/help/using/mobile-network-setup-router.md)
-1. [封闭的公司网络](/help/using/enclosed-corporate-network.md)
+1. [直接因特网网络（有线／无线）](/help/using/direct-internet-network.md)
+1. [直接移动网络](/help/using/mobile-network.md)
+1. [具有移动数据路由器和活动网络组件的移动网络](/help/using/mobile-network-router.md)
+1. [封闭的公司网络（有线／无线）](/help/using/enclosed-corporate-network.md)
 
 下表列出了各种网络设置的优缺点：
 
