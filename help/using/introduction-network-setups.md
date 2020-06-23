@@ -4,15 +4,15 @@ seo-title: 标准网络设置简介
 description: 此页介绍标准网络设置
 seo-description: 此页介绍标准网络设置
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# 标准网络设置简介 {#intro-standard-networks}
+# 管理网络流量 {#managing-network-traffic}
 
 网络设置可以具有各种结构。 本节概述在环境中部署的网络结构。 有时从零开始实施不同的设置。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 代理服务器的一个优点是它的缓存可以为所有用户服务。 如果经常请求一个或多个因特网站点，这些站点可能位于代理的缓存中，这将缩短用户响应时间。 代理还可以记录其交互，这有助于进行故障排除。
 
-## 了解网络设置 {#network-setups}
+## 了解标准网络设置 {#network-setups}
 
 要实施网络设置，您必须参考以下具有优势和部署详细信息的方案。
 
