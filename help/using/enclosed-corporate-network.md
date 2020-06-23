@@ -2,9 +2,9 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ AEM Screens为数字标牌用户提供了巨大优势。 它正在下载并本�
 
 下表优惠了网络连接关键数据对性能的影响，这些性能是预期的和潜在的等待时间。
 
-所有信息都必须被视为请求和下载因特网源的网络中每台设备的消耗。 因此，每个请求都会累加并延长下载时间。
+>[!NOTE]
+>所有信息都必须被视为请求和下载因特网源的网络中每台设备的消耗。 这些请求中的每个请求都会累加并延长下载时间。
 
 ![](/help/using/assets/enclosed-network-download.png)
