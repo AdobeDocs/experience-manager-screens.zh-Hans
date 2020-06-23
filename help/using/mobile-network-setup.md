@@ -2,9 +2,9 @@
 title: 直接移动网络
 description: 本页介绍“直接移动网络设置”
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ AEM Screens播放器与移动3/4/5G连接到移动服务数据提供者的连接
 
 
 1. 确保网络适配器设置与路由器设置匹配。
-1. 检查路由器是否正确连接到ISP广域网（Internet链路）。这通常也可以使用标准路由器上的信号LED来标识。
+
+1. 检查路由器是否正确连接到ISP广域网（Internet链路）。这也可以使用标准路由器上的信号LED进行标识。
 
 1. 如果URL调用成功，您可以继续安装AEM Screens并相应地注册它。 开始AEM Screens。
 
