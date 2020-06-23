@@ -2,9 +2,9 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 直接因特网访问设置包含用于因特网访问的入口接入点，以便到达AEM Screens需要连接的AEM cloud services。
 
-AEM Screens通信的标准端口为：
+AEM Screens通信的标准端口有：
 * `http (TCP Port 80)`或者，
 * `ssl-secured https (TCP Port 443)`
 
@@ -40,8 +40,7 @@ AEM Screens通信的标准端口为：
 1. 确保“网络适配器设置”与“路由器设置”匹配，并检查网络中是否未达到最大可用IP地址数量。
 
 1. 检查路由器是否正确连接到ISP广域网（Internet链路）。这通常也可以使用标准路由器上的信号LED来标识。
-1. 如果URL调用成功，您可以继续安装AEM Screens并相应地进行注册
-1. 开始AEM Screens。
+1. 如果URL调用成功，您可以继续安装AEM Screens并相应地注册它。 开始AEM Screens。
 
    >[!NOTE]
    >**疑难解答提示**
@@ -61,7 +60,9 @@ AEM Screens通信的标准端口为：
 
 ### 广域网 {#wan-connection}
 
-除了网络的可达性外，互联网连接的性能还是提供足够的带宽，使AEM Screens能够良好、顺畅地运行。 在详细信息中，“足够”取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾WIFI网络）的使用情况。
+除了网络的可达性外，互联网连接的性能还是提供足够的带宽，使AEM Screens能够良好、顺畅地运行。
+
+*足够* ，这取决于已连接AEM屏幕的数量以及网络中其他消费者（如智能手机、平板电脑、收银机、计算机或来宾WIFI网络）的使用情况。
 
 >[!NOTE]
 >所有设备都可同时访问Internet连接，并且当您向网络添加更多消费者／计算机时，带宽通常会线性减少。
@@ -82,9 +83,10 @@ AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保�
 对于正常操作，例如，定义了在一天中不经常更改的播放列表后，当所有文件都保存在播放器上后，此优惠将接近与网络无关的操作。
 对于那些与传感器或其他触发器进行更多交互且内容非常动态的用例，快速、可靠的网络连接对于立即进行屏幕反应来确保尽可能最佳的客户体验至关重要。
 
-下表提供网络连接密钥数据概述：
+下表提供网络连接密钥数据的概述。
+
+>[!NOTE]
+>该信息允许您视图请求和下载因特网源的网络中每个设备的使用情况。 这些请求中的每个请求都会累加并延长下载时间。
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->该信息允许您视图请求和下载因特网源的网络中每个设备的使用情况。 因此，每个请求都会累加并延长下载时间。
