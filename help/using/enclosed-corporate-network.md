@@ -2,9 +2,9 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ ht-degree: 0%
 
 ### 其他公司网络详情 {#other-networks}
 
-通常，公司网络确实连接了设备负载，可能被分成不同的子网络，并可能有冗余或多路复用的因特网连接，为数千个并发访问提供足够的性能。
-上述模式被简化，并且在大多数情况下都适合客户可用的环境。
-如果设想使用WiFI解决方案将屏幕连接到Internet Link，则建议使用IEEE 802.11g等现代WIFI标准作为最低要求。 此标准支持高达54 Mbps的连接。 任何像802.11h-n这样的“较新”标准都具有更高的质量。 如果需要WIFI中继器，我们强烈建议使用Google Nest Mesh WIFI或类似的Mesh WIFI接入点技术。
+通常，公司网络连接了大量设备，可能被分成不同的子网络，并可能有冗余或多路复用的因特网连接，为数千个并发访问提供足够的性能。
+此模式被简化，并在大多数情况下适合客户可用的环境。
+
+如果设想使用WIFI解决方案将屏幕连接到Internet Link，则建议使用现代WIFI标准， `IEEE 802.11g` 如最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新的* “标准” `802.11h-n` 都具有更高的质量。 如果需要WIFI中继器，我们强烈建议使用Google Nest Mesh WIFI或类似的Mesh WIFI接入点技术。
 其他WiFi重复技术最终导致整个网络的带宽大量丢失。
 
 ## 下载媒体和资产 {#download}
