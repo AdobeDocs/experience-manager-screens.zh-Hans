@@ -5,10 +5,10 @@ getting-started-title: AEM Screens最佳实践指南
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
+source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 76%
+source-wordcount: '133'
+ht-degree: 74%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 76%
    + [AEM 平台配置](aem-platform-configurations.md)
    + [项目分类与实施](project-taxonomy-implementation.md)
    + 网络通信管理 {#manage-network-traffic}
+      + [管理网络流量](/help/using/managing-network-traffic.md)
       + [直接因特网网络（有线／无线）](/help/using/direct-internet-network.md)
       + [直接移动网络](/help/using/mobile-network.md)
       + [具有移动数据路由器和活动网络组件的移动网络](/help/using/mobile-network-router.md)
