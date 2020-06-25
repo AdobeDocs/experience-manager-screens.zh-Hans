@@ -2,9 +2,9 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    >1. 确保允许所有必需的端口。
 
 
-## 建立封闭式公司网络的要求 {#requirements-enclosed-networks}
+## 建立封闭的公司网络 {#requirements-enclosed-networks}
 
 封闭的公司网络设置可以逻辑上分为两个模块：
 
