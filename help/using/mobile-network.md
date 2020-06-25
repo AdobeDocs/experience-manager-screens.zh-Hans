@@ -2,9 +2,9 @@
 title: 直接移动网络
 description: 本页介绍“直接移动网络设置”
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM Screens播放器也可以使用至少在3G网络上运行的移动或蜂窝�
 
 1. 如果URL调用成功，您可以继续安装AEM Screens并注册。 开始AEM Screens。
 
-## 设置移动网络设置的要求 {#requirements-direct}
+## 设置直接移动网络 {#requirements-direct}
 
 网络设置可以在两个块中逻辑地分开：
 
