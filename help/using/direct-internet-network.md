@@ -2,9 +2,9 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 0%
 
 AEM Screens通信的标准端口为：
 * `http (TCP Port 80)`
-
    <br>或者，</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -53,7 +52,7 @@ AEM Screens通信的标准端口为：
    >1. 确保允许所有必需的端口。
 
 
-## 设置直接访问网络的要求 {#requirements-direct}
+## 设置直接访问网络 {#requirements-direct}
 
 直接Internet网络在逻辑上分为两个块：
 
@@ -78,7 +77,7 @@ LAN网络通常至少与100 Mbps网络匹配，因此有足够的带宽将许多
 如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议使用现代Wi-Fi标准，如 `IEEE 802.11g` 果最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新的* “标准” `802.11h-n` 都具有更高的质量。
 
 >[!NOTE]
->如果需要Wi-Fi中继器，强烈建议使用Mesh Wi-Fi接入点，如Google Nest Mesh Wi-Fi或类似的接入点。 其他Wi-Fi重复技术最终导致整个网络的带宽严重丢失。
+>如果需要Wi-Fi中继器，强烈建议使用Mesh Wi-Fi接入点，如Google Nest Mesh Wi-Fi或类似的接入点。 其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
 
 ## 下载媒体和资产 {#download}
 
