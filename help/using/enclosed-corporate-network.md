@@ -2,9 +2,9 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,33 @@ ht-degree: 0%
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+
+## 将AEM Screens播放器连接到直接Internet访问 {#connecting-aem-screens-players}
+
+请按照以下步骤确保此配置中的AEM Screen播放器正确连接：
+
+1. 确保每个AEM Screen播放器都连接到路由器网络。
+1. 通过在系统浏览器中调用URL来测试Internet连接。
+
+   >[!NOTE]
+   >如果收到错误，请检查网络设置。正常网络连接基本有两个选项：
+   >* DHCP
+   >* 手动IP配置
+
+
+1. 确保“网络适配器设置”与“路由器设置”匹配，并检查网络中是否未达到最大可用IP地址数。
+
+1. 检查路由器是否正确连接到ISP广域网（Internet链路）。 此外，还可以使用标准路由器上的信号LED来标识。
+1. 如果URL调用成功，您可以继续安装AEM Screens并注册。 开始AEM Screens。
+
+   >[!NOTE]
+   >**疑难解答提示**
+   >如果AEM Screens连接不正常，并且未显示预期内容：
+   >
+   >1. 如果对Internet路由器防火墙有任何限制，请检查 `TCP/IP Port 80/443`。
+   >1. 确保允许所有必需的端口。
+
+
 ## 建立封闭式公司网络的要求 {#requirements-enclosed-networks}
 
 封闭的公司网络设置可以逻辑上分为两个模块：
@@ -26,7 +53,7 @@ ht-degree: 0%
 ### 广域网 {#wan-connection}
 
 除网络可接入性外，互联网连接的性能是提供足够的带宽，使AEM Screens能够顺畅、顺畅地运行。
-*足够的带宽* 取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾WIFI网络）的使用情况。
+*足够的带宽* 取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络）的使用情况。
 
 >[!NOTE]
 >所有设备都可同时访问Internet连接，并且当您向网络添加更多消费者或计算机时，带宽通常会线性减少。
@@ -44,8 +71,8 @@ ht-degree: 0%
 通常，公司网络连接了大量设备，可能被分成不同的子网络，并可能有冗余或多路复用的因特网连接，为数千个并发访问提供足够的性能。
 此模式被简化，并在大多数情况下适合客户可用的环境。
 
-如果设想使用WIFI解决方案将屏幕连接到Internet Link，则建议使用现代WIFI标准， `IEEE 802.11g` 如最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新的* “标准” `802.11h-n` 都具有更高的质量。 如果需要WIFI中继器，我们强烈建议使用Google Nest Mesh WIFI或类似的Mesh WIFI接入点技术。
-其他WiFi重复技术最终导致整个网络的带宽大量丢失。
+如果设想使用Wi-Fi解决方案将屏幕连接到Internet Link，则建议使用现代Wi-Fi标准，如 `IEEE 802.11g` 最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新的* “标准” `802.11h-n` 都具有更高的质量。 如果需要Wi-Fi中继器，我们强烈建议使用Google Nest Mesh Wi-Fi等Mesh Wi-Fi接入点技术。
+其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
 
 ## 下载媒体和资产 {#download}
 
