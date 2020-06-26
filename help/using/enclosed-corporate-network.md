@@ -2,9 +2,9 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ### 广域网 {#wan-connection}
 
-除了网络可接入性外，Internet连接的性能还是提供足够的带宽，使AEM Screens能够顺畅、顺畅地运行。
+除了网络可通性外，因特网连接的性能还必须提供足够的带宽，以便顺利地运行AEM Screens内容更新。
 *足够的带宽* 取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络）的使用情况。
 
 >[!NOTE]
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ### 局域网 {#lan-connection}
 
-局域网(LAN)的性能除了网络的可到达性外，还提供足够的带宽来平稳地运行AEM Screens。
+局域网(LAN)的性能除了网络可通性外，还必须提供足够的带宽，以便顺利地运行AEM Screens内容更新。
 
 企业组织内的LAN网络通常至少为1000 MBit/sec网络，因此有足够的带宽将性能良好的许多设备连接到系统。 使用其他活动网络组件时，必须使所有组件都与网络带宽要求相符。
 
-例如，网络组件应至少与1000 Mbps标准匹配，并与Internet访问／路由器规范提供的带宽相匹配。
+例如，网络组件应至少匹配100 Mbps的标准，并匹配Internet访问／路由器规范提供的带宽。
 
 ### 其他公司网络详情 {#other-networks}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 此模式得到简化，并适合客户端的环境。
 
 如果设想使用Wi-Fi解决方案将Screens连接到Internet Link，则建议使用现代Wi-Fi标准， `IEEE 802.11g` 如最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新的* “标准” `802.11h-n` 都具有更高的质量。 如果需要Wi-Fi中继器，我们强烈建议使用Mesh Wi-Fi接入点技术，如Google Nest Mesh Wi-Fi或类似技术。
-其他Wi-Fi重复技术最终导致整个网络的带宽严重丢失。
+其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
 
 ## 下载媒体和资产 {#download}
 
