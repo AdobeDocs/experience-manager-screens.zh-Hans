@@ -2,9 +2,9 @@
 title: 直接访问Internet
 description: 直接访问Internet
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,11 @@ ht-degree: 0%
 直接因特网网络包含用于因特网访问的入口接入点，以便到达AEM Screens需要连接的AEM cloud services。
 
 AEM Screens通信的标准端口为：
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
+
    <br>或者，</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`，如果您的特定用例不需要该级别的安全性。
 
 端口可能因您设置的专用AEM配置而异。 在此SetUp中，所有设备都直接连接到您的Internet路由器，如下图所示。
 
@@ -30,7 +31,7 @@ AEM Screens通信的标准端口为：
 
 请按照以下步骤确保此配置中的AEM Screen播放器正确连接：
 
-1. 确保每个AEM Screen播放器都连接到路由器网络。
+1. 确保每个AEM Screen播放器都已连接到路由器的网络。
 1. 通过在系统浏览器中调用URL来测试Internet连接。
 
    >[!NOTE]
