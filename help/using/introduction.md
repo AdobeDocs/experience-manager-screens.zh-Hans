@@ -4,7 +4,10 @@ seo-title: '[!UICONTROL AEM Screens] 项目的“最佳实践指南”'
 description: 本页面是 AEM Screens 的简介部分
 seo-description: 本页面简要介绍 AEM Screens
 translation-type: tm+mt
-source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -32,13 +35,13 @@ AEM Screens 允许您创建：
 
 >[!NOTE]
 >
->要详细了解有关开发和管理 AEM Screens 项目期间的不同功能，请参考 **[AEM Screens 用户指南](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**。
+>要详细了解有关开发和管理 AEM Screens 项目期间的不同功能，请参考 **[AEM Screens 用户指南](https://helpx.adobe.com/cn/experience-manager/6-5/screens/user-guide.html)**。
 
 ## AEM Sites 与 AEM Screens {#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> 如果您的实施团队具有使用 AEM Sites 应用的经验，那么了解 AEM Sites 与 AEM Screens 之间的区别，就显得至关重要。
+>如果您的实施团队具有使用 AEM Sites 应用的经验，那么了解 AEM Sites 与 AEM Screens 之间的区别，就显得至关重要。
 
 AEM Screens 可提供统一的创作/播放平台，用于将内容部署到公共空间中的数字标牌设备。尽管相关体验的作者应当努力维护 Web 与实地渠道之间内容的一致性，但是有些差异需引起注意。
 
@@ -54,8 +57,8 @@ AEM Screens 可提供统一的创作/播放平台，用于将内容部署到公�
 
 AEM Screens 提供了一个框架，可以将内容部署到实体设备。包括媒体内容或触屏应用在内的内容，将会分配给 Screens 中的“渠道”。在此框架中，AEM Sites应用程序可以作为内容通过渠道交付。
 
-在将AEM站点放入屏幕中的渠道之前，必须对AEM站点进行格式化，以便在其要用于的显示设备的尺寸中使用。
+在Screens中放入渠道之前，必须对AEM Sites进行格式化，以便在其要使用的显示设备的尺寸中使用。
 
-> [!NOTE]
+>[!NOTE]
 >
-> 许多 AEM Sites 组件与 AEM Screens 并不兼容。AEM Screens 附带了许多现成的组件，您无需自定义即可构建数字体验。如果项目要求允许，请尽可能使用内置的 AEM Screens 功能。
+>许多 AEM Sites 组件与 AEM Screens 并不兼容。AEM Screens 附带了许多现成的组件，您无需自定义即可构建数字体验。如果项目要求允许，请尽可能使用内置的 AEM Screens 功能。
