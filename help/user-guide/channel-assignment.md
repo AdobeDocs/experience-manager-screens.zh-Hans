@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 53%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 请按照以下步骤为显示屏分配渠道：
 
-1. 导航到所需的显示屏，例如， **DemoProject** —> **Locations** —> **SanJose** —> **** StoreDisplayDisplay。
+1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -52,7 +55,7 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
    ![图像](/help/user-guide/assets/channel-assign1.png)
 
-   您可以从以下部分的“渠道分配”对 **话框中了解和配置** “属性”。
+   您可以从以下部分的“渠道分配” **对话框** ，了解和配置属性。
 
 ### 从渠道分配了解渠道属性 {#channel-properties}
 
@@ -62,11 +65,11 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 * **按路径**：您可以使用渠道的绝对路径提供显式引用。
 
-* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **按名称**: 输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
 #### 渠道角色 {#role-channel}
 
-渠道角色定义了显示屏的上下文。该角色由各种操作定位，并独立于履行该角色的实际渠道。
+渠道角色定义了显示屏的上下文。该角色由各种操作来定位，并且与完成该角色的实际渠道无关。
 
 #### 优先级 {#priority-channel}
 
@@ -84,21 +87,21 @@ source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 #### 中断方法 {#interruption-method-channel}
 
->[重要信息]
-> 此选项仅在AEM 6.4功能包8或AEM 6.5功能包4中可用。
+>[重要信息]：
+> 此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
 
-作为内容作者，您应该能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在因日程安排而切断播放之前让重要内容充分播放。
+作为内容作者，您应当能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在由于日程安排而中断播放之前让重要内容完全播放。
 
 从以下选项中进行选择，以从“渠道分配”对话框中设置 **中断方法** :
 
-* **立即**:只要计划被激活或收到更新，您就可以切断播放并立即刷新或播放新内容
-* **在当前项目的末尾**:当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后才可以
+* **立即**: 只要计划激活或收到更新，您就可以停止播放并立即刷新或播放新内容
+* **在当前项目的末尾**: 当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
    >[!NOTE]
-   >此选项在默认情况下处于选中状态。
-* **在序列结尾**:当激活新计划或收到更新时，您可以选择等待整个序列到达其结尾，而在所需序列之前，您将循环回第1个元素，刷新或播放新内容
+   >此选项默认处于选中状态。
+* **在序列末尾**: 当激活新计划或收到更新时，您可以选择等待整个序列到达其末尾，并且在所需序列之前，您循环回第1个元素，刷新或播放新内容
 
    >[!NOTE]
-   >使用第二或第三选项可能导致在分配上定义的调度时间稍微延迟，因为播放器在刷新之前（在指定时间之后）将等待项目或序列的结束。 延迟取决于项目的播放持续时间。
+   >使用第二个或第三个选项可能导致在分配上定义的调度时间被稍微推迟，因为播放器在刷新之前将等待项目或序列的结束（在指定时间之后）。 延迟取决于项目的播放持续时间。
 
 #### 计划 {#schedule-channel}
 
@@ -125,8 +128,8 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
-| Menu_A | 早餐 |  | 6:00 至 11:00 期间 |
-| Menu_B | 午餐 |  | 11:00 至 15:00 期间 |
+| 菜单_A | 早餐 |  | 6:00 至 11:00 期间 |
+| 菜单_B | 午餐 |  | 11:00 至 15:00 期间 |
 | Menu_C | 晚餐 |  | 15:00 至 20:00 期间 |
 
 #### 在一周中的特定一天播放内容 {#playing-content-on-a-particular-day-of-the-week}
@@ -145,7 +148,7 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
    <td>LiveConcert</td>
    <td>周末</td>
    <td> </td>
-   <td>2017年10月21日- 2017年10月22 <br /> 日20点前</td>
+   <td>2017年10月21日- 2017年10月22 <br /> 日20:00至22:00</td>
   </tr>
   <tr>
    <td>特价晚餐</td>
@@ -164,7 +167,7 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
-| SummerCollection | 夏日 |  | 2017年6月1日至2017年8月31日 |
+| SummerCollection | 夏天 |  | 2017年6月1日至2017年8月31日 |
 | FallCollection | 秋 |  | 2017年9月1日至2017年10月30日 |
 
 >[!NOTE]
@@ -177,12 +180,14 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
-| A | 温特 | 1 | 2017年12月1日至2017年12月31日 |
+| A | 冬季 | 1 | 2017年12月1日至2017年12月31日 |
 | B | 圣诞节 | 2 | 2017年12月24日至2017年12月31日 |
 
 >[!IMPORTANT]
+>
 > 要进一步了解分时段功能，请参阅以下各节：
->* [处理资产中的循环](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
->* [处理渠道中资产的循环](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+>
+>* [处理资产中的重复](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [处理渠道中资产的重复](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
 
