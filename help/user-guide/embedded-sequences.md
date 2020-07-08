@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +25,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 ## 添加嵌入式序列 {#adding-embedded-sequences}
 
-您可以选择将以下组件添加到序列渠道:
+您可以选择向序列渠道添加以下组件：
 
 * 嵌入式序列
 * 动态嵌入式序列
@@ -33,11 +36,11 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 
 ### 添加嵌入式序列 {#adding-an-embedded-sequence}
 
-您可以将嵌入式序列添加到渠道中。嵌入式序列是另一个包含图像或视频等资产的渠道。 添加嵌入式序列时，用户可以按“渠道路径”******&#x200B;将序列添加到渠道。
+您可以将嵌入式序列添加到渠道中。嵌入式序列是包含图像或视频等资产的另一个渠道。 添加嵌入式序列时，用户可以按“渠道路径”******&#x200B;将序列添加到渠道。
 
 >[!NOTE]
 >
->***渠道路径*** ，定义对渠道的显式引用。
+>***渠道路径*** 定义对渠道的显式引用。
 >
 >要了解“渠道路径”**&#x200B;的更多信息，请参阅“创作屏幕”中的[渠道分配](channel-assignment.md)。
 
@@ -56,21 +59,25 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 >[!IMPORTANT]
->您必须将渠道（在嵌入式序列中使用）分配到同一显示屏。
 >
->在将嵌入式序列添加到渠道后，请按照以下步骤操作：
+>您必须将渠道（在嵌入式序列中使用）分配给同一显示屏。
 >
->1. 导航到显示屏，然后从“位置”文件夹中选 **择显示屏** 。
->1. 单击 **仪表板** ，以导航到显示仪表板。
->1. 从“已 **分配的渠道** ”和“计划的面板”中选 **择“+分配渠道”** ，以打开“ **渠道分配”对话框**。
+>在前面的步骤中将嵌入式序列添加到渠道后，请按照以下步骤操作：
+>
+>1. 导航到显示屏，然后从“位置”文件夹 **中选** 择显示屏。
+>1. 单击操 **作栏** 中的仪表板，导航到显示仪表板。
+>1. 从“已 **分配的渠道** ”和“计划的 **面板”中选择** + “分配渠道”以打开“ **渠道分配”对话框**。
+
    >
    >
 1. 选择您（在嵌入式序列中使用）在渠道路径中的 **渠道路径**。
 >1. 确保优先级 **低于** 主渠道。
+
    >
    >
 1. 您不得选择任何受支 **持的事件**。
->1. 完成 **后，单击** “保存”。
+>1. 完成 **后** ，单击保存。
+
 >
 
 
