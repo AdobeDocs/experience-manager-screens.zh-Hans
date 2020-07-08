@@ -2,7 +2,7 @@
 title: 具有移动数据路由器和活动网络组件的移动网络
 description: 本页介绍具有移动数据路由器和活动网络组件的移动网络
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -81,10 +81,12 @@ AdobeAEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝�
 * 需要进行多少次内容更改，这些平均文件大小是多少？
 
 >[!NOTE]
+>
 >需要的数据包至少必须是：
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >例如，对于媒体文件的初始上传，在集成新播放器时，必须期望更高的数据量和更长的下载时间，并反映在上述假设中。 覆盖范围良好且数 *据无* 限的4G网络应与此网络设置中最常见的安装相匹配。
 
 
@@ -104,6 +106,7 @@ AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保�
 下表优惠了网络连接关键数据对性能的影响，这些性能是预期的和潜在的等待时间。
 
 >[!NOTE]
+>
 >所有信息都指请求和下载因特网源的网络中每个设备的消耗。 这些请求中的每个请求都会累加并延长下载时间。
 
 ![](/help/using/assets/mobile-router-download.png)
