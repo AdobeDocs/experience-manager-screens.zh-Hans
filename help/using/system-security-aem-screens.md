@@ -1,10 +1,10 @@
 ---
-title: AEM Screens的安全核对清单
-seo-title: AEM Screens的安全核对清单
-description: 本页介绍AEM Screens的安全核对清单
-seo-description: 本页介绍AEM Screens的安全核对清单
+title: AEM Screens安全清单
+seo-title: AEM Screens安全清单
+description: 本页介绍了AEM Screens的安全核对清单
+seo-description: 本页介绍了AEM Screens的安全核对清单
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -15,17 +15,18 @@ ht-degree: 1%
 # AEM Screens的系统安全注意事项 {#security-checklist}
 
 >[!IMPORTANT]
+>
 >这是内部Git资源。
 
 本页重点介绍AEM Screens的系统安全注意事项。
 
 
-## AEM Screens安全性白皮书 {#white-paper}
+## AEM Screens安全白皮书 {#white-paper}
 
 本节介绍白皮书。 （待处理白皮书附件）
 
 
-## AEM Screens安全性常见问题解答 {#faqs-screens}
+## AEM Screens安全常见问题解答 {#faqs-screens}
 
 以下常见问题解答假定使用HTTPS作为播放器与AEM Server之间的通信协议的经过身份验证的注册的播放器体系结构。
 
@@ -77,7 +78,9 @@ AEM Server是否安全？
 因此，建议将设备置于不可到达的位置，优选在安全容器，同时确保电缆连接。 还禁用任何IR远程端口。
 
 如果设备操作系统没有定期更新，则操作系统可能会暴露在安全漏洞中，并允许通过网络进行远程攻击。
+
 >[!NOTE]
+>
 >建议使用具备适当远程更新和控制功能（远程桌面、MDM解决方案等）的设备进行测试。 还建议使用专用网络，例如不暴露在公共WIFI中。
 
 
