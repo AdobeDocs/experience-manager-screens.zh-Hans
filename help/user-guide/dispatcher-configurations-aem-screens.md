@@ -1,8 +1,8 @@
 ---
-title: AEM Screens的调度程序配置
-seo-title: AEM Screens的调度程序配置
-description: 本页重点介绍了为AEM Screens项目配置调度程序的指南。
-seo-description: 本页重点介绍了为AEM Screens项目配置调度程序的指南。
+title: DispatcherAEM Screens配置
+seo-title: DispatcherAEM Screens配置
+description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
+seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 uuid: ec5219b7-73f9-4026-99e5-e4a02201b128
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,34 +11,39 @@ topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 7%
 
 ---
 
 
-# AEM Screens的调度程序配置{#dispatcher-configurations-for-aem-screens}
+# DispatcherAEM Screens配置{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
-以下页面提供了为AEM Screens项目配置调度程序的准则。
+以下页提供了为AEM Screens项目配置调度程序的指南。
 
 >[!NOTE]
->如果调度程序可用，则可以通过在调度程序规则中过滤来阻止与注册servlet的连接。
+>
+>如果调度程序可用，可以通过在调度程序规则中过滤来防止与注册servlet的连接。
+>
 >如果没有调度程序，请禁用OSGi组件列表中的注册servlet。
 
 ## Pre-requisites {#pre-requisites}
 
-在为AEM Screens项目配置调度程序之前，您必须事先了解Dispatcher。
+在为AEM Screens项目配置Dispatcher程序之前，您必须事先掌握调度程序知识。
 
-有关更多详 [细信息，请参阅配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 。
+有关更多 [详细信息](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) ，请参阅配置Dispatcher。
 
 ## 配置 Dispatcher {#configuring-dispatcher}
 
-请按照以下步骤为AEM Screens项目配置调度程序。
+按照以下步骤为AEM Screens项目配置调度程序。
 
-### 第1步：配置客户端标题 {#step-configuring-client-headers}
+### 第1步： 配置客户端头 {#step-configuring-client-headers}
 
-将以下内容添加到 `/clientheaders`部分：
+将以下内容添加 `/clientheaders`到部分：
 
 **X-Requested-With**
 
@@ -46,9 +51,9 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
 **X-REQUEST-COMMAND**
 
-### 第2步：配置Screens过滤器 {#step-configuring-screens-filters}
+### 第2步： 配置Screens过滤器 {#step-configuring-screens-filters}
 
-要配置Screens过滤器，请将以下内容添加到 ***/过滤器&#x200B;***。
+要配置Screens过滤器，请向／筛选器中添 ***加以下内容***。
 
 ```
 ## AEM Screens Filters
@@ -68,6 +73,6 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 /0210 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 第3步：禁用调度程序缓存 {#step-disabling-dispatcher-cache}
+### 第3步： 禁用Dispatcher缓存 {#step-disabling-dispatcher-cache}
 
-禁用调度程序缓 ***存／内容／屏幕路径&#x200B;***。
+禁用／内容／屏 ***幕路径的调度程序缓存***。
