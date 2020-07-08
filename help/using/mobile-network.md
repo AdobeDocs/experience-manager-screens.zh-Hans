@@ -2,7 +2,7 @@
 title: 直接移动网络
 description: 本页介绍“直接移动网络设置”
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -69,9 +69,11 @@ AEM Screens播放器也可以使用至少在3G网络上运行的移动或蜂窝�
 
 
 >[!IMPORTANT]
+>
 >对于媒体文件的初始上传，例如，在集成新播放器时，需要有更多数据和更长的下载时间，并反映在上述假设中。覆盖范围 *好* 、数 *据无限* 的4G网络应与此网络设置中最常见的安装相匹配。
 
 >[!NOTE]
+>
 >具有良好网络覆盖范围的最低3G计划应能为AEM Screens播放器带来可接受的下载性能。 如果特定位置仅有公平的覆盖范围，则应考虑将整个网络设置切换到具有移动数据路由 [器和活动网络组件的移动网络](/help/using/mobile-network-router.md)。
 
 
@@ -92,6 +94,7 @@ AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保�
 下表提供网络连接密钥数据的概述。
 
 >[!NOTE]
+>
 >所有信息都指请求和下载因特网源的网络中每个设备的消耗。 这些请求中的每个请求都会累加并延长下载时间。
 
 ![](/help/using/assets/download-times-mobile.png)
