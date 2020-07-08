@@ -4,7 +4,10 @@ seo-title: 指南说明
 description: 本页面介绍了“最佳实践指南”的用途
 seo-description: 本页面介绍了“最佳实践指南”的用途
 translation-type: tm+mt
-source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
@@ -26,16 +29,19 @@ AEM Screens“最佳实践指南”旨在提供有关如何成功规划和执行
 AEM Screens 是 Adobe Experience Manager (AEM) 的一项新型扩展功能，由于使用了新工具，而且应用场合可能多有变化，因此确定开发和部署 AEM Screens 期间涉及的重要考虑事项和常见风险因素就显得至关重要。
 
 本指南不仅可以在您的数字标牌实施期间，为了刻意构想、设计和引入客户体验而提供全面的见解和实用建议，还能够指导您如何通过运用一些在 AEM Screens 中部署数字标牌项目时遵循的最佳实践，对业务产生积极的影响。
+
 >[!IMPORTANT]
+>
 > 本指南旨在识别实施 AEM Screens 项目期间的常见缺陷，其相关材料主要侧重于以下主题：
 >
-> * **[项目角色和职责](roles-responsibilities.md)**
+> * **[项目角色和责任](roles-responsibilities.md)**
 > * **[适用于不同角色的 RACI 图表](roles-responsibilities.md#raci-chart)**
 > * **[AEM 平台配置](aem-platform-configurations.md)**
 > * **[支持和监测](support-monitoring.md)**
 
 
 >[!NOTE]
+>
 > 本指南使用的术语（在 AEM Screens 的环境中）：
 >
 > * **UX** 用来指代交付给最终客户的数字标牌体验。
