@@ -4,7 +4,7 @@ seo-title: AEM Screens项目角色和责任
 description: 本页介绍AEM Screens项目角色和责任
 seo-description: 本页介绍AEM Screens项目角色和责任
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 7%
@@ -16,13 +16,14 @@ ht-degree: 7%
 
 作为经验丰富的 AEM 实施者，您可能已经了解了称为&#x200B;*作者*、*开发人员*&#x200B;和 *IT/技术人员*&#x200B;的角色。
 
-在典型的AEM Screens项目中，角色会进一步细化，因为它们在项目中均具有重要用途。
+在典型的AEM Screens项目中，角色会进一步细化，因为它们在项目中都起着重要作用。
 
 下图显示了我们将在整个指南中引用的角色。
 
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
+>
 > 这些职位中的许多可能是内部的，也可能是外包的，具体取决于每个项目的设置方式。
 
 ## 定义角色 {#roles}
@@ -79,11 +80,11 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 
 ### 项目经理 {#project-managers}
 
-项目经理通常管理AEM Screens部署的整个部署。 项目经理是指定项目的整个实施的负责人，负责制定时间表、处理团队需求和沟通、解决挑战并确保实现目标等主要职责。
+项目经理通常为AEM Screens部署管理整个部署。 项目经理是指定项目的整个实施的负责人，负责制定时间表、处理团队需求和沟通、解决挑战并确保实现目标等主要职责。
 
 >[!NOTE]
 >
-> 要详细了解数字标牌项目的不同角色和职责以及目标受众，请访 **[问项目角色和职责](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**。
+>要详细了解数字标牌项目的不同角色和职责以及目标受众，请访 **[问项目角色和职责](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**。
 
 
 ## 项目阶段 {#project-stages}
@@ -98,7 +99,7 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 
 >[!NOTE]
 >
-> 虽然本指南着重介绍&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功地创建数字标记项目。观看有关项目管理 **[和部署的其他视频](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**，了解项目前期制作、项目启动和项目进展。
+>虽然本指南着重介绍&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功地创建数字标记项目。观看有关项目管理 **[和部署的其他视频](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**，了解项目前期制作、项目启动和项目进展。
 
 ## RACI图表 {#raci-chart}
 
@@ -106,7 +107,7 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 
 >[!NOTE]
 >
-> 此图表不打算完全遵循，而是提供AEM Screens项目中常见任务和注意事项的示例。
+>此图表并非旨在完全遵循，而是为了提供一个示例，说明任务项目中的常见AEM Screens和注意事项。
 
 ### RACI定义 {#raci-definitions}
 
@@ -118,7 +119,7 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 
 * **已通知**: 保持任务进展情况，但不涉及交付项的细节。
 
-以下是使用角色定义的示例RACI图表，并提供了AEM Screens项目中常见任务和注意事项的示例。
+以下是使用角色定义的示例RACI图表，并提供了一个AEM Screens项目中常见任务和注意事项的示例。
 
 下表总结了零 **天： 售前注意事项**:
 
@@ -145,7 +146,7 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 | 使用UI设计验证数据结构 | 我 | RA | C | C |
 | 应用程序开发 | RA | RA | RA | RA |
 | AEM Screens项目设置 | 我 | RA | C | 我 |
-| 分析实施 | 我 | RA | C | - |
+| Analytics执行 | 我 | RA | C | - |
 | 测试和部署 | RA | C | RA | 我 |
 | 服务器配置 | 我 | RA | 我 | 我 |
 | 内容更新计划 | 我 | RA | C | C |
@@ -169,23 +170,23 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 | 角色和责任协议 | RA | RA | RA | RA |
 | 零售设计包括布线操作 | - | - | - | - |
 | 播放器硬件选择 | RAC | - | - | - |
-| 主设备管理 | RA | 我 | - | - |
+| 主控设备管理 | RA | 我 | - | - |
 | 设备订购、存储和配置 | RA | CI | 我 | - |
 | 支持流程定义 | RA | 我 | RA | C |
 
 >[!NOTE]
 >
-> 角色在第二天发生变化（启动后支持）。
+>角色在第二天发生变化（启动后支持）。
 
 * **作者**: 内容管理+战略
 
-* **开发人员**: 通常是AEM Screens实施团队的成员，或移交到内部开发团队
+* **开发人员**: 通常是AEM Screens实施团队的成员，或者移交给内部开发团队
 
 * **技术人员**: 由AV集成商签约或属于同一公司。
 
 下表总结了第 **二天： 启动后支持RACI图表**:
 
-| **相位** | **作者** | **开发人员** | **技术人员** |
+| **相位** | **创作** | **开发人员** | **技术人员** |
 |---|---|---|---|
 | *第二天： 启动后支持* |
 | 角色和责任协议 | RA | RA | RA |
