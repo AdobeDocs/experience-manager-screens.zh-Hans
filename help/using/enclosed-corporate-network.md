@@ -2,7 +2,7 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 封闭的公司网络设置可以逻辑上分为两个模块：
 
-* 广域网(WAN)
+* 广域网
 * 内部局域网(LAN)。
 
 ### 广域网 {#wan-connection}
@@ -56,6 +56,7 @@ ht-degree: 0%
 *足够的带宽* 取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络）的使用情况。
 
 >[!NOTE]
+>
 >所有设备都可同时访问Internet连接，当您向网络添加更多消费者或计算机时，带宽会线性减少。
 
 ### 局域网 {#lan-connection}
@@ -85,6 +86,7 @@ AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保�
 下表提供网络连接密钥数据的概述。
 
 >[!NOTE]
+>
 >该信息允许您视图请求和下载因特网源的网络中每台设备的使用情况。 这些请求中的每个请求都会累加并延长下载时间。
 
 ![](/help/using/assets/enclosed-network-download.png)
