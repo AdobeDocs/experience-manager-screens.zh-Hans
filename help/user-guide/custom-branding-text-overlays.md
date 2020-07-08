@@ -5,7 +5,7 @@ description: 可查看本页以了解如何为文本叠加应用自定义品牌�
 seo-description: 可查看本页以了解如何为文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -82,6 +82,7 @@ ht-degree: 1%
 1. 单击 **保存并关闭** ，以更新设计路径。
 
 >[!IMPORTANT]
+>
 > 默认情况下，您可以选择叠加现有的Screens模板以插入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
 
 1. 要覆盖现有Screens模板以在默认情况下注入您自己的设计，请执行以下操作：
@@ -108,7 +109,7 @@ ht-degree: 1%
 
 按照以下步骤将更新的设计视图为文本叠加：
 
-1. 导航到标题为customstyle —> **渠道** —> **DemoBrand** 的AEM Screens **项**&#x200B;目。 Select the channel and click **Edit** from the action bar to open the editor.
+1. 导航到标题为customstyle —> **AEM Screens** —> **渠道** — **>** DemoBrand的项目。 Select the channel and click **Edit** from the action bar to open the editor.
 
 1. 由于您现在已如上所述将设计添 **加到** “设计”字段中 **，请单击“预览** ”，在图像上视图文本叠加的当前样式。
 
