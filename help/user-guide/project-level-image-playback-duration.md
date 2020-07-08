@@ -1,38 +1,41 @@
 ---
-title: 项目级图像回放持续时间
-seo-title: 项目级图像回放持续时间
-description: '此功能允许您定义项目级别的图像播放持续时间。 '
-seo-description: '此功能允许您定义项目级别的图像播放持续时间。 '
+title: 项目级图像播放持续时间
+seo-title: 项目级图像播放持续时间
+description: '此功能允许您在项目级别定义图像回放持续时间。 '
+seo-description: '此功能允许您在项目级别定义图像回放持续时间。 '
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
 
-# 项目级图像回放持续时间 {#project-level-image-playback}
+# 项目级图像播放持续时间 {#project-level-image-playback}
 
 ## 概述 {#overview}
 
-此功能允许您在项目级别定义图像播放持续时间。 默认情况下，所有图像都继承此播放持续时间。 如果在项目级别未定义持续时间，则默认的8秒播放将继续。
+此功能允许您在项目级别定义图像回放持续时间。 默认情况下，所有图像都继承此播放持续时间。 如果在项目级别未定义持续时间，则默认播放时间为8秒。
 
 ### 前提条件 {#prerequisites}
 
 在使用此功能之前，请确保将项目设置为开始实施此功能的先决条件。 例如，
 
-1. 创建AEM Screens项目(在此示例中， **ProjectLevelPlayback**)
+1. 创建AEM Screens项目(在本例中， **ProjectLevelPlayback**)
 
-1. 在“渠道”文件夹下创 **建序列渠道** ，作 **为PlayBackChannel** 。
+1. 在“渠道”文件夹下 **创建序列****渠道** ，作为PlayBackChannel。
 
 1. 向PlayBackChannel添加内 **容**
 
    ![资产](assets/image_playback1.png)
 
-   例如，以下图像显示添加到 **PlayBackChannel编辑器的图像** :
+   例如，以下图像将显示添加到PlayBackChannel编辑 **器的图像** :
 
    ![资产](assets/image_playback2.png)
 
-## 编辑项目级图像回放持续时间分配 {#editing-project-level-image-playback-duration-assignment}
+## 编辑项目级图像播放持续时间分配 {#editing-project-level-image-playback-duration-assignment}
 
 以下部分介绍如何编辑AEM Screens项目中内容的播放持续时间。
 
@@ -40,7 +43,8 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
 
 
 >[!NOTE]
->如果要更新图像或频道级回放持续时间，请参阅“频道级 [别图像回放持续时间](channel-level-image-playback.md)”。
+>
+>如果要更新图像或渠道级回放持续时间，请参阅 [渠道级图像回放持续时间](channel-level-image-playback.md)。
 
 请按照以下步骤了解如何更新项目级图像播放持续时间：
 
@@ -51,21 +55,21 @@ source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **页面** 。
+1. **页面** ”对话框打开。
 
    >[!NOTE]
    >
-   >默认情况下，通道中的图像设置为8秒的播放持续时间，而视频以其默认持续时长播放。
+   >默认情况下，渠道中的图像设置为8秒的播放持续时间，视频以其默认持续时间播放。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** (从8000(ms)到3000(ms)，即3秒)。 单击“页面”对话框右上方的复 **选标记** ，以保存更改。
+   编辑 **持续时间** (从8000(ms)到3000(ms)，即3秒)。 单击“页面”对话框右上方的复 **选标记** ，以保存所做的更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 查看结果 {#viewing-the-result}
 
-更新频道播放持续时间（在本例中，所有三幅图像）后，您会注意到图像现在将播放3秒而不是8秒（默认值）。
+更新渠道播放持续时间（在本例中为所有三幅图像）后，您会注意到图像现在将播放3秒，而不是8秒（默认值）。
 
-![channel_preview](assets/channel_preview.gif)
+![渠道_预览](assets/channel_preview.gif)
 
