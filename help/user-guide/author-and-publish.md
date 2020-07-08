@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 2%
+source-wordcount: '1893'
+ht-degree: 3%
 
 ---
 
@@ -156,8 +156,9 @@ ht-degree: 2%
 由于每个发布实例默认具有唯一加密密钥，因此您需要对每个发布实例执行此步骤，并保存下一个配置的唯一密钥。
 
 >[!NOTE]
->密码应开始，并以大括号结束。
->例如：{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}
+>
+>密码应开始，并以大括号结束。 例如：
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 第4步： 激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 
@@ -242,19 +243,19 @@ ht-degree: 2%
 
 **验证设备**
 
-之前，请执行以下步骤，确保验证设备ID。 要验证，请在CRXDELite中搜索设备id，路径 *为/home/users/screens/we-retail/devices*。
+之前，请执行以下步骤，确保验证设备ID。 要进行验证，请在CRXDELite中搜索设备id，路径 *为/home/users/screens/we-retail/devices*。
 
 请按照以下步骤复制设备用户：
 
 1. 导航到用户管理页面(例如： `https://localhost:4502/useradmin`
-1. 搜索 **screens-devices-master** group
+1. 搜索屏幕 **-设备-主控组**
 1. 右键单击用户组，然后单击激活 **。**
 
 >[!CAUTION]
 >
 >请勿激活作者——发布——屏幕——服务，因为它是系统用户，由作者作业使用。
 
-您还可以从设备管理控制台激活设备。 按照以下步骤操作：
+您还可以从设备管理控制台激活设备。 应遵循以下步骤：
 
 1. 导航到您的Screens项目—> **设备**。
 1. Click **Device Manager** from the action bar.
