@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 42%
 
 ---
@@ -72,7 +72,7 @@ Enabling the **Admin UI** from the preferences panel allows the user to open the
 
 * 启用或禁用 **Screens播放**&#x200B;器的 **管理员菜单**、 **渠道切** 换程序和活动UI。
 
-   如果 **从“配置** ”菜单启用了活动 **UI** ，则AEM Screens播放器会在播放器的右上角显示 ** 已同步的消息，如下图所示。
+   如果 **从“配置** ”菜单启用了活动 **UI** ,AEM Screens播放器会在播放器的右上角显示 *播放器活动通知* ，如下图所示。
 
    ![图像](/help/user-guide/assets/activity_ui.png)
 
