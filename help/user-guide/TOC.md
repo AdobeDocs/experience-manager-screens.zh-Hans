@@ -2,9 +2,10 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens帮助
+user-guide-title: Adobe Experience Manager屏幕帮助
+user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 13%
@@ -27,7 +28,7 @@ ht-degree: 13%
    + [第5部分： 支持注意事项](support-considerations.md)
 + 配置和管理 {#administering}
    + [Screens服务器配置](configuring-screens-introduction.md)
-   + [设置调度程序配置](dispatcher-configurations-aem-screens.md)
+   + [设置Dispatcher配置](dispatcher-configurations-aem-screens.md)
    + [安装Screens播放器](installing-screens-player.md)
    + [连接Screens播放器](working-with-screens-player.md)
    + [设备注册](device-registration.md)
@@ -44,9 +45,9 @@ ht-degree: 13%
    + Author Publish {#author-publish}
       + [作者——发布架构概述](author-publish-architecture-overview.md)
       + [配置作者和发布](author-and-publish.md)
-   + 与AEM Screens的Analytics集成 {#analytics-integration}
-      + [Adobe Analytics集成](adobe-analytics-integration-aem-screens.md)
-      + [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
+   + Analytics与AEM Screens集成 {#analytics-integration}
+      + [AdobeAnalytics集成](adobe-analytics-integration-aem-screens.md)
+      + [使用Analytics配置AdobeAEM Screens](configuring-adobe-analytics-aem-screens.md)
 + 创作和用例示例 {#authoring}
    + 设置Screens项目 {#setting-up-projects}
       + [创建和管理项目](creating-a-screens-project.md)
@@ -92,7 +93,7 @@ ht-degree: 13%
    + [脱机渠道](offline-channels.md)
    + [扩展AEM Screens组件](extending-component-tutorial-develop.md)
    + [创建组件](creating-components.md)
-   + [使用AEM SPA Editor嵌入REACT应用程序并与AEM Screens分析集成](embedding-react-app.md)
+   + [使用AEM SPA Editor嵌入REACT应用程序并与AEM ScreensAnalytics集成](embedding-react-app.md)
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [为多区域布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [对文本叠加应用自定义品牌和样式](custom-branding-text-overlays.md)
