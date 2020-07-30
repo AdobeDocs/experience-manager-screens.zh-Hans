@@ -5,7 +5,7 @@ description: 可查看本页以了解如何为文本叠加应用自定义品牌�
 seo-description: 可查看本页以了解如何为文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
    >[!NOTE]
    >要了解如何在渠道编辑器中向资产添加文本叠加，请参阅文 [本叠加](/help/user-guide/text-overlay.md)。
 
-1. 从AEM实例—>工具—> CRXDE Lite导航 **到CRXDE Lite**。
+1. 从AEM实例导航到CRXDE Lite—>工具—> **CRXDE Lite**。
 
 1. 您必须创建自定 `/apps/settings/wcm/designs/<your-project>/`义设计，例如，在本例中，导航到 `/apps/settings/wcm/designs/customstyle/`
 
@@ -41,26 +41,26 @@ ht-degree: 1%
 1. 创 *建static.css* 文件并设置以下css规则。 另示为css规则下图的示例。
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 默认情况下，您可以选择叠加现有的Screens模板以插入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
+>默认情况下，您可以选择叠加现有的Screens模板以插入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
 
 1. 要覆盖现有Screens模板以在默认情况下注入您自己的设计，请执行以下操作：
 
@@ -99,13 +99,13 @@ ht-degree: 1%
 
 您必须更新这些设计的ACL，以便播放器可以下载它们。
 
-1. 导航到用户名，选择 `screens-<project>-devices group` 该路径，并为其授予自定义设计路径的读取权限。
+1. 导航到Useradmin并选择 `screens-<project>-devices group` 它，并授予它对自定义设计路径的读取权限。
 
 1. 提供 `screens-<project>-administrators` 组读取和修改此路径的权限。
 
 ## 查看结果 {#viewing-the-result}
 
-完成上述步骤后，您可以从 *CRXDE* Lite更新 **** statis.css文件，并因此将更新视图到已添加到资产的文本叠加。
+完成上述步骤后，您可以从 *CRXDE Lite更新statis* .css文 **件** ，然后视图已添加到资产的文本叠加的更新。
 
 按照以下步骤将更新的设计视图为文本叠加：
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. 导航到 *CRXDE Lite中的* static.css文件，然后将字体（如）添加 `font-family: "Lucida Console", Courier, monospace;` 到此文件，如下所示。
+1. 以CRXDE Lite *形式导航到* static.css文件，然后将字体（如） `font-family: "Lucida Console", Courier, monospace;` 添加到此文件，如下所示。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. 保存更改并重新加载预览后，您将看到文本叠加字体的更新，如下图所示。
