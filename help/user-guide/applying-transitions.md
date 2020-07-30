@@ -6,7 +6,7 @@ seo-description: 可查看本页以了解如何将过渡应用于Screens项目�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >默认情况下，过渡组件(如Type **** )的属性设 **置为** Fade **,Duration** (持续时 *间)*&#x200B;设置为1600毫秒。  此外，不建议设置比资产所应用的过渡持续时间长的持续时间。
 
