@@ -1,8 +1,8 @@
 ---
 title: 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens分析集成
 seo-title: 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens分析集成
-description: 可查看本页以了解如何使用AEM SPA编辑器（可由AEM中的商业人士配置）嵌入使用REACT（或Angular）的交互式单页应用程序，以及如何将交互式应用程序与脱机Adobe Analytics集成。
-seo-description: 可查看本页以了解如何使用AEM SPA编辑器（可由AEM中的商业人士配置）嵌入使用REACT（或Angular）的交互式单页应用程序，以及如何将交互式应用程序与脱机Adobe Analytics集成。
+description: 可查看本页，了解如何使用AEM SPA编辑器(可由AEM的业务专业人士配置)嵌入使用REACT（或Angular）的交互式单页应用程序，以及如何将交互式应用程序与脱机Adobe Analytics集成。
+seo-description: 可查看本页，了解如何使用AEM SPA编辑器(可由AEM的业务专业人士配置)嵌入使用REACT（或Angular）的交互式单页应用程序，以及如何将交互式应用程序与脱机Adobe Analytics集成。
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
@@ -10,24 +10,27 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 0%
 
 ---
 
 
 # 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens分析集成 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-本节介绍如何使用AEM SPA编辑器嵌入使用REACT（或Angular）的交互式单页应用程序，该编辑器可由商业人士在AEM中配置，以及如何将交互式应用程序与脱机Adobe Analytics集成。
+本节介绍如何使用AEM SPA编辑器嵌入使用REACT（或Angular）的交互式单页应用程序，该编辑器可由AEM的业务专业人士进行配置，还介绍如何将交互式应用程序与脱机的Adobe Analytics集成在一起。
 
-## 使用AEM SPA Editor {#using-the-aem-spa-editor}
+## 使用AEM SPA编辑器 {#using-the-aem-spa-editor}
 
 请按照以下步骤使用AEM SPA编辑器：
 
-1. 克隆位于https://github.com/adobe/aem-spa-project-archetype的AEM SPA Editor回 [购库。](https://github.com/adobe/aem-spa-project-archetype)
+1. 克隆AEM SPA Editor回购 [库：https://github.com/adobe/aem-spa-project-archetype。](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
-   >此原型创建了最小的Adobe Experience manager项目，作为您自己的SPA项目的起点。 使用此原型时必须提供的属性允许根据需要命名此项目的所有部分。
+   >此原型创建了最小的Adobe Experience Manager项目，作为您自己的SPA项目的起点。 使用此原型时必须提供的属性允许根据需要命名此项目的所有部分。
 
 1. 按照自述文件说明创建AEM SPA编辑器原型项目：
 
@@ -44,14 +47,14 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >我们将 **GroupId用作** com.adobe.aem.screens ***，将*** GroupId用作 **My Martifact(默认值为******** Artifact)范例。 您可以根据需要选择自己的。
+   >我们将 **GroupId用** 作com.adobe ***.aem.screens*** ，将 **GroupId用** 作My Sample SPA Artifact ***(默*** 认值为默认值)。 您可以根据需要选择自己的。
 
 1. 创建项目后，请使用您选择的IDE或编辑器并导入生成的Maven项目。
-1. 使用命令mvn clean install -PautoInstallPackage部署 ***到本地AEM实例***。
+1. 使用命令mvn clean install -PautoInstallPackage部 ***署到本地AEM实例***。
 
 ### 在REACT应用程序中编辑内容 {#editing-content-in-the-react-app}
 
-要编辑REACT应用程序中的内容，请执行以下操作：
+要编辑REACT应用程序中的内容：
 
 1. 导航到 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` （如果适用，请替换主机名、端口和项目名称）。
 1. 您应该能够编辑在Hello world应用程序中显示的文本。
@@ -60,51 +63,51 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 请按照以下步骤将交互式REACT应用程序添加到AEM Screens:
 
-1. 创建新的AEM Screens项目。 有关更多 [详细信息，请参阅创建和管理项](creating-a-screens-project.md) 目。
+1. 新建一个AEM Screens项目。 有关更多 [详细信息，请参阅](creating-a-screens-project.md) “创建和管理项目”。
 
    >[!NOTE]
    >
-   >在Screens项 **目的Channels文件夹中创建渠道时，** 创建序列渠 **道** 。
+   >在Screens项 **目的** “渠道”文件夹中 **创建** “序列渠道”时创建渠道。
    >
    >
-   >有关更多 [详细信息，请参阅创建和管理渠道](managing-channels.md) 。
+   >有关更多 [详细信息，请参阅](managing-channels.md) “创建和管理渠道”。
 
    ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
-1. 编辑任何序列渠道并拖放嵌入的页面组件。
+1. 编辑任何序列渠道，并拖放嵌入式页面组件。
 
-   有关更多 [详细信息，请参阅将组件添加到渠道](adding-components-to-a-channel.md) 。
+   有关更多 [详细信息，请参阅将组件](adding-components-to-a-channel.md) 添加到渠道。
 
    >[!NOTE]
    >
-   >确保在将渠道分配给显示屏时添加用户交互事件。
+   >确保在向显示屏分配事件时添加用户交互渠道。
 
-1. 单 **击操作栏** 中的编辑以编辑序列渠道的属性。
+1. 单 **击操** 作栏中的编辑以编辑序列渠道的属性。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 拖放嵌入式 **页面组件** ，然后选择mysamplespa应用程序下的主页，例如 ***/content/mysamplespa/en/home***。
+1. 拖放嵌入式 **页面组件** ，并选择mysamplespa应用程序下的主页, ***例如/content/mysamplespa/en/home***。
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. 针对此项目注册播放器，您现在应能看到交互式应用程序在AEM Screens上运行。
+1. 根据此项目注册一个播放器，您现在应能看到交互式应用程序在AEM Screens运行。
 
    请参阅 [设备注册](device-registration.md) ，详细了解设备注册。
 
-## 通过AEM Screens将SPA与Adobe Analytics与脱机功能集成 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
+## 通过AEM Screens将SPA与Adobe Analytics与线下功能集成 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
-按照以下步骤，通过AEM Screens将SPA与Adobe Analytics集成，并具备脱机功能：
+请按照以下步骤通过AEM Screens将SPA与Adobe Analytics集成，并提供离线功能：
 
-1. 在AEM Screens中配置Adobe Analytics。
+1. 在AEM Screens配置Adobe Analytics。
 
-   请参阅[使用AEM Screens配置Adobe Analytics(configuring-adobe-analytics-aem-screens.md))，了解如何在Adobe Analytics中使用AEM Screens执行排序，以及使用脱机Adobe Analytics发送自定义事件。
+   请参阅配 [置Adobe Analytics与AEM Screens](configuring-adobe-analytics-aem-screens.md) ，了解如何在Adobe Analytics与AEM Screens进行排序，以及使用脱机Adobe Analytics发送自定义事件。
 
-1. 在您选择的IDE/编辑器中编辑您的反应应用程序（尤其是文本组件或要开始发出事件的其他组件）。
-1. 在要为组件捕获的单击事件或其他事件上，使用标准数据模型添加分析信息。
+1. 在您选择的IDE/编辑器中编辑您的反应应用程序(尤其是文本组件或您希望开始发射事件的其他组件)。
+1. 在单击要为组件捕获的事件或其他事件上，使用标准数据模型添加分析信息。
 
-   有关更多 [详细信息，请参](configuring-adobe-analytics-aem-screens.md)阅配置Adobe Analytics与AEM屏幕。
+   有关更多详 [细信息，请参](configuring-adobe-analytics-aem-screens.md)阅配置Adobe Analytics与AEM。
 
-1. 调用AEM Screens Analytics API以脱机保存活动并将其连发发送到Adobe Analytics。
+1. 调用AEM Screens分析API脱机保存事件并将其连发发送到Adobe Analytics。
 
    例如，
 
@@ -132,5 +135,5 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    >[!NOTE]
    >
-   >播放器固件会自动向您发送的自定义分析数据中添加有关播放器及其运行时环境的更多详细信息。 因此，除非绝对必要，否则您可能无需捕获低级操作系统／设备详细信息。 您只需关注业务分析数据。
+   >播放器固件会自动将有关播放器及其运行时环境的更多详细信息添加到您发送的自定义分析数据中。 因此，除非绝对必要，否则您可能无需捕获低级操作系统／设备详细信息。 您只需关注业务分析数据。
 
