@@ -2,46 +2,30 @@
 title: 渠道分配
 seo-title: 渠道分配
 description: 可查看本页以了解渠道分配和分时段功能。
-seo-description: 可查看本页以了解渠道分配和分时段功能。
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 53%
+source-wordcount: '1335'
+ht-degree: 37%
 
 ---
 
 
 # 渠道分配 {#channel-assignment}
 
-本节涵盖以下主题：
+定义显示屏后，您需要为显示屏分配渠道。
 
-* **分配渠道**
-* **了解“渠道分配”对话框的属性**
-* **分时段功能**
+本页显示了如何为显示屏分配渠道。
 
-定义显示屏后，您需要为显示屏分配一个渠道。
+>[!NOTE]
+>您可以为显示屏分配多个渠道。
 
-本页介绍了如何为显示屏分配渠道。
-
-**先决条件**：
-
-* [配置和部署 Screens](configuring-screens-introduction.md)
-* [创建和管理Screens项目](creating-a-screens-project.md)
-* [创建和管理渠道](managing-channels.md)
-* [创建和管理位置](managing-locations.md)
-* [创建和管理显示屏](managing-displays.md)
-
-## 分配渠道 {#assign-a-channel}
+## Assigning a Channel {#assign-a-channel}
 
 请按照以下步骤为显示屏分配渠道：
+
+>[!I重要]
+>以下渠道分配对话框对于Adobe Experience 6.5.5 Screens功能包版本及更高版本是不同的。 有关更多 [详细信息](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) ，请参阅渠道分配。
 
 1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
 
@@ -55,7 +39,29 @@ ht-degree: 53%
 
    ![图像](/help/user-guide/assets/channel-assign1.png)
 
-   您可以从以下部分的“渠道分配” **对话框** ，了解和配置属性。
+   您可以从以下部分的“ **渠道分配** ”对话框配置属性。 请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
+
+## 为AEM 6.5.5 Screens功能包版本分配渠道 {#assign-a-channel-new-release}
+
+请按照以下步骤为显示屏分配渠道：
+
+1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   或者，
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. 从设置选项中，可以按路径或名称选择渠道，输入渠道角色、优先级、受支持事件。
+
+   >[!NOTE]
+   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
+
+1. 从计划 **选项** 中，选择引 **用时区**、激活 **窗口** 和重复计划 ****。
+
+1. 配置 **首选项** 后，单击“保存”。
 
 ### 从渠道分配了解渠道属性 {#channel-properties}
 
@@ -65,7 +71,7 @@ ht-degree: 53%
 
 * **按路径**：您可以使用渠道的绝对路径提供显式引用。
 
-* **按名称**: 输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
 #### 渠道角色 {#role-channel}
 
@@ -94,11 +100,11 @@ ht-degree: 53%
 
 从以下选项中进行选择，以从“渠道分配”对话框中设置 **中断方法** :
 
-* **立即**: 只要计划激活或收到更新，您就可以停止播放并立即刷新或播放新内容
-* **在当前项目的末尾**: 当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
+* **立即**:只要计划激活或收到更新，您就可以停止播放并立即刷新或播放新内容
+* **在当前项目的末尾**:当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
    >[!NOTE]
    >此选项默认处于选中状态。
-* **在序列末尾**: 当激活新计划或收到更新时，您可以选择等待整个序列到达其末尾，并且在所需序列之前，您循环回第1个元素，刷新或播放新内容
+* **在序列末尾**:当激活新计划或收到更新时，您可以选择等待整个序列到达其末尾，并且在所需序列之前，您循环回第1个元素，刷新或播放新内容
 
    >[!NOTE]
    >使用第二个或第三个选项可能导致在分配上定义的调度时间被稍微推迟，因为播放器在刷新之前将等待项目或序列的结束（在指定时间之后）。 延迟取决于项目的播放持续时间。
@@ -111,18 +117,17 @@ ht-degree: 53%
 
 “显示有趣内容工具提示”定义了在渠道运行时是否必须显示有趣内容工具提示（“触摸任何位置可开始&#x200B;**”）。
 
+### 分时段 {#dayparting}
 
-### 分时段功能 {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据要求在一天、一周或月内分时段计划渠道。
 
-分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens 允许您按照要求在一天、一周或一个月内分时段计划渠道。
-
-以下示例说明了在三种不同情景下如何对渠道使用分时段功能：
+以下示例说明了三种不同情况下渠道的分时段功能：
 
 #### 在一天内分多个时段播放内容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-此示例显示了一家餐厅如何使用分时段功能展示其早餐、午餐和晚餐菜单。
+此示例说明餐厅如何使用分时段功能展示其早餐、午餐和晚餐菜单。
 
 在此，我们将每天分为三个不同的时段，以便渠道内容按一天中的指定时间播放：
 
@@ -161,9 +166,9 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 #### 在特定月份播放内容 {#playing-content-for-a-particular-month-months}
 
-此示例显示了一家商店如何使用分时段功能在 6 月到 8 月展示他们的夏季收藏品，在 9 月到 10 月底展示秋季收藏品。
+此示例显示了商店的分时段功能，该商店在6月到8月显示其夏季收藏品，在9月到10月底显示秋季收藏品。
 
-在此示例中，您将按照月份划分时段，以便渠道内容每年按照指定的月份来播放。
+在此，您将按月创建分时段功能，以便渠道内容按年度的指定月份播放。
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
@@ -176,12 +181,13 @@ Schedules when combined with **Dayparting**, allows you to set a global schedule
 
 #### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
 
-此示例显示了一家商店如何使用分时段功能在 12 月份按照相同的计划展示冬季收藏品。但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
+此示例显示了商店在12月显示冬季集合时的分天计划。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
 | A | 冬季 | 1 | 2017年12月1日至2017年12月31日 |
 | B | 圣诞节 | 2 | 2017年12月24日至2017年12月31日 |
+
 
 >[!IMPORTANT]
 >
