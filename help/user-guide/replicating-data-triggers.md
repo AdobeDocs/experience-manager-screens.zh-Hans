@@ -4,9 +4,9 @@ seo-title: 将数据触发器复制到发布服务器
 description: 将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -28,20 +28,22 @@ ht-degree: 2%
 
 请按照以下步骤将数据触发器复制到发布服务器。
 
-### 第1步： 复制ContextHub配置 {#replicating-contexthub-configurations}
+### 第1步：复制ContextHub配置 {#replicating-contexthub-configurations}
 
 1. 导航到 **工具** >部 **署** >分发 **>** 分发 **>发布代理** ，然后单击发布代理以配置您的设置。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >或者，也可以使用 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 直接导航到屏幕来配置和测试连接。
 
 1. 单击 **操作栏** 中的“测试连接”，验证作者与发布实例的通信，如下图所示。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >如果测试失败，您需要在作者实例和发布实例之间修复复制代理配置。 有关更多详 [细信息，请参阅](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) “Troubleshooting Test Connection（测试连接疑难解答）”。
 
 1. 从 **Distribution Agent****屏幕树中选择** “添加”，然后选择项目的配置路径，例如 `/conf/screens/settings/cloudsettings/configuration`。
@@ -50,7 +52,7 @@ ht-degree: 2%
 
 ### 复制受众 {#replicating-audiences}
 
-1. 导航到您的AEM实例>个性 **化** > **受众** ，或 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` 用于直接导航。
+1. 导航到AEM实例>个性 **化** > **受众** ，或 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` 用于直接导航。
 
 1. 进入您的项目文件夹，例如 `/conf/screens/`。
 
@@ -64,7 +66,7 @@ ht-degree: 2%
 
 ### 复制活动  {#replicating-activities}
 
-1. 导航到您的AEM实例>个性 **化** > **活动** ，或 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 用于直接导航。
+1. 导航到AEM实例>个性 **化** > **活动** ，或 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 用于直接导航。
 
 1. 进入您的项目文件夹，即 `/content/campaigns/screens/…`。
 
@@ -114,4 +116,4 @@ ht-degree: 2%
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 更新 `(name=default)` 为 `(name=slingTransportSecretProvider)`。
-   1. 单击 **保存** ，然后再次从AEM实例的 **Distribution Agent屏幕中** 运行测试连接。
+   1. 单击 **保存** ，再次从AEM实例的 **Distribution Agent屏幕中** 运行测试连接。
