@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1197'
 ht-degree: 4%
 
 ---
@@ -83,6 +83,7 @@ ht-degree: 4%
    1. 导航到 **Zones** —> **MultiZone** —> **渠道，然** 后单击 **** 操作栏中的创建。
    1. Select **Channels Folder** from the **Create** wizard and click **Next**.
    1. Enter the title as **EmbeddedChannels** and click **Create**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **将两个渠道添加到渠道文件夹**
@@ -93,6 +94,7 @@ ht-degree: 4%
    1. 将很少的图像拖放到此渠道。
    1. 同样，在EmbeddedChannels文件夹中创建另一个标 **题为** Zone2 **的序列** 渠道。
    1. 将视频拖放到此渠道。
+
    下图显示了渠道 **Zone1** 和 **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -154,7 +156,8 @@ ht-degree: 4%
       ![图像](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!I重要]
+      >[!IMPORTANT]
+      >
       > 一旦将主渠道(本例中为 **MultiZone**)分配给显示屏，则必须将另外两个嵌入的渠道Zone **1和****** Zone2也分配给同一显示屏。
 
 ### 注册设备 {#registering-device}
@@ -166,6 +169,7 @@ ht-degree: 4%
    1. 导航到 **Zones** —>设 **备文** 件夹。
    1. Select the **Devices** folder and click **Device Manager** from the action bar.
    1. 单击 **“设备注册** ”，然后从列表中选择待定设备。
+
       >[!NOTE]
       > 设备的标题必须与设备注册选项卡中显&#x200B;**示的设备** 令牌(令牌 **字段)匹配** 。
    1. 如果标题与设备令牌匹配，则选择设备，然后单 **击操作栏** 中的注册设备。
@@ -173,6 +177,7 @@ ht-degree: 4%
       ![图像](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. 选 **择指定显** 示，然后选择设备配置的路径。
+
    >[!NOTE]
    >如果尝试视图Screens播放器中的内容，请确保从渠道中为分 **配到显示屏的每个** ，单击渠道仪表板中的更新脱机内容。
 
