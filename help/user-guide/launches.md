@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 要求 {#requirements}
 
-在开始在 *AEM Screens项目中* ，使用Screens Launch之前，请确保您了解宽限期的概念及其相关性。
+在开始在 *AEM Screens项* 目中利用Screens Launch之前，请确保您了解宽限期的概念及其相关性。
 
 在播放器的设定起始日期运行体验涉及：
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 1. 导航到CRXDE Lite，然后导航到 `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`。
 2. 右键单击并复制文件。
 3. 导航到 `/apps/system/config` 并右键单击并粘贴。
-4. 多次单 `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` 击以在CRXDE Lite的编辑器中打开文件。 它必须将路径／内容／屏 *幕／的宽限期* 显示 **为86400**。 将该值更改 **为600**。
+4. 多次单 `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` 击以CRXDE Lite在编辑器中打开文件。 它必须将路径／内容／屏 *幕／的宽限期* 显示 **为86400**。 将该值更改 **为600**。
 
 现在，文本文件中的内容应类似于：
 
@@ -82,17 +82,17 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 ## 使用屏幕启动 {#using-launches}
 
-本节演示如何在您的AEM Screens项目中实施Screens启动。
+本节演示如何在您的AEM Screens项目中实施Screens Launch。
 
 ### 创建屏幕启动项 {#creating-a-launch}
 
 请按照以下步骤对您的AEM Screens项目实施Screens启动功能：
 
-1. 在AEM Screens项目中创建序列渠道, **例如LaunchesDemo** —> **** Raunchs **—>** FutureLaunch，如下所示。
+1. 在您的AEM Screens项目中创建序列渠道, **例如** LaunchesDemo — **>****渠道**—> FutureLaunch，如下所示。
 
    >[!CAUTION]
    >
-   >您必须从AEM Screens项目中预先存在的渠道创建启动项。
+   >您必须从AEM Screens项目中的现有渠道创建启动项。
 
    ![图像](/help/user-guide/assets/launches-images/launches-11.png)
 
@@ -135,9 +135,9 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    **了解启动项提升范围**
 
-   * **提升完整启动**: 启动项的所有渠道在设置的起始日期提升。
-   * **提升修改的页面**: 将只提升修改的启动资源。 建议在不需要启动项审阅时使用此选项。
-   * **提升已批准的页面**: 此选项要求启动项批准工作流在启动渠道上运行。 只有经过批准的页面才会在设置的起始日期进行提升。
+   * **提升完整启动**:启动项的所有渠道在设置的起始日期提升。
+   * **提升修改的页面**:将只提升修改的启动资源。 建议在不需要启动项审阅时使用此选项。
+   * **提升已批准的页面**:此选项要求启动项批准工作流在启动渠道上运行。 只有经过批准的页面才会在设置的起始日期进行提升。
 
       >[!CAUTION]
       >
@@ -191,17 +191,18 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 1. 您可以启用或禁用此选项以在生产后删除启动项。
 1. 您可以设置 **启动** 的范围，具有以下选项：
-   1. **提升完整启动**: 启动项的所有渠道在设置的起始日期提升。
-   1. **提升修改的页面**: 将只提升修改的启动资源。 建议在不需要启动项审阅时使用此选项。
-   1. **提升已批准的页面**: 此选项要求启动项批准工作流在启动渠道上运行。 只有经过批准的页面才会在设置的起始日期进行提升。
-   1. **提升当前页面**: 此选项要求启动项批准工作流仅为当前页面运行。
-1. 单击 **提升** 启动 **向导中的下一** 步。
+   1. **提升完整启动**:启动项的所有渠道在设置的起始日期提升。
+   1. **提升修改的页面**:将只提升修改的启动资源。 建议在不需要启动项审阅时使用此选项。
+   1. **提升已批准的页面**:此选项要求启动项批准工作流在启动渠道上运行。 只有经过批准的页面才会在设置的起始日期进行提升。
+   1. **提升当前页面**:此选项要求启动项批准工作流仅为当前页面运行。
+1. 单击 **提升** 启动 **向导中的下一步** 。
 1. 单击 **提升** ，以提升启动项。
 
 ### 删除屏幕启动项 {#deleting-the-screens-launch}
 
 您可以使用“待定启动项” **面板中的** “删除启动 **项”选项删除启动项** 。
 
->[注意]
+>[!CAUTION]
+>
 >此操作还将删除所有子体（嵌套启动项）。
 
