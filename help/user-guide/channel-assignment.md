@@ -3,10 +3,10 @@ title: 渠道分配
 seo-title: 渠道分配
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 37%
+source-wordcount: '1333'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 37%
 
 请按照以下步骤为显示屏分配渠道：
 
->[!I重要]
+>[!IMPORTANT]
+>
 >以下渠道分配对话框对于Adobe Experience 6.5.5 Screens功能包版本及更高版本是不同的。 有关更多 [详细信息](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) ，请参阅渠道分配。
 
 1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
@@ -93,7 +94,8 @@ ht-degree: 37%
 
 #### 中断方法 {#interruption-method-channel}
 
->[重要信息]：
+>[!IMPORTANT]
+>
 > 此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
 
 作为内容作者，您应当能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在由于日程安排而中断播放之前让重要内容完全播放。
