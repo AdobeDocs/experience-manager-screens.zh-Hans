@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 45%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->您可以向渠道添加组件。 有关更多 **[详细信息，请参阅将组件](adding-components-to-a-channel.md)**添加到渠道。
+>您可以向渠道添加组件。 有关更多 **[详细信息，请参阅将组件](adding-components-to-a-channel.md)** 添加到渠道。
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,15 +140,16 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 您可以从视图仪表板渠道清单。
 
->[重要信息]：
-> 此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
+>[!IMPORTANT]
+>
+>此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
 
 按照以下步骤从渠道仪表板启用此选项：
 1. **将渠道设置为脱机**
    1. 选择渠道，然 **后从操** 作栏中选择属性
    1. 导航到 **渠道** 选项卡，并确保取消选中开发 **者模式(强制渠道联机)**
    1. Click **Save &amp; Close**
-1. **更新离线内容**
+1. **更新脱机内容**
    1. 选择渠道，然后从 **操作** 栏中选择仪表板
    1. 导航到 **渠道信息** 面板，然后 *单击……*
    1. 单击“ **更新脱机内容”**
@@ -214,7 +215,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>在线渠道更改</td>
    <td>内容已自动更新</td>
-   <td><p>内容已更新到“设备： 推送配置”</p> <p>或者，</p> <p>在设备上更新 <strong><i>的内容： 重新启动</i></strong></p> </td>
+   <td><p>内容已更新到“设备：推送配置”</p> <p>或者，</p> <p>在设备上更新 <strong><i>的内容：重新启动</i></strong></p> </td>
   </tr>
   <tr>
    <td>脱机渠道中的更改，但渠道“推送内容”未触发（没有脱机包重新创建）</td>
@@ -224,7 +225,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>脱机渠道更改和渠道“推送内容”被触发（新的脱机包）</td>
    <td>内容已自动更新</td>
-   <td><p>在设备上更新 <strong><i>的内容： 推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>的内容： 重新启动</i></strong></p> </td>
+   <td><p>在设备上更新 <strong><i>的内容：推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>的内容：重新启动</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>配置更改</p>
@@ -235,7 +236,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
      <li>渠道分配(角色、事件、计划)</li>
     </ul> </td>
    <td>配置已自动更新</td>
-   <td><p>在设备上更新 <strong><i>了配置： 推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>了配置： 重新启动</i></strong></p> </td>
+   <td><p>在设备上更新 <strong><i>了配置：推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>了配置：重新启动</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -254,6 +255,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 >
 >* [创建和管理位置](managing-locations.md)
 >* [创建和管理显示屏](managing-displays.md)
+
 >
 
 
