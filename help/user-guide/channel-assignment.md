@@ -3,17 +3,20 @@ title: 渠道分配
 seo-title: 渠道分配
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 36%
+source-wordcount: '1218'
+ht-degree: 39%
 
 ---
 
 
 # 渠道分配 {#channel-assignment}
 
-定义显示屏后，您需要为显示屏分配渠道。
+>[!IMPORTANT]
+>本节重点介绍渠道分配和安排AEM 6.5.5 Screens版本之前的功能包渠道的安排。
+
+设置显示屏后，必须为显示屏分配渠道，以视图内容。
 
 本页显示了如何为显示屏分配渠道。
 
@@ -23,10 +26,6 @@ ht-degree: 36%
 ## Assigning a Channel {#assign-a-channel}
 
 请按照以下步骤为显示屏分配渠道：
-
->[!IMPORTANT]
->
->以下渠道分配对话框对于Adobe Experience 6.5.5 Screens功能包版本及更高版本是不同的。 有关更多 [详细信息](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) ，请参阅渠道分配。
 
 1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
 
@@ -42,31 +41,10 @@ ht-degree: 36%
 
    您可以从以下部分的“ **渠道分配** ”对话框配置属性。 请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
 
-## 为AEM 6.5.5 Screens功能包版本分配渠道 {#assign-a-channel-new-release}
 
-请按照以下步骤为显示屏分配渠道：
+## 从渠道分配了解渠道属性 {#channel-properties}
 
-1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   或者，
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. 从设置选项中，可以按路径或名称选择渠道，输入渠道角色、优先级、受支持事件。
-
-   >[!NOTE]
-   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
-
-1. 从计划 **选项** 中，选择引 **用时区**、激活 **窗口** 和重复计划 ****。
-
-1. 配置 **首选项** 后，单击“保存”。
-
-### 从渠道分配了解渠道属性 {#channel-properties}
-
-#### Reference Channel {#ref-channel}
+### Reference Channel {#ref-channel}
 
 引用渠道允许您按渠道名称或渠道路径提供对所需渠道的引用。
 
@@ -74,25 +52,25 @@ ht-degree: 36%
 
 * **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### 渠道角色 {#role-channel}
+### 渠道角色 {#role-channel}
 
 渠道角色定义了显示屏的上下文。该角色由各种操作来定位，并且与完成该角色的实际渠道无关。
 
-#### 优先级 {#priority-channel}
+### 优先级 {#priority-channel}
 
 优先级用于在多个分配匹配播放条件时对分配进行排序。具有最高值的分配将始终优先于具有较低值的分配。例如，如果有两个渠道 A 和 B。A 的优先级为 1，B 的优先级为 2，则会显示渠道 B，因为它的优先级高于 A。
 
 >[!NOTE]
 >如上所述，渠道的优先级会在&#x200B;**渠道分配**&#x200B;对话框中设置为数字（最小值为 1）。此外，分配的渠道会按优先级以降序排列。
 
-#### 支持的事件 {#supported-events-channel}
+### 支持的事件 {#supported-events-channel}
 
 * **初始加载**：播放器启动时加载渠道。可以将该事件与计划一起分配到多个渠道
 * **空闲屏幕**：屏幕空闲时加载。可以将该事件与计划一起分配到多个渠道
 * **计时器**：提供计划时需要对其进行设置
 * **用户交互**：如果在空闲渠道中屏幕（触控）上存在用户交互，播放器将切换到指定的渠道，并将在触摸屏幕时加载该渠道
 
-#### 中断方法 {#interruption-method-channel}
+### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ ht-degree: 36%
    >[!NOTE]
    >使用第二个或第三个选项可能导致在分配上定义的调度时间被稍微推迟，因为播放器在刷新之前将等待项目或序列的结束（在指定时间之后）。 延迟取决于项目的播放持续时间。
 
-#### 计划 {#schedule-channel}
+### 计划 {#schedule-channel}
 
 通过计划，您可以在应当显示渠道时提供文本形式的说明。It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown.
 
@@ -191,7 +169,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 | B | 圣诞节 | 2 | 2017年12月24日至2017年12月31日 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > 要进一步了解分时段功能，请参阅以下各节：
 >
