@@ -2,12 +2,12 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager屏幕帮助
+user-guide-title: Adobe Experience Manager Screens帮助
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 13%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 13%
    + [Screens最佳实践指南](https://docs.adobe.com/content/help/zh-Hans/experience-manager-screens/using/about-guide.html)
    + [主要条款](screens-glossary.md)
 + 数字标牌网络基础知识 {#digital-signage-network}
-   + [第1部分： 项目角色和责任](project-roles-responsibilities.md)
-   + [第2部分： 项目范围时的注意事项](project-considerations.md)
-   + [第3部分： 测试、POC、试点和推广](testing-pocs-pilots-rollouts.md)
-   + [第4部分： 项目管理和部署](project-management-and-deployment.md)
-   + [第5部分： 支持注意事项](support-considerations.md)
+   + [第1部分：项目角色和责任](project-roles-responsibilities.md)
+   + [第2部分：项目范围时的注意事项](project-considerations.md)
+   + [第3部分：测试、POC、试点和推广](testing-pocs-pilots-rollouts.md)
+   + [第4部分：项目管理和部署](project-management-and-deployment.md)
+   + [第5部分：支持注意事项](support-considerations.md)
 + 配置和管理 {#administering}
    + [Screens服务器配置](configuring-screens-introduction.md)
-   + [设置Dispatcher配置](dispatcher-configurations-aem-screens.md)
+   + [设置调度程序配置](dispatcher-configurations-aem-screens.md)
    + [安装Screens播放器](installing-screens-player.md)
    + [连接Screens播放器](working-with-screens-player.md)
    + [设备注册](device-registration.md)
    + [设置ACL](setting-up-acls.md)
-   + [AEM Screens安全核对清单](security-checklist.md)
+   + [AEM Screens安全清单](security-checklist.md)
    + [从ContentSync过渡到SmartSync](smartsync.md)
    + [从文件新建项目导入程序](project-importer.md)
    + [将数据触发器复制到发布服务器](replicating-data-triggers.md)
@@ -45,9 +45,9 @@ ht-degree: 13%
    + Author Publish {#author-publish}
       + [作者——发布架构概述](author-publish-architecture-overview.md)
       + [配置作者和发布](author-and-publish.md)
-   + Analytics与AEM Screens集成 {#analytics-integration}
-      + [AdobeAnalytics集成](adobe-analytics-integration-aem-screens.md)
-      + [使用Analytics配置AdobeAEM Screens](configuring-adobe-analytics-aem-screens.md)
+   + Analytics与AEM Screens {#analytics-integration}
+      + [Adobe Analytics集成](adobe-analytics-integration-aem-screens.md)
+      + [配置Adobe Analytics与AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + 创作和用例示例 {#authoring}
    + 设置Screens项目 {#setting-up-projects}
       + [创建和管理项目](creating-a-screens-project.md)
@@ -56,7 +56,9 @@ ht-degree: 13%
       + [创建和管理位置](managing-locations.md)
       + [创建和管理计划](managing-schedules.md)
       + [管理设备](managing-devices.md)
-      + [渠道分配](channel-assignment.md)
+      + 分配渠道 {#assigning-channels}
+         + [渠道分配：AEM 6.5.5 Screens FP及更高版本](channel-assignment.md)
+         + [渠道分配：旧FP](channel-assignment.md)
    + 使用核心产品功能 {#product-features}
       + [文本覆盖](text-overlay.md)
       + [批量脱机更新](bulk-offline-update.md)
@@ -93,8 +95,8 @@ ht-degree: 13%
    + [脱机渠道](offline-channels.md)
    + [扩展AEM Screens组件](extending-component-tutorial-develop.md)
    + [创建组件](creating-components.md)
-   + [使用AEM SPA Editor嵌入REACT应用程序并与AEM ScreensAnalytics集成](embedding-react-app.md)
-   + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
+   + [使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens分析集成](embedding-react-app.md)
+   + [在AEM Screens配置ContextHub](configuring-context-hub.md)
    + [为多区域布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [对文本叠加应用自定义品牌和样式](custom-branding-text-overlays.md)
 + 疑难解答和常见问题解答 {#troubleshooting}
