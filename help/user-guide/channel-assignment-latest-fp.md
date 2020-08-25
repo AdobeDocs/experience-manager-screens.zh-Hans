@@ -3,10 +3,10 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 34%
+source-wordcount: '895'
+ht-degree: 28%
 
 ---
 
@@ -23,20 +23,59 @@ ht-degree: 34%
 >[!NOTE]
 >您可以为显示屏分配多个渠道。
 
+
 ## Assigning a Channel {#assign-a-channel-new-release}
 
-请按照以下步骤为显示屏分配渠道：
+请按照以下部分创建AEM Screens项目，并为显示屏分配渠道。
 
-1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
+### 创建AEM Screens项目和渠道 {#creating-project}
 
+请按照以下步骤设置项目和渠道:
 
-1. Tap/click **Assign Channel** from the action bar
+1. 创建一个标题为DemoScreens的 **AEM Screens项目**。
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >请参阅 [创建和管理项目](creating-a-screens-project.md) ，了解如何创建AEM Screens项目。
+
+1. 在“渠道”文件夹中创 **建标题为** “自助 **餐** ”的序列渠道。
+
+1. 选择渠道，然 **后单** 击操作栏中的编辑，向渠道添加内容。
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   例如，Caferia渠道 **现在显** 示以下图像：
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. 创建标题为SanJose **的位置** ，以及标题为Lobby **的显示屏**。
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### 将渠道分配给显示屏 {#assigning-channel-to-display}
+
+项目设置完成后，必须将渠道分配给显示屏以视图内容。
+
+1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或者，
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   点按／单击 **仪表板** ，然后单 **击“已指定** 的渠道和 **计划”面板中的“** 并分配渠道”。
 
-1. 从设置选项中，可以按路径或名称选择渠道，输入渠道角色、优先级、受支持事件。
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. 从“设 **置** ”选项中，可以按路径或名称选择渠道，输入渠道角色、优先级、受支持事件和中断方法。 此外，您还可以从此对话框启用“有趣内容工具提示”选项。
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
@@ -45,7 +84,9 @@ ht-degree: 34%
 
 1. 配置 **首选项** 后，单击“保存”。
 
-## 从渠道分配了解渠道属性 {#channel-properties}
+### 在Chrome Player中查看内容 {#viewing-content-output}
+
+### 从渠道分配了解渠道属性 {#channel-properties}
 
 ### Reference Channel {#ref-channel}
 
