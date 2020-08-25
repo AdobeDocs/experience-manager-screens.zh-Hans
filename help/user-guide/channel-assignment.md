@@ -3,9 +3,9 @@ title: 渠道分配
 seo-title: 渠道分配
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1215'
 ht-degree: 39%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 39%
 
 1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![图像](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tap/click **Assign Channel** in the action bar
 
