@@ -3,10 +3,10 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
+source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 28%
+source-wordcount: '1495'
+ht-degree: 24%
 
 ---
 
@@ -81,40 +81,54 @@ ht-degree: 28%
    >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
 
 1. 从计划 **选项** 中，选择引 **用时区**、激活 **窗口** 和重复计划 ****。
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+   >[!NOTE]
+   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
 
 1. 配置 **首选项** 后，单击“保存”。
 
 ### 在Chrome Player中查看内容 {#viewing-content-output}
 
+此示例在Chrome播放器上显示输出。 将渠道分配给显示屏后，必须向播放器注册设备。
+
+请参阅 [设备注册](device-registration.md) ，了解如何在AEM Screens播放器上注册设备。
+
+您将在您选择的播放器上视图以下输出：
+
 ### 从渠道分配了解渠道属性 {#channel-properties}
 
-### Reference Channel {#ref-channel}
+通过“渠道分配”对话 **框中的** “设置”选 **项设置以下属性** 。
 
-引用渠道允许您按渠道名称或渠道路径提供对所需渠道的引用。
+![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+#### 选择一个渠道 {#select-channel}
+
+选择渠道后，您可以按渠道名称或渠道路径提供对所需渠道的引用。
 
 * **按路径**：您可以使用渠道的绝对路径提供显式引用。
 
 * **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-### 渠道角色 {#role-channel}
+#### 渠道角色 {#role-channel}
 
 渠道角色定义了显示屏的上下文。该角色由各种操作来定位，并且与完成该角色的实际渠道无关。
 
-### 优先级 {#priority-channel}
+#### 优先级 {#priority-channel}
 
 优先级用于在多个分配匹配播放条件时对分配进行排序。具有最高值的分配将始终优先于具有较低值的分配。例如，如果有两个渠道 A 和 B。A 的优先级为 1，B 的优先级为 2，则会显示渠道 B，因为它的优先级高于 A。
 
 >[!NOTE]
 >如上所述，渠道的优先级会在&#x200B;**渠道分配**&#x200B;对话框中设置为数字（最小值为 1）。此外，分配的渠道会按优先级以降序排列。
 
-### 支持的事件 {#supported-events-channel}
+#### 支持的事件 {#supported-events-channel}
 
 * **初始加载**：播放器启动时加载渠道。可以将该事件与计划一起分配到多个渠道
 * **空闲屏幕**：屏幕空闲时加载。可以将该事件与计划一起分配到多个渠道
 * **计时器**：提供计划时需要对其进行设置
 * **用户交互**：如果在空闲渠道中屏幕（触控）上存在用户交互，播放器将切换到指定的渠道，并将在触摸屏幕时加载该渠道
 
-### 中断方法 {#interruption-method-channel}
+#### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -132,3 +146,73 @@ ht-degree: 28%
 
    >[!NOTE]
    >使用第二个或第三个选项可能导致在分配上定义的调度时间被稍微推迟，因为播放器在刷新之前将等待项目或序列的结束（在指定时间之后）。 延迟取决于项目的播放持续时间。
+
+
+通过“计划分配”对话 **框中** 的“渠道 **”选项** 设置以下属性。
+
+#### 参考时区 {#reference-timezone}
+
+引用时区允许您为内容显示选择时区。
+
+#### 激活窗口 {#activation-window}
+
+激活窗口允许您选择 **开始日期****和结束日期** ，以显示您的内容。
+
+#### 循环计划 {#recurrence-schedule}
+
+重复计划允许您为内容设置重复计划。 单击+ **添加计划** ，向渠道添加重复计划。
+
+>[!NOTE]
+>您可以向渠道添加多个重复计划。
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+
+您可以设置以下选项：
+
+* **名称**:重复计划的标题。
+* **重复**:选择计划是 **运行** Daily **、Weekly****、** Monthly ****，还是Yearly 。
+* **开始**:开始时间。
+* **结束**:计划的结束时间。 可以通过以下方式设置：
+* **时间**:计划将在指定时间结束。
+* **持续时间**:计划以小时或分钟为单位在特定时间段内运行。
+
+### DayParting {#dayparting}
+
+分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
+
+以下示例说明了在三种不同情况下的渠道中分时段：
+
+#### 在一天内分多个时段播放内容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+
+此示例说明餐厅如何使用DayParting来每天展示其早餐、午餐和晚餐菜单。
+
+在此，我们将每天分为三个不同的时段，以便渠道内容按一天的指定时间播放。 将根据此用例设置重复计划的以下属性以播放内容。
+
+| **名称** | **重复** | **开始** | **结束** |
+|---|---|---|---|
+| 早餐 | 每日 | 6:00 AM | 上午11:00 |
+| 早餐 | 每日 | 上午11点02分 | 下午3:00 |
+| 早餐 | 每日 | 下午3:01 | 8:00 PM |
+
+#### 在一周中的特定一天播放内容 {#playing-content-on-a-particular-day-of-the-week}
+
+此示例显示了在赌场中实现的分时段功能，该赌场每周末从晚8:00至晚10:00进行实时事件，晚10:00至凌晨1:00提供特价晚餐菜单。
+
+
+#### 在特定月份播放内容 {#playing-content-for-a-particular-month-months}
+
+此示例显示了商店的DayParting，该商店在6月到8月显示其夏季收藏品，在9月到10月底显示秋季收藏品。
+
+在此，您将按月创建分时段功能，以便渠道内容按年度的指定月份播放。
+
+
+>[!NOTE]
+>
+>此外，您可以为每个渠道定义&#x200B;***优先级***。例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
+
+#### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
+
+此示例显示了商店的DayParting，该商店在12月的月份以相同计划显示其冬季收藏集。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
+
+
+
+
