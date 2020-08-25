@@ -3,9 +3,9 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1548'
 ht-degree: 24%
 
 ---
@@ -73,18 +73,18 @@ ht-degree: 24%
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 从“设 **置** ”选项中，可以按路径或名称选择渠道，输入渠道角色、优先级、受支持事件和中断方法。 此外，您还可以从此对话框启用“有趣内容工具提示”选项。
+1. 从“设 **置** ”选项中，可以按路径或名称选择渠道，输入 **渠道角色**、优 **先级**、支 ********&#x200B;持的事件、中断方法。 此外，您还可以从此对 **话框启用** “有趣内容”工具提示。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
+   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
 
 1. 从计划 **选项** 中，选择引 **用时区**、激活 **窗口** 和重复计划 ****。
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
+   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
 
 1. 配置 **首选项** 后，单击“保存”。
 
@@ -96,7 +96,9 @@ ht-degree: 24%
 
 您将在您选择的播放器上视图以下输出：
 
-### 从渠道分配了解渠道属性 {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### 从“渠道分配”对话框了解渠道属性 {#channel-properties}
 
 通过“渠道分配”对话 **框中的** “设置”选 **项设置以下属性** 。
 
@@ -185,18 +187,27 @@ ht-degree: 24%
 
 此示例说明餐厅如何使用DayParting来每天展示其早餐、午餐和晚餐菜单。
 
-在此，我们将每天分为三个不同的时段，以便渠道内容按一天的指定时间播放。 将根据此用例设置重复计划的以下属性以播放内容。
+在此，我们将每天分为不同的时段，以便渠道内容按一天的指定时间播放。 根据此用例，设置“重复”计划的以下属性以播放内容。
 
 | **名称** | **重复** | **开始** | **结束** |
 |---|---|---|---|
 | 早餐 | 每日 | 6:00 AM | 上午11:00 |
-| 早餐 | 每日 | 上午11点02分 | 下午3:00 |
-| 早餐 | 每日 | 下午3:01 | 8:00 PM |
+| 午餐 | 每日 | 上午11点02分 | 下午3:00 |
+| 晚餐 | 每日 | 下午3:01 | 8:00 PM |
 
 #### 在一周中的特定一天播放内容 {#playing-content-on-a-particular-day-of-the-week}
 
-此示例显示了在赌场中实现的分时段功能，该赌场每周末从晚8:00至晚10:00进行实时事件，晚10:00至凌晨1:00提供特价晚餐菜单。
+此示例显示了在赌场中实施的DayParting，该赌场每周末从晚上8:00至晚上10:00进行实时事件，晚上10:00至凌晨1:00提供特价晚餐菜单。
 
+| **名称** | **重复** | **开始** | **结束** |
+|---|---|---|---|
+| 周末 | 每周 | 8:00 PM | 10:00 PM |
+| 特别 | 每日 | 10:00 PM | 凌晨1:00 |
+
+**周末**
+
+
+**特别**
 
 #### 在特定月份播放内容 {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ ht-degree: 24%
 
 此示例显示了商店的DayParting，该商店在12月的月份以相同计划显示其冬季收藏集。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
 
+## Timeline View {#timeline-view}
+
+将渠道分配给显示屏并设置重复计划后，您便可以从“已分配的渠道和计划”面 **板中视图时间** 轴。
+
+请按照以下步骤导航到时间轴视图:
 
 
 
