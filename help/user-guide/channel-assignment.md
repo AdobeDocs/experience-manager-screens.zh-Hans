@@ -3,10 +3,10 @@ title: 渠道分配
 seo-title: 渠道分配
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -97,9 +97,9 @@ ht-degree: 39%
 
 “显示有趣内容工具提示”定义了在渠道运行时是否必须显示有趣内容工具提示（“触摸任何位置可开始&#x200B;**”）。
 
-### 分时段 {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据要求在一天、一周或月内分时段计划渠道。
 
@@ -119,7 +119,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 在一周中的特定一天播放内容 {#playing-content-on-a-particular-day-of-the-week}
 
-此示例显示了如何在一家俱乐部实现分时段功能，该俱乐部在每周末的晚上 8 点到晚上 10 点会举办现场活动，晚上 10 点到凌晨 1 点会推出特价晚餐。
+此示例显示了在赌场中实现的dayParting，该赌场每周末从晚8:00至晚10:00进行实时事件，晚10:00至凌晨1:00提供特价晚餐菜单。
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 在特定月份播放内容 {#playing-content-for-a-particular-month-months}
 
-此示例显示了商店的分时段功能，该商店在6月到8月显示其夏季收藏品，在9月到10月底显示秋季收藏品。
+此示例显示了商店的DayParting，该商店在6月到8月显示其夏季收藏品，在9月到10月底显示秋季收藏品。
 
 在此，您将按月创建分时段功能，以便渠道内容按年度的指定月份播放。
 
@@ -161,7 +161,7 @@ Schedules when combined with **Day-parting**, allows you to set a global schedul
 
 #### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
 
-此示例显示了商店在12月显示冬季集合时的分天计划。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
+此示例显示了商店的DayParting，该商店在12月的月份以相同计划显示其冬季收藏集。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
 
 | **渠道** | **角色** | **优先级** | **计划** |
 |---|---|---|---|
