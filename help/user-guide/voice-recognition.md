@@ -2,10 +2,10 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 1%
+source-wordcount: '847'
+ht-degree: 3%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 1. 导航到 **基础** (Basics)选项卡，从“标记”(Tags)字段中选 **择已有** 的标记，或创建新标记。
 
-   您可以通过为标记键入新名称来创建新标记，如下图所示：
+   您可以为标记键入新名称并按键创建新标记， `return` 如下图所示：
 
    ![图像](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ ht-degree: 1%
 
 1. 在分配渠道时，为每个渠道设置以下属性。
 
-   * 主要
-   * 热饮
-   * ColdDrinks
+   | **渠道名称** | **优先级** | **支持的事件** |
+   |---|---|---|
+   | 主要 | 2 | 初始加载、空闲屏幕、计时器 |
+   | 热饮 | 1 | 用户交互 |
+   | ColdDrinks | 1 | 用户交互 |
 
    >[!NOTE]
    >
