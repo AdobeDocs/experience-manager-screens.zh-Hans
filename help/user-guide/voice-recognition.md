@@ -2,15 +2,22 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '827'
+ht-degree: 1%
 
 ---
 
 
 # AEM Screens语音识别 {#voice-recognition}
+
+>[重要信息]：
+>**重要隐私信息**
+>使用语音识别功能时，请遵循您所在地区的所有适用法律和道德准则（包括但不限于向最终用户显示播放器正在使用语音识别）。 Adobe Inc，不接收、存储或处理任何语音相关信息。 AEM Screens玩家使用内置在浏览引擎中的标准Web语音API。 在后台，您的语音波形会发送到谷歌的服务器，以便从语音转换为文本，播放器会根据配置的关键字对此文本进行匹配。
+>
+>有关更 [多详细信息，请参阅Web语音API上的Google隐私](https://www.google.com/chrome/privacy/whitepaper.html#speech) 白皮书。
+
 
 ## 概述 {#overview}
 
@@ -80,30 +87,44 @@ ht-degree: 2%
 
    或者，
 
-   您可以预先从AEM实例为项目创建标记，也可以选择这些标记。
+   您可以预先从AEM实例为项目创建标记，也可以选择这些标记。 按照创建标记中 [所述的步骤](#creating-tags)，您可以从位置选择标记并将其添加到渠道，如下图所示：
 
-   请按照以下步骤创建标记：
-
-   1. 导航到AEM实例。
-   1. 单击工具—> **标记**。
-      ![图像](assets/voice-recognition/vr-7.png)
+   ![图像](assets/voice-recognition/vr-tag1.png)
 
 1. 完成 **后，单击** “保存并关闭”。
 
-同样，在HotDrinks **渠道** 中添加标题为 **“热”的** 标签 **，在ColdDrinks** 渠道中添 **加“冷”的** 标签。
+同样，在热饮渠道 **中添** 加标 **记** “热饮”。
 
-### 将渠道分配给显示屏 {#channel-assignment}
+#### 创建标记 {#creating-tags}
+
+请按照以下步骤创建标记：
+
+1. 导航到AEM实例。
+1. 单击工具—> **标记**。
+   ![图像](assets/voice-recognition/vr-7.png)
+1. 单击 **创建** —>创 **建命名空间**。
+   ![图像](assets/voice-recognition/vr-7.png)
+1. 输入项目名称，例如： **VoiceDemo并单击** “创建”。
+1. 选择VoiceDemo **项目** ，然后单 **击操作栏** 中的“创建标记”。
+1. 单击 **提交**。
+
+
+### 将渠道分配给显示屏并启用语音识别 {#channel-assignment}
 
 1. 在“位置”文 **件夹** 中创建显示屏，如下图所示。
 
+   ![图像](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >要了解如何将渠道分配给显示屏，请参阅创 [建和管理显示屏](/help/user-guide/managing-displays.md)。
 
 1. 将渠道 **Main**、 **ColdDrinks**&#x200B;和HotDrinks分 **配给您的** LobbyDisplay **** Adobly。
 
+1. 在分配渠道时，为每个渠道设置以下属性。
 
-1. 为每个渠道设置以下属性。
+   * 主要
+   * 热饮
+   * ColdDrinks
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ ht-degree: 2%
 
 1. 导航到“显 **示** ”选项卡，并在“内 **容”下启用** “启用 **语音”选项**。
 
-   >[!NOTE]
+   ![图像](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >必须从显示器启用语音识别功能。
 
-## 在Chrome播放器中查看内容 {#viewing-content}
+#### 在Chrome播放器中查看内容 {#viewing-content}
 
 完成上述步骤后，您可以注册Chrome设备并视图输出。
 
-应遵循以下步骤：
+>[!NOTE]
+>请参阅 [设备注册](device-registration.md) ，了解如何在AEM Screens播放器上注册设备。
 
-1. 导航到 **设备** 文件夹，并单 **击操作栏** 中的“设备管理器”以注册设备。
+此示例在Chrome播放器上显示输出。
+
+![new image](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
