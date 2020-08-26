@@ -3,9 +3,9 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 24%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 24%
 
 此示例说明餐厅如何使用DayParting来每天展示其早餐、午餐和晚餐菜单。
 
-在此，我们将每天分为不同的时段，以便渠道内容按一天的指定时间播放。 根据此用例，设置“重复”计划的以下属性以播放内容。
+在此，我们将每天分为不同的时段，以便渠道内容按一天的指定时间播放。 根据此用例，为渠道设置循环计划的以下属性以播放内容。
 
 | **名称** | **重复** | **开始** | **结束** |
 |---|---|---|---|
