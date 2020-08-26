@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 3%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 3%
 
 # AEM Screens语音识别 {#voice-recognition}
 
->[重要信息]：
+>[!IMPORTANT]
+>
 >**重要隐私信息**
+>
 >使用语音识别功能时，请遵循您所在地区的所有适用法律和道德准则（包括但不限于向最终用户显示播放器正在使用语音识别）。 Adobe Inc，不接收、存储或处理任何语音相关信息。 AEM Screens玩家使用内置在浏览引擎中的标准Web语音API。 在后台，您的语音波形会发送到谷歌的服务器，以便从语音转换为文本，播放器会根据配置的关键字对此文本进行匹配。
 >
 >有关更 [多详细信息，请参阅Web语音API上的Google隐私](https://www.google.com/chrome/privacy/whitepaper.html#speech) 白皮书。
