@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Experience Manager Screens帮助
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 69a40d662d9bc0fe33e1cad7523b0c7a3baea7cf
+source-git-commit: a80447bd399086f23ce654108a0b58fb324d90de
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 14%
+source-wordcount: '394'
+ht-degree: 13%
 
 ---
 
@@ -89,6 +89,7 @@ ht-degree: 14%
       + [多区域到单区域过渡](multizone-to-singlezone.md)
       + [一次性使用接管渠道](single-use-takeover-channel.md)
       + [永久使用接管渠道](perpetual-takeover-channel.md)
+      + [语音识别](voice-recognition.md)
 + 开发人员和API资源 {#developing}
    + [REST API](rest-api.md)
    + [为AEM Screens开发自定义组件](developing-custom-component-tutorial-develop.md)
