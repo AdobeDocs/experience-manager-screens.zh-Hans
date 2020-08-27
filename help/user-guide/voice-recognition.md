@@ -2,10 +2,10 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1215'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,13 @@ ht-degree: 3%
 
 ### 设置项目 {#setting-up}
 
+您可以使用以下两个模板设置您的项目：
+
+* [序列渠道](#sequence-channel)
+* [分屏渠道](#split-channel)
+
+#### 使用序列渠道作为模板 {#sequence-channel}
+
 在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
 
 1. 以下示例展示了一个名为VoiceDemo的 **演示项目** ，以及三个序列 **渠道** Main **、** ColdDrinks和 **** HotDrinks饮料，如下图所示。
@@ -66,6 +73,34 @@ ht-degree: 3%
    **热饮**:
 
    ![图像](assets/voice-recognition/vr-2.png)
+
+#### 使用分屏渠道作为模板 {#split-channel}
+
+在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
+
+1. 以下示例展示一个名为VoiceDemo的演示 **项目和三个序列** 渠道 **Main、ColdDreinks和HotDrinks**, ************ HotDrinksSplitChannel，如下图所示。
+
+
+
+   >[!NOTE]
+   >
+   >要了解如何创建渠道或向渠道添加内容，请参阅创 [建和管理渠道](/help/user-guide/managing-channels.md)
+
+1. 导航到每个渠道并添加内容。 例如，导航到 **VoiceDemo** —> **渠道****—>** Main，然后选择渠道。 单击 **操作栏** 中的“编辑”以打开编辑器并根据您的要求添加内容（图像／视频）。 同样，为ColdDrinks和 **HotDrinks** 渠道 **添加内容** 。
+
+   渠道现在包含资产（图像），如下图所示。
+
+   **主要**:
+
+
+
+   **ColdDrinks**:
+
+
+   **热饮**:
+
+1. 导航到 **SplitChannel** 并添加内容。 拖放两个嵌入式序列并添加ColdDrinks **和** HotDrinks **渠道** ，如下图所示。
+
 
 ### 为渠道设置标记 {#setting-tags}
 
@@ -94,6 +129,8 @@ ht-degree: 3%
 1. 完成 **后，单击** “保存并关闭”。
 
 同样，在热饮渠道 **中添** 加标 **记** “热饮”。
+
+如果您使用“分屏”渠道作为模板，请确保将两个标记(**热****和冷**)添加到渠道属性。
 
 #### 创建标记 {#creating-tags}
 
@@ -145,14 +182,16 @@ ht-degree: 3%
    >[!IMPORTANT]
    >必须从显示器启用语音识别功能。
 
-#### 在Chrome播放器中查看内容 {#viewing-content}
+### 在Chrome播放器中查看内容 {#viewing-content}
 
-完成上述步骤后，您可以注册Chrome设备并视图输出。
+完成上述步骤后，您可以注册Chrome设备以视图输出。
 
 >[!NOTE]
 >请参阅 [设备注册](device-registration.md) ，了解如何在AEM Screens播放器上注册设备。
 
 此示例在Chrome播放器上显示输出。
+
+#### 用于顺序渠道 {#sequential-output}
 
 主 **渠道** 正在播放其内容，但是当您使用关键字 **hot** (如 *我想喝热饮)时，渠道开始将播放HotDrinks渠道***** 的内容。
 
@@ -161,10 +200,12 @@ ht-degree: 3%
 ![new image](assets/voice-recognition/voice-video.gif)
 
 
+#### 对于分屏渠道 {#split-screen-output}
 
 
+主 **渠道** 正在播放其内容，但是当您使用关键字 **hot** (如 *我想喝热饮)时，渠道开始将播放HotDrinks渠道***** 的内容。
 
-
+同样，如果您使用关键字 **cold** , *如我想要有点冷*,渠道开始播放ColdDrinks **** 渠道的内容。
 
 
 
