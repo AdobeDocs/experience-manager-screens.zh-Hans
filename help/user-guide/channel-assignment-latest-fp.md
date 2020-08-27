@@ -3,9 +3,9 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 23%
 
 ---
@@ -170,6 +170,8 @@ ht-degree: 23%
 
 通过“计划分配”对话 **框中** 的“渠道 **”选项** 设置以下属性。
 
+![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### 参考时区 {#reference-timezone}
 
 引用时区允许您为内容显示选择时区。
@@ -182,9 +184,6 @@ ht-degree: 23%
 
 重复计划允许您为内容设置重复计划。 单击+ **添加计划** ，向渠道添加重复计划。
 
-![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >您可以向渠道添加多个重复计划。
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ ht-degree: 23%
 * **名称**:重复计划的标题。
 * **重复**:选择计划是 **运行** Daily **、Weekly****、** Monthly ****，还是Yearly 。
 * **开始**:开始时间。
-* **结束**:计划的结束时间。 可以通过以下方式设置：
-* **时间**:计划将在指定时间结束。
-* **持续时间**:计划以小时或分钟为单位在特定时间段内运行。
+* **结束**:计划的结束时间。 您可以按时间或持续时间设置它。
+   * **时间**:计划将在指定时间结束。
+   * **持续时间**:计划以小时或分钟为单位在特定时间段内运行。
 
 ### DayParting {#dayparting}
 
