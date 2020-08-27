@@ -2,10 +2,10 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,23 @@ AEM Screens发布了AEM 6.5功能包5。
 
 * **时间轴视图计划仪表板**
 
+   时间轴视图允许用户从显示视图将分配的计划仪表板到渠道。
+
+   有关更 [多详细信息](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) ，请参阅时间轴视图。
+
 * **循环计划**
 
+   循环计划允许您为渠道设置循环计划。 为渠道设置多个重复计划。
+
+   有关更 [多详细信息](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) ，请参阅重复计划。
+
 * **语音识别功能到AEM Screens**
+
+   语音识别功能允许在由语音交互驱动的AEM Screens渠道中更改内容。
+
+   内容作者可以将显示器配置为启用语音。 此功能旨在允许客户利用语音作为与其显示器交互的方法。
+
+   有关更 [多详细信息](voice-recognition.md) ，请参阅语音识别。
 
 * **在创作／发布模式下更新设备首选项**
 
@@ -40,7 +54,7 @@ AEM Screens发布了AEM 6.5功能包5。
 
 已为AEM Screens发布AEM 6.5功能包5发布以下AEM Screens播放器：
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 
