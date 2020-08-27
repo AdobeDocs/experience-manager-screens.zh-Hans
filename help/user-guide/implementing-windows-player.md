@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,21 @@ ht-degree: 1%
 要实施适用于AEM Screens的Windows播放器，请安装适用于AEM Screens的Windows播放器。
 
 访问AEM [**6.5播放器下载页**](https://download.macromedia.com/screens/) 。
+
+### 为AEM Screens6.5.5功能包及更高版本设置环境 {#fp-environment-setup}
+
+如果您使用的是AEM Screens6.5.5功能包，则必须设置Windows播放器环境。
+
+应遵循以下步骤：
+
+1. 使用导航 **到Adobe Experience ManagerWeb控制台** Configuration `http://localhost:4502/system/console/configMgr`。
+
+1. 搜索 *AdobeGranite令牌身份验证处理程序*。
+
+1. 将登录 **令牌Cookie的SameSite属性从Lax****设置为** None **（无）**。
+   ![图像](/help/user-guide/assets/granite-updates.png)
+
+1. 单击&#x200B;**保存**。
 
 ### Ad-Hoc方法 {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ ht-degree: 1%
 
 1. 以管理员身份运行PowerShell脚本。
 1. 重新启动并登录Kiosk用户，播放器应用程序应立即开始。
-
-### 为AEM Screens6.5.5功能包及更高版本设置环境 {#fp-environment-setup}
-
-如果您使用的是AEM Screens6.5.5功能包，则必须设置Windows播放器环境。
-
-应遵循以下步骤：
-
-1. 使用导航 **到Adobe Experience ManagerWeb控制台** Configuration `http://localhost:4502/system/console/configMgr`。
-
-1. 搜索 *AdobeGranite令牌身份验证处理程序*。
-
-1. 将登录 **令牌Cookie的SameSite属性从Lax****设置为** None **（无）**。
-   ![图像](/help/user-guide/assets/granite-updates.png)
-
-1. 单击&#x200B;**保存**。
 
 ### 疑难解答 {#troubleshooting}
 
