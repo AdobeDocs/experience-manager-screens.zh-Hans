@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1570'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,12 @@ ht-degree: 3%
 
 此示例在Chrome播放器上显示输出。
 
-主渠道 **正在播放其内容** ，但是当您将单词与关键字 **hot** 和 **cold一起使用时，如******** I welt to severses的菜单是播放渠道SplitScreen开始的内容的热和冷饮料渠道。
+主渠道 **正在播放其内容** ，但是当您将单词与关键字 **hot** 和 **cold一起使用时，如******** I welt to severses的菜单是播放渠道SplitScreen开始的内容的热和冷饮料渠道。 如果您 *返回主菜单*，它将切换回主渠道。
+
+![new image](assets/voice-recognition/vr-video-2.gif)
+
+
+
 
 
 
