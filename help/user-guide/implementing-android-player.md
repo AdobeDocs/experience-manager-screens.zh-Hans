@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
 
 # 实施Android Player {#implementing-android-player}
 
-本节介绍如何配置Android播放器。 它提供配置文件的信息以及可用的选项，以及有关用于开发和测试的设置的建议。
+本节介绍如何配置Android播放器。 它提供配置文件的信息以及可用的选项，并建议使用哪些设置进行开发和测试。
 
 此外， **Watchdog** 是一种从崩溃中恢复播放器的解决方案。 应用程序需要向监视服务注册自己，然后定期向其处于活动状态的服务发送消息。 如果监视服务在规定时间内未收到保持活动消息，则服务将尝试重新启动设备以进行干净恢复（如果它具有足够的权限）或重新启动应用程序。
 
@@ -29,16 +29,32 @@ ht-degree: 0%
 
 要为AEM Screens实施Android Player，请为AEM Screens安装Android Player。
 
-访问AEM [**6.5播放器下载页&#x200B;**](https://download.macromedia.com/screens/)。
+访问AEM [**6.5播放器下载页**](https://download.macromedia.com/screens/) 。
+
+### 为AEM Screens6.5.5功能包及更高版本设置环境 {#fp-environment-setup}
+
+如果您使用的是AEM Screens6.5.5功能包，则必须为Android播放器设置环境。
+
+应遵循以下步骤：
+
+1. 使用导航 **到Adobe Experience ManagerWeb控制台** Configuration `http://localhost:4502/system/console/configMgr`。
+
+1. 搜索 *AdobeGranite令牌身份验证处理程序*。
+
+1. 将登录 **令牌Cookie的SameSite属性从Lax****设置为** None **（无）**。
+   ![图像](/help/user-guide/assets/granite-updates.png)
+
+1. 单击&#x200B;**保存**。
+
 
 ### Ad-Hoc方法 {#ad-hoc-method}
 
-通过临时方法，您可以安装最新的Android Player(*.exe*)。 请访 [**问AEM 6.5播放器下载页&#x200B;**](https://download.macromedia.com/screens/)。
+通过临时方法，您可以安装最新的Android Player(*.exe*)。 访 [**问AEM 6.5播放器下载页**](https://download.macromedia.com/screens/) 。
 
 下载应用程序后，请按照播放器上的步骤完成临时安装：
 
 1. 长按左上角以打开管理面板。
-1. 从左 **侧** 操作菜单导航到配置，输入要连接到的AEM实例的位置（地址），然后单击保 **存**。
+1. 从左 **侧** 操作菜单导航到配置，输入要连接的AEM实例的位置（地址），然后单击保 **存**。
 
 1. 从左侧操 **作菜** 单导 **航到** “设备注册”链接，检查设备注册过程的状态。
 
@@ -64,7 +80,7 @@ ht-degree: 0%
 
 按照以下步骤使用制造商的密钥对android apk进行签名：
 
-1. 从Google Play或AEM Screens播放器下载页 [面下载apk](https://download.macromedia.com/screens/)
+1. 从Google Play或从AEM Screens播放器下载页 [面下载apk](https://download.macromedia.com/screens/)
 1. 从制造商处获取平台密钥 *以获取pk* 8和 *pem* 文件
 
 1. 在android sdk中使用查找~/Library/Android/sdk/build-tools找到apksigner工具-name &quot;apksigner&quot;
@@ -89,4 +105,4 @@ ht-degree: 0%
 >
 >在Android中， *AlarmManager* 用于注册pendingIntents, ** 即使应用程序崩溃，并且其警报投放与API 19(Kitkat)不完全一致，它也可以执行。 在计时器的间隔和AlarmManager的pendingIntent的 *闹铃之间**保持一定的间距* 。
 
-**3. 应用程序崩溃** 在发生崩溃时，AlarmManager注册的“重新引导的pendingIntent”不再重置，因此它将执行应用程序的重新引导或重新启动（具体取决于在初始化cordova插件时可用的权限）。
+**3. 应用程序崩溃** 在发生崩溃时，AlarmManager注册的“重新引导的pendingIntent”不再重置，因此它执行应用程序的重新引导或重新启动（具体取决于cordova插件初始化时可用的权限）。
