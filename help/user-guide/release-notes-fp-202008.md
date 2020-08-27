@@ -2,9 +2,9 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
@@ -57,6 +57,9 @@ AEM Screens发布了AEM 6.5功能包5。
 * Chrome OS
 * Windows
 * Android
+
+>[!IMPORTANT]
+>如果已安装AEM Service Pack 6.5.5，您可能会在Screens播放器中遇到复制问题。 安 [装cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 以解决此问题。
 
 #### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
