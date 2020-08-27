@@ -3,9 +3,9 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 23%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 设置显示屏后，必须为显示屏分配渠道，以视图内容。
 
-本页显示了如何为显示屏分配渠道。
+本页显示了如何为显示屏分配渠道、了解渠道属性和分时段功能。
 
 >[!NOTE]
 >您可以为显示屏分配多个渠道。
@@ -55,7 +55,7 @@ ht-degree: 23%
 
 ### 将渠道分配给显示屏 {#assigning-channel-to-display}
 
-项目设置完成后，必须将渠道分配给显示屏以视图内容。
+项目设置完成后，您必须将渠道分配给显示屏以视图内容。
 
 1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
 
@@ -65,7 +65,7 @@ ht-degree: 23%
 
    或者，
 
-   点按／单击 **仪表板** ，然后单 **击“已指定** 的渠道和 **计划”面板中的“** 并分配渠道”。
+   点按／单 **击操作** 栏中的仪表板，然后单 **击“已分配** 的计划和渠道”面板中的 **“** +分配渠道”。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 23%
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 从“设 **置** ”选项中，可以按路径或名称选择渠道，输入 **渠道角色**、优 **先级**、支 ********&#x200B;持的事件、中断方法。 此外，您还可以从此对 **话框启用** “有趣内容”工具提示。
+1. 从“设 **置** ”选项中，您可以按路径或名称 **选择渠道** ，输 **入、Role**&#x200B;渠道、 ****************、Ripority、支持的事件、Ripority和方法。 此外，您还可以从此对话框启用有趣内容工具提示。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ ht-degree: 23%
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### 从“渠道分配”对话框了解渠道属性 {#channel-properties}
+## Timeline View {#timeline-view}
+
+将渠道分配给显示屏并设置重复计划后，您便可以从“已分配的渠道和计划”面 **板中视图时间** 轴。
+
+请按照以下步骤导航到时间轴视图:
+
+1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   或者，
+
+   点按／单击 **仪表板** ，然后 **从“已分配** 的渠道和计划”面板中单 **** 击“时间轴”。
+
+1. 待处理图像（待修复）
+
+## 从“渠道分配”对话框了解渠道属性 {#channel-properties}
 
 通过“渠道分配”对话 **框中的** “设置”选 **项设置以下属性** 。
 
 ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### 选择一个渠道 {#select-channel}
+### 选择一个渠道 {#select-channel}
 
 选择渠道后，您可以按渠道名称或渠道路径提供对所需渠道的引用。
 
@@ -112,25 +130,25 @@ ht-degree: 23%
 
 * **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### 渠道角色 {#role-channel}
+### 渠道角色 {#role-channel}
 
 渠道角色定义了显示屏的上下文。该角色由各种操作来定位，并且与完成该角色的实际渠道无关。
 
-#### 优先级 {#priority-channel}
+### 优先级 {#priority-channel}
 
 优先级用于在多个分配匹配播放条件时对分配进行排序。具有最高值的分配将始终优先于具有较低值的分配。例如，如果有两个渠道 A 和 B。A 的优先级为 1，B 的优先级为 2，则会显示渠道 B，因为它的优先级高于 A。
 
 >[!NOTE]
 >如上所述，渠道的优先级会在&#x200B;**渠道分配**&#x200B;对话框中设置为数字（最小值为 1）。此外，分配的渠道会按优先级以降序排列。
 
-#### 支持的事件 {#supported-events-channel}
+### 支持的事件 {#supported-events-channel}
 
 * **初始加载**：播放器启动时加载渠道。可以将该事件与计划一起分配到多个渠道
 * **空闲屏幕**：屏幕空闲时加载。可以将该事件与计划一起分配到多个渠道
 * **计时器**：提供计划时需要对其进行设置
 * **用户交互**：如果在空闲渠道中屏幕（触控）上存在用户交互，播放器将切换到指定的渠道，并将在触摸屏幕时加载该渠道
 
-#### 中断方法 {#interruption-method-channel}
+### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ ht-degree: 23%
 
 通过“计划分配”对话 **框中** 的“渠道 **”选项** 设置以下属性。
 
-
-#### 参考时区 {#reference-timezone}
+### 参考时区 {#reference-timezone}
 
 引用时区允许您为内容显示选择时区。
 
-#### 激活窗口 {#activation-window}
+### 激活窗口 {#activation-window}
 
 激活窗口允许您选择 **开始日期****和结束日期** ，以显示您的内容。
 
-#### 循环计划 {#recurrence-schedule}
+### 循环计划 {#recurrence-schedule}
 
 重复计划允许您为内容设置重复计划。 单击+ **添加计划** ，向渠道添加重复计划。
 
@@ -211,23 +228,4 @@ ht-degree: 23%
 >[!NOTE]
 >
 >此外，您可以为每个渠道定义&#x200B;***优先级***。例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
-
-## Timeline View {#timeline-view}
-
-将渠道分配给显示屏并设置重复计划后，您便可以从“已分配的渠道和计划”面 **板中视图时间** 轴。
-
-请按照以下步骤导航到时间轴视图:
-
-1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   或者，
-
-   点按／单击 **仪表板** ，然后 **从“已分配** 的渠道和计划”面板中单 **** 击“时间轴”。
-
-1. 待处理图像（待修复）
-
 
