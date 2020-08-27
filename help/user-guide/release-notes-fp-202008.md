@@ -2,9 +2,9 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ AEM Screens发布了AEM 6.5功能包5。
 
 202008年AEM Screens功能包的发布日期为2020年8月31日。
 
-### 新增功能 {#what-s-new}
+### 新增功能 {#what-is-new}
 
 * **时间轴视图计划仪表板**
 
@@ -48,18 +48,16 @@ AEM Screens发布了AEM 6.5功能包5。
 
    有关更 [多详细信息](voice-recognition.md) ，请参阅语音识别。
 
-* **在创作／发布模式下更新设备首选项**
-
 ### 已释放的AEM Screens球员 {#released-aem-screens-players}
 
-已为AEM Screens发布AEM 6.5功能包5发布以下AEM Screens播放器：
+已为AEM Screens发布以下AEM Screens播放器，发布了AEM 6.5功能包5。
+
+>[!IMPORTANT]
+>如果已安装AEM Service Pack 6.5.5，您可能会在Screens播放器中遇到复制问题。 安 [装cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 以解决此问题。
 
 * Chrome OS
 * Windows
 * Android
-
->[!IMPORTANT]
->如果已安装AEM Service Pack 6.5.5，您可能会在Screens播放器中遇到复制问题。 安 [装cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 以解决此问题。
 
 #### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
