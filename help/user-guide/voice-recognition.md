@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 ## 实现语音识别 {#implementing}
 
 >[!IMPORTANT]
-> 语音识别功能仅在Chrome和电子播放器上可用。
+> 语音识别功能仅在Chrome OS和电子播放器上可用。
 
 要在您的AEM Screens项目中实现语音识别，您必须为显示屏启用语音识别，并将每个渠道与一个唯一标签相关联以触发渠道过渡。
 
@@ -106,14 +106,19 @@ ht-degree: 3%
 请按照以下步骤创建标记：
 
 1. 导航到AEM实例。
+
 1. 单击工具—> **标记**。
    ![图像](assets/voice-recognition/vr-7.png)
+
 1. 单击 **创建** —>创 **建命名空间**。
    ![图像](assets/voice-recognition/vr-tag3.png)
-1. 输入项目名称，例如： **VoiceDemo并单击** “创 **建”**。
+
+1. 输入项目的名称，例如VoiceDemo，然 **后单击** “创 **建”**。
    ![图像](assets/voice-recognition/vr-tag2.png)
+
 1. 选择VoiceDemo **项目** ，然后单 **击操作栏** 中的“创建标记”。
    ![图像](assets/voice-recognition/vr-tag4.png)
+
 1. 输入标记的名称，然后单击“ **提交**”。
    ![图像](assets/voice-recognition/vr-tag5.png)
 
