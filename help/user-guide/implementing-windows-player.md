@@ -11,32 +11,32 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
 
 # 实施Windows 10 Player {#implementing-windows-player}
 
-本节介绍如何配置AEM ScreensWindows 10播放器。 它提供配置文件的信息以及可用的选项，以及有关用于开发和测试的设置的建议。
+本节介绍如何配置AEM ScreensWindows 10播放器。 它提供配置文件的信息以及可用的选项，并建议使用哪些设置进行开发和测试。
 
 ## 安装Windows Player {#installing-windows-player}
 
-要实施适用于AEM Screens的Windows Player，请安装适用于AEM Screens的Windows Player。
+要实施适用于AEM Screens的Windows播放器，请安装适用于AEM Screens的Windows播放器。
 
-访问AEM [**6.5播放器下载页&#x200B;**](https://download.macromedia.com/screens/)。
+访问AEM [**6.5播放器下载页**](https://download.macromedia.com/screens/) 。
 
 ### Ad-Hoc方法 {#ad-hoc-method}
 
-通过临时方法，您可以安装最新的Windows Player(*.exe*)。 请访 [**问AEM 6.5播放器下载页&#x200B;**](https://download.macromedia.com/screens/)。
+通过临时方法，您可以安装最新的Windows Player(*.exe*)。 访 [**问AEM 6.5播放器下载页**](https://download.macromedia.com/screens/) 。
 
 下载应用程序后，请按照播放器上的步骤完成临时安装：
 
 1. 长按左上角以打开管理面板。
-1. 从左 **侧** 操作菜单导航到配置，输入要连接到的AEM实例的位置（地址），然后单击保 **存**。
+1. 从左 **侧** 操作菜单导航到配置，输入要连接的AEM实例的位置（地址），然后单击保 **存**。
 1. 从左侧操 **作菜** 单导 **航到** “设备注册”链接，检查设备注册过程的状态。
 
 >[!NOTE]
@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >如果状 **态为****UNREGISTERD**，则可以使用 **令牌** 来注册设备。
 
-### 批量服务器配置： 使用一个配置注册多个Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
+### 批量服务器配置：使用一个配置注册多个Windows 10播放器 {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 安装Windows播放器后，可以使用一个配置注册多个播放器。
 
@@ -105,16 +105,31 @@ ht-degree: 0%
 
 1. 启用Shell启动器。
 
-   有关其他信 ***息，请参阅*** Microsoft Windows支 **[持在Shell Launcher页](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**中配置Shell Launcher一节。
+   有关其他信 ***息，请参阅*** Microsoft Windows支 **[持在Shell Launcher页](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** 中配置Shell Launcher一节。
 
 1. 创建一个非管理用户（如果您还没有）用于Kiosk。 此用户可以是本地用户或域用户。
-1. 从AEM Screens播放器下载页面为该Kiosk用户安 [装windows播放器](https://download.macromedia.com/screens/) 。
+1. 从AEM Screens播放器下载页面为该Kiosk用户 [安装windows播放](https://download.macromedia.com/screens/) 器。
 1. 有关详 [细信息，请参阅使用Shell Launcher创建Windows 10自动终端](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) ，以修改PowerShell脚本。
 
    修改PowerShell脚本，将用户名替换为您创建的用户名。 确保应用程序可执行文件的路径正确。 这会将自定义外壳程序设置为kiosk用户的windows播放器应用程序，并将其他用户的默认设置为explorer.exe。
 
 1. 以管理员身份运行PowerShell脚本。
 1. 重新启动并登录Kiosk用户，播放器应用程序应立即开始。
+
+### 为AEM Screens6.5.5功能包及更高版本设置环境 {#fp-environment-setup}
+
+如果您使用的是AEM Screens6.5.5功能包，则必须设置Windows播放器环境。
+
+应遵循以下步骤：
+
+1. 使用导航 **到Adobe Experience ManagerWeb控制台** Configuration `http://localhost:4502/system/console/configMgr`。
+
+1. 搜索 *AdobeGranite令牌身份验证处理程序*。
+
+1. 将登录 **令牌Cookie的SameSite属性从Lax****设置为** None **（无）**。
+   ![图像](/help/user-guide/assets/granite-updates.png)
+
+1. 单击&#x200B;**保存**。
 
 ### 疑难解答 {#troubleshooting}
 
