@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -72,25 +72,24 @@ ht-degree: 0%
 
 1. 通过AEM **实例** —>锤子图标—>操作—> Web Console **，导航到** Adobe Experience Manager **Web Console** Configuration。
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![图像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience ManagerWeb控制台配置** 打开。 搜索吊带推荐人。
 
    要搜索sling推荐人属性， **请按Command** +F( **Mac)****和** Control+F(Windows ****)。
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. 选中“ **允许空** ”选项，如下图所示。
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![图像](assets/config/empty-ref2.png)
 
 1. 单击 **“保存** ”以启用Apache Sling推荐人过滤器“允许为空”。
+
 
 #### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
 
 1. 通过AEM **实例** —>锤子图标—>操作—> Web Console **，导航到** Adobe Experience Manager **Web Console** Configuration。
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![图像](assets/config/empty-ref1.png)
 
 1. **Adobe Experience ManagerWeb控制台配置** 打开。 搜索基于Apache Felix Jetty的HTTP服务。
 
@@ -98,7 +97,7 @@ ht-degree: 0%
 
 1. 选中 **“启用** HTTP”选项，如下图所示。
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![图像](assets/config/config-1.png)
 
 1. 单击 **“保存** ”以启 *用http* 服务。
 
@@ -109,7 +108,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 1. 导航 *到&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 确保将 **默认的创作UI** 模式 **设置**&#x200B;为TOUCH，如下图所示
 
-或者，您也可以使用&lt;您的AuthorInstance *> ->工具（锤子图标）**-> Operations* -> Web **Console** Console搜索和创 ********&#x200B;作WCM Mode Service的设置。
+或者，您也可以使用&lt;您的AuthorInstance *> ->工具（锤子图标）**-> Operations* -> Web **Console** Console搜索和创 ********&#x200B;建WCM Mode Service的设置。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -137,7 +136,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 
 1. 通过AEM **实例** —>锤子图标—>操作—> Web Console **，导航到** Adobe Experience Manager **Web Console** Configuration。
 
-1. **Adobe Experience ManagerWeb控制台配置**打开。 搜索deviceservice. 要搜索属性，请 **按Command** +F( **Mac****)和** Control+F(Windows **)**。
+1. **Adobe Experience ManagerWeb控制台配置**打开。 搜索deviceservice. 要搜索属性，请 **按Command** +F( **Mac****)和** Control+F(Windows ****)。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
