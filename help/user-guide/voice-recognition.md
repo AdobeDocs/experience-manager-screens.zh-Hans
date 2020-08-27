@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -96,11 +96,10 @@ ht-degree: 3%
 
    ![图像](assets/voice-recognition/vr-tag1.png)
 
+1. 同样，在热饮渠道 **中添** 加标 **记** “热饮”。
+
 1. 完成 **后，单击** “保存并关闭”。
 
-同样，在热饮渠道 **中添** 加标 **记** “热饮”。
-
-如果您使用“分屏”渠道作为模板，请确保将两个标记(**热****和冷**)添加到渠道属性。
 
 ### 创建标记 {#creating-tags}
 
@@ -276,7 +275,7 @@ ht-degree: 3%
 
 此示例在Chrome播放器上显示输出。
 
-主渠道 **正在播放其内容** ，但是当您将单词与关键字 **hot** 和 **cold一起使用时，如******** I wolt to severses的菜单是播放SplitScreens分离渠道内容的渠道开始的热饮和冷饮的内容。
+主渠道 **正在播放其内容** ，但是当您将单词与关键字 **hot** 和 **cold一起使用时，如******** I welt to severses的菜单是播放渠道SplitScreen开始的内容的热和冷饮料渠道。
 
 
 
