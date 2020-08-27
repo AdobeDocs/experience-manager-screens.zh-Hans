@@ -3,10 +3,10 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 24%
+source-wordcount: '1480'
+ht-degree: 23%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 24%
    >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
 
 1. 从计划 **选项** 中，选择引 **用时区**、激活 **窗口** 和重复计划 ****。
-   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
@@ -152,6 +152,7 @@ ht-degree: 24%
 
 通过“计划分配”对话 **框中** 的“渠道 **”选项** 设置以下属性。
 
+
 #### 参考时区 {#reference-timezone}
 
 引用时区允许您为内容显示选择时区。
@@ -163,6 +164,9 @@ ht-degree: 24%
 #### 循环计划 {#recurrence-schedule}
 
 重复计划允许您为内容设置重复计划。 单击+ **添加计划** ，向渠道添加重复计划。
+
+![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >您可以向渠道添加多个重复计划。
@@ -204,25 +208,9 @@ ht-degree: 24%
 | 周末 | 每周 | 8:00 PM | 10:00 PM |
 | 特别 | 每日 | 10:00 PM | 凌晨1:00 |
 
-**周末**
-
-
-**特别**
-
-#### 在特定月份播放内容 {#playing-content-for-a-particular-month-months}
-
-此示例显示了商店的DayParting，该商店在6月到8月显示其夏季收藏品，在9月到10月底显示秋季收藏品。
-
-在此，您将按月创建分时段功能，以便渠道内容按年度的指定月份播放。
-
-
 >[!NOTE]
 >
 >此外，您可以为每个渠道定义&#x200B;***优先级***。例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
-
-#### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
-
-此示例显示了商店的DayParting，该商店在12月的月份以相同计划显示其冬季收藏集。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ ht-degree: 24%
 
 请按照以下步骤导航到时间轴视图:
 
+1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   或者，
+
+   点按／单击 **仪表板** ，然后 **从“已分配** 的渠道和计划”面板中单 **** 击“时间轴”。
+
+1. 待处理图像（待修复）
 
 
