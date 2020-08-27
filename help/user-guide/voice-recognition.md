@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,6 @@ ht-degree: 3%
    ![图像](assets/voice-recognition/vr-tag3.png)
 
 1. 输入项目的名称，例如VoiceDemo，然 **后单击** “创 **建”**。
-   ![图像](assets/voice-recognition/vr-tag2.png)
 
 1. 选择VoiceDemo **项目** ，然后单 **击操作栏** 中的“创建标记”。
    ![图像](assets/voice-recognition/vr-tag4.png)
