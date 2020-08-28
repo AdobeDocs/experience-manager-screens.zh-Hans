@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 3%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 3%
 >
 >**重要隐私信息**
 >
->使用语音识别功能时，请遵循您所在地区的所有适用法律和道德准则（包括但不限于向最终用户显示播放器正在使用语音识别）。 Adobe Inc，不接收、存储或处理任何语音相关信息。 AEM Screens玩家使用内置在浏览引擎中的标准Web语音API。 在后台，您的语音波形会发送到谷歌的服务器，以便从语音转换为文本，播放器会根据配置的关键字对此文本进行匹配。
+>使用语音识别功能时，请遵循您所在区域的所有适用法律和道德准则（包括但不限于向最终用户显示播放器正在使用语音识别）。 Adobe Inc，不接收、存储或处理任何语音相关信息。 AEM Screens玩家使用内置在浏览引擎中的标准Web语音API。 在后台，此API会向Google的服务器发送从语音到文本的波形语音，并且此文本由播放器根据配置的关键字进行匹配。
 >
 >有关更 [多详细信息，请参阅Web语音API上的Google隐私](https://www.google.com/chrome/privacy/whitepaper.html#speech) 白皮书。
 
 
-
-语音识别功能允许在由语音交互驱动的AEM Screens渠道中更改内容。
+语音识别功能允许在由语音交互驱动的AEM Screens渠道中的内容更改。
 
 内容作者可以将显示器配置为启用语音。 此功能旨在允许客户利用语音作为与其显示器交互的方法。 一些类似用例包括在商店中查找产品推荐、在用餐者和餐馆订购菜单。 此功能增强了用户的可访问性，并可以极大增强客户体验。
 
@@ -32,18 +31,13 @@ ht-degree: 3%
 ## 实现语音识别 {#implementing}
 
 >[!IMPORTANT]
-> 语音识别功能仅在Chrome OS和电子播放器上可用。
+> 语音识别功能仅在Chrome OS和Windows播放器上可用。
 
 要在您的AEM Screens项目中实现语音识别，您必须为显示屏启用语音识别，并将每个渠道与一个唯一标签相关联以触发渠道过渡。
 
 下节介绍如何在AEM Screens项目中启用和使用语音识别功能。
 
-您可以使用以下两个模板设置您的项目：
-
-* [序列渠道](#sequence-channel)
-* [分屏渠道](#split-channel)
-
-## 使用序列渠道作为模板 {#sequence-channel}
+## 用例1:在全屏渠道开关中查看内容 {#sequence-channel}
 
 在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
 
@@ -171,7 +165,7 @@ ht-degree: 3%
 ![new image](assets/voice-recognition/voice-video.gif)
 
 
-## 使用分屏渠道作为模板 {#split-channel}
+## 用例2:在分屏渠道开关中查看内容 {#split-channel}
 
 在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
 
