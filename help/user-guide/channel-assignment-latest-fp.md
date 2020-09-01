@@ -3,10 +3,10 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 23%
+source-wordcount: '1477'
+ht-degree: 21%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 23%
    >[!NOTE]
    >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
 
-1. 从计划 **选项** 中，选择引 **用时区**、激活 **窗口** 和重复计划 ****。
+1. 从计划 **选项** 中，选择 **激活窗口** 和重 **现计划**。
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -172,10 +172,6 @@ ht-degree: 23%
 
 ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### 参考时区 {#reference-timezone}
-
-引用时区允许您为内容显示选择时区。
-
 ### 激活窗口 {#activation-window}
 
 激活窗口允许您选择 **开始日期****和结束日期** ，以显示您的内容。
@@ -186,7 +182,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >您可以向渠道添加多个重复计划。
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 您可以设置以下选项：
 
@@ -197,32 +193,32 @@ ht-degree: 23%
    * **时间**:计划将在指定时间结束。
    * **持续时间**:计划以小时或分钟为单位在特定时间段内运行。
 
-### DayParting {#dayparting}
+### 分时段 {#dayparting}
 
-分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
+分时段功能是指将一天分为多个时段，并指定在所需时间播放哪些内容。 AEM Screens允许您根据要求在一天、一周或月内分时段计划渠道。
 
-以下示例说明了在三种不同情况下的渠道中分时段：
+以下示例说明了三种不同情况下渠道的分时段功能：
 
 #### 在一天内分多个时段播放内容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-此示例说明餐厅如何使用DayParting来每天展示其早餐、午餐和晚餐菜单。
+此示例展示了餐厅如何通过分时段功能每天展示其早餐、午餐和晚餐菜单。
 
 在此，我们将每天分为不同的时段，以便渠道内容按一天的指定时间播放。 根据此用例，为渠道设置循环计划的以下属性以播放内容。
 
 | **名称** | **重复** | **开始** | **结束** |
 |---|---|---|---|
 | 早餐 | 每日 | 6:00 AM | 上午11:00 |
-| 午餐 | 每日 | 上午11点02分 | 下午3:00 |
-| 晚餐 | 每日 | 下午3:01 | 8:00 PM |
+| 午餐 | 每日 | 上午11:00 | 下午3:00 |
+| 晚餐 | 每日 | 下午3:00 | 8:00 PM |
 
 #### 在一周中的特定一天播放内容 {#playing-content-on-a-particular-day-of-the-week}
 
-此示例显示了在赌场中实施的DayParting，该赌场每周末从晚上8:00至晚上10:00进行实时事件，晚上10:00至凌晨1:00提供特价晚餐菜单。
+此示例显示在赌场中实施的分时段功能，该赌场在每周末从晚上8:00至晚上10:00进行实时事件，晚上10:00至凌晨1:00提供特价晚餐菜单。
 
 | **名称** | **重复** | **开始** | **结束** |
 |---|---|---|---|
-| 周末 | 每周 | 8:00 PM | 10:00 PM |
-| 特别 | 每日 | 10:00 PM | 凌晨1:00 |
+| 周末 | 每周：星期六，星期日 | 8:00 PM | 10:00 PM |
+| 特别优惠 | 每日：星期一至星期五 | 10:00 PM | 凌晨1:00 |
 
 >[!NOTE]
 >
