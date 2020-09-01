@@ -2,10 +2,10 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 3%
+source-wordcount: '1103'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 下节介绍如何在AEM Screens项目中启用和使用语音识别功能。
 
-## 用例1:在全屏渠道开关中查看内容 {#sequence-channel}
+## 以全屏或分屏渠道开关查看内容 {#sequence-channel}
 
 在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
 
@@ -48,6 +48,12 @@ ht-degree: 3%
    >[!NOTE]
    >
    >要了解如何创建渠道或向渠道添加内容，请参阅创 [建和管理渠道](/help/user-guide/managing-channels.md)
+
+   或者，
+
+   您可以创建三个序 **列渠道** Main **、ColdDrinks**&#x200B;和HotDrinks **，以及一个额外的1x2分屏渠道分****** 屏分屏，如下图所示。
+
+   ![图像](assets/voice-recognition/vr-emb-1.png)
 
 1. 导航到每个渠道并添加内容。 例如，导航到 **VoiceDemo** —> **渠道****—>** Main，然后选择渠道。 单击 **操作栏** 中的“编辑”以打开编辑器并根据您的要求添加内容（图像／视频）。 同样，为ColdDrinks和 **HotDrinks** 渠道 **添加内容** 。
 
@@ -64,6 +70,9 @@ ht-degree: 3%
    **热饮**:
 
    ![图像](assets/voice-recognition/vr-2.png)
+
+   如果已将Split Screens渠道添加到您的项 **目** ，请导航到SplitScreen **，拖放两个嵌入式序列并添加指向ColdDrinks和HotDrinks****** 渠道的路径，如下图所示。
+   ![图像](assets/voice-recognition/vr-emb-6.png)
 
 
 ### 为渠道设置标记 {#setting-tags}
@@ -91,6 +100,10 @@ ht-degree: 3%
    ![图像](assets/voice-recognition/vr-tag1.png)
 
 1. 同样，在热饮渠道 **中添** 加标 **记** “热饮”。
+
+1. 如果您使用“分屏”渠道，请将两个标记&#x200B;**(** hot **和cold**) **添加到SplitScreen** 渠道属性。
+
+   ![图像](assets/voice-recognition/vr-emb-7.png)
 
 1. 完成 **后，单击** “保存并关闭”。
 
@@ -128,6 +141,9 @@ ht-degree: 3%
 
 1. 将渠道 **Main**、 **ColdDrinks**&#x200B;和HotDrinks分 **配给您的** LobbyDisplay **** Adobly。
 
+   >[!NOTE]
+   >如果已创建分屏渠道，请将 **SplitScreen** 渠道分配给显示屏。
+
 1. 在分配渠道时，为每个渠道设置以下属性。
 
    | **渠道名称** | **优先级** | **支持的事件** |
@@ -163,113 +179,6 @@ ht-degree: 3%
 同样，如果您使用关键字 **cold** , *如我想要有点冷*,渠道开始播放ColdDrinks **** 渠道的内容。
 
 ![new image](assets/voice-recognition/voice-video.gif)
-
-
-## 用例2:在分屏渠道开关中查看内容 {#split-channel}
-
-在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
-
-1. 以下示例展示名为VoiceDemo的演示项目 **和三个序列** 渠道 **Main**、ColdDrinks和 ************ HotDrinks、1x Split Screen渠道（如下图所示）。
-
-   ![图像](assets/voice-recognition/vr-emb-1.png)
-
-   >[!NOTE]
-   >
-   >要了解如何创建渠道或向渠道添加内容，请参阅创 [建和管理渠道](/help/user-guide/managing-channels.md)
-
-1. 导航到每个渠道并添加内容。 例如，导航到 **VoiceDemo** —> **渠道****—>** Main，然后选择渠道。 单击 **操作栏** 中的“编辑”以打开编辑器并根据您的要求添加内容（图像／视频）。 同样，为ColdDrinks和 **HotDrinks** 渠道 **添加内容** 。
-
-   渠道现在包含资产（图像），如下图所示。
-
-   **主要**:
-
-   ![图像](assets/voice-recognition/vr-emb-3.png)
-
-
-   **ColdDrinks**:
-   ![图像](assets/voice-recognition/vr-3.png)
-
-   **热饮**:
-
-   ![图像](assets/voice-recognition/vr-2.png)
-
-1. 导航到 **SplitScreen** ，拖放两个嵌入式序列，并添加指向ColdDrinks和HotDrinks **渠道的路****** 径，如下图所示。
-   ![图像](assets/voice-recognition/vr-emb-6.png)
-
-
-### 为渠道设置标记 {#setting-tags-split}
-
-向渠道添加内容后，您需要导航到每个渠道并添加相应的标记，以触发语音识别。
-
-请按照以下步骤向渠道添加标记：
-
-1. 导航到每个渠道并添加内容。 例如，导航到 **VoiceDemo** —> **渠道****—>** Main，然后选择渠道。
-
-1. Click **Properties** from the action bar.
-
-   ![图像](assets/voice-recognition/vr-5.png)
-
-1. 导航到 **基础** (Basics)选项卡，从“标记”(Tags)字段中选 **择已有** 的标记，或创建新标记。
-
-   您可以为标记键入新名称并按键创建新标记， `return` 如下图所示：
-
-   ![图像](assets/voice-recognition/vr-6.png)
-
-   或者，
-
-   您可以预先从AEM实例为项目创建标记，也可以选择这些标记。 按照创建标记中 [所述的步骤](#creating-tags)，您可以从位置选择标记并将其添加到渠道，如下图所示：
-
-   ![图像](assets/voice-recognition/vr-tag1.png)
-
-1. 同样，在热饮渠道 **中添** 加标 **记** “热饮”。
-
-1. 将标记(**hot** 和 **cold**)添加 **到SplitScreen** 渠道属性。
-
-   ![图像](assets/voice-recognition/vr-emb-7.png)
-
-
-1. 完成 **后，单击** “保存并关闭”。
-
-### 将渠道分配给显示屏并启用语音识别 {#channel-assignment-split}
-
-1. 在“位置”文 **件夹** 中创建显示屏，如下图所示。
-
-   ![图像](assets/voice-recognition/vr-loc.png)
-
-   >[!NOTE]
-   >要了解如何将渠道分配给显示屏，请参阅创 [建和管理显示屏](/help/user-guide/managing-displays.md)。
-
-1. 将渠道主 ****、ColdDrinks **、HotDrinks和** SplitScreen **分配给********** 您的大堂显示屏。
-
-1. 在分配渠道时，为每个渠道设置以下属性。
-
-   | **渠道名称** | **优先级** | **支持的事件** |
-   |---|---|---|
-   | 主要 | 2 | 初始加载、空闲屏幕、计时器 |
-   | 热饮 | 1 | 用户交互 |
-   | ColdDrinks | 1 | 用户交互 |
-   | SplitScreen | 1 | 用户交互 |
-
-   >[!NOTE]
-   >
-   >要了解如何将渠道分配给显示屏，请参阅创 [建和管理显示屏](/help/user-guide/managing-displays.md)。
-
-1. 将渠道分配给显示屏后，导航到“休息 **室** ”显示屏并选择显示屏。 从操 **作栏** 中选择属性。
-
-1. 导航到“显 **示** ”选项卡，并在“内 **容”下启用** “启用 **语音”选项**。
-
-   ![图像](assets/voice-recognition/vr-disp.png)
-
-   >[!IMPORTANT]
-   >必须从显示器启用语音识别功能。
-
-
-### 在Chrome播放器中查看内容 {#viewing-content-split}
-
-完成上述步骤后，您可以注册Chrome设备以视图输出。
-
->[!NOTE]
->请参阅 [设备注册](device-registration.md) ，了解如何在AEM Screens播放器上注册设备。
 
 此示例在Chrome播放器上显示输出。
 
