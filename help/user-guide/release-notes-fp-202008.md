@@ -2,10 +2,10 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 3%
+source-wordcount: '328'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ AEM Screens发布了AEM 6.5功能包5。
 
 ## 发布日期 {#release-date}
 
-202008年AEM Screens功能包的发布日期为2020年8月31日。
+AEM Screens功能包202008的发布日期为2020年9月3日。
 
 ### 新增功能 {#what-is-new}
 
@@ -47,6 +47,14 @@ AEM Screens发布了AEM 6.5功能包5。
    内容作者可以将显示器配置为启用语音。 此功能旨在允许客户利用语音作为与其显示器交互的方法。
 
    有关更 [多详细信息](voice-recognition.md) ，请参阅语音识别。
+
+### 已知问题和修复 {#known-issues}
+
+如果您使用的是AEM Screens6.5.5功能包，则必须为Windows或Android播放器设置环境。
+
+* 有关详 [细信息，请参阅实](implementing-windows-player.md#fp-environment-setup) 施Windows 10 Player。
+
+* 有关更 [多详细信息](implementing-android-player.md#fp-environment-setup) ，请参阅实施Android Player。
 
 ### 已释放的AEM Screens球员 {#released-aem-screens-players}
 
