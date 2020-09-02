@@ -2,10 +2,10 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 2%
+source-wordcount: '1125'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    或者，
 
-   您可以创建三个序 **列渠道** Main **、ColdDrinks**&#x200B;和HotDrinks **，以及一个额外的1x2分屏渠道分****** 屏分屏，如下图所示。
+   您可以创建三个序 **列渠道** Main **、ColdDrinks**&#x200B;和HotDrinks **，以及一个额外的1x2分屏渠道****** SplitScreen，如下图所示。
 
    ![图像](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ ht-degree: 2%
 
    或者，
 
-   您可以预先从AEM实例为项目创建标记，也可以选择这些标记。 按照创建标记中 [所述的步骤](#creating-tags)，您可以从位置选择标记并将其添加到渠道，如下图所示：
+   您还可以提前从AEM实例为项目创建标记并选择这些标记。 按照创建标记中 [所述的步骤](#creating-tags)，您可以从位置选择标记并将其添加到渠道，如下图所示：
 
    ![图像](assets/voice-recognition/vr-tag1.png)
 
 1. 同样，在热饮渠道 **中添** 加标 **记** “热饮”。
 
-1. 如果您使用“分屏”渠道，请将两个标记&#x200B;**(** hot **和cold**) **添加到SplitScreen** 渠道属性。
+1. 如果您使用的是Split Screens渠道，请将两个标&#x200B;**记** ( **hot**&#x200B;和cold **)添加** 到SplitScreen渠道属性，如下图所示。
 
    ![图像](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 1. 导航到AEM实例。
 
-1. 单击工具—> **标记**。
+1. 单击工具图标—> **标记**。
    ![图像](assets/voice-recognition/vr-7.png)
 
 1. 单击 **创建** —>创 **建命名空间**。
@@ -139,7 +139,7 @@ ht-degree: 2%
    >[!NOTE]
    >要了解如何将渠道分配给显示屏，请参阅创 [建和管理显示屏](/help/user-guide/managing-displays.md)。
 
-1. 将渠道 **Main**、 **ColdDrinks**&#x200B;和HotDrinks分 **配给您的** LobbyDisplay **** Adobly。
+1. 将渠道 **Main**、 **ColdDrinks**&#x200B;和HotDrinks分 **配给您的** LobbyDisplay **** Adobly。 此外，如果您正在为项 **目使用** SplitScreen渠道，请确保将该也分配给显示屏。
 
    >[!NOTE]
    >如果已创建分屏渠道，请将 **SplitScreen** 渠道分配给显示屏。
@@ -151,6 +151,7 @@ ht-degree: 2%
    | 主要 | 2 | 初始加载、空闲屏幕、计时器 |
    | 热饮 | 1 | 用户交互 |
    | ColdDrinks | 1 | 用户交互 |
+   | SplitScreen | 1 | 用户交互 |
 
    >[!NOTE]
    >
@@ -172,25 +173,15 @@ ht-degree: 2%
 >[!NOTE]
 >请参阅 [设备注册](device-registration.md) ，了解如何在AEM Screens播放器上注册设备。
 
-此示例在Chrome播放器上显示输出。
+**序列渠道所需输出**
 
 主 **渠道** 正在播放其内容，但是当您使用关键字 **hot** (如 *我想喝热饮)时，渠道开始将播放HotDrinks渠道***** 的内容。
 
 同样，如果您使用关键字 **cold** , *如我想要有点冷*,渠道开始播放ColdDrinks **** 渠道的内容。
 
-![new image](assets/voice-recognition/voice-video.gif)
-
-此示例在Chrome播放器上显示输出。
+**拆分屏幕所需的输出渠道**
 
 主渠道 **正在播放其内容** ，但是当您将单词与关键字 **hot** 和 **cold一起使用时，如******** I welt to severses的菜单是播放渠道SplitScreen开始的内容的热和冷饮料渠道。 如果您 *返回主菜单*，它将切换回主渠道。
-
-![new image](assets/voice-recognition/vr-video-2.gif)
-
-
-
-
-
-
 
 
 
