@@ -4,9 +4,9 @@ seo-title: AEM Screens调度程序配置
 description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '251'
 ht-degree: 5%
 
 ---
@@ -33,6 +33,21 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 ## 配置 Dispatcher {#configuring-dispatcher}
 
 按照以下步骤为AEM Screens项目配置调度程序。
+
+### 启用粘滞会话 {#enable-sticky-session}
+
+如果任何人希望与调度程序一起使用多个发布实例，则必须更新调度程序中的dispatcher.any文件。
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### 第1步：配置客户端头 {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Screens播放器使用经过身份验证的会话，因此调度程序不缓存�
 要为资产启用缓存，以便从调度程序缓存提供资产，您必须：
 
 * 添加 `/allowAuthorization 1` 到部 `/cache` 分
-* 将以下规则添 `/rule`加到 `/cache`
+* 将以下规则添加 `/rules` 到 `/cache`
 
 ```xml
 /0000
