@@ -2,9 +2,9 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -59,9 +59,6 @@ AEM Screens功能包202008的发布日期为2020年9月3日。
 ### 已释放的AEM Screens球员 {#released-aem-screens-players}
 
 已为AEM Screens发布以下AEM Screens播放器，发布了AEM 6.5功能包5。
-
->[!IMPORTANT]
->如果已安装AEM Service Pack 6.5.5，您可能会在Screens播放器中遇到复制问题。 安 [装cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) 以解决此问题。
 
 * Chrome OS
 * Windows
