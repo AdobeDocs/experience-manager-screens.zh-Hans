@@ -3,10 +3,10 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 23%
+source-wordcount: '1471'
+ht-degree: 21%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 23%
 
 ### DayParting {#dayparting}
 
-分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
+分时段功能是指将一天分为多个时段，并指定在所需时间播放哪些内容。 AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
 
 以下示例说明了在三种不同情况下的渠道中分时段：
 
