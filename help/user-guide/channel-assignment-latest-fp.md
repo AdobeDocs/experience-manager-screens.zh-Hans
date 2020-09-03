@@ -3,10 +3,10 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 21%
+source-wordcount: '1472'
+ht-degree: 23%
 
 ---
 
@@ -108,13 +108,11 @@ ht-degree: 21%
 
 1. Tap/click **Assign Channel** from the action bar.
 
-   ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    或者，
 
    点按／单击 **仪表板** ，然后 **从“已分配** 的渠道和计划”面板中单 **** 击“时间轴”。
 
-1. 待处理图像（待修复）
+   ![图像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## 从“渠道分配”对话框了解渠道属性 {#channel-properties}
 
@@ -182,7 +180,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >您可以向渠道添加多个重复计划。
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 您可以设置以下选项：
 
@@ -193,15 +191,15 @@ ht-degree: 21%
    * **时间**:计划将在指定时间结束。
    * **持续时间**:计划以小时或分钟为单位在特定时间段内运行。
 
-### 分时段 {#dayparting}
+### DayParting {#dayparting}
 
-分时段功能是指将一天分为多个时段，并指定在所需时间播放哪些内容。 AEM Screens允许您根据要求在一天、一周或月内分时段计划渠道。
+分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
 
-以下示例说明了三种不同情况下渠道的分时段功能：
+以下示例说明了在三种不同情况下的渠道中分时段：
 
 #### 在一天内分多个时段播放内容 {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-此示例展示了餐厅如何通过分时段功能每天展示其早餐、午餐和晚餐菜单。
+此示例展示了餐厅如何使用DayParting来每天展示其早餐、午餐和晚餐菜单。
 
 在此，我们将每天分为不同的时段，以便渠道内容按一天的指定时间播放。 根据此用例，为渠道设置循环计划的以下属性以播放内容。
 
@@ -213,7 +211,7 @@ ht-degree: 21%
 
 #### 在一周中的特定一天播放内容 {#playing-content-on-a-particular-day-of-the-week}
 
-此示例显示在赌场中实施的分时段功能，该赌场在每周末从晚上8:00至晚上10:00进行实时事件，晚上10:00至凌晨1:00提供特价晚餐菜单。
+此示例显示了在赌场中实施的DayParting，该赌场每周末从晚上8:00至晚上10:00进行实时事件，晚上10:00至凌晨1:00提供特价晚餐菜单。
 
 | **名称** | **重复** | **开始** | **结束** |
 |---|---|---|---|
