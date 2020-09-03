@@ -4,10 +4,10 @@ seo-title: 术语表
 description: 可查看本页以了解与AEM Screens相关的主要术语。
 seo-description: 可查看本页以了解与AEM Screens相关的主要术语。
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 8%
+source-wordcount: '469'
+ht-degree: 7%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 8%
 **应用程序渠道** “应用程序渠道”显示由显示交互式内容的开发人员创建的应用程序。
 
 **吸引循环** 当显示器具有可以存在的两 *个或更* 多状态时，吸引循环被定义 *为主* 或空闲状态。 它的作用是吸 *引客* 户到展示屏上观看，鼓励他们参与，通常通过触摸屏幕，但也可以通过与产品交互。
+
+**分时段** 分时段功能是指将一天分为多个时段，并指定在所需时间播放哪些内容。 AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
 
 **设备** A设备能够运行播放器软件以生成可视输出。 它能够控制显示常见内容或体验的裁剪、缩放、翻译部分。 屏幕配置被绑定到显示器，但可以在出现技术缺陷时被替换。
 
