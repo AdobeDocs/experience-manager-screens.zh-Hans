@@ -2,9 +2,9 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,9 @@ AEM Screens功能包202008的发布日期为2020年9月3日。
 
 ### 已知问题和修复 {#known-issues}
 
-如果您使用的是AEM Screens6.5.5功能包，则必须为Windows或Android播放器设置环境。
+如果您使用的是AEM Screens6.5.5 Service Pack，则必须为Windows或Android播放器设置环境。
+
+在所有AEM **作者和发布实例上，** 将Lax的登录令牌Cookie **的SameSite属** 性 **设置为None** ，从 **Adobe Experience ManagerWeb ConsoleConfiguration** 中将登录令牌Cookies设置为SameSite属性。
 
 * 有关详 [细信息，请参阅实](implementing-windows-player.md#fp-environment-setup) 施Windows 10 Player。
 
