@@ -4,9 +4,9 @@ seo-title: 在AEM Screens配置作者和发布
 description: AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 seo-description: AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1921'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,8 @@ ht-degree: 2%
 >
 >只有安装了AEM 6.4 Screens功能包2，此AEM Screens功能才可用。 要获取此功能包，您必须联系 Adobe 支持人员并申请访问权限。您获得权限后，就可以从“包共享”下载它。
 
->[!I重要]
+>[!IMPORTANT]
+>
 >如果要将多个发布实例与调度程序一起使用，则必须更新调度程序中的dispatcher.any文件。 有关更 [多详细信息](dispatcher-configurations-aem-screens.md#enable-sticky-session) ，请参阅启用粘滞会话。
 
 ## 配置作者和发布实例 {#configuring-author-and-publish-instances}
