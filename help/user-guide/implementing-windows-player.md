@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 1%
@@ -34,7 +34,8 @@ ht-degree: 1%
 
 ### 为AEM Screens6.5.5 Service Pack设置环境 {#fp-environment-setup}
 
-如果您使用的是AEM Screens6.5.5 Service Pack，则必须设置Windows播放器环境。
+>[!NOTE]
+>如果您使用的是AEM Screens6.5.5 Service Pack，则必须设置Windows播放器环境。
 
 在所有AEM **作者和发布实例上，** 将Lax的登录令牌Cookie **的SameSite属** 性 **设置为None** ，从 **Adobe Experience ManagerWeb ConsoleConfiguration** 中将登录令牌Cookies设置为SameSite属性。
 
