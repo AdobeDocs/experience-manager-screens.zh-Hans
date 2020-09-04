@@ -2,9 +2,9 @@
 title: AEM Screens语音识别
 description: 本页描述了AEM Screens的语音识别功能。
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 ## 以全屏或分屏渠道开关查看内容 {#sequence-channel}
 
-在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中内容已为您的项目设置。
+在使用语音识别功能之前，请确保您有一个项目和一个渠道，其中的内容已为您的项目设置。
 
 1. 以下示例展示了一个名为VoiceDemo的 **演示项目** ，以及三个序列 **渠道** Main **、** ColdDrinks和 **** HotDrinks饮料，如下图所示。
 
@@ -177,7 +177,7 @@ ht-degree: 3%
 
 主 **渠道** 正在播放其内容，但是当您使用关键字 **hot** (如 *我想喝热饮)时，渠道开始将播放HotDrinks渠道***** 的内容。
 
-同样，如果您使用关键字 **cold** , *如我想要有点冷*,渠道开始播放ColdDrinks **** 渠道的内容。
+同样，如果您使用关键字cold **** ，如 *果我想拥有冷饮，则渠道*&#x200B;开始播放ColdDrinks **** 渠道的内容。
 
 **拆分屏幕所需的输出渠道**
 
