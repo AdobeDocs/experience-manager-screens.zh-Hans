@@ -4,9 +4,9 @@ seo-title: AEM Screens调度程序配置
 description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
 ### 启用粘滞会话 {#enable-sticky-session}
 
-如果任何人希望与调度程序一起使用多个发布实例，则必须更新调度程序中的dispatcher.any文件。
+如果要将多个发布实例与调度程序一起使用，则必须更新文 `dispatcher.any` 件。
 
 ```xml
 /stickyConnections {
