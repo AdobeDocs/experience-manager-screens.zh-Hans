@@ -2,9 +2,9 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
+source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -68,4 +68,4 @@ AEM Screens功能包202008的发布日期为2020年9月3日。
 
 #### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/)**。
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**。
