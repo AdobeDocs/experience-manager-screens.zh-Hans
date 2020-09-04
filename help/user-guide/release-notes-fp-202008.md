@@ -2,10 +2,10 @@
 title: 功能包202008发行说明
 description: 本页介绍功能包202008的发行说明。
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 583e9e6bb591cc9cf5ec60a60e10ccba480a7e14
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 AEM Screens发布了AEM 6.5功能包5。
 
-您可以使用您的AEM Screens从软件分发门户下载Adobe ID6.5.5版 [的最新功能](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) 包。 导航到 **Adobe Experience Manager** 选项卡并搜 **索Screens** ，获取最新的功能包。
+您可以使用您的AEM Screens从软件分发门户下载Adobe ID6.5.5版 [的最新功能](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 包。 导航到 **Adobe Experience Manager** 选项卡并搜 **索Screens** ，获取最新的功能包。
 
 ## 发布日期 {#release-date}
 
