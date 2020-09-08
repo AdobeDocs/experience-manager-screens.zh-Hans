@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,9 @@ ht-degree: 5%
 
    ![图像](assets/kickstart/demo-4.png)
 
-将 *创建TestChannel* 并将其添加到您的渠道文件夹，如下图所示。
+   将 *创建TestChannel* 并将其添加到您的渠道文件夹，如下图所示。
 
-![图像](assets/kickstart/demo-5.png)
+   ![图像](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
@@ -144,9 +144,9 @@ ht-degree: 5%
 
    ![图像](assets/kickstart/demo-disp3.png)
 
-现在，将新增一个标 **题为** TestDisplay的显示屏添加 **到您的**&#x200B;位置TestLocation，如下图所示。
+   现在，将新增一个标 **题为** TestDisplay的显示屏添加 **到您的**&#x200B;位置TestLocation，如下图所示。
 
-![图像](assets/kickstart/demo-disp4.png)
+   ![图像](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
@@ -182,7 +182,7 @@ ht-degree: 5%
 
 1. 配置 **首选项** 后，单击“保存”。
 
-### 注册设备并将设备分配到显示屏{#registering-device}
+### 注册设备并将设备分配到显示屏 {#registering-device}
 
 您需要使用AEM仪表板注册设备。
 
@@ -244,7 +244,7 @@ ht-degree: 5%
 
 您渠道中的所有资源现在都在您的Chrome设备上播放。
 
-恭喜您正在播放内容和AEM Screens渠道!
+恭喜您正在AEM Screens渠道中播放内容！
 
 ![图像](assets/kickstart/demo-video-screens.gif)
 
