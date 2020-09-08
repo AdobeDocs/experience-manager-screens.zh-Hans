@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -168,7 +168,8 @@ ht-degree: 5%
 
 1. 从“设 **置** ”选项中，按路径选 **择渠道** ，并 **选择支持的** 事件作为“初始负 ********&#x200B;载”和“”。
 
-   >[注意]
+   >[!NOTE]
+   >
    >默认 **情况下**，会 **填充**“渠道角 **色”、“优** 先级”和“中断方法”。 请参 [阅渠道属性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 部分，进一步了解渠道分配属性。
 
    ![图像](assets/kickstart/demo-assign3.png)
