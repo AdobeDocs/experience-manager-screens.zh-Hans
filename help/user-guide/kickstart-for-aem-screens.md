@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '985'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 6%
 
 ## 教程 {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 第一步是创建一个新的AEM Screens项目。
 
@@ -64,7 +64,7 @@ ht-degree: 6%
    >创建项目后，它将您带回到“Screens项目”主页。 现在，您可以选择自己的项目。在项目中，有五个不同的文件夹，标题 **为** Applications ****、 **渠道****、**&#x200B;设备、位 **置、**&#x200B;和计划。
 
 
-### 创建新渠道 {#creating-channel}
+### 创建渠道 {#creating-channel}
 
 项目就位后，您需要创建新渠道来管理内容。
 
@@ -91,73 +91,62 @@ ht-degree: 6%
 
 请按照以下步骤将内容添加到项&#x200B;*目渠道*(TestChannel):
 
-1. Navigate to the *Test_Project* you created and select the **Channels** folder.
+1. Navigate to the *DemoProject* you created and select the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+
+   ![图像](assets/kickstart/demo-6.png)
 
 1. 单击操作栏左侧用于切换侧面板的图标以打开资产和组件。
 
 1. 将您希望添加的组件拖放到渠道中。
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![图像](assets/kickstart/demo-7.png)
 
-在此示例中，编辑器显示添加到渠道的图像。
+### 创建位置 {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+渠道就位后，您需要创建一个位置。
 
-### 创建新位置 {#creating-location}
-
-渠道到位后，您需要创建位置。
-
-***位置*** ，将您的各种数字标牌体验划分为不同的区域，并根据不同屏幕的位置包含显示屏的配置。
+>[!NOTE]
+>***位置*** ，将您的各种数字标牌体验划分为不同的区域，并根据不同屏幕的位置包含显示屏的配置。
 
 请按照以下步骤为项目创建新位置：
 
-1. Navigate to the *Test_Project* you created and select the **Locations** folder.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. 单 **击操** 作栏中加号图标旁边的“创建”（请参阅下图）。 此时将打开一个向导。
+1. Click **+ Create** from the action bar.
+
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 将创 *建TestLocation* 并将其添加到您的 **Locations** 文件夹。
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### 为TestLocation创建新显示屏 {#creating-display}
+### 创建位置显示 {#creating-display}
 
 创建位置后，您需要为位置创建新显示屏。
 
-***显示*** ，代表在一个或多个屏幕上运行的数字体验。
+>[!NOTE]
+>***显示*** ，代表在一个或多个屏幕上运行的数字体验。
 
-1. 导航到要创建显示屏(Test_*Project —*>位置 **—** > TestLocation) *的位置，如上图所示，并* 选择TestLocation **。
+1. 导航到 **TestLocation** 并选择它。
 
 1. 单击操作栏中的&#x200B;**创建**。
+
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. 为显 **示位** 置输 **入名称** 和标题(输入TestDisplay *作为标*&#x200B;题)。
+1. 输入 **标题** (*LobbyDisplay*)。
 
-1. Under the **Display** tab, choose the details of the Layout.
-
-   1. Choose the **Resolution** as **Full HD**.
-
-   1. Choose the **Number of Devices Horizontally** as 1.
-
-   1. Choose the **Number of Devices Vertically** as 1.
-
-   1. 单击&#x200B;**创建**。
+1. 单击&#x200B;**创建**。
 
 新显示屏(*TestDisplay*)将添加到您 *的位置TestLocation*，如下图所示。
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-### 分配渠道 {#assigning-channel}
+### Assigning a Channel {#assigning-channel}
 
 1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
-1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **渠道分配** (Adobe Assignment)对话框打开。
 
@@ -177,7 +166,7 @@ ht-degree: 6%
 
 渠道会创建并添加到面板。
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### 注册设备 {#registering-device}
 
@@ -192,6 +181,6 @@ ht-degree: 6%
 
 添加上述配置后，播放器应自动显示设备上显示屏的默认渠道。
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 请参 [阅AEM Screens](working-with-screens-player.md) Player以获取有关AEM Screens播放器的更多详细信息。
