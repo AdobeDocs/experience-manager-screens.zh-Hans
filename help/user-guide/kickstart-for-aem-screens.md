@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 >[!NOTE]
 >在开始处理项目详细信息之前，请确保已安装最新的功能包。 您可以使用您的AEM Screens从软件分发门户下载Adobe ID6.5.5版 [的最新功能](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 包。
 
-## 在5分钟内创建数字标牌体验 {#creating-a-digital-signage-experience-in-minutes}
+## 前提条件 {#prerequisites}
 
 请按照以下步骤为AEM Screens创建示例项目，并进一步将内容发布到Screens播放器。
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 1. 单击 **“保存** ”以启用Apache Sling推荐人过滤器“允许为空”。
 
 
-## 教程 {#tutorial}
+## 在5分钟内创建数字标牌体验 {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ ht-degree: 6%
 
 1. 单击操作栏中的&#x200B;**创建**。
 
+   ![图像](assets/kickstart/demo-disp1.png)
+
 1. Select **Display** from the **Create** wizard and click **Next**.
+
+   ![图像](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![图像](assets/kickstart/demo-disp3.png)
+
 现在，将新增一个标 **题为** TestDisplay的显示屏添加 **到您的**&#x200B;位置TestLocation，如下图所示。
+
+![图像](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
