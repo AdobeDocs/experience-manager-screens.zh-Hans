@@ -3,10 +3,10 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 6%
+source-wordcount: '1260'
+ht-degree: 5%
 
 ---
 
@@ -152,29 +152,70 @@ ht-degree: 6%
 
 项目设置完成后，您必须将渠道分配给显示屏以视图内容。
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
+1. 从DemoScreens —>位置 **—** > TestLocation **—** > LobbyDisplay中导航到 ********&#x200B;所需的显示屏。
 
 1. Tap/click **Assign Channel** from the action bar.
+
+   ![图像](assets/kickstart/demo-assign1.png)
 
    或者，
 
    点按／单 **击操作** 栏中的仪表板，然后单 **击“已分配** 的计划和渠道”面板中的 **“** +分配渠道”。
 
+   ![图像](assets/kickstart/demo-assign2.png)
+
 1. The **Channel Assignment** dialog box opens.
 
-1. 从“设 **置** ”选项中，您可以按路径或名称 **选择渠道** ，输 **入、Role**&#x200B;渠道、 ****************、Ripority、支持的事件、Ripority和方法。 此外，您还可以从此对话框启用有趣内容工具提示。
+1. 从“设 **置** ”选项中，按路径选 **择渠道** ，并 **选择支持的** 事件作为“初始负 ********&#x200B;载”和“”。
 
+   >[注意]
+   >默认 **情况下**，会 **填充**“渠道角 **色”、“优** 先级”和“中断方法”。 请参 [阅渠道属性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 部分，进一步了解渠道分配属性。
+
+   ![图像](assets/kickstart/demo-assign3.png)
+
+   此外，还可以选择“激活 **窗口** ”和“ **重复计划**”。
 
    >[!NOTE]
-   >请参阅 [渠道属性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 部分，进一步了解渠道分配属性。
-
-1. 从计划 **选项** 中，选择 **激活窗口** 和重 **现计划**。
+   >循环 *计划* ，允许您为渠道设置循环计划。 为渠道设置多个重复计划。
+   >有关更 [多详细信息](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) ，请参阅重复计划。
 
 1. 配置 **首选项** 后，单击“保存”。
 
-### 注册设备 {#registering-device}
+### 注册设备并将设备分配到显示屏{#registering-device}
 
 您需要使用AEM仪表板注册设备。
+
+>[!IMPORTANT]
+>ChromeOS播放器可以在开发人员模式下作为Chrome浏览器插件安装，无需使用实际的Chrome播放器设备。 要进行安装，请按照以下步骤操作：
+>
+>1. 单击 [此处](https://download.macromedia.com/screens/) ，下载最新的Chrome播放器。
+>1. 解压并保存到磁盘。
+>1. 打开Chrome浏览器，从菜 **单中** 选择“扩展”，或直接导航 ***到chrome://extensions***。
+>1. 从右上角 **打开** “开发人员”模式。
+>1. 单击左 **上角的** “Load Unpacked”（加载解压缩的Chrome Player）。
+>1. 检查 **AEM ScreensChrome Player** plugin(如果扩展列表中提供)。
+>1. 打开新选项卡，单击左上 **角的** “应用程序”图标，或直接导航到 ***chrome://apps***。
+>1. 单击 **AEM Screens** Plugin以启动Chrome Player。 默认情况下，播放器以全屏模式启动。 按 **Esc** 退出全屏模式。
+
+
+打开ChromeOS播放器后，请按照以下步骤注册Chrome设备。
+
+1. 从AEM实 **例** 导航到项目的Devices文件夹。
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. 点按／单击右 **上方的** “设备注册”。
+
+1. 选择所需的设备，然后点按／单 **击注册设备**。
+
+1. 等待设备发送其注册代码，同时从Chrome设 **备检查** “注册代码”。
+
+1. 如果注 **册代码** （在两台计算机上）相同 **，请点按／单击AEM** 中的验证。
+
+1. 为设备设置所需的名称，然后单击“注 **册”**。
+
+1. Tap/click **Finish** to complete the registration process.
+
 
 ### 在Chrome Player中查看内容 {#viewing-content-output}
 
