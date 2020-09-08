@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 59%
 
 ---
 
@@ -88,7 +91,7 @@ The device config is created and added to the current display (in the following 
 >
 >As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
 >
->您应当已事先了解如何创建和管理渠道。有关更 [多详细信息，请参阅创建](managing-channels.md) 和管理渠道。
+>您应当已事先了解如何创建和管理渠道。有关更 [多详细信息，请参](managing-channels.md) 阅创建和管理渠道。
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -110,35 +113,30 @@ The device config is created and added to the current display (in the following 
 
 **显示信息**&#x200B;面板提供了显示属性。
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+单击&#x200B;**显示信息**&#x200B;面板右上角的 (**...**) 可查看属性并预览显示。
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### 查看属性 {#viewing-properties}
 
 单击&#x200B;**属性**&#x200B;可查看或更改显示屏的属性。
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. 默认值设为 *300 秒*。
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. 默认值设为 *300 秒*。
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### “已指定渠道”面板{#assigned-channels-panel}
 
 **已指定渠道**&#x200B;面板显示了已分配到此设备的渠道。
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### “设备”面板{#devices-panel}
+### “设备”面板 {#devices-panel}
 
 **设备**&#x200B;面板提供了有关设备配置的信息。
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-此外，单击设备配置可查看属性、分配设备或完全删除设备。
+此外，单击设备配置以视图属性、分配设备或完全删除设备。
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
