@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1316'
 ht-degree: 5%
 
 ---
@@ -205,22 +205,51 @@ ht-degree: 5%
 
 1. Tap/click the **Device Manager** from the action bar.
 
+   ![图像](assets/kickstart/demo-register1.png)
+
 1. 点按／单击右 **上方的** “设备注册”。
 
 1. 选择所需的设备，然后点按／单 **击注册设备**。
 
+   ![图像](assets/kickstart/demo-register2.png)
+
 1. 等待设备发送其注册代码，同时从Chrome设 **备检查** “注册代码”。
+   ![图像](assets/kickstart/demo-register3.png)
 
 1. 如果注 **册代码** （在两台计算机上）相同 **，请点按／单击AEM** 中的验证。
 
-1. 为设备设置所需的名称，然后单击“注 **册”**。
+1. 将设备的所需名 **称设置为** ChromeDeviceforDemo **，然后单击“注**&#x200B;册”。
+
+   ![图像](assets/kickstart/demo-register4.png)
+
+1. 从“ **设备注册** ”对话框 **中单击“指定显** 示”。
+
+   ![图像](assets/kickstart/demo-register5.png)
+
+1. 选择显示的路径，如 **DemoScreens** —> **位置** — **> TestLocation** **—>休息室显******&#x200B;示并单击分配。
+
+   ![图像](assets/kickstart/demo-device6.png)
+
+1. 成功分配设备后，您将看到以下确认信息。
+
+   ![图像](assets/kickstart/demo-register8.png)
 
 1. Tap/click **Finish** to complete the registration process.
 
+1. 您应该能够从显示视图中仪表板注册的设备。
+
+   ![图像](assets/kickstart/demo-register9.png)
 
 ### 在Chrome Player中查看内容 {#viewing-content-output}
 
-此示例在Chrome播放器上显示输出。 将渠道分配给显示屏后，必须向播放器注册设备。
+您渠道中的所有资源现在都在您的Chrome设备上播放。
+
+恭喜您正在播放内容和AEM Screens渠道!
+
+![图像](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
