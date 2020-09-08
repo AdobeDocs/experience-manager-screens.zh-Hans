@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '981'
 ht-degree: 6%
 
 ---
@@ -91,9 +91,9 @@ ht-degree: 6%
 
 请按照以下步骤将内容添加到项&#x200B;*目渠道*(TestChannel):
 
-1. Navigate to the *DemoProject* you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **Channels** folder.
 
-1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
    ![图像](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ ht-degree: 6%
 
 请按照以下步骤为项目创建新位置：
 
-1. Navigate to the *DemoProject* you created and select the **Locations** folder.
+1. Navigate to the **DemoProject** you created and select the **Locations** folder.
 
 1. Click **+ Create** from the action bar.
 
@@ -120,7 +120,7 @@ ht-degree: 6%
 
 1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
-将创 *建TestLocation* 并将其添加到您的 **Locations** 文件夹。
+将创 **建TestLocation** 并将其添加到您的 **Locations** 文件夹。
 
 
 ### 创建位置显示 {#creating-display}
@@ -136,51 +136,41 @@ ht-degree: 6%
 
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. 输入 **标题** (*LobbyDisplay*)。
+1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
-1. 单击&#x200B;**创建**。
-
-新显示屏(*TestDisplay*)将添加到您 *的位置TestLocation*，如下图所示。
+现在，将新增一个标 **题为** TestDisplay的显示屏添加 **到您的**&#x200B;位置TestLocation，如下图所示。
 
 ### Assigning a Channel {#assigning-channel}
 
-1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
+项目设置完成后，您必须将渠道分配给显示屏以视图内容。
 
-1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
+1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
 
-1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **渠道分配** (Adobe Assignment)对话框打开。
+1. Tap/click **Assign Channel** from the action bar.
 
-1. Select **Reference Channel** by **path**
+   或者，
 
-1. Enter the **Channel Role** as *LiveStream*.
+   点按／单 **击操作** 栏中的仪表板，然后单 **击“已分配** 的计划和渠道”面板中的 **“** +分配渠道”。
 
-1. 在渠道中 **选择** “渠道路&#x200B;*径* ”( *Test_Project* —>渠道 *—*****>测试通道”)。
+1. The **Channel Assignment** dialog box opens.
 
-1. Select the **Priority** for this channel as *1*.
-
-1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
-
-1. 输入 **计划** ，并选择有效日期 **的起始日期** , **有效日期**。
-
-1. 单击&#x200B;**保存**。
-
-渠道会创建并添加到面板。
+1. 从“设 **置** ”选项中，您可以按路径或名称 **选择渠道** ，输 **入、Role**&#x200B;渠道、 ****************、Ripority、支持的事件、Ripority和方法。 此外，您还可以从此对话框启用有趣内容工具提示。
 
 
+   >[!NOTE]
+   >请参阅 [渠道属性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 部分，进一步了解渠道分配属性。
+
+1. 从计划 **选项** 中，选择 **激活窗口** 和重 **现计划**。
+
+1. 配置 **首选项** 后，单击“保存”。
 
 ### 注册设备 {#registering-device}
 
 您需要使用AEM仪表板注册设备。
 
->[!NOTE]
->您可以使用您下载的AEM Screens应用程序或Web浏览器打开Screens播放器。
+### 在Chrome Player中查看内容 {#viewing-content-output}
+
+此示例在Chrome播放器上显示输出。 将渠道分配给显示屏后，必须向播放器注册设备。
 
 
 
-### Viewing the content in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-添加上述配置后，播放器应自动显示设备上显示屏的默认渠道。
-
-
-
-请参 [阅AEM Screens](working-with-screens-player.md) Player以获取有关AEM Screens播放器的更多详细信息。
