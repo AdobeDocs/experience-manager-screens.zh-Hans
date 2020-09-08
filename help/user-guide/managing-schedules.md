@@ -1,25 +1,28 @@
 ---
 title: 创建和管理计划
 seo-title: 管理计划
-description: 可查看本页以了解有关计划的信息，通过计划，您可以将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏逐个重复其分配。
-seo-description: 可查看本页以了解有关计划的信息，通过计划，您可以将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏逐个重复其分配。
+description: 可查看本页以了解计划，它允许您将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏单独重复其分配。
+seo-description: 可查看本页以了解计划，它允许您将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏单独重复其分配。
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
-contentOwner: Jyotika syal
+contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 48%
 
 ---
 
 
 # 创建和管理计划 {#creating-and-managing-schedules}
 
-通过 AEM Screens 中的&#x200B;**计划**，您可以将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏逐个重复其分配。
+**计划**(在AEM Screens)允许您将渠道组织到可重用的组中，这样您就不必为要显示内容的每个显示屏逐个重复其分配。
 
-Schedules when combined with ***Dayparting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 >[!NOTE]
 >
@@ -40,7 +43,6 @@ Schedules when combined with ***Dayparting***, allows you to set a global schedu
 
 您将在项目中看到一个具有指定名称和标题的计划文件夹。
 
-![chlimage_1](assets/chlimage_1.gif)
 
 ## 查看功能板 {#viewing-dashboard}
 
@@ -58,9 +60,9 @@ Schedules when combined with ***Dayparting***, allows you to set a global schedu
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **计划信息面板** 单击计划信息面板右上角的属性以查看／更改计划的属性。
+   **计划信息面板** 从计划信息面板的右上角单击属性以视图/更改计划的属性。
 
-   **已分配渠道面板** 单击已分配渠道面板右上角的+分配渠道以打开渠道分配对话框。 有关更多详细信息，请参阅“分配渠道”。
+   **“已指定渠道** ”面板单击“已指定渠道”面板右上角的+分配渠道以打开“分配渠道”对话框。
 
-   **已分配显示面板** 从已分配的显示面板中选择任何显示屏以打开显示功能板。
+   **“已指定显示** ”面板从“已指定显示”面板中选择任何显示屏以打开显示仪表板。
 
