@@ -1,8 +1,8 @@
 ---
-title: 使用AEM Screens配置AdobeAnalytics
-seo-title: 使用AEM Screens配置AdobeAnalytics
-description: '可查看本节以了解有关使用脱机AdobeAnalytics排序和发送自定义事件的更多信息 '
-seo-description: '可查看本节以了解有关使用脱机AdobeAnalytics排序和发送自定义事件的更多信息 '
+title: 配置Adobe Analytics与AEM Screens
+seo-title: 配置Adobe Analytics与AEM Screens
+description: '可查看本节以了解有关使用脱机Adobe Analytics排序和发送自定义事件的更多信息 '
+seo-description: '可查看本节以了解有关使用脱机Adobe Analytics排序和发送自定义事件的更多信息 '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 8%
@@ -19,32 +19,32 @@ ht-degree: 8%
 ---
 
 
-# 使用AEM Screens配置AdobeAnalytics {#configuring-adobe-analytics-with-aem-screens}
+# 配置Adobe Analytics与AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->此AEM Screens功能仅在您安装了AEM 6.4.2功能包2和AEM 6.3.3功能包4时可用。
+>只有安装了AEM 6.4.2功能包2和AEM 6.3.3功能包4，此AEM Screens功能才可用。
 >
 >要访问这些功能包中的任何一个，您必须联系Adobe支持并请求访问权限。 您获得权限后，就可以从“包共享”下载它。
 
-本节涵盖以下主题：
+本节涵盖下列主题：
 
-* **在AdobeAnalytics与AEM Screens**
-* **使用脱机Adobe Adobe发送自定义事件Analytics**
+* **Adobe Analytics与AEM Screens测序**
+* **使用脱机发送自定义事件Adobe Analytics**
 
-## 在AdobeAnalytics与AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Adobe Analytics与AEM Screens测序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-排序 ***流程开始*** ，与激活Adobe Analytics服务的数据存储服务相关。 渠道内容向AdobeAnalytics事件发送带工资单，即数据测试捕获到Windows I/O并触发持续事件。 事件被保存到索引数据库中，并进一步被放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，并在区块存储中进一步传输数据。 连接时，它会尝试发送最大数据量。
+排序 ***过程开始*** ，数据存储服务激活Adobe Analytics服务。 渠道内容向Adobe Analytics事件发送带工资单，即数据测试捕获到Windows I/O并触发保留事件。 事件被保存到索引数据库中，并进一步被放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，并在区块存储中进一步传输数据。 连接时，它会尝试发送最大数据量。
 
 ### 排序图 {#sequencing-diagram}
 
-以下序列图说明了AdobeAnalytics与AEM Screens的集成：
+以下序列图解释了Adobe Analytics与AEM Screens的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用脱机Adobe Adobe发送自定义事件Analytics {#sending-custom-events-using-offline-adobe-analytics}
+## 使用脱机发送自定义事件Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
-下表总结了事件的标准数据模型。 它将列表发送到AdobeAnalytics的所有字段：
+下表总结了事件的标准数据模型。 它列表发送到Adobe Analytics的所有字段：
 
 <table>
  <tbody>
@@ -199,7 +199,7 @@ ht-degree: 8%
    <td>AA要求</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>AdobeAnalytics对自定义页面名称的支持</td> 
+   <td>Adobe Analytics对自定义页面名称的支持</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -268,7 +268,7 @@ ht-degree: 8%
    <td> </td> 
    <td>设备</td> 
    <td>source.device</td> 
-   <td>必需（含）</td> 
+   <td>必需的w/exceptions</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>播放器名称</td> 
@@ -277,7 +277,7 @@ ht-degree: 8%
    <td> </td> 
    <td>操作系统版本</td> 
    <td>source.os_version</td> 
-   <td>必需（含）</td> 
+   <td>必需的w/exceptions</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>O/S版本</td> 
