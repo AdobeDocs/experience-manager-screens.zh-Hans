@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 45%
+source-wordcount: '1343'
+ht-degree: 42%
 
 ---
 
 
 # 创建和管理渠道 {#creating-and-managing-channels}
 
-渠道显示一系列内容以及显示图像和视频，但也可以显示网站或单页应用程序。
+渠道可显示一系列内容以及显示图像和视频，但也可显示网站或单页应用程序。
 
 本页显示了如何为 Screens 创建和管理渠道。
 
@@ -32,16 +32,25 @@ ht-degree: 45%
 
 ## 创建新渠道 {#creating-a-new-channel}
 
-创建 Screens 项目后，请按照以下步骤为 Screens 项目创建新渠道：
+为AEM Screens创建项目后，请按照以下步骤为项目创建新渠道:
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** next to the plus icon in the action bar. 此时会打开一个向导（请参阅“渠道类型”以了解更多信息&#x200B;**）。
+1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到： `https://localhost:4502/screens.html/content/screens`.
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. 导航到您的Screens项目并选择 **渠道** 文件夹。
 
-1. 单击&#x200B;**创建**，随即会创建渠道并将其添加到渠道文件夹中。
+1. 单击操作栏中的&#x200B;**创建**。
+
+   ![demochannel](assets/create-channel1.png)
+
+1. 从创建 **向导中** ，选择序列 **渠道** 模板，然 **后单击**“下一步”。
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. 现在，序列渠道已添加到您的 **渠道** 文件夹。
 
 ### 渠道类型 {#channel-types}
 
@@ -62,14 +71,6 @@ ht-degree: 45%
 >[!NOTE]
 >
 >“分屏”渠道将显示屏拆分为多个区域，因此您可以同时并排播放多个体验。 体验可以是静态资产／文本或嵌入式序列。
-
-以下示例演示了如何为Screens项目(DemoProject **)创建序列&#x200B;*渠道*(ChannelOne)。
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->您可以使用模板选项（例如上面所述的 1x2 分屏渠道、2x2 分屏渠道或 2x3 分屏渠道）创建不同的区域。
 
 >[!IMPORTANT]
 >
