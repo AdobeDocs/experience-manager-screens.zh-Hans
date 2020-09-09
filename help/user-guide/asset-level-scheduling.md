@@ -4,9 +4,9 @@ seo-title: 资产级别激活
 description: 可查看本页，了解如何在渠道中激活播放器本地时区中的预定时间范围内的特定资产。
 seo-description: 可查看本页，了解如何在渠道中激活播放器本地时区中的预定时间范围内的特定资产。
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 1. 在表达式中输 **入计划** ，您的资产将按特定的日期和时间间隔显示。
 
-#### 分周表达式示例 {#example-two}
+#### WeekParting的示例表达式 {#example-two}
 
 下表总结了在为显示屏分配表达式时可以添加到计划的几个示例渠道。
 
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 1. 在表达式中输 **入计划** ，您的资产将按特定的日期和时间间隔显示。
 
-#### 分月表达式示例 {#example-three}
+#### MonthParting的表达式示例 {#example-three}
 
 下表总结了在为显示屏分配表达式时可以添加到计划的几个示例渠道。
 
@@ -192,14 +192,14 @@ ht-degree: 2%
 
 ### 前提条件 {#prerequisites}
 
-要对资产使用多资产级激活，请创建具有序列渠道的AEM Screens项目。 例如，以下用例将展示该功能的实现：
+要对资产使用多资产级激活，请使用序列渠道创建AEM Screens项目。 例如，以下用例将展示该功能的实现：
 
 * 创建标题为MultiAssetDemo的AEM Screens **项目**
 * 创建标题为MultiAssetChannel **的渠道** ，并向该渠道添加内容，如下图所示
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-请按照以下步骤选择多个资产并在计划项目中AEM Screens其显示：
+请按照以下步骤选择多个资产并在AEM Screens项目中计划其显示：
 
 1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
 
