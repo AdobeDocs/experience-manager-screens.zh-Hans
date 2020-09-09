@@ -4,9 +4,9 @@ seo-title: 在AEM Screens配置作者和发布
 description: AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 seo-description: AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 在每个Publish实例上：
 
-1. 在OSGi控制台中， **导航到** MAIN —> **加密支** 持&#x200B;*(* https://&lt;host>:&lt;port>/system/console/crypto)。
+1. 在OSGi控制台中，导航到 **MAIN** —> **加密支持** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`)。
 1. 在纯文本中键入所需的纯文本口令(对于所有实例均 **相同)**
 1. 单击 **Protect**。
 1. 将值“受保护 **文本** ”复制到记事本或文本编辑器。 此值将用于ActiveMQ的OSGi配置。
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 在每个发布实例上：
 
-1. 导航到OSGi配置 *管理器https://&lt;host>:&lt;port>/system/console/configMgr*
+1. 导航到OSGi配置管理器 `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. 选 **择Apache ActiveMQ Artemis JMS提供程序配置**
 1. 更新以下内容：
 
@@ -172,22 +172,22 @@ ht-degree: 2%
 
 对每个Publish实例执行以下步骤：
 
-1. 导航到OSGi控制台->主> ActiveMQ Artemis `[https://localhost:4505/system/console/mq`。
+1. 导航到OSGi控制台->主> ActiveMQ Artemis `https://localhost:4505/system/console/mq`。
 1. 验证并检查以视图群集信息>拓扑>节点=2，成员=2下其他实例的端口。
 1. 发送测试消息(“Broker Information（代理信息）”下屏幕顶部)
 1. 在字段中输入以下更改：
 
    1. **目标**:/com.adobe.cq.screens/devTestTopic
    1. **文本**:Hello World
-   1. 视图每个实例的error.log，以查看消息是通过群集发送和接收的
+   1. 视图每个实例的error.log，以查看消息是在群集中发送和接收的
 
 >[!NOTE]
 >
->在前一步中保存配置后，导航到OSGI控制台可能需要几秒钟的时间。 您还可以检查error.log以了解更多详细信息。
+>在上一步中保存配置后，导航到OSGi控制台可能需要几秒钟的时间。 您还可以检查error.log以了解更多详细信息。
 
 例如，成功配置ActiveMQ Artemis Server时，将显示以下图像。
 
-如果未从/system/console/mq看到以 *下配置*，请导航到 */system/console/mq* ，然后单击“ **重新启动** ”以重新启动代理。
+如果未从/system/console/mq看到以 *下配置*，请导航到 */system/console/mq，然后单击“重新启* 动 **** ”以重新启动代理。
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -201,7 +201,7 @@ ht-degree: 2%
 
 ### 配置作者和发布实例 {#configuring-author-and-publish-instance}
 
-设置发布主题后，您需要配置作者实例和发布实例，以视图实施的实际结果：
+设置发布拓扑后，您需要配置作者实例和发布实例，以视图实施的实际结果：
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ ht-degree: 2%
 
 #### 第3步：将设备分配给显示 {#step-assigning-the-device-to-display}
 
-1. 在上 **一步中** ，单击对话框中的“指定显示”。
+1. 在上 **一步的对话** 框中单击“指定显示”。
 1. 从“位置”文件夹中选择渠道的显 **示路** 径。
 1. Click **Assign**.
 1. Click **Finish** to complete the process, and now the device is assigned.
@@ -240,7 +240,7 @@ ht-degree: 2%
 
 **验证设备**
 
-之前，请执行以下步骤，确保验证设备ID。 要验证，请在CRXDELite中搜索设备id，路径 *为/home/users/screens/we-retail/devices*。
+之前，请执行以下步骤，确保验证设备ID。 要进行验证，请在CRXDE Lite中搜索设备id，其 *路径为/home/users/screens/we-retail/devices*。
 
 请按照以下步骤复制设备用户：
 
