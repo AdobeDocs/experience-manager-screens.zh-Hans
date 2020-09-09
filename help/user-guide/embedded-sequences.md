@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 41%
 
 ---
@@ -39,9 +39,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 您可以将嵌入式序列添加到渠道中。嵌入式序列是包含图像或视频等资产的另一个渠道。 添加嵌入式序列时，用户可以按“渠道路径”******&#x200B;将序列添加到渠道。
 
 >[!NOTE]
->
->***渠道路径*** 定义对渠道的显式引用。
->
+>***Channel Path*** defines an explicit reference to the channel.
 >要了解“渠道路径”**&#x200B;的更多信息，请参阅“创作屏幕”中的[渠道分配](channel-assignment.md)。
 
 请按照以下步骤向您的渠道中添加嵌入式序列：
@@ -101,7 +99,7 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 1. 选择要嵌入动态序列的渠道。For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 单击左侧栏中的组件图标以添加动态嵌入式序列。将动&#x200B;**态** **嵌入式序列**拖放到编辑器中。
+1. 单击左侧栏中的组件图标以添加动态嵌入式序列。Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
 
 1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
