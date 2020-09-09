@@ -5,9 +5,9 @@ description: 可查看本页以了解如何为文本叠加应用自定义品牌�
 seo-description: 可查看本页以了解如何为文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 您必须更新这些设计的ACL，以便播放器可以下载它们。
 
-1. 导航到Useradmin并选择 `screens-<project>-devices group` 它，并授予它对自定义设计路径的读取权限。
+1. 导航到用户管理员并选 `screens-<project>-devices group` 择，并授予其自定义设计路径的读取权限。
 
 1. 提供 `screens-<project>-administrators` 组读取和修改此路径的权限。
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
 按照以下步骤将更新的设计视图为文本叠加：
 
-1. 导航到标题为customstyle —> **AEM Screens** —> **渠道** — **>** DemoBrand的项目。 Select the channel and click **Edit** from the action bar to open the editor.
+1. 导航到标题为customstyle —> **渠道** —> **DemoBrand的** AEM Screens **项目**。 Select the channel and click **Edit** from the action bar to open the editor.
 
 1. 由于您现在已如上所述将设计添 **加到** “设计”字段中 **，请单击“预览** ”，在图像上视图文本叠加的当前样式。
 
