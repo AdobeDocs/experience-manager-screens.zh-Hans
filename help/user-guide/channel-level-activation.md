@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 ## 激活窗口 {#using-channel-level-activation}
 
-以下部分介绍如何为事件项目在渠道内创建单个AEM Screens回放。
+下节介绍如何为AEM Screens项目在渠道内创建单个事件回放。
 
 ### 前提条件 {#prerequisites}
 
 在开始实施此功能之前，请确保您已准备好以下先决条件，以便开始实施渠道级别激活:
 
-* 创建AEM Screens项目，在此示例中为 **渠道级激活**
+* 创建一个AEM Screens项目，在此示例中， **渠道级激活**
 
 * 在“渠道”文 **件夹下** ，创 **建渠道** 。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. **创建位置**
 
-   导航到AEM Screens **项目** 中的“位置”文件夹，并创建一个“区域” **位置**。
+   导览至AEM Screens **项目** 中的“位置”文件夹，并创建一个“区域” **位置**。
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您还可以通过导航至“渠道级仪表板” **—>** 位置 **—>地** 区 **—** Region **—> RegionDisplay从操****** 作栏中指定仪表板并点击渠道从显示激活中指定。 单击 **“已指定渠道** ”面 **板中的“+指** 定渠道和计划”。
+   >您还可以通过导航至“渠道级仪表板” **—>** 位置 **—>地** 区 **—** Region **—> RegionDisplay从操****** 作栏中指定仪表板并点击渠道，从显示激活中指定。 单击 **“已指定渠道** ”面 **板中的“指定渠道和计划** ”。
 
    同样，为显示屏 **分配渠道** TargetedSinglePlay**:
 
@@ -154,13 +154,10 @@ ht-degree: 0%
 播放器显示MainAdChannel **的内容** ，并且正好在晚上11:59(如计划中所设置), **TargetedSinglePlay** 渠道将显示其内容，直到凌晨12:05，然后MainAdChannel将 **** 再次恢复播放其内容。
 
 >[!NOTE]
-要了解AEM Screen Player，请参阅以下资源：
-* [AEM Screens播放器下载](https://download.macromedia.com/screens/)
-* [使用AEM Screens播放器](working-with-screens-player.md)
+要了解AEM Screen Player，请参阅以下资源：[AEM ScreensPlayer下载](https://download.macromedia.com/screens/)[与AEM ScreensPlayer一起使用](working-with-screens-player.md)
 
 
-
-## 处理渠道中资产的重复{#handling-recurrence-in-assets}
+## 处理渠道中资产的重复 {#handling-recurrence-in-assets}
 
 您可以在渠道中计划资产，以按照您的要求，按每天、每周或每月的特定时间间隔重复使用。
 
@@ -205,7 +202,7 @@ ht-degree: 0%
 
 1. 在表达式中输 **入计划** ，您的资产将按特定的日期和时间间隔显示。
 
-#### 分周表达式示例 {#example-two}
+#### WeekParting的示例表达式 {#example-two}
 
 下表总结了在为显示屏分配表达式时可以添加到计划的几个示例渠道。
 
@@ -232,7 +229,7 @@ ht-degree: 0%
 
 1. 在表达式中输 **入计划** ，您的资产将按特定的日期和时间间隔显示。
 
-#### 分月表达式示例 {#example-three}
+#### MonthParting的表达式示例 {#example-three}
 
 下表总结了在为显示屏分配表达式时可以添加到计划的几个示例渠道。
 
