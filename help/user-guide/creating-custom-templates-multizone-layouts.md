@@ -5,9 +5,9 @@ description: 可查看本页以了解如何在MultiZone布局中创建自定义�
 seo-description: 可查看本页以了解如何在MultiZone布局中创建自定义模板。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 1. **命名约定**:
 
-   在了解如何创建要在AEM Screens项目中使用的自定义多区域模板之前，建议您先了解要创建的模板的版本。
+   在您了解如何创建要在AEM Screens项目中使用的自定义多区域模板之前，建议您先了解要创建的模板的版本。
 
    | **布局名称** | **描述** |
    |---|---|
@@ -108,7 +108,7 @@ Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
 
 1. 导航到 `/apps/settings/wcm/designs/custom-template-designs` 并创建一个static.css文件。
 
-1. 将内容复制到static.css文件：
+1. 将内容复制到 `static.css` 文件：
 
    ```shell
        /*my-custom-layout styles*/
@@ -134,7 +134,7 @@ Left20-LandscapeHD3Zone布局允许您在项目中创建以下多区域布局：
 1. 导航到 `/apps/<project>/templates/my-custom-layout/jcr:content` 并更新属 *性cq:designPath* ，以 `/apps/settings/wcm/designs/customtemplate-designs` 加载static.css中配置的样式
 
    >[!NOTE]
-   >建议您键入所有样式，而不是复制或粘贴，这会导致空格导致css样式问题。
+   >建议您键入所有样式，而不是复制或粘贴，这会导致出现空格，从而导致css样式问题。
 
 ## 查看结果 {#viewing-result}
 
