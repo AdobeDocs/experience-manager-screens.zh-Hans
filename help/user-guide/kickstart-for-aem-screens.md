@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 5%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 5%
 您需要使用AEM仪表板注册设备。
 
 >[!IMPORTANT]
->ChromeOS播放器可以在开发人员模式下作为Chrome浏览器插件安装，无需使用实际的Chrome播放器设备。 要进行安装，请按照以下步骤操作：
+>Chrome OS播放器可以在开发人员模式下作为Chrome浏览器插件安装，无需使用实际的Chrome播放器设备。 要进行安装，请按照以下步骤操作：
 >
 >1. 单击 [此处](https://download.macromedia.com/screens/) ，下载最新的Chrome播放器。
 >1. 解压并保存到磁盘。
@@ -199,7 +199,7 @@ ht-degree: 5%
 >1. 单击 **AEM Screens** Plugin以启动Chrome Player。 默认情况下，播放器以全屏模式启动。 按 **Esc** 退出全屏模式。
 
 
-打开ChromeOS播放器后，请按照以下步骤注册Chrome设备。
+打开Chrome OS播放器后，请按照以下步骤注册Chrome设备。
 
 1. 从AEM实 **例** 导航到项目的Devices文件夹。
 
@@ -242,7 +242,7 @@ ht-degree: 5%
 
 ### 在Chrome Player中查看内容 {#viewing-content-output}
 
-您渠道中的所有资源现在都在您的Chrome设备上播放。
+您渠道中的所有资源现在都在Chrome OS播放器上播放。
 
 恭喜您正在AEM Screens渠道中播放内容！
 
