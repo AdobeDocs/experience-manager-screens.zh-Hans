@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
    ![资产](assets/health-check1.png)
 
 
-2. 单击“ **执行选定的运行状况检** 查”，以对以上列出的两个属性运行验证。
+2. 单击“执 **行所选运行状况检查** ”以对以上列出的两个属性运行验证。
 
    如果同时启用了这两个过滤器, **Screens Configuration Health Service** (Screens配置 **运行状况服务)****将结果** 显示为OK，同时启用这两个配置。
 
@@ -108,7 +108,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 1. 导航 *到&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. 确保将 **默认的创作UI** 模式 **设置**&#x200B;为TOUCH，如下图所示
 
-或者，您也可以使用&lt;您的AuthorInstance *> ->工具（锤子图标）**-> Operations* -> Web **Console** Console搜索和创 ********&#x200B;建WCM Mode Service的设置。
+或者，您也可以使用AuthorInstance -> *工具* （锤子图标）-> Operations -> **Web Console执行同** 样的设置，并搜索 ******** WCM创作UI模式Service 。
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 
 #### AEM在NOSAMPLECONTENT运行模式中 {#aem-in-nosamplecontent-runmode}
 
-在生产中运行AEM使 **用NOSAMPLECONTENT** runmode。 删&#x200B;*除X-Frame-Options=SAMEORIGN* header（在其他响应头部分）
+在生产中运行AEM使 **用NOSAMPLECONTENT** runmode。 删除 *X-Frame-Options=SAMEORIGIN* header（在其他响应头部分中）
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
@@ -136,7 +136,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 
 1. 通过AEM **实例** —>锤子图标—>操作—> Web Console **，导航到** Adobe Experience Manager **Web Console** Configuration。
 
-1. **Adobe Experience ManagerWeb控制台配置**打开。 搜索deviceservice. 要搜索属性，请 **按Command** +F( **Mac****)和** Control+F(Windows ****)。
+1. **Adobe Experience ManagerWeb控制台配置**打开。 搜索 *deviceservice*。 要搜索属性，请 **按Command** +F( **Mac****)和** Control+F(Windows ****)。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
