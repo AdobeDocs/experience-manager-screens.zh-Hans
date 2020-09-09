@@ -1,6 +1,6 @@
 ---
-title: 通道级批量图像播放持续时间
-seo-title: 通道级批量图像播放持续时间
+title: 渠道级批量图像播放持续时间
+seo-title: 渠道级批量图像播放持续时间
 description: 本页介绍如何编辑特定图像组件的播放持续时间。
 seo-description: 本页介绍如何编辑特定图像组件的播放持续时间。
 uuid: 4ebb00a9-b04d-4dfe-9fee-2348a2e2c142
@@ -11,36 +11,39 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
 
-# 通道级批量图像播放持续时间{#channel-level-bulk-image-playback-duration}
+# 渠道级批量图像播放持续时间 {#channel-level-bulk-image-playback-duration}
 
 ## 概述 {#overview}
 
-在创建序列频道并向其添加图像后，默认情况下，所有图像都将采用在频道级别配置中定义的播放持续时间。 任何单个图像仍可以覆盖默认值，并具有不同的播放持续时间，这是通过编辑特定图像组件的播放持续时间来完成的。
+创建序列渠道并向其添加图像后，默认情况下，所有图像都将采用渠道级别配置中定义的播放持续时间。 任何单个图像仍可以覆盖默认图像，并具有不同的播放持续时间，这可通过编辑特定图像组件的播放持续时间来实现。
 
 ### 前提条件 {#prerequisites}
 
-在开始实施此功能之前，请确保已将项目设置为开始实施此功能的先决条件。 例如，
+在开始实现此功能之前，请确保已将项目设置为开始实现此功能的先决条件。 例如，
 
-1. 创建AEM Screens项目(在此示例中， **ChannelLevelPlayback**)
+1. 创建一个AEM Screens项目示 **例，ChannelLevelPlayback**。
 
-1. 在“渠道”文件夹下创 **建序列渠道** ，作 **为PlaybackChannel**
+1. 在“渠道”文件夹下 **创建序** 列 **渠道** ，作为PlaybackChannel。
 
-1. 将内容添加到 **PlaybackChannel**
+1. 将内容添 **加到PlaybackChannel**。
 
-## 编辑频道级图像播放持续时间分配 {#editing-channel-level-image-playback-duration-assignment}
+## 编辑渠道级图像播放持续时间分配 {#editing-channel-level-image-playback-duration-assignment}
 
-以下部分介绍如何编辑AEM Screens渠道中内容的播放持续时间。
+以下部分介绍如何在AEM Screens渠道中编辑内容的播放持续时间。
 
-### 更新频道中图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-channel}
+### 更新渠道中图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-channel}
 
-请按照以下步骤了解如何更新渠道级别图像播放持续时间分配：
+请按照以下步骤学习如何更新渠道级图像播放持续时间分配：
 
-1. 导航到序列通道 **PlaybackChannel**。
+1. 导航到序列渠道 **PlaybackChannel**。
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
@@ -48,7 +51,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
-1. 在渠道编辑器中添加两张或多张图像，如下图所示。
+1. 在渠道编辑器中添加两个或多个图像，如下图所示。
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
@@ -56,21 +59,20 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **页面** 。
+1. **页面** ”对话框打开。
 
    >[!NOTE]
-   >
-   >默认情况下，通道中的图像设置为8秒的播放持续时间。
+   >默认情况下，渠道中的图像设置为8秒的播放持续时间。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** (从8000(ms)到3000(ms)，即3秒)。 单击“页面”对话框右上方的复 **选标记** ，以保存更改。
+   编辑 **持续时间** (从8000(ms)到3000(ms)，即3秒)。 单击“页面”对话框右上方的复 **选标记** ，以保存所做的更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 查看结果 {#viewing-the-result}
 
-更新频道播放持续时间（在本例中，所有三幅图像）后，您会注意到图像现在将播放3秒而不是8秒（默认值）。
+更新渠道播放持续时间（在本例中为所有三幅图像）后，您会注意到图像现在将播放3秒，而不是8秒（默认值）。
 
-![channel_preview](assets/channel_preview.gif)
+![渠道_预览](assets/channel_preview.gif)
 
