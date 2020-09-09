@@ -3,7 +3,7 @@ title: 渠道分配
 seo-title: 渠道分配
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 37%
@@ -35,7 +35,7 @@ ht-degree: 37%
 
    或者，
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
 
    ![图像](/help/user-guide/assets/channel-assign1.png)
 
