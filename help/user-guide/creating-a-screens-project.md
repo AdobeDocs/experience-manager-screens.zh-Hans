@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 42%
@@ -37,7 +37,7 @@ ht-degree: 42%
 
 1. 单击“ **创建Screens项目**”。
 
-1. Enter the title as **TestProject** and click **Create**.
+1. Enter the title as **TestScreens** and click **Save**.
 
 随即会创建项目并使您返回到 Screens 项目控制台。现在，您可以选择自己的项目。
 
