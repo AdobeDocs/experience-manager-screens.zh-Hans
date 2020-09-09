@@ -1,8 +1,8 @@
 ---
 title: 使用体验片段
 seo-title: 使用体验片段
-description: '可查看本页以了解如何在AEM Screens中使用体验片段。 '
-seo-description: '可查看本页以了解如何在AEM Screens中使用体验片段。 '
+description: '可查看本页，了解如何使用AEM Screens的体验片段。 '
+seo-description: '可查看本页，了解如何使用AEM Screens的体验片段。 '
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 8%
@@ -35,10 +35,9 @@ ht-degree: 8%
 ## 在 AEM Screens 中使用体验片段 {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
->以下示例将 **We.Retail** 用作演示项目，从该演示项目将体验片段从站点页 **面** 利用到AEM Screens项目。
+>以下示例将 **We.Retail** 用作演示项目，从Sites页面将体验片段 **用于** AEM Screens项目。
 
-例如，以下工作流演示了如何在站点中使用We.Retail中的体验片段。 您可以选择网页，并在AEM Screens渠道中的某个项目中利用该内容。
+例如，以下工作流演示了如何在站点中使用We.Retail中的体验片段。 您可以选择网页，并在您的某个项目的AEM Screens渠道中利用该内容。
 
 ### Pre-requisites {#pre-requisites}
 
@@ -50,7 +49,7 @@ ht-degree: 8%
 1. 在“标题”中输入 **DemoProject**。
 1. 单击&#x200B;**保存**。
 
-DemoProject **将被添** 加到您的AEM Screens中。
+您 **的AEM Screens** 将添加一个DemoProject。
 
 ***创建渠道***
 
@@ -71,7 +70,7 @@ DemoProject **将被添** 加到您的AEM Screens中。
 
 1. **导航到We.Retail中的“站点”页面**
 
-   1. 导航到站点，然 **后选择We.Retail In** -Store -> **渠道** ->空闲渠道-夜间&#x200B;**** ，并选择此页以将其用作Screens渠道的体验片段。
+   1. 导航到站点，然 **后选择We.Retail In** -Store -> **渠道** ->空闲渠道-夜间&#x200B;**** ，并选择此页面以将其用作Screens渠道的体验片段。
 
    1. 单 **击操** 作栏中的编辑以打开要用作Screens渠道体验片段的页面。
 
@@ -79,6 +78,7 @@ DemoProject **将被添** 加到您的AEM Screens中。
 
    1. 选择要包含在渠道中的片段。
    1. 单击右侧的最后一个图标以打开“转 **换为体验片段** ”对话框。
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **创建体验片段**
@@ -91,21 +91,23 @@ DemoProject **将被添** 加到您的AEM Screens中。
    1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. 单击复选标记以完成新体验片段的创建。
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **创建体验片段的Live Copy**
 
    1. 导航到AEM主页。
    1. 选择 **体验片段** ，高亮显 **示ScreensFragment** ，然 **后单击变量作为Live**-Copy，如下图所示：
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c.从创建Live Copy向导中选择** ScreensFragment ****** ，然后单击 **下一步**。
+   c.从创建 **Live Copy** 向导 **中选择ScreensFragment** ，然后单 **击下一**&#x200B;步。
 
-   d. 在标题 **和名** 称中 **输入** “ **屏幕**”。
+   d.在标题 **和名** 称中 **输入** “ **屏幕**”。
 
-   e. 单 **击创** 建以创建Live Copy。
+   e.单 **击创** 建以创建Live Copy。
 
-   f. 单 **击完** ，返回 **ScreensFragment** 页。
+   f.单 **击完** ，返回 **ScreensFragment** 页。
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -118,6 +120,7 @@ DemoProject **将被添** 加到您的AEM Screens中。
    1. 导航到 **ScreensFragment** （您在前面的步骤中创建），然后 **单击操作** 栏中的“属性”。
 
    1. 选择“ **脱机配置** ”选项卡，如下图所示。
+
    您可以将客 **户端库** （java和css）和静态 **文件添加到** 体验片段。
 
    以下示例显示了如何将客户端库和字体作为静态文件的一部分添加到体验片段。  ![片段](assets/fragment.gif)
@@ -129,21 +132,22 @@ DemoProject **将被添** 加到您的AEM Screens中。
 
    1. 单击侧选项卡中的组件图标。
    1. 将体验片 **段拖放** 到渠道。
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. 选择 **体验片段** ，然后选择左上角（扳手）图标以打开体验 **片段对话框** 。
+   e.选择 **体验片段** ，然后选择左上角（扳手）图标以打开体验 **片段对话框** 。
 
-   f. 选择您 **在** Path中的步骤3中创建的片 *段的* Screens **Live** Copy。
+   f.选择您 **在** Path中的步骤3中创建的片 *段的* Screens **Live** Copy。
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. 选择您 **在** “体验片段”的第3步 *中创建的片* 段的 **Screens** Live Copy。
+   f.选择您 **在** “体验片段”的第3步 *中创建的片* 段的 **Screens** Live Copy。
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. 在“持续时间”中输 **入毫秒**。
+   h.在“持续时间”中输 **入毫秒**。
 
-   我。 从“体 **验片段** ”对 **话框中选** 择脱机配置，以定义客户端库和静态文件。
+   我。从“体 **验片段** ”对 **话框中选** 择脱机配置，以定义客户端库和静态文件。
 
    >[!NOTE]
    >
@@ -151,7 +155,7 @@ DemoProject **将被添** 加到您的AEM Screens中。
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. 单击复选标记以完成该过程。
+   j.单击复选标记以完成该过程。
 
 ### 验证结果 {#validating-the-result}
 
@@ -167,15 +171,15 @@ DemoProject **将被添** 加到您的AEM Screens中。
 
 ***Live Copy*** 指由同步操作（由转出配置定义）维护的（源的）副本。
 
-由于体验片段，我们创建的是站点页面中的Live **** copy，因此，如果您从主页对该特定片段进行更改，您将在渠道或您使用体验片段的目标中视图所做的更改。
+由于体验片段，我们创建的是站点页面中的 **Live** copy，因此，如果您从主控页面对该特定片段进行更改，您将在渠道或已使用体验片段的目标中视图所做的更改。
 
 >[!NOTE]
 >
->有关Live Copy的详细信息，请参阅重复使用内容： 多站点管理器和Live Copy。
+>有关Live Copy的详细信息，请参阅重复使用内容：多站点管理器和Live Copy。
 
-请按照以下步骤将更改从主渠道传播到目标渠道:
+请按照以下步骤将更改从主控渠道传播到目标渠道:
 
-1. 从站点（主页）页 **面** 中选择体验片段，然后单击铅笔图标以编辑体验片段中的项目。
+1. 从“站点”(主控 **** )页面中选择体验片段，然后单击铅笔图标以编辑体验片段中的项目。
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
