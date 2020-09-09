@@ -3,7 +3,7 @@ title: 渠道分配——最新FP
 seo-title: 渠道分配——最新FP
 description: 可查看本页以了解渠道分配和分时段功能。
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 21%
@@ -149,7 +149,6 @@ ht-degree: 21%
 ### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > 此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
 
 作为内容作者，您应当能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在由于日程安排而中断播放之前让重要内容完全播放。
