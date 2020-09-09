@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 60%
 
 ---
 
@@ -30,7 +33,7 @@ AEM Screens 提供了可用于 Screens 项目的不同 AEM 组件。
 
 要查看 Screens 项目的默认组件，请按照以下步骤操作：
 
-1. 选择渠道。例如，**We.Retail In Store** --&gt; **渠道** --&gt; **Idle Channel**。
+1. 选择渠道。例如，**We.Retail In Store** --> **渠道** --> **Idle Channel**。
 
 1. 从操作栏中单击&#x200B;**编辑**&#x200B;以打开 AEM 编辑器。
 1. 单击侧栏中的 **+** 图标以打开组件。
@@ -44,12 +47,12 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 以下示例显示了如何向 AEM Screens 项目中添加 Livefyre 组件：
 
-1. 选择要添加新组件的渠道。例如，**We.Retail In Store** --&gt; **渠道** --&gt; **Idle Channel**。
+1. 选择要添加新组件的渠道。例如，**We.Retail In Store** --> **渠道** --> **Idle Channel**。
 
 1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
 1. Select **Design** mode.
 1. 选择右侧的整个设计编辑器，然后单击设置符号以打开 **ParSys 设计**&#x200B;对话框。
-1. 您可以选择要导入到 AEM Screens 项目的组件。以下示例显示 **了向AEM Screens项目添加的Livefyre** 组件。
+1. 您可以选择要导入到 AEM Screens 项目的组件。The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -59,7 +62,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 ## 了解 AEM Screens 组件 {#understanding-aem-screen-components}
 
-以下部分介绍了可在项目中使用的AEM Screens组件。
+以下部分介绍可在项目中使用的AEM Screens组件。
 
 >[!NOTE]
 >
@@ -74,9 +77,9 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 | **属性** | **描述** |
 |---|---|
 | ***应用程序路径*** | 选择应用程序所在的绝对路径。 |
-| ***持续时间（毫秒）*** | 选择应用程序的持续时间。默认情况下，持续时间设置为-1，这意味着元素将永远运行（即单页应用程序）。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。 |
+| ***持续时间（毫秒）*** | 选择应用程序的持续时间。默认情况下，持续时间设置为-1，这意味着元素将一直运行（即单页应用程序）。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。 |
 
-以下示例显示了如何嵌入应用程序组件以及其属性的预览：
+以下示例演示如何嵌入应用程序组件及其属性的预览:
 
 ![adding_components应用程序](assets/adding_componentsapplication.gif)
 
@@ -102,7 +105,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行完整长度。</td>
   </tr>
  </tbody>
 </table>
@@ -120,12 +123,12 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
    <td><strong>描述</strong></td>
   </tr>
   <tr>
-   <td><strong><em>页面路径<br /> </em></strong></td>
+   <td><strong><em>页面 路径<br /> </em></strong></td>
    <td>选择页面所在的绝对路径。<br /> </td>
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行完整长度。</td>
   </tr>
  </tbody>
 </table>
@@ -152,7 +155,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行完整长度。</td>
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
@@ -181,7 +184,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为-1表示嵌入式渠道将在特定渠道中运行完整长度。</td>
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
@@ -192,9 +195,9 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 ### 体验片段 {#experience-fragment}
 
-体验片段允许您将体验片段（由一个或多个组件组成的组件，包括可在页面中引用的内容和布局）添加到AEM Screens渠道。 将组件拖放到AEM编辑器中，然后选择体验片段。
+体验片段允许您将体验片段（由一个或多个组件组成的组件，包括可在页面中引用的内容和布局）添加到您的AEM Screens渠道。 将组件拖放到AEM编辑器，然后选择体验片段。
 
-要了解有关如何创建体验片段并将其用于AEM Screens项目的更多信息，请参阅使 [用体验片段](experience-fragments-in-screens.md)。
+要进一步了解如何创建体验片段并将其用于AEM Screens项目，请参 [阅使用体验片段](experience-fragments-in-screens.md)。
 
 ![exp](assets/exp.gif)
 
@@ -209,7 +212,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->从 **此组件添加的客户端库和静态文件** ，除了已配置的客户端库和从体验片段的属性添加的静态 ************&#x200B;文件外。
+>从 **此组件添加的客户端库****和静态文件除了已配置的** 客户端库和从体验片段的Properties添加的静 ********&#x200B;态文件。
 
 ### 图像 {#image}
 
@@ -234,11 +237,11 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 过渡组件允许您向 Screens 项目中添加过渡。
 
-下图显示了向编辑器添加的过渡组件（通过拖放添加）。
+下图显示了过渡组件（通过拖放添加）到编辑器。
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-选择过渡图标，然后单击 **配置** （扳手图标）以打开“过渡 **** ”对话框。 该对话框包括三个选项卡：
+选择过渡图标，然后单 **击** “配置”（扳手图标）以打 **开过渡** 对话框。 此对话框包含三个选项卡：
 
 * **过渡**
 * **序列**
@@ -246,7 +249,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->默认情况下，序列设置为600毫秒。 您可以使用“序列”选项卡将过渡序列更新为 **其他值** 。
+>默认情况下，序列设置为600毫秒。 您可以使用“序列”选项卡将过渡序列更 **新为** 其他值。
 
 ![过渡](assets/transition.gif)
 
@@ -264,7 +267,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>类型</em></strong></td>
-   <td><p>前一个元素和后一个元素之间的过渡类型。过渡 <strong>类型</strong> ，包括以下选项：</p>
+   <td><p>前一个元素和后一个元素之间的过渡类型。过渡 <strong>类型</strong> 包括以下选项：</p>
     <ul>
      <li><strong>标准</strong></li>
      <li><strong>淡化</strong></li>
@@ -280,7 +283,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>持续时间</em></strong></td>
-   <td>选择过渡的整个持续时间。默认情况下，它设置为600 ms。</td>
+   <td>选择过渡的整个持续时间。默认情况下，它设置为600毫秒。</td>
   </tr>
   <tr>
    <td><strong>激活</strong></td>
@@ -288,7 +291,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>活动自</em></strong></td>
-   <td>描述何时过渡可处于活动状态的时间戳。<br /> </td>
+   <td>描述过渡何时可激活的时间戳。<br /> </td>
   </tr>
   <tr>
    <td><strong><em>活动到</em></strong></td>
@@ -296,7 +299,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>计划</em></strong></td>
-   <td>添加预定义的计划。</td>
+   <td>添加预定义计划。</td>
   </tr>
  </tbody>
 </table>
@@ -319,7 +322,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><em><strong>持续时间</strong></em></td>
-   <td>选择视频的持续时间。默认情况下，持续时间设置为-1，这意味着元素会一直运行。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。<br /> </td>
+   <td>选择视频的持续时间。默认情况下，持续时间设置为-1，这意味着元素将永远运行。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。<br /> </td>
   </tr>
   <tr>
    <td><em><strong>呈现</strong></em></td>
