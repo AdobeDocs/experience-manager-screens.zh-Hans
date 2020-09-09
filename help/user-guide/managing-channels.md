@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 45%
@@ -107,7 +107,6 @@ ht-degree: 45%
 1. 在“资产”下选择&#x200B;**视频**，然后拖放所需的视频。
 
 >[!NOTE]
->
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
 ### 查看属性 {#viewing-properties}
@@ -145,6 +144,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 >此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
 
 按照以下步骤从渠道仪表板启用此选项：
+
 1. **将渠道设置为脱机**
    1. 选择渠道，然 **后从操** 作栏中选择属性
    1. 导航到 **渠道** 选项卡，并确保取消选中开发 **者模式(强制渠道联机)**
