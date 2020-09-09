@@ -10,18 +10,22 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 38%
 
 ---
 
 
-# 创建和管理项目 {#creating-and-managing-projects}
+# Creating and Managing Projects {#creating-and-managing-projects}
 
 通过选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”，可使用 AEM Screens。
 
-或者，您也可以直接转到： `http://localhost:4502/screens.html/content/screens`![chlimage_1-14](assets/chlimage_1-14.png)
+或者，您也可以直接转到： `http://localhost:4502/screens.html/content/screens`
+![chlimage_1-14](assets/chlimage_1-14.png)
 
-不同的项目可能具有不同的品牌、部署、客户等。
+不同的项目可能是不同的品牌、部署、客户等。
 
 ![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
@@ -29,14 +33,14 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >**导航提示：**
 >
->您也可以使用光标键浏览 AEM 中的不同文件夹。此外，在选择特定实体后，点击空格键可编辑或查看该特定文件夹的属性。
+>您也可以使用光标键浏览 AEM 中的不同文件夹。此外，选择特定实体后，点击空格键可编辑或视图该特定文件夹的属性。
 
 ## 创建新 Screens 项目 {#creating-a-new-screens-project}
 
 请按照以下步骤创建一个新 Screens 项目：
 
 1. 从 AEM 功能板中选择&#x200B;**屏幕**。
-1. Click **Create **--&gt;** Create Project **and **Create Screens Project** wizard will open.
+1. Click **Create** --> **Create Project** and **Create Screens Project** wizard will open.
 
 1. Select the **Screens** template and click **Next**.
 
@@ -46,7 +50,7 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!NOTE]
 >
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. 如果可用选项与您的项目无关，则可以删除这些选项。
+>By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. 如果可用选项与您的项目无关，您可以删除这些选项。
 
 随即会创建项目并使您返回到 Screens 项目控制台。现在，您可以选择自己的项目。
 
@@ -72,7 +76,7 @@ The following options allow you to edit/change properties of your *DemoProject*.
 
 ### 创建自定义文件夹 {#creating-a-custom-folder}
 
-您还可以在“计划”、“位置”、“应用程序”、“渠道” **、“渠道”、“设备”主页中创建您自己的自定义文件夹****************** ，以及在项目中可用的“渠道”和“设备”主页中创建您自己的自定义文件夹。
+您还可以在计划、位置、应用程 **序**、渠道 **、、设备、**、主控页面中创建您自 ************ 己的自定义文件夹。
 
 要创建自定义文件夹，请执行以下操作：
 
@@ -81,7 +85,7 @@ The following options allow you to edit/change properties of your *DemoProject*.
 1. 单击&#x200B;**下一步**。
 1. 输入属性，然后单击&#x200B;**创建**。
 
-以下步骤显示了如何在DemoProject中为“应用程序”主 **页创建** “应用程序” *文件夹*。
+以下步骤显示了如何在DemoProject中创建“应用程序 **主控** ”页面的应 *用程序文件夹*。
 
 ![player2-1](assets/player2-1.gif)
 
