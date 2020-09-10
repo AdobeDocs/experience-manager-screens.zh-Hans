@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 42%
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 42%
 
 随即会创建项目并使您返回到 Screens 项目控制台。现在，您可以选择自己的项目。
 
-一个项目中存在四种文件夹，如下图所示：
+在项目中，有五种文件夹，如下图所示：
 
 * **计划**
 * **位置**
