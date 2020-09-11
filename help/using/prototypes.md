@@ -4,7 +4,7 @@ seo-title: 原型
 description: 本页介绍AEM Screens项目的原型
 seo-description: 本页介绍AEM Screens项目的原型
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -31,7 +31,5 @@ ht-degree: 0%
 
 
 >[!NOTE]
->
 > 在UX设计阶段，确认提取的数据可以充分支持UI设计。
->
 > 例如，可能并非所有决策者都熟悉其产品数据库的数据结构。 他们可以在其UX解决方案上选择不是数据层中主字段的描述符。 及早确定可能需要对数据进行处理的地方，并将其传达给客户，以防日后出现误解。 如果客户端决定在开发开始后扩展或更改UI标签，则需要付出更多努力来适应这些更改。
