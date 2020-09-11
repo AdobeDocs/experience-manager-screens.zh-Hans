@@ -1,10 +1,13 @@
 ---
 title: 支持监控
-seo-title: AEM Screens支持监视
-description: 本页介绍《AEM Screens支持监视最佳实践指南》
-seo-description: 本页介绍《AEM Screens支持监视最佳实践指南》
+seo-title: AEM Screens支助监测
+description: 本页介绍《AEM Screens支持监控最佳实践指南》
+seo-description: 本页介绍《AEM Screens支持监控最佳实践指南》
 translation-type: tm+mt
-source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -24,14 +27,15 @@ source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
 
 1. 如果遇到空白屏幕问题：
 
-   * 检查 *预览* ，查看渠道是否显示黑屏
-   * 在笔记本 *电脑上将本地Chrome播放器* （作为扩展）注册到该显示屏，并查看它是否显示黑屏。
+   * 检查 *预览* ，以查看渠道是否显示黑屏
+   * 在笔记本 *电脑上将本地Chrome* 播放器（作为扩展）注册到该显示屏，并查看它是否显示黑屏。
    * 右键单击并检查适用的 *日志*。
-   此外，如果本地播放器中没有这种情况，但仅在设备上发生：
 
-   * 检查 *该设备上可能有问题的媒体类型* （正在使用），并确认内容是否已成功下载到本地（管理UI清除通道缓存）。
-   * 将任何设 *备日志包含* 在票证中，以便快速进行疑难解答。
-   * *从AEM中* ，从设备收集日志。
+   此外，如果本地播放器中没有发生这种情况，但仅在设备上发生：
+
+   * 检 *查该设备* （正在使用）上可能有问题的媒体类型，并确认内容是否已成功本地下载(管理员UI清除渠道缓存)。
+   * 将任何设 *备日志包* 括在票证中，以便快速进行故障诊断。
+   * *从AEM* 收集设备日志。
 
 
 ## 设备监视 {#device-monitoring}
@@ -40,7 +44,7 @@ source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
 
 1. 如果遇到空白屏幕问题：
 
-   * 检查显示 *器是* 否通电。
-   * 检查计算 *机是否开机* ，并发送信号。
-   * 右键单击、检查和检查适 *用的日志*。
+   * 检查显示 *器* 是否通电。
+   * 检查计算 *机是* 否通电并正在发送信号。
+   * 右键单击、检查和检 *查适用的日志*。
 
