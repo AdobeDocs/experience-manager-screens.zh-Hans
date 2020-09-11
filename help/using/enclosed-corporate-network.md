@@ -2,7 +2,7 @@
 title: 封闭的公司网络
 description: 封闭的公司网络
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## 将AEM Screens播放器连接到直接Internet访问 {#connecting-aem-screens-players}
+## 将AEM Screens播放器连接到直接因特网访问 {#connecting-aem-screens-players}
 
-请按照以下步骤确保此配置中的AEM Screen播放器正确连接：
+请按照以下步骤确保此配置中的AEM屏幕播放器正确连接：
 
-1. 确保每个AEM Screen播放器都连接到路由器网络。
+1. 确保每个AEM屏幕播放器都连接到路由器网络。
 1. 通过在系统浏览器中调用URL来测试Internet连接。
 
    >[!NOTE]
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >**疑难解答提示**
-   >如果AEM Screens连接不正常，并且未显示预期内容：
+   >如果AEM Screens连接不正常，并且不显示预期内容：
    >
    >1. 如果对Internet路由器防火墙有任何限制，请检查 `TCP/IP Port 80/443`。
    >1. 确保允许所有必需的端口。
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 封闭的公司网络设置可以逻辑上分为两个模块：
 
-* 广域网
+* 广域网(WAN)
 * 内部局域网(LAN)。
 
 ### 广域网 {#wan-connection}
 
-除了网络可通性外，因特网连接的性能还必须提供足够的带宽，以便顺利地运行AEM Screens内容更新。
-*足够的带宽* 取决于已连接AEM屏幕的数量以及网络中其他用户（如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络）的使用情况。
+除了网络可通性外，因特网连接的性能还必须提供足够的带宽，才能顺利地运行AEM Screens内容更新。
+*足够的带宽* 取决于连接的AEM屏幕数量以及网络内其他消费者的使用情况，如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络。
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 局域网 {#lan-connection}
 
-局域网(LAN)的性能除了网络可通性外，还必须提供足够的带宽，以便顺利地运行AEM Screens内容更新。
+局域网(LAN)的性能除了网络可通性外，还必须提供足够的带宽才能顺利地运行AEM Screens内容更新。
 
 企业组织内的LAN网络通常至少为1000 MBit/sec网络，因此有足够的带宽将性能良好的许多设备连接到系统。 使用其他活动网络组件时，必须使所有组件都与网络带宽要求相符。
 
@@ -86,7 +86,6 @@ AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保�
 下表提供网络连接密钥数据的概述。
 
 >[!NOTE]
->
 >该信息允许您视图请求和下载因特网源的网络中每台设备的使用情况。 这些请求中的每个请求都会累加并延长下载时间。
 
 ![](/help/using/assets/enclosed-network-download.png)
