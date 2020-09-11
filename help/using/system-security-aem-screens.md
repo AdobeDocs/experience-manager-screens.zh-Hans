@@ -1,10 +1,10 @@
 ---
 title: AEM Screens安全清单
 seo-title: AEM Screens安全清单
-description: 本页介绍了AEM Screens的安全核对清单
-seo-description: 本页介绍了AEM Screens的安全核对清单
+description: 本页介绍了AEM Screens的安全清单
+seo-description: 本页介绍了AEM Screens的安全清单
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -12,10 +12,9 @@ ht-degree: 1%
 ---
 
 
-# AEM Screens的系统安全注意事项 {#security-checklist}
+# AEM Screens的系统安全考虑 {#security-checklist}
 
 >[!IMPORTANT]
->
 >这是内部Git资源。
 
 本页重点介绍AEM Screens的系统安全注意事项。
@@ -28,7 +27,7 @@ ht-degree: 1%
 
 ## AEM Screens安全常见问题解答 {#faqs-screens}
 
-以下常见问题解答假定使用HTTPS作为播放器与AEM Server之间的通信协议的经过身份验证的注册的播放器体系结构。
+以下常见问题解答假定使用HTTPS作为播放器与AEM服务器之间的通信协议的经过身份验证的注册的播放器架构。
 
 ### 常见问题解答1 {#faq1}
 
@@ -98,7 +97,7 @@ AEM Server是否安全？
    1. 并模拟证书客户端
 
 >[!IMPORTANT]
->即使设备已受到破坏，您仍可以轻松撤销其凭据，以便它无法再连接到AEM。
+>即使设备已受到破坏，您仍可以轻松撤销其凭据，以便它不再连接到AEM。
 
 
 
