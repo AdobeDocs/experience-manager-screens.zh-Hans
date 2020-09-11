@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 
 1. 通过AEM **实例** —>锤子图标—>操作—> Web Console **，导航到** Adobe Experience Manager **Web Console** Configuration。
 
-1. **Adobe Experience ManagerWeb控制台配置**打开。 搜索 *deviceservice*。 要搜索属性，请 **按Command** +F( **Mac****)和** Control+F(Windows ****)。
+1. **Adobe Experience ManagerWeb控制台配置** 打开。 搜索 *deviceservice*。 要搜索属性，请 **按Command** +F(适 **用于macOS** )和Control+F（适用于Microsoft Windows）。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ AEM Screens需要触屏UI，并且不能用于Adobe Experience Manager(AEM)的�
 将Java编 ***码设置为*** Unicode。 例如， *Dfile.encoding=Cp1252* 将不起作用。
 
 >[!NOTE]
->
 >**推荐:**
->
 >建议在生产使用中对AEM Screens服务器使用HTTPS。
 
 
