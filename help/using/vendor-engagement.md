@@ -1,26 +1,28 @@
 ---
-title: 供应商参与度
-seo-title: AEM Screens的供应商参与度
-description: 本页介绍了《AEM Screens供应商参与最佳实践指南》
-seo-description: 本页介绍了《AEM Screens供应商参与最佳实践指南》
+title: 供应商参与
+seo-title: AEM Screens的供应商约定
+description: 本页介绍《AEM Screens最佳实践指南供应商参与度》
+seo-description: 本页介绍《AEM Screens最佳实践指南供应商参与度》
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
 
-# 供应商参与度 {#vendor-engagement}
+# 供应商参与 {#vendor-engagement}
 
 >[!NOTE]
->
->此活动的典型利益相关方是A/V集成商。
+>本活动的典型利益相关方是A/V集成商。
 
-在本练习中，务必确定组装和交付网络所需的所有主要供应商以及任何合作伙伴依赖关系：
+在此活动中，必须确定组装和交付网络所需的所有主要供应商以及任何合作伙伴依赖关系：
 
 * 确定所有硬件的供应商，包括显示器、播放器PC、安装和相关外围设备。
 
-* 根据每个供应商支持的产品类别定义其功能和任务。
+* 根据每个供应商支持的产品类别，为其定义功能和任务。
 
-* 确认所 *有交付商的交付提前期* ，并创建一个部署计划，以便从第一个必需安装的所需安装日期开始向后工作的所有提前期都能够满足。
+* 确认所 *有交付* 件的投放提前期，并创建一个部署计划，以便从第一个必需安装的所需安装日期起，所有交货期都可以反向工作。
 
-通过完成以前的所有步骤，我们现在应该拥有一个全面 *的第1天部署计划* ，随时可以执行。
+通过完成以前的所有步骤，我们现在应该拥有一个全面 *的第1天部* 署计划，随时可以执行。
