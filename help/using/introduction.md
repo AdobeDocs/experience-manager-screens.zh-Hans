@@ -4,17 +4,17 @@ seo-title: '[!UICONTROL AEM Screens] 项目的“最佳实践指南”'
 description: 本页面是 AEM Screens 的简介部分
 seo-description: 本页面简要介绍 AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 93%
+ht-degree: 83%
 
 ---
 
 
 # AEM Screens 简介 {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** 是一款数字标牌解决方案，可允许您创作、发布和播放涉及不同类型实地显示屏幕的动态交互式数字体验，以便与全方位的数字营销策略相呼应。
+**AEM(Adobe Experience Manager)Screens是一款数字标牌解决方案** ，它允许您创作、发布和播放动态的交互式数字体验，这些体验涉及不同类型的场内展示屏，并采用全面的全渠道数字营销战略。
 
 AEM Screens 允许您创建：
 
@@ -53,12 +53,11 @@ AEM Screens 可提供统一的创作/播放平台，用于将内容部署到公�
 
 * **媒体循环分段**：将每个播放器设备配置为使用其自身的循环区段，这可以确保在整个数字体验中都能轻松创作、发布和播放本地化内容。将嵌入式序列渠道中包含的媒体资产添加到前一循环区段，并为每个位置分组提供以媒体循环区段为目标的机会。
 
-* **交互式体验**：可运用 AEM 和 SPA 编辑器，在 Screens 渠道中创作并交付支持触屏的 kiosk 应用。最佳做法是：应用一致的全方位渠道设计属性，选用非活动计时器来重置相关体验，并针对应用程序可以执行的任务，采取明确的调用操作。登陆页面应当由关键的数字元素组成，这些元素旨在传递价值、吸引用户访问屏幕并提示用户参与。
+* **交互式体验**：可运用 AEM 和 SPA 编辑器，在 Screens 渠道中创作并交付支持触屏的 kiosk 应用。最好应用一致的全渠道设计属性、不活动计时器来重置体验以及明确的行动号召，让应用程序能够执行哪些任务。 登陆页面应当由关键的数字元素组成，这些元素旨在传递价值、吸引用户访问屏幕并提示用户参与。
 
-AEM Screens 提供了一个框架，可以将内容部署到实体设备。包括媒体内容或触屏应用在内的内容，将会分配给 Screens 中的“渠道”。在此框架中，AEM Sites应用程序可以作为内容通过渠道交付。
+AEM Screens 提供了一个框架，可以将内容部署到实体设备。包括媒体内容或触屏应用在内的内容，将会分配给 Screens 中的“渠道”。在此框架内，AEM Sites应用程序可以作为内容通过渠道交付。
 
-在Screens中放入渠道之前，必须对AEM Sites进行格式化，以便在其要使用的显示设备的尺寸中使用。
+在Screens中放入渠道之前，AEM Sites必须格式化以用于其所针对的显示设备的尺寸。
 
 >[!NOTE]
->
 >许多 AEM Sites 组件与 AEM Screens 并不兼容。AEM Screens 附带了许多现成的组件，您无需自定义即可构建数字体验。如果项目要求允许，请尽可能使用内置的 AEM Screens 功能。
