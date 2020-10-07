@@ -6,7 +6,7 @@ seo-description: 可查看本页以获取与AEM Screens项目相关的常见问�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 2%
@@ -129,7 +129,7 @@ ChromeOS播放器可以在开发人员模式下作为Chrome浏览器插件安装
 
 Windows播放器中没有窗口模式。 始终为全屏模式。
 
-### 5.如果Screens播放器连续发送请求登录请求，如何进行疑难解答？{#requests-login}
+### 5.如果AEM Screens播放器连续发送登录请求，如何进行故障诊断？{#requests-login}
 
 请按照以下步骤对连续发送请求的AEM Screens播放器进行故障 `/content/screens/svc.json` 诊断， `/libs/granite/core/content/login.validate/j_security_check`并：
 
