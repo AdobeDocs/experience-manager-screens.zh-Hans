@@ -6,7 +6,7 @@ seo-description: 可查看本页以了解如何将过渡应用于Screens项目�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 ## 将过渡组件添加到渠道中的资产 {#adding-transition}
 
-请按照以下步骤将过渡组件添加到AEM Screens项目：
+请按照以下步骤将过渡组件添加到您的AEM Screens项目：
 
 >[!NOTE]
 >
 >**前提条件**
 >
-> 创建具有AEM Screens **测试**&#x200B;转换的渠道 **项目TestProject**。 此外，还可设置一个位置和一个显示器以视图输出。
+>创建一个具有 **渠道** TestTransition **的AEM Screens项**&#x200B;目TestProject。 此外，还可设置一个位置和一个显示器以视图输出。
 
 1. 导航到渠道 **TestTransition** ，然 **后单** 击操作栏中的“编辑”。
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >默认情况下，过渡组件(如Type **** )的属性设 **置为** Fade **,Duration** (持续时 *间)*&#x200B;设置为1600毫秒。  此外，不建议设置比资产所应用的过渡持续时间长的持续时间。
+   >默认情况下，过渡组件(如Type **** )的属性设 **置为** Fade **,Duration** (持续时 *间)设*&#x200B;置为1600毫秒。  此外，不建议设置比资产所应用的过渡持续时间长的持续时间。
 
 1. 此外，如果向此渠道 **编辑器添加嵌入式序列** (包括序列渠道)，则可以在结尾处添加过渡组件，以便按顺序播放内容，如下图所示：
 
