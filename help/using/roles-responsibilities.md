@@ -4,7 +4,7 @@ seo-title: AEM Screens项目角色和责任
 description: 本页介绍AEM Screens项目角色和责任
 seo-description: 本页介绍AEM Screens项目角色和责任
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 7%
@@ -92,14 +92,14 @@ AV集成商负责与最终客户进行发现，以定义要求，确定项目范
 为了支持成功的数字标牌部署，通常将项目分为3个阶段。  这些阶段通常称为 **天数**。 这些不是实际的日期，而是项目每个主要阶段的指定。
 
 1. 第一阶段称为 *零日*。 本阶段包括完全定义项目范围所需的所有售前和发现工作。
-
 1. 第二个阶段 *，第一天*，指部署工作中包括的所有活动。
-
 1. 第三个也是最后一 *个阶段第* 2天将所有正在进行的操作和支持要素作为整个解决方案的一部分。
 
 >[!NOTE]
 >
->虽然本指南着重介绍&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功地创建数字标记项目。观看有关项目管理 **[和部署的其他视频](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** ，了解项目前期制作、项目启动和项目进展。
+>虽然本指南着重介绍&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功地创建数字标记项目。
+>
+>观看有关项目管理 **[和部署的其他视频](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** ，了解项目前期制作、项目启动和项目进展。
 
 ## RACI图表 {#raci-chart}
 
