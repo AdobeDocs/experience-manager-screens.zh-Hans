@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ ht-degree: 1%
 ![图像](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >以下特定示例将google工作表显示为一个数据存储，如果该值高于100或小于50，则该数据存储将触发资产更改。
 
 ## 第2步：设置存储配置 {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ ht-degree: 1%
       ![图像](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >作为AEM 6.5 Feature Pack 4或AEM 6.4 Feature Pack 8的一部分，客户应更新 `/conf/screens/settings/cloudsettings` 至 `sling:Folder`。
-      > 
+      >
       >应遵循以下步骤：
       >
       >1. 导航到CRXDE Lite，然后导航到 `/conf/screens/settings/cloudsettings`。
       >1. 检查是 `cloudsettings jcr:primaryType` 否在 `sling:Folder`中。 如果未 `jcr:primaryType` 在，请 `sling:folder`继续执行后续步骤。
-      > 1. 右键单 `/conf/screens/settings` 击并创建一个名 *称为* cloudsettings1的新节点 **,** 类型为 *sling* :Folder **** ，并保存更改。
+      >1. 右键单 `/conf/screens/settings` 击并创建一个名 *称为* cloudsettings1的新节点 **,** 类型为 *sling* :Folder **** ，并保存更改。
       >1. 将下面的所有节点移 `/conf/screens/settings/cloudsettings` 动到 `cloudsettings1`。
       >1. 删除 `cloudsettings` 并保存。
       >1. 重命名 `cloudsettings1` 为 `cloudsettings` 并保存。
       >1. 您现在应观察/conf/screens/settings/cloudsettings的 `jcr:primaryType` 身份 `sling:Folder`。
-您应按照创作步骤操作，并在升级前后发布。
 
+      >
+      >您应按照创作步骤操作，并在升级前后发布。
 
    1. 在标题中 **输入** Google Sheets、Store Store Name **(** Google Sheets、 **Google Sheets、Type StoreAs****************** Conthub.Jsonp类和单击Nexit GoogleSheets Sheets、Google Store Store名称)。
 
@@ -116,8 +119,6 @@ ht-degree: 1%
       >如果您使用Adobe Experience Manager(AEM)6.4，请将“配 **置标题** ”输 **入为****googlesheets** ，将“类型 **”输入**&#x200B;为contexthub.generic-jsonp存储。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的并单击“保 **存** ”，您将在ContextHub配置中看到标题 **为Google Sheets** 的存储配置。
 
@@ -142,10 +143,11 @@ ht-degree: 1%
 
       >[!NOTE]
       在上述示例代码 **中** ,pollInterval定义刷新值的频率（毫秒）。
-将代码替换 *为您在设置Google* Sheets *时获取的&lt;Sheet ID>和*&lt;API Key>。
+      将代码替换 *为您在设置Google* Sheets *时获取的&lt;Sheet ID>和*&lt;API Key>。
 
       >[!CAUTION]
       如果您在全局文件夹（例如您自己的项目文件夹中）之外创建Google工作表存储配置，则定位将不会立即生效。
+
 
 1. **设置商店分段**
 
