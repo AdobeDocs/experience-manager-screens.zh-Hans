@@ -3,17 +3,10 @@ title: 创建和管理渠道
 seo-title: 管理渠道
 description: 可查看本页以了解有关创建和管理渠道的信息。本页还介绍了渠道功能板，以及如何编辑渠道的内容。
 seo-description: 可查看本页以了解有关创建和管理渠道的信息。本页还介绍了渠道功能板，以及如何编辑渠道的内容。
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1326'
 ht-degree: 42%
 
 ---
@@ -21,9 +14,9 @@ ht-degree: 42%
 
 # 创建和管理渠道 {#creating-and-managing-channels}
 
-渠道可显示一系列内容以及显示图像和视频，但也可显示网站或单页应用程序。
+渠道显示一系列内容（图像和视频），还显示网站或单页应用程序。
 
-本页显示了如何为 Screens 创建和管理渠道。
+本页显示了如何为AEM Screens创建和管理渠道。
 
 **先决条件**：
 
@@ -34,7 +27,7 @@ ht-degree: 42%
 
 为AEM Screens创建项目后，请按照以下步骤为项目创建新渠道:
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到： `https://localhost:4502/screens.html/content/screens`.
+1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到 `https://localhost:4502/screens.html/content/screens`。
 
 1. 导航到您的Screens项目并选择 **渠道** 文件夹。
 
@@ -80,9 +73,6 @@ ht-degree: 42%
 
 您可以编辑、复制、预览和删除渠道，以及查看渠道属性和功能板。
 
->[!NOTE]
->
->选择渠道，如下图所示。
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ ht-degree: 42%
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. 此时会打开编辑器，您可以在其中将资产/组件添加到要发布的渠道。
 
 >[!NOTE]
->
 >您可以向渠道添加组件。 有关更多 **[详细信息，请参阅将组件](adding-components-to-a-channel.md)** 添加到渠道。
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 您可以从视图仪表板渠道清单。
 
 >[!IMPORTANT]
->
 >此选项仅在AEM 6.4 Feature Pack 8或AEM 6.5 Feature Pack 4中可用。
 
 按照以下步骤从渠道仪表板启用此选项：
@@ -155,7 +143,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
    1. 导航到 **渠道信息** 面板，然后 *单击……*
    1. 单击“ **更新脱机内容”**
 
-现在，您应该可以从视图 **仪表板的** “渠道信 **息”面板中查** 看“渠道清单”选项。
+您应当从视图 **仪表板** 的“渠道信 **息”面板中看** 到“渠道清单”选项。
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 ### 联机和脱机渠道 {#online-and-offline-channels}
 
 >[!NOTE]
->
->默认情况下，创建渠道时，渠道为脱机。
+>默认情况下，创建渠道时，它为“脱机”。
 
 创建渠道时，可以将其定义为联机渠道或脱机渠道。
 
@@ -197,7 +184,6 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >如果要将渠道再次配置为脱机，请取消选中“属性”选项卡(如 **第** 3步所示)中的“开发者模式”选项，然后从“渠道信息”面板中单击“更新脱机内容 **”，如******&#x200B;下图所示。
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,7 +237,6 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
 >要了解如何在位置创建显示屏，请参阅：
 >
 >* [创建和管理位置](managing-locations.md)
