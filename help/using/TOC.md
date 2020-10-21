@@ -1,16 +1,16 @@
 ---
 user-guide-title: AEM Screens 项目的“最佳实践指南”
-breadcrumb-title: AEM Screens 指南
+breadcrumb-title: AEM Screens最佳实践指南
 solution-title: AEM Screens
 getting-started-title: AEM Screens最佳实践指南
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
+source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '138'
+ht-degree: 71%
 
 ---
 
