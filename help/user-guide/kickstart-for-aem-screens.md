@@ -3,9 +3,9 @@ title: 踢球指南
 seo-title: 踢球指南
 description: 可查看本页以创建演示AEM Screens项目。 它可帮助您创建从安装和设置新项目开始的数字标牌体验，以便在AEM Screens播放器中查看您的内容。
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 5%
 
 # 踢球指南 {#kickstart-guide}
 
-本部分是AEM Screens的启动，并演示如何设置和运行AEM Screens项目。 它指导您设置基本的数字标牌体验，向每个渠道添加资产和／或视频等内容，并进一步将内容发布到AEM Screens播放器。
+AEM Screens项目启动演示了如何设置和运行AEM Screens项目。 它指导您设置基本的数字标牌体验，向每个渠道添加资产和／或视频等内容，并进一步将内容发布到AEM Screens播放器。
 
 >[!NOTE]
->在开始处理项目详细信息之前，请确保已安装最新的功能包。 您可以使用您的AEM Screens从软件分发门户下载Adobe ID6.5.5版 [的最新功能](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 包。
+>在开始处理项目详细信息之前，请确保您已安装最新的AEM Screens功能包。 您可以使用您的Adobe ID从软件分发 [门户下载最](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 新的功能包。
 
 ## 前提条件 {#prerequisites}
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >**OSGi配置设置**
->您需要启用空推荐人才能允许设备向服务器发布数据。 例如，如果禁用了空推荐人属性，则设备将无法发布屏幕截图。 目前，其中一些功能仅在OSGi配置中启用了Apache Sling推荐人过滤器允许空时才可用。 仪表板可能会显示警告，指出安全设置可能会阻止某些功能正常工作。
+>必须启用空推荐人才能允许设备向服务器发布数据。 例如，如果禁用了空推荐人属性，则设备将无法发布屏幕截图。 目前，其中一些功能仅在OSGi配置中启用了Apache Sling推荐人过滤器允许空时才可用。 仪表板可能会显示警告，指出安全设置可能会阻止某些功能正常工作。
 >请按照以下步骤启用Apache ***Sling推荐人过滤器允许空***:
 
 
@@ -47,12 +47,11 @@ ht-degree: 5%
 
 1. 单击 **“保存** ”以启用Apache Sling推荐人过滤器“允许为空”。
 
-
 ## 在5分钟内创建数字标牌体验 {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-第一步是创建一个新的AEM Screens项目。
+第一步是创建一个AEM Screens项目。
 
 1. 导航到您的Adobe Experience Manager(AEM)实例，然后单击“屏 **幕”**。 或者，您也可以直接从中导 `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`航。
 
@@ -63,35 +62,34 @@ ht-degree: 5%
    >[!NOTE]
    >创建项目后，它将您带回到“Screens项目”主页。 现在，您可以选择自己的项目。在项目中，有五个不同的文件夹，标题 **为** Applications ****、 **渠道****、**&#x200B;设备、位 **置、**&#x200B;和计划。
 
-
 ### 创建渠道 {#creating-channel}
 
-项目就位后，您需要创建新渠道来管理内容。
+创建AEM Screens项目后，您需要创建新渠道来管理内容。
 
 请按照以下步骤为项目创建新渠道:
 
-1. 创建项目后，选择 **DemoScreens项** 目 **，然后选择**&#x200B;渠道文件夹，如下图所示。 Click **+ Create** from the action bar.
+1. 创建项目后，选择 **DemoScreens项** 目 **，然后选择** 渠道文件夹，如下图所示。 Click **+ Create** from the action bar.
 
    ![图像](assets/kickstart/demo-2.png)
 
 1. 从向导 **中选择序列渠道** ，然后单击“下 **一步”**。
    ![图像](assets/kickstart/demo-3.png)
 
-1. Enter the **Title** as *TestChannel* and click **Create**.
+1. Enter the **Title** as **TestChannel** and click **Create**.
 
    ![图像](assets/kickstart/demo-4.png)
 
-   将 *创建TestChannel* 并将其添加到您的渠道文件夹，如下图所示。
+   现 **在将** TestChannel添加到您的渠道文件夹，如下图所示。
 
    ![图像](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
-渠道就位后，您需要向渠道添加内容，Screens播放器将显示这些内容。
+渠道就位后，您需要向渠道添加AEM Screens播放器将显示的内容。
 
-请按照以下步骤将内容添加到项&#x200B;*目渠道*(TestChannel):
+请按照以下步骤将内容添加到项&#x200B;**目渠道**(TestChannel):
 
-1. Navigate to the **DemoProject** you created and select the **Channels** folder.
+1. Navigate to the **DemoProject** you created and select the **TestChannel** from the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the **TestChannel** opens.
 
@@ -118,7 +116,7 @@ ht-degree: 5%
 
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
+1. Enter the **Name** for your location (enter the title as **TestLocation**) and click **Create**.
 
 将创 **建TestLocation** 并将其添加到您的 **Locations** 文件夹。
 
@@ -128,7 +126,7 @@ ht-degree: 5%
 创建位置后，您需要为位置创建新显示屏。
 
 >[!NOTE]
->***显示*** ，代表在一个或多个屏幕上运行的数字体验。
+>***Display*** 表示在一个或多个屏幕上运行的数字体验。
 
 1. 导航到 **TestLocation** 并选择它。
 
@@ -213,7 +211,7 @@ ht-degree: 5%
 
    ![图像](assets/kickstart/demo-register2.png)
 
-1. 等待设备发送其注册代码，同时从Chrome设 **备检查** “注册代码”。
+1. 等待设备发送其注册代码，并同时从 **Chrome设备** 检查注册代码。
    ![图像](assets/kickstart/demo-register3.png)
 
 1. 如果注 **册代码** （在两台计算机上）相同 **，请点按／单击AEM** 中的验证。
@@ -234,9 +232,7 @@ ht-degree: 5%
 
    ![图像](assets/kickstart/demo-register8.png)
 
-1. Tap/click **Finish** to complete the registration process.
-
-1. 您应该能够从显示视图中仪表板注册的设备。
+1. Tap/click **Finish** to complete the registration process. 您应该能够从显示视图中仪表板注册的设备。
 
    ![图像](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ ht-degree: 5%
 恭喜您正在AEM Screens渠道中播放内容！
 
 ![图像](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
