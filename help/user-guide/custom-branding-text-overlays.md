@@ -5,9 +5,9 @@ description: 可查看本页以了解如何为文本叠加应用自定义品牌�
 seo-description: 可查看本页以了解如何为文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 文本叠加的自定义品牌和样式 {#creating-custom-branding-styling}
 
-可查看本页，了解如何在“屏幕”渠道中将应用于您的资源的文本叠加的自定义品牌和样式应用。
+可查看本页，了解如何在AEM Screens渠道将应用于您的资源的自定义品牌和文本叠加样式应用到该资源。
 
 ## 为文本叠加创建自定义品牌和样式 {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ ht-degree: 1%
 
 1. 单击 **保存并关闭** ，以更新设计路径。
 
->[!IMPORTANT]
->
->默认情况下，您可以选择叠加现有的Screens模板以插入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
+   >[!IMPORTANT]
+   >默认情况下，您可以选择叠加现有的Screens模板以插入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
 
 1. 要覆盖现有Screens模板以在默认情况下注入您自己的设计，请执行以下操作：
 
@@ -129,7 +128,7 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-参阅本教程，您现在可以更新添加到资源的文本叠加的品牌和自定义样式。
+   现在，您可以更新添加到资源的文本叠加的品牌和自定义样式。
 
 
 
