@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 1%
@@ -36,11 +36,11 @@ ht-degree: 1%
 >[!NOTE]
 >如果您使用的是AEM Screens6.5.5 Service Pack，则必须为Android播放器设置环境。
 
-在所有AEM **作者和发布实例上，** 将Lax的登录令牌Cookie **的SameSite属** 性 **设置为None** ，从 **Adobe Experience ManagerWeb ConsoleConfiguration** 中将登录令牌Cookies设置为SameSite属性。
+在所有AEM **作者和发布实例上** ，将登录令牌Cookie **从Lax** 设置为None **从** Adobe Experience ManagerWeb控制台 **Configuration中的登录令牌Cookie的** SameSite属性。
 
 应遵循以下步骤：
 
-1. 使用导航 **到Adobe Experience ManagerWeb控制台** Configuration `http://localhost:4502/system/console/configMgr`。
+1. 使用导航 **到Adobe Experience ManagerWeb控制台配置**`http://localhost:4502/system/console/configMgr`。
 
 1. 搜索 *AdobeGranite令牌身份验证处理程序*。
 
