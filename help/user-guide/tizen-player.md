@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本页介绍Tizen Player的安装和工作。
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 1. 获取本地计算机的IP地址。
 
    >[!NOTE]
-   >对于 **终端** 中 **的Mac** 和Windows `ifconfig` 类型命令。
+   >在计算机的终端中，键入以下命令：
+   >**Mac** use命令 `ifconfig`
+   >**Windows**，使用命令 `ipconfig`
 
 1. 从终端，导航到解压缩的安装程序文件夹的同一目录，并验证localhost是否正在工作。
 
