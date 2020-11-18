@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本页介绍Tizen Player的安装和工作。
 translation-type: tm+mt
-source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
+source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,17 @@ ht-degree: 0%
 
 1. 从本地计算机安装Tizen播放器(.zip)文件。
 
+## 设置本地服务器并解压Zip文件 {#setting-local-server}
+
+请按照以下步骤设置本地服务器并复制解压缩的文件：
+
 1. 获取本地计算机的IP地址。
 
    >[!NOTE]
-   >在计算机的终端中，键入以下命令：
-   >**Mac** use命令 `ifconfig`
-   >**Windows**，使用命令 `ipconfig`
+   >您可以通过键入以下命令从计算机的终端获取IP地址：
+   >* **Mac**: `ifconfig`
+   >* **Windows**: `ipconfig`
+
 
 1. 从终端，导航到解压缩的安装程序文件夹的同一目录，并验证localhost是否正在工作。
 
@@ -36,14 +41,14 @@ ht-degree: 0%
 
 1. 将两个解压文件 `AEMScreensPlayer.wgt` 复制 `sssp_config.xml` 到 `/Library/WebServer/Documents`。
 
-### SamSung设备上的配置更新 {#config-updates}
+### 在Samsung设备上配置更新 {#config-updates}
 
 按照Samsung设备上的以下步骤在设备上完成AEM Screens播放器的安装：
 
-1. 单击Samsung **Remote** 中的“主页”按钮。
-1. 从“ **设置** ”中选择 **URL启动器**。
-1. 从“开 **发人员** ”模式中选择“远程”。
-1. 安装Web应用程序并输入计算机的IP地址。
-AEM Screens播放器应自动安装在Samsung设备上。
+1. 转到Samsung设备并指向本地主机服务器。
+1. 从“ **设置** ”中选 **择** “URL启动器设置”，然后输入本地主机服务器的IP地址。
+1. 安装Web应用程序。
+1. 从“开 **发人员** ”模式 **中选择“远程**”。
+1. 现在，AEM Screens播放器应自动安装在您的Samsung设备上。
 
 
