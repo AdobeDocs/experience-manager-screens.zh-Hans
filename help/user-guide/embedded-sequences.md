@@ -21,7 +21,7 @@ ht-degree: 41%
 
 # 嵌入式序列 {#embedded-sequences}
 
-Using ***Embedded Sequences***, for channels, allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
+对于渠道，使用&#x200B;***嵌入式序列***&#x200B;允许用户在父渠道中添加组件，还可以重复使用不同渠道中的内容并将其嵌入到父渠道中。
 
 ## 添加嵌入式序列 {#adding-embedded-sequences}
 
@@ -34,27 +34,27 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 >
 >要了解如何在 Screens 项目中使用其他组件，请参阅[向渠道添加组件](adding-components-to-a-channel.md)。
 
-### 添加嵌入式序列 {#adding-an-embedded-sequence}
+### 添加嵌入式序列  {#adding-an-embedded-sequence}
 
 您可以将嵌入式序列添加到渠道中。嵌入式序列是包含图像或视频等资产的另一个渠道。 添加嵌入式序列时，用户可以按“渠道路径”******&#x200B;将序列添加到渠道。
 
 >[!NOTE]
->***Channel Path*** defines an explicit reference to the channel.
+>***渠道路径***定义对渠道的显式引用。
 >要了解“渠道路径”**&#x200B;的更多信息，请参阅“创作屏幕”中的[渠道分配](channel-assignment.md)。
 
 请按照以下步骤向您的渠道中添加嵌入式序列：
 
-1. 选择要嵌入页面的渠道。For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
+1. 选择要嵌入页面的渠道。例如，**We.Retail In-Store** —> **渠道** —> **空闲渠道**。
 
-1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 单击左侧栏中的组件图标以添加嵌入式页面。Drag and drop the **Embedded Sequence** to the editor.
-1. Double-click the **Embedded Sequence** component to add the channel to your original sequence channel.
-1. Select the **Channel Path** of the channel.
-1. Select the **Duration (ms)** for your embedded channel in the **Sequence** tab. By default, the duration is set to **-1**, that means embedded channel is fully run. 如果用户指定持续时间，那么子序列将在指定的时间中断（即截断）。
+1. 单击操作栏中的&#x200B;**编辑**&#x200B;以在编辑器模式下打开渠道。
+1. 单击左侧栏中的组件图标以添加嵌入式页面。将&#x200B;**嵌入式序列**&#x200B;拖放到编辑器中。
+1. 多次-单击&#x200B;**嵌入式序列**&#x200B;组件，将渠道添加到原始序列渠道。
+1. 选择渠道的&#x200B;**渠道路径**。
+1. 在&#x200B;**序列**&#x200B;选项卡中，为嵌入式渠道选择&#x200B;**持续时间(ms)**。 默认情况下，持续时间设置为&#x200B;**-1**，这意味着嵌入式渠道已完全运行。 如果用户指定持续时间，那么子序列将在指定的时间中断（即截断）。
 
-1. 将“按量 **收费播放策略** ”设 **置为正常**。
+1. 将“**按量收费播放策略**”设置为“**normal**”。
 
-By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+默认情况下，它设置为&#x200B;**normal**。 将值设置为&#x200B;**normal**（播放所有项目）表示子序列将在父序列的每个周期上完全运行。 另一个可能值是&#x200B;**播放单个项**（播放单个项），它将仅在每次运行时显示子序列的一个项（例如，第一个循环上的第一个项，第二个循环上的第二个项，依此类推）。
 
 >[!IMPORTANT]
 >
@@ -62,19 +62,19 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 >
 >在前面的步骤中将嵌入式序列添加到渠道后，请按照以下步骤操作：
 >
->1. 导航到显示屏，然后从“位置”文件夹 **中选** 择显示屏。
->1. 单击操 **作栏** 中的仪表板，导航到显示仪表板。
->1. 从“已 **分配的渠道** ”和“计划的 **面板”中选择** + “分配渠道”以打开“ **渠道分配”对话框**。
+>1. 导航到显示屏，然后从&#x200B;**位置**&#x200B;文件夹中选择显示屏。
+>1. 单击操作栏中的&#x200B;**仪表板**&#x200B;以导航到显示仪表板。
+>1. 从&#x200B;**已分配的渠道和计划的面板**&#x200B;中选择&#x200B;**+分配渠道**&#x200B;以打开&#x200B;**渠道分配对话框**。
 
    >
    >
-1. 选择您（在嵌入式序列中使用）在渠道路径中的 **渠道路径**。
->1. 确保优先级 **低于** 主渠道。
+1. 在&#x200B;**渠道路径**&#x200B;中选择您（在嵌入式序列中使用）的渠道路径。
+>1. 确保&#x200B;**优先级**&#x200B;低于主渠道。
 
    >
    >
-1. 您不得选择任何受支 **持的事件**。
->1. 完成 **后** ，单击保存。
+1. 您不得选择任何&#x200B;**支持的事件**。
+>1. 完成后，单击&#x200B;**保存**。
 
 >
 
@@ -96,17 +96,17 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 
 请按照以下步骤向您的渠道中添加嵌入式序列：
 
-1. 选择要嵌入动态序列的渠道。For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
+1. 选择要嵌入动态序列的渠道。例如，**We.Retail In-Store** —> **渠道** —> **空闲渠道**。
 
-1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. 单击左侧栏中的组件图标以添加动态嵌入式序列。Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
+1. 单击操作栏中的&#x200B;**编辑**&#x200B;以在编辑器模式下打开渠道。
+1. 单击左侧栏中的组件图标以添加动态嵌入式序列。将&#x200B;**Dynamic** **嵌入式序列**&#x200B;拖放到编辑器中。
 
-1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
+1. 多次-单击&#x200B;**Dynamic** **嵌入式序列**&#x200B;组件，将页面添加到序列渠道。
 
-1. Enter the **Channel Assignment Role**.
-1. 将“按量 **收费播放策略** ”设 **置为正常**。 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. 输入&#x200B;**渠道分配角色**。
+1. 将“**按量收费播放策略**”设置为“**normal**”。 默认情况下，它设置为&#x200B;**normal**。 将值设置为&#x200B;**normal**（播放所有项目）表示子序列将在父序列的每个周期上完全运行。 另一个可能值是&#x200B;**播放单个项**（播放单个项），它将仅在每次运行时显示子序列的一个项（例如，第一个循环上的第一个项，第二个循环上的第二个项，依此类推）。
 
-1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
+1. 在&#x200B;**序列**&#x200B;选项卡中，为序列中的嵌入式渠道选择&#x200B;**持续时间(ms)**。
 
 ![最新](assets/latest.gif)
 
