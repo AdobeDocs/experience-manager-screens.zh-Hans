@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# 创作和发布架构概述 {#author-and-publish-architectural-overview}
+# 作者和发布体系结构概述{#author-and-publish-architectural-overview}
 
 本页重点介绍以下主题：
 
@@ -48,18 +48,18 @@ AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者�
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## 建筑设计 {#architectural-design}
+## 架构设计{#architectural-design}
 
 有五个体系结构组件，为此解决方案提供了便利：
 
-* ***将内容从作者*** 复制到发布，以供设备显示
+* ***将内*** 容从作者复制到发布以供设备显示
 
-* ***将二进制内容*** 从发布（从设备接收）反向复制到创作
-* ***通过特*** 定REST API将命令从作者发送到发布
-* ***发布实例*** 之间的消息传递可同步设备信息更新和命令
-* ***发布实*** 例作者通过轮询通过特定REST API获取设备信息
+* ***将二*** 进制内容从发布（从设备接收）还原到创作
+* ***通*** 过特定REST API发送从作者到发布的命令
+* ***在发*** 布实例之间发送消息以同步设备信息更新和命令
+* ***发布*** 实例作者通过特定REST API进行轮询以获取设备信息
 
-### 内容和配置的复制（转发）  {#replication-forward-of-content-and-configurations}
+### 内容和配置的复制（转发）{#replication-forward-of-content-and-configurations}
 
 标准复制代理用于复制屏幕渠道内容、位置配置和设备配置。 这允许作者更新渠道的内容，并在发布渠道更新之前有选择地执行某种批准工作流。 需要为发布场中的每个发布实例创建复制代理。
 
@@ -71,36 +71,36 @@ AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者�
 >
 >需要为发布场中的每个发布实例创建复制代理。
 
-### 屏幕复制代理和命令  {#screens-replication-agents-and-commands}
+### 屏幕复制代理和命令{#screens-replication-agents-and-commands}
 
 创建特定于Custom Screens的复制代理，以将命令从Author实例发送到AEM Screens设备。 AEM发布实例用作将这些命令转发到设备的中介。
 
 这允许作者继续管理设备，如发送设备更新并从创作环境获取屏幕截图。 AEM Screens复制代理具有自定义传输配置，如标准复制代理。
 
-### 发布实例之间的消息传递  {#messaging-between-publish-instances}
+### 发布实例{#messaging-between-publish-instances}之间的消息传递
 
 在很多情况下，命令仅一次发送到设备。 但是，在负载平衡发布架构中，未知设备正在连接到哪个发布实例。
 
-因此，作者实例会将消息发送到所有Publish实例。 但是，应仅将一条消息中继到设备。 为确保正确的消息传递，必须在发布实例之间进行一些通信。 这是使用Apache *ActiveMQ Artemis实现的*。 每个发布实例都使用基于Oak的Sling发现服务放置在松耦合的拓扑中，并配置ActiveMQ，以便每个发布实例能够通信并创建一个消息队列。 Screens设备通过负载平衡器轮询发布场并从队列顶部选取命令。
+因此，作者实例会将消息发送到所有Publish实例。 但是，应仅将一条消息中继到设备。 为确保正确的消息传递，必须在发布实例之间进行一些通信。 这是使用&#x200B;*Apache ActiveMQ Artemis*&#x200B;实现的。 每个发布实例都使用基于Oak的Sling发现服务放置在松耦合的拓扑中，并配置ActiveMQ，以便每个发布实例能够通信并创建一个消息队列。 Screens设备通过负载平衡器轮询发布场并从队列顶部选取命令。
 
-### 反向复制 {#reverse-replication}
+### 反向复制{#reverse-replication}
 
-在很多情况下，在执行命令后，Screens设备会有某种响应被转发到作者实例。 为了实现此AEM ***Reverse复制*** 。
+在很多情况下，在执行命令后，Screens设备会有某种响应被转发到作者实例。 为了实现此AEM ***，使用反向复制***。
 
 * 为每个发布实例创建一个反向复制代理，类似于标准复制代理和屏幕复制代理。
 * 工作流启动器配置监听在发布实例上修改的节点，进而触发将设备响应放在发布实例的发件箱中的工作流。
 * 此上下文中的反向复制仅用于设备提供的二进制数据（如日志文件和屏幕截图）。 非二进制数据通过轮询来检索。
 * 从AEM作者实例反向轮询复制会检索响应并将其保存到作者实例。
 
-### 发布实例轮询  {#polling-of-publish-instances}
+### 发布实例的轮询{#polling-of-publish-instances}
 
 创作实例需要能够轮询设备以获得心跳并了解已连接设备的运行状况。
 
-设备ping负载平衡器并路由到发布实例。 随后，发布实例会通过Publish API公开设备状态，该API提供@ **api/screens-dcc/devices** /static **,** api/screens-dcc/devices/&lt;device_id>/status.json用于单个设备。
+设备ping负载平衡器并路由到发布实例。 随后，发布实例通过在&#x200B;**api/screens-dcc/devices/static**&#x200B;为所有活动设备提供的Publish API和&#x200B;**api/screens-dcc/devices/&lt;device_id>/status.json**&#x200B;为单个设备提供的Publish API来公开设备状态。
 
-作者实例将轮询所有发布实例，并将设备状态响应合并为单个状态。 对作者进行轮询的计划作 `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` 业是基于cron表达式配置的。
+作者实例将轮询所有发布实例，并将设备状态响应合并为单个状态。 对作者进行轮询的计划作业为`com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob`，可基于cron表达式进行配置。
 
-## 注册 {#registration}
+## 注册{#registration}
 
 注册仍源于AEM作者实例。 AEM Screens设备指向作者实例并完成注册。
 
@@ -110,4 +110,4 @@ AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者�
 
 ### 后续步骤 {#the-next-steps}
 
-了解AEM Screens的作者架构设计和出版设置后，请参阅为AEM Screens配 [置作者和发布](author-and-publish.md) ，了解更多详细信息。
+了解AEM Screens的作者架构设计和出版设置后，请参阅[为AEM Screens配置作者和发布](author-and-publish.md)以了解更多详细信息。
