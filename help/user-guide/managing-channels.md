@@ -27,23 +27,23 @@ ht-degree: 42%
 
 为AEM Screens创建项目后，请按照以下步骤为项目创建新渠道:
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到 `https://localhost:4502/screens.html/content/screens`。
+1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到`https://localhost:4502/screens.html/content/screens`。
 
-1. 导航到您的Screens项目并选择 **渠道** 文件夹。
+1. 导航到您的Screens项目并选择&#x200B;**渠道**&#x200B;文件夹。
 
 1. 单击操作栏中的&#x200B;**创建**。
 
    ![demochannel](assets/create-channel1.png)
 
-1. 从创建 **向导中** ，选择序列 **渠道** 模板，然 **后单击**“下一步”。
+1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**序列渠道**&#x200B;模板，然后单击&#x200B;**下一步**。
 
    ![demochannel](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. 在标题中输入&#x200B;**ScreensChannel**&#x200B;并单击&#x200B;**创建**。
 
    ![demochannel](assets/create-project4.png)
 
-1. 现在，序列渠道已添加到您的 **渠道** 文件夹。
+1. 现在，序列渠道已添加到&#x200B;**渠道**&#x200B;文件夹。
 
 ### 渠道类型 {#channel-types}
 
@@ -69,7 +69,7 @@ ht-degree: 42%
 >
 > 在创建渠道并向渠道中添加内容后，下一步是创建位置，之后是创建显示屏。此外，您还需要将该渠道分配到显示屏。请参阅此部分末尾的资源以了解更多信息。
 
-## 使用渠道 {#working-with-channels}
+## 使用渠道  {#working-with-channels}
 
 您可以编辑、复制、预览和删除渠道，以及查看渠道属性和功能板。
 
@@ -81,10 +81,10 @@ ht-degree: 42%
 要在渠道中添加或编辑内容，请按照以下步骤操作：
 
 1. 选择要编辑的渠道（如上图所示）。
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. 此时会打开编辑器，您可以在其中将资产/组件添加到要发布的渠道。
+1. 单击操作栏左上角的&#x200B;**编辑**&#x200B;以编辑渠道属性。 此时会打开编辑器，您可以在其中将资产/组件添加到要发布的渠道。
 
 >[!NOTE]
->您可以向渠道添加组件。 有关更多 **[详细信息，请参阅将组件](adding-components-to-a-channel.md)** 添加到渠道。
+>您可以向渠道添加组件。 有关详细信息，请参阅&#x200B;**[将组件添加到渠道](adding-components-to-a-channel.md)**。
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -97,14 +97,14 @@ ht-degree: 42%
 1. 在“资产”下选择&#x200B;**视频**，然后拖放所需的视频。
 
 >[!NOTE]
->If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
+>如果在渠道中上传视频时遇到问题，请参阅[视频疑难解答](troubleshoot-videos.md)。
 
 ### 查看属性 {#viewing-properties}
 
 要查看或编辑渠道的属性，请按照以下步骤操作：
 
 1. 单击要编辑的渠道。
-1. Click **Properties** from the action bar to view/edit the channel properties. 您可以在以下选项卡中更改选项。
+1. 单击操作栏中的&#x200B;**属性**&#x200B;以视图/编辑渠道属性。 您可以在以下选项卡中更改选项。
 
 ![属性](assets/properties.gif)
 
@@ -113,7 +113,7 @@ ht-degree: 42%
 要查看渠道的功能板，请按照以下步骤操作：
 
 1. 选择要编辑的渠道。
-1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. 单击操作栏中的&#x200B;**仪表板**&#x200B;以视图仪表板。 **渠道信息**、**已分配显示**&#x200B;和&#x200B;**待定启动项**&#x200B;面板打开，如下图所示：
 
 ![仪表板](assets/dashboard.gif)
 
@@ -121,11 +121,11 @@ ht-degree: 42%
 
 “渠道信息”面板描述渠道属性以及渠道的预览。 此外，该面板还提供了有关渠道是处于脱机还是联机状态的信息。
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+单击(**...**&#x200B;渠道信息&#x200B;**操作栏中的**)到视图属性、编辑内容或更新渠道的缓存（脱机内容）。
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
-#### 查看清单 {#view-manifest}
+#### 查看清单{#view-manifest}
 
 您可以从视图仪表板渠道清单。
 
@@ -135,15 +135,15 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 按照以下步骤从渠道仪表板启用此选项：
 
 1. **将渠道设置为脱机**
-   1. 选择渠道，然 **后从操** 作栏中选择属性
-   1. 导航到 **渠道** 选项卡，并确保取消选中开发 **者模式(强制渠道联机)**
-   1. Click **Save &amp; Close**
+   1. 选择渠道，然后从操作栏中选择&#x200B;**属性**
+   1. 导航到&#x200B;**渠道**&#x200B;选项卡，确保取消选中&#x200B;**开发者模式(强制渠道联机)**&#x200B;选项
+   1. 单击&#x200B;**保存并关闭**
 1. **更新脱机内容**
-   1. 选择渠道，然后从 **操作** 栏中选择仪表板
-   1. 导航到 **渠道信息** 面板，然后 *单击……*
-   1. 单击“ **更新脱机内容”**
+   1. 选择渠道，然后从操作栏中选择&#x200B;**仪表板**
+   1. 导航到&#x200B;**渠道信息**&#x200B;面板并单击&#x200B;*...*
+   1. 单击&#x200B;**更新脱机内容**
 
-您应当从视图 **仪表板** 的“渠道信 **息”面板中看** 到“渠道清单”选项。
+您应当在视图仪表板的&#x200B;**渠道信息**&#x200B;面板中看到&#x200B;**渠道清单**&#x200B;选项。
 
 ![image1](assets/channel-one.png)
 
@@ -165,7 +165,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. **渠道信息**&#x200B;面板提供了有关渠道是处于联机还是脱机状态的信息。
+   单击操作栏中的&#x200B;**仪表板**&#x200B;以视图播放器的状态。 **渠道信息**&#x200B;面板提供了有关渠道是处于联机还是脱机状态的信息。
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -173,20 +173,20 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. 检查开 **发人** 员模式 **(强制渠道联机)** ，使渠道联机。
+1. 检查&#x200B;**开发人员** **模式(强制渠道联机)**&#x200B;以使渠道联机。
 
    单击&#x200B;**保存并关闭**&#x200B;以保存您的选项。
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Navigate back to the channel dashboard and now the **CHANNEL INFORMATION** panel shows the online status of the player.
+   导航回渠道仪表板，现在&#x200B;**渠道信息**&#x200B;面板显示播放器的联机状态。
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->如果要将渠道再次配置为脱机，请取消选中“属性”选项卡(如 **第** 3步所示)中的“开发者模式”选项，然后从“渠道信息”面板中单击“更新脱机内容 **”，如******&#x200B;下图所示。
+>如果要再次将渠道配置为脱机，请从&#x200B;**属性**&#x200B;选项卡(如步骤(3)所示)中取消选中开发者模式选项，然后从&#x200B;**渠道信息**&#x200B;面板单击&#x200B;**更新脱机内容**，如下图所示。
 
-![dashboard2](assets/dashboard2.gif)
+![仪表板2](assets/dashboard2.gif)
 
 #### 设备功能板中的自动更新与手动更新 {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -202,7 +202,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>在线渠道更改</td>
    <td>内容已自动更新</td>
-   <td><p>内容已更新到“设备：推送配置”</p> <p>或者，</p> <p>在设备上更新 <strong><i>的内容：重新启动</i></strong></p> </td>
+   <td><p>内容已更新到“设备：推送配置”</p> <p>或者，</p> <p><strong><i>设备上更新的内容：重新启动</i></strong></p> </td>
   </tr>
   <tr>
    <td>脱机渠道中的更改，但渠道“推送内容”未触发（没有脱机包重新创建）</td>
@@ -212,7 +212,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
   <tr>
    <td>脱机渠道更改和渠道“推送内容”被触发（新的脱机包）</td>
    <td>内容已自动更新</td>
-   <td><p>在设备上更新 <strong><i>的内容：推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>的内容：重新启动</i></strong></p> </td>
+   <td><p><strong><i>设备上更新的内容：推送配置</i></strong></p> <p>或者，</p> <p><strong><i>设备上更新的内容：重新启动</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>配置更改</p>
@@ -223,7 +223,7 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
      <li>渠道分配(角色、事件、计划)</li>
     </ul> </td>
    <td>配置已自动更新</td>
-   <td><p>在设备上更新 <strong><i>了配置：推送配置</i></strong></p> <p>或者，</p> <p>在设备上更新 <strong><i>了配置：重新启动</i></strong></p> </td>
+   <td><p><strong><i>设备上的配置已更新：推送配置</i></strong></p> <p>或者，</p> <p><strong><i>设备上的配置已更新：重新启动</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
