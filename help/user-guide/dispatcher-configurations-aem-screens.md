@@ -12,7 +12,7 @@ ht-degree: 5%
 ---
 
 
-# AEM Screens调度程序配置{#dispatcher-configurations-for-aem-screens}
+# AEM Screens的调度程序配置{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
@@ -24,19 +24,19 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 >
 >如果没有调度程序，请禁用OSGi组件列表中的注册servlet。
 
-## Pre-requisites {#pre-requisites}
+## 先决条件{#pre-requisites}
 
 在为AEM Screens项目配置调度程序之前，您必须事先了解Dispatcher。
 
-有关更多详 [细信息，请参](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 阅配置Dispatcher。
+有关详细信息，请参阅[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
 
 ## 配置 Dispatcher {#configuring-dispatcher}
 
 按照以下步骤为AEM Screens项目配置调度程序。
 
-### 启用粘滞会话 {#enable-sticky-session}
+### 启用粘滞会话{#enable-sticky-session}
 
-如果要将多个发布实例与调度程序一起使用，则必须更新文 `dispatcher.any` 件。
+如果要将多个发布实例与调度程序一起使用，则必须更新`dispatcher.any`文件。
 
 ```xml
 /stickyConnections {
@@ -49,9 +49,9 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 }
 ```
 
-### 第1步：配置客户端头 {#step-configuring-client-headers}
+### 第1步：配置客户端标头{#step-configuring-client-headers}
 
-将以下内容添加 `/clientheaders`到部分：
+在`/clientheaders`部分添加以下内容：
 
 **X-Requested-With**
 
@@ -59,9 +59,9 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
 **X-REQUEST-COMMAND**
 
-### 第2步：配置Screens过滤器 {#step-configuring-screens-filters}
+### 第2步：配置Screens过滤器{#step-configuring-screens-filters}
 
-要配置Screens过滤器，请向／筛选器中添 ***加以下内容***。
+要配置Screens过滤器，请将以下内容添加到&#x200B;***/filter***。
 
 ```
 ## AEM Screens Filters
@@ -82,16 +82,16 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 第3步：禁用调度程序缓存 {#step-disabling-dispatcher-cache}
+### 第3步：禁用调度程序缓存{#step-disabling-dispatcher-cache}
 
-禁用／内容／屏 ***幕路径的调度程序缓存***。
+禁用&#x200B;***/content/screens路径***&#x200B;的调度程序缓存。
 
-Screens播放器使用经过身份验证的会话，因此调度程序不缓存任何屏幕播放器请求 `channels/assets`。
+Screens播放器使用经过身份验证的会话，因此调度程序不缓存任何屏幕播放器请求`channels/assets`。
 
 要为资产启用缓存，以便从调度程序缓存提供资产，您必须：
 
-* 添加 `/allowAuthorization 1` 到部 `/cache` 分
-* 将以下规则添加 `/rules` 到 `/cache`
+* 在`/cache`部分添加`/allowAuthorization 1`
+* 将以下规则添加到`/cache`的`/rules`部分
 
 ```xml
 /0000
