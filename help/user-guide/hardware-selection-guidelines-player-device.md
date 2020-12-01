@@ -10,22 +10,22 @@ ht-degree: 2%
 ---
 
 
-# 播放器设备的硬件选择指南 {#hardware-selection}
+# 播放器设备{#hardware-selection}的硬件选择指南
 
-以下部分提供了AEM Screens播放器的硬件选择指南。
+下节为AEM Screens播放器提供硬件选择指南。
 
-## 重要注意事项 {#important-considerations}
+## 重要注意事项{#important-considerations}
 
-* 始终为 ***PC播*** 放器和显 ***示面板*** 或投影仪提供商业级或工业级组件。
+* 始终为PC播放器和显示面板或投影仪源&#x200B;***商业***&#x200B;或&#x200B;***工业***&#x200B;级组件。
 
 * 始终与为数字标牌市场提供服务的供应商互动。
 * 总是考虑环境因素，如环境温度和相对湿度。
 * 始终查看电源要求和电源调节。
 * 仔细查看应用程序所需的性能需求和I/O端口。
 
-## 硬件配置 {#hardware-configurations}
+## 硬件配置{#hardware-configurations}
 
-下表总结了AEM Screens项目的硬件配置以及典型用例：
+下表概述了AEM Screens项目的硬件配置和典型用例：
 
 <table>
  <tbody>
@@ -47,7 +47,7 @@ ht-degree: 2%
    <td><p>·ChromeOS 32 GB</p> <p>·Windows 128GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> 、以太网／无线<br /> 、2xUSB</td>
+   <td>DVI,<br />以太网／无线，<br /> 2xUSB</td>
    <td>
     <ul>
      <li>标准全屏循环<br /> </li>
@@ -61,7 +61,7 @@ ht-degree: 2%
    <td>小行星128</td>
    <td>OnBoard</td>
    <td>3840x2160(4K)</td>
-   <td>DVI、HDMI以太网<br /> /无线<br /> 、2个USB</td>
+   <td>DVI、HDMI<br />以太网／无线，<br /> 2xUSB</td>
    <td>
     <ul>
      <li>单源动态内容</li>
@@ -76,7 +76,7 @@ ht-degree: 2%
    <td>256 GB</td>
    <td>专用图形GPU</td>
    <td>3840x2160(4K)</td>
-   <td>DVI、HDMI以太网<br /> /无线<br /> 、4xUSB</td>
+   <td>DVI、HDMI<br />以太网／无线，<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4个或更多内容区域，并发视频播放</li>
