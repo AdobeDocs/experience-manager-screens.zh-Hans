@@ -13,31 +13,31 @@ ht-degree: 1%
 ---
 
 
-# 安装AEM Screens播放器 {#installing-player}
+# 安装AEM Screens播放器{#installing-player}
 
 本页介绍如何安装AEM Screens播放器。
 
-## 可用屏幕播放器 {#available-players}
+## 可用屏幕播放器{#available-players}
 
 AEM Screens播放器可用于Android、Chrome OS和Windows。
 
-要下载 **AEM Screens Player**，请访 [问AEM 6.5 Player下载页](https://download.macromedia.com/screens/) 。
+要下载&#x200B;**AEM Screens播放器**，请访问[AEM 6.5播放器下载](https://download.macromedia.com/screens/)页面。
 
 >[!NOTE]
 >
->下载最新播放器(*.exe*)后，请按照播放器上的步骤完成临时安装：
+>下载最新的播放器(*.exe*)后，请按照播放器上的步骤完成临时安装：
 >
 >1. 长按左上角以打开管理面板。
->1. 从左侧 **操作** 菜单导航到配置，在服务器中输入AEM实例的位置地 **址，然后** 单击保 **存**。
->1. 单击左侧操 **作菜单** 中的“注册”链接和以下步骤以完成设备注册过程。
+>1. 从左侧操作菜单导航到&#x200B;**配置**，在&#x200B;**Server**&#x200B;中输入AEM实例的位置地址，然后单击&#x200B;**保存**。
+>1. 单击左侧操作菜单中的&#x200B;**注册**&#x200B;链接和以下步骤以完成设备注册过程。
 
 
 ### 其他资源 {#additional-resources}
 
 有关详细信息，请参阅以下主题：
 
-* 要下载Android Player，请访 **问Google Play**。 要了解如何实施Android Watchdog，请参阅实 [施Android播放器](implementing-android-player.md)。
+* 要下载Android Player，请访问&#x200B;**Google Play**。 要了解如何实现Android监视程序，请参阅[实现Android播放器](implementing-android-player.md)。
 
-* 要实施Chrome OS Player，请参阅Chrome [管理控制台](implementing-chrome-os-player.md) ，以了解更多信息。
+* 要实施Chrome OS Player，请参阅[Chrome管理控制台](implementing-chrome-os-player.md)以了解更多信息。
 
-* 要配置AEM Screens Windows播放器，请参阅实 [施Windows播放器](implementing-windows-player.md)。
+* 要配置AEM ScreensWindows播放器，请参阅[实现Windows播放器](implementing-windows-player.md)。
