@@ -1,6 +1,6 @@
 ---
-title: 环境为 [!UICONTROL AEM Screens]
-seo-title: 环境为 [!UICONTROL AEM Screens]
+title: '[!UICONTROL AEM Screens]的环境'
+seo-title: '[!UICONTROL AEM Screens]的环境'
 description: 本页介绍AEM Screens项目的环境。
 seo-description: 本页重点介绍AEM Screens项目的环境。
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 环境 {#environments}
 
-预先确定客户拥有并将希望您使用的AEM环境(无论是用于开发和部 *署**)*。
+预先确定客户端具有并希望您使用的AEM环境，包括&#x200B;*development*&#x200B;和&#x200B;*deployment*。
 
 >[!NOTE]
 >
