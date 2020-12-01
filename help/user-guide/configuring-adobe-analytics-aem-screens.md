@@ -19,7 +19,7 @@ ht-degree: 8%
 ---
 
 
-# 配置Adobe Analytics与AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# 配置Adobe Analytics与AEM Screens{#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -32,17 +32,17 @@ ht-degree: 8%
 * **Adobe Analytics与AEM Screens测序**
 * **使用脱机发送自定义事件Adobe Analytics**
 
-## Adobe Analytics与AEM Screens测序 {#sequencing-in-adobe-analytics-with-aem-screens}
+## Adobe Analytics与AEM Screens测序{#sequencing-in-adobe-analytics-with-aem-screens}
 
-排序 ***过程开始*** ，数据存储服务激活Adobe Analytics服务。 渠道内容向Adobe Analytics事件发送带工资单，即数据测试捕获到Windows I/O并触发保留事件。 事件被保存到索引数据库中，并进一步被放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，并在区块存储中进一步传输数据。 连接时，它会尝试发送最大数据量。
+***排序过程***&#x200B;开始，其中包含激活Adobe Analytics服务的存储服务。 渠道内容向Adobe Analytics事件发送带工资单，即数据测试捕获到Windows I/O并触发保留事件。 事件被保存到索引数据库中，并进一步被放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，并在区块存储中进一步传输数据。 连接时，它会尝试发送最大数据量。
 
-### 排序图 {#sequencing-diagram}
+### 排序图{#sequencing-diagram}
 
 以下序列图解释了Adobe Analytics与AEM Screens的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用脱机发送自定义事件Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
+## 使用脱机Adobe Analytics发送自定义事件{#sending-custom-events-using-offline-adobe-analytics}
 
 下表总结了事件的标准数据模型。 它列表发送到Adobe Analytics的所有字段：
 
@@ -109,7 +109,7 @@ ht-degree: 8%
    <td>必需</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>主类别（桌面、移动、WEB、进程、SDK、服务、生态系统）-事件类型分组——我 <strong>们发送播放器</strong></td> 
+   <td>主类别（桌面、移动、WEB、进程、SDK、服务、生态系统）-事件类型分组- <strong>我们发送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
