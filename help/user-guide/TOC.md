@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用数字标牌解决方案，该解决方案允许您发布动态和交互式数字体验与交互。
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '431'
 ht-degree: 19%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 19%
       + [将Chrome Player用作故障诊断的扩展](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + 作者发布{#author-publish}
       + [作者——发布架构概述](author-publish-architecture-overview.md)
       + [配置作者和发布](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 19%
       + [命令同步](using-command-sync.md)
       + [使用数据触发器进行创作](authoring-data-triggers.md)
       + [语音识别](voice-recognition.md)
+      + [内容分配报告](content-assignment-report.md)
    + 管理内容更新{#content-updates}
       + [点播内容更新](on-demand-content.md)
       + [内容即服务更新](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 19%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包202011发行说明](release-notes-fp-202011.md)
    + [功能包202008发行说明](release-notes-fp-202008.md)
    + [功能包202004发行说明](release-notes-fp-202004.md)
    + [功能包202001发行说明](release-notes-fp-202001.md)
