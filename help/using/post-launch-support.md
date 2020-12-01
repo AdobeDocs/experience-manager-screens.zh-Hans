@@ -12,7 +12,7 @@ ht-degree: 7%
 ---
 
 
-# 启动后支持 {#post-launch-support}
+# 启动后支持{#post-launch-support}
 
 
 发布后支持在早期不容忽视。
@@ -35,7 +35,7 @@ ht-degree: 7%
 >* 该应用程序对于诸如快餐连锁店中的菜单板等业务运营是否至关重要？ 在这些情况下，终端客户端可能需要具有非常短的响应时间的现场分辨率以及回放硬件中的冗余。
 
 
-## 注意事项和启动后查询 {#considerations-queries}
+## 启动后注意事项和查询{#considerations-queries}
 
 帮助您定义启动后支持的注意事项和问题如下：
 
