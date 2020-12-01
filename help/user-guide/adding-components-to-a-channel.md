@@ -23,11 +23,11 @@ ht-degree: 60%
 
 组件是 AEM (Adobe Experience Manager) 体验的基本元素。您可以使用多个组件，并将其添加到 AEM Screens 项目中的渠道。
 
-## AEM Screens 中的组件 {#components-in-aem-screens}
+## AEM Screens 中的组件  {#components-in-aem-screens}
 
 AEM Screens 提供了可用于 Screens 项目的不同 AEM 组件。
 
-### 查看 AEM Screens 组件 {#viewing-aem-screens-components}
+### 查看 AEM Screens 组件  {#viewing-aem-screens-components}
 
 无论何时创建 AEM Screens 项目，您都将会看到可添加到项目的默认组件列表。
 
@@ -50,9 +50,9 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 1. 选择要添加新组件的渠道。例如，**We.Retail In Store** --> **渠道** --> **Idle Channel**。
 
 1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
-1. Select **Design** mode.
+1. 选择&#x200B;**设计**&#x200B;模式。
 1. 选择右侧的整个设计编辑器，然后单击设置符号以打开 **ParSys 设计**&#x200B;对话框。
-1. 您可以选择要导入到 AEM Screens 项目的组件。The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. 您可以选择要导入到 AEM Screens 项目的组件。以下示例显示将&#x200B;**Livefyre**&#x200B;组件添加到AEM Screens项目。
 
 ![adding_components](assets/adding_components.gif)
 
@@ -60,7 +60,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 >
 >同样，您可以向项目中添加任意数量的与 AEM Screens 兼容的新组件。
 
-## 了解 AEM Screens 组件 {#understanding-aem-screen-components}
+## 了解 AEM Screens 组件  {#understanding-aem-screen-components}
 
 以下部分介绍可在项目中使用的AEM Screens组件。
 
@@ -68,7 +68,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 >
 >要查看任何组件的属性，请选择该组件，然后单击锤子图标以打开/查看属性。
 
-### 应用程序 {#application}
+### 应用程序  {#application}
 
 **应用程序**&#x200B;组件允许您向渠道中添加应用程序。
 
@@ -87,7 +87,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 >
 >请参阅上面的示例以查看下面每个组件的属性。
 
-### 渠道 {#channel}
+### 渠道  {#channel}
 
 **渠道**&#x200B;组件允许您向项目中添加完整的渠道。
 
@@ -137,7 +137,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 >[!NOTE]
 >
->Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+>要详细了解嵌入式序列，请参阅“创作屏幕”部分下的[嵌入式序列](embedded-sequences.md)。
 
 嵌入式序列允许您在现有渠道（包含其他资产）内添加嵌入式序列渠道。
 
@@ -159,7 +159,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td>将其设置为<strong>original</strong>或<strong>single</strong>。 将值设置为<strong>original</strong>表示子序列将在父序列的每个周期上完全运行。 另一个可能值是<strong>single</strong>，它将仅在每次运行时显示子序列的一个项（例如，第一个循环上的第一个项，第二个循环上的第二个项，依此类推）。</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +168,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 动态嵌入式序列允许您添加与上述类似的序列，但渠道角色除外。
 
-Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+要详细了解嵌入式序列，请参阅“创作屏幕”部分下的[嵌入式序列](embedded-sequences.md)。
 
 动态嵌入式序列具有以下属性：
 
@@ -188,7 +188,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td>将其设置为<strong>original</strong>或<strong>single</strong>。 将值设置为<strong>original</strong>表示子序列将在父序列的每个周期上完全运行。 另一个可能值是<strong>single</strong>，它将仅在每次运行时显示子序列的一个项（例如，第一个循环上的第一个项，第二个循环上的第二个项，依此类推）。</td>
   </tr>
  </tbody>
 </table>
@@ -197,7 +197,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 体验片段允许您将体验片段（由一个或多个组件组成的组件，包括可在页面中引用的内容和布局）添加到您的AEM Screens渠道。 将组件拖放到AEM编辑器，然后选择体验片段。
 
-要进一步了解如何创建体验片段并将其用于AEM Screens项目，请参 [阅使用体验片段](experience-fragments-in-screens.md)。
+要进一步了解如何创建体验片段并将其用于AEM Screens项目，请参阅[使用体验片段](experience-fragments-in-screens.md)。
 
 ![exp](assets/exp.gif)
 
@@ -212,7 +212,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->从 **此组件添加的客户端库****和静态文件除了已配置的** 客户端库和从体验片段的Properties添加的静 ********&#x200B;态文件。
+>从此组件添加的&#x200B;**客户端库**&#x200B;和&#x200B;**静态文件**&#x200B;除了已配置的&#x200B;**客户端库**&#x200B;和从体验片段的&#x200B;**属性**&#x200B;添加的静态文件之外。
 
 ### 图像 {#image}
 
@@ -231,7 +231,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 | **辅助功能** |
 | ***替换文本*** | 图像的替换文本。 |
 | **序列** |
-| ***持续时间*** | 默认情况下，持续时间设 *置为8000毫秒*。 如果要更改图像的播放持续时间，请更新“持续时 **间** ”字段。 |
+| ***持续时间*** | 默认情况下，持续时间设置为&#x200B;*8000 ms*。 如果要更改图像的播放持续时间，请更新&#x200B;**持续时间**&#x200B;字段。 |
 
 ### 过渡 {#transition}
 
@@ -241,7 +241,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-选择过渡图标，然后单 **击** “配置”（扳手图标）以打 **开过渡** 对话框。 此对话框包含三个选项卡：
+选择过渡图标，然后单击&#x200B;**配置**（扳手图标）以打开&#x200B;**过渡**&#x200B;对话框。 此对话框包含三个选项卡：
 
 * **过渡**
 * **序列**
@@ -249,7 +249,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
 
 >[!NOTE]
 >
->默认情况下，序列设置为600毫秒。 您可以使用“序列”选项卡将过渡序列更 **新为** 其他值。
+>默认情况下，序列设置为600毫秒。 您可以使用&#x200B;**序列**&#x200B;选项卡将过渡序列更新为其他值。
 
 ![过渡](assets/transition.gif)
 
@@ -267,7 +267,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>类型</em></strong></td>
-   <td><p>前一个元素和后一个元素之间的过渡类型。过渡 <strong>类型</strong> 包括以下选项：</p>
+   <td><p>前一个元素和后一个元素之间的过渡类型。过渡<strong>Type</strong>包含以下选项：</p>
     <ul>
      <li><strong>标准</strong></li>
      <li><strong>淡化</strong></li>
@@ -291,7 +291,7 @@ Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens sec
   </tr>
   <tr>
    <td><strong><em>活动自</em></strong></td>
-   <td>描述过渡何时可激活的时间戳。<br /> </td>
+   <td>当过渡可以处于活动状态时描述的时间戳。<br /> </td>
   </tr>
   <tr>
    <td><strong><em>活动到</em></strong></td>
