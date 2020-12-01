@@ -19,31 +19,31 @@ ht-degree: 1%
 ---
 
 
-# 脱机渠道 {#offline-channels}
+# 脱机渠道{#offline-channels}
 
-Screens播放器通过利用ContentSync技术为渠道提 ***供离线*** 支持。
+Screens播放器利用&#x200B;***ContentSync***&#x200B;技术为渠道提供离线支持。
 
 播放器使用本地http服务器来提供解压缩的内容。
 
-将渠道配置为联 *机运行*&#x200B;时，播放器会通过访问AEM服务器来提供渠道资源，但将渠道配置为脱机运行 *时*，播放器会从本地http服务器提供渠道资源。
+当渠道配置为运行&#x200B;*online*&#x200B;时，播放器通过访问AEM服务器来提供渠道资源，但当渠道配置为运行&#x200B;*offline*&#x200B;时，播放器从本地http服务器提供渠道资源。
 
 该流程的工作流如下：
 
 1. 解析所需页面
 1. 收集所有相关资产
-1. 将所有内容打包到一个zip文件中
+1. 将所有内容打包到zip文件中
 1. 下载zip文件并将其解压缩到本地
 1. 显示内容的本地副本
 
-## 更新处理函数 {#update-handlers}
+## 更新处理函数{#update-handlers}
 
-ContentSync ***使用*** 更新处理程序来分析和收集特定项目的所有必要页面和资产。 AEM Screens使用以下更新处理程序：
+***ContentSync***&#x200B;使用更新处理程序分析和收集特定项目的所有必要页面和资产。 AEM Screens使用以下更新处理程序：
 
-### 常用选项 {#common-options}
+### 常用选项{#common-options}
 
-* *类型*: 要使用的更新处理函数类型
-* *路径*: 资源路径
-* *[targetRootDirectory]*: 目标文件中的文件夹
+* *类型*:要使用的更新处理函数类型
+* *路径*:资源路径
+* *[targetRootDirectory]*:目标文件中的文件夹
 
 <table>
  <tbody>
@@ -55,17 +55,17 @@ ContentSync ***使用*** 更新处理程序来分析和收集特定项目的所�
   <tr>
    <td>渠道</td> 
    <td>收集渠道</td> 
-   <td>扩展： 要收集的资源的扩展<br /> [pathSuffix="]: 添加到渠道路径的后缀<br /> </td> 
+   <td>扩展：要收集的资源的扩展名<br /> [pathSuffix="]:添加到渠道路径的后缀<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
    <td>收集指定的客户端库</td> 
-   <td>[扩展="]: 可以是css或js，以仅收集前者，或仅收集后者</td> 
+   <td>[扩展="]:可以是css或js，以仅收集前者，或仅收集后者</td> 
   </tr>
   <tr>
    <td>assetrenditions</td> 
    <td>收集资产演绎版</td> 
-   <td>[再现=[]]: 要收集的演绎版列表。 默认为原始演绎版</td> 
+   <td>[再现=[]]:要收集的演绎版列表。 默认为原始演绎版</td> 
   </tr>
   <tr>
    <td>复制</td> 
@@ -75,7 +75,7 @@ ContentSync ***使用*** 更新处理程序来分析和收集特定项目的所�
  </tbody>
 </table>
 
-### 测试ContentSync配置 {#testing-contentsync-configuration}
+### 测试ContentSync配置{#testing-contentsync-configuration}
 
 请按照以下步骤测试ContentSync配置：
 
@@ -88,34 +88,34 @@ ContentSync ***使用*** 更新处理程序来分析和收集特定项目的所�
 1. 开始解压缩的文件夹中的本地服务器
 1. 打开开始页面并检查应用程序状态
 
-## 为渠道启用脱机配置 {#enabling-offline-config-for-a-channel}
+## 为渠道{#enabling-offline-config-for-a-channel}启用脱机配置
 
 请按照以下步骤为渠道启用脱机配置：
 
-1. 检查渠道内容并检查是否从AEM实例（联机）请求它。
+1. Inspect渠道内容并检查是否从AEM实例（在线）请求它。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. 导航到渠道仪表板，然 **后单击** “渠道 **信息”面** 板中的……以更改属性。
+1. 导航到渠道仪表板并单击&#x200B;**...**&#x200B;渠道信息&#x200B;**面板中的**&#x200B;可更改属性。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. 导航到渠道属性，并确保复选框在渠道选项卡下处 **于禁** 用状态。 Click **Save &amp; Close**.
+1. 导航到渠道属性，并确保在&#x200B;**渠道**&#x200B;选项卡下禁用该复选框。 单击&#x200B;**保存并关闭**。
 
    ![screen_shot_2017-12-19at122422下午](assets/screen_shot_2017-12-19at122422pm.png)
 
-   在将内容正确部署到设备之前，请单击“更 **新脱机内容”**。
+   在将内容正确部署到设备之前，单击&#x200B;**更新脱机内容**。
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   “属 **性** ”下的 **“脱机** ”状态也会相应更新。
+   **PROPERTIES**&#x200B;下的&#x200B;**脱机**&#x200B;状态也会相应更新。
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. 检查渠道内容并检查是否从本地播放器缓存请求它。
+1. Inspect渠道内容并检查是否从本地播放器缓存请求它。
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->要进一步了解自定义脱机资源处理程序的模板以及特定项目中的 `pom.xml` 最低要求，请参 [阅为AEM Screens开发自](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 定义组件中的自定义处理 **程序模板**。
+>要进一步了解自定义脱机资源处理程序的模板以及该特定项目`pom.xml`中的最低要求，请参阅&#x200B;**为AEM Screens开发自定义组件**&#x200B;中的[自定义处理程序的模板](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)。
