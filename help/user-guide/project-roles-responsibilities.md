@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# 第1部分：项目角色和责任 {#part-project-roles-and-responsibilities}
+# 第1部分：项目角色和责任{#part-project-roles-and-responsibilities}
 
 本页重点介绍5个部分的系列的第1部分，旨在帮助团队成员更好地了解数字标牌项目在销售和项目生命周期中所需的角色、责任和时间线。
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >所有相关方都必须准确了解各方如何在AEM Screens部署和问题解决工作流中加以考虑，并在解决性能问题方面发挥明确的作用。
 
-## 数字标牌项目参与的角色摘要 {#summary-of-roles-involved-in-a-digital-signage-project}
+## 数字标牌项目{#summary-of-roles-involved-in-a-digital-signage-project}中涉及的角色摘要
 
 与Adobe、AEM实施者和A/V集成商合作定义应用程序用例参数将推动软件开发范围。 这确保采用分阶段的方法，通过在整个项目中确定的绩效基准和成功指标来建立。
 
@@ -39,7 +39,7 @@ Adobe包括Adobe Managed Services资源，如CSE（客户成功工程师）和Ad
 
 #### AEM 实施人员 {#aem-implementors}
 
-AEM **实施者** 负责执行开发和集成任务，为AEM开发用户体验、自定义模板和后端集成。
+**AEM实施者**&#x200B;负责执行开发和集成任务，为AEM开发用户体验、自定义模板和后端集成。
 
 通过此流程还可捕获和交付解决最终客户UX（用户体验）参数所需的自定义功能。
 
@@ -47,9 +47,9 @@ AEM实施者通常会按时间分阶段部署自定义功能到位置。 例如�
 
 #### AV 集成人员 {#av-integrators}
 
-AV集 **成商负责** ，与最终客户进行发现，以定义要求，确定项目范围，以设计、构建和有效管理围绕数字标牌硬件的部署。
+**AV集成商**&#x200B;负责与最终客户进行发现，以定义要求，确定项目范围，以设计、构建和有效管理围绕数字标牌硬件的部署。
 
-## 第1部分：关于项目角色和责任的视频教程 {#part-video-tutorial-on-project-roles-and-responsibilities}
+## 第1部分：项目角色和责任视频教程{#part-video-tutorial-on-project-roles-and-responsibilities}
 
 请按照以下教程准确了解各方如何将问题解决工作流纳入AEM Screens部署，并在解决性能问题时明确定义角色。
 
@@ -59,8 +59,8 @@ AV集 **成商负责** ，与最终客户进行发现，以定义要求，确定
 
 *了解Adobe、AV集成商和AEM实施商的角色和职责。*
 
-## The Next Step {#the-next-step}
+## 下一步{#the-next-step}
 
 了解项目在实施数字标牌项目中的角色和职责后，请阅读下一个教程，深入学习测试和售前注意事项等主题，因为项目在开发AEM Screens商机时的作用范围很广。
 
-导航到 **[第2部分：项目时的注意事项](project-considerations.md)** ，有关更多详细信息。
+导航到&#x200B;**[第2部分：项目的注意事项范围](project-considerations.md)**&#x200B;以了解更多详细信息。
