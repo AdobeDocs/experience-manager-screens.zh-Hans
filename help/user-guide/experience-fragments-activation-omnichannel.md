@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# 体验片段激活:OmniChannel体验 {#experience-fragments-activation}
+# 体验片段激活:OmniChannel体验{#experience-fragments-activation}
 
 ## 用例描述 {#use-case-description}
 
@@ -27,17 +27,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >**前提条件
->您必须事先掌握体验片段的基础知识以及如何在AEM Screens项目中使用体验片段。 See [Using Experience Fragments](/help/user-guide/experience-fragments-in-screens.md)
+>您必须事先掌握体验片段的基础知识以及如何在AEM Screens项目中使用体验片段。 请参阅[使用体验片段](/help/user-guide/experience-fragments-in-screens.md)
 
-### 设置演示项目 {#demo-project-setup}
+### 设置演示项目{#demo-project-setup}
 
-在您的AEM Screens **创建标题为** DemoProject的项目和标题为 **TestChannel的序** 列渠道，如下图所示。
+在您的AEM Screens创建标题为&#x200B;**DemoProject**&#x200B;的项目和标题为&#x200B;**TestChannel**&#x200B;的序列渠道，如下图所示。
 
-### 在AEM Screens项目中实施经验片段 {#experience-fragments-implementation}
+### 在AEM Screens项目{#experience-fragments-implementation}中实施体验片段
 
-在您创建了体验片段并将其用于您的AEM Screens项目 **DemoProject后** ，您现在可以根据您的要求增强体验片段。
+在您创建体验片段并将其用于您的AEM Screens项目后，您现在可以根据您的要求增强体验片段。****
 
-### 增加文本大小 {#increasing-text-size}
+### 增加文本大小{#increasing-text-size}
 
 
 
