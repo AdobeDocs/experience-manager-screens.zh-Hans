@@ -5,12 +5,12 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# 功能包202011发行说明 {#release-notes-for-feature-pack}
+# 功能包202011的发行说明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >建议您升级到最新版Adobe Experience Manager(AEM)。 Screens为AEM 6.3 Screens平台提供维护支持。
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 AEM Screens发布了AEM 6.5功能包6。
 
-您可以使用您的AEM Screens从软件分发门户下载最新版Adobe ID [6.5.6功能](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 包。 导航到 **Adobe Experience Manager** 选项卡并搜 **索Screens** ，获取最新的功能包。
+您可以使用您的Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens6.5.6版的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**屏幕**&#x200B;以获取最新功能包。
 
 ## 发布日期 {#release-date}
 
@@ -29,14 +29,14 @@ AEM Screens发布了AEM 6.5功能包6。
 
 * **内容分配报告**
 
-   内容分配报告功能允许AEM Screens管理员或作者导出可 *能采用电子表格格式* 的内容分配报告。
-Refer to **Content Assignment Report** for more details.
+   内容分配报告功能允许AEM Screens管理员或作者导出&#x200B;*内容分配报告*，该报告可能采用电子表格格式。
+有关详细信息，请参阅**内容分配报告**。
 
 
 * **Tizen Player**
 
    Tizen播放器是新的播放器，随AEM Screens6.5.6版的最新功能包一起推出。
-Refer to **Implementing Tizen Player** for more details.
+有关详细信息，请参阅**实现Tizen Player**。
 
 * **从设备管理器搜索功能**
 
@@ -46,11 +46,11 @@ Refer to **Implementing Tizen Player** for more details.
 
    此版本的默认ping时间间隔现在设置为30秒。
 
-### 已知问题和修复 {#known-issues}
+### 已知问题和修复{#known-issues}
 
 
 
-### 已释放的AEM Screens球员 {#released-aem-screens-players}
+### 获释的AEM Screens球员{#released-aem-screens-players}
 
 AEM Screens队球员获释获AEM Screens队
 
@@ -58,6 +58,6 @@ AEM Screens队球员获释获AEM Screens队
 * Windows
 * Android
 
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载{#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**。
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;**[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**。
