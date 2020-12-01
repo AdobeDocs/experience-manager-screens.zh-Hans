@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 51%
 
 ---
 
@@ -31,27 +34,27 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 创建 Screens 项目后，请按照以下步骤为 Screens 项目创建新位置：
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到： `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Locations**.
-1. Click **Create** next to the plus icon in the action bar. 此时将打开一个向导。
-1. Select the template **Location** from the wizard and click **Next**.
+1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到：`http://localhost:4502/screens.html/content/screens`。
+1. 导航到Screens项目，然后单击&#x200B;**位置**。
+1. 单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
+1. 从向导中选择模板&#x200B;**位置**，然后单击&#x200B;**下一步**。
 
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. 输入&#x200B;**标题和标记**、**更多标题和说明**、**开／关时间**&#x200B;和&#x200B;**虚URL**&#x200B;的属性。
 
-1. Click **Create** and the location is created and added to your locations folder.
+1. 单击&#x200B;**创建**，然后创建位置并将其添加到您的位置文件夹。
 
-请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
+请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 出于演示目的，新位置(SanJose)在&#x200B;*DemoProject*&#x200B;下创建。
 
 ![player2](assets/player2.gif)
 
 创建位置后，您必须为该位置创建一个新显示屏。
 
-### 编辑位置的属性 {#editing-properties-for-a-location}
+### 编辑位置{#editing-properties-for-a-location}的属性
 
 要编辑／访问位置的属性，请执行以下操作：
 
 1. 选择位置。
-1. Click **Properties** from the action bar.
+1. 单击操作栏中的&#x200B;**属性**。
 
 ![player3](assets/player3.gif)
 
@@ -59,4 +62,4 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 创建位置后，您必须为该位置创建一个新显示屏。
 
-See [Creating and Managing Displays](managing-displays.md) for more details.
+有关详细信息，请参阅[创建和管理显示屏](managing-displays.md)。
