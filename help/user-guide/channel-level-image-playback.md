@@ -19,7 +19,7 @@ ht-degree: 3%
 ---
 
 
-# 渠道级批量图像播放持续时间 {#channel-level-bulk-image-playback-duration}
+# 渠道级批量图像播放持续时间{#channel-level-bulk-image-playback-duration}
 
 ## 概述 {#overview}
 
@@ -29,21 +29,21 @@ ht-degree: 3%
 
 在开始实现此功能之前，请确保已将项目设置为开始实现此功能的先决条件。 例如，
 
-1. 创建一个AEM Screens项目示 **例，ChannelLevelPlayback**。
+1. 创建一个AEM Screens项目示例，**ChannelLevelPlayback**。
 
-1. 在“渠道”文件夹下 **创建序** 列 **渠道** ，作为PlaybackChannel。
+1. 在&#x200B;**渠道**&#x200B;文件夹下创建一个序列渠道，作为&#x200B;**PlaybackChannel**。
 
-1. 将内容添 **加到PlaybackChannel**。
+1. 将内容添加到&#x200B;**PlaybackChannel**。
 
-## 编辑渠道级图像播放持续时间分配 {#editing-channel-level-image-playback-duration-assignment}
+## 编辑渠道级图像播放持续时间分配{#editing-channel-level-image-playback-duration-assignment}
 
 以下部分介绍如何在AEM Screens渠道中编辑内容的播放持续时间。
 
-### 更新渠道中图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-channel}
+### 更新渠道{#updating-the-playback-duration-for-images-in-a-channel}中图像的播放持续时间
 
 请按照以下步骤学习如何更新渠道级图像播放持续时间分配：
 
-1. 导航到序列渠道 **PlaybackChannel**。
+1. 导航到序列渠道&#x200B;**PlaybackChannel**。
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
@@ -59,18 +59,18 @@ ht-degree: 3%
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **页面** ”对话框打开。
+1. **页面** 对话框打开。
 
    >[!NOTE]
    >默认情况下，渠道中的图像设置为8秒的播放持续时间。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** (从8000(ms)到3000(ms)，即3秒)。 单击“页面”对话框右上方的复 **选标记** ，以保存所做的更改。
+   编辑从8000(ms)到3000(ms)的&#x200B;**持续时间**，即3秒。 单击&#x200B;**页面**&#x200B;对话框右上方的复选标记以保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### 查看结果 {#viewing-the-result}
+### 查看结果{#viewing-the-result}
 
 更新渠道播放持续时间（在本例中为所有三幅图像）后，您会注意到图像现在将播放3秒，而不是8秒（默认值）。
 
