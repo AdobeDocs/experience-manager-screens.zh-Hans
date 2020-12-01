@@ -6,9 +6,9 @@ seo-description: 可查看本页以获取与AEM Screens项目相关的常见问�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
+source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1705'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 1%
 # AEM Screens常见问题解答{#aem-screens-faqs}
 
 以下部分对与AEM Screens项目相关的几个常见问题解答提供了答案。
+
+## 空白屏幕问题{#blank-screen}
+
+>[!NOTE]
+>列出的强制性检查应在提出问题之前由主要支持或客户端支持进行尝试：
+
+### 1.对于任何面对黑屏或非播放内容的客户，应采取哪些急救故障排除步骤？{#troubleshooting-blank-screen}
+
+* 检查渠道预览是否正在工作。
+* 检查显示预览是否正在工作
+* 尝试将播放器注册为同一显示屏上的浏览器扩展，并检查它是否正常工作。
+* 在系统上运行播放器时，导航到`http://localhost:24502`。 检查所有内容是否下载正确。
+* 检查已创建相应演绎版且正在播放正确的演绎版的资产。
+* 检查任何计划内容以及时间是否正确。 检查在播放器中设置的时间是否正确。
+* 检查播放器控制台日志并检查是否有错误？ 右键单击并检查以查看控制台日志。 如果使用windows播放器，请按`CTRL + ALT +I`打开开发控制台以视图日志。
 
 ## 渠道管理{#channel-management}
 
