@@ -19,7 +19,7 @@ ht-degree: 2%
 ---
 
 
-# Adobe Analytics与AEM Screens {#adobe-analytics-integration-with-aem-screens}
+# Adobe Analytics与AEM Screens整合{#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 概述 {#overview}
 
-***AEM Screens*** 利用Adobe Analytics，凭借这一优势，您可以获得市场上独一无二的功能——跨渠道分析功能，帮助将位置显示的内容与其他数据源关联起来。
+***AEM*** Screens利用Adobe Analytics，通过它，您可以获得市场上独一无二的功能——跨渠道分析，帮助将位置显示的内容与其他数据源关联起来。
 
 AEM Screens提供与Adobe Analytics的开箱即用集成，并为您提供一个验证。
 
@@ -50,12 +50,12 @@ AEM Screens提供与Adobe Analytics的开箱即用集成，并为您提供一个
 * 允许创建反馈循环，跟踪一段时间内的播放事件
 * 允许系统根据内容作者定义的成功标准修改内容和布局
 
-Adobe Analytics因此与AEM Screens一体化执行以 *下目标*:
+Adobe Analytics因此与AEM Screens一体化执行以下&#x200B;*目标*:
 
 * 通过数字标牌实施实现ROI
 * 将Analytics集成为将来支持收集和分析使用信息的基础
 
-## 架构细节 {#architectural-details}
+## 架构详细信息{#architectural-details}
 
 AEM Screens客户希望了解在什么时间显示哪些内容以及显示时间（汇总）。 这是标牌解决方案的常见功能。 AEM Screens将利用Adobe Analytics，而不是构建自己的分析，这样，我们就能在市场上实现独一无二的功能——跨渠道分析，帮助将位置显示的内容与其他数据源关联起来。
 
@@ -63,27 +63,27 @@ AEM Screens客户希望了解在什么时间显示哪些内容以及显示时间
 
 ![screen_shot_2018-09-12at85611am](assets/screen_shot_2018-09-12at85611am.png)
 
-## 在AEM Screens扶持Adobe Analytics {#enabling-adobe-analytics-in-aem-screens}
+## 在AEM Screens启用Adobe Analytics{#enabling-adobe-analytics-in-aem-screens}
 
 可以从OSGi控制台配置Adobe Analytics设置。
 
-导航到 **Adobe Experience ManagerWeb控制台配置** ，为AEM Screens配置Adobe Analytics，如下图所示：
+导航到&#x200B;**Adobe Experience ManagerWeb控制台配置** ，为AEM Screens配置Adobe Analytics，如下图所示：
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## 屏幕分析：Enablement Flow {#screens-analytics-enablement-flow}
+## 屏幕分析：启用流{#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->在配置属性之前，请与Adobe关系经理联系以创建票证以获取Analytics **API密钥****和Analytics项目** ，以便与AEM Screens一起使用。
+>在配置属性之前，请与Adobe关系管理器联系以创建票证，以获取&#x200B;**Analytics API密钥**&#x200B;和&#x200B;**Analytics Project**，以便与AEM Screens一起使用。
 
 ![]()
 
-### 配置属性 {#configuring-the-properties}
+### 配置属性{#configuring-the-properties}
 
 >[!CAUTION]
 >
->在配置属性之前，请与Adobe关系经理联系以创建票证以获取Analytics **API密钥****和Analytics项目** ，以便与AEM Screens一起使用。
+>在配置属性之前，请与Adobe关系管理器联系以创建票证，以获取&#x200B;**Analytics API密钥**&#x200B;和&#x200B;**Analytics Project**，以便与AEM Screens一起使用。
 
 下表重点介绍了为AEM Screens配置Adobe Analytics的属性及其说明：
 
@@ -96,7 +96,7 @@ AEM Screens客户希望了解在什么时间显示哪些内容以及显示时间
   <tr>
    <td><strong>分析URL</strong></td>
    <td>用于从播放器发布分析数据的URL。 <br>
-   针对开发／阶段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /><em>针对生产</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   针对开发／阶段</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em> For Production</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Analytics API密钥</strong></td>
@@ -119,9 +119,9 @@ AEM Screens客户希望了解在什么时间显示哪些内容以及显示时间
 
 >[!NOTE]
 >
->默认情况下， **Analytics发送频率** 为15分钟。
+>默认情况下，**Analytics Send Frequency**&#x200B;为15分钟。
 
-#### 使用Adobe Analytics服务在AEM Screens {#using-adobe-analytics-service-in-aem-screens}
+#### 在AEM Screens使用Adobe Analytics服务{#using-adobe-analytics-service-in-aem-screens}
 
 此方案通过固件和仪器屏幕核心组件中分析服务的REST调用调用Analytics API，以明确创建和发送特定用例的事件，同时允许可扩展性，在可扩展性方面，任何自定义消息都可以从自定义开发渠道发送到Analytics。
 
@@ -129,5 +129,5 @@ AEM Screens客户希望了解在什么时间显示哪些内容以及显示时间
 
 >[!NOTE]
 >
->要进一步了解事件 ***的排序*** 和标 ***准数据模型***，请参 **[阅为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
+>要进一步了解&#x200B;***Sequencing***&#x200B;和&#x200B;***事件标准数据模型***，请参阅&#x200B;**[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
 
