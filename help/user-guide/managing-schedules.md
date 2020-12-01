@@ -22,7 +22,7 @@ ht-degree: 48%
 
 **计划**(在AEM Screens)允许您将渠道组织到可重用的组中，这样您就不必为要显示内容的每个显示屏逐个重复其分配。
 
-Schedules when combined with ***DayParting***, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+计划与&#x200B;***DayParting***&#x200B;结合使用后，您可以设置一个全局计划，该渠道在一天的特定时间运行，并一次为所有显示屏重新使用该设置。
 
 >[!NOTE]
 >
@@ -34,8 +34,8 @@ Schedules when combined with ***DayParting***, allows you to set a global schedu
 
 请按照以下步骤为您的渠道创建计划：
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Schedules**.
+1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接转到：`http://localhost:4502/screens.html/content/screens`。
+1. 导航到Screens项目，然后单击&#x200B;**计划**。
 1. 单击操作栏中的&#x200B;**创建**。
 1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**计划**，然后单击&#x200B;**下一步**。
 
@@ -44,7 +44,7 @@ Schedules when combined with ***DayParting***, allows you to set a global schedu
 您将在项目中看到一个具有指定名称和标题的计划文件夹。
 
 
-## 查看功能板 {#viewing-dashboard}
+## 查看功能板  {#viewing-dashboard}
 
 在项目中创建计划文件夹后，您可以从计划功能板中查看详细信息。
 
@@ -60,9 +60,9 @@ Schedules when combined with ***DayParting***, allows you to set a global schedu
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **计划信息面板** 从计划信息面板的右上角单击属性以视图/更改计划的属性。
+   **计划信** 息面板从计划信息面板的右上角单击属性以视图/更改计划的属性。
 
-   **“已指定渠道** ”面板单击“已指定渠道”面板右上角的+分配渠道以打开“分配渠道”对话框。
+   **已指定渠道** 面板单击已指定渠道面板右上角的+分配渠道以打开“已指定分配”对话框。
 
-   **“已指定显示** ”面板从“已指定显示”面板中选择任何显示屏以打开显示仪表板。
+   **已指定显** 示面板从已指定显示面板中选择任何显示屏以打开显示仪表板。
 
