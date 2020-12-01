@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 您可以手动和自动生成全高清演绎版。以下部分介绍了将演绎版添加到资产的工作流。
 
-## 自动生成全高清演绎版  {#automatically-generating-full-hd-renditions}
+## 自动生成全高清演绎版   {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -31,11 +34,11 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 1. 选择 Adobe Experience Manager 链接（左上方），然后单击锤子图标以选择工具，从而选择&#x200B;**工作流**。
 
-   Click **Models** to enter the workflow models management.
+   单击&#x200B;**模型**&#x200B;进入工作流模型管理。
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Select the **DAM Update Asset** model and click Edit from the action bar to open the **DAM Update Asset** window.
+1. 选择&#x200B;**DAM更新资产**&#x200B;模型，然后单击操作栏中的编辑以打开&#x200B;**DAM更新资产**&#x200B;窗口。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -43,7 +46,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 选择&#x200B;**进程**&#x200B;选项卡以编辑进程参数。Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
+1. 选择&#x200B;**进程**&#x200B;选项卡以编辑进程参数。在&#x200B;**参数**&#x200B;中将全高清用户档案输入到列表中：***,profile:fullhd-bp,profile:fullhd-hp***&#x200B;并单击&#x200B;**确定**。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -51,17 +54,17 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 导航到&#x200B;**资产**，然后上传一个新视频。单击视频并打开演绎版侧边栏，您会注意到这两个全高清视频。
+1. 导航到&#x200B;**资产**，然后上传一个新视频。单击视频并打开演绎版侧边栏，您会注意到两个全高清视频。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. Open **Renditions** from the side rail.
+1. 从侧边栏打开&#x200B;**演绎版**。
 
    ![step11_-_open_therenditionssiagre](assets/step11_-_open_therenditionssiderail.png)
 
 1. 您将发现两个新的全高清演绎版。
 
-   ![step12_-_2_new_renditionsaded to thevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditions已读入视频](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## 手动生成全高清演绎版 {#manually-generating-full-hd-renditions}
 
@@ -69,15 +72,15 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 1. 选择 Adobe Experience Manager 链接（左上方），然后单击锤子图标以选择工具，从而选择&#x200B;**工作流**。
 
-   Click **Models** to enter the workflow models management.
+   单击&#x200B;**模型**&#x200B;进入工作流模型管理。
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Select the **Screens Update Asset** model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
+1. 选择&#x200B;**屏幕更新资产**&#x200B;模型，然后单击&#x200B;**开始工作流**&#x200B;以打开&#x200B;**运行工作流**&#x200B;对话框。
 
-   ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![step5_-_开始_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Select the desired video in the **Payload** and click **Run**.
+1. 在&#x200B;**有效负荷**&#x200B;中选择所需的视频，然后单击&#x200B;**运行**。
 
    ![step6_-_select_thedesignedvideo](assets/step6_-_select_thedesiredvideo.png)
 
@@ -87,5 +90,5 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 1. 打开&#x200B;**演绎版**&#x200B;侧边栏，此时您将发现新的全高清演绎版。
 
-   ![step8_-_open_therenditionssiagret](assets/step8_-_open_therenditionssiderail.png)
+   ![step8_-_open_therenditionssifarge](assets/step8_-_open_therenditionssiderail.png)
 
