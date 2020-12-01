@@ -1,6 +1,6 @@
 ---
-title: AEM Screens数字标牌基础知 [!UICONTROL 识]
-seo-title: AEM Screens数字标牌基础知 [!UICONTROL 识]
+title: '[!UICONTROL AEM Screens]数字标牌基础知识'
+seo-title: '[!UICONTROL AEM Screens]数字标牌基础知识'
 description: 该指南描述了数字标牌项目的基础知识
 seo-description: 该指南描述了数字标牌项目的基础知识
 translation-type: tm+mt
@@ -12,15 +12,15 @@ ht-degree: 2%
 ---
 
 
-# 数字标牌项目基础知识 {#basics-digital-signage}
+# 数字标牌项目{#basics-digital-signage}的基础知识
 
 在深入研究AEM Screens实施最佳实践之前，务必将该项目视为数字标牌项目，而不是传统的软件开发。
 
 本节就AEM Screens项目实施前关键的主要要素提出建议。
 
-## 数字标牌中的关键元素 {#key-elements}
+## 数字标牌{#key-elements}中的关键元素
 
-数字 *标牌项目* 中的关键要素包括：
+数字标牌项目中的&#x200B;*关键元素*&#x200B;是：
 
 ![](/help/assets/Elements-Revised.png)
 
