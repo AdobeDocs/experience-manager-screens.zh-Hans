@@ -18,11 +18,11 @@ ht-degree: 38%
 ---
 
 
-# Creating and Managing Projects {#creating-and-managing-projects}
+# 创建和管理项目{#creating-and-managing-projects}
 
 通过选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”，可使用 AEM Screens。
 
-或者，您也可以直接导航到： `http://localhost:4502/screens.html/content/screens`
+或者，您也可以直接导航到：`http://localhost:4502/screens.html/content/screens`
 
 
 >[!NOTE]
@@ -33,11 +33,11 @@ ht-degree: 38%
 
 请按照以下步骤创建一个新 Screens 项目：
 
-1. 从AEM **实例** 中选择屏幕。
+1. 从AEM实例中选择&#x200B;**Screens**。
 
-1. 单击“ **创建Screens项目**”。
+1. 单击&#x200B;**创建屏幕项目**。
 
-1. Enter the title as **TestScreens** and click **Save**.
+1. 输入&#x200B;**TestScreens**&#x200B;标题，然后单击&#x200B;**保存**。
 
 随即会创建项目并使您返回到 Screens 项目控制台。现在，您可以选择自己的项目。
 
@@ -53,34 +53,34 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. 如果可用选项与您的项目无关，您可以删除这些选项。
+>默认情况下，初始结构将包含&#x200B;**计划**、**位置**、**应用程序**、**渠道**&#x200B;和&#x200B;**设备**&#x200B;主控页，但可以根据需要手动调整。 如果可用选项与您的项目无关，您可以删除这些选项。
 
 
 ## 查看属性 {#viewing-properties}
 
-创建Screens项目后，选择项目并单击操 **作栏** 中的属性以编辑项目的属性。
+创建Screens项目后，选择项目，然后单击操作栏中的&#x200B;**属性**&#x200B;以编辑项目的属性。
 
-The following options allow you to edit/change properties of your **TestScreens**.
+以下选项允许您编辑／更改&#x200B;**TestScreens**&#x200B;的属性。
 
 ![图像](assets/create-project2.png)
 
 
 ## 创建自定义文件夹 {#creating-a-custom-folder}
 
-您还可以在计划、位置、应用程 **序**、渠道 **、、设备、**、主控页面中创建您自 ************ 己的自定义文件夹。
+您还可以在项目中可用的&#x200B;**计划**、**位置**、**应用程序**、**渠道**&#x200B;和&#x200B;**设备**&#x200B;主控页面下创建您自己的自定义文件夹。
 
 要创建自定义文件夹，请执行以下操作：
 
-1. Select your project and click on **Create** next to plus icon in the action bar.
+1. 选择您的项目，然后单击操作栏中加号图标旁边的&#x200B;**创建**。
 1. 此时会打开&#x200B;**创建**&#x200B;向导，在该向导中选择适当的选项。
 1. 单击&#x200B;**下一步**。
 1. 输入属性，然后单击&#x200B;**创建**。
 
-以下步骤显示了如何在TestScreens中创建“应用程序 **主控** ”页面的应 **用程序文件夹**。
+以下步骤显示了如何在&#x200B;**TestScreens**&#x200B;的&#x200B;**Applications**&#x200B;主控页面中创建应用程序文件夹。
 
 ![player2-1](assets/create-project3.gif)
 
 ### 后续步骤 {#the-next-steps}
 
-Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
+创建您自己的项目后，请参阅[渠道管理](managing-channels.md)以创建和管理渠道中的内容。
 
