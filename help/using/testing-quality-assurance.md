@@ -28,7 +28,7 @@ ht-degree: 2%
 
 应考虑以下要素：
 
-## 1.机械考虑 {#mechanical-considerations}
+## 1.机械注意事项{#mechanical-considerations}
 
 建议考虑以下机械问题：
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 * 电缆管理
 * 设备联网
 
-## 2.软件注意事项 {#software-considerations}
+## 2.软件注意事项{#software-considerations}
 
 建议考虑以下软件事项：
 
@@ -49,11 +49,11 @@ ht-degree: 2%
 * 数据库依赖关系（以前定义）
 
 
-## 3.设备管理注意事项 {#device-management-considerations}
+## 3.设备管理注意事项{#device-management-considerations}
 
 AEM Screens包含一个设备控制中心模块，该模块允许管理Screens播放器应用程序端点。
 
-这是指已安 *装Screens* 播放器应用程序并已注册到AEM实例的任何播放器硬件设备。
+这指的是任何&#x200B;*player*硬件设备，它已安装Screens播放器应用程序并已注册到AEM的实例。
 此模块允许您：
 
 1. 监视播放器应用程序错误日志
@@ -61,7 +61,7 @@ AEM Screens包含一个设备控制中心模块，该模块允许管理Screens�
 1. 管理内容下载
 1. 管理应用程序重启问题
 
-要详细了解设备控 ***制中心***，请参阅《AEM Screens用 [户指南》中的“Troubleshooting Device Control](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) Center(设备 **控制中心故障排除**)”。
+要详细了解&#x200B;***设备控制中心***，请参阅&#x200B;**AEM Screens用户指南**&#x200B;中的[设备控制中心疑难解答](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html)。
 
 >[!CAUTION]
 >
@@ -77,12 +77,12 @@ AEM Screens包含一个设备控制中心模块，该模块允许管理Screens�
 >
 > Adobe建议所有部署都应使用专用的第三方设备管理平台。
 
-选择的特定平台取决于许多因素，包括 ***目标操作******系统、项*** 目要 ***求和***&#x200B;终点数。
+选择的特定平台取决于许多因素，包括&#x200B;***目标操作系统***、***项目要求***&#x200B;和&#x200B;***端点数***。
 
 以下是几个示例：
 
 * Google Chrome设备管理
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42齿轮
 * 专有AV集成商中间件
