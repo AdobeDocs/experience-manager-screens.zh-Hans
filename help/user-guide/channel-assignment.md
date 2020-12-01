@@ -23,34 +23,34 @@ ht-degree: 37%
 >[!NOTE]
 >您可以为显示屏分配多个渠道。
 
-## Assigning a Channel {#assign-a-channel}
+## 分配渠道{#assign-a-channel}
 
 请按照以下步骤为显示屏分配渠道：
 
-1. 导航到所需的显示屏， **例如** DemoProject **—>位** 置 **** —> **SanJose**—> StoreDisplayDisplay。
+1. 导航到所需的显示屏，例如，**DemoProject** —> **位置** —> **SanJose** —> **StoreDisplay**。
 
    ![图像](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. 点按／单击操作栏中的&#x200B;**分配渠道**
 
    或者，
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
+   点按／单击&#x200B;**仪表板**，然后单击&#x200B;**已分配渠道**&#x200B;面板中的&#x200B;**+分配渠道**&#x200B;以打开&#x200B;**渠道分配**&#x200B;对话框。
 
    ![图像](/help/user-guide/assets/channel-assign1.png)
 
-   您可以从以下部分的“ **渠道分配** ”对话框配置属性。 请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道属性。
+   您可以从以下部分的&#x200B;**渠道分配**&#x200B;对话框中配置属性。 请参阅[渠道属性](#channel-properties)部分，进一步了解渠道属性。
 
 
-## 从渠道分配了解渠道属性 {#channel-properties}
+## 从渠道分配{#channel-properties}了解渠道属性
 
-### Reference Channel {#ref-channel}
+### 引用渠道{#ref-channel}
 
 引用渠道允许您按渠道名称或渠道路径提供对所需渠道的引用。
 
 * **按路径**：您可以使用渠道的绝对路径提供显式引用。
 
-* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。例如，名为&#x200B;*deals of the day*&#x200B;的渠道，其中两个城市的实际内容会有所不同，但您在所有显示屏上仍具有相同的渠道角色。
 
 ### 渠道角色 {#role-channel}
 
@@ -78,7 +78,7 @@ ht-degree: 37%
 
 作为内容作者，您应当能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在由于日程安排而中断播放之前让重要内容完全播放。
 
-从以下选项中进行选择，以从“渠道分配”对话框中设置 **中断方法** :
+从&#x200B;**渠道分配**&#x200B;对话框中选择下列选项之一来设置中断方法：
 
 * **立即**:只要计划激活或收到更新，您就可以停止播放并立即刷新或播放新内容
 * **在当前项目的末尾**:当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
@@ -91,15 +91,15 @@ ht-degree: 37%
 
 ### 计划 {#schedule-channel}
 
-通过计划，您可以在应当显示渠道时提供文本形式的说明。It also let&#39;s you define a start date (**active from**) and an end date (**active until**) for the channel to be shown.
+通过计划，您可以在应当显示渠道时提供文本形式的说明。还允许您定义开始日期（从&#x200B;**开始为**&#x200B;活动）和结束日期（从&#x200B;**活动到**），以便显示渠道。
 
 **显示有趣内容工具提示**：
 
 “显示有趣内容工具提示”定义了在渠道运行时是否必须显示有趣内容工具提示（“触摸任何位置可开始&#x200B;**”）。
 
-### DayParting {#dayparting}
+### 分时段{#dayparting}
 
-Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+计划与&#x200B;**DayParting**&#x200B;结合使用后，您可以设置一个全局计划，该渠道在一天的特定时间运行，并一次为所有显示屏重新使用该设置。
 
 分时段功能是指将一天分成多个时段并指定在所需时间播放的内容。AEM Screens允许您根据要求在一天、一周或月内分时段计划渠道。
 
@@ -133,13 +133,13 @@ Schedules when combined with **DayParting**, allows you to set a global schedule
    <td>LiveConcert</td>
    <td>周末</td>
    <td> </td>
-   <td>2017年10月21日- 2017年10月22 <br /> 日20:00至22:00</td>
+   <td>2017年10月21日- 2017年10月22日<br /> 20:00后22:00</td>
   </tr>
   <tr>
    <td>特价晚餐</td>
    <td>周末</td>
    <td> </td>
-   <td>2017年10月21日- 2017年10月22 <br /> 日1点前22分</td>
+   <td>2017年10月21日- 2017年10月22日<br /> 1:00前22:00后</td>
   </tr>
  </tbody>
 </table>
@@ -159,7 +159,7 @@ Schedules when combined with **DayParting**, allows you to set a global schedule
 >
 >此外，您可以为每个渠道定义&#x200B;***优先级***。例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
 
-#### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
+#### 播放具有相同优先级的渠道内容  {#playing-content-for-channels-with-same-priority}
 
 此示例显示了商店的DayParting，该商店在12月的月份以相同计划显示其冬季收藏集。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
 
