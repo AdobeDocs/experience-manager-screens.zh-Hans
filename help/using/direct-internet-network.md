@@ -10,9 +10,9 @@ ht-degree: 0%
 ---
 
 
-# 直接因特网网络（有线／无线） {#direct-internet-access}
+# 直接Internet网络（有线／无线）{#direct-internet-access}
 
-直接因特网网络包含用于因特网访问的入口接入点，以便到达AEM Screens需要连接的AEM cloud services。
+直接Internet网络包含一个用于Internet访问的入口接入点，用于访问AEM Screens需要连接到的AEM云服务。
 
 AEM Screens通信的标准端口有：
 * `ssl-secured https (TCP Port 443)`
@@ -27,11 +27,11 @@ AEM Screens通信的标准端口有：
 
 该配置还包括任何Internet服务提供商(ISP)及其Internet线路的Internet访问。 大多数ISP提供的Internet路由器涵盖Internet调制解调器、网络交换机、Wi-Fi接入点、防火墙和其他网络功能（取决于制造商和型号）。
 
-## 将AEM Screens播放器连接到直接Internet访问 {#connecting-aem-screens-players}
+## 将AEM Screens播放器连接到直接Internet访问{#connecting-aem-screens-players}
 
-请按照以下步骤确保此配置中的AEM Screen播放器正确连接：
+请按照以下步骤确保此配置中的AEM屏幕播放器正确连接：
 
-1. 确保每个AEM Screen播放器都已连接到路由器的网络。
+1. 确保每个AEM屏幕播放器都连接到路由器的网络。
 1. 通过在系统浏览器中调用URL来测试Internet连接。
 
    >[!NOTE]
@@ -47,13 +47,13 @@ AEM Screens通信的标准端口有：
 
    >[!NOTE]
    >**疑难解答提示**
-   >如果AEM Screens连接不正常，并且未显示预期内容：
+   >如果AEM Screens连接不正常，并且不显示预期内容：
    >
-   >1. 如果对Internet路由器防火墙有任何限制，请检查 `TCP/IP Port 80/443`。
+   >1. 如果对`TCP/IP Port 80/443`有任何限制，请检查您的Internet路由器防火墙。
    >1. 确保允许所有必需的端口。
 
 
-## 设置直接访问网络 {#requirements-direct}
+## 设置直接访问网络{#requirements-direct}
 
 直接Internet网络在逻辑上分为两个块：
 
@@ -61,28 +61,28 @@ AEM Screens通信的标准端口有：
 
 * 局域网
 
-### 广域网 {#wan-connection}
+### 广域网{#wan-connection}
 
-除网络的可达性外，因特网连接的性能是提供足够的带宽来运行AEM Screens。
+除了网络的可达性外，因特网连接的性能还是提供足够的带宽来运行AEM Screens。
 
-*足够* ，这取决于已连接AEM屏幕的数量以及网络中其他消费者（如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络）的使用情况。
+*充分* 取决于连接的AEM屏幕的数量以及网络内其他消费者的使用情况，如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络。
 
 >[!NOTE]
 >
 >上述所有设备均可同时访问Internet连接，并且当您向网络添加更多消费者或计算机时，带宽会线性减少。
 
-### 局域网 {#lan-connection}
+### 局域网{#lan-connection}
 
 局域网(LAN)的性能，除了网络的可达性外，还提供足够的带宽来运行AEM Screens。
 
 LAN网络通常至少与100 Mbps网络匹配，因此有足够的带宽将许多性能良好的设备连接到系统。
-如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议使用现代Wi-Fi标准，如 `IEEE 802.11g` 果最低标准。 此标准支持高达54 Mbps的连接。 任何 *较新的* “标准” `802.11h-n` 都具有更高的质量。
+如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议使用诸如`IEEE 802.11g`等现代Wi-Fi标准作为最低要求。 此标准支持高达54 Mbps的连接。 任何&#x200B;*较新的*&#x200B;标准（如`802.11h-n`）的质量都较高。
 
 >[!NOTE]
 >
->如果需要Wi-Fi中继器，强烈建议使用Mesh Wi-Fi接入点，如Google Nest Mesh Wi-Fi或类似的接入点。 其他Wi-Fi重复技术最终导致整个网络的带宽严重丢失。
+>如果需要Wi-Fi中继器，强烈建议使用Mesh Wi-Fi接入点，如Google Nest Mesh Wi-Fi或类似的接入点。 其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
 
-## 下载媒体和资产 {#download}
+## 下载媒体和资产{#download}
 
 AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保存所有必需的媒体文件，如图像和视频。 当特定显示屏上显示新内容时，将发生主要网络流量。
 
