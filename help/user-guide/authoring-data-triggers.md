@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# 使用数据触发器进行创作 {#authoring-with-data-triggers}
+# 使用数据触发器进行创作{#authoring-with-data-triggers}
 
 本节重点介绍如何在渠道中启用定位。
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 前提条件 {#prereqs}
 
-在执行以下步骤以启用渠道定位之前，您必须了 [解了解AEM Screens的ContextHub](configuring-context-hub.md) 和定位所需的AEM Screens配置中的关键术语。
+在执行以下步骤以启用渠道定位之前，您必须了解在AEM Screens进行配置](configuring-context-hub.md)中的[关键术语，以了解在AEM Screens进行ContextHub和定位。
 
 >[!IMPORTANT]
 >
@@ -34,25 +34,25 @@ ht-degree: 1%
 
 完成上述步骤后，您便可以在渠道中启用定位。
 
-## 使用数据触发器进行创作概述 {#author-targeting}
+## 使用数据触发器进行创作概述{#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM Screens渠道中启用定位 {#enabling-targeting}
+## 在AEM Screens渠道{#enabling-targeting}中启用定位
 
 按照以下步骤在您的渠道中启用定位。
 
-1. 导航到某个AEM Screens渠道。 以下步骤演示了如何通过使用在AEM Screens **渠道中创建** 的DataDrivenRetail ** (序列渠道)，启用定位。
+1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创建的&#x200B;**DataDrivenRetail** *(序列渠道)*&#x200B;启用定位。
 
-1. 选择渠道 **DataDriven** Retail，然 **后单击操** 作栏中的属性。
+1. 选择渠道&#x200B;**DataDrivenRetail**&#x200B;并单击操作栏中的&#x200B;**属性**。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 选择“ **个性化** ”选项卡以设置ContextHub配置并选择ContextHub和“区段”路径。
+1. 选择&#x200B;**Personalization**&#x200B;选项卡以设置ContextHub配置，然后选择ContextHub和区段路径。
 
-   1. 选择ContextHub路 **径** , **作为****>设置** > **设置** >默认设置 ************>默认>中集配置和上下文和单击选择列。
+   1. 选择&#x200B;**ContextHub路径**&#x200B;作为&#x200B;**libs** > **设置** > **cloudsettings** > **default** > **ContextHub配置**&#x200B;并单击&#x200B;**选择**。
 
-   1. 选择“路径” **段** “会 **议”** >“零 **售”** >“” **>“”**************>“”>区段和点按。
+   1. 选择&#x200B;**区段路径**&#x200B;作为&#x200B;**conf** > **We.Retail** > **设置** **wcm****区段**，然后单击&#x200B;**选择**。
 
    1. 单击&#x200B;**保存并关闭**。
    >[!NOTE]
@@ -61,19 +61,19 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 从“数据驱动资 **产”** >“渠道” **中导航并选** 择数据驱动 **的零售，然** 后单击操 **作栏中的“编** 辑”。 在渠道编辑器中拖放资产。
+1. 导航并选择&#x200B;**DataDrivenAssets** > **渠道**&#x200B;中的&#x200B;**DataDrivenRetail**，然后单击操作栏中的&#x200B;**编辑**。 在渠道编辑器中拖放资产。
 
    >[!NOTE]
    >
-   >如果您正确设置了所有内容，您将在 **编辑器** 的下拉框中看到“定位”选项，如下图所示。
+   >如果您正确设置了所有内容，您将在编辑器的下拉框中看到&#x200B;**定位**&#x200B;选项，如下图所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 单击 **定位**。
+1. 单击&#x200B;**定位**。
 
-1. 从 **下拉** 菜 **单中选** 择品牌 **和活动**，然后单击开始定位。
+1. 从下拉菜单中选择&#x200B;**品牌**&#x200B;和&#x200B;**活动**，然后单击&#x200B;**开始定位**。
 
-### 了解更多：示例使用案例 {#learn-more-example-use-cases}
+### 了解更多：示例用例{#learn-more-example-use-cases}
 
 为AEM Screens项目配置ContextHub后，您可以按照不同的使用案例了解数据触发资产如何在不同行业中发挥关键作用：
 
