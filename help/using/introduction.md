@@ -14,7 +14,7 @@ ht-degree: 83%
 
 # AEM Screens 简介 {#introduction}
 
-**AEM(Adobe Experience Manager)Screens是一款数字标牌解决方案** ，它允许您创作、发布和播放动态的交互式数字体验，这些体验涉及不同类型的场内展示屏，并采用全面的全渠道数字营销战略。
+**AEM(Adobe Experience Manager)** Screensis是一款数字标牌解决方案，它允许您通过全面的全渠道数字营销战略创作、发布和播放涉及不同类型场馆内显示屏的动态交互式数字体验。
 
 AEM Screens 允许您创建：
 
