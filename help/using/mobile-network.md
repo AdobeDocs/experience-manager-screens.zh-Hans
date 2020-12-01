@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# 直接移动网络 {#mobile-network-setup}
+# 直接移动网络{#mobile-network-setup}
 
 AEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝网络进行连接。
 
@@ -24,7 +24,7 @@ AEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝网络�
 
 ![](/help/using/assets/direct-mobile-1.png)
 
-## 将AEM Screens播放器连接到直接移动网络 {#connecting-aem-screens-players}
+## 将AEM Screens播放器连接到直接移动网络{#connecting-aem-screens-players}
 
 请按照以下步骤确保此配置中的AEM屏幕播放器正确连接：
 
@@ -37,7 +37,7 @@ AEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝网络�
 
 1. 如果URL调用成功，您可以继续安装AEM Screens并注册。 开始AEM Screens。
 
-## 设置直接移动网络 {#requirements-direct}
+## 设置直接移动网络{#requirements-direct}
 
 网络设置可以在两个块中逻辑地分开：
 
@@ -45,7 +45,7 @@ AEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝网络�
 
 * 局域网
 
-### 移动Internet连接 {#mobile-internet-connection}
+### 移动Internet连接{#mobile-internet-connection}
 
 除网络可达性外，因特网连接的性能还提供足够的带宽，以便顺利地运行AEM Screens。
 
@@ -69,19 +69,19 @@ AEM Screens播放器也可以使用运行至少3G网络的移动或蜂窝网络�
 
 
 >[!IMPORTANT]
->对于媒体文件的初始上传，例如，在集成新播放器时，必须期望更高的数据量和更长的下载时间，并反映在上述假设中。 覆盖范围良好且数 *据不限*** 的4G网络应与此网络设置中最常见的安装相匹配。
+>对于媒体文件的初始上传，例如，在集成新播放器时，必须期望更高的数据量和更长的下载时间，并反映在上述假设中。 覆盖&#x200B;*良好*&#x200B;和&#x200B;*无限*&#x200B;数据的4G网络应与此网络设置中最常见的安装相匹配。
 
 >[!NOTE]
->网络覆盖率良好的最低3G计划应能为AEM Screens播放器带来可接受的下载性能。 如果特定位置仅有公平的覆盖范围，则应考虑将整个网络设置切换到具有移动数据路由 [器和活动网络组件的移动网络](/help/using/mobile-network-router.md)。
+>网络覆盖率良好的最低3G计划应能为AEM Screens播放器带来可接受的下载性能。 如果特定位置仅有公平的覆盖范围，则应考虑将整个网络设置切换到[具有移动数据路由器和活动网络组件的移动网络](/help/using/mobile-network-router.md)。
 
 
-### 局域网 {#lan-connection}
+### 局域网{#lan-connection}
 
 局域网(LAN)的性能问题除了网络可达性外，还要提供足够的带宽，以便顺利地运行AEM Screens。 LAN网络速度的建议是至少以100 Mbps的网络开始，这样就有足够的带宽将许多性能良好的设备连接到系统。
 
 使用其他活动网络组件时，必须使所有组件都与网络带宽要求相匹配。 例如，网络组件应至少匹配100 Mbps标准，并匹配Internet访问或路由器规范提供的带宽。 否则，总带宽将受到网络链中最弱链路的限制。
 
-## 下载媒体和资产 {#download}
+## 下载媒体和资产{#download}
 
 AEM Screens为数字标牌用户提供了巨大优势。 它下载并本地保存所有必需的媒体文件，如图像和视频。 当特定显示屏上显示新内容时，将发生主要网络流量。
 
