@@ -23,7 +23,7 @@ ht-degree: 1%
 
 下页介绍了AEM Screens项目中的设备注册过程。
 
-## 注册设备 {#registering-a-device}
+## 注册设备{#registering-a-device}
 
 设备注册过程在两台单独的计算机上完成：
 
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->从AEM 6.4 Player下载页&#x200B;*面下载最新的Windows* Player( [.exe)后](https://download.macromedia.com/screens/) ，请按照播放器上的步骤完成临时安装：
+>从[AEM 6.4播放器下载](https://download.macromedia.com/screens/)页面下载最新的Windows播放器(*.exe*)后，请按照播放器上的步骤完成临时安装：
 >
 >1. 长按左上角以打开管理面板。
->1. 从左侧 **操作** 菜单导航到配置，在服务器中输入AEM实例的位置地 **址** ，然后单 **击保存**。
->1. 单击左侧操 **作菜单** 中的“注册”链接和以下步骤以完成设备注册过程。
+>1. 从左侧操作菜单导航到&#x200B;**配置**，在&#x200B;**Server**&#x200B;中输入AEM实例的位置地址，然后单击&#x200B;**保存**。
+>1. 单击左侧操作菜单中的&#x200B;**注册**&#x200B;链接和以下步骤以完成设备注册过程。
 
 >
 
@@ -48,21 +48,21 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. 在AEM中，导航到 **项目** 的“设备”文件夹。
+1. 在AEM中，导航到项目的&#x200B;**Devices**&#x200B;文件夹。
 
    >[!NOTE]
    >
-   >要获取有关在AEM仪表板中为Screens创建新项目的更多信息，请参 [阅创建和管理Screens项目](creating-a-screens-project.md)。
+   >要获取有关在AEM仪表板中为Screens创建新项目的更多信息，请参阅[创建和管理Screens项目](creating-a-screens-project.md)。
 
-1. 点按／单击操 **作栏中** 的设备管理器按钮。
+1. 点按／单击操作栏中的&#x200B;**设备管理器**&#x200B;按钮。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 点按／单击右 **上方的** “设备注册”按钮。
+1. 点按／单击右上方的&#x200B;**设备注册**&#x200B;按钮。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 选择所需的设备（与步骤1相同），然后点按／单击注 **册设备**。
+1. 选择所需的设备（与步骤1相同），然后点按／单击&#x200B;**注册设备**。
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -70,62 +70,62 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 在您的设备中，检查注 **册代码**。
+1. 在您的设备中，检查&#x200B;**注册代码**。
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果注 **册代码** （在两台计算机上）相同 **，请点按／单击AEM中的验** 证(如步骤(6)所示)。
-1. 为设备设置所需的名称，然后单击“注 **册”**。
+1. 如果两台计算机上的&#x200B;**注册代码**&#x200B;相同，请点按／单击AEM中的&#x200B;**验证**&#x200B;按钮，如步骤(6)所示。
+1. 为设备设置所需的名称，然后单击&#x200B;**注册**。
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tap/click **Finish** to complete the registration process.
+1. 点按／单击&#x200B;**完成**&#x200B;以完成注册过程。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >通过 **新注册** ，您可以注册新设备。
+   >**注册新**&#x200B;允许您注册新设备。
    >
-   >通过 **“指定显** 示屏”，您可以直接将设备添加到显示屏。
+   >通过&#x200B;**分配显示屏**，您可以直接将设备添加到显示屏。
 
-   如果单击“ **完成**”，则需要将设备分配到显示屏。
+   如果单击&#x200B;**完成**，您需要将设备分配给显示屏。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >要进一步了解如何为Screens项目创建和管理显示屏，请参阅创 [建和管理显示屏](managing-displays.md)。
+   >要进一步了解如何创建和管理Screens项目的显示屏，请参阅[创建和管理显示屏](managing-displays.md)。
 
-### 将设备分配给显示屏 {#assigning-device-to-a-display}
+### 将设备分配给显示屏{#assigning-device-to-a-display}
 
 如果尚未将设备分配给显示屏，请按照以下步骤将设备分配给您的AEM Screens项目中的显示屏：
 
-1. 选择设备，然后单 **击操作栏** 中的指定设备。
+1. 选择设备，然后单击操作栏中的&#x200B;**分配设备**。
 
    ![screen_shot_2018-11-26at11026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 在显示／设备配置路 **径中选择显示路径**。
+1. 在&#x200B;**显示／设备配置路径**&#x200B;中选择显示的路径。
 
    ![screen_shot_2018-11-26at11252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 选择 **路径** 时，单击“分配”。
+1. 选择路径时，单击&#x200B;**分配**。
 
    ![screen_shot_2018-11-26at11722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 成功 **分配设** 备后，单击“完成”，如下图所示。
+1. 成功分配设备后，单击&#x200B;**完成**，如下图所示。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，单击“完成”后，可视图显 **示仪表板**。
+   此外，单击&#x200B;**完成**&#x200B;可视图显示仪表板。
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## 设备注册限制 {#limitations-on-device-registration}
+## 设备注册限制{#limitations-on-device-registration}
 
 系统范围的用户密码限制可能导致设备注册失败。 设备注册使用随机生成的口令来创建设备用户。
 
-如果密码受AuthorizableActionProvider配 *置限制* ，则创建设备用户可能失败。
+如果密码受&#x200B;*AuthorizableActionProvider*&#x200B;配置的限制，则创建设备用户可能会失败。
 
 >[!NOTE]
 >
@@ -141,4 +141,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他资源 {#additional-resources}
 
-要了解AEM Screens播放器，请参阅 [AEM Screens播放器](working-with-screens-player.md)。
+要了解AEM Screens播放器，请参阅[AEM Screens播放器](working-with-screens-player.md)。
