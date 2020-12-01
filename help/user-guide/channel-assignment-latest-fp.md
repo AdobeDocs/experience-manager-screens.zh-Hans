@@ -26,101 +26,101 @@ ht-degree: 21%
 >您可以为显示屏分配多个渠道。
 
 
-## Assigning a Channel {#assign-a-channel-new-release}
+## 分配渠道{#assign-a-channel-new-release}
 
 请按照以下部分创建AEM Screens项目，并为显示屏分配渠道。
 
-### 创建AEM Screens项目和渠道 {#creating-project}
+### 创建AEM Screens项目和渠道{#creating-project}
 
 请按照以下步骤设置项目和渠道:
 
-1. 创建一个标题为DemoScreens的 **AEM Screens项目**。
+1. 创建标题为&#x200B;**DemoScreens**&#x200B;的AEM Screens项目。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >请参阅 [创建和管理项目](creating-a-screens-project.md) ，了解如何创建AEM Screens项目。
+   >请参阅[创建和管理项目](creating-a-screens-project.md)，了解如何创建AEM Screens项目。
 
-1. 在“渠道”文件夹中创 **建标题为** “自助 **餐** ”的序列渠道。
+1. 在&#x200B;**渠道**&#x200B;文件夹中创建标题为&#x200B;**Caferia**&#x200B;的序列渠道。
 
-1. 选择渠道，然 **后单** 击操作栏中的编辑，向渠道添加内容。
+1. 选择渠道，然后单击操作栏中的&#x200B;**编辑**&#x200B;以向渠道添加内容。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   例如，Caferia渠道 **现在显** 示以下图像：
+   例如，**Caferia**&#x200B;渠道现在显示以下图像：
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. 创建标题为SanJose **的位置** ，以及标题为Lobby **的显示屏**。
+1. 创建标题为&#x200B;**SanJose**&#x200B;的位置和标题为&#x200B;**Lobby**&#x200B;的显示屏。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### 将渠道分配给显示屏 {#assigning-channel-to-display}
+### 将渠道分配给显示屏{#assigning-channel-to-display}
 
 项目设置完成后，您必须将渠道分配给显示屏以视图内容。
 
-1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
+1. 导航到所需的显示屏，例如，**DemoScreens** —> **位置** —> **SanJose** —> **Lobby**。
 
-1. Tap/click **Assign Channel** from the action bar.
+1. 点按／单击操作栏中的&#x200B;**分配渠道**。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或者，
 
-   点按／单 **击操作** 栏中的仪表板，然后单 **击“已分配** 的计划和渠道”面板中的 **“** +分配渠道”。
+   点按／单击操作栏中的&#x200B;**仪表板**，然后单击&#x200B;**已分配渠道和计划**&#x200B;面板中的&#x200B;**+分配渠道**。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. **渠道分配**&#x200B;对话框打开。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. 从“设 **置** ”选项中，您可以按路径或名称 **选择渠道** ，输 **入、Role**&#x200B;渠道、 ****************、Ripority、支持的事件、Ripority和方法。 此外，您还可以从此对话框启用有趣内容工具提示。
+1. 从&#x200B;**设置**&#x200B;选项中，可以按路径&#x200B;**或按名称**&#x200B;选择渠道&#x200B;**，输入**&#x200B;渠道角色&#x200B;**、**&#x200B;优先级&#x200B;**、**&#x200B;支持的事件&#x200B;**，和**&#x200B;中断方法&#x200B;**。**&#x200B;此外，您还可以从此对话框启用有趣内容工具提示。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
+   >请参阅[渠道属性](#channel-properties)部分，进一步了解渠道分配属性。
 
-1. 从计划 **选项** 中，选择 **激活窗口** 和重 **现计划**。
+1. 从&#x200B;**计划**&#x200B;选项中，选择&#x200B;**激活窗口**&#x200B;和&#x200B;**重复计划**。
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >请参阅 [渠道属性](#channel-properties) 部分，进一步了解渠道分配属性。
+   >请参阅[渠道属性](#channel-properties)部分，进一步了解渠道分配属性。
 
-1. 配置 **首选项** 后，单击“保存”。
+1. 配置首选项后，单击&#x200B;**保存**。
 
-### 在Chrome Player中查看内容 {#viewing-content-output}
+### 在Chrome Player中查看内容{#viewing-content-output}
 
 此示例在Chrome播放器上显示输出。 将渠道分配给显示屏后，必须向播放器注册设备。
 
-请参阅 [设备注册](device-registration.md) ，了解如何在AEM Screens播放器上注册设备。
+请参阅[设备注册](device-registration.md)，了解如何在AEM Screens播放器上注册设备。
 
 您将在您选择的播放器上视图以下输出：
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## 时间轴视图{#timeline-view}
 
-将渠道分配给显示屏并设置重复计划后，您便可以从“已分配的渠道和计划”面 **板中视图时间** 轴。
+在为显示屏分配渠道并设置重复计划后，您可以从&#x200B;**ASSIGNED渠道和计划**&#x200B;面板视图时间轴。
 
 请按照以下步骤导航到时间轴视图:
 
-1. 导航到所需的显示屏， **例如** DemoScreens **—>** 位置 **—** > SanJose **—**> Lobby Chrobby。
+1. 导航到所需的显示屏，例如，**DemoScreens** —> **位置** —> **SanJose** —> **Lobby**。
 
-1. Tap/click **Assign Channel** from the action bar.
+1. 点按／单击操作栏中的&#x200B;**分配渠道**。
 
    或者，
 
-   点按／单击 **仪表板** ，然后 **从“已分配** 的渠道和计划”面板中单 **** 击“时间轴”。
+   点按／单击&#x200B;**仪表板**，然后单击&#x200B;**已分配渠道和计划**&#x200B;面板中的&#x200B;**时间轴**。
 
    ![图像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## 从“渠道分配”对话框了解渠道属性 {#channel-properties}
+## 从“渠道分配”对话框{#channel-properties}了解渠道属性
 
-通过“渠道分配”对话 **框中的** “设置”选 **项设置以下属性** 。
+通过&#x200B;**渠道分配**&#x200B;对话框中的&#x200B;**设置**&#x200B;选项设置以下属性。
 
 ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -130,7 +130,7 @@ ht-degree: 21%
 
 * **按路径**：您可以使用渠道的绝对路径提供显式引用。
 
-* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。 此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **按名称**:输入将按上下文解析为实际渠道的渠道的名称。此功能允许您创建渠道的本地版本，以便动态解析特定于位置的内容。例如，名为&#x200B;*deals of the day*&#x200B;的渠道，其中两个城市的实际内容会有所不同，但您在所有显示屏上仍具有相同的渠道角色。
 
 ### 渠道角色 {#role-channel}
 
@@ -158,7 +158,7 @@ ht-degree: 21%
 
 作为内容作者，您应当能够指定渠道何时中断，以便选择切断非关键内容，但可以选择在由于日程安排而中断播放之前让重要内容完全播放。
 
-从以下选项中进行选择，以从“渠道分配”对话框中设置 **中断方法** :
+从&#x200B;**渠道分配**&#x200B;对话框中选择下列选项之一来设置中断方法：
 
 * **立即**:只要计划激活或收到更新，您就可以停止播放并立即刷新或播放新内容
 * **在当前项目的末尾**:当激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放，并且仅在刷新或播放新内容之后
@@ -171,32 +171,32 @@ ht-degree: 21%
    >[!NOTE]
    >使用第二个或第三个选项可能导致在分配上定义的调度时间被稍微推迟，因为播放器在刷新之前将等待项目或序列的结束（在指定时间之后）。 延迟取决于项目的播放持续时间。
 
-通过“计划分配”对话 **框中** 的“渠道 **”选项** 设置以下属性。
+从&#x200B;**计划分配**&#x200B;对话框的&#x200B;**渠道**&#x200B;选项设置以下属性。
 
 ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### 激活窗口 {#activation-window}
 
-激活窗口允许您选择 **开始日期****和结束日期** ，以显示您的内容。
+激活窗口允许您选择&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**&#x200B;来显示您的内容。
 
 ### 循环计划 {#recurrence-schedule}
 
-重复计划允许您为内容设置重复计划。 单击+ **添加计划** ，向渠道添加重复计划。
+重复计划允许您为内容设置重复计划。 单击&#x200B;**+添加计划**，向渠道添加重复计划。
 
 >[!NOTE]
 >您可以向渠道添加多个重复计划。
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>重复计划引入了&#x200B;*DayParting*，它允许您设置全局计划，该渠道在一天的特定时间运行多个，并同时为所有显示屏重新使用该设置。
 
 您可以设置以下选项：
 
 * **名称**:重复计划的标题。
-* **重复**:选择计划是 **运行** Daily **、Weekly****、** Monthly ****，还是Yearly 。
+* **重复**:选择计划是 **运行** Daily **、Weekly** **、** Monthly ****，还是Yearly 。
 * **开始**:开始时间。
-* **结束**:计划的结束时间。 您可以按时间或持续时间设置它。
+* **结束**:计划的结束时间。您可以按时间或持续时间设置它。
    * **时间**:计划将在指定时间结束。
    * **持续时间**:计划以小时或分钟为单位在特定时间段内运行。
 
-### DayParting {#dayparting}
+### 分时段{#dayparting}
 
 分时段功能是指将一天分为多个时段，并指定在所需时间播放哪些内容。 AEM Screens允许您根据需要在一天、一周或月内按分时段方式计划渠道。
 
