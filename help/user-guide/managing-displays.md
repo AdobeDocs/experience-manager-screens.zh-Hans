@@ -37,21 +37,21 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->在创建显示屏之前，您需要先创建位置。To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
+>在创建显示屏之前，您需要先创建位置。要了解如何创建位置，请参阅[创建和管理位置](managing-locations.md)以了解详细信息。
 
 要在您的位置中创建新显示屏，请按照以下步骤操作：
 
-1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. 此时将打开一个向导。
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. 导航到相应的位置，例如`http://localhost:4502/screens.html/content/screens/TestProject`。
+1. 选择您的位置文件夹，然后点按／单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
+1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**显示**，然后单击&#x200B;**下一步**。
 
-1. Enter **Name** and **Title** for your display location.
+1. 输入&#x200B;**名称**&#x200B;和&#x200B;**标题**&#x200B;作为显示位置。
 
-1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). 此外，您还可以选择水平和垂直设备的数量。
+1. 在&#x200B;**显示**&#x200B;选项卡下，选择布局的详细信息。 选择所需的&#x200B;**分辨率**（例如，**全高清**）。 此外，您还可以选择水平和垂直设备的数量。
 
 1. 单击&#x200B;**创建**。
 
-The display (*StoreDisplay*) is created and added to the location (*SanJose*).
+创建显示屏(*StoreDisplay*)并将其添加到位置(*SanJose*)。
 
 ![显示](assets/display.gif)
 
@@ -63,7 +63,7 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 >
 >为您的位置创建显示屏后，您需要为显示屏分配渠道以利用内容。
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>请参阅[分配渠道](channel-assignment.md)部分，了解如何将渠道分配给显示屏。
 
 ## 创建新设备配置 {#creating-a-new-device-config}
 
@@ -71,15 +71,15 @@ The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
 请按照以下步骤创建新设备配置：
 
-1. 导航到相应的显示屏，例如 `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`。
-1. Select your display folder and tap/click **View Dashboard** in the action bar.
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. 导航到相应的显示屏，例如`http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`。
+1. 选择您的显示文件夹，然后点按／单击操作栏中的&#x200B;**视图仪表板**。
+1. 点按／单击&#x200B;**设备**&#x200B;面板右上方的&#x200B;**+添加设备配置**。
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. 选择&#x200B;**设备配置**&#x200B;作为所需的模板，然后点按／单击&#x200B;**下一步**。
 
-1. Enter the properties as required and tap/click **Create**.
+1. 根据需要输入属性，然后点按／单击&#x200B;**创建**。
 
-The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
+将创建设备配置并将其添加到当前显示屏（在以下演示中，新设备配置为&#x200B;*DeviceConfig*）。
 
 ![设备配置](assets/deviceconfig.gif)
 
@@ -89,9 +89,9 @@ The device config is created and added to the current display (in the following 
 >
 >为位置中的显示屏设置设备配置后，下一步是将渠道分配到显示屏。
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>如下图所示，如果设备配置在&#x200B;**设备**&#x200B;面板中显示为未分配，则没有为该特定设备配置分配渠道。
 >
->您应当已事先了解如何创建和管理渠道。有关更 [多详细信息，请参](managing-channels.md) 阅创建和管理渠道。
+>您应当已事先了解如何创建和管理渠道。有关详细信息，请参阅[创建和管理渠道](managing-channels.md)。
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -120,9 +120,9 @@ The device config is created and added to the current display (in the following 
 
 单击&#x200B;**属性**&#x200B;可查看或更改显示屏的属性。
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. 默认值设为 *300 秒*。
+此外，您还可以在&#x200B;**显示**&#x200B;选项卡下的&#x200B;**空闲超时**&#x200B;属性中调整交互式渠道的事件计时器值。 默认值设为 *300 秒*。
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+使用&#x200B;**CRXDE Lite**&#x200B;访问&#x200B;**idleTimeout**&#x200B;属性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`。
 
 
 ### “已指定渠道”面板{#assigned-channels-panel}
@@ -130,11 +130,11 @@ Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://loc
 **已指定渠道**&#x200B;面板显示了已分配到此设备的渠道。
 
 
-### “设备”面板 {#devices-panel}
+### “设备”面板  {#devices-panel}
 
 **设备**&#x200B;面板提供了有关设备配置的信息。
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+单击(**...**&#x200B;设备&#x200B;**面板右上角的**)添加设备配置和更新设备。
 
 此外，单击设备配置以视图属性、分配设备或完全删除设备。
 
@@ -144,4 +144,4 @@ Click on the (**...**) in the top right corner in the **DEVICES** panel to add d
 
 为您的位置创建完显示屏后，您需要为显示屏分配渠道。
 
-See [Assign Channels](channel-assignment.md) for more details.
+有关详细信息，请参阅[分配渠道](channel-assignment.md)。
