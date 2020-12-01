@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# 创建组件 {#creating-components}
+# 创建组件{#creating-components}
 
 AEM组件用于保存、格式化和呈现网页上提供的内容。
 
@@ -26,17 +26,17 @@ AEM组件用于保存、格式化和呈现网页上提供的内容。
 >
 >要了解创建AEM组件的详细信息，请参阅开发AEM组件。
 
-## 创作渠道 {#authoring-channels}
+## 创作渠道{#authoring-channels}
 
-渠道是交付到一组显示屏的内容的中心对象。 因此，内容作者通常会在编辑器中打开渠道以添加或修改内容。 由于渠道是 ***cq:Page*** ，因此它将遵循相同的传统UX模式在渠道上添加和更改组件。
+渠道是交付到一组显示屏的内容的中心对象。 因此，内容作者通常会在编辑器中打开渠道以添加或修改内容。 由于渠道是&#x200B;***cq:Page***，因此它将遵循相同的传统UX模式在渠道上添加和更改组件。
 
 但是，由于渠道中的组件通常呈现为全屏，因此在尝试编辑单个组件或编写新订单时，创作体验会受到影响。 因此，渠道将依赖选择器来呈现不同视图的组件。 创作环境将利用编辑选择器激活自定义渠道渲染。
 
 例如，`http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-用户在编辑时不必将选择器添加到URL。 客户端逻辑正在侦听层交换机事件，并在渠道具有专用资源类型screens/core/ *components/渠道时添加选择器。*
+用户在编辑时不必将选择器添加到URL。 客户端逻辑正在侦听层交换机事件，并在渠道具有专用资源类型&#x200B;*screens/core/components/渠道时添加选择器。*
 
-## 渲染组件 {#rendering-components}
+## 渲染组件{#rendering-components}
 
 要启用正确的创作，组件需要提供以下两个渲染：
 
@@ -55,5 +55,5 @@ AEM组件用于保存、格式化和呈现网页上提供的内容。
 
 >[!NOTE]
 >
->要开发自定义组件，请使用***[AEM Screens示例组件](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)模板***。
+>要开发自定义组件，请使用***[AEM Screens示例组件模板](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
 
