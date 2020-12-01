@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# AEM Screens的系统安全考虑 {#security-checklist}
+# AEM Screens的系统安全注意事项{#security-checklist}
 
 >[!IMPORTANT]
 >这是内部Git资源。
@@ -20,12 +20,12 @@ ht-degree: 1%
 本页重点介绍AEM Screens的系统安全注意事项。
 
 
-## AEM Screens安全白皮书 {#white-paper}
+## AEM Screens安全白皮书{#white-paper}
 
 本节介绍白皮书。 （待处理白皮书附件）
 
 
-## AEM Screens安全常见问题解答 {#faqs-screens}
+## AEM Screens安全{#faqs-screens}常见问题解答
 
 以下常见问题解答假定使用HTTPS作为播放器与AEM服务器之间的通信协议的经过身份验证的注册的播放器架构。
 
