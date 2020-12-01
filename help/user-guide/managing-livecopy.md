@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 本页介绍了如何创建和管理渠道的 Live Copy。
 
-A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. 此Live关系允许Live copy从源继承内容和页面属性。
+***Live Copy***&#x200B;是特定站点内容的副本，其中保留了与原始源的Live关系。 此实时关系允许Live Copy从源继承内容和页面属性。
 
 本页介绍了如何创建渠道的 Live Copy、查看属性、检查状态，以及将渠道中的更改传播到其 Live Copy。
 
@@ -28,10 +31,10 @@ A ***Live Copy*** is a copy of specific site content for which a live relationsh
 
 请按照以下步骤在项目文件夹中创建渠道的 Live Copy。
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择&#x200B;**屏幕**。Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. 选择 Adobe Experience Manager 链接（左上方），然后选择&#x200B;**屏幕**。或者，您也可以直接转到：`http://localhost:4502/screens.html/content/screens`。
 
-1. Navigate to Screens project and click **Channels**.
-1. Click **Create** and select **Live Copy** to create a live copy of the channel.
+1. 导航到Screens项目，然后单击&#x200B;**渠道**。
+1. 单击&#x200B;**创建**&#x200B;并选择&#x200B;**Live Copy**&#x200B;以创建渠道的Live Copy。
 
 1. 选择目标，然后单击&#x200B;**下一步**。
 1. 选择将存放 Live Copy 的位置。
@@ -41,7 +44,7 @@ A ***Live Copy*** is a copy of specific site content for which a live relationsh
 
 或者，请查看下面以可视化形式显示的有关创建渠道的新 Live Copy 的步骤。
 
-The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with destination folder as ***Channels***.
+以下示例显示了如何在目标文件夹&#x200B;***渠道***&#x200B;中创建 ***Idle Channel*** 的 Live Copy (***IdleLiveCopy***)。
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,7 +54,7 @@ Live Copy 是已存在的渠道的副本。
 
 要查看您的 Live Copy 内容，请执行以下步骤：
 
-1. 导航到 Screens 项目，然后单击您最初创建 Live Copy 的位置，如上面的部分所示。(Here, the location was chosen as **Channels** folder)
+1. 导航到 Screens 项目，然后单击您最初创建 Live Copy 的位置，如上面的部分所示。(此处，选择的位置为&#x200B;**渠道**&#x200B;文件夹)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -63,7 +66,7 @@ Live Copy 是已存在的渠道的副本。
    >
    >查看 Live Copy 渠道的内容时，您将在菜单中看到一个额外的项目 **Live Copy 状态**。有关更多详细信息，请参阅以下部分。
 
-### 查看 Live Copy 的属性 {#viewing-properties-of-a-live-copy}
+### 查看 Live Copy 的属性  {#viewing-properties-of-a-live-copy}
 
 您还可以查看 Live Copy 渠道的属性。
 
@@ -79,7 +82,7 @@ Live Copy 是已存在的渠道的副本。
 
 如下图所示，**Live Copy 状态**&#x200B;模式允许您查看渠道中所有资产的关系状态。
 
-1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. 单击&#x200B;**编辑**&#x200B;以选择&#x200B;**Live Copy状态**，将渠道内容与原始渠道（从中生成Live Copy）的关联视图。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -123,9 +126,9 @@ Live Copy 是已存在的渠道的副本。
 
 1. 选择 **Live Copy** 选项卡，然后单击操作栏中的&#x200B;**同步**。
 
-   ![chlimage_1-29](assets/chlimage_1-29.png)
+   ![chlimage_1-21](assets/chlimage_1-29.png)
 
-1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。Click **Save &amp; Close** to navigate back to the AEM dashboard.
+1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。单击&#x200B;**保存并关闭** ，导航回AEM仪表板。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
