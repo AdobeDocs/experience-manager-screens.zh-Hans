@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -129,20 +129,33 @@ ht-degree: 1%
 
 1. 选择&#x200B;**设备**&#x200B;文件夹，然后单击操作栏中的&#x200B;**设备管理器**。
 
+   ![图像](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. 将显示已注册设备的列表。
 
-1. 如果注册设备列表较长，您现在可以使用操作栏中的搜索图标进行搜索，或者只需单击`/`（正斜杠）以调用搜索功能。
+1. 如果注册设备列表较长，您现在可以使用操作栏中的搜索图标进行搜索
+
+   ![图像](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   或者，
+
+   单击`/`（正斜杠）以调用搜索功能。
+
+   ![图像](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### 搜索功能限制{#limitations}
 
-* 用户将能够搜索设备ID或设备名称中的任何单词。 请确保将设备名称存储在多个单词中，如“Boston Store Lobby”，而不是“BostonStoreLobby”。
+* 用户将能够搜索&#x200B;*设备ID*&#x200B;或&#x200B;*设备名称*&#x200B;中存在的任何单词。
 
-* 在前一种情况下，它允许搜索任何单词“boston”、“store”、“lobby”，但在后一种情况下，搜索“boston”不会显示结果。
+   >[!NOTE]
+   >建议您使用多个单词（如&#x200B;*Boston Store Lobby*）创建设备名称，而不是单个&#x200B;*BostonStoreLobby*。
 
-* 支持使用通配符`*`进行搜索。 如果要查找名称以&#x200B;**boston**&#x200B;开头的所有设备，可以使用&#x200B;**boston***。
+* 如果创建设备名称，如&#x200B;*Boston Store Lobby*，它允许搜索任何单词&#x200B;*boston*、*store*&#x200B;或&#x200B;*lobby*，但如果设备名称被称为&#x200B;*BostonStoreLobby*&#x200B;搜索&#x200B;*boston*&#x200B;将不显示结果。
 
-1. 如果设备名称为&#x200B;**BostonStoreLobby**，搜索&#x200B;**boston**&#x200B;将不返回结果，但&#x200B;**boston***将返回结果。
+* 支持使用通配符`*`进行搜索。 如果要查找名称以&#x200B;*boston*&#x200B;开头的所有设备，可以使用&#x200B;*boston**。
 
+1. 如果设备名称为&#x200B;*BostonStoreLobby*，搜索&#x200B;*boston*&#x200B;将不返回结果，而是在搜索条件中使用&#x200B;*boston**将返回结果。
 
 ## 设备注册限制{#limitations-on-device-registration}
 
