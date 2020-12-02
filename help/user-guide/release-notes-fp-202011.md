@@ -2,10 +2,10 @@
 title: 功能包202011发行说明
 description: 本页介绍功能包202011的发行说明。
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ AEM Screens发布了AEM 6.5功能包6。
 
 * **内容分配报告**
 
-   内容分配报告功能允许AEM Screens管理员或作者导出&#x200B;*内容分配报告*，该报告可能采用电子表格格式。
+   内容分配报告功能允许AEM Screens管理员或作者以电子表格格式导出&#x200B;*内容分配报告*。
 有关详细信息，请参阅[内容分配报告](/help/user-guide/content-assignment-report.md)。
 
 
