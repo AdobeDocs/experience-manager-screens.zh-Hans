@@ -2,10 +2,10 @@
 title: 内容分配报告
 description: 本页介绍内容分配报告的下载和使用情况。
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '307'
+ht-degree: 6%
 
 ---
 
@@ -20,34 +20,21 @@ ht-degree: 2%
 
 内容分配报告不仅允许预览选定AEM Screens项目中的所有渠道、资产、显示屏和设备，还提供了项目的高级结构。
 
-### 使用内容分配报告{#downloading-content-assignment-report-fp}
 
-#### 设置项目{#setting-up-project}
+### 先决条件{#pre-reqs}
 
-请按照以下步骤从AEM Screens项目下载内容分配报告：
+在下载内容分配报告之前，请确保已经设置了包含渠道、位置和设备的AEM Screens项目。
+有关更多详细信息，请参阅以下资源：
 
-1. 创建标题为&#x200B;**DemoScreens**&#x200B;的AEM Screens。
+1. [创建和管理项目](/help/user-guide/creating-a-screens-project.md)
+1. [创建和管理渠道](/help/user-guide/managing-channels.md)
+1. [创建和管理位置](/help/user-guide/managing-locations.md)
+1. [创建和管理显示屏](/help/user-guide/managing-displays.md)
+1. [创建设备](/help/user-guide/managing-devices.md)
+1. [分配渠道](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![图像](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. 在&#x200B;**DemoScreens**&#x200B;中创建两个序列渠道，如&#x200B;**ChannelOne**&#x200B;和&#x200B;**ChannelTwo**。
-
-   ![图像](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. 选择&#x200B;**ChannelOne**&#x200B;并单击操作栏中的&#x200B;**编辑**。 向此渠道添加少量资源（图像／视频）。 同样，向&#x200B;**ChannelTwo**&#x200B;添加资产。
-
-1. 导航到位置文件夹，从&#x200B;**DemoScreens** —> **位置**&#x200B;导航到三个不同的位置，标题为&#x200B;**SanJose**、**Dublin**&#x200B;和&#x200B;**SanFrancisco**。
-
-   ![图像](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. 导航到每个位置并为每个位置创建一个显示屏，如&#x200B;**SanJose**&#x200B;位置下的&#x200B;**SanJoseMain**、**Dublin**&#x200B;位置下的&#x200B;**DublinMain**&#x200B;和&#x200B;**SanFranciscoMain**&#x200B;在&#x200B;**SanFrancisco**&#x200B;位置下。
-
-1. 为每个显示屏分配一个设备。
-
-   >[!NOTE]
-   >要了解如何将渠道分配给显示屏，请参阅[渠道分配](/help/user-guide/channel-assignment.md)。
-
-#### 下载内容分配报告{#downloading-content-assignment-report}
+## 下载内容分配报告{#downloading-content-assignment-report-fp}
 
 设置AEM Screens项目并将显示屏分配给每个位置（如前面的步骤所示）后，即可下载内容分配报告。
 
@@ -64,8 +51,4 @@ ht-degree: 2%
 
    >[!NOTE]
    >下载的电子表格由四列组成，如&#x200B;**渠道**、**资产**、**显示**&#x200B;和&#x200B;**设备**，这些列可用于进一步调查与您的AEM Screens项目相关的这四个实体。
-
-
-
-
 
