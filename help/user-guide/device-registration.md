@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '785'
+ht-degree: 1%
 
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 * 支持使用通配符`*`进行搜索。 如果要查找名称以&#x200B;*boston*&#x200B;开头的所有设备，可以使用&#x200B;*boston**。
 
-1. 如果设备名称为&#x200B;*BostonStoreLobby*，搜索&#x200B;*boston*&#x200B;将不返回结果，而是在搜索条件中使用&#x200B;*boston**将返回结果。
+* 如果设备名称为&#x200B;*BostonStoreLobby*，搜索&#x200B;*boston*&#x200B;将不返回结果，而是在搜索条件中使用&#x200B;*boston**将返回结果。
 
 ## 设备注册限制{#limitations-on-device-registration}
 
