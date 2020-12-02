@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,29 @@ ht-degree: 1%
    此外，单击&#x200B;**完成**&#x200B;可视图显示仪表板。
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### 从设备管理器{#search-device}搜索设备
+
+将设备注册到播放器后，您可以从设备管理器UI视图所有设备。
+
+1. 从您的AEM Screens项目导航到设备管理器UI，例如&#x200B;**DemoScreens** —> **设备**。
+
+1. 选择&#x200B;**设备**&#x200B;文件夹，然后单击操作栏中的&#x200B;**设备管理器**。
+
+1. 将显示已注册设备的列表。
+
+1. 如果注册设备列表较长，您现在可以使用操作栏中的搜索图标进行搜索，或者只需单击`/`（正斜杠）以调用搜索功能。
+
+#### 搜索功能限制{#limitations}
+
+* 用户将能够搜索设备ID或设备名称中的任何单词。 请确保将设备名称存储在多个单词中，如“Boston Store Lobby”，而不是“BostonStoreLobby”。
+
+* 在前一种情况下，它允许搜索任何单词“boston”、“store”、“lobby”，但在后一种情况下，搜索“boston”不会显示结果。
+
+* 支持使用通配符`*`进行搜索。 如果要查找名称以&#x200B;**boston**&#x200B;开头的所有设备，可以使用&#x200B;**boston***。
+
+1. 如果设备名称为&#x200B;**BostonStoreLobby**，搜索&#x200B;**boston**&#x200B;将不返回结果，但&#x200B;**boston***将返回结果。
+
 
 ## 设备注册限制{#limitations-on-device-registration}
 
