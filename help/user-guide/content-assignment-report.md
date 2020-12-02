@@ -2,9 +2,9 @@
 title: 内容分配报告
 description: 本页介绍内容分配报告的下载和使用情况。
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '332'
 ht-degree: 6%
 
 ---
@@ -45,10 +45,14 @@ ht-degree: 6%
 
 1. 导航到您的AEM Screens项目并选择项目&#x200B;**DemoScreens**。
 
-1. 单击操作栏中的&#x200B;**内容分配报告**。 应将Excel表下载到本地计算机。
+1. 单击操作栏中的&#x200B;**内容分配报告**。
 
    ![图像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >下载的电子表格由四列组成，如&#x200B;**渠道**、**资产**、**显示**&#x200B;和&#x200B;**设备**，这些列可用于进一步调查与您的AEM Screens项目相关的这四个实体。
+
+1. 将一个excel工作表下载到您的本地计算机，其前缀与您的AEM Screens项目名称相同。 例如，如果项目名称为&#x200B;**DemoScreens**，则下载的文件名将为&#x200B;**demoscreens-content-assignment-report.xlxs**。
+
+   ![图像](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
