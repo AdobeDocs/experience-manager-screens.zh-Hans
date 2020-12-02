@@ -2,10 +2,10 @@
 title: 功能包202011发行说明
 description: 本页介绍功能包202011的发行说明。
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 AEM Screens发布了AEM 6.5功能包6。
 
-您可以使用您的Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens6.5.6版的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**屏幕**&#x200B;以获取最新功能包。
+您可以使用您的Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens6.5.6版的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**Screens**&#x200B;以获取最新的名为&#x200B;**AEM 6.5 Screens FP6**&#x200B;的功能包。
 
 ## 发布日期 {#release-date}
 
@@ -41,10 +41,11 @@ AEM Screens发布了AEM 6.5功能包6。
 * **从设备管理器搜索功能**
 
    现在，设备管理器UI中提供了新的搜索功能，该UI具有AEM Screens6.5.6版的最新功能包。
+有关更多详细信息，请参阅[从设备管理器](/help/user-guide/device-registration.md#search-device)搜索设备。
 
 * **默认Ping时间间隔**
 
-   此版本的默认ping时间间隔现在设置为30秒。
+   此版本中的默认ping时间间隔现在设置为30秒。
 
 ### 获释的AEM Screens球员{#released-aem-screens-players}
 
