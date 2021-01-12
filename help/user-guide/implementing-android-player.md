@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 1%
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalpid.apk
 1. 使用adb安装在设备上安装&#x200B;***aemscreensalpid.apk***
 
-## Android监视程序实现{#android-watchdog-implementation}
+## 了解Android监视程序服务{#android-watchdog-services}
 
 跨Android监视程序服务使用&#x200B;*AlarmManager*&#x200B;作为cordova插件实现。
 
