@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本页介绍Tizen Player的安装和工作。
 translation-type: tm+mt
-source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
+source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 0%
 1. 导航至[AEM 6.5 Player下载](https://download.macromedia.com/screens/)页面以下载Tizen Player。
 
 1. 从本地计算机安装Tizen播放器&#x200B;*(.zip)*&#x200B;文件。
+
+## 使用相同Cookie问题{#exempting-user-agents}免除用户代理
+
+>[!IMPORTANT]
+>**本条适用于AEM 6.5.5至AEM 6.5.7**
+>某些浏览器引擎与AEM 6.5到AEM 6.7发出的登录令牌中使用的&#x200B;*SameSite=None*&#x200B;属性不兼容。在大多数情况下，可以通过将浏览器升级到最新的可用版本来解决该问题。 在某些情况下，无法进行此类升级，如使用智能显示器、机顶盒或具有嵌入式浏览引擎的其他设备。 要在使用SameSite=None时免除这些不兼容的客户端，请执行以下步骤。
+
+1. 从`https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`下载修补程序&#x200B;*jar文件*。
+
+1. 导航到AEM中的`/system/console/bundles`并单击`install/update`按钮。
+
+1. 安装`crx-auth-token`jar文件。 安装此jar后，可能需要关闭并重新启动AEM，因为它与身份验证相关。
+
+1. 在AEM重新启动后，转到`/system/console/configMgr`并搜索&#x200B;**AdobeGranite令牌身份验证处理程序**。 将SameSite设置的值设置为“无”。
+
+1. 您应当看到一个新选项&#x200B;*用户代理可免除同一属性*。 用与与&#x200B;*SameSite=None*&#x200B;属性不兼容的用户代理对应的正则表达式填充该正则表达式。
+   >[!NOTE]
+   >请参阅[SameSite=None:已知不兼容的客户端](https://www.chromium.org/updates/same-site/incompatible-clients)以获取更多详细信息。
+
+1. 对于Tizen播放器，请使用正则表达式：`(.*)Tizen (4|5)(.*)`针对AEM 6.5.5及更高版本实例注册Tizen播放器，它应正常注册和显示内容。
+
 
 ## 设置本地服务器并解压Zip文件{#setting-local-server}
 
@@ -46,7 +67,7 @@ ht-degree: 0%
 1. 单击设备远程设备上的&#x200B;**MENU**&#x200B;按钮，并从左侧导航栏向下滚动到&#x200B;**System**。
 
 1. 向下滚动并选择“通过URL启动器播放&#x200B;**”选项。**
-   ![图像](/help/user-guide/assets/tizen/url-launcher.png)
+   ![图像](/help/user-guide/assets/tizen/rms-2.png)
 
 1. 按遥控器上的&#x200B;**Home**&#x200B;按钮。
 
@@ -86,34 +107,31 @@ ht-degree: 0%
 
    >[!NOTE]
    >验证屏幕是否设置为“通过URL启动器播放”。
+   >![图像](/help/user-guide/assets/tizen/rms-2.png)
 
 1. 导航到“服务器地址”并键入MagicInfo URL访问权限，然后按“完成”。
 
-1. 根据情况设置要使用或不使用的TLS
-   1. 转到端口并从服务器中选择端口号。
-   1. 选项准备就绪后，单击“保存”。
+1. 根据需要设置TLS。 导航到端口并从服务器中选择端口号。 单击&#x200B;**保存**。
 
-1. 登录到MIS后，导航到设备选项卡
-   1. 查看IP地址和／或其Mac地址，查找您刚刚配置的设备。
-   1. 找到某台设备后，单击该复选框并选择批准。
+1. 导航到设备选项卡并查找您刚刚配置的设备。
 
-1. 单击“已批准”按钮后，将显示以下弹出窗口
-   1. 填写所需信息
-   1. 选择设备组
-   1. 单击“确定”按钮以完成审批过程。
+1. 找到设备后，单击复选框并选择&#x200B;**批准**。
 
-1. 设备获得批准后，在设备列表上应显示如下。
-   1. 单击设备框“i”上的“信息”按钮
+1. 填写所需信息并选择设备组。 单击&#x200B;**确定**&#x200B;以完成批准过程。
 
-1. 设备信息弹出窗口将如下所示，然后单击编辑按钮。
+   >![图像](/help/user-guide/assets/tizen/rms-7.png)
 
-1. 编辑设备选项，然后选择&#x200B;**设置**&#x200B;选项卡。
+1. 设备获得批准后，应显示在设备列表上。 单击设备框&#x200B;**i**&#x200B;上的&#x200B;*信息*&#x200B;按钮。
 
-1. 导航到&#x200B;**URL Launcher**&#x200B;部分，并输入承载wgt的URL和`SSSP config file`以安装`SSSP`应用程序，如下图所示。
+   >![图像](/help/user-guide/assets/tizen/rms-6.png)
+
+1. 将显示设备信息对话框。 选择&#x200B;**设备信息**&#x200B;选项卡，然后单击&#x200B;**编辑**。
+
+1. 编辑设备选项，然后选择&#x200B;**设置**&#x200B;选项卡。 导航到&#x200B;**URL Launcher**&#x200B;部分，并输入承载wgt的URL和`SSSP config file`以安装`SSSP`应用程序，如下图所示。
 
    ![图像](/help/user-guide/assets/tizen/rms-9.png)
 
-1. 单击&#x200B;**保存**&#x200B;以使更改在显示屏上生效。
+1. 单击&#x200B;**保存**&#x200B;以使更改显示在显示屏上。
 
 
 
