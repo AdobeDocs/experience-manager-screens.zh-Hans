@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本页介绍Tizen Player的安装和工作。
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -82,24 +82,35 @@ ht-degree: 0%
 >[!NOTE]
 >验证网络设置和监视器。
 
-1. 按遥控器上的“Menu（菜单）”并转至“System（系统）” ，然后在“Play Via（播放方式）”上按Enter。
+1. 导航至&#x200B;**Menu** -> **Network** -> **Server Network Settings**，然后按&#x200B;**Enter**。
 
    >[!NOTE]
-   >验证屏幕是否设置为通过URL启动程序播放
-1. 导航至&#x200B;**Menu** -> **Network** -> **Server Network Settings**，然后按&#x200B;**Enter**。
+   >验证屏幕是否设置为“通过URL启动器播放”。
 
 1. 导航到“服务器地址”并键入MagicInfo URL访问权限，然后按“完成”。
 
-1. 登录到MIS后，导航到设备选项卡
-1. 查看IP地址和／或其Mac地址，查找您刚刚配置的设备。
-1. 找到设备后，单击复选框并选择批准
-1. 请验证屏幕已设置为通过URL启动程序播放
-1. 按遥控器上的“Menu（菜单）”并转到“System（系统）” ，然后在“Play Via（播放方式）”上按Enter
-1. 导航到“Menu”（菜单）->“Network”（网络）->“Server Network Settings”（服务器网络设置），然后按Enter
-1. 转到“服务器地址”并键入MagicInfo URL访问权限，然后按“完成”
 1. 根据情况设置要使用或不使用的TLS
-1. 转到端口并从服务器中选择端口号。
-1. 选项准备就绪后，单击“保存”。
+   1. 转到端口并从服务器中选择端口号。
+   1. 选项准备就绪后，单击“保存”。
+
+1. 登录到MIS后，导航到设备选项卡
+   1. 查看IP地址和／或其Mac地址，查找您刚刚配置的设备。
+   1. 找到某台设备后，单击该复选框并选择批准。
+
+1. 单击“已批准”按钮后，将显示以下弹出窗口
+   1. 填写所需信息
+   1. 选择设备组
+   1. 单击“确定”按钮以完成审批过程。
+
+1. 设备获得批准后，在设备列表上应显示如下。
+   1. 单击设备框“i”上的“信息”按钮
+
+1. 设备信息弹出窗口将如下所示，然后单击编辑按钮。
+
+1. “编辑设备”选项将如下所示，并选择“设置”选项卡。
+
+1. 找到“URL启动器”部分，并输入承载wgt和`SSSP config file`的URL以安装SSSP应用程序。
+
 
 
 
