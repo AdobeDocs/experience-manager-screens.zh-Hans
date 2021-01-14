@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本页介绍Tizen Player的安装和工作。
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ### 将Tizen设备登记到Samsung远程管理服务(RMS){#enroll-tizen-device-rms}
 
-请按照以下步骤将Tizen Device登记到Samsung Remote Management Service(RMS)并远程配置URL Launcher:
+请按照以下步骤将Tizen设备注册到Samsung Remote Management Service(RMS)并远程配置URL Launcher:
 
 >[!NOTE]
 >验证网络设置和监视器。
@@ -107,9 +107,13 @@ ht-degree: 0%
 
 1. 设备信息弹出窗口将如下所示，然后单击编辑按钮。
 
-1. “编辑设备”选项将如下所示，并选择“设置”选项卡。
+1. 编辑设备选项，然后选择&#x200B;**设置**&#x200B;选项卡。
 
-1. 找到“URL启动器”部分，并输入承载wgt和`SSSP config file`的URL以安装SSSP应用程序。
+1. 导航到&#x200B;**URL Launcher**&#x200B;部分，并输入承载wgt的URL和`SSSP config file`以安装`SSSP`应用程序，如下图所示。
+
+   ![图像](/help/user-guide/assets/tizen/rms-9.png)
+
+1. 单击&#x200B;**保存**&#x200B;以使更改在显示屏上生效。
 
 
 
