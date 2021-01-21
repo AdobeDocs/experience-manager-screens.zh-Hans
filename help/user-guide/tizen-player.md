@@ -2,9 +2,9 @@
 title: Tizen Player
 description: 本页介绍Tizen Player的安装和工作。
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >**本条适用于Adobe Experience Manager(AEM)6.5.5至AEM 6.5.7**
->某些浏览器引擎与AEM 6.5到AEM 6.7发出的登录令牌中使用的&#x200B;*SameSite=None*&#x200B;属性不兼容。在大多数情况下，可以通过将浏览器升级到最新的可用版本来解决该问题。 在某些情况下，无法进行此类升级，如使用智能显示器、机顶盒或具有嵌入式浏览引擎的其他设备。
+>某些浏览器引擎与AEM 6.5到AEM 6.7发出的登录令牌中使用的&#x200B;*SameSite=None*&#x200B;属性不兼容。在大多数情况下，可以通过将浏览器升级到最新可用版本来解决该问题。 在某些情况下，无法进行此类升级，如使用智能显示器、机顶盒或具有嵌入式浏览引擎的其他设备。
 
 使用&#x200B;*SameSite=None*&#x200B;时，请按照以下步骤免除这些不兼容的客户端：
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 1. 使用RMS或URL启动器部署此新`wgt`文件，当播放器启动时，它应自动指向您的服务器，因此您无需为每个设备手动输入它。
 
-### 将Tizen设备登记到Samsung远程管理服务(RMS){#enroll-tizen-device-rms}
+### 将Tizen设备登记到Samsung Remote Management Service(RMS){#enroll-tizen-device-rms}
 
 请按照以下步骤将Tizen设备注册到Samsung Remote Management Service(RMS)并远程配置URL Launcher:
 
@@ -102,10 +102,6 @@ ht-degree: 1%
 >验证网络设置和监视器。
 
 1. 导航至&#x200B;**Menu** -> **Network** -> **Server Network Settings**，然后按&#x200B;**Enter**。
-
-   >[!NOTE]
-   >验证屏幕是否设置为“通过URL启动器播放”。
-   >![图像](/help/user-guide/assets/tizen/rms-2.png)
 
 1. 导航到服务器地址并键入MagicInfo URL访问，然后按&#x200B;**完成**。
 
