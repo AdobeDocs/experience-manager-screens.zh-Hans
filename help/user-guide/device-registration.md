@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -121,7 +121,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### 从设备管理器{#search-device}搜索设备
+## 从设备管理器{#search-device}搜索设备
 
 将设备注册到播放器后，您可以从设备管理器UI视图所有设备。
 
@@ -144,7 +144,7 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### 搜索功能限制{#limitations}
+### 搜索功能限制{#limitations}
 
 * 用户将能够搜索&#x200B;*设备ID*&#x200B;或&#x200B;*设备名称*&#x200B;中存在的任何单词。
 
