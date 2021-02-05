@@ -4,7 +4,7 @@ seo-title: 在AEM Screens配置作者和发布
 description: AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 seo-description: AEM Screens的建筑与传统的AEM Sites建筑相似。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 2%
@@ -165,8 +165,8 @@ ht-degree: 2%
 1. 选择&#x200B;**Apache ActiveMQ Artemis JMS Provider**&#x200B;配置
 1. 更新以下内容：
 
-* ***群集密码***:（为每个实例使用上一步中的加密值）
-* ***主题***:{名称：&#39;commands&#39;，地址：&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
+   * ***群集密码***:（为每个实例使用上一步中的加密值）
+   * ***主题***:{名称：&#39;commands&#39;，地址：&#39;com.adobe.cq.screens.commands&#39;, maxConsumers:50}
 
 #### 验证ActiveMQ Artemis群集{#verify-activemq-artemis-cluster}
 
