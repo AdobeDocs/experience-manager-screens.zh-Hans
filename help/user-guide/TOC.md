@@ -4,12 +4,12 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
-user-guide-description: 了解如何使用数字标牌解决方案，该解决方案允许您发布动态和交互式数字体验与交互。
+user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 translation-type: tm+mt
 source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 19%
       + [作者——发布架构概述](author-publish-architecture-overview.md)
       + [配置作者和发布](author-and-publish.md)
    + 与AEM Screens{#analytics-integration}的Analytics集成
-      + [Adobe Analytics集成](adobe-analytics-integration-aem-screens.md)
+      + [Adobe Analytics 集成](adobe-analytics-integration-aem-screens.md)
       + [配置Adobe Analytics与AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + 创作和用例示例{#authoring}
    + 设置Screens项目{#setting-up-projects}
