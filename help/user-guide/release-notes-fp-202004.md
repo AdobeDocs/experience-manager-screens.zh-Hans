@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 可用性 {#availability}
 
-AEM Screens发布了AEM 6.4功能包8和AEM 6.5功能包4。
+AEM Screens 发布了 AEM 6.4 功能包 8 和 AEM 6.5 功能包 4。
 
 您可以使用您的AEM Screens从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载最新版本(适用于AEM Screens6.4.8或6.5.4版)的功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**屏幕**&#x200B;以获取最新功能包。
 
