@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 要学习Adobe Experience Manager6.5，请参阅以下教程和资源：
 
-* **[Adobe Experience Manager入门](https://helpx.adobe.com/experience-manager/get-started.html)**:了解Adobe Experience Manager的入门文章和视频教程。
+* **[Adobe Experience Manager入门](https://helpx.adobe.com/cn/experience-manager/get-started.html)**:了解Adobe Experience Manager的入门文章和视频教程。
 
 * **[AEM 6.5Tutorials和视频](https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html)**:AEM Sites、资产、Forms、Screens和Foundation的新增和更新功能以及AEM 6.5版本的教程和视频集。
 
