@@ -4,7 +4,7 @@ seo-title: AEM Screens调度程序配置
 description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -49,7 +49,9 @@ AEM Screens播放器／设备也使用经过身份验证的会话来访问发布
  }
 ```
 
-如果您有一个由一个调度程序前置的发布实例，则启用调度程序的粘性将无济于事，因为负载平衡器可能会向调度程序发送每个请求。 在这种情况下，您应在负载平衡器级别启用粘性。
+如果您有一个由一个调度程序前置的发布实例，则启用调度程序的粘性将无济于事，因为负载平衡器可能会向调度程序发送每个请求。 在这种情况下，单击&#x200B;**粘性**&#x200B;字段中的&#x200B;**启用**&#x200B;可在负载平衡器级别启用它，如下图所示：
+
+![图像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 例如，如果您使用的是AWS ALB，请参考[目标组，了解您的应用程序负载平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)，以便在ALB级别启用粘性。 启用1天的粘性。
 
