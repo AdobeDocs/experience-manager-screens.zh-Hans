@@ -4,10 +4,10 @@ seo-title: AEM Screens调度程序配置
 description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,22 +32,26 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
 ## 配置 Dispatcher {#configuring-dispatcher}
 
+AEM Screens播放器／设备也使用经过身份验证的会话来访问发布实例中的资源。 因此，当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器／设备的所有请求有效。
+
 按照以下步骤为AEM Screens项目配置调度程序。
 
 ### 启用粘滞会话{#enable-sticky-session}
 
-如果要将多个发布实例与调度程序一起使用，则必须更新`dispatcher.any`文件。
+如果要使用由单个调度程序前置的多个发布实例，您必须更新`dispatcher.any`文件以启用粘性
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+如果您有一个由一个调度程序前置的发布实例，则启用调度程序的粘性将无济于事，因为负载平衡器可能会向调度程序发送每个请求。 在这种情况下，您应在负载平衡器级别启用粘性。
+
+例如，如果您使用的是AWS ALB，请参考[目标组，了解您的应用程序负载平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)，以便在ALB级别启用粘性。 启用1天的粘性。
 
 ### 第1步：配置客户端标头{#step-configuring-client-headers}
 
