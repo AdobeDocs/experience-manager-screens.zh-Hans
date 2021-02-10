@@ -4,9 +4,9 @@ seo-title: 使用命令同步
 description: 可查看本页以了解如何使用命令同步。
 seo-description: 可查看本页以了解如何使用命令同步。
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 2%
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. 在&#x200B;**Locations**文件夹中创建显示屏，如下图所示。
+1. 创建位置&#x200B;**Lobby**，然后在&#x200B;**Locations**&#x200B;文件夹中创建标题为&#x200B;**LobbyDisplay**的显示，如下图所示。
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. 将渠道&#x200B;**ChannelLobby**&#x200B;分配给&#x200B;**LobbyDisplay**。
+1. 将渠道&#x200B;**ChannelLobby**&#x200B;分配给&#x200B;**LobbyDisplay**。 您现在可以从显示视图将分配的渠道仪表板到显示屏。
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >要了解如何将渠道分配给显示屏，请参阅[创建和管理显示屏](/help/user-guide/managing-displays.md)
+   >要了解如何注册设备，请参阅[设备注册](/help/user-guide/device-registration.md)
 
 1. 为便于演示，此示例将铬黄设备和windows播放器作为两个单独的设备进行展示。 这两个设备指向同一个显示屏。
    ![image1](assets/command-sync6.png)
