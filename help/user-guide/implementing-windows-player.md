@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,25 @@ Ad-Hoc方法允许您安装最新的Windows播放器(*.exe*)。 访问&#x200B;[*
 ### 批量服务器配置：使用一个配置{#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}注册多个Windows 10播放器
 
 安装Windows播放器后，可以使用一个配置注册多个播放器。
+
+## 使用CLI(PowerShell){#install-powershell}进行安装
+
+1. 为Screens播放器创建自定义位置&#x200B;**专用**，例如：
+   `C:\Users\User\screens-player`)
+1. 安装
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. 打开
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**示例**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
