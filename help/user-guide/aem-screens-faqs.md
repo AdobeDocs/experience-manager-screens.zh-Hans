@@ -6,7 +6,7 @@ seo-description: 可查看本页以获得与AEM Screens项目相关的常见问�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 * 检查任何计划内容以及时间是否正确。 检查播放器中设置的时间是否正确。
 * Inspect播放器控制台会记录并检查是否有错误。 右键单击并检查以查看控制台日志。 如果使用windows播放器，请按`CTRL + ALT +I`打开开发控制台以视图日志。
 
-### 2.如何通过创建默认渠道或计划解决AEM Screens中的空白屏幕问题？
+### 2.如何通过创建默认渠道或计划解决AEM Screens中的灰屏问题？
 
 要避免字段中出现空白或灰色的屏幕，请创建默认的全局渠道或计划，该字体分配给每个优先级最低的显示屏。 如果内容更新出现问题（由于网络、播放器、服务器或复制），因为播放器已在磁盘上缓存了此内容，因此该内容应会正常播放并避免出现灰屏。
 
