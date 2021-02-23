@@ -6,9 +6,9 @@ seo-description: 可查看本页以获得与AEM Screens项目相关的常见问�
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -165,6 +165,24 @@ Windows播放器中没有窗口模式。 始终为全屏模式。
 1. 检查您在&#x200B;*author*&#x200B;或&#x200B;*publish*&#x200B;实例和屏幕路径是否具有`/etc/map`规则，这些路径与`sling:match`匹配，并在内部重定向到其他路径。 解析`/system/console/jcrresolver`中的确切URL有助于确定&#x200B;*publish*&#x200B;实例是否将这些URL重写到任何其他路径。
 
 1. 检查Apache Sling资源解析器工厂配置是否导致内部重写。
+
+### 如何从播放器API获取显示屏和设备的详细信息？
+
+可通过以下两种方式获取详细信息：
+
+* **内部JS API**
+* **a ContextHub存储**:定义了三个ContextHub存储区， `/libs/screens/clientlibs/contexthub` 以公开渠道、设备和显示信息。
+
+   请按照以下步骤使用这些ContentHub存储值：
+
+   * 编辑渠道属性，并将个性化选项卡中的ContextHub路径设置为值（如上所述）
+   * 在渠道 JS中，您可以使用：
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## 一般疑难解答提示{#general-troubleshooting-tips}
 
