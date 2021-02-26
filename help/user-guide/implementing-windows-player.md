@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Ad-Hoc方法允许您安装最新的Windows播放器(*.exe*)。 请访问&#x200B
 >如果&#x200B;**State**&#x200B;为&#x200B;**REGISTERED**，您会注意到将填充&#x200B;**Device id**&#x200B;字段。
 >
 >如果&#x200B;**State**&#x200B;为&#x200B;**UNREGISTERED**，则可以使用&#x200B;**Token**&#x200B;注册设备。
+
+## 更改Windows Installer {#changing-default-options}中的默认选项
+
+可查看本节以了解如何更改Windows安装程序中的默认选项以及可用自定义项的列表。
 
 ## 使用CLI(PowerShell){#install-powershell}进行安装
 
