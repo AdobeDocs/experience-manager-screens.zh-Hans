@@ -3,9 +3,9 @@ title: 使用MDM或EMM批量配置Android Player
 seo-title: 使用EMM或MDM批量设置Android Player
 description: 可查看本页以了解有关使用EMM或MDM批量设置Android Player的信息
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用企业移动管理{#bulk-provisioning}批量配置Android Player
 
-批量部署Android播放器时，使用AEM手动注册每个播放器会变得很繁琐。 强烈建议使用VMWare Airwatch、MobileIron或Samsung Knox等EMM（企业移动管理）解决方案来远程配置和管理您的部署。 AEM Screens Android player支持行业标准EMM Appconfig，以允许远程设置。 请按照以下步骤批量配置您的播放器。
+批量部署Android播放器时，使用AEM手动注册每个播放器会变得很繁琐。 强烈建议使用VMWare Airwatch、MobileIron或Samsung Knox等EMM（企业移动管理）解决方案来远程配置和管理您的部署。 AEM Screens Android player支持行业标准EMM Appconfig，以允许远程设置。
 
 ## 使用企业移动管理{#implementation}实现Android Player的批量配置
 
