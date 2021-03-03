@@ -2,10 +2,10 @@
 title: 功能包发行说明202103
 description: 本页重点介绍功能包202103的发行说明。
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 11%
+source-wordcount: '379'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,10 @@ AEM Screens功能包202103的发布日期为2021年3月08日。
 * **AEM Screens批量注册和分配**
 
    手动批量注册数千个播放器非常繁琐，并增加了时间和成本。 为简化此过程，批量注册功能允许您在AEM中指定预先共享的密钥，该密钥可以通过配置文件或移动设备管理(MDM)解决方案设置到播放器中。
+
+* **使用企业移动性管理批量配置Android Player**
+
+   批量部署Android播放器时，使用AEM手动注册每个播放器会变得很繁琐。 强烈建议使用VMWare Airwatch、MobileIron或Samsung Knox等EMM（企业移动管理）解决方案来远程配置和管理您的部署。 AEM Screens Android player支持行业标准EMM Appconfig，以允许远程设置。
 
 * **在AEM Screens渠道中锁定页面**
 
