@@ -2,10 +2,10 @@
 title: 功能包发行说明202103
 description: 本页重点介绍功能包202103的发行说明。
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 8%
+source-wordcount: '355'
+ht-degree: 2%
 
 ---
 
@@ -33,11 +33,8 @@ AEM Screens功能包202103的发布日期为2021年3月08日。
 
 * **使用企业移动性管理批量配置Android Player**
 
-   批量部署Android播放器时，使用AEM手动注册每个播放器会变得很繁琐。 强烈建议使用VMWare Airwatch、MobileIron或Samsung Knox等EMM（企业移动管理）解决方案来远程配置和管理您的部署。 AEM Screens Android player支持行业标准EMM Appconfig，以允许远程设置。
+   批量部署Android播放器时，使用AEM手动注册每个播放器会变得很繁琐。 强烈建议使用VMWare Airwatch、MobileIron或Samsung Knox等EMM（企业移动管理）解决方案来远程配置和管理您的部署。 AEM Screens Android player支持行业标准EMM AppConfig，以允许远程设置。
 
-* **在AEM Screens渠道中锁定页面**
-
-   AEM Screens现在支持&#x200B;*锁定页面*，如AEM Sites中已实现的。 Adobe Experience Manager(AEM)允许您锁定页面，这样其他人就无法修改页面内容。 当您要对某个特定页面做出大量编辑，或者需要冻结页面一段时间时，此功能非常有用。
 
 ### 错误修复 {#bug-fixes}
 
