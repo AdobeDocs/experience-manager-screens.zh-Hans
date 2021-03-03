@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 1%
@@ -91,13 +91,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Windows Player批量注册**
->
->实施windows播放器时，您无需手动配置每个播放器。 相反，您可以在配置JSON文件经过测试并准备好进行部署后更新它。
->
->配置将确保所有播放器ping配置文件中提供的同一服务器。 您仍必须手动注册每个播放器。
+## Windows Player {#bulk-registration}的批量注册
+
+实施windows播放器时，您无需手动配置每个播放器。 相反，您可以在配置JSON文件经过测试并准备好进行部署后更新它。
+
+配置将确保所有播放器ping配置文件中提供的同一服务器。 您仍必须手动注册每个播放器。
 
 请按照以下步骤配置Windows 10播放器：
 
