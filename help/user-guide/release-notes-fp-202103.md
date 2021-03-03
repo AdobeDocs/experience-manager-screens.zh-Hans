@@ -2,9 +2,9 @@
 title: 功能包发行说明202103
 description: 本页重点介绍功能包202103的发行说明。
 translation-type: tm+mt
-source-git-commit: c3a068eca75142ee3e089a63559249a8b64784e2
+source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 11%
 
 ---
@@ -51,6 +51,7 @@ AEM Screens功能包202103的发布日期为2021年3月08日。
 * Windows
 * Android
 * 蒂森
+* Linux
 
 #### AEM Screens Player下载{#aem-screens-player-downloads}
 
