@@ -2,10 +2,10 @@
 title: 功能包发行说明202103
 description: 本页重点介绍功能包202103的发行说明。
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 8%
 
 ---
 
@@ -46,6 +46,15 @@ AEM Screens功能包202103的发布日期为2021年3月08日。
 * 如果缓存未失效，SmartSync迁移将中断播放器。
 
 * 如果赋值具有&#x200B;*OfflineConfig*，则未创建脱机缓存。
+
+* 对Tizen播放器的更新会出现问题，因为不支持推荐人策略严格来源跨来源。
+
+* 更改分配的渠道的计划“重复”字段将中断UI。
+
+* 更新脱机内容失败，查询例外。
+
+* 如果缓存未失效，则SmartSync迁移正在中断播放器
+
 
 ### 已发布AEM Screens播放器{#released-aem-screens-players}
 
