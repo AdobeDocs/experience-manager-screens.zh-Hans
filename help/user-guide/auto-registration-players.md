@@ -3,9 +3,9 @@ title: 播放器的自动注册
 seo-title: 播放器的自动注册
 description: 可查看本页以了解有关使用AMS/On-Prem屏幕自动注册播放器的信息。
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ ht-degree: 0%
 
 请按照以下步骤实现播放器的自动注册：
 
-1. 登录AEM实例，选择AEM screens项目，然后单击属性和高级选项卡。
-1. 您应当看到一个批量注册部分，在该部分您可以指定批量注册代码和一个可选的默认显示，以指定给批量注册的播放器
-1. 输入您选择的代码，然后根据需要选择默认显示
-1. 使用MDM或配置JSON文件，为您的播放器提供适当的服务器URL和注册代码。 有关具体详细信息，请参阅操作系统的特定播放器的实施页面。 您还可以使用管理员UI输入注册代码。
+1. 登录AEM实例并选择AEM screens项目，然后单击操作栏中的&#x200B;**属性**。
+1. 选择&#x200B;**高级**&#x200B;选项卡以视图&#x200B;**设备注册**&#x200B;部分，如下所示。
+
+   ![图像](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. 在&#x200B;**批量注册代码**&#x200B;字段中指定自动注册代码，在&#x200B;**默认显示分配**&#x200B;中指定可选的默认显示，以分配给自动注册的播放器。
+   >[!NOTE]
+   >输入您选择的代码，然后根据需要选择默认显示。
+1. 使用MDM或配置JSON文件，为您的播放器提供适当的服务器URL和注册代码。
+
+   >[!NOTE]
+   >有关详细信息，请参阅操作系统(OS)的特定播放器的实施页。 您还可以使用管理员UI输入注册代码。
+
 1. 如果`registrationKey`属性与AEM中配置的属性匹配，则播放器将自动注册自己，如果配置了默认显示，则该内容将下载并播放。
+
+   ![图像](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## 安全最佳实践{#security-best-practices}
 
