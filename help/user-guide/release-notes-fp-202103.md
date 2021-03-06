@@ -2,9 +2,9 @@
 title: 功能包发行说明202103
 description: 本页重点介绍功能包202103的发行说明。
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ AEM Screens功能包202103的发布日期为2021年3月05日。
 
 * **AEM Screens播放器自动注册**
 
-   手动批量注册数千个播放器非常繁琐，并增加了时间和成本。 为简化此过程，批量注册功能允许您在AEM中指定预先共享的密钥，该密钥可以通过配置文件或移动设备管理(MDM)解决方案设置到播放器中。
+   手动批量注册数千个播放器非常繁琐，并增加了时间和成本。 为简化此过程，播放器的自动注册功能允许您在AEM中指定预先共享的密钥，该密钥可以通过配置文件或移动设备管理(MDM)解决方案设置到播放器中。
 
    有关详细信息，请参阅[播放器的自动注册](/help/user-guide/auto-registration-players.md)。
 
