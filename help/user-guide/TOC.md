@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 20%
+source-wordcount: '449'
+ht-degree: 19%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 20%
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [播放器的自动注册](auto-registration-players.md)
+      + [使用企业移动性管理批量配置Android Player](using-emm-bulkprovision-android-player.md)
    + 作者发布{#author-publish}
       + [作者 — 发布体系结构概述](author-publish-architecture-overview.md)
       + [配置创作和发布](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 20%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包发行说明202103](release-notes-fp-202103.md)
    + [功能包发行说明202011](release-notes-fp-202011.md)
    + [功能包发行说明202008](release-notes-fp-202008.md)
    + [功能包发行说明202004](release-notes-fp-202004.md)
