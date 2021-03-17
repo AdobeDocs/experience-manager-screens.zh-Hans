@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
+source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要访问其中任一功能包，您必须联系Adobe支持并请求访问权限。 您获得权限后，就可以从“包共享”下载它。
+>要访问其中任一功能包，您必须联系Adobe支持并请求访问权限。 您可以使用Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens的最新功能包。
 
 本节涵盖以下主题：
 
