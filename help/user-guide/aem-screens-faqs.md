@@ -5,10 +5,13 @@ description: 可查看本页以获得与AEM Screens项目相关的常见问题�
 seo-description: 可查看本页以获得与AEM Screens项目相关的常见问题解答。
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
+feature: 数字标牌，内容
+role: 开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 1%
 
 ---
