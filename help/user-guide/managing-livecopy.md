@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 81%
+source-wordcount: '727'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 81%
 
 本页介绍了如何创建和管理渠道的 Live Copy。
 
-***Live Copy***&#x200B;是特定站点内容的副本，其中保留了与原始源的Live关系。 此实时关系允许Live Copy从源继承内容和页面属性。
+***Live Copy***&#x200B;是特定站点内容的副本，其中保留了与原始源的实时关系。 此实时关系允许 Live Copy 从源中继承内容和页面属性。
 
 本页介绍了如何创建渠道的 Live Copy、查看属性、检查状态，以及将渠道中的更改传播到其 Live Copy。
 
@@ -33,7 +36,7 @@ ht-degree: 81%
 
 1. 选择 Adobe Experience Manager 链接（左上方），然后选择&#x200B;**屏幕**。或者，您也可以直接转到：`http://localhost:4502/screens.html/content/screens`。
 
-1. 导航到Screens项目，然后单击&#x200B;**渠道**。
+1. 导航到 Screens 项目，然后单击&#x200B;**渠道**。
 1. 单击&#x200B;**创建**&#x200B;并选择&#x200B;**Live Copy**&#x200B;以创建渠道的Live Copy。
 
 1. 选择目标，然后单击&#x200B;**下一步**。
@@ -82,7 +85,7 @@ Live Copy 是已存在的渠道的副本。
 
 如下图所示，**Live Copy 状态**&#x200B;模式允许您查看渠道中所有资产的关系状态。
 
-1. 单击&#x200B;**编辑**&#x200B;以选择&#x200B;**Live Copy状态**，将渠道内容与原始渠道（从中生成Live Copy）的关联视图。
+1. 单击&#x200B;**编辑**&#x200B;以选择&#x200B;**Live Copy状态**，并将渠道内容与原始渠道（从中生成Live Copy）的关联视图。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -128,7 +131,7 @@ Live Copy 是已存在的渠道的副本。
 
    ![chlimage_1-21](assets/chlimage_1-29.png)
 
-1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。单击&#x200B;**保存并关闭** ，导航回AEM仪表板。
+1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。单击&#x200B;**保存并关闭**&#x200B;以导航回AEM仪表板。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
