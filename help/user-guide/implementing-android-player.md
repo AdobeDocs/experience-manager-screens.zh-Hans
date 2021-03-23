@@ -14,7 +14,7 @@ feature: 管理屏幕，Android Player
 role: 管理员
 level: 中间
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 1%
@@ -186,8 +186,8 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 请访问&#x200B
 1. 确保您的Android设备支持Google Play服务。
 1. 使用您喜爱的支持AppConfig的EMM解决方案注册您的Android播放器设备。
 1. 登录您的EMM控制台，然后从Google Play中拉取AEM Screens Player应用程序。
-1. 选择受管配置（或相关选项）。
-1. 您现在应该会看到可配置的播放器选项列表（如服务器和批量注册代码）。
+1. 选择托管配置或相关选项。
+1. 您现在应该会看到一列表可以配置的播放器选项，如服务器和批量注册代码。
 1. 配置这些参数，保存策略并将其部署到设备。
 
    >[!NOTE]
