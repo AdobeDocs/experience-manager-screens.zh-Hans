@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 51%
 
 ---
@@ -39,11 +42,11 @@ ht-degree: 51%
 1. 单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
 1. 从向导中选择模板&#x200B;**位置**，然后单击&#x200B;**下一步**。
 
-1. 输入&#x200B;**标题和标记**、**更多标题和说明**、**开／关时间**&#x200B;和&#x200B;**虚URL**&#x200B;的属性。
+1. 输入&#x200B;**标题和标记**、**更多标题和说明**、**开/关时间**&#x200B;和&#x200B;**虚URL**&#x200B;的属性。
 
 1. 单击&#x200B;**创建**，然后创建位置并将其添加到您的位置文件夹。
 
-请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 出于演示目的，新位置(SanJose)在&#x200B;*DemoProject*&#x200B;下创建。
+请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 出于演示目的，将在&#x200B;*DemoProject*&#x200B;下创建新位置(SanJose)。
 
 ![player2](assets/player2.gif)
 
@@ -51,7 +54,7 @@ ht-degree: 51%
 
 ### 编辑位置{#editing-properties-for-a-location}的属性
 
-要编辑／访问位置的属性，请执行以下操作：
+要编辑/访问位置的属性，请执行以下操作：
 
 1. 选择位置。
 1. 单击操作栏中的&#x200B;**属性**。
