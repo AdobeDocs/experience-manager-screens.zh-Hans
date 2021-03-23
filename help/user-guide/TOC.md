@@ -7,10 +7,10 @@ breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 5daa0cdcecc3ddb9c93033754a505ff54d59f886
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 19%
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [将Chrome Player用作故障诊断的扩展](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
-      + [使用企业移动性管理批量配置Android Player](using-emm-bulkprovision-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [播放器的自动注册](auto-registration-players.md)
