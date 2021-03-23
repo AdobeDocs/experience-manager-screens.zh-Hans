@@ -1,11 +1,14 @@
 ---
 title: 功能包发行说明202103
-description: 本页重点介绍功能包202103的发行说明。
+description: “可查看本页以获取2021年3月05日发布的AEM Screens Feature Pack 202103的信息。”
+feature: 功能包
+role: 开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '398'
+ht-degree: 3%
 
 ---
 
