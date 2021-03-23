@@ -2,10 +2,13 @@
 title: 播放器的自动注册
 seo-title: 播放器的自动注册
 description: 可查看本页以了解有关使用AMS/On-Prem屏幕自动注册播放器的信息。
+feature: 管理屏幕、播放器
+role: 管理员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
