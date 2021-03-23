@@ -5,18 +5,21 @@ description: 可查看本页以了解如何将过渡应用于Screens项目。
 seo-description: 可查看本页以了解如何将过渡应用于Screens项目。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 1%
+source-wordcount: '292'
+ht-degree: 2%
 
 ---
 
 
 # 应用过渡{#applying-transitions}
 
-本节介绍如何在不同资产（图像和视频）和过渡中应用&#x200B;**渠道**&#x200B;组件。
+本节介绍如何在不同资产（图像和视频）和渠道中嵌入序列之间应用&#x200B;**过渡**&#x200B;组件。
 
 
 >[!CAUTION]
@@ -31,7 +34,7 @@ ht-degree: 1%
 >
 >**前提条件**
 >
->创建具有渠道&#x200B;**TestTransition**&#x200B;的AEM Screens项目&#x200B;**TestProject**。 此外，还可设置一个位置和一个显示器以视图输出。
+>创建一个AEM Screens项目&#x200B;**TestProject**,渠道为&#x200B;**TestTransition**。 此外，设置一个位置和一个显示器以视图输出。
 
 1. 导航到渠道&#x200B;**TestTransition**，然后单击操作栏中的&#x200B;**编辑**。
 
@@ -39,9 +42,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >**TestTransition**&#x200B;渠道中的资源（图像和视频）已经很少。 例如，**TestTransition**&#x200B;渠道包含三个图像和两个视频，如下所示：
+   >**TestTransition**&#x200B;渠道中已经包含少量资源（图像和视频）。 例如，**TestTransition**&#x200B;渠道包含三个图像和两个视频，如下所示：
 
-   ![image2](assets/transitions2.png)
+   ![图2](assets/transitions2.png)
 
 
 1. 将&#x200B;**过渡**&#x200B;组件拖放到编辑器中。
@@ -53,9 +56,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >默认情况下，过渡组件（如&#x200B;**Type**）的属性设置为&#x200B;**淡入淡出**，而&#x200B;**持续时间**&#x200B;设置为&#x200B;*1600 ms*。  此外，不建议设置比资产所应用的过渡持续时间长的持续时间。
+   >默认情况下，过渡组件（如&#x200B;**Type**）的属性设置为&#x200B;**Fade**，而&#x200B;**Duration**&#x200B;设置为&#x200B;*1600 ms*。  此外，不建议设置比所应用的资产长的过渡持续时间。
 
-1. 此外，如果向此渠道编辑器添加&#x200B;**嵌入式序列**&#x200B;组件(包括序列渠道)，则可以在结尾添加过渡组件，以便按顺序播放内容，如下图所示：
+1. 此外，如果向此渠道编辑器添加&#x200B;**嵌入式序列**&#x200B;组件(包括序列渠道)，则可以在末尾添加过渡组件，以便内容按顺序播放，如下图所示：
 
    ![image3](assets/transitions5.png)
 
