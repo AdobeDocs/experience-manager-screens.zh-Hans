@@ -9,10 +9,13 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '817'
 ht-degree: 8%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 8%
 
 ## 用例描述 {#use-case-description}
 
-本节描述一个用例示例，该示例强调创建和管理紧急渠道，内容作者可以在先决条件的情况下从序列渠道切换该紧急。
+本节介绍一个用例示例，该示例强调了如何创建和管理紧急渠道，内容作者可以在先决条件情况下从序列渠道切换该紧急。
 
 ### 先决条件{#preconditions}
 
@@ -44,7 +47,7 @@ ht-degree: 8%
 1. 创建名为&#x200B;**EmergencyChannel**&#x200B;的AEM Screens项目，如下所示。
 
    >[!NOTE]
-   >要了解有关在AEM Screens创建和管理项目的更多信息，请参阅创建项目。
+   >要了解有关在AEM Screens中创建和管理项目的更多信息，请参阅创建项目。
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -67,31 +70,31 @@ ht-degree: 8%
 
    1. 选择&#x200B;**渠道**&#x200B;文件夹。
    1. 单击&#x200B;**创建**&#x200B;以打开向导以创建渠道。
-   1. 从向导中选择&#x200B;**序列渠道**&#x200B;并创建标题为&#x200B;**EmergencyChannel**&#x200B;的渠道。
+   1. 从向导中选择&#x200B;**序列渠道**&#x200B;并创建标题为&#x200B;**EmergentChannel**&#x200B;的渠道。
 
    >[!NOTE]
    >
-   >通常，您的紧急渠道会添加到您先前的生产项目中。
+   >通常，您的紧急渠道会添加到您预先存在的生产项目中。
 
    ![screen_shot_2019-02-21at40151pm](assets/screen_shot_2019-02-21at40151pm.png)
 
 1. **将内容添加到紧急渠道**
 
    1. 选择渠道(**紧急渠道)**。
-   1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。将您要在紧急情况下运行的资产拖放到渠道。
+   1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。将您要在紧急情况下运行的资产拖放到您的渠道。
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **创建位置**
 
    1. 导航到&#x200B;**位置**&#x200B;文件夹。
-   1. 单击操作栏中的&#x200B;**创建**，然后从向导中创建标题为&#x200B;**Store**&#x200B;的位置。
+   1. 单击操作栏中的&#x200B;**创建**，然后从向导中创建标题为&#x200B;**存储**&#x200B;的位置。
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **在您的位置创建显示屏**
 
-   导航到您的位置(**Store**)，然后单击操作栏中的&#x200B;**创建**。 按照向导创建标题为&#x200B;**StoreFront**&#x200B;和&#x200B;**StoreRear**&#x200B;的两个&#x200B;**显示。**
+   导航到您的位置(**Store**)，然后单击操作栏中的&#x200B;**创建**。 按照向导创建两个标题为&#x200B;**StoreFront**&#x200B;和&#x200B;**StoreRear**&#x200B;的&#x200B;**Displays**。
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
@@ -102,13 +105,13 @@ ht-degree: 8%
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
-1. 为计划分配显示屏并设置优先级
+1. 将显示内容分配给计划并设置优先级
 
    1. 选择计划&#x200B;**(StoreSchedule)**，然后单击操作栏中的&#x200B;**仪表板**。
 
-   1. 单击&#x200B;**已分配渠道**&#x200B;面板中的&#x200B;**+分配渠道**。
+   1. 单击&#x200B;**ASSIGNED渠道**&#x200B;面板中的&#x200B;**+分配渠道**。
 
-   1. 从&#x200B;**渠道分配**&#x200B;对话框中：
+   1. 在&#x200B;**渠道分配**&#x200B;对话框中：
 
       1. 选择&#x200B;**MainAdChannel**&#x200B;的路径
       1. 将&#x200B;**优先级**&#x200B;设置为2
@@ -122,14 +125,14 @@ ht-degree: 8%
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. 单击&#x200B;**已分配渠道**&#x200B;面板中的&#x200B;**+分配渠道**。
+1. 单击&#x200B;**ASSIGNED渠道**&#x200B;面板中的&#x200B;**+分配渠道**。
 
-1. 从&#x200B;**渠道分配**&#x200B;对话框中：
+1. 在&#x200B;**渠道分配**&#x200B;对话框中：
 
-   1. 选择&#x200B;**ExergencyChannel**&#x200B;的路径
+   1. 选择&#x200B;**EmergentChannel**&#x200B;的路径
    1. 将&#x200B;**优先级**&#x200B;设置为1
 
-   1. 将支持的事件设置为&#x200B;**初始负载**、**空闲屏幕**&#x200B;和&#x200B;**用户交互**
+   1. 将支持的事件设置为&#x200B;**初始加载**、**空闲屏幕**&#x200B;和&#x200B;**用户交互**
 
    1. 单击&#x200B;**保存**
 
@@ -141,10 +144,10 @@ ht-degree: 8%
 
 1. **将计划分配给每个显示屏**
 
-   1. 导航到每个显示屏，如&#x200B;**EmergencyChannel** —> **位置** —> **商店** —>**StoreFront**。
+   1. 导航到每个显示屏，如&#x200B;**EmergencyChannel** —> **位置** —> **存储** —>**StoreFront**。
 
    1. 单击操作中的&#x200B;**仪表板**&#x200B;以打开显示仪表板。
-   1. 单击&#x200B;**...从**“已分配渠道和计划”**面板中单击**&#x200B;并进一步单击&#x200B;**+分配计划**。
+   1. 单击&#x200B;**...**&#x200B;从&#x200B;**“已指定渠道和计划”**&#x200B;面板中，进一步单击&#x200B;**+“已指定计划”**。
 
    1. 选择计划的路径(例如，此处&#x200B;**EmergencyChannel** —> **计划** —>**StoreSchedule**)。
 
@@ -175,12 +178,12 @@ ht-degree: 8%
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 更新渠道的优先级后，所有AEM Screens播放器都将显示&#x200B;**EmergencyChannel**&#x200B;内容，如下所示。
+1. 更新渠道的优先级后，所有AEM Screens播放器都将显示&#x200B;**EmergentChannel**&#x200B;内容，如下所示。
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### 结论{#conclusion}
 
-**EmergencyChannel**&#x200B;将继续显示其内容，直到内容作者将优先级值重置为1。
+**EmergentChannel**&#x200B;将继续显示其内容，直到内容作者将优先级值重置为1。
 
-内容作者收到紧急情况已清除的指示后，应更新&#x200B;**MainAdChannel**&#x200B;的优先级，这将导致正常播放恢复。
+内容作者收到已清除紧急情况的指示后，应更新&#x200B;**MainAdChannel**&#x200B;的优先级，这会导致正常播放恢复。
