@@ -1,28 +1,31 @@
 ---
 title: 设置ACL
 seo-title: 设置ACL
-description: 可查看本页以了解如何使用ACL隔离项目，使每个人或团队都能处理自己的项目。
-seo-description: 可查看本页以了解如何使用ACL隔离项目，使每个人或团队都能处理自己的项目。
+description: 可查看本页以了解如何使用ACL隔离项目，使每个个人或团队都能处理他们自己的项目。
+seo-description: 可查看本页以了解如何使用ACL隔离项目，使每个个人或团队都能处理他们自己的项目。
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
+feature: 管理屏幕
+role: 管理员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 2%
 
 ---
 
 
 # 设置ACL {#setting-up-acls}
 
-下节介绍如何使用ACL隔离项目，使每个个人或团队都能处理自己的项目。
+以下部分介绍如何使用ACL隔离项目，以便每个个人或团队都能处理他们自己的项目。
 
-作为AEM管理员，您希望确保项目的团队成员不会干扰其他项目，并根据项目要求为每个用户分配特定角色。
+作为AEM管理员，您需要确保项目的团队成员不会干扰其他项目，并根据项目要求为每个用户分配特定角色。
 
 ## 设置权限{#setting-up-permissions}
 
@@ -40,7 +43,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 从列表和多次中选择&#x200B;**参与者**。
+1. 从列表中选择&#x200B;**参与者**，然后单击多次。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
@@ -50,9 +53,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果希望项目团队成员注册播放器（包括为每个播放器创建用户），请找到用户组用户管理员并将ACME用户组添加到用户管理员
+   >如果希望项目团队成员注册播放器（包括为每个播放器创建用户），请查找用户组用户管理员，并将ACME用户组添加到用户管理员
 
-1. 将将&#x200B;**Acme**&#x200B;项目的所有用户添加到&#x200B;**Acme**&#x200B;组。
+1. 将将要在&#x200B;**Acme**&#x200B;项目中工作的所有用户添加到&#x200B;**Acme**&#x200B;组。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
@@ -69,8 +72,8 @@ ht-degree: 1%
 | **路径** | **权限** | **描述** |
 |---|---|---|
 | `/apps/<project>` | 阅读 | 允许访问项目文件（如果适用） |
-| `/content/dam/<project>` | 全部 | 提供在DAM中存储图像或视频等项目资产的权限 |
-| `/content/screens/<project>` | 全部 | 删除对/content/screens下所有其他项目的访问权 |
+| `/content/dam/<project>` | 全部 | 允许在DAM中存储图像或视频等项目资产 |
+| `/content/screens/<project>` | 全部 | 删除对/content/screens下所有其他项目的访问权限 |
 | `/content/screens/svc` | 阅读 | 提供对注册服务的访问 |
 | `/libs/screens` | 阅读 | 提供对DCC的访问 |
 | `/var/contentsync/content/screens/` | 全部 | 允许更新项目的脱机内容 |
@@ -81,15 +84,15 @@ ht-degree: 1%
 
 ### 创建组{#creating-groups}
 
-创建新项目还应创建默认用户组，并分配基本权限集。 您应该将权限扩展到我们为AEM Screens提供的典型角色。
+创建新项目还应创建已分配基本权限集的默认用户组。 您应将权限扩展到我们对AEM Screens的典型角色。
 
-例如，您可以创建以下项目特定组：
+例如，您可以创建以下项目特定用户组：
 
-* 屏幕项目管理员
+* Screens项目管理员
 * Screens项目运营商（注册播放器并管理位置和设备）
-* 屏幕项目用户(处理渠道、计划和渠道分配)
+* Screens项目用户(处理渠道、计划和渠道分配)
 
-下表汇总了具有AEM Screens项目描述和权限的组：
+下表汇总了具有AEM Screens项目描述和权限的用户组：
 
 <table>
  <tbody>
@@ -100,23 +103,23 @@ ht-degree: 1%
   </tr>
   <tr>
    <td>Screens管理员<br /> <em>screens-admins</em></td>
-   <td>对AEM Screens功能的管理级别访问</td>
+   <td>对AEM Screens功能的管理员级访问</td>
    <td>
     <ul>
-     <li>参与者成员</li>
+     <li>撰稿人成员</li>
      <li>用户管理员成员</li>
      <li>所有/content/screens</li>
-     <li>全部/content/dam</li>
-     <li>全部/content/experience-fragments</li>
+     <li>所有/content/dam</li>
+     <li>所有/content/experience-fragments</li>
      <li>所有/etc/design/screens</li>
     </ul> </td>
   </tr>
   <tr>
    <td>Screens用户<br /> <em>screens-users</em></td>
-   <td>创建和更新渠道和计划，并指定到AEM Screens的位置</td>
+   <td>创建和更新渠道和计划，并指定到AEM Screens中的位置</td>
    <td>
     <ul>
-     <li>参与者成员</li>
+     <li>撰稿人成员</li>
      <li>&lt;project&gt; /content/screens</li>
      <li>&lt;project&gt; /content/dam</li>
      <li>&lt;project&gt; /content/experience-fragments</li>
@@ -124,19 +127,19 @@ ht-degree: 1%
   </tr>
   <tr>
    <td>Screens运算符<br /> <em>screens-operators</em></td>
-   <td>在AEM Screens创建和更新位置结构和注册播放器</td>
+   <td>在AEM Screens中创建和更新位置结构并注册播放器</td>
    <td>
     <ul>
-     <li>参与者成员</li>
+     <li>撰稿人成员</li>
      <li>jcr:all /home/users/screens</li>
      <li>jcr:all /home/groups/screens</li>
      <li>&lt;project&gt; /content/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>屏幕播放器<br /> <em>屏幕-&lt;project&gt;-devices</em></td>
-   <td>将所有播放器和所有播放器／设备自动分组为参与者的成员。</td>
-   <td><p> 参与者成员</p> </td>
+   <td>屏幕播放器<br /> <em>屏幕 — &lt;project&gt;-devices</em></td>
+   <td>自动将所有播放器和所有播放器/设备分组为参与者成员。</td>
+   <td><p> 撰稿人成员</p> </td>
   </tr>
  </tbody>
 </table>
