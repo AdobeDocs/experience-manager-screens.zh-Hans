@@ -5,7 +5,7 @@ feature: 功能包
 role: 开发人员
 level: 中间
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 3%
@@ -41,7 +41,7 @@ AEM Screens功能包202103的发布日期为2021年3月05日。
 
    批量部署Android播放器时，使用AEM手动注册每个播放器会变得很繁琐。 强烈建议使用VMWare Airwatch、MobileIron或Samsung Knox等EMM（企业移动管理）解决方案来远程配置和管理您的部署。 AEM Screens Android player支持行业标准EMM AppConfig，以允许远程设置。
 
-   有关更多详细信息，请参阅[使用企业移动管理批量配置Android Player](/help/user-guide/using-emm-bulkprovision-android-player.md)。
+   有关更多详细信息，请参阅[使用企业移动管理批量配置Android Player](/help/user-guide/implementing-android-player.md#implementation)。
 
 
 ### 错误修复 {#bug-fixes}
