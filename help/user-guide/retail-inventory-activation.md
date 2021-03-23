@@ -1,8 +1,8 @@
 ---
 title: 零售库存目标激活
 seo-title: 零售库存目标激活
-description: 此用例展示三种不同彩色运动衫的零售库存。 根据Google Sheets中记录的库存中可用的运动衫数量，屏幕上将显示数量最多的图像（红色、绿色或蓝色运动衫）。
-seo-description: 此用例展示三种不同彩色运动衫的零售库存。 根据Google Sheets中记录的库存中可用的运动衫数量，屏幕上将显示数量最多的图像（红色、绿色或蓝色运动衫）。
+description: 此“用例”展示三种不同颜色的运动衫的零售库存。 根据Google Sheets中记录的库存中可用的汗衫数量，屏幕上将显示数量最多的图像（红色、绿色或蓝色运动衫）。
+seo-description: 此“用例”展示三种不同颜色的运动衫的零售库存。 根据Google Sheets中记录的库存中可用的汗衫数量，屏幕上将显示数量最多的图像（红色、绿色或蓝色运动衫）。
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -21,17 +24,17 @@ ht-degree: 0%
 
 # 零售库存目标激活{#retail-inventory-targeted-activation}
 
-以下用例根据Google工作表中的值演示三个不同的图像。
+以下用例根据Google工作表中的值演示了三种不同的图像。
 
 ## 描述 {#description}
 
-此用例展示三种不同彩色运动衫的零售库存。 根据Google Sheets中记录的库存中可用的运动衫数量，屏幕上将显示数量最多的图像（红色、绿色或蓝色运动衫）。
+此“用例”展示三种不同颜色的运动衫的零售库存。 根据Google Sheets中记录的库存中可用的汗衫数量，屏幕上将显示数量最多的图像（红色、绿色或蓝色运动衫）。
 
-对于此用例，根据可用毛衣数量的最高值，在屏幕上显示红色、绿色或蓝色毛衣。
+对于此用例，红色、绿色或蓝色毛衣将根据可用毛衣数量的最高值显示在屏幕上。
 
 ## 先决条件{#preconditions}
 
-在开始实施零售库存定位激活之前，您必须了解如何设置&#x200B;***数据存储***、***受众分段***&#x200B;和&#x200B;***为AEM Screens项目中的渠道***&#x200B;启用定位。
+在开始实施零售库存定位激活之前，您必须了解如何设置AEM Screens项目中的&#x200B;***受众商店***、***分段***&#x200B;和&#x200B;***为渠道***&#x200B;启用定位。
 
 有关详细信息，请参阅AEM Screens](configuring-context-hub.md)中的[配置ContextHub。
 
@@ -42,20 +45,20 @@ ht-degree: 0%
 1. **填充Google工作表**
 
    1. 导航到ContextHubDemo Google工作表。
-   1. 添加三列（红色、绿色和蓝色），并为三种不同的运动衫添加相应的值。
+   1. 添加三列（红色、绿色和蓝色），并为三个不同的运动衫添加相应值。
 
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **根据要求配置受众**
 
-   1. 导航到受众中的区段(请参阅&#x200B;***步骤2:在&#x200B;**[配置AEM Screens](configuring-context-hub.md)**页面中的ContextHub中设置受众分段***&#x200B;以了解详细信息)。
+   1. 导航到受众中的区段(请参阅&#x200B;***步骤2:在&#x200B;**[在AEM Screens](configuring-context-hub.md)**页面中配置ContextHub中设置受众分段***，了解更多详细信息)。
 
-   1. 添加三个新段&#x200B;**For_Red**、**For_Green**&#x200B;和&#x200B;**For_Blue**。
+   1. 添加三个新区段&#x200B;**For_Red**、**For_Green**&#x200B;和&#x200B;**For_Blue**。
 
-   1. 选择&#x200B;**For_Red**，然后单击操作栏中的&#x200B;**编辑**。
+   1. 选择&#x200B;**For_Red**&#x200B;并单击操作栏中的&#x200B;**编辑**。
 
-   1. 拖放&#x200B;**比较：属性——属性**&#x200B;添加到编辑器中，然后单击配置图标以编辑属性。
-   1. 从&#x200B;**第一个属性名称**&#x200B;的下拉菜单中选择&#x200B;**googlesheets/value/1/2**
+   1. 拖放&#x200B;**比较：属性 — 属性**&#x200B;指向编辑器，然后单击配置图标以编辑属性。
+   1. 从&#x200B;**第一属性名称**&#x200B;的下拉菜单中选择&#x200B;**googlesheets/value/1/2**
 
    1. 从下拉菜单中选择&#x200B;**运算符**&#x200B;作为&#x200B;**greater-than**
 
@@ -63,7 +66,7 @@ ht-degree: 0%
 
    1. 从&#x200B;**第二个属性名称**&#x200B;的下拉菜单中选择&#x200B;**googlesheets/value/1/1**。
 
-   1. 拖放&#x200B;**另一个比较：属性——属性**&#x200B;添加到编辑器中，然后单击配置图标以编辑属性。
+   1. 拖放&#x200B;**另一个比较：属性 — 属性**&#x200B;指向编辑器，然后单击配置图标以编辑属性。
    1. 从&#x200B;**第一属性名称**&#x200B;的下拉菜单中选择&#x200B;**googlesheets/value/1/2**。
 
    1. 从下拉菜单中选择&#x200B;**运算符**&#x200B;作为&#x200B;**greater-than**
@@ -78,7 +81,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   同样，如下图所示，编辑比较属性规则并将其添加到** For_Green **segment:
+   同样，编辑比较属性规则并将其添加到** For_Green **segment，如下图所示：
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -97,7 +100,7 @@ ht-degree: 0%
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   您必须选择&#x200B;**Brand**&#x200B;和&#x200B;**Area**,活动才能在开始定位过程时正确列出。
+   您必须同时选择&#x200B;**Brand**&#x200B;和&#x200B;**Area**，才能在开始定位过程时正确列出活动。
 
 1. **添加默认图像**
 
@@ -109,7 +112,7 @@ ht-degree: 0%
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   在进行开始定位之前，必须通过单击侧边栏中的&#x200B;**+添加体验定位**&#x200B;来添加区段（**For_Green**、**For_Red**&#x200B;和&#x200B;**For_Blue**），如下图所示。
+   在开始定位之前，您必须通过单击侧边栏中的&#x200B;**+添加体验定位**&#x200B;来添加区段（**For_Green**、**For_Red**&#x200B;和&#x200B;**For_Blue**），如下图所示。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -119,7 +122,7 @@ ht-degree: 0%
 
 1. **检查预览**
 
-   1. 单击&#x200B;**预览。** 此外，打开Google工作表并更新其值。
+   1. 单击&#x200B;**预览。** 此外，打开您的Google工作表并更新其值。
    1. 更改所有三个不同列的值，您会注意到显示图像会根据库存中的最高值进行更新。
 
    ![retail_result](assets/retail_result.gif)
