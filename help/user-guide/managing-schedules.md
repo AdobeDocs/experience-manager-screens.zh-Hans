@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '427'
 ht-degree: 48%
 
 ---
@@ -20,9 +23,9 @@ ht-degree: 48%
 
 # 创建和管理计划 {#creating-and-managing-schedules}
 
-**计划**(在AEM Screens)允许您将渠道组织到可重用的组中，这样您就不必为要显示内容的每个显示屏逐个重复其分配。
+**计划**(在AEM Screens中)允许您将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏单独重复其分配。
 
-计划与&#x200B;***DayParting***&#x200B;结合使用后，您可以设置一个全局计划，该渠道在一天的特定时间运行，并一次为所有显示屏重新使用该设置。
+计划与&#x200B;***DayParting***&#x200B;结合后，允许您设置全局计划，在一天中的特定时间运行多个渠道，并一次为所有显示屏重新使用该设置。
 
 >[!NOTE]
 >
@@ -60,9 +63,9 @@ ht-degree: 48%
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **计划信** 息面板从计划信息面板的右上角单击属性以视图/更改计划的属性。
+   **计划信** 息面板从计划信息面板右上角单击属性以视图/更改计划的属性。
 
-   **已指定渠道** 面板单击已指定渠道面板右上角的+分配渠道以打开“已指定分配”对话框。
+   **指定的渠道** 面板从“指定的渠道”面板的右上角单击+指定渠道，以打开“指定渠道”对话框。
 
    **已指定显** 示面板从已指定显示面板中选择任何显示屏以打开显示仪表板。
 
