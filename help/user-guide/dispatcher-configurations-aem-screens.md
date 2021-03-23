@@ -1,22 +1,25 @@
 ---
-title: AEM Screens调度程序配置
-seo-title: AEM Screens调度程序配置
+title: AEM Screens的调度程序配置
+seo-title: AEM Screens的调度程序配置
 description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
+feature: 管理屏幕
+role: 商业从业人员开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 3%
 
 ---
 
 
-# AEM Screens的调度程序配置{#dispatcher-configurations-for-aem-screens}
+# AEM Screens{#dispatcher-configurations-for-aem-screens}的调度程序配置
 
 Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
-下页提供了为AEM Screens项目配置调度程序的指南。
+以下页提供了为AEM Screens项目配置调度程序的指南。
 
 >[!NOTE]
 >
@@ -32,13 +35,13 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
 ## 配置 Dispatcher {#configuring-dispatcher}
 
-AEM Screens播放器／设备也使用经过身份验证的会话来访问发布实例中的资源。 因此，当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器／设备的所有请求有效。
+AEM Screens播放器/设备也使用经过身份验证的会话来访问发布实例中的资源。 因此，当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器/设备的所有请求有效。
 
-按照以下步骤为AEM Screens项目配置调度程序。
+请按照以下步骤为AEM Screens项目配置调度程序。
 
 ### 启用粘滞会话{#enable-sticky-session}
 
-如果要使用由单个调度程序前置的多个发布实例，您必须更新`dispatcher.any`文件以启用粘性
+如果要使用由单个调度程序前置的多个发布实例，则必须更新`dispatcher.any`文件以启用粘性
 
 ```xml
 /stickyConnections {
@@ -49,11 +52,11 @@ AEM Screens播放器／设备也使用经过身份验证的会话来访问发布
  }
 ```
 
-如果您有一个由一个调度程序前置的发布实例，则启用调度程序的粘性将无济于事，因为负载平衡器可能会向调度程序发送每个请求。 在这种情况下，单击&#x200B;**粘性**&#x200B;字段中的&#x200B;**启用**&#x200B;可在负载平衡器级别启用它，如下图所示：
+如果您有一个由一个调度程序前置的发布实例，则在调度程序上启用粘性将无济于事，因为负载平衡器可能会向调度程序发送每个请求。 在这种情况下，单击&#x200B;**粘性**&#x200B;字段中的&#x200B;**启用**，以在负载平衡器级别启用它，如下图所示：
 
 ![图像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-例如，如果您使用的是AWS ALB，请参考[目标组，了解您的应用程序负载平衡器](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)，以便在ALB级别启用粘性。 启用1天的粘性。
+例如，如果您使用的是AWS ALB，请参考[目标组，以便在ALB级别启用粘性。 ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)启用1天的粘性。
 
 ### 第1步：配置客户端标头{#step-configuring-client-headers}
 
@@ -92,11 +95,11 @@ AEM Screens播放器／设备也使用经过身份验证的会话来访问发布
 
 禁用&#x200B;***/content/screens路径***&#x200B;的调度程序缓存。
 
-Screens播放器使用经过身份验证的会话，因此调度程序不缓存任何屏幕播放器请求`channels/assets`。
+Screens播放器使用经过身份验证的会话，因此调度程序不缓存任何屏幕播放器请求。`channels/assets`
 
-要为资产启用缓存，以便从调度程序缓存提供资产，您必须：
+要为资产启用缓存，以便从调度程序缓存中提供资产，您必须：
 
-* 在`/cache`部分添加`/allowAuthorization 1`
+* 在`/cache`节中添加`/allowAuthorization 1`
 * 将以下规则添加到`/cache`的`/rules`部分
 
 ```xml
