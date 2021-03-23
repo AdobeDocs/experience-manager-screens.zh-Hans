@@ -10,10 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
+feature: 管理屏幕，Windows Player
+role: 管理员
+level: 中间
 translation-type: tm+mt
-source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -135,7 +138,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 >[!CAUTION]
 >
->Adobe建议使用设备管理解决方案来启用Kiosk for Windows。 如果您没有设备管理解决方案来启用Kiosk模式，请按照以下步骤操作。 此方法使用Windows 10企业版和教育版中提供的Shell Launcher功能。 Microsoft推荐的任何非UWP应用程序方法也可用于启用Kiosk，特别是在其他版本的Windows上。
+>Adobe建议使用设备管理解决方案来启用Kiosk for Windows。 如果您没有设备管理解决方案来启用Kiosk模式，请按照以下步骤操作。 此方法使用Windows 10企业版和教育版中提供的Shell Launcher功能。 Microsoft推荐的任何非UWP应用程序的其他方法也可用于启用Kiosk，特别是在其他版本的Windows上。
 
 请按照以下步骤启用Kiosk模式：
 
