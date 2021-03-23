@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '430'
 ht-degree: 64%
 
 ---
@@ -46,7 +49,7 @@ ht-degree: 64%
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 选择&#x200B;**进程**&#x200B;选项卡以编辑进程参数。在&#x200B;**参数**&#x200B;中将全高清用户档案输入到列表中：***,profile:fullhd-bp,profile:fullhd-hp***&#x200B;并单击&#x200B;**确定**。
+1. 选择&#x200B;**进程**&#x200B;选项卡以编辑进程参数。在&#x200B;**参数**&#x200B;中输入对列表的全高清用户档案:***,profile:fullhd-bp,profile:fullhd-hp***，然后单击&#x200B;**确定**。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
@@ -54,7 +57,7 @@ ht-degree: 64%
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 导航到&#x200B;**资产**，然后上传一个新视频。单击视频并打开演绎版侧边栏，您会注意到两个全高清视频。
+1. 导航到&#x200B;**资产**，然后上传一个新视频。单击视频并打开演绎版侧边栏，此时您会注意到这两个全高清视频。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -64,7 +67,7 @@ ht-degree: 64%
 
 1. 您将发现两个新的全高清演绎版。
 
-   ![step12_-_2_new_renditions已读入视频](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditionsadedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## 手动生成全高清演绎版 {#manually-generating-full-hd-renditions}
 
@@ -80,9 +83,9 @@ ht-degree: 64%
 
    ![step5_-_开始_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 在&#x200B;**有效负荷**&#x200B;中选择所需的视频，然后单击&#x200B;**运行**。
+1. 在&#x200B;**Payload**&#x200B;中选择所需的视频，然后单击&#x200B;**运行**。
 
-   ![step6_-_select_thedesignedvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
 1. 导航到&#x200B;**资产**，向下展开您的资产，然后单击它。
 
@@ -90,5 +93,5 @@ ht-degree: 64%
 
 1. 打开&#x200B;**演绎版**&#x200B;侧边栏，此时您将发现新的全高清演绎版。
 
-   ![step8_-_open_therenditionssifarge](assets/step8_-_open_therenditionssiderail.png)
+   ![step8_-_open_therendissiaverg](assets/step8_-_open_therenditionssiderail.png)
 
