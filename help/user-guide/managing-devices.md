@@ -9,11 +9,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
+feature: 创作屏幕
+role: 管理员、开发人员
+level: 中间
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 66%
+source-wordcount: '273'
+ht-degree: 69%
 
 ---
 
@@ -38,19 +41,19 @@ ht-degree: 66%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. 选择&#x200B;**设备**&#x200B;文件夹，然后点按／单击操作栏中的&#x200B;**设备管理器**。 此时将显示已分配和未分配的设备。
+1. 选择&#x200B;**设备**&#x200B;文件夹，然后点按/单击操作栏中的&#x200B;**设备管理器**。 此时将显示已分配和未分配的设备。
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 从列表中选择未分配的设备，然后点按／单击操作栏中的&#x200B;**分配设备**。
+1. 从列表中选择未分配的设备，然后点按/单击操作栏中的&#x200B;**分配设备**。
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. 从列表中选择要将设备分配到的显示屏，然后点按／单击&#x200B;**分配**。
+1. 从列表中选择要将设备分配到的显示屏，然后点按/单击&#x200B;**分配**。
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. 点按／单击&#x200B;**完成**&#x200B;以完成分配过程。
+1. 点按/单击&#x200B;**完成**&#x200B;以完成分配过程。
 
 
    显示功能板会在&#x200B;**设备**&#x200B;面板中显示已分配的设备。
