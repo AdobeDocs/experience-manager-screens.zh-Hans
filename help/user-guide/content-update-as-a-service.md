@@ -5,9 +5,9 @@ description: 可查看本页以了解“内容更新为服务”。
 seo-description: 可查看本页以了解“内容更新为服务”。
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-feature: 创作屏幕
-role: 管理员、开发人员
-level: 中间
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

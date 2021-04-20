@@ -3,9 +3,9 @@ title: 术语表
 seo-title: 术语表
 description: 可查看本页以了解与AEM Screens相关的主要术语。
 seo-description: 可查看本页以了解与AEM Screens相关的主要术语。
-feature: 概述
-role: 商务从业人员
-level: 初学者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

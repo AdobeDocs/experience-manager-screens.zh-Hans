@@ -3,9 +3,9 @@ title: MultiZone到SingleZone过渡用例
 description: 可查看本页以了解MultiZone到SingleZone过渡用例。
 seo-description: MultiZone到SingleZone过渡用例。
 contentOwner: Jyotika Syal
-feature: 创作屏幕
-role: 商业从业人员开发人员
-level: 中间
+feature: Authoring Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

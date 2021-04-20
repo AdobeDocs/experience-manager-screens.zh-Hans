@@ -5,9 +5,9 @@ description: '可查看本页以了解点播内容更新。  '
 seo-description: '可查看本页以了解点播内容更新。  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
-feature: 创作屏幕
-role: 开发人员
-level: 中间
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

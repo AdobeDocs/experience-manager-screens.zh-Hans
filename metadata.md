@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
-type: 文档
+type: Documentation
 index: y
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.zh-Hans
 translation-type: tm+mt

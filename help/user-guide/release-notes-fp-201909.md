@@ -3,9 +3,9 @@ title: 功能包发行说明201909
 seo-title: 功能包发行说明201909
 description: 可查看本页以获取2019年7月31日发布的AEM Screens Feature Pack 201909的相关信息。
 seo-description: 可查看本页以获取2019年10月07日发布的AEM Screens Feature Pack 201909的相关信息。
-feature: 功能包
-role: 开发人员
-level: 中间
+feature: Feature Pack
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

@@ -2,9 +2,9 @@
 title: 什么是AEM Screens?
 seo-title: 什么是AEM Screens?
 description: “AEM Screens — 一款数字标牌解决方案，允许您发布包含不同屏幕类型的动态交互式数字体验和互动，并结合一个全面的数字营销平台。”
-feature: 概述，数字标牌
-role: 商务从业人员
-level: 初学者
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

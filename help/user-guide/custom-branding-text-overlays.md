@@ -4,9 +4,9 @@ seo-title: 对文本叠加应用自定义品牌和样式
 description: 可查看本页以了解如何对文本叠加应用自定义品牌和样式。
 seo-description: 可查看本页以了解如何对文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
-feature: 开发屏幕
-role: 开发人员
-level: 中间
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

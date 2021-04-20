@@ -1,9 +1,9 @@
 ---
 title: 内容分配报告
 description: 本页介绍内容分配报表的下载和使用情况。
-feature: 创作屏幕
-role: 开发人员
-level: 中间
+feature: Authoring Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

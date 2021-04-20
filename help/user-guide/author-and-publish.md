@@ -3,9 +3,9 @@ title: 在AEM Screens中配置作者和发布
 seo-title: 在AEM Screens中配置作者和发布
 description: AEM Screens架构类似于传统的AEM Sites架构。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
 seo-description: AEM Screens架构类似于传统的AEM Sites架构。 内容是在AEM作者实例上创作的，然后转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置作者和发布。
-feature: 管理屏幕
-role: 管理员、开发人员
-level: 中间
+feature: Administering Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

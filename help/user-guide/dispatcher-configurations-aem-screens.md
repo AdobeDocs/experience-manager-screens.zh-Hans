@@ -3,9 +3,9 @@ title: AEM Screens的调度程序配置
 seo-title: AEM Screens的调度程序配置
 description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
 seo-description: 本页重点介绍为AEM Screens项目配置调度程序的指南。
-feature: 管理屏幕
-role: 商业从业人员开发人员
-level: 中间
+feature: Administering Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

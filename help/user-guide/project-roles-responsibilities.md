@@ -2,9 +2,9 @@
 title: “第一部分：项目角色和责任”
 seo-title: “第一部分：项目角色和责任”
 description: 请通过本教程更好地了解数字标牌项目在销售和项目生命周期中所需的角色、责任和时间线。
-feature: 概述
-role: 业务从业者，数据架构师
-level: 初学者
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -2,9 +2,9 @@
 title: 渠道分配 — 最新的FP
 seo-title: 渠道分配 — 最新的FP
 description: 可查看本页以了解渠道分配和分时段功能。
-feature: 创作屏幕，渠道分配
-role: 管理员、开发人员
-level: 中间
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

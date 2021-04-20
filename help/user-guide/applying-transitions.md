@@ -5,9 +5,9 @@ description: 可查看本页以了解如何将过渡应用于Screens项目。
 seo-description: 可查看本页以了解如何将过渡应用于Screens项目。
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: 创作屏幕
-role: 管理员、开发人员
-level: 中间
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

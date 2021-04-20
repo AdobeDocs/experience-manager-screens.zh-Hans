@@ -2,9 +2,9 @@
 title: 使用数据触发器进行创作
 seo-title: 使用数据触发器进行创作
 description: 可查看本页以了解如何使用数据触发器进行创作。
-feature: 创作屏幕
-role: 管理员、开发人员
-level: 中间
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

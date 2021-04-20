@@ -4,9 +4,9 @@ seo-title: 安装Screens播放器
 description: 可查看本页以了解可用AEM Screens Player的安装。
 seo-description: 安装Screens播放器
 contentOwner: jsyal
-feature: 管理屏幕
-role: 管理员
-level: 中间
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

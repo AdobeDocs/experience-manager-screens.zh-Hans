@@ -3,9 +3,9 @@ title: 将数据触发器复制到发布服务器
 seo-title: 将数据触发器复制到发布服务器
 description: 可查看本页以了解如何将数据触发器复制到发布服务器。
 seo-description: 将数据触发器复制到发布服务器。
-feature: 管理屏幕、数据触发器
-role: 开发人员
-level: 中间
+feature: Administering Screens, Data Trigger
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

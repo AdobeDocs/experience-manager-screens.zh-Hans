@@ -10,9 +10,9 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
-feature: 概述
-role: 业务从业者，数据架构师
-level: 初学者
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

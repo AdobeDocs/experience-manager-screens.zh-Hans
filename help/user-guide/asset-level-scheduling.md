@@ -3,9 +3,9 @@ title: 资产级别激活
 seo-title: 资产级别激活
 description: 可查看本页，了解如何在播放器的本地时区的计划时间范围内在渠道中激活特定资产。
 seo-description: 可查看本页，了解如何在播放器的本地时区的计划时间范围内在渠道中激活特定资产。
-feature: 创作屏幕，资产级别激活
-role: 管理员、开发人员
-level: 中间
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

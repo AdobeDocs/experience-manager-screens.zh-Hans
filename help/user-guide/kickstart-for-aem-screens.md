@@ -2,9 +2,9 @@
 title: 引脚指南
 seo-title: 引脚指南
 description: 可查看本页以创建演示AEM Screens项目。 它可以帮助您创建从安装开始、设置新项目到在AEM Screens播放器中查看内容的数字标牌体验。
-feature: 概述，数字标牌
-role: 商务从业人员
-level: 初学者
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

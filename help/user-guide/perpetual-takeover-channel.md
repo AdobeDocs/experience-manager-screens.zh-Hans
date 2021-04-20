@@ -4,9 +4,9 @@ seo-title: 永久接管渠道
 description: 请按照此用例创建永久接管渠道。
 seo-description: 请按照此使用案例设置一个项目，该项目创建的永久接管渠道将连续在特定时间和一天中播放。
 contentOwner: jsyal
-feature: 创作屏幕
-role: 管理员、开发人员
-level: 中间
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
