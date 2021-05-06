@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 translation-type: tm+mt
-source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
+source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 20%
+source-wordcount: '445'
+ht-degree: 19%
 
 ---
 
@@ -104,6 +104,7 @@ ht-degree: 20%
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [为多区域布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [对文本叠加应用自定义品牌和样式](custom-branding-text-overlays.md)
+   + [使用工作流自动更新渠道](automate-channel-updates-workflow.md)
 + 疑难解答和常见问题解答{#troubleshooting}
    + [AEM Screens常见问题解答](aem-screens-faqs.md)
    + [设备控制中心故障排除](monitoring-screens.md)
