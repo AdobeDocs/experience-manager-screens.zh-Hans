@@ -9,18 +9,17 @@ topic-tags: developing
 feature: 开发屏幕
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 2%
 
 ---
 
 
 # 使用工作流自动更新AEM Screens渠道{#automate-channel-updates-workflow}的资产
 
-了解如何创建工作流，以自动处理上传到Adobe Experience Manager的资产并将资产动态分配给Screens渠道。 在此示例中，当将图像添加到特定文件夹时，将触发应用动态水印并将图像分配到Screens渠道的工作流。 从此示例中吸取的经验教训可以应用于各种自动化场景。
+了解如何创建工作流，以自动处理上传到Adobe Experience Manager的资产并将资产动态分配给Screens渠道。 在此示例中，将图像添加到特定文件夹后，将触发应用动态文本叠加（水印过程）并将图像分配到Screens渠道的工作流。 从此示例中吸取的经验教训可以应用于各种自动化场景。
 
 ## 前提条件 {#prerequisites}
 
