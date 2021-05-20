@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 51%
+source-wordcount: '262'
+ht-degree: 52%
 
 ---
-
 
 # 创建和管理位置 {#creating-and-managing-locations}
 
@@ -40,13 +39,13 @@ ht-degree: 51%
 1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到：`http://localhost:4502/screens.html/content/screens`。
 1. 导航到Screens项目，然后单击&#x200B;**位置**。
 1. 单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
-1. 从向导中选择模板&#x200B;**位置**，然后单击&#x200B;**下一步**。
+1. 从向导中选择模板&#x200B;**Location** ，然后单击&#x200B;**Next**。
 
-1. 输入&#x200B;**标题和标记**、**更多标题和说明**、**开/关时间**&#x200B;和&#x200B;**虚URL**&#x200B;的属性。
+1. 输入&#x200B;**标题和标记**、**更多标题和描述**、**开启/关闭时间**&#x200B;和&#x200B;**虚URL**&#x200B;的属性。
 
-1. 单击&#x200B;**创建**，然后创建位置并将其添加到您的位置文件夹。
+1. 单击&#x200B;**创建**，此时将创建位置并将其添加到您的位置文件夹。
 
-请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 出于演示目的，将在&#x200B;*DemoProject*&#x200B;下创建新位置(SanJose)。
+请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 出于演示目的，在&#x200B;*DemoProject*&#x200B;下创建新位置(SanJose)。
 
 ![player2](assets/player2.gif)
 
@@ -65,4 +64,4 @@ ht-degree: 51%
 
 创建位置后，您必须为该位置创建一个新显示屏。
 
-有关详细信息，请参阅[创建和管理显示屏](managing-displays.md)。
+有关更多详细信息，请参阅[创建和管理显示](managing-displays.md) 。
