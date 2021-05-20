@@ -9,23 +9,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '724'
 ht-degree: 84%
 
 ---
-
 
 # 创建和管理Live Copy {#creating-and-managing-a-live-copy}
 
 本页介绍了如何创建和管理渠道的 Live Copy。
 
-***Live Copy***&#x200B;是特定站点内容的副本，其中保留了与原始源的实时关系。 此实时关系允许 Live Copy 从源中继承内容和页面属性。
+***Live Copy***&#x200B;是特定站点内容的副本，其与原始源的Live关系将保持在该副本中。 此实时关系允许 Live Copy 从源中继承内容和页面属性。
 
 本页介绍了如何创建渠道的 Live Copy、查看属性、检查状态，以及将渠道中的更改传播到其 Live Copy。
 
@@ -57,7 +56,7 @@ Live Copy 是已存在的渠道的副本。
 
 要查看您的 Live Copy 内容，请执行以下步骤：
 
-1. 导航到 Screens 项目，然后单击您最初创建 Live Copy 的位置，如上面的部分所示。(此处，选择的位置为&#x200B;**渠道**&#x200B;文件夹)
+1. 导航到 Screens 项目，然后单击您最初创建 Live Copy 的位置，如上面的部分所示。（此处，选择的位置为&#x200B;**渠道**&#x200B;文件夹）
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -85,7 +84,7 @@ Live Copy 是已存在的渠道的副本。
 
 如下图所示，**Live Copy 状态**&#x200B;模式允许您查看渠道中所有资产的关系状态。
 
-1. 单击&#x200B;**编辑**&#x200B;以选择&#x200B;**Live Copy状态**，并将渠道内容与原始渠道（从中生成Live Copy）的关联视图。
+1. 单击&#x200B;**编辑**&#x200B;以选择&#x200B;**Live Copy状态**，并查看渠道内容与原始渠道（从中生成Live Copy）的关联。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -131,9 +130,8 @@ Live Copy 是已存在的渠道的副本。
 
    ![chlimage_1-21](assets/chlimage_1-29.png)
 
-1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。单击&#x200B;**保存并关闭**&#x200B;以导航回AEM仪表板。
+1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。单击&#x200B;**保存并关闭**&#x200B;以导航回AEM功能板。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    此时您将注意到图像现在也已从 Live Copy 渠道中删除。
-
