@@ -1,50 +1,49 @@
 ---
 title: REST API
 seo-title: REST API
-description: AEM Screens提供遵循Siren规范的简单RESTful API。 可查看本页以了解如何导航内容结构并将命令发送到环境中的设备。
-seo-description: AEM Screens提供遵循Siren规范的简单RESTful API。 可查看本页以了解如何导航内容结构并将命令发送到环境中的设备。
+description: AEM Screens提供了一个简单的RESTful API，它遵循Siren规范。 可查看本页以了解如何导航内容结构以及如何向环境中的设备发送命令。
+seo-description: AEM Screens提供了一个简单的RESTful API，它遵循Siren规范。 可查看本页以了解如何导航内容结构以及如何向环境中的设备发送命令。
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
-feature: Developing Screens
+feature: 开发屏幕
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
-
 # REST API{#rest-apis}
 
-AEM Screens提供遵循[Siren](https://github.com/kevinswiber/siren)规范的简单RESTful API。 它允许导航内容结构并向环境中的设备发送命令。
+AEM Screens提供了一个遵循[Siren](https://github.com/kevinswiber/siren)规范的简单RESTful API。 它允许导航内容结构并向环境中的设备发送命令。
 
-可通过&#x200B;[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)访问该API。
+该API可在&#x200B;[*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json)中访问。
 
-## 导航内容结构{#navigating-content-structure}
+## 导览内容结构{#navigating-content-structure}
 
-API返回的JSON调用与当前资源相关的实体的列表。 在列出的自链接后，这些实体中的每个都可再次作为REST资源访问。
+API调用返回的JSON列出了与当前资源相关的实体。 在列出的自链接之后，这些实体中的每个实体都可再次作为REST资源进行访问。
 
-例如，要访问我们演示旗舰位置的显示屏，您可以调用：
+例如，要访问演示旗舰位置中的显示屏，您可以调用：
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-或使用卷边：
+或使用curl:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship.json
 ```
 
-结果将是：
+结果会如下所示：
 
 ```xml
 {
@@ -107,16 +106,16 @@ Host: http://localhost:4502
 
 ## 对资源{#executing-actions-on-the-resource}执行操作
 
-API调用返回的JSON可包含资源上可用的操作列表。
+API调用返回的JSON可以包含资源上可用的操作列表。
 
-例如，该显示器列表了&#x200B;*broadcast-command*&#x200B;动作，允许向分配给该显示器的所有设备发送命令。
+例如，该显示器列出了&#x200B;*broadcast-command*&#x200B;操作，该操作允许向分配给该显示器的所有设备发送命令。
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 ```
 
-或使用卷边：
+或使用curl:
 
 ```xml
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
@@ -154,7 +153,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-要触发此操作，应调用：
+要触发此操作，需要调用：
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -163,9 +162,8 @@ Host: http://localhost:4502
 :operation=broadcast-command&msg=reboot
 ```
 
-或使用卷边：
+或使用curl:
 
 ```xml
 curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
-
