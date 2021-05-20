@@ -7,11 +7,10 @@ page-status-flag: never-activated
 uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 94%
 
 ## 将 Context Hub 用于数据驱动型事件  {#using-context-hub-for-data-driven-events}
 
-AEM Screens 通过 Context Hub 启用数据驱动型事件。Context Hub，允许您使用实时
+AEM Screens 通过 Context Hub 启用数据驱动型事件。通过 Context Hub，您可以使用实时
 
 ### 对数据驱动型事件进行分类 {#categorizing-data-driven-events}
 
