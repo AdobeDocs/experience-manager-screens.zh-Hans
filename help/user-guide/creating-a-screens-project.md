@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 38%
 
 ---
-
 
 # 创建和管理项目{#creating-and-managing-projects}
 
@@ -30,7 +29,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >**导航提示：**
->您也可以使用光标键浏览 AEM 中的不同文件夹。此外，选择特定实体后，点击空格栏可编辑或视图该特定文件夹的属性。
+>您也可以使用光标键浏览 AEM 中的不同文件夹。此外，选择特定实体后，点击空间栏可编辑或查看该特定文件夹的属性。
 
 ## 创建新 Screens 项目 {#creating-a-new-screens-project}
 
@@ -40,7 +39,7 @@ ht-degree: 38%
 
 1. 单击&#x200B;**创建屏幕项目**。
 
-1. 输入&#x200B;**TestScreens**&#x200B;的标题，然后单击&#x200B;**保存**。
+1. 将标题输入为&#x200B;**TestScreens**，然后单击&#x200B;**Save**。
 
 随即会创建项目并使您返回到 Screens 项目控制台。现在，您可以选择自己的项目。
 
@@ -56,12 +55,12 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->默认情况下，初始结构将包含&#x200B;**计划**、**位置**、**应用程序**、**渠道**&#x200B;和&#x200B;**设备**&#x200B;主控页面，但可以根据需要手动调整这些页面。 如果可用选项与项目无关，则可以删除这些选项。
+>默认情况下，初始结构将包含&#x200B;**计划**、**位置**、**应用程序**、**渠道**&#x200B;和&#x200B;**设备**&#x200B;主控页面，但如果需要，可以手动调整这些页面。 如果可用选项与您的项目无关，您可以删除这些选项。
 
 
 ## 查看属性 {#viewing-properties}
 
-创建Screens项目后，选择项目，然后单击操作栏中的&#x200B;**属性**&#x200B;以编辑项目的属性。
+创建Screens项目后，选择该项目，然后单击操作栏中的&#x200B;**属性**&#x200B;以编辑项目的属性。
 
 以下选项允许您编辑/更改&#x200B;**TestScreens**&#x200B;的属性。
 
@@ -70,7 +69,7 @@ ht-degree: 38%
 
 ## 创建自定义文件夹 {#creating-a-custom-folder}
 
-您还可以在&#x200B;**计划**、**位置**、**应用程序**、**渠道**&#x200B;和&#x200B;**设备**&#x200B;项目中可用的主控页面下创建您自己的自定义文件夹。
+您还可以在&#x200B;**计划**、**位置**、**应用程序**、**渠道**&#x200B;和&#x200B;**设备**&#x200B;主控页面下创建自己的自定义文件夹。
 
 要创建自定义文件夹，请执行以下操作：
 
@@ -79,11 +78,10 @@ ht-degree: 38%
 1. 单击&#x200B;**下一步**。
 1. 输入属性，然后单击&#x200B;**创建**。
 
-以下步骤显示了如何在&#x200B;**TestScreens**&#x200B;中的&#x200B;**Applications**&#x200B;主控页创建应用程序文件夹。
+以下步骤显示了如何在&#x200B;**TestScreens**&#x200B;的“应用程序&#x200B;**”主控页面中创建应用程序文件夹。**
 
 ![player2-1](assets/create-project3.gif)
 
 ### 后续步骤 {#the-next-steps}
 
-创建您自己的项目后，请参阅[渠道管理](managing-channels.md)以在渠道中创建和管理内容。
-
+创建自己的项目后，请参阅[渠道管理](managing-channels.md)以创建和管理渠道中的内容。
