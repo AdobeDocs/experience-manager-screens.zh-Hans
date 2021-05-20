@@ -2,15 +2,14 @@
 title: 项目分类
 seo-title: '项目分类 '
 description: 本页介绍项目分类
-seo-description: 本页介绍项目分类
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+seo-description: 该页介绍项目分类
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 12%
 
 ---
-
 
 # 项目分类{#project-taxonomy}
 
@@ -18,9 +17,9 @@ ht-degree: 12%
 >
 >本活动的典型利益相关方是AEM实施者。
 
-在创建AEM Screens项目之前，请务必了解并制定策略，使在项目的“UX线框化”阶段定义的所有组件都具备相应的功能。
+在创建AEM Screens项目之前，请务必了解在项目的UX线框构建阶段中定义的所有组件，并为其制定策略。
 
-在实施AEM Screens数字标牌解决方案之前，请确保考虑以下要素：
+在实施AEM Screens数字标牌解决方案之前，请确保考虑以下元素：
 
 * **位置**
 * **MediaZones**
@@ -35,12 +34,12 @@ ht-degree: 12%
 >最好考虑使用：
 >
 >* 用于自动填充Screens项目的硬件资产数据库
->* 文本配置文件自动将每个播放器指向AEM的特定实例
+>* 文本配置文件，自动将每个播放器指向AEM的特定实例
 
 
-## 执行AEM Screens项目{#creating-a-project}
+## 实施AEM Screens项目{#creating-a-project}
 
-一位AEM Screens作家负责使用AEM Screens的可用组件创建和管理用户体验。 作者通过配置、部署和集成AEM Screens的可用细分，创建和审阅内容并提供易于使用的图形用户界面。
+AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户体验。 作者通过配置、部署和集成AEM Screens的可用区段，创建和审阅内容并提供易于使用的图形用户界面。
 
 >[!NOTE]
 >
@@ -54,8 +53,8 @@ ht-degree: 12%
 * [创建计划](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
 * [创建位置](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
 * [创建显示](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [将渠道分配给显示屏](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
+* [将渠道分配到显示屏](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
 * [在AEM Screens播放器中查看内容](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->此外，还可以将一组位置从CSV/XLS电子表格批量导入您的AEM Screens项目。 有关更多详细信息，请按照文件](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html)中的[新建项目导入程序。
+>此外，您还可以将一组位置从CSV/XLS电子表格批量导入AEM Screens项目。 有关更多详细信息，请参阅[从文件新建项目导入器](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) 。
