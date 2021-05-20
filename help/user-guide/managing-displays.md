@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '775'
 ht-degree: 59%
 
 ---
-
 
 # 创建和管理显示屏 {#creating-and-managing-displays}
 
@@ -40,7 +39,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->在创建显示屏之前，您需要先创建位置。要了解如何创建位置，请参阅[创建和管理位置](managing-locations.md)以了解详细信息。
+>在创建显示屏之前，您需要先创建位置。要了解如何创建位置，请参阅[创建和管理位置](managing-locations.md)以获取更多信息。
 
 要在您的位置中创建新显示屏，请按照以下步骤操作：
 
@@ -48,9 +47,9 @@ ht-degree: 59%
 1. 选择您的位置文件夹，然后点按/单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
 1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**显示**，然后单击&#x200B;**下一步**。
 
-1. 输入&#x200B;**名称**&#x200B;和&#x200B;**标题**&#x200B;作为显示位置。
+1. 输入显示位置的&#x200B;**名称**&#x200B;和&#x200B;**标题**。
 
-1. 在&#x200B;**显示**&#x200B;选项卡下，选择布局的详细信息。 选择所需的&#x200B;**分辨率**（例如，**全高清**）。 此外，您还可以选择水平和垂直设备的数量。
+1. 在&#x200B;**Display**&#x200B;选项卡下，选择布局的详细信息。 选择所需的&#x200B;**Resolution**（例如&#x200B;**全高清**）。 此外，您还可以选择水平和垂直设备的数量。
 
 1. 单击&#x200B;**创建**。
 
@@ -66,7 +65,7 @@ ht-degree: 59%
 >
 >为您的位置创建显示屏后，您需要为显示屏分配渠道以利用内容。
 >
->请参阅[指定渠道](channel-assignment.md)部分，了解如何为显示屏指定渠道。
+>请参阅[分配渠道](channel-assignment.md)部分，了解如何将渠道分配给显示屏。
 
 ## 创建新设备配置 {#creating-a-new-device-config}
 
@@ -75,7 +74,7 @@ ht-degree: 59%
 请按照以下步骤创建新设备配置：
 
 1. 导航到相应的显示屏，例如`http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`。
-1. 选择您的显示文件夹，然后点按/单击操作栏中的&#x200B;**视图仪表板**。
+1. 选择您的显示文件夹，然后点按/单击操作栏中的&#x200B;**查看功能板**。
 1. 点按/单击&#x200B;**设备**&#x200B;面板右上角的&#x200B;**+添加设备配置**。
 
 1. 选择&#x200B;**设备配置**&#x200B;作为所需的模板，然后点按/单击&#x200B;**下一步**。
@@ -84,7 +83,7 @@ ht-degree: 59%
 
 将创建设备配置并将其添加到当前显示屏（在以下演示中，新设备配置为&#x200B;*DeviceConfig*）。
 
-![设备](assets/deviceconfig.gif)
+![设备配置](assets/deviceconfig.gif)
 
 为位置中的显示屏设置设备配置后，下一步是将渠道分配到显示屏。
 
@@ -92,9 +91,9 @@ ht-degree: 59%
 >
 >为位置中的显示屏设置设备配置后，下一步是将渠道分配到显示屏。
 >
->如下图所示，如果设备配置在&#x200B;**设备**&#x200B;面板中显示为未分配，则未为该特定设备配置分配渠道。
+>如下图所示，如果设备配置在&#x200B;**DEVICES**&#x200B;面板中显示为未分配，则没有为该特定设备配置分配任何渠道。
 >
->您应当已事先了解如何创建和管理渠道。有关详细信息，请参阅[创建和管理渠道](managing-channels.md)。
+>您应当已事先了解如何创建和管理渠道。有关更多详细信息，请参阅[创建和管理渠道](managing-channels.md)。
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -125,7 +124,7 @@ ht-degree: 59%
 
 此外，您还可以在&#x200B;**Display**&#x200B;选项卡下的&#x200B;**Idle timeout**&#x200B;属性中调整交互式渠道的事件计时器值。 默认值设为 *300 秒*。
 
-使用&#x200B;**CRXDE Lite**&#x200B;访问&#x200B;**idleTimeout**&#x200B;属性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`。
+使用&#x200B;**CRXDE Lite**&#x200B;访问&#x200B;**idleTimeout**&#x200B;属性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` 。
 
 
 ### “已指定渠道”面板{#assigned-channels-panel}
@@ -137,9 +136,9 @@ ht-degree: 59%
 
 **设备**&#x200B;面板提供了有关设备配置的信息。
 
-单击(**...**)，用于添加设备配置和更新设备。****
+单击(**...**)以添加设备配置和更新设备。****
 
-此外，单击设备配置以视图属性、分配设备或完全删除设备。
+此外，单击设备配置可查看属性、分配设备或将其完全删除。
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
@@ -147,4 +146,4 @@ ht-degree: 59%
 
 为您的位置创建完显示屏后，您需要为显示屏分配渠道。
 
-有关详细信息，请参阅[分配渠道](channel-assignment.md)。
+有关更多详细信息，请参阅[分配渠道](channel-assignment.md) 。
