@@ -1,31 +1,30 @@
 ---
 title: 创建和管理计划
 seo-title: 管理计划
-description: 可查看本页以了解计划，它允许您将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏单独重复其分配。
-seo-description: 可查看本页以了解计划，它允许您将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏单独重复其分配。
+description: 请阅读本页以了解计划，该计划允许您将渠道组织到可重复使用的组中，这样您就不必为要显示内容的每个显示屏分别重复其分配。
+seo-description: 请阅读本页以了解计划，该计划允许您将渠道组织到可重复使用的组中，这样您就不必为要显示内容的每个显示屏分别重复其分配。
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '424'
 ht-degree: 48%
 
 ---
 
-
 # 创建和管理计划 {#creating-and-managing-schedules}
 
-**计划**(在AEM Screens中)允许您将渠道组织到可重用的组中，这样您就不必为每个要显示内容的显示屏单独重复其分配。
+**通过AEM Screens中的计划**，您可以将渠道组织到可重复使用的组中，这样您就不必为要显示内容的每个显示屏单独重复其分配。
 
-计划与&#x200B;***DayParting***&#x200B;结合后，允许您设置全局计划，在一天中的特定时间运行多个渠道，并一次为所有显示屏重新使用该设置。
+将计划与&#x200B;***DayParting***&#x200B;结合使用后，您可以设置一个全局计划，其中多个渠道在一天中的特定时间运行，并一次为所有显示屏重复使用该设置。
 
 >[!NOTE]
 >
@@ -63,9 +62,8 @@ ht-degree: 48%
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **计划信** 息面板从计划信息面板右上角单击属性以视图/更改计划的属性。
+   **计划信** 息面板单击计划信息面板右上角的属性以查看/更改计划的属性。
 
-   **指定的渠道** 面板从“指定的渠道”面板的右上角单击+指定渠道，以打开“指定渠道”对话框。
+   **已分配渠** 道面板单击已分配渠道面板右上角的+分配渠道以打开渠道分配对话框。
 
-   **已指定显** 示面板从已指定显示面板中选择任何显示屏以打开显示仪表板。
-
+   **已分配显** 示面板从已分配显示面板中选择任意显示以打开显示功能板。
