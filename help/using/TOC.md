@@ -6,7 +6,6 @@ getting-started-title: AEM Screens 最佳实践指南
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
-translation-type: tm+mt
 source-git-commit: fe83efff8f4078c45ee03ec24c83544ae30816ab
 workflow-type: tm+mt
 source-wordcount: '138'
@@ -15,7 +14,7 @@ ht-degree: 78%
 ---
 
 
-# AEM Screens 项目的“最佳实践指南”{#using}
+# AEM Screens 项目的“最佳实践指南” {#using}
 
 + [关于本指南](about-guide.md)
 + 概述 {#overview}
@@ -38,12 +37,12 @@ ht-degree: 78%
 + 部署简报 {#deployment-brief}
    + [AEM 平台配置](aem-platform-configurations.md)
    + [项目分类与实施](project-taxonomy-implementation.md)
-   + 网络通信管理{#manage-network-traffic}
-      + [管理网络通信](/help/using/managing-network-traffic.md)
+   + 网络流量管理{#manage-network-traffic}
+      + [管理网络流量](/help/using/managing-network-traffic.md)
       + [直接Internet网络（有线/无线）](/help/using/direct-internet-network.md)
       + [直接移动网络](/help/using/mobile-network.md)
       + [具有移动数据路由器和活动网络组件的移动网络](/help/using/mobile-network-router.md)
-      + [封闭的公司网络（有线/无线）](/help/using/enclosed-corporate-network.md)
+      + [封闭式公司网络（有线/无线）](/help/using/enclosed-corporate-network.md)
    + [设备配置](device-configurations.md)
    + [测试和质量保证](testing-quality-assurance.md)
    + [供应商参与策略](vendor-engagement.md)
