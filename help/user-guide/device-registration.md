@@ -1,8 +1,8 @@
 ---
 title: 设备注册
 seo-title: 设备注册
-description: 本页介绍了AEM Screens项目中的设备注册过程。
-seo-description: 本页介绍了AEM Screens项目中的设备注册过程。
+description: 本页介绍AEM Screens项目中的设备注册流程。
+seo-description: 本页介绍AEM Screens项目中的设备注册流程。
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,36 +10,35 @@ content-type: reference
 topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
-feature: Administering Screens, Device Registration
+feature: 管理屏幕、设备注册
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '789'
 ht-degree: 1%
 
 ---
 
-
 # 设备注册 {#device-registration}
 
-下页介绍了AEM Screens项目中的设备注册过程。
+以下页面介绍了AEM Screens项目中的设备注册流程。
 
 ## 注册设备{#registering-a-device}
 
-设备注册过程在两台不同的计算机上完成：
+设备注册过程在2台单独的计算机上完成：
 
-* 要注册的实际设备，例如您的标牌展示
+* 要注册的实际设备，例如标牌显示
 * 用于注册设备的AEM服务器
 
 >[!NOTE]
 >
->从[AEM 6.4播放器下载](https://download.macromedia.com/screens/)页面下载最新的Windows播放器(*.exe*)后，请按照播放器上的步骤完成临时安装：
+>从[AEM 6.4 Player下载](https://download.macromedia.com/screens/)页面下载最新的Windows Player(*.exe*)后，请按照播放器中的步骤完成临时安装：
 >
 >1. 长按左上角以打开管理面板。
->1. 从左侧操作菜单导航到&#x200B;**Configuration**，并在&#x200B;**Server**&#x200B;中输入AEM实例的位置地址，然后单击&#x200B;**Save**。
->1. 单击左侧操作菜单中的&#x200B;**注册**&#x200B;链接以及以下步骤以完成设备注册过程。
+>1. 从左侧操作菜单导航到&#x200B;**Configuration** ，在&#x200B;**Server**&#x200B;中输入AEM实例的位置地址，然后单击&#x200B;**Save**。
+>1. 单击左侧操作菜单中的&#x200B;**Registration**&#x200B;链接和以下步骤以完成设备注册过程。
 
 >
 
@@ -47,7 +46,7 @@ ht-degree: 1%
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. 在您的设备上，开始AEM Screens Player。 将显示注册UI。
+1. 在您的设备上，启动AEM Screens播放器。 此时会显示注册UI。
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -55,7 +54,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要获取有关在AEM仪表板中为Screens创建新项目的详细信息，请参阅[创建和管理Screens项目](creating-a-screens-project.md)。
+   >要在AEM功能板中获取有关为Screens创建新项目的更多信息，请参阅[创建和管理Screens项目](creating-a-screens-project.md)。
 
 1. 点按/单击操作栏中的&#x200B;**设备管理器**&#x200B;按钮。
 
@@ -73,7 +72,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 在您的设备中，检查&#x200B;**注册代码**。
+1. 在设备中，检查&#x200B;**注册代码**。
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
@@ -90,17 +89,17 @@ ht-degree: 1%
    >
    >**注册新**&#x200B;允许您注册新设备。
    >
-   >**分配显示**&#x200B;允许您直接将设备添加到显示屏。
+   >通过&#x200B;**分配显示**，您可以直接将设备添加到显示屏。
 
-   如果单击&#x200B;**完成**，您需要将设备分配给显示屏。
+   如果单击&#x200B;**完成**，则需要将设备分配给显示屏。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >要了解有关为Screens项目创建和管理显示屏的更多信息，请参阅[创建和管理显示屏](managing-displays.md)。
+   >要了解有关创建和管理Screens项目显示屏的更多信息，请参阅[创建和管理显示屏](managing-displays.md)。
 
-### 将设备分配给显示屏{#assigning-device-to-a-display}
+### 将设备分配给显示器{#assigning-device-to-a-display}
 
 如果尚未将设备分配给显示屏，请按照以下步骤将设备分配给AEM Screens项目中的显示屏：
 
@@ -120,23 +119,23 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，单击&#x200B;**完成**&#x200B;时，您可以视图显示仪表板。
+   此外，您还可以在单击&#x200B;**完成**&#x200B;时查看显示功能板。
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## 从设备管理器{#search-device}搜索设备
+## 从设备管理器{#search-device}中搜索设备
 
-在将设备注册到播放器后，您可以从设备管理器UI中视图所有设备。
+在播放器中注册设备后，您便可以从设备管理器UI中查看所有设备。
 
-1. 从您的AEM Screens项目导航到设备管理器UI，例如&#x200B;**DemoScreens** —> **设备**。
+1. 从您的AEM Screens项目导航到设备管理器UI，例如，**DemoScreens** —> **设备**。
 
 1. 选择&#x200B;**Devices**&#x200B;文件夹，然后单击操作栏中的&#x200B;**Device Manager**。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
-1. 将显示已注册设备的列表。
+1. 此时会显示已注册设备的列表。
 
-1. 如果您对已注册的设备有较长的列表，您现在可以使用操作栏中的搜索图标进行搜索
+1. 如果您有很长的注册设备列表，则现在可以使用操作栏中的搜索图标进行搜索
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-2.png)
 
@@ -147,28 +146,28 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-### 搜索功能的限制{#limitations}
+### 搜索功能的限制 {#limitations}
 
 * 用户将能够搜索&#x200B;*设备ID*&#x200B;或&#x200B;*设备名称*&#x200B;中存在的任何单词。
 
    >[!NOTE]
-   >建议您使用多个单词（如&#x200B;*Boston Store Lobby*）创建设备名称，而不是使用单个&#x200B;*BostonStoreLobby*。
+   >建议您使用多个词（如&#x200B;*Boston Store Lobby*）来创建设备名称，而不是使用单个&#x200B;*BostonStoreLobby*)。
 
-* 如果创建&#x200B;*Boston Store Lobby*&#x200B;等设备名称，则允许搜索任何单词&#x200B;*boston*、*store*&#x200B;或&#x200B;*lobby*，但如果设备名称称为&#x200B;*BostonStoreLobby*&#x200B;搜索&#x200B;*boston*&#x200B;将不显示结果。
+* 如果创建设备名称，如&#x200B;*Boston Store Lobby*，则允许搜索任何单词&#x200B;*boston*、*store*&#x200B;或&#x200B;*lobby*，但如果设备名称称为&#x200B;*BostonStoreLobby*&#x200B;搜索&#x200B;*boston*，则不会显示结果。
 
-* 支持使用通配符`*`进行搜索。 如果要查找名称以&#x200B;*boston*&#x200B;开头的所有设备，您可以使用&#x200B;*boston**。
+* 支持搜索通配符`*`。 如果要查找名称以&#x200B;*boston*&#x200B;开头的所有设备，可以使用&#x200B;*boston**。
 
-* 如果设备名称为&#x200B;*BostonStoreLobby*，搜索&#x200B;*boston*&#x200B;将不返回结果，而是在搜索条件中使用&#x200B;*boston**将返回结果。
+* 如果设备名称为&#x200B;*BostonStoreLobby*，并且搜索&#x200B;*boston*&#x200B;将不返回结果，而是在搜索标准中使用&#x200B;*boston**将返回结果。
 
 ## 设备注册限制{#limitations-on-device-registration}
 
-系统范围的用户密码限制可能导致设备注册失败。 设备注册使用随机生成的口令来创建设备用户。
+系统范围的用户密码限制可能会导致设备注册失败。 设备注册使用随机生成的密码来创建设备用户。
 
-如果密码受&#x200B;*AuthorizableActionProvider*&#x200B;配置限制，则创建设备用户可能会失败。
+如果密码受&#x200B;*AuthorizableActionProvider*&#x200B;配置的限制，则创建设备用户可能会失败。
 
 >[!NOTE]
 >
->当前生成的随机密码由36个ASCII字符组成，范围从33到122（包括几乎所有特殊字符）。
+>当前生成的随机密码由36个ASCII字符组成，范围为33 - 122（几乎包括所有特殊字符）。
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -180,4 +179,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他资源 {#additional-resources}
 
-要了解AEM Screens Player，请参阅[AEM Screens Player](working-with-screens-player.md)。
+要了解AEM Screens播放器，请参阅[AEM Screens播放器](working-with-screens-player.md)。
