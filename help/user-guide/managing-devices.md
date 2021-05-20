@@ -9,17 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 69%
+source-wordcount: '270'
+ht-degree: 70%
 
 ---
-
 
 # 管理设备 {#managing-devices}
 
@@ -41,7 +40,7 @@ ht-degree: 69%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. 选择&#x200B;**设备**&#x200B;文件夹，然后点按/单击操作栏中的&#x200B;**设备管理器**。 此时将显示已分配和未分配的设备。
+1. 选择您的&#x200B;**设备**&#x200B;文件夹，然后点按/单击操作栏中的&#x200B;**设备管理器**。 此时将显示已分配和未分配的设备。
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
@@ -49,7 +48,7 @@ ht-degree: 69%
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. 从列表中选择要将设备分配到的显示屏，然后点按/单击&#x200B;**分配**。
+1. 从列表中选择要将设备分配到的显示屏，然后点按/单击&#x200B;**Assign**。
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
@@ -77,4 +76,3 @@ ht-degree: 69%
 在您熟悉如何将渠道分配到显示屏后，请参阅以下资源：
 
 * [监测和故障诊断](monitoring-screens.md)
-
