@@ -1,8 +1,8 @@
 ---
 title: 从文件新建项目导入程序
 seo-title: 从文件新建项目导入程序
-description: 此功能允许您将一组位置从CSV/XLS电子表格批量导入到AEM Screens项目。
-seo-description: 此功能允许您将一组位置从CSV/XLS电子表格批量导入到AEM Screens项目。
+description: 利用此功能，可将一组位置从CSV/XLS电子表格批量导入AEM Screens项目。
+seo-description: 利用此功能，可将一组位置从CSV/XLS电子表格批量导入AEM Screens项目。
 uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,44 +10,43 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-feature: Administering Screens
+feature: 管理屏幕
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '700'
 ht-degree: 2%
 
 ---
 
-
 # 从文件{#new-project-importer-from-file}新建项目导入程序
 
-本节介绍将一组位置从CSV/XLS电子表格批量导入到AEM Screens项目的功能。
+此部分介绍了将一组位置从CSV/XLS电子表格批量导入AEM Screens项目的功能。
 
 ## 简介 {#introduction}
 
-当您在组织中首次设置AEM Screens项目时，您也需要创建所有位置。 如果您的项目涉及大量位置，则会导致一个繁琐的任务，涉及大量在UI中单击和等待。
+在您组织中首次设置AEM Screens项目时，您还需要创建所有位置。 如果您的项目涉及大量位置，则会导致一项繁琐的任务，该任务需要在UI中多次单击并等待。
 
 此功能的目标是缩短设置项目所需的时间，从而解决预算问题。
 
-通过让作者提供一个电子表格作为输入文件，并让系统在后端自动创建位置树，此功能：
+通过让作者提供电子表格作为输入文件，并让系统在后端自动创建位置树，该功能可以：
 
-* *比通过UI手动单击获得更好的性能*
-* *允许客户从自己的系统中导出他们拥有的位置，并直接将它们导入AEM*
+* *与通过用户界面手动单击相比，可以获得更好的性能*
+* *允许客户从其自己的系统中导出他们拥有的位置，并轻松地直接在AEM中导入这些位置*
 
-这既节省了初始项目设置或将现有AEM Screens扩展到新位置时的时间和资金。
+这既节省了初始项目设置期间的时间，也节省了资金，同时也节省了将现有AEM Screens扩展到新位置时的时间和资金。
 
 ## 体系结构概述{#architectural-overview}
 
-下图显示了项目导入程序功能的体系结构概述：
+下图显示了项目导入器功能的架构概述：
 
 ![screen_shot_2019-05-14at20618pm](assets/screen_shot_2019-05-14at20618pm.png)
 
 ### 数据模型 {#data-model}
 
-项目导入程序的数据模型如下所述：
+项目导入器的数据模型如下所述：
 
 >[!NOTE]
 >
@@ -57,30 +56,30 @@ ht-degree: 2%
 |---|---|
 | ***路径{string*}** | 位置的资源路径 |
 | ***[。/jcr:title] {string*}** | 要使用的模板的名称（即&#x200B;*screens/core/templates/location*&#x200B;的位置） |
-| ***模板{string}*** | 要用于页面的可选标题 |
-| ***[。/jcr:description] {string}*** | 用于页面的可选说明 |
+| ***模板{string}*** | 用于页面的可选标题 |
+| ***[。/jcr:description] {string}*** | 用于页面的可选描述 |
 
-电子表格(CSV/XLS)文件，因此需要以下列：
+因此，电子表格(CSV/XLS)文件需要以下列：
 
-* **path {string}** 要导入的位置的路径，其中路径的根是项目的位置文件夹(即 */* foo将导入 */content/screens/&lt;project>/locations/foo*)
+* **路径{string}** 要导入的位置的路径，其中路径的根是项目的位置文件夹(即， */* 将导入 */content/screens/&lt;project> /locations/foo*)
 
-* **模板{string}** 用于新位置的模板，目前唯一允许的值是&quot;location&quot;，但这将扩展到将来的所有Screens模板（&quot;display&quot;、&quot;sequencchannel&quot;等）
-* **[。/*] {string}**&#x200B;要在该位置上设置的任何可选属性(即，。/jcr:title, ./jcr:description, ./foo，./条形图). 当前版本目前不允许筛选
+* **模板{string}** 用于新位置的模板，目前唯一允许的值是“location”，但将来会扩展到所有Screens模板（“display”、“sequencchannel”等）
+* **[。/*] {string}**&#x200B;要在该位置设置的任何可选属性(即。/jcr:title, ./jcr:description, ./foo、。/条形图). 当前版本不允许进行筛选
 
 >[!NOTE]
 >
->任何与上述条件不匹配的列将被忽略。 例如，如果您的工作表(CSV/XLS)文件中定义了除&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**&#x200B;之外的任何其他列，则这些字段将被忽略，而不会忽略&#x200B;**Project Importer**&#x200B;验证将您的项目导入AEM Screens项目的其他字段。
+>任何与上述条件不匹配的列将被忽略。 例如，如果您在工作表(CSV/XLS)文件中定义了除&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**&#x200B;之外的任何其他列，则这些字段将被忽略，而&#x200B;**项目导入器**&#x200B;将不会验证这些附加字段，以便将项目导入到AEM Screens项目。
 
-## 使用Project Importer {#using-project-importer}
+## 使用项目导入器{#using-project-importer}
 
-以下部分介绍如何在AEM Screens项目中使用项目导入程序。
+以下部分介绍如何在AEM Screens项目中使用项目导入器。
 
 >[!CAUTION]
 >
 >限制:
 >
 >* 当前版本不支持CSV/XLS/XLSX扩展名以外的文件。
->* 对于导入的文件和以“”开头的任何内容，不存在对属性的过滤。/”。
+>* 对于导入的文件以及以“”开头的任何内容，不存在对属性的筛选。/”。
 
 >
 
@@ -88,21 +87,21 @@ ht-degree: 2%
 
 ### 前提条件 {#prerequisites}
 
-* 创建标题为&#x200B;**DemoProjectImport**&#x200B;的新项目
+* 创建名为&#x200B;**DemoProjectImport**&#x200B;的新项目
 
-* 使用需要导入的示例CSV或Excel文件。
+* 使用需要导入的CSV或Excel示例文件。
 
-为便于演示，您可以从以下部分下载Excel文件。
+出于演示目的，您可以从以下部分下载Excel文件。
 
 [获取文件](assets/minimal-file.xls)
 
-### 导入包含最小必填字段{#importing-the-file-with-minimum-required-fields}的文件
+### 导入必填字段最少{#importing-the-file-with-minimum-required-fields}的文件
 
-请按照以下步骤将文件导入位置文件夹，其中包含最少必填字段：
+请按照以下步骤将文件导入位置文件夹，其中至少包含必填字段：
 
 >[!NOTE]
 >
->以下示例展示了导入项目所需的至少四个字段：
+>以下示例显示导入项目所需的至少四个字段：
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
@@ -110,21 +109,20 @@ ht-degree: 2%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 从侧栏中选择项目** DemoProjectImporter **—>**&#x200B;创建&#x200B;**—>**&#x200B;导入位置**。
+1. 从侧栏中选择** DemoProjectImporter **—>**&#x200B;创建&#x200B;**—>**&#x200B;导入位置**项目。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 将打开&#x200B;**导入**&#x200B;向导。 选择您具有位置的项目的文件，或选择您从&#x200B;*Requisets*&#x200B;部分下载的文件(***minimal-file.xls***)。
+1. 将打开&#x200B;**Import**&#x200B;向导。 选择您为具有位置的项目所拥有的文件，或选择您从&#x200B;*Requisements*&#x200B;部分下载的文件(***minimal-file.xls***)。
 
-   选择文件后，单击&#x200B;**下一步**。
+   选择文件后，单击&#x200B;**Next**。
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 验证导入向导中文件（位置）的内容，然后单击&#x200B;**导入**。
+1. 从“导入”向导中验证文件（位置）的内容，然后单击&#x200B;**导入**。
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. 因此，您现在可以视图导入到项目的所有位置。
+1. 因此，您现在将能够查看导入到项目的所有位置。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
