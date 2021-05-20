@@ -10,17 +10,16 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Authoring Screens
+feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1466'
 ht-degree: 60%
 
 ---
-
 
 # 向渠道添加组件{#adding-components-to-a-channel}
 
@@ -55,7 +54,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
 1. 选择&#x200B;**设计**&#x200B;模式。
 1. 选择右侧的整个设计编辑器，然后单击设置符号以打开 **ParSys 设计**&#x200B;对话框。
-1. 您可以选择要导入到 AEM Screens 项目的组件。以下示例显示了将&#x200B;**Livefyre**&#x200B;组件添加到AEM Screens项目。
+1. 您可以选择要导入到 AEM Screens 项目的组件。以下示例显示了如何将&#x200B;**Livefyre**&#x200B;组件添加到AEM Screens项目。
 
 ![adding_components](assets/adding_components.gif)
 
@@ -71,7 +70,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 >
 >要查看任何组件的属性，请选择该组件，然后单击锤子图标以打开/查看属性。
 
-### 应用程序  {#application}
+### 应用程序 {#application}
 
 **应用程序**&#x200B;组件允许您向渠道中添加应用程序。
 
@@ -80,17 +79,17 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 | **属性** | **描述** |
 |---|---|
 | ***应用程序路径*** | 选择应用程序所在的绝对路径。 |
-| ***持续时间（毫秒）*** | 选择应用程序的持续时间。默认情况下，持续时间设置为–1，这意味着元素会一直运行（即单页应用程序）。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。 |
+| ***持续时间（毫秒）*** | 选择应用程序的持续时间。默认情况下，持续时间设置为–1，这意味着元素会永远运行（即单页应用程序）。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。 |
 
-下面的示例说明如何嵌入应用程序组件及其属性的预览:
+以下示例显示如何嵌入应用程序组件及其属性的预览：
 
-![adding_components应用程序](assets/adding_componentsapplication.gif)
+![adding_componentsapplication](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
 >请参阅上面的示例以查看下面每个组件的属性。
 
-### 渠道  {#channel}
+### 渠道 {#channel}
 
 **渠道**&#x200B;组件允许您向项目中添加完整的渠道。
 
@@ -108,7 +107,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其全部长度。</td>
   </tr>
  </tbody>
 </table>
@@ -131,7 +130,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其全部长度。</td>
   </tr>
  </tbody>
 </table>
@@ -140,7 +139,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 >[!NOTE]
 >
->要详细了解嵌入式序列，请参阅“创作屏幕”部分下的[嵌入式序列](embedded-sequences.md)。
+>请参阅创作屏幕部分下的[嵌入式序列](embedded-sequences.md)，以详细了解嵌入式序列。
 
 嵌入式序列允许您在现有渠道（包含其他资产）内添加嵌入式序列渠道。
 
@@ -158,11 +157,11 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其全部长度。</td>
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>将其设置为<strong>原始</strong>或<strong>单个</strong>。 将值设置为<strong>original</strong>表示子序列将在父序列的每个循环上完全运行。 另一个可能值是<strong>single</strong>，它将仅在每次运行时显示子序列的一个项（例如，第一个循环上的第一个项，第二个循环上的第二个项，依此类推）。</td>
+   <td>将其设置为<strong>original</strong>或<strong>single</strong>。 将值设置为<strong>original</strong>表示子序列将在父序列的每个周期上完全运行。 另一个可能值是<strong>single</strong>，它将在每次运行时仅显示子序列的一个项目（例如，第一个循环上的第1个项目，第二个循环上的第2个项目，等等）。</td>
   </tr>
  </tbody>
 </table>
@@ -171,7 +170,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 
 动态嵌入式序列允许您添加与上述类似的序列，但渠道角色除外。
 
-要详细了解嵌入式序列，请参阅“创作屏幕”部分下的[嵌入式序列](embedded-sequences.md)。
+请参阅创作屏幕部分下的[嵌入式序列](embedded-sequences.md)，以详细了解嵌入式序列。
 
 动态嵌入式序列具有以下属性：
 
@@ -187,20 +186,20 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其完整长度。</td>
+   <td>选择渠道的整个持续时间。将持续时间设置为–1表示嵌入式渠道将在特定渠道中运行其全部长度。</td>
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>将其设置为<strong>原始</strong>或<strong>单个</strong>。 将值设置为<strong>original</strong>表示子序列将在父序列的每个循环上完全运行。 另一个可能值是<strong>single</strong>，它将仅在每次运行时显示子序列的一个项（例如，第一个循环上的第一个项，第二个循环上的第二个项，依此类推）。</td>
+   <td>将其设置为<strong>original</strong>或<strong>single</strong>。 将值设置为<strong>original</strong>表示子序列将在父序列的每个周期上完全运行。 另一个可能值是<strong>single</strong>，它将在每次运行时仅显示子序列的一个项目（例如，第一个循环上的第1个项目，第二个循环上的第2个项目，等等）。</td>
   </tr>
  </tbody>
 </table>
 
 ### 体验片段 {#experience-fragment}
 
-体验片段允许您将体验片段（由一个或多个组件组成的组件，包括可在页面中引用的内容和布局）添加到AEM Screens渠道。 将组件拖放到AEM编辑器，然后选择体验片段。
+体验片段允许您向AEM Screens渠道添加体验片段（由一个或多个组件组成的组件，包括可在页面中引用的内容和布局）。 将组件拖放到AEM编辑器中，然后选择体验片段。
 
-要进一步了解如何创建体验片段并将其用于AEM Screens项目，请参阅[使用体验片段](experience-fragments-in-screens.md)。
+要详细了解如何创建体验片段并将其用于AEM Screens项目，请参阅[使用体验片段](experience-fragments-in-screens.md)。
 
 ![exp](assets/exp.gif)
 
@@ -211,11 +210,11 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 | ***持续时间*** | 选择在渠道中播放的体验片段的整个持续时间。 |
 | **脱机配置** |
 | ***客户端库*** | Javascript和CSS文件。 |
-| ***静态文件*** | 静态文件，您可以将其作为脱机配置添加到您的体验片段。 |
+| ***静态文件*** | 可作为离线配置添加到体验片段的静态文件。 |
 
 >[!NOTE]
 >
->除了已配置的&#x200B;**客户端库**&#x200B;和从体验片段的&#x200B;**属性**&#x200B;添加的静态文件之外，还将添加从此组件添加的&#x200B;**客户端库**&#x200B;和&#x200B;**静态文件**。
+>除了已配置的&#x200B;**客户端库**&#x200B;以及从体验片段的&#x200B;**属性**&#x200B;添加的静态文件之外，您还会添加从此组件添加的&#x200B;**客户端库**&#x200B;和&#x200B;**静态文件**。
 
 ### 图像 {#image}
 
@@ -234,13 +233,13 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 | **辅助功能** |
 | ***替换文本*** | 图像的替换文本。 |
 | **序列** |
-| ***持续时间*** | 默认情况下，持续时间设置为&#x200B;*8000 ms*。 如果要更改图像的播放持续时间，请更新&#x200B;**持续时间**&#x200B;字段。 |
+| ***持续时间*** | 默认情况下，持续时间设置为&#x200B;*8000毫秒*。 如果要更改图像的播放持续时间，请更新&#x200B;**持续时间**&#x200B;字段。 |
 
 ### 过渡 {#transition}
 
 过渡组件允许您向 Screens 项目中添加过渡。
 
-下图显示了过渡组件（通过拖放添加）到编辑器。
+下图显示了过渡组件（通过拖放添加）到编辑器中。
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
@@ -270,7 +269,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>类型</em></strong></td>
-   <td><p>前一个元素和后一个元素之间的过渡类型。过渡<strong>Type</strong>包含以下选项：</p>
+   <td><p>前一个元素和后一个元素之间的过渡类型。过渡<strong>Type</strong>包括以下选项：</p>
     <ul>
      <li><strong>标准</strong></li>
      <li><strong>淡化</strong></li>
@@ -286,23 +285,23 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><strong><em>持续时间</em></strong></td>
-   <td>选择过渡的整个持续时间。默认情况下，它设置为600毫秒。</td>
+   <td>选择过渡的整个持续时间。默认情况下，设置为600毫秒。</td>
   </tr>
   <tr>
    <td><strong>激活</strong></td>
    <td></td>
   </tr>
   <tr>
-   <td><strong><em>活动自</em></strong></td>
-   <td>当过渡可以处于活动状态时描述的时间戳。<br /> </td>
+   <td><strong><em>活动来源</em></strong></td>
+   <td>描述过渡何时可处于活动状态的时间戳。<br /> </td>
   </tr>
   <tr>
    <td><strong><em>活动到</em></strong></td>
-   <td>在过渡可以处于活动状态之前描述的时间戳。</td>
+   <td>描述直到过渡可以处于活动状态为止的时间戳。</td>
   </tr>
   <tr>
    <td><strong><em>计划</em></strong></td>
-   <td>添加预定义计划。</td>
+   <td>添加预定义的计划。</td>
   </tr>
  </tbody>
 </table>
@@ -325,7 +324,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
   <tr>
    <td><em><strong>持续时间</strong></em></td>
-   <td>选择视频的持续时间。默认情况下，持续时间设置为–1，这意味着元素将永远运行。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。<br /> </td>
+   <td>选择视频的持续时间。默认情况下，持续时间设置为–1，这意味着元素会一直运行。 将持续时间值设置为大于 0 会在指定的持续时间内显示该元素，然后移至下一个元素。<br /> </td>
   </tr>
   <tr>
    <td><em><strong>呈现</strong></em></td>
@@ -337,4 +336,3 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
  </tbody>
 </table>
-
