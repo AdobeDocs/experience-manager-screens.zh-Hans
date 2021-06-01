@@ -3,13 +3,13 @@ title: 推荐的方法
 seo-title: 在AEM Screens项目中推荐的方法
 description: 本页介绍了在AEM Screens项目中推荐的方法
 seo-description: 本页介绍了在AEM Screens项目中推荐的方法
-exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
 
 ---
+
 
 # 推荐的方法 {#recommended-approach}
 
@@ -46,3 +46,4 @@ ht-degree: 0%
 * **制定路线图**:如果您的客户希望获得功能丰富的产品，请在项目初期提供部分计划功能，并为将来的阶段计划其他功能。功能繁多的首项交付内容具有更大的风险，而且与客户一起验证会更加困难。
 
 * **了解自定义集成的范围**:交互式组件与触摸屏交互、运动传感器或RFID的交互需要在实现方法中进行大量定制开发。幻灯片放映、视频广告或静态菜单可在Screens渠道中以图形内容或HTML形式交付。
+
