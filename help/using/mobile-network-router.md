@@ -1,13 +1,13 @@
 ---
 title: 具有移动数据路由器和活动网络组件的移动网络
 description: 本页介绍移动网络和移动数据路由器及活动网络组件
-exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
 
 ---
+
 
 # 具有移动数据路由器和活动网络组件的移动网络{#mobile-network-setup}
 
