@@ -4,13 +4,13 @@ description: 本页介绍Tizen Player的安装和工作。
 feature: 管理屏幕、播放器
 role: Administrator
 level: Intermediate
-exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 1%
 
 ---
+
 
 # 实现Tizen播放器{#tizen-player}
 
@@ -130,3 +130,4 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 单击&#x200B;**Save**，将所做的更改显示在显示屏上。
+
