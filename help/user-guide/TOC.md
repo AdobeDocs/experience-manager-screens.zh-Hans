@@ -1,14 +1,15 @@
 ---
-cloud: Experience Cloud
+cloud: experience-cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
-source-git-commit: e0e6a865bcdec88d8c9096d66b5ac3ce5227dbc3
+feature-set: Experience Manager Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 20%
 
 ---
 
@@ -103,7 +104,6 @@ ht-degree: 19%
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [为多区域布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [为文本叠加图应用自定义品牌和样式](custom-branding-text-overlays.md)
-   + [通过工作流自动进行渠道更新](automate-channel-updates-workflow.md)
 + {#troubleshooting}疑难解答和常见问题解答
    + [AEM Screens常见问题解答](aem-screens-faqs.md)
    + [设备控制中心故障排除](monitoring-screens.md)
