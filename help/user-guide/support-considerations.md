@@ -13,13 +13,13 @@ docset: aem65
 feature: 概述
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
+
 
 # 第5部分：支持注意事项{#part-support-considerations}
 
@@ -72,3 +72,4 @@ ht-degree: 0%
 ## 结论 {#conclusion}
 
 这5个部分系列重点介绍了对确保项目成功至关重要的关键注意事项。 有关实施详细信息，请参阅《AEM Screens用户指南》的其他部分。
+
