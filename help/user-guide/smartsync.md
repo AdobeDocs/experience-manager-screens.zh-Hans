@@ -12,13 +12,13 @@ docset: aem65
 feature: 管理屏幕
 role: Administrator
 level: Intermediate
-exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
 
 ---
+
 
 # 从ContentSync转换到SmartSync {#transitioning-from-contentsync-to-smartsync}
 
