@@ -4,13 +4,13 @@ description: “请阅读本页以了解2021年3月5日发布的AEM Screens功�
 feature: 功能包
 role: Developer
 level: Intermediate
-exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 2%
 
 ---
+
 
 # 功能包202103 {#release-notes-for-feature-pack}发行说明
 
