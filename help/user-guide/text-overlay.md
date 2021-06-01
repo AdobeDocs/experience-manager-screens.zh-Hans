@@ -13,13 +13,13 @@ noindex: true
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 3%
 
 ---
+
 
 # 文本覆盖 {#text-overlay}
 
@@ -149,3 +149,18 @@ ht-degree: 3%
 1. 单击&#x200B;**预览**&#x200B;以查看所需的输出。
 
    ![图像1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
