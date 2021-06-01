@@ -12,13 +12,13 @@ targetaudience: target-audience new
 feature: 开发屏幕
 role: Developer
 level: Intermediate
-exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 2%
 
 ---
+
 
 # 为AEM Screens开发自定义组件{#developing-a-custom-component-for-aem-screens}
 
