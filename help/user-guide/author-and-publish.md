@@ -6,13 +6,13 @@ seo-description: AEM Screens架构类似于传统的AEM Sites架构。 在AEM创
 feature: 管理屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
 
 ---
+
 
 # 在AEM Screens中配置创作和发布{#configuring-author-and-publish-in-aem-screens}
 
@@ -307,3 +307,5 @@ Screens需要3个复制代理：
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 **管理发布**&#x200B;功能允许您将内容更新从创作传送到发布到设备。 您可以发布/取消发布整个AEM Screens项目的内容，也只能发布/取消发布渠道、位置、设备、应用程序或计划中的一个内容。 要了解有关此功能的更多信息，请参阅[On-Demand Content Update](on-demand-content.md)。
+
+
