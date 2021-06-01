@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
 
 ---
+
 
 # 应用过渡{#applying-transitions}
 
@@ -60,3 +60,4 @@ ht-degree: 2%
 1. 此外，如果向此渠道编辑器添加&#x200B;**嵌入式序列**&#x200B;组件（包括序列渠道），则可以在末尾添加过渡组件，以便内容按顺序播放，如下图所示：
 
    ![图像3](assets/transitions5.png)
+
