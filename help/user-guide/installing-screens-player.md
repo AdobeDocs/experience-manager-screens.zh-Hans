@@ -7,13 +7,13 @@ contentOwner: jsyal
 feature: 管理屏幕
 role: Administrator
 level: Intermediate
-exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
+
 
 # 安装AEM Screens Player {#installing-player}
 
