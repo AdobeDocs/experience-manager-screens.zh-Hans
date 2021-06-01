@@ -3,13 +3,13 @@ title: 线框
 seo-title: 用于AEM Screens的线框
 description: 本页介绍AEM Screens项目的Wireframe
 seo-description: 本页介绍AEM Screens项目的Wireframe
-exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
 
 ---
+
 
 # 线框 {#wireframes}
 
@@ -34,3 +34,4 @@ ht-degree: 0%
 在&#x200B;**项目级别**&#x200B;上，我们可以开始为多个屏幕或体验在物理空间中如何协同工作建模，以提供完整的多接触点用户历程。
 
 这应该与之前创建的UX历程图保持一致。
+
