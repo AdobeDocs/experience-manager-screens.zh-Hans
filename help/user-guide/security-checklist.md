@@ -6,13 +6,13 @@ seo-description: 本页介绍安全检查列表
 feature: 管理屏幕
 role: Administrator
 level: Intermediate
-exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
+
 
 # AEM Screens安全检查列表{#security-checklist}
 
