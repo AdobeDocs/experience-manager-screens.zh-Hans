@@ -13,13 +13,13 @@ docset: aem65
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 43%
 
 ---
+
 
 # 嵌入式序列 {#embedded-sequences}
 
@@ -111,3 +111,4 @@ ht-degree: 43%
 1. 在&#x200B;**序列**&#x200B;选项卡中，为序列中的嵌入式渠道选择持续时间(ms)**。**
 
 ![最新](assets/latest.gif)
+
