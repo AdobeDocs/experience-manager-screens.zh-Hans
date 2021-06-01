@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens]的业务内容策略'
 seo-title: '[!UICONTROL AEM Screens]的业务内容策略'
 description: 该指南介绍了业务内容策略
 seo-description: 本指南介绍业务内容策略
-exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
 
 ---
+
 
 # 业务内容策略{#business-content}
 
