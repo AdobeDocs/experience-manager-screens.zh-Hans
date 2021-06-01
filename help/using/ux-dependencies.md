@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens]的UX依赖项'
 seo-title: '[!UICONTROL AEM Screens]的UX依赖项'
 description: 本指南介绍[!UICONTROL AEM Screens]的UX依赖项
 seo-description: 本指南介绍[!UICONTROL AEM Screens]的UX依赖项
-exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
 
 ---
+
 
 # UX 依赖关系 {#ux-dependencies}
 
@@ -40,3 +40,5 @@ UX依赖关系定义了内容的策略位置和方式，以使其发挥最大影
 1. 一个显示屏是否需要多个设备（例如，多区域、超大的主板）？
 
 1. 亮度、温度和季节等环境因素有哪些？
+
+
