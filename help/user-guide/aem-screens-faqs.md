@@ -8,13 +8,13 @@ contentOwner: jsyal
 feature: 数字标牌、内容
 role: Developer
 level: Intermediate
-exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1903'
 ht-degree: 1%
 
 ---
+
 
 # AEM Screens常见问题解答{#aem-screens-faqs}
 
@@ -210,3 +210,5 @@ AEM Screens会为产品使用的查询创建索引定义。
 如果`error.log`中存在任何&#x200B;*查询遍历警告*，请为查询创建自定义索引。 有关更多详细信息，请参阅[配置索引](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) 。
 
 您还可以在[Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上引用其他资源。
+
+
