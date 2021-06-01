@@ -6,13 +6,13 @@ seo-description: 可查看本页，了解如何在播放器的本地时区的计
 feature: 创作屏幕，资产级别激活
 role: Administrator, Developer
 level: Intermediate
-exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 2%
 
 ---
+
 
 # 资产级别激活{#asset-level-scheduling}
 
@@ -222,3 +222,4 @@ ht-degree: 2%
    >对于具有多资产激活的资产，其右上角会显示计划图标。
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
+
