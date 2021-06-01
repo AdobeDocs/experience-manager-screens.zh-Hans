@@ -13,13 +13,13 @@ docset: aem65
 feature: 创作屏幕、体验片段
 role: Administrator, Developer
 level: Intermediate
-exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 8%
 
 ---
+
 
 # 使用体验片段 {#using-experience-fragments}
 
@@ -219,3 +219,4 @@ ht-degree: 8%
 
 下图说明了&#x200B;**TestChannel**&#x200B;中的更改：\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
+
