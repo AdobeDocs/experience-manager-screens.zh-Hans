@@ -13,13 +13,13 @@ docset: aem65
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
+
 
 # 酒店预订激活{#hospitality-reservation-activation}
 
@@ -86,4 +86,6 @@ ht-degree: 0%
 
    1. 单击&#x200B;**预览。** 此外，打开Google工作表并更新其值。
    1. 更新&#x200B;**Restaurant1**&#x200B;和&#x200B;**Restaurant2**&#x200B;列中的值。 如果&#x200B;**Restaurant1** > **Restaurant2,**&#x200B;您应该能够查看&#x200B;*牛排*&#x200B;食品的图像，否则，屏幕上会显示&#x200B;*Thai*&#x200B;食品图像。
+
    ![结果5](assets/result5.gif)
+
