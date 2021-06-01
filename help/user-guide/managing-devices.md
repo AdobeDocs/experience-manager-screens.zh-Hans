@@ -12,13 +12,13 @@ discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 70%
 
 ---
+
 
 # 管理设备 {#managing-devices}
 
@@ -76,3 +76,4 @@ ht-degree: 70%
 在您熟悉如何将渠道分配到显示屏后，请参阅以下资源：
 
 * [监测和故障诊断](monitoring-screens.md)
+
