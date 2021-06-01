@@ -12,13 +12,13 @@ discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
 feature: 开发屏幕
 role: Developer
 level: Intermediate
-exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%
 
 ---
+
 
 # 创建组件{#creating-components}
 
@@ -58,3 +58,4 @@ AEM组件用于保存、格式化和渲染网页上提供的内容。
 >[!NOTE]
 >
 >要开发自定义组件，请使用***[AEM Screens示例组件模板](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
+
