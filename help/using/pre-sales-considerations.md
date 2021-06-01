@@ -3,13 +3,13 @@ title: 关于项目适用范围的注意事项
 seo-title: 关于项目适用范围的注意事项
 description: 本页介绍了项目适用范围时的注意事项
 seo-description: 本页介绍了项目适用范围时的注意事项
-exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 4%
 
 ---
+
 
 # 关于项目适用范围的注意事项 {#pre-sales-considerations}
 
