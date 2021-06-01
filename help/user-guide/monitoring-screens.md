@@ -13,13 +13,13 @@ docset: aem65
 feature: 数字标牌、内容、播放器
 role: Developer
 level: Intermediate
-exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 2%
 
 ---
+
 
 # 设备控制中心{#troubleshooting-device-control-center}故障排除
 
