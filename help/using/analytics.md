@@ -3,13 +3,13 @@ title: Analytics与AEM Screens
 seo-title: Analytics与AEM Screens
 description: 本页介绍Analytics与AEM Screens
 seo-description: 本页介绍使用AEM Screens分析
-exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
 
 ---
+
 
 # 具有AEM Screens的Analytics {#analytics-screens}
 
@@ -27,3 +27,4 @@ AEM Screens提供在本地捕获每个播放器设备执行的每个可跟踪事
 
 使用分析的第二个用例是通过报表和功能板处理播放事件和使用数据，以供人们使用。
 我们可以使用此数据创建交互式体验的热图，以确定通过我们的应用程序的首选历程图。 我们还可以选择创建一个功能板，以图形方式解释消费者与我们的应用程序交互的次数。
+
