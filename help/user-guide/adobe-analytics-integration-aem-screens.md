@@ -13,13 +13,13 @@ docset: aem65
 feature: 管理屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Analytics与AEM Screens集成{#adobe-analytics-integration-with-aem-screens}
 
@@ -132,3 +132,4 @@ Analytics事件会离线存储在indexedDB中，稍后进行分块并发送到�
 >[!NOTE]
 >
 >要详细了解&#x200B;***Sequing***&#x200B;和&#x200B;***事件标准数据模型***，请参阅&#x200B;**[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
+
