@@ -12,13 +12,13 @@ docset: aem65
 feature: 开发屏幕
 role: Developer
 level: Intermediate
-exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 0%
 
 ---
+
 
 # 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成{#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
@@ -138,3 +138,4 @@ ht-degree: 0%
    >[!NOTE]
    >
    >播放器固件会自动将有关播放器及其运行时环境的更多详细信息添加到您发送的自定义分析数据中。 因此，除非绝对必要，否则您可能不需要捕获低级操作系统/设备详细信息。 您只需关注业务分析数据。
+
