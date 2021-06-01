@@ -3,13 +3,13 @@ title: 数据触发器
 seo-title: 数据触发器
 description: 该页介绍数据触发器
 seo-description: 该页介绍数据触发器
-exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
+
 
 # 动态创意优化{#dynamic-creative}
 
@@ -40,3 +40,4 @@ ht-degree: 0%
 
 * **本地数据触发器**:这些数据触发器是设备上的本地触发器。例如，如果您触摸屏幕，则会激活触发本地数据资产或通道切换的传感器。
 * **远程数据触发器**:这涉及基于Web服务API返回值的数据触发的通道开关或资产开关。
+
