@@ -12,13 +12,13 @@ discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Administrator
 level: Intermediate
-exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
 
 ---
+
 
 # 配置和部署AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -152,3 +152,11 @@ AEM Screens播放器需要此参数才能播放在线渠道。
 >[!NOTE]
 >**推荐:**
 >建议在生产使用中对AEM Screens Server使用HTTPS。
+
+
+
+
+
+
+
+
