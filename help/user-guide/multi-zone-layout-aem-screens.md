@@ -13,13 +13,13 @@ noindex: true
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 6%
 
 ---
+
 
 # 多区域布局{#multi-zone-layout}
 
@@ -192,3 +192,5 @@ ht-degree: 6%
 左区域是序列渠道，右区域包括视频。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
+
+
