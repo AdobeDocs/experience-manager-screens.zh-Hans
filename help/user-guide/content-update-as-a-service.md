@@ -8,13 +8,13 @@ contentOwner: Jyotika syal
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
 
 ---
+
 
 # 内容更新为服务{#content-update-as-a-service}
 
@@ -74,3 +74,4 @@ ht-degree: 8%
    **计** 划频度指定时间，例如，下午5:00或17:00，此服务应在该时间更新离线内容。
 
 1. 单击&#x200B;**Save**&#x200B;以保存您的设置，您的内容将在指定时间更新。
+
