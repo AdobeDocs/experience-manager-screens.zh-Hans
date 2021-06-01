@@ -3,13 +3,13 @@ title: '[!UICONTROL AEM Screens] 简介'
 seo-title: '[!UICONTROL AEM Screens] 项目的“最佳实践指南”'
 description: 本页面是 AEM Screens 的简介部分
 seo-description: 本页面简要介绍 AEM Screens
-exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 83%
 
 ---
+
 
 # AEM Screens 简介 {#introduction}
 
