@@ -13,13 +13,13 @@ docset: aem65
 feature: 概述
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
+
 
 # 第4部分：项目管理和部署{#part-project-management-and-deployment}
 
@@ -93,3 +93,4 @@ ht-degree: 0%
 在您对与AEM Screens部署的项目管理相关的重要注意事项进行全面了解之后；
 
 导航到&#x200B;**[第5部分：支持注意事项](support-considerations.md)**&#x200B;以了解第2天支持和涉及的流程。
+
