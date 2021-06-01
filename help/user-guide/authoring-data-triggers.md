@@ -5,13 +5,13 @@ description: 请阅读本页以了解如何使用数据触发器进行创作。
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
 
 ---
+
 
 # 使用数据触发器创作{#authoring-with-data-triggers}
 
