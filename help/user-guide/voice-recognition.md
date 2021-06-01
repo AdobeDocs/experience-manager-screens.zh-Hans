@@ -4,13 +4,13 @@ description: 本页介绍AEM Screens中的语音识别功能。
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
+
 
 # AEM Screens中的语音识别{#voice-recognition}
 
@@ -184,3 +184,8 @@ ht-degree: 3%
 **分屏渠道的所需输出**
 
 **Main**&#x200B;渠道正在播放其内容，但是当您将关键词&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;一起使用时，如&#x200B;*我想看热饮和冷饮的菜单*，渠道开始播放&#x200B;**SplitScreen**&#x200B;渠道的内容。 如果您说&#x200B;*返回主菜单*，则它会切换回主通道。
+
+
+
+
+
