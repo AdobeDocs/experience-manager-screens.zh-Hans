@@ -1,13 +1,13 @@
 ---
 title: 封闭式企业网络
 description: 封闭式企业网络
-exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
 
 ---
+
 
 # 封闭式公司网络（有线/无线）{#enclosed-corporate-networks}
 
