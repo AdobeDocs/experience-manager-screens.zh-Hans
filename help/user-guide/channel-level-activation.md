@@ -13,13 +13,13 @@ noindex: true
 feature: 创作屏幕，渠道级别激活
 role: Administrator, Developer
 level: Intermediate
-exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
+
 
 # 通道级激活{#channel-level-activation-single-event-playback}
 
@@ -265,3 +265,4 @@ ht-degree: 0%
 
 >[!NOTE]
 在定义一周中的日期和月份时，您既可以使用短手符号和全名符号，如周一/周一和一月/一月。  此外，您还可以使用&#x200B;_军事时间_&#x200B;符号（即14:00），而不是&#x200B;*am/pm*&#x200B;符号（即下午2:00）。
+
