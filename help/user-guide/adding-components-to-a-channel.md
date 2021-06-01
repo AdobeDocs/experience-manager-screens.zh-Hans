@@ -13,13 +13,13 @@ docset: aem65
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 60%
 
 ---
+
 
 # 向渠道添加组件{#adding-components-to-a-channel}
 
@@ -336,3 +336,4 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
  </tbody>
 </table>
+
