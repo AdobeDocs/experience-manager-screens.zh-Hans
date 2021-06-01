@@ -4,13 +4,13 @@ description: 本页介绍内容分配报表的下载和使用情况。
 feature: 创作屏幕
 role: Developer
 level: Intermediate
-exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 7%
 
 ---
+
 
 # 内容分配报告 {#content-assignment-report}
 
@@ -57,3 +57,4 @@ ht-degree: 7%
 1. 将Excel表下载到本地计算机，其前缀与AEM Screens项目名称相同。 例如，如果您的项目名称为&#x200B;**DemoScreens**，则下载的文件名将为&#x200B;**demoscreens-content-assignment-report.xlxs**。
 
    ![图像](/help/user-guide/assets/content-assignment-report/car-download1.png)
+
