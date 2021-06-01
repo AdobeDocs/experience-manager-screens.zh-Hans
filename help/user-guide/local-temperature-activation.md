@@ -13,13 +13,13 @@ docset: aem65
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
 
 ---
+
 
 # 行程中心温度激活{#travel-center-temperature-activation}
 
@@ -90,4 +90,6 @@ ht-degree: 0%
 
    1. 单击&#x200B;**预览。** 此外，打开Google工作表并更新其值。
    1. 将值更改为小于50，您应该能够查看夏季饮料的图像。 如果Google Sheet中的值大于或等于50，则应该能够查看热饮图像。
+
    ![结果3](assets/result3.gif)
+
