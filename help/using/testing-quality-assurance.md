@@ -3,13 +3,13 @@ title: 测试和质量保证
 seo-title: AEM Screens的测试和质量保证
 description: 本页介绍《AEM Screens最佳实践测试和质量保证指南》
 seo-description: 本页介绍《AEM Screens最佳实践测试和质量保证指南》
-exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
 
 ---
+
 
 # 测试和质量保证 {#testing-quality}
 
