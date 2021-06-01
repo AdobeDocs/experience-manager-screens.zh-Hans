@@ -12,13 +12,13 @@ discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 feature: 渠道，交互式
 role: Developer
 level: Intermediate
-exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
 
 ---
+
 
 # 视频播放配置和疑难解答{#video-playback-configuration-and-troubleshooting}
 
@@ -157,3 +157,4 @@ ht-degree: 0%
 1. 启动2+位播放器
 
 球员们可能需要一些时间才能开始新的一致序列。
+
