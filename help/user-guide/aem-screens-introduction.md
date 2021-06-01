@@ -5,13 +5,13 @@ description: “AEM Screens — 一种数字标牌解决方案，允许您发布
 feature: 数字标牌概述
 role: Business Practitioner
 level: Beginner
-exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 8%
 
 ---
+
 
 # 什么是AEM Screens?{#what-is-aem-screens}
 
