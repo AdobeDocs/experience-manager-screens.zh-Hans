@@ -12,13 +12,13 @@ discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 3%
 
 ---
+
 
 # 使用动态嵌入式序列 {#using-dynamic-embedded-sequence}
 
@@ -406,3 +406,4 @@ ht-degree: 3%
 
 >[!NOTE]
 要详细了解如何设置权限，请参阅[设置ACL](setting-up-acls.md)。
+
