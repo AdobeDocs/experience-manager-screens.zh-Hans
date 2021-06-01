@@ -12,13 +12,13 @@ discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 84%
 
 ---
+
 
 # 创建和管理Live Copy {#creating-and-managing-a-live-copy}
 
@@ -135,3 +135,4 @@ Live Copy 是已存在的渠道的副本。
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    此时您将注意到图像现在也已从 Live Copy 渠道中删除。
+
