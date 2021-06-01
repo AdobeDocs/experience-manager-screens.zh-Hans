@@ -13,13 +13,13 @@ docset: aem65
 feature: 创作屏幕
 role: Administrator, Developer
 level: Intermediate
-exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
+
 
 # 零售库存目标激活{#retail-inventory-targeted-activation}
 
@@ -123,4 +123,6 @@ ht-degree: 0%
 
    1. 单击&#x200B;**预览。** 此外，打开Google工作表并更新其值。
    1. 更改所有三个不同列的值，您会注意到显示图像会根据库存中的最高值进行更新。
+
    ![retail_result](assets/retail_result.gif)
+
