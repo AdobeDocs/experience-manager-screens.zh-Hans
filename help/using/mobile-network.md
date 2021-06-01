@@ -1,13 +1,13 @@
 ---
 title: 直接移动网络
 description: 本页介绍了直接移动网络设置
-exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
+
 
 # 直接移动网络{#mobile-network-setup}
 
@@ -95,3 +95,6 @@ AEM Screens为数字标牌用户提供了巨大优势。 It可下载并在本地
 >所有信息都是指网络中请求和下载互联网源的每个设备的消耗。 每个请求都会累加并延长下载时间。
 
 ![](/help/using/assets/download-times-mobile.png)
+
+
+
