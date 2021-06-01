@@ -13,13 +13,13 @@ docset: aem65
 feature: 管理屏幕
 role: Administrator
 level: Intermediate
-exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
 
 ---
+
 
 # 从文件{#new-project-importer-from-file}新建项目导入程序
 
@@ -126,3 +126,4 @@ ht-degree: 2%
 1. 因此，您现在将能够查看导入到项目的所有位置。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+
