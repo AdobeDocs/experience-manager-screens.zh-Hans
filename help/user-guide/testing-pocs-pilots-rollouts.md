@@ -13,13 +13,13 @@ docset: aem65
 feature: 概述
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 60a6583dd3bf79ef09099506107705bf0bce1e07
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
+
 
 # 第三部分：测试、POC、试运行和推广{#part-testing-pocs-pilots-rollouts}
 
