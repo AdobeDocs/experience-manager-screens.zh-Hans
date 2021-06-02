@@ -4,9 +4,9 @@ description: “请阅读本页以了解2021年6月1日发布的AEM Screens功�
 feature: 功能包
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 13%
 
 ---
@@ -36,10 +36,8 @@ AEM Screens功能包202105的发布日期是2021年6月3日。
 
    更快地生成通道清单，并改善性能，例如在服务器上分配更少的资源。
 
-
 ### 错误修复 {#bug-fixes}
 
-* 改进了渠道清单生成性能。
 * 切换到渠道时，播放器显示黑屏，其中包含动态嵌入式序列。
 * Screens播放器现在会阻止切换到任何损坏的渠道，从而进一步避免404错误或出现错误消息的页面。
 
