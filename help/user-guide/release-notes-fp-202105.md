@@ -4,10 +4,10 @@ description: “请阅读本页以了解2021年6月1日发布的AEM Screens功�
 feature: 功能包
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '274'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,10 @@ AEM Screens功能包202105的发布日期是2021年6月3日。
 
 ### 新增功能 {#what-is-new}
 
-* 锁定页面
+* **锁定AEM Screens渠道中的页面**
+
+   AEM Screens现在支持&#x200B;*锁定页面*，这已在AEM Sites中实施。 Adobe Experience Manager(AEM)允许您锁定页面，这样其他人就无法修改页面内容。 当您要对某个特定页面做出大量编辑，或者需要冻结页面一段时间时，此功能非常有用。
+
 
 ### 错误修复 {#bug-fixes}
 
