@@ -13,9 +13,9 @@ docset: aem65
 feature: 管理屏幕， Android播放器
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,15 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 ## 使用企业移动管理{#bulk-provisioning}批量配置Android播放器
 
 批量部署Android播放器时，使用AEM手动注册每个播放器会很繁琐。 强烈建议使用EMM（企业移动性管理）解决方案（如VMWare Airwatch、MobileIron或Samsung Knox）来远程配置和管理您的部署。 AEM Screens Android播放器支持行业标准EMM AppConfig，以允许进行远程配置。
+
+## 命名Android播放器{#name-android}
+
+您可以为Android播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Android播放器，还允许您轻松分配相应的内容。
+
+请按照以下步骤在Android播放器中配置名称：
+
+1. 导航到&#x200B;**settings** —> **关于设备**
+1. 编辑并设置设备名称以命名Android播放器
 
 ### 使用企业移动管理实施Android播放器的批量配置 {#implementation}
 
