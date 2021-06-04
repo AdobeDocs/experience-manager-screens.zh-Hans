@@ -13,9 +13,9 @@ docset: aem65
 feature: 管理屏幕， Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -69,6 +69,16 @@ Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**A
 >如果&#x200B;**State**&#x200B;为&#x200B;**REGISTERED**，则会注意到将填充&#x200B;**Device id**&#x200B;字段。
 >
 >如果&#x200B;**State**&#x200B;为&#x200B;**UNRECISTED**，则可以使用&#x200B;**Token**&#x200B;注册设备。
+
+## 命名Windows Player {#name-windows}
+
+您可以为Windows播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Windows播放器，还允许您轻松分配相应的内容。
+
+请按照以下步骤在Windows播放器中配置名称：
+
+1. 单击&#x200B;**start** —> **运行**
+1. 输入`system.cpl`
+1. 使用计算机名称选项卡设置计算机的主机名
 
 ## 在Windows Installer {#changing-default-options}中更改默认选项
 
