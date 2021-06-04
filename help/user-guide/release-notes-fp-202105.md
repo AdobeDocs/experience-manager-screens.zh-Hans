@@ -1,13 +1,13 @@
 ---
 title: 功能包202105的发行说明
-description: “请阅读本页以了解2021年6月1日发布的AEM Screens功能包202105的信息。”
+description: “请阅读本页以了解2021年6月4日发布的AEM Screens功能包202105的信息。”
 feature: 功能包
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 13%
+source-wordcount: '394'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ AEM Screens发布了AEM 6.5功能包8。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包202105的发布日期是2021年6月3日。
+AEM Screens功能包202105的发布日期是2021年6月4日。
 
 ### 新增功能 {#what-is-new}
 
@@ -32,13 +32,25 @@ AEM Screens功能包202105的发布日期是2021年6月3日。
 
    AEM Screens现在支持&#x200B;*锁定页面*，这已在AEM Sites中实施。 Adobe Experience Manager(AEM)允许您锁定页面，这样其他人就无法修改页面内容。 当您要对某个特定页面做出大量编辑，或者需要冻结页面一段时间时，此功能非常有用。
 
+* **命名AEM Screens播放器设备**
+
+   AEM Screens播放器现在包含向Adobe Experience Manager(AEM)发送设备名称的功能。
+默认情况下，使用批量注册注册来注册设备时，系统会在标题字段中输入系统生成的用户名。 作为替代方法，客户可能使用资产标记或其他友好名称，以便在AEM中可见资产标记，并且更便于分配相应内容。
+
+   请参阅以下文档，了解如何在每个受支持的操作系统中配置名称：
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **清单生成**
 
    更快地生成通道清单，并改善性能，例如在服务器上分配更少的资源。
 
 ### 错误修复 {#bug-fixes}
 
-* 切换到渠道时，播放器显示黑屏，其中包含动态嵌入式序列。
+* 播放器在切换到包含动态嵌入式序列的渠道时显示黑屏。
 * Screens播放器现在会阻止切换到任何损坏的渠道，从而进一步避免404错误或出现错误消息的页面。
 
 ### 已发布的AEM Screens播放器{#released-aem-screens-players}
