@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: 管理屏幕
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,27 @@ ht-degree: 0%
 >[!NOTE]
 >
 >为部署和管理Chrome OS设备，建议使用设备管理解决方案（如Chrome管理控制台）。 尽管如此，本文档为Chrome管理控制台提供了实施，但仍有其他供应商声称提供类似功能。 请联系设备管理软件的供应商。
+
+## 命名Chrome OS播放器{#name-chrome}
+
+您可以为Chrome播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Chrome播放器，还允许您轻松分配相应的内容。
+
+请按照以下步骤在Chrome播放器中配置名称：
+
+1. 您可以选择允许AV集成商或IT管理员将资产ID和位置设置为企业注册的一部分。
+
+   ![图像](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. 当您注册设备时，将为您提供相应的选项。
+
+   ![图像](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. 您可以在企业注册以及Chrome管理控制台中将资产ID设置为一部分。
+
+   ![图像](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >必须在企业注册中注册Chrome播放器，并且必须通过Chrome管理控制台部署Chrome播放器，否则资产ID将返回空白（例如，将Chrome作为扩展）。 设备名称仅在注册时记录。 Adobe Experience Manager(AEM)将不会接收将来的更改。
 
 ### 启用Kiosk模式{#enabling-kiosk-mode}
 
