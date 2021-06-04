@@ -4,10 +4,10 @@ description: “请阅读本页以了解2021年6月4日发布的AEM Screens功�
 feature: 功能包
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 9%
+source-wordcount: '378'
+ht-degree: 10%
 
 ---
 
@@ -39,11 +39,11 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
 
    请参阅以下文档，了解如何在每个受支持的操作系统中配置名称：
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [蒂岑](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **清单生成**
 
    更快地生成通道清单，并改善性能，例如在服务器上分配更少的资源。
