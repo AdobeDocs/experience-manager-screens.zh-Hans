@@ -4,9 +4,9 @@ description: 本页介绍Tizen Player的安装和工作。
 feature: 管理屏幕、播放器
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Tizen播放器将安装，在启动时（以及每次重新引导时）将检查
 | enableAdminUI | 启用管理员UI以在站点上配置设备。 在生产环境中完全配置后，将其设置为false。 |
 | enableOSD | 启用渠道切换器UI，以便用户在设备上切换渠道。 在完全配置并投入生产后，请考虑将设置为false。 |
 | enableActivityUI | 启用以显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
-| cloudMode | 如果您希望Tizen播放器连接到screens as a cloud service，则设置为true。 false连接到AMS或onPrem AEM。 |
+| cloudMode | 如果您希望Tizen播放器作为Cloud Service连接到Screens，则设置为true。 设置为false，以便连接到AMS或内部AEM。 |
 | cloudToken | 要在Screens中注册为Cloud Service的注册令牌。 |
 
 
