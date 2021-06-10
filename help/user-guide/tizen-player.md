@@ -4,9 +4,9 @@ description: 本页介绍Tizen Player的安装和工作。
 feature: 管理屏幕、播放器
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1209'
 ht-degree: 1%
 
 ---
@@ -88,24 +88,49 @@ ht-degree: 1%
 
 1. 针对您的AEM 6.5.5及更高版本实例注册Tizen播放器，该播放器应正常注册和显示内容。
 
-## 批量配置Tizen播放器{#bulk-provisioning-tizen-player}
+## 远程配置Tizen播放器{#remote-provisioning}
+
+远程配置Tizen Player使您能够无需付出多大努力即可部署成千上万的三星Tizen显示屏。 它避免了使用服务器URL和批量注册代码或其他参数配置每个播放器的繁琐手动操作，在将Screens用作配置云模式和云令牌的Cloud Service时也是如此。
+
+此功能允许您远程配置Tizen播放器，并根据需要集中更新这些配置。 您只需使用`HTTP`服务器来托管Tizen应用程序`(wgt and xml file)`，并使用相应参数来保存`config.json`的文本编辑器即可。
+
+确保已在“Tizen Device”（显示主页按钮 — > URL启动器设置）上配置了URL启动器地址。
+在托管Tizen应用程序的`HTTP`服务器上，将文件`config.json`放置到与`wgt`文件相同的位置。 文件名必须为`config.json`。
+Tizen播放器将安装，在启动时（以及每次重新引导时）将检查并应用`config.json`文件中的设置。
+
+### JSON策略示例{#example-json}
+
+```java
+{
+  "server":  "http://your-aem-instance.com:4502",
+  "registrationKey": "AdobeRocks!!",
+  "enableAdminUI": true,
+  "enableOSD": true,
+  "enableActivityUI": true
+}
+```
+
+### 策略属性和用途{#policy-attributes}
+
+下表概述了策略及其功能。
 
 >[!NOTE]
->在大量设备的每个设备的管理员UI中手动输入AEM服务器地址可能是一项繁琐的工作。 建议使用Samsung远程管理(RMS)解决方案来部署和管理大型解决方案。 有关更多详细信息，请参阅[将Tizen设备注册到Samsung远程管理服务(RMS)](#enroll-tizen-device-rm)。
+>策略配置是严格强制执行的，不会在播放器的管理员UI中手动覆盖。 要允许为特定策略进行手动播放器配置，请不要在策略配置中指定策略，例如，如果要允许手动配置重新启动计划，请不要在策略配置中指定键`rebootSchedule`。 每次重新加载播放器时都会读取策略配置。
 
-请按照以下步骤批量配置应用程序，以在应用程序启动时指向AEM创作实例：
+| **策略名称** | **用途** |
+|---|---|
+| 服务器 | 指向Adobe Experience Manager(AEM)服务器的URL。 |
+| registrationKey | 用于使用预共享密钥批量注册设备。 |
+| 分辨率 | 设备的分辨率。 |
+| rebootSchedule | 重新引导播放器的计划。 |
+| enableAdminUI | 启用管理员UI以在站点上配置设备。 在生产环境中完全配置后，将其设置为false。 |
+| enableOSD | 启用渠道切换器UI，以便用户在设备上切换渠道。 在完全配置并投入生产后，请考虑将设置为false。 |
+| enableActivityUI | 启用以显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
+| cloudMode | 如果您希望Tizen播放器连接到screens as a cloud service，则设置为true。 false连接到AMS或onPrem AEM。 |
+| cloudToken | 要在Screens中注册为Cloud Service的注册令牌。 |
 
-1. 下载并安装[Tizen Studio](https://developer.tizen.org/development/tizen-studio/download)。
-1. 使用Tizen Studio打开`wgt`文件。
-1. 打开文件`firmware-platform.js`并搜索`DEFAULT_PREFERENCES`，将服务器URL更改为AEM创作URL并保存。
-1. 生成新的`wgt`文件。
 
-   >[!NOTE]
-   >您可能需要创建或设置签名证书。
-
-1. 使用RMS或URL启动器部署此新的`wgt`文件，当播放器启动时，它应自动指向您的服务器，这样您就无需为每个设备手动输入它。
-
-### 将Tizen设备注册到Samsung远程管理服务(RMS){#enroll-tizen-device-rms}
+## 将Tizen设备注册到Samsung远程管理服务(RMS){#enroll-tizen-device-rms}
 
 请按照以下步骤将Tizen设备注册到Samsung远程管理服务(RMS)并远程配置URL启动器：
 
