@@ -4,9 +4,9 @@ description: 本页介绍Tizen Player的安装和工作。
 feature: 管理屏幕、播放器
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 1. 获取本地HTTP服务器的IP或URL(以及包含步骤2中提取文件的文件夹的路径（如果已提取到子文件夹，而不是根文件夹）
 
-1. Tizen播放器将从本地服务器下载安装程序。
+1. Tizen播放器从本地服务器下载安装程序。
 
 ### 命名Tizen播放器{#name-tizen}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >**本节适用于Adobe Experience Manager(AEM)6.5.5到AEM 6.5.7**
->某些浏览器引擎与AEM 6.5到AEM 6.7发布的登录令牌中使用的&#x200B;*SameSite=None*&#x200B;属性不兼容。在大多数情况下，可通过将浏览器升级到最新的可用版本来解决此问题。 在某些情况下，可能无法进行此类升级，例如使用智能显示器、机顶盒或具有嵌入式浏览引擎的其他设备。
+>某些浏览器引擎与AEM 6.5到AEM 6.7发布的登录令牌中使用的&#x200B;*SameSite=None*&#x200B;属性不兼容。通常，可通过将浏览器升级到最新的可用版本来解决此问题。 在某些情况下，可能无法进行此类升级，例如使用智能显示器、机顶盒或具有嵌入式浏览引擎的其他设备。
 
 使用&#x200B;*SameSite=None*&#x200B;时，请按照以下步骤免除这些不兼容的客户端：
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. AEM重新启动后，转到`/system/console/configMgr`并搜索&#x200B;**AdobeGranite令牌身份验证处理程序**。 将&#x200B;**SameSite**&#x200B;值的值设置为&#x200B;**None**。
 
-1. 您应会看到新选项&#x200B;*要从samesite属性*&#x200B;中免除用户代理。 使用与与&#x200B;*SameSite=None*&#x200B;属性不兼容的用户代理对应的正则表达式填充该变量。
+1. 您应会看到新选项&#x200B;*要从samesite属性*&#x200B;中免除用户代理。 使用与&#x200B;*SameSite=None*&#x200B;属性不兼容的用户代理对应的正则表达式填充该变量。
    >[!NOTE]
    >请参阅[SameSite=None:已知不兼容的客户端](https://www.chromium.org/updates/same-site/incompatible-clients)以了解更多详细信息。 对于Tizen播放器，请使用正则表达式：`(.*)Tizen(.*)`。
 
