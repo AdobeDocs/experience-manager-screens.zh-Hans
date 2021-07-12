@@ -4,17 +4,17 @@ description: 请阅读本页，了解MultiZone到SingleZone Transitions用例。
 seo-description: 多区域到单区域过渡用例。
 contentOwner: Jyotika Syal
 feature: 创作屏幕
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
 
 ---
 
-
-# 多区到单区过渡{#multizone-to-singlezone-use-case}
+# 多区域到单区域过渡 {#multizone-to-singlezone-use-case}
 
 
 ## 用例描述 {#use-case-description}
@@ -30,11 +30,11 @@ ht-degree: 3%
 * **[创建和管理计划](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要行为者{#primary-actors}
+### 主要行为者 {#primary-actors}
 
 内容作者
 
-## 设置项目{#setting-up-the-project}
+## 设置项目 {#setting-up-the-project}
 
 请按照以下步骤设置项目：
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![资产](assets/mz-to-sz7.png)
 
-## 检查预览{#checking-the-preview}
+## 检查预览 {#checking-the-preview}
 
 您可以从播放器中查看所需的输出，或者只需单击编辑器中的&#x200B;**预览**&#x200B;即可。
 
