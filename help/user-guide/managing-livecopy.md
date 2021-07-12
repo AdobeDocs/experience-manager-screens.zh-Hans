@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 84%
 
 ---
-
 
 # 创建和管理Live Copy {#creating-and-managing-a-live-copy}
 
@@ -68,7 +68,7 @@ Live Copy 是已存在的渠道的副本。
    >
    >查看 Live Copy 渠道的内容时，您将在菜单中看到一个额外的项目 **Live Copy 状态**。有关更多详细信息，请参阅以下部分。
 
-### 查看 Live Copy 的属性  {#viewing-properties-of-a-live-copy}
+### 查看 Live Copy 的属性 {#viewing-properties-of-a-live-copy}
 
 您还可以查看 Live Copy 渠道的属性。
 
@@ -135,4 +135,3 @@ Live Copy 是已存在的渠道的副本。
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    此时您将注意到图像现在也已从 Live Copy 渠道中删除。
-
