@@ -6,17 +6,17 @@ seo-description: 请阅读本页，了解Content Update As a Service。
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
 
 ---
 
-
-# 内容更新为服务{#content-update-as-a-service}
+# 内容更新As A Service {#content-update-as-a-service}
 
 本节介绍有关将内容作为服务进行更新的以下主题：
 
@@ -39,11 +39,11 @@ ht-degree: 8%
 >
 >“批量离线更新”功能经过优化，可仅更新已修改的渠道。
 
-## 使用批量离线更新{#using-bulk-offline-update}
+## 使用批量离线更新 {#using-bulk-offline-update}
 
 您可以从用户界面(UI)中手动使用批量离线更新，或计划从OSGi服务进行批量更新。
 
-### 使用AEM Screens用户界面{#using-aem-screens-user-interface}
+### 使用AEM Screens用户界面 {#using-aem-screens-user-interface}
 
 请按照以下步骤对AEM Screens项目使用批量离线更新：
 
@@ -52,7 +52,7 @@ ht-degree: 8%
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Adobe Experience Manager Web控制台配置{#adobe-experience-manager-web-console-configuration}
+### Adobe Experience Manager Web控制台配置 {#adobe-experience-manager-web-console-configuration}
 
 请按照以下步骤对AEM Screens项目使用批量离线更新：
 
@@ -74,4 +74,3 @@ ht-degree: 8%
    **计** 划频度指定时间，例如，下午5:00或17:00，此服务应在该时间更新离线内容。
 
 1. 单击&#x200B;**Save**&#x200B;以保存您的设置，您的内容将在指定时间更新。
-
