@@ -4,17 +4,17 @@ seo-title: 使用Chrome播放器作为扩展
 description: 可查看本页以了解有关将Chrome播放器作为浏览器扩展进行安装的信息。
 seo-description: 'null'
 feature: 管理屏幕
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# 使用Chrome播放器作为扩展{#using-chrome-player}
+# 使用Chrome播放器作为扩展 {#using-chrome-player}
 
 在开发人员模式下，ChromeOS播放器可以作为Chrome浏览器插件安装，而无需使用实际的Chrome播放器设备。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
    > 默认情况下，播放器以全屏模式启动。 按&#x200B;**esc**&#x200B;退出全屏模式。
 
 
-## 高级调试提示{#advanced-debugging-tips}
+## 高级调试提示 {#advanced-debugging-tips}
 
 1. 播放器在本地下载内容后，您可以通过转到`http://localhost:24502`浏览本地下载的内容。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    **调试后台页面**:调出管理员UI，然后右键单击并检查后台页面（对于后台服务，如http服务器）
 
-## 升级播放器扩展{#upgrading-player}
+## 升级播放器扩展 {#upgrading-player}
 
 如果发布了播放器的新版本，请按照以下步骤升级播放器扩展。 您还可以按照以下说明来测试升级方案：
 
