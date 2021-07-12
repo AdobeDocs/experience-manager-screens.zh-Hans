@@ -4,17 +4,17 @@ seo-title: 资产级别激活
 description: 可查看本页，了解如何在播放器的本地时区的计划时间范围内，激活渠道中的特定资产。
 seo-description: 可查看本页，了解如何在播放器的本地时区的计划时间范围内，激活渠道中的特定资产。
 feature: 创作屏幕，资产级别激活
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 2%
 
 ---
 
-
-# 资产级别激活{#asset-level-scheduling}
+# 资产级别激活 {#asset-level-scheduling}
 
 本页介绍渠道中使用的资产的资产级激活情况。
 
@@ -78,13 +78,13 @@ ht-degree: 2%
 
    ![图像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## 处理资产{#handling-recurrence-in-assets}中的循环
+## 处理资产中的循环 {#handling-recurrence-in-assets}
 
 您可以根据您的要求，安排资产在每日、每周或每月的特定间隔期间重复发生。
 
 假设您希望仅在星期五下午1:00至晚上10:00显示图像。 您可以使用&#x200B;**Activation**&#x200B;选项卡为资产设置所需的循环间隔。
 
-### 日期划分{#day-parting}
+### 将日期分开 {#day-parting}
 
 1. 选择资产并单击&#x200B;**配置**（扳手图标）以打开“属性”对话框。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### 将日期分开的示例表达式{#example-one}
+#### 将日期分开的示例表达式 {#example-one}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### WeekParting {#example-two}的示例表达式
+#### 用于将星期分开的示例表达式 {#example-two}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -136,7 +136,7 @@ ht-degree: 2%
 >您还可以使用&#x200B;_full_&#x200B;表示法（即星期一、星期三、星期五），而不是&#x200B;_short-hand_&#x200B;表示法（即Mon、Wed、Fri）。
 
 
-### MonthParting {#month-parting}
+### 月份划分 {#month-parting}
 
 1. 选择资产并单击&#x200B;**配置**（扳手图标）以打开“属性”对话框。
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### MonthParting {#example-three}的示例表达式
+#### 月份划分的示例表达式 {#example-three}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -159,7 +159,7 @@ ht-degree: 2%
 >[!NOTE]
 >在定义一周中的日期和月份时，您既可以使用短手符号和全名符号，如周一/周一和一月/一月。
 
-### 部分{#combined-parting}的组合
+### 零件组合 {#combined-parting}
 
 1. 选择资产并单击&#x200B;**配置**（扳手图标）以打开“属性”对话框。
 
@@ -170,7 +170,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### 部分组合{#example-four}的示例表达式
+#### 部分组合的示例表达式 {#example-four}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -184,7 +184,7 @@ ht-degree: 2%
 >在定义一周中的日期和月份时，您既可以使用短手符号和全名符号，如周一/周一和一月/一月。  此外，您还可以使用&#x200B;_军事时间_&#x200B;符号（即14:00），而不是&#x200B;*am/pm*&#x200B;符号（即下午2:00）。
 
 
-## 多资产激活{#multi-asset-scheduling}
+## 多资产激活 {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
@@ -222,4 +222,3 @@ ht-degree: 2%
    >对于具有多资产激活的资产，其右上角会显示计划图标。
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
