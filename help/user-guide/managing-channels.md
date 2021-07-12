@@ -4,15 +4,15 @@ seo-title: 管理渠道
 description: 可查看本页以了解有关创建和管理渠道的信息。本页还介绍了渠道功能板，以及如何编辑渠道的内容。
 seo-description: 可查看本页以了解有关创建和管理渠道的信息。本页还介绍了渠道功能板，以及如何编辑渠道的内容。
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 42%
 
 ---
-
 
 # 创建和管理渠道 {#creating-and-managing-channels}
 
@@ -71,7 +71,7 @@ ht-degree: 42%
 >
 > 在创建渠道并向渠道中添加内容后，下一步是创建位置，之后是创建显示屏。此外，您还需要将该渠道分配到显示屏。请参阅此部分末尾的资源以了解更多信息。
 
-## 使用渠道  {#working-with-channels}
+## 使用渠道 {#working-with-channels}
 
 您可以编辑、复制、预览和删除渠道，以及查看渠道属性和功能板。
 
@@ -127,7 +127,7 @@ ht-degree: 42%
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
-#### 查看清单{#view-manifest}
+#### 查看清单 {#view-manifest}
 
 您可以从渠道功能板中查看清单。
 
@@ -259,4 +259,3 @@ ht-degree: 42%
 * [创建和管理渠道](managing-channels.md)
 * [创建和管理位置](managing-locations.md)
 * [创建和管理显示屏](managing-displays.md)
-
