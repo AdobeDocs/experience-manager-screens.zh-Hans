@@ -4,21 +4,21 @@ seo-title: 安全检查列表
 description: 本页介绍了关键安全领域以及一系列问题和注意事项。
 seo-description: 本页介绍安全检查列表
 feature: 管理屏幕
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# AEM Screens安全检查列表{#security-checklist}
+# AEM Screens安全检查列表  {#security-checklist}
 
 AEM Screens安全检查列表页面介绍了关键安全区域，其中包含一系列问题和注意事项。
 
-## 核对清单表{#checklist-table}
+## 核对清单表 {#checklist-table}
 
 | **安全区** | **核对清单** | **是/否/不适用** |
 |---|---|---|
@@ -29,6 +29,6 @@ AEM Screens安全检查列表页面介绍了关键安全区域，其中包含一
 | **应用程序安全** | ***答：*** *您是否禁用了用于生产的管理员UI、渠道切换器和活动UI?* <br>***b.*** *是否最小化了生产的日志级别？* <br>***c.*** *您是否使用https连接到AEM?* <br>***d.*** *您使用的是CA签名证书还是企业PKI?（不是自签名证书）*<br>***e.*** *您是否使用TLS而不是SSL v3?*<br>***f.*** *注册时，您是否在设备和AEM上验证注册令牌？*<br> ***g.*** *您是否对正在使用的数据进行分类，且设备上不存在PII或PHI?*<br> ***h.*** *您是否已对所使用的数据进行分类，且设备上不存在个人身份信息(PII)或受保护的运行状况信息(PHI)?*<br> ***i.*** *您是否配置了监控电子邮件，并且您有没有SOP来响应监控电子邮件和处理非Ping设备？* |
 | **访问控制** | ***a.*** *您是否在内部识别和管理了基于角色的访问控制(RBAC)?* <br>***b.*** *在使用Adobe中的最佳实践为作者、管理员和播放器提供访问权限时是否遵循了最低权限原则？* |
 
-### 下载安全检查列表{#download-checklist}
+### 下载安全检查列表 {#download-checklist}
 
 要下载AEM Screens安全检查列表，请单击[此处](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf)。
