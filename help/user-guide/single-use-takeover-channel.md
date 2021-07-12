@@ -5,17 +5,17 @@ description: 请按照此用例创建单次使用转接渠道。
 seo-description: 请按照此用例创建单次使用转接渠道。
 contentOwner: jsyal
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 2%
 
 ---
 
-
-# 单次使用TakeOver通道{#single-use-takeover-channel}
+# 单次使用TakeOver渠道 {#single-use-takeover-channel}
 
 以下页面展示了一个用例，其中着重介绍了如何设置一个关于如何创建在特定时间只播放一次的“单次转接”渠道的项目。
 
@@ -34,11 +34,11 @@ ht-degree: 2%
 * **[创建和管理计划](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要行为者{#primary-actors}
+### 主要行为者 {#primary-actors}
 
 内容作者
 
-## 设置项目{#setting-up-the-project}
+## 设置项目 {#setting-up-the-project}
 
 请按照以下步骤设置项目：
 
