@@ -11,21 +11,21 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: 管理屏幕、设备注册
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
 
 ---
 
-
 # 设备注册 {#device-registration}
 
 以下页面介绍了AEM Screens项目中的设备注册流程。
 
-## 注册设备{#registering-a-device}
+## 注册设备 {#registering-a-device}
 
 设备注册过程在2台单独的计算机上完成：
 
@@ -99,7 +99,7 @@ ht-degree: 1%
    >
    >要了解有关创建和管理Screens项目显示屏的更多信息，请参阅[创建和管理显示屏](managing-displays.md)。
 
-### 将设备分配给显示器{#assigning-device-to-a-display}
+### 将设备分配给显示器 {#assigning-device-to-a-display}
 
 如果尚未将设备分配给显示屏，请按照以下步骤将设备分配给AEM Screens项目中的显示屏：
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## 从设备管理器{#search-device}中搜索设备
+## 从设备管理器中搜索设备 {#search-device}
 
 在播放器中注册设备后，您便可以从设备管理器UI中查看所有设备。
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 * 如果设备名称为&#x200B;*BostonStoreLobby*，并且搜索&#x200B;*boston*&#x200B;将不返回结果，而是在搜索标准中使用&#x200B;*boston**将返回结果。
 
-## 设备注册限制{#limitations-on-device-registration}
+## 设备注册限制 {#limitations-on-device-registration}
 
 系统范围的用户密码限制可能会导致设备注册失败。 设备注册使用随机生成的密码来创建设备用户。
 
