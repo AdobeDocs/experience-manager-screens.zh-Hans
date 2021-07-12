@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 4%
 
 ---
 
-
-# 通道级别批量图像播放持续时间{#channel-level-bulk-image-playback-duration}
+# 通道级别批量图像播放持续时间 {#channel-level-bulk-image-playback-duration}
 
 ## 概述 {#overview}
 
@@ -37,11 +37,11 @@ ht-degree: 4%
 
 1. 将内容添加到&#x200B;**PlaybackChannel**。
 
-## 编辑渠道级别的图像播放持续时间分配{#editing-channel-level-image-playback-duration-assignment}
+## 编辑渠道级别的图像播放持续时间分配 {#editing-channel-level-image-playback-duration-assignment}
 
 以下部分介绍如何编辑AEM Screens渠道中内容的播放持续时间。
 
-### 更新渠道{#updating-the-playback-duration-for-images-in-a-channel}中图像的播放持续时间
+### 更新渠道中图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-channel}
 
 请按照以下步骤了解如何更新渠道级别图像播放持续时间分配：
 
@@ -72,9 +72,8 @@ ht-degree: 4%
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### 查看结果{#viewing-the-result}
+### 查看结果 {#viewing-the-result}
 
 更新渠道播放持续时间（在本例中为所有三幅图像）后，您会注意到图像现在将播放3秒，而不是8秒（默认值）。
 
 ![channel_preview](assets/channel_preview.gif)
-
