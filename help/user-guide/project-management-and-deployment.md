@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: 概述
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
 
-
-# 第4部分：项目管理和部署{#part-project-management-and-deployment}
+# 第4部分：项目管理和部署 {#part-project-management-and-deployment}
 
 本页重点介绍5个部分系列的第4部分，该系列旨在涵盖项目管理和部署准备，并定义AV Integrator负责与项目管理和部署准备相关的关键因素。
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 >
 >在管理项目“预生产”、启动和推进阶段方面采取整体方法的合作伙伴将有助于确保您的最终客户能够从其投资中实现最大价值
 
-## 项目管理中所有三个阶段的摘要{#summary-of-all-three-phases-in-project-management}
+## 项目管理的所有三个阶段的总结 {#summary-of-all-three-phases-in-project-management}
 
 为了支持成功部署数字标牌，通常将项目分为3个阶段。 这些阶段通常称为&#x200B;***days***。
 
-### 零日活动{#day-zero-activities}
+### 零日活动 {#day-zero-activities}
 
 第一个阶段称为&#x200B;***天零***。 此阶段包括完全定义项目范围所需的所有售前和发现工作。 第二个阶段（第一天）是指部署工作中包含的所有活动。 最后，第二天将所有持续的操作和支持元素作为整体解决方案的一部分。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 * 考虑电源和连接
 * 审查技术计划或绘图
 
-### 第一天活动{#day-one-activities}
+### 第一天活动 {#day-one-activities}
 
 第二个阶段（***第一天***）是指部署工作中包含的所有活动。 成功项目的另一个重要技术文档是部署甘特图。
 
@@ -72,13 +72,13 @@ ht-degree: 0%
 * 工作范围
 * 劳动要求。
 
-### 第2天活动{#day-two-activities}
+### 第二天活动 {#day-two-activities}
 
 第一天计划的最后一部分是完成NOC切换。 如果已完成的项目将包括任何第2天服务和支持，项目经理将安排与这些团队的主管举行NOC切换会议。
 
 此会议主要由客户管理、网络运营、现场后勤、内容服务和会计部门的AV Integrator代表组成。 来自Adobe、AEM实施者和最终客户的项目管理代表通常与AV Integrator一起定义计划、终止时间和权限。 项目经理通常最好协调讨论以确保适当各方的一致性，并为NOC切换会议编写所需的文档。 除了涉及所有各方的销售和客户管理资源之外，关键支持文档可能还来自IT和/或AV工程部门。 对于任何需要NOC支持的客户，需要向NOC主管提供文档以上传到知识库平台。
 
-## 第4部分：有关项目管理和部署的视频教程{#part-video-tutorial-on-project-management-and-deployment}
+## 第4部分：有关项目管理和部署的视频教程 {#part-video-tutorial-on-project-management-and-deployment}
 
 请阅读本教程，了解项目管理和部署准备，并定义AV Integrator负责与项目管理和部署准备相关的关键因素。
 
@@ -88,9 +88,8 @@ ht-degree: 0%
 
 *了解项目管理和部署准备（项目预生产、项目启动、项目进度）。*
 
-## 下一步{#the-next-step}
+## 下一步 {#the-next-step}
 
 在您对与AEM Screens部署的项目管理相关的重要注意事项进行全面了解之后；
 
 导航到&#x200B;**[第5部分：支持注意事项](support-considerations.md)**&#x200B;以了解第2天支持和涉及的流程。
-
