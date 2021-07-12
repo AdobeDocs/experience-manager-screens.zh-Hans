@@ -11,29 +11,29 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: 管理屏幕， Android播放器
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
 
-
-# 实施Android播放器{#implementing-android-player}
+# 实施Android播放器 {#implementing-android-player}
 
 本节介绍如何配置Android播放器。 它提供了配置文件、可用选项的信息，以及有关开发和测试中要使用的设置的建议。
 
 此外，**Watchdog**&#x200B;是从崩溃中恢复播放器的解决方案。 应用程序需要在监视服务中注册自己，然后定期向其活动的服务发送消息。 如果监视服务在规定时间内未收到保持活动状态消息，则该服务将尝试重新启动设备以进行干净恢复（如果它具有足够的权限）或重新启动应用程序。
 
-## 安装Android播放器{#installing-android-player}
+## 安装Android Player {#installing-android-player}
 
 要实施适用于AEM Screens的Android播放器，请安装适用于AEM Screens的Android播放器。
 
 访问&#x200B;[**AEM 6.5 Player下载**](https://download.macromedia.com/screens/)页面。
 
-### 设置AEM Screens 6.5.5 Service Pack {#fp-environment-setup}的环境
+### 设置AEM Screens 6.5.5 Service Pack的环境 {#fp-environment-setup}
 
 >[!NOTE]
 >如果您使用的是AEM Screens 6.5.5 Service Pack，则必须为Android播放器设置环境。
@@ -52,7 +52,7 @@ ht-degree: 0%
 1. 单击&#x200B;**保存**。
 
 
-### Ad-Hoc方法{#ad-hoc-method}
+### Ad-Hoc方法 {#ad-hoc-method}
 
 Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[**AEM 6.5播放器下载**](https://download.macromedia.com/screens/)页面。
 
@@ -69,11 +69,11 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 >
 >如果&#x200B;**State**&#x200B;为&#x200B;**UNRECISTED**，则可以使用&#x200B;**Token**&#x200B;注册设备。
 
-## 实施Android监视程序{#implementing-android-watchdog}
+## 实施Android监视程序 {#implementing-android-watchdog}
 
 由于Android的架构，重新启动设备需要应用程序具有系统权限。 为此，您需要使用制造商的签名密钥对apk进行签名，否则，监视程序将重新启动播放器应用程序，而不会重新启动设备。
 
-### 使用制造商键{#signage-of-android-apks-using-manufacturer-keys}的Android Apk标牌
+### 使用制造商键值的Android Apk标牌 {#signage-of-android-apks-using-manufacturer-keys}
 
 要访问Android的某些特权API，如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*，您需要使用制造商的密钥对android apk进行签名。
 
@@ -94,7 +94,7 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 1. &lt;pathto> /zipalign -fv 4 aemscreenplayer.apk aemscreensalsid.apk
 1. 使用adb安装到设备，安装&#x200B;***aemscreensalpid.apk***
 
-## 了解Android监视程序服务{#android-watchdog-services}
+## 了解Android监视程序服务 {#android-watchdog-services}
 
 跨Android监视程序服务使用&#x200B;*AlarmManager*&#x200B;作为cordova插件实施。
 
@@ -112,7 +112,7 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 
 **3.应用程序崩溃**&#x200B;在发生崩溃时，AlarmManager中注册的“重新引导的pendingIntent”不再重置，因此它会执行应用程序的重新引导或重新启动（具体取决于cordova插件初始化时可用的权限）。
 
-## 批量配置Android播放器{#bulk-provision-android-player}
+## 批量配置Android播放器 {#bulk-provision-android-player}
 
 批量推出Android播放器时，需要配置播放器以指向AEM实例，并配置其他属性，而无需在管理员UI中手动输入这些属性。
 
@@ -133,7 +133,7 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
    >[!NOTE]
    >此文件在首次启动应用程序时为&#x200B;*只读*，不能用于后续配置。 如果在删除配置文件之前启动了播放器，则只需在设备上卸载并重新安装应用程序即可。
 
-### 策略属性{#policy-attributes}
+### 策略属性 {#policy-attributes}
 
 下表汇总了具有示例策略JSON的策略属性以供参考：
 
@@ -147,7 +147,7 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 | *enableActivityUI* | 启用以显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
 | *enableNativeVideo* | 启用以对视频播放使用本机硬件加速（仅限Android）。 |
 
-### JSON策略示例{#example-json}
+### JSON策略示例 {#example-json}
 
 ```java
 {
@@ -174,11 +174,11 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 >[!NOTE]
 >无论是否插入实际的&#x200B;*sdcard*，所有Android设备都具有&#x200B;*sdcard*&#x200B;文件夹。 此文件在部署后将与Downloads文件夹处于同一级别。 某些MDM（如Samsung Knox）可能将此&#x200B;*sdcard*&#x200B;文件夹位置称为&#x200B;*内部存储*。
 
-## 使用企业移动管理{#bulk-provisioning}批量配置Android播放器
+## 使用企业移动管理批量配置Android播放器 {#bulk-provisioning}
 
 批量部署Android播放器时，使用AEM手动注册每个播放器会很繁琐。 强烈建议使用EMM（企业移动性管理）解决方案（如VMWare Airwatch、MobileIron或Samsung Knox）来远程配置和管理您的部署。 AEM Screens Android播放器支持行业标准EMM AppConfig，以允许进行远程配置。
 
-## 命名Android播放器{#name-android}
+## 命名Android播放器 {#name-android}
 
 您可以为Android播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Android播放器，还允许您轻松分配相应的内容。
 
