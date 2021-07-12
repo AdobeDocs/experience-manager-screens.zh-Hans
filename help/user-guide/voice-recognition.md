@@ -2,17 +2,17 @@
 title: AEM Screens语音识别
 description: 本页介绍AEM Screens中的语音识别功能。
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
 
-
-# AEM Screens中的语音识别{#voice-recognition}
+# AEM Screens语音识别 {#voice-recognition}
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 以下部分介绍如何在AEM Screens项目中启用和使用语音识别功能。
 
-## 在全屏或分屏渠道交换机中查看内容{#sequence-channel}
+## 以全屏或分屏渠道开关查看内容 {#sequence-channel}
 
 在使用语音识别功能之前，请确保您有一个项目和一个渠道，且该渠道的内容已针对您的项目进行设置。
 
@@ -77,7 +77,7 @@ ht-degree: 3%
    ![图像](assets/voice-recognition/vr-emb-6.png)
 
 
-### 为渠道{#setting-tags}设置标记
+### 为渠道设置标记 {#setting-tags}
 
 向渠道添加内容后，您需要导航到每个渠道并添加相应的标记以触发语音识别。
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 1. 完成后，单击&#x200B;**保存并关闭**。
 
 
-### 创建标记{#creating-tags}
+### 创建标记 {#creating-tags}
 
 请按照以下步骤创建标记：
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 现在，您可以在AEM Screens项目中使用这些标记。
 
-### 为显示器分配频道并启用语音识别{#channel-assignment}
+### 为显示器分配频道并启用语音识别 {#channel-assignment}
 
 1. 在&#x200B;**Locations**&#x200B;文件夹中创建显示屏，如下图所示。
 
@@ -168,7 +168,7 @@ ht-degree: 3%
    >[!IMPORTANT]
    >必须从显示器中启用语音识别功能。
 
-### 在Chrome播放器{#viewing-content}中查看内容
+### 在Chrome播放器中查看内容 {#viewing-content}
 
 完成上述步骤后，您可以注册Chrome设备以查看输出。
 
@@ -184,8 +184,3 @@ ht-degree: 3%
 **分屏渠道的所需输出**
 
 **Main**&#x200B;渠道正在播放其内容，但是当您将关键词&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;一起使用时，如&#x200B;*我想看热饮和冷饮的菜单*，渠道开始播放&#x200B;**SplitScreen**&#x200B;渠道的内容。 如果您说&#x200B;*返回主菜单*，则它会切换回主通道。
-
-
-
-
-
