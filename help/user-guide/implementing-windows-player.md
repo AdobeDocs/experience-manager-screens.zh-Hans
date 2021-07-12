@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: 管理屏幕， Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 
 ---
-
 
 # 实施Windows 10 Player {#implementing-windows-player}
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 >[!NOTE]
 >Windows播放器中没有窗口模式。 始终为全屏模式。
 
-### 设置AEM Screens 6.5.5 Service Pack {#fp-environment-setup}的环境
+### 设置AEM Screens 6.5.5 Service Pack的环境 {#fp-environment-setup}
 
 >[!NOTE]
 >如果您使用的是AEM Screens 6.5.5 Service Pack，则必须为Windows Player设置环境。
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**保存**。
 
-### Ad-Hoc方法{#ad-hoc-method}
+### Ad-Hoc方法 {#ad-hoc-method}
 
 Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**AEM 6.5播放器下载**](https://download.macromedia.com/screens/)页面。
 
@@ -80,11 +80,11 @@ Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**A
 1. 输入`system.cpl`
 1. 使用计算机名称选项卡设置计算机的主机名
 
-## 在Windows Installer {#changing-default-options}中更改默认选项
+## 在Windows Installer中更改默认选项 {#changing-default-options}
 
 请阅读本节内容，了解如何更改Windows Installer中的默认选项和可用自定义列表。
 
-## 使用CLI(PowerShell){#install-powershell}进行安装
+## 使用CLI(PowerShell)进行安装 {#install-powershell}
 
 1. 为Screens播放器创建自定义位置&#x200B;**专用**，例如：
    `C:\Users\User\screens-player`)
@@ -103,7 +103,7 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
-## Windows Player {#bulk-registration}的批量注册
+## Windows Player的批量注册 {#bulk-registration}
 
 实施Windows播放器时，您无需手动配置每个播放器。 相反，您可以在配置JSON文件经过测试并准备好进行部署后，更新该文件。
 
@@ -115,7 +115,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 1. 在&#x200B;***%appdata%\com.adobe.aem.screens.player\config.json***&#x200B;下找到配置文件。
 1. 使用以下信息更新配置JSON，然后将同一文件夹复制到播放器所在的所有系统。
 
-### 策略属性{#policy-attributes}
+### 策略属性 {#policy-attributes}
 
 下表汇总了具有示例策略JSON的策略属性以供参考：
 
@@ -128,7 +128,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 | enableOSD | 启用渠道切换器UI，以便用户在设备上切换渠道。 在完全配置并投入生产后，请考虑将设置为false。 |
 | enableActivityUI | 启用以显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
 
-#### 策略JSON文件{#example-policy-json-file}示例
+#### 策略JSON文件示例 {#example-policy-json-file}
 
 ```
 {
@@ -141,7 +141,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 }
 ```
 
-## 启用Kiosk模式{#enabling-kiosk-mode}
+## 启用Kiosk模式 {#enabling-kiosk-mode}
 
 在部署Windows播放器时，请务必启用Kiosk模式，以便其他应用程序或任务栏不会显示在Windows桌面上。
 
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
