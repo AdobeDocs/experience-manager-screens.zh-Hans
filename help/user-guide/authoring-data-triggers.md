@@ -3,17 +3,17 @@ title: 使用数据触发器进行创作
 seo-title: 使用数据触发器进行创作
 description: 请阅读本页以了解如何使用数据触发器进行创作。
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-
-# 使用数据触发器创作{#authoring-with-data-triggers}
+# 使用数据触发器进行创作 {#authoring-with-data-triggers}
 
 本节重点介绍如何在渠道中启用定位。
 
@@ -36,11 +36,11 @@ ht-degree: 1%
 
 完成上述步骤后，即可在渠道中启用定位。
 
-## 使用数据触发器创作概述{#author-targeting}
+## 使用数据触发器创作概述 {#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM Screens渠道{#enabling-targeting}中启用定位
+## 在AEM Screens渠道中启用定位 {#enabling-targeting}
 
 按照以下步骤在渠道中启用定位。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 1. 从下拉菜单中选择&#x200B;**Brand**&#x200B;和&#x200B;**Activity**，然后单击&#x200B;**开始定位**。
 
-### 了解更多：{#learn-more-example-use-cases}用例示例
+### 了解更多：用例示例 {#learn-more-example-use-cases}
 
 为AEM Screens项目配置ContextHub后，您可以按照不同的用例了解数据触发资产如何在不同行业中发挥关键作用：
 
