@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 3%
 
 ---
-
 
 # 使用动态嵌入式序列 {#using-dynamic-embedded-sequence}
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 要使用动态嵌入式序列，请通过&#x200B;***渠道角色***&#x200B;分配渠道。 渠道角色定义显示的上下文。 角色由各种操作定位，并且与履行角色的实际渠道无关。 此部分描述了一个按角色定义渠道的用例，以及如何将该内容用于全局渠道。您还可以将角色视为分配的标识符，或上下文中渠道的别名。
 
-### 使用动态嵌入式序列的好处{#benefits-of-using-dynamic-embedded-sequences}
+### 使用动态嵌入式序列的好处 {#benefits-of-using-dynamic-embedded-sequences}
 
 将序列渠道放置在位置而不是渠道文件夹中的主要好处是，允许本地或区域作者编辑与其相关的内容，同时限制他们在层次结构中上方编辑渠道。
 
@@ -258,7 +258,7 @@ ht-degree: 3%
    1. 选择计划的路径（例如，此处，**Demo** —> **计划** —>**AdSchedule**）。
    1. 单击&#x200B;**保存**。
 
-## 查看结果{#viewing-the-results}
+## 查看结果 {#viewing-the-results}
 
 设置渠道和显示结束后，请启动AEM Screens播放器以查看内容。
 
@@ -291,7 +291,7 @@ ht-degree: 3%
 
 您需要修改ACL以根据用户的位置限制用户对内容的访问。
 
-### 用例{#example-use-case}示例
+### 示例用例 {#example-use-case}
 
 以下示例允许您为上述演示项目创建三个用户。
 
@@ -305,7 +305,7 @@ ht-degree: 3%
 
 * **商店 — 作者**:包含只对“存储1”、“存储2”、“存储3”和“ **存储4”拥有读取、写入和编辑权限的用**&#x200B;户，这些用户对“存储1”、“ **存储2”**、“存储3”和“存储4” **具有读取、写入和编辑权限。** ****
 
-#### 创建用户组、用户和设置ACL的步骤{#steps-for-creating-user-groups-users-and-setting-up-acls}
+#### 创建用户组、用户和设置ACL的步骤 {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
 要详细了解如何使用ACL分隔项目，以便每个人或团队都能够处理自己的项目，请参阅&#x200B;**设置ACL**。
@@ -406,4 +406,3 @@ ht-degree: 3%
 
 >[!NOTE]
 要详细了解如何设置权限，请参阅[设置ACL](setting-up-acls.md)。
-
