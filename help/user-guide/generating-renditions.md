@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 64%
 
 ---
 
-
 # 视频演绎版 {#video-renditions}
 
 您可以手动和自动生成全高清演绎版。以下部分介绍了将演绎版添加到资产的工作流。
 
-## 自动生成全高清演绎版   {#automatically-generating-full-hd-renditions}
+## 自动生成全高清演绎版  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -93,4 +93,3 @@ ht-degree: 64%
 1. 打开&#x200B;**演绎版**&#x200B;侧边栏，此时您将发现新的全高清演绎版。
 
    ![step8_-_open_therendissiarget](assets/step8_-_open_therenditionssiderail.png)
-
