@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 38%
 
 ---
 
-
-# 创建和管理项目{#creating-and-managing-projects}
+# 创建和管理项目 {#creating-and-managing-projects}
 
 通过选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”，可使用 AEM Screens。
 
@@ -85,4 +85,3 @@ ht-degree: 38%
 ### 后续步骤 {#the-next-steps}
 
 创建自己的项目后，请参阅[渠道管理](managing-channels.md)以创建和管理渠道中的内容。
-
