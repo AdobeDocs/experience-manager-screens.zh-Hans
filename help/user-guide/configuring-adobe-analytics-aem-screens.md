@@ -1,8 +1,8 @@
 ---
 title: 使用Adobe Analytics配置AEM Screens
 seo-title: 使用Adobe Analytics配置AEM Screens
-description: '请阅读本节内容，了解有关使用离线Adobe Analytics排序和发送自定义事件的更多信息 '
-seo-description: '请阅读本节内容，了解有关使用离线Adobe Analytics排序和发送自定义事件的更多信息 '
+description: 请阅读本节内容，了解有关使用离线Adobe Analytics排序和发送自定义事件的更多信息
+seo-description: 请阅读本节内容，了解有关使用离线Adobe Analytics排序和发送自定义事件的更多信息
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,17 +11,17 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: 管理屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
 
 ---
 
-
-# 使用AEM Screens配置Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
+# 使用Adobe Analytics配置AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -34,17 +34,17 @@ ht-degree: 9%
 * **Adobe Analytics与AEM Screens测序**
 * **使用离线发送自定义事件Adobe Analytics**
 
-## 在Adobe Analytics中与AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}进行排序
+## Adobe Analytics与AEM Screens测序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
 ***排序过程***&#x200B;从激活Adobe Analytics服务的数据存储服务开始。 渠道内容通过工资单发送Adobe Analytics事件，即数据测试捕获到Windows I/O并触发逗留事件。 事件将保存到索引数据库中，并进一步放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，然后在区块存储中进一步传输数据。 连接后，会尝试发送最大数据量。
 
-### 排序图{#sequencing-diagram}
+### 排序图 {#sequencing-diagram}
 
 以下顺序图介绍了Adobe Analytics与AEM Screens的集成：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用离线Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}发送自定义事件
+## 使用离线发送自定义事件Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
 下表汇总了事件的标准数据模型。 其中列出了发送到Adobe Analytics的所有字段：
 
@@ -331,4 +331,3 @@ ht-degree: 9%
   </tr>
  </tbody>
 </table>
-
