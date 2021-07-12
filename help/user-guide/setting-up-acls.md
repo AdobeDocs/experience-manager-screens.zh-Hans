@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: 管理屏幕
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
 
 ---
-
 
 # 设置ACL {#setting-up-acls}
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 作为AEM管理员，您需要确保项目的团队成员不会妨碍其他项目，并且每个用户都会根据项目要求分配特定角色。
 
-## 设置权限{#setting-up-permissions}
+## 设置权限 {#setting-up-permissions}
 
 以下步骤概述了为项目设置ACL的过程：
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 >
 >在某些情况下，您可以将创作功能（例如管理资产和创建渠道）与管理功能（例如注册播放器）分开。 在这种情况下，请创建两个组，并将作者组添加到参与者，将管理员组添加到参与者和用户管理员。
 
-### 创建组{#creating-groups}
+### 创建群组 {#creating-groups}
 
 创建新项目时，还应创建默认用户组，并分配一组基本权限。 您应该将权限扩展到我们拥有的典型AEM Screens角色。
 
@@ -142,4 +142,3 @@ ht-degree: 1%
   </tr>
  </tbody>
 </table>
-
