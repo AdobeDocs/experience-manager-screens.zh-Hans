@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 59%
 
 ---
-
 
 # 创建和管理显示屏 {#creating-and-managing-displays}
 
@@ -111,7 +111,7 @@ ht-degree: 59%
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### “显示信息”面板{#display-information-panel}
+### “显示信息”面板 {#display-information-panel}
 
 **显示信息**&#x200B;面板提供了显示属性。
 
@@ -127,12 +127,12 @@ ht-degree: 59%
 使用&#x200B;**CRXDE Lite**&#x200B;访问&#x200B;**idleTimeout**&#x200B;属性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` 。
 
 
-### “已指定渠道”面板{#assigned-channels-panel}
+### “已指定渠道”面板 {#assigned-channels-panel}
 
 **已指定渠道**&#x200B;面板显示了已分配到此设备的渠道。
 
 
-### “设备”面板  {#devices-panel}
+### “设备”面板 {#devices-panel}
 
 **设备**&#x200B;面板提供了有关设备配置的信息。
 
