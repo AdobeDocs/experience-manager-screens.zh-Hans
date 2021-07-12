@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 70%
 
 ---
-
 
 # 管理设备 {#managing-devices}
 
@@ -30,7 +30,7 @@ ht-degree: 70%
 >
 >在分配设备之前，您需要先注册该设备。有关更多信息，请参阅[设备注册](device-registration.md)。
 
-## 设备分配  {#device-assignment}
+## 设备分配 {#device-assignment}
 
 请按照以下步骤将设备分配到显示屏：
 
@@ -76,4 +76,3 @@ ht-degree: 70%
 在您熟悉如何将渠道分配到显示屏后，请参阅以下资源：
 
 * [监测和故障诊断](monitoring-screens.md)
-
