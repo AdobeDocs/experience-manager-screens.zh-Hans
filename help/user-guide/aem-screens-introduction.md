@@ -3,15 +3,15 @@ title: 什么是AEM Screens?
 seo-title: 什么是AEM Screens?
 description: “AEM Screens — 一种数字标牌解决方案，允许您发布涉及不同屏幕类型的动态交互式数字体验和交互内容，并结合一个全面的数字营销平台。”
 feature: 数字标牌概述
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 8%
 
 ---
-
 
 # 什么是AEM Screens?{#what-is-aem-screens}
 
@@ -29,17 +29,17 @@ AEM Screens是一款功能强大的基于Web的解决方案，它允许您通过
 
 要了解与AEM Screens相关的关键术语，请参阅[术语表](screens-glossary.md)。
 
-### Screens播放器{#architecture-of-screens-player}的架构
+### Screens播放器的架构 {#architecture-of-screens-player}
 
 下图显示了AEM Screens播放器的常规架构：
 
 ![chlimage_1-21](assets/chlimage_1-29.png)
 
-### 在五分钟之内创建一个数字标牌体验{#create-a-digital-signage-experience-in-minutes}
+### 在五分钟之内创建一个数字标牌体验 {#create-a-digital-signage-experience-in-minutes}
 
 要创建Screens演示项目并在Screens播放器中发布您的内容，请参阅[AEM Screens的Kickstart](kickstart-for-aem-screens.md)。
 
-## 启动新的AEM Screens项目{#starting-a-new-aem-screens-project}
+## 启动新的AEM Screens项目 {#starting-a-new-aem-screens-project}
 
 要启动新的数字标牌体验，需要先整合各种角色，然后才能投入使用。 以下角色为创建新Screens项目提供了起点：
 
