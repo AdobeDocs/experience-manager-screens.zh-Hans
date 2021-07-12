@@ -4,15 +4,15 @@ seo-title: 术语表
 description: 请阅读本页以了解与AEM Screens相关的关键术语。
 seo-description: 请阅读本页以了解与AEM Screens相关的关键术语。
 feature: 概述
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
 
 ---
-
 
 # 术语表 {#glossary}
 
