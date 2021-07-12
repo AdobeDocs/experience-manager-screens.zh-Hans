@@ -3,15 +3,15 @@ title: 渠道分配 — 最新FP
 seo-title: 渠道分配 — 最新FP
 description: 请阅读本页，了解渠道分配和分时段。
 feature: 创作屏幕，渠道分配
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 23%
 
 ---
-
 
 # 渠道分配 {#channel-assignment}
 
@@ -28,11 +28,11 @@ ht-degree: 23%
 >您可以为显示屏分配多个渠道。
 
 
-## 分配渠道{#assign-a-channel-new-release}
+## 分配渠道 {#assign-a-channel-new-release}
 
 请按照以下部分创建AEM Screens项目并将渠道分配给显示屏。
 
-### 创建AEM Screens项目和渠道{#creating-project}
+### 创建AEM Screens项目和渠道 {#creating-project}
 
 按照以下步骤设置项目和渠道：
 
@@ -57,7 +57,7 @@ ht-degree: 23%
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### 将渠道分配给显示器{#assigning-channel-to-display}
+### 将渠道分配给显示屏 {#assigning-channel-to-display}
 
 项目设置完成后，必须将渠道分配给显示屏来查看内容。
 
@@ -94,7 +94,7 @@ ht-degree: 23%
 
 1. 配置首选项后，单击&#x200B;**Save**。
 
-### 在Chrome播放器{#viewing-content-output}中查看内容
+### 在Chrome播放器中查看内容 {#viewing-content-output}
 
 此示例在Chrome播放器中显示输出。 将渠道分配给显示屏后，必须向播放器注册设备。
 
@@ -104,7 +104,7 @@ ht-degree: 23%
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## 时间轴视图{#timeline-view}
+## 时间轴视图 {#timeline-view}
 
 将渠道分配给显示屏并设置重复计划后，您便可以从&#x200B;**已分配的渠道和计划**&#x200B;面板中查看时间轴。
 
@@ -120,7 +120,7 @@ ht-degree: 23%
 
    ![图像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## 了解渠道分配对话框{#channel-properties}中的渠道属性
+## 了解渠道分配对话框中的渠道属性 {#channel-properties}
 
 以下属性是从&#x200B;**渠道分配**&#x200B;对话框的&#x200B;**Settings**&#x200B;选项中设置的。
 
