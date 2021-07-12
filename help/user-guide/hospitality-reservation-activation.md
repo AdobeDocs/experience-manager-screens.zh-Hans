@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
-
-# 酒店预订激活{#hospitality-reservation-activation}
+# 酒店预订激活 {#hospitality-reservation-activation}
 
 以下用例演示了如何根据Google工作表中填充的值激活医院预订。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 有关详细信息，请参阅[在AEM Screens中配置ContextHub](configuring-context-hub.md) 。
 
-## 基本流量{#basic-flow}
+## 基本流量 {#basic-flow}
 
 请按照以下步骤为您的AEM Screens项目实施酒店预订激活用例：
 
@@ -86,6 +86,4 @@ ht-degree: 0%
 
    1. 单击&#x200B;**预览。** 此外，打开Google工作表并更新其值。
    1. 更新&#x200B;**Restaurant1**&#x200B;和&#x200B;**Restaurant2**&#x200B;列中的值。 如果&#x200B;**Restaurant1** > **Restaurant2,**&#x200B;您应该能够查看&#x200B;*牛排*&#x200B;食品的图像，否则，屏幕上会显示&#x200B;*Thai*&#x200B;食品图像。
-
    ![结果5](assets/result5.gif)
-
