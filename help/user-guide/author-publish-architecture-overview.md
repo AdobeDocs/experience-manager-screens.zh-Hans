@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: 管理屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
 
 ---
 
-
-# 创作和发布架构概述{#author-and-publish-architectural-overview}
+# 创作和发布架构概述 {#author-and-publish-architectural-overview}
 
 本页重点介绍以下主题：
 
@@ -50,7 +50,7 @@ AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创�
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## 架构设计{#architectural-design}
+## 建筑设计 {#architectural-design}
 
 有五个体系结构组件，可促进此解决方案：
 
@@ -61,7 +61,7 @@ AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创�
 * ****** 在发布实例之间发送消息以同步设备信息更新和命令
 * ****** 由发布实例作者通过特定REST API获取设备信息的轮询
 
-### 内容和配置的复制（转发）{#replication-forward-of-content-and-configurations}
+### 内容和配置的复制（转发）  {#replication-forward-of-content-and-configurations}
 
 标准复制代理用于复制Screens渠道内容、位置配置和设备配置。 这允许作者在发布渠道更新之前更新渠道的内容，并选择性地执行某种批准工作流程。 需要为发布场中的每个发布实例创建复制代理。
 
@@ -73,19 +73,19 @@ AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创�
 >
 >需要为发布场中的每个发布实例创建复制代理。
 
-### 屏幕复制代理和命令{#screens-replication-agents-and-commands}
+### Screens复制代理和命令  {#screens-replication-agents-and-commands}
 
 将创建特定于自定义屏幕的复制代理，以将命令从创作实例发送到AEM Screens设备。 AEM Publish实例用作将这些命令转发到设备的中介。
 
 这允许作者继续管理设备，例如发送设备更新，并从创作环境中拍摄屏幕截图。 AEM Screens复制代理具有自定义传输配置，如标准复制代理。
 
-### 发布实例{#messaging-between-publish-instances}之间的消息传送
+### 发布实例之间的消息传送  {#messaging-between-publish-instances}
 
 在很多情况下，命令仅用于一次发送到设备。 但是，在负载平衡的发布架构中，设备正在连接哪个发布实例尚未可知。
 
 因此，创作实例会将消息发送到所有发布实例。 但是，只应将一条消息中继到设备。 要确保消息正确，必须在发布实例之间进行一些通信。 使用&#x200B;*Apache ActiveMQ Artemis*&#x200B;实现此目的。 每个发布实例都使用基于Oak的Sling发现服务放置在一个松散耦合的拓扑中，并且配置了ActiveMQ，以便每个发布实例都可以通信并创建单个消息队列。 Screens设备通过负载平衡器轮询发布场，并从队列顶部选取命令。
 
-### 反向复制{#reverse-replication}
+### 反向复制 {#reverse-replication}
 
 在许多情况下，在发出命令后，Screens设备中会出现某种响应，需要将其转发到创作实例。 为了实现此AEM ***使用反向复制***。
 
@@ -94,7 +94,7 @@ AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创�
 * 此上下文中的反向复制仅用于设备提供的二进制数据（例如，日志文件和屏幕截图）。 非二进制数据通过轮询进行检索。
 * 从AEM创作实例轮询的反向复制将检索响应并将其保存到创作实例。
 
-### 轮询发布实例{#polling-of-publish-instances}
+### 轮询发布实例  {#polling-of-publish-instances}
 
 创作实例需要能够轮询设备以获取心率并了解已连接设备的运行状况。
 
