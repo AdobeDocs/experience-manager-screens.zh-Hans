@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
 
 ---
 
-
 # 配置和部署AEM Screens {#configuring-and-deploying-aem-screens}
 
 本页介绍如何在您的设备上安装和配置Screens播放器。
 
-## 服务器配置{#server-configuration}
+## 服务器配置 {#server-configuration}
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 1%
 >
 >AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要配置和AEM服务器以便准备好用于AEM Screens，请通过允许空反向链接来跳过反向链接过滤器。
 
-## 运行状况检查框架{#health-check-framework}
+## 运行状况检查框架 {#health-check-framework}
 
 运行状况检查框架允许用户在运行AEM Screens项目之前检查是否设置了两个必需的配置。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 以下要点可帮助配置和AEM服务器以准备好用于AEM Screens。
 
-#### 允许空反向链接请求{#allow-empty-referrer-requests}
+#### 允许空反向链接请求 {#allow-empty-referrer-requests}
 
 1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 1. 单击&#x200B;**Save**&#x200B;以启用Apache Sling反向链接过滤器允许为空。
 
 
-#### 基于Apache Felix Jetty的HTTP服务{#allow-apache-felix-service}
+#### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
 
 1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
 
@@ -117,7 +117,7 @@ AEM Screens需要触屏UI，并且无法用于Adobe Experience Manager(AEM)的�
 >
 >您始终可以使用用户首选项为特定用户启用经典UI。
 
-#### AEM在NOSAMPLECONTENT运行模式{#aem-in-nosamplecontent-runmode}中
+#### AEM在NOSAMPLECONTENT运行模式中 {#aem-in-nosamplecontent-runmode}
 
 在生产中运行AEM使用&#x200B;**NOSAMPLECONTENT**&#x200B;运行模式。 从&#x200B;**
 
@@ -125,7 +125,7 @@ AEM Screens需要触屏UI，并且无法用于Adobe Experience Manager(AEM)的�
 
 AEM Screens播放器需要此参数才能播放在线渠道。
 
-#### 密码限制{#password-restrictions}
+#### 密码限制 {#password-restrictions}
 
 对&#x200B;***DeviceServiceImpl***&#x200B;进行最新更改后，您不必删除密码限制。
 
@@ -141,22 +141,14 @@ AEM Screens播放器需要此参数才能播放在线渠道。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### 调度程序配置{#dispatcher-configuration}
+#### 调度程序配置 {#dispatcher-configuration}
 
 要了解如何为AEM Screens项目配置Dispatcher，请参阅[为AEM Screens项目配置Dispatcher](dispatcher-configurations-aem-screens.md)。
 
-#### Java编码{#java-encoding}
+#### Java编码 {#java-encoding}
 
 将&#x200B;***Java编码***&#x200B;设置为Unicode。 例如， *Dfile.encoding=Cp1252*&#x200B;将不起作用。
 
 >[!NOTE]
 >**推荐:**
 >建议在生产使用中对AEM Screens Server使用HTTPS。
-
-
-
-
-
-
-
-
