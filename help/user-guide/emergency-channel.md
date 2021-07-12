@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 8%
 
 ---
 
-
-# 紧急通道{#emergency-channel}
+# 紧急渠道 {#emergency-channel}
 
 ## 用例描述 {#use-case-description}
 
@@ -35,11 +35,11 @@ ht-degree: 8%
 * **[创建和管理计划](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要行为者{#primary-actors}
+### 主要行为者 {#primary-actors}
 
 内容作者
 
-## 基本流程：设置项目{#basic-flow-setting-up-the-project}
+## 基本流程：设置项目 {#basic-flow-setting-up-the-project}
 
 请按照以下步骤设置紧急渠道：
 
@@ -161,7 +161,7 @@ ht-degree: 8%
 
    ![new30](assets/new30.gif)
 
-## 切换到紧急通道{#switching-to-emergency-channel}
+## 切换到紧急渠道 {#switching-to-emergency-channel}
 
 在发生紧急情况时，请执行以下步骤：
 
