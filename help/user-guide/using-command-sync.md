@@ -4,17 +4,17 @@ seo-title: 使用命令同步
 description: 请阅读本页，了解如何使用命令同步。
 seo-description: 请阅读本页，了解如何使用命令同步。
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
-
-# 命令同步{#command-sync}
+# 命令同步 {#command-sync}
 
 以下页介绍如何使用命令同步。 命令同步允许在不同播放器之间同步播放。 播放器可以播放不同的内容，但每个资产需要具有相同的持续时间。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 *主控*&#x200B;将在项目开始播放时向所有注册的客户端发送命令。 其有效负荷可以是要播放的项目的索引和/或要播放的元素的外部html。
 
-## 实现命令同步{#using-command-sync}
+## 实现命令同步 {#using-command-sync}
 
 以下部分介绍如何在AEM Screens项目中使用命令同步。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >对于同步播放，要求所有硬件设备具有相同的硬件规范，最好是相同的操作系统。 不建议在不同硬件和操作系统之间进行同步。
 
-### 设置项目{#setting-up}
+### 设置项目 {#setting-up}
 
 在使用命令同步功能之前，请确保您有一个项目和一个渠道，该渠道已为您的项目设置内容。
 
@@ -90,7 +90,7 @@ ht-degree: 2%
    ![图像1](assets/command-sync/command-sync9-1.png)
 
 
-### 设置主控{#setting-up-master}
+### 设置主控 {#setting-up-master}
 
 1. 从&#x200B;**CommandSyncDemo** —> **位置** —> **Lobby** —> **LobbyDisplay**&#x200B;导航到显示功能板，然后单击操作栏中的&#x200B;**功能板**。
 在**DEVICES**面板中，您将看到两个设备（chrome和windows播放器），如下图所示。
@@ -108,7 +108,7 @@ ht-degree: 2%
 >
 >您可以将多个设备设置为主控。
 
-### 与主控{#sync-up-master}同步
+### 与主控同步 {#sync-up-master}
 
 1. 将Chrome设备设置为主控后，您可以同步其他设备（在本例中为Windows播放器）以与主控同步。
 从**DEVICES**&#x200B;面板中选择其他设备（在本例中为windows播放器），然后单击&#x200B;**同步到主控设备**，如下图所示。
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![图像1](assets/command-sync/command-sync14-1.png)
 
-### 与主控{#desync-up-master}取消同步
+### 与主控取消同步 {#desync-up-master}
 
 将设备或设备同步到主控后，即可从该设备中取消同步分配。
 
