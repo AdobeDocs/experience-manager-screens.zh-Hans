@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: 概述
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-
-# 第三部分：测试、POC、试运行和推广{#part-testing-pocs-pilots-rollouts}
+# 第三部分：测试、POC、试点和推广 {#part-testing-pocs-pilots-rollouts}
 
 本页重点介绍5个部分系列的第3部分，该系列旨在帮助团队成员更好地了解在推出之前开发成功解决方案的关键术语。
 
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 例如，零售环境中数字标牌计划的利益相关方可能包括：店内营销、商店环境或可视促销、商店运营、IT安全、IT支持、产品类别商家及其供应商，他们可能共同为解决方案提供资金。
 
-## 总体项目计划{#summary-of-key-terms-involved-in-an-overall-project-plan}中涉及的关键术语汇总
+## 总体项目计划涉及的关键术语概述 {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 以下部分概述了总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试用和推广。
 
-### 概念验证(POC){#proof-of-concept-poc}
+### 概念验证(POC) {#proof-of-concept-poc}
 
 POC的目的是获得对解决方案关键功能的初步反馈，并使最终客户和AV Integrator都有机会确定需要改进的领域，并准备有关劳动需求和资源需求的假设。 POC还为双方提供了评估解决方案性能的机会，该性能通常通过以下方式进行衡量：
 
-### 质量控制{#quality-control}
+### 质量控制 {#quality-control}
 
 系统和软件集成测试从AV Integrator的IT工程团队开始。 IT工程团队参考批准的系统设计，在AV Integrator设施的“实验室环境”中配置、实施和监督硬件组件的安装。 这样，您就可以仔细审查和测试整个解决方案以进行质量控制。
 
@@ -62,7 +62,7 @@ POC的目的是获得对解决方案关键功能的初步反馈，并使最终�
 * 连接
 * 内容部署工作流，包括手动、自动和条件部署。
 
-## 第三部分：有关测试、POC、试点和推广的视频教程{#part-video-tutorial-on-testing-pocs-pilots-rollouts}
+## 第三部分：有关测试、POC、试点和推广的视频教程 {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
 请阅读以下教程，了解测试、概念验证、试点计划和推广。
 
@@ -74,7 +74,7 @@ POC的目的是获得对解决方案关键功能的初步反馈，并使最终�
 
 *了解总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试点和推广。*
 
-## 下一步{#the-next-step}
+## 下一步 {#the-next-step}
 
 在您对测试、概念验证、试点计划和推广进行全面介绍后，请阅读下一个教程，深入学习项目管理和涉及的流程。
 
