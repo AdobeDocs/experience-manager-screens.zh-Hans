@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: 概述
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 1%
 
 ---
 
-
-# 第2部分：项目适用范围{#part-considerations-as-projects-are-scoped}的注意事项
+# 第2部分：关于项目适用范围的注意事项 {#part-considerations-as-projects-are-scoped}
 
 本页重点介绍5个部分系列的第2部分，该系列旨在帮助团队成员更好地了解促进成功部署AEM Screens的售前方面。
 
@@ -42,15 +42,15 @@ ht-degree: 1%
 >
 >定义内容策略非常重要，该策略考虑应用程序如何利用软件、硬件和连接资源来成功实现预期价值。
 
-## 数字标牌{#summary-of-project-considerations-in-a-digital-signage}中的项目注意事项摘要
+## 数字标牌中的项目注意事项概述  {#summary-of-project-considerations-in-a-digital-signage}
 
 在开发内容策略时，有几个注意事项，包括I/O层、资产类型、受众区段和分时段计划要求。
 
-### I/O层{#i-o-layers}
+### I/O层 {#i-o-layers}
 
 I/O根据感知受众邻近度驱动内容的条件式播放。 例如，当传感器检测到邻近时，内容播放可能会从“吸引”或被动内容更改为“参与”或交互式播放。 在需要根据人口统计信息来提供内容的应用程序中，这特别有用。
 
-### 内容资产类型{#content-asset-types}
+### 内容资产类型 {#content-asset-types}
 
 为了了解最终客户对内容资产的意图，需考虑以下几点：
 
@@ -63,23 +63,23 @@ I/O根据感知受众邻近度驱动内容的条件式播放。 例如，当传�
 * 是否需要多屏幕视频墙？如果需要，配置是什么？
 * 内容是否与运营收入或广告收入绑定，需要故障切换策略以防止停机？
 
-### 受众分段，分时段{#audience-segmentation-day-parts}
+### 受众分段，分时段 {#audience-segmentation-day-parts}
 
 加入分时段策略可让最终客户对其内容进行分段，并在适当的时间将消息传送定位到适当的受众。 这对于广告或零售网络特别有效，在这些网络中，许多内容参与者构成了播放列表的整个内容。
 
-### 业务运营要求{#business-operations-requirements}
+### 业务运营要求 {#business-operations-requirements}
 
 在“内容策略”对话中定义业务运营也很重要。 正式化最终客户的支持要求将有助于在部署后管理预期，确保适当衡量支持工作。
 
-### A/V要求{#a-v-requirements}
+### A/V要求 {#a-v-requirements}
 
 安装方案还需要定义，与有关设备访问服务的考虑事项一样。 这不仅会影响最初的安装人工和设备建议，还会确定当前的服务和支持需求。
 
-### 站点就绪{#site-readiness}
+### 站点就绪 {#site-readiness}
 
 售前流程的最后一个步骤是确定站点就绪性。 可以通过捕获网站、项目和进度详细信息的网站调查来促进这一工作。 现场就绪性实质上是在安装之前捕获位置的当前状态，在技术人员到达之前调用客户需要准备或计划解决的任何项目。 通常，这包括诸如电力、数据、家具的清除和灰尘的消除等项目。
 
-## 第2部分：关于项目适用范围{#part-video-tutorial-on-considerations-as-projects-are-scoped}的注意事项的视频教程
+## 第2部分：有关项目适用范围的注意事项的视频教程 {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 请阅读以下教程，了解内容策略、I/O层、资产类型、受众分段、日期、业务运营要求和站点准备注意事项。
 
@@ -89,7 +89,7 @@ I/O根据感知受众邻近度驱动内容的条件式播放。 例如，当传�
 
 *了解内容策略、I/O层、资产类型、受众分段、日期部分、业务运营要求和站点准备注意事项。*
 
-## 下一步{#the-next-step}
+## 下一步 {#the-next-step}
 
 了解项目发现过程中确定的元素以及利益相关方的意见，以评估项目并准备适当的设计后，您需要了解总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试点和推广。
 
