@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: 管理屏幕
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 43%
 
 ---
-
 
 # 使用AEM Screens Player {#working-with-aem-screens-player}
 
@@ -30,7 +30,7 @@ ht-degree: 43%
 
 将渠道分配给显示屏后，AEM Screens 播放器会显示内容。您可以使用管理员 UI 的首选项（在功能板中）或从播放器本身配置播放器的设置。
 
-## 使用设备功能板  {#using-the-device-dashboard}
+## 使用设备功能板 {#using-the-device-dashboard}
 
 您可以从设备功能板中配置设备的首选项，设备功能板可通过 AEM 创作实例进行访问。
 
@@ -60,7 +60,7 @@ ht-degree: 43%
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-#### 访问配置菜单选项{#configuration-options}
+#### 访问配置菜单选项 {#configuration-options}
 
 如果从侧面菜单中选择&#x200B;**Configuration**&#x200B;选项，则可以更新配置，如下图所示：
 
@@ -86,7 +86,7 @@ ht-degree: 43%
 >
 >建议在生产部署中禁用&#x200B;**管理员UI**。
 
-#### 访问内容缓存菜单选项{#content-cache-options}
+#### 访问内容缓存菜单选项 {#content-cache-options}
 
 您可以从 AEM Screens 播放器内的管理员 UI 中清除渠道和应用程序缓存。
 
@@ -112,7 +112,7 @@ ht-degree: 43%
 >
 >（请参阅下面部分所述的“从 Screens 播放器更改首选项”**）。
 
-### 从 AEM Screens 播放器管理首选项  {#managing-preferences-from-the-aem-screens-player}
+### 从 AEM Screens 播放器管理首选项 {#managing-preferences-from-the-aem-screens-player}
 
 您还可以从播放器本身更改管理员 UI 和渠道切换程序的设置。
 
@@ -146,7 +146,7 @@ AEM Screens 播放器有两种类型的更新：
 | 固件更新 | 通过远程命令应用于现有已安装的播放器。 更新后，播放器将自动重新加载现有内容。 | 是 | 自定义 | 近 — 1-3秒 |
 | 播放器Shell更新 | 这是要在播放器上部署的新可执行文件。 这需要在播放器上远程复制新的二进制文件，然后停止当前运行的版本并启动新版本。这可能需要重新下载包的预加载内容。 | 是（通过远程Shell） | 自定义 | 否 |
 
-## 播放器设备{#hardware-selection-guidelines-for-player-device}的硬件选择指南
+## 播放器设备的硬件选择指南 {#hardware-selection-guidelines-for-player-device}
 
 以下部分提供了Screens项目的硬件选择指南：
 
