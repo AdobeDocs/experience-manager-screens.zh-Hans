@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 43%
 
 ---
-
 
 # 嵌入式序列 {#embedded-sequences}
 
@@ -36,7 +36,7 @@ ht-degree: 43%
 >
 >要了解如何在 Screens 项目中使用其他组件，请参阅[向渠道添加组件](adding-components-to-a-channel.md)。
 
-### 添加嵌入式序列  {#adding-an-embedded-sequence}
+### 添加嵌入式序列 {#adding-an-embedded-sequence}
 
 您可以将嵌入式序列添加到渠道中。嵌入式序列是包含图像或视频等资产的另一个渠道。 添加嵌入式序列时，用户可以按“渠道路径”******&#x200B;将序列添加到渠道。
 
@@ -111,4 +111,3 @@ ht-degree: 43%
 1. 在&#x200B;**序列**&#x200B;选项卡中，为序列中的嵌入式渠道选择持续时间(ms)**。**
 
 ![最新](assets/latest.gif)
-
