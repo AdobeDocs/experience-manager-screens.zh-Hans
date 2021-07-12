@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 3%
 
 ---
-
 
 # 文本覆盖 {#text-overlay}
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 此部分仅展示如何在AEM Screens项目中使用和利用海报组件，并将其用作序列渠道中的一个渠道中的文本叠加。
 
-## 使用文本叠加{#using-text-overlay}
+## 使用文本叠加 {#using-text-overlay}
 
 以下部分介绍如何在AEM Screens项目中使用文本叠加。
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
-### 了解文本叠加属性{#understanding-text-overlay-properties}
+### 了解文本叠加属性 {#understanding-text-overlay-properties}
 
 使用文本叠加属性，您可以向Screens项目中的任何组件添加文本。 以下部分概述了文本叠加中可用的属性：
 
@@ -90,7 +90,7 @@ ht-degree: 3%
 >
 >要正确使用细粒度工具，请务必以像素(px)作为后缀来识别正确的位置，例如200px。 此表达式的结果将为距起始点200像素。
 
-## 在文本叠加{#using-text-overlay-context-hub}中使用ContextHub值
+## 在文本叠加中使用ContextHub值 {#using-text-overlay-context-hub}
 
 以下部分介绍数据存储中值的用法，例如，文本叠加组件中的google工作表。
 
@@ -149,18 +149,3 @@ ht-degree: 3%
 1. 单击&#x200B;**预览**&#x200B;以查看所需的输出。
 
    ![图像1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
