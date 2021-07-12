@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 6%
 
 ---
 
-
-# 多区域布局{#multi-zone-layout}
+# 多区域布局 {#multi-zone-layout}
 
 以下页面介绍了多区域布局的用法，并涵盖以下主题：
 
@@ -46,7 +46,7 @@ ht-degree: 6%
 * [创建显示屏](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [将渠道分配给显示器](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-## 创建多区域布局{#creating-multi-zone-layout}
+## 创建多区域布局 {#creating-multi-zone-layout}
 
 在创建渠道时，您可以使用不同的模板在渠道中创建区域。 您可以添加单个图像、视频或嵌入式渠道，以便按序列显示多个资产。
 
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 1. 单击&#x200B;**创建**&#x200B;以完成渠道创建。
 
-### 在一个或多个区域中使用单个资产{#using-single-assets-in-one-or-more-zones}
+### 在一个或多个区域中使用单个资产 {#using-single-assets-in-one-or-more-zones}
 
 您可以在所有单独的区域中使用单个资产，如图像或视频。 请按照以下步骤进行实施：
 
@@ -76,7 +76,7 @@ ht-degree: 6%
 
    ![图像](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
-### 在一个或多个区域{#using-sequenced-content-in-one-or-more-zones}中使用已排序的内容
+### 在一个或多个区域中使用已排序的内容 {#using-sequenced-content-in-one-or-more-zones}
 
 如果希望各个区域在不同区域中显示图像和视频的序列，请按照以下步骤了解详细信息。
 
@@ -121,7 +121,7 @@ ht-degree: 6%
 
       ![图像](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### 创建位置和显示屏{#creating-location}
+### 创建位置和显示屏 {#creating-location}
 
 您必须创建一个位置和显示屏，才能在Screens播放器中查看内容。 请按照以下步骤创建位置和显示屏。
 
@@ -139,7 +139,7 @@ ht-degree: 6%
    1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**显示**，然后单击&#x200B;**下一步**。
    1. 在&#x200B;**标题**&#x200B;中输入&#x200B;**Lobby**，然后单击&#x200B;**创建**。
 
-### 将渠道分配给显示器{#channel-channel}
+### 将渠道分配给显示屏 {#channel-channel}
 
 您必须将渠道分配给显示屏才能查看内容。 请按照以下步骤将渠道分配给显示屏。
 
@@ -162,7 +162,7 @@ ht-degree: 6%
       >
       > 在将主通道（在本例中为&#x200B;**MultiZone**）分配给显示屏后，必须将其他两个嵌入的通道&#x200B;**Zone1**&#x200B;和&#x200B;**Zone2**&#x200B;也分配给同一显示屏。
 
-### 注册设备{#registering-device}
+### 注册设备 {#registering-device}
 
 设置位置和显示屏后，请按照以下步骤注册设备并将显示屏分配给设备。
 
@@ -183,7 +183,7 @@ ht-degree: 6%
    >[!NOTE]
    >如果您尝试在Screens播放器中查看内容，请确保单击渠道功能板中分配给显示屏的每个渠道的&#x200B;**更新离线内容** 。
 
-### 查看结果{#viewing-the-result}
+### 查看结果 {#viewing-the-result}
 
 使用上述步骤实施多区域布局后，将显示以下输出。
 
@@ -192,5 +192,3 @@ ht-degree: 6%
 左区域是序列渠道，右区域包括视频。
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
