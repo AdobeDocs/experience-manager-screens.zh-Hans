@@ -3,15 +3,15 @@ title: 渠道分配
 seo-title: 渠道分配
 description: 请阅读本页，了解渠道分配和分时段功能。
 feature: 创作屏幕，渠道分配
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 42%
 
 ---
-
 
 # 渠道分配 {#channel-assignment}
 
@@ -25,7 +25,7 @@ ht-degree: 42%
 >[!NOTE]
 >您可以为显示屏分配多个渠道。
 
-## 分配渠道{#assign-a-channel}
+## 分配渠道 {#assign-a-channel}
 
 请按照以下步骤为显示屏分配渠道：
 
@@ -44,9 +44,9 @@ ht-degree: 42%
    可以从以下部分的&#x200B;**渠道分配**&#x200B;对话框中配置属性。 请参阅[渠道属性](#channel-properties)一节，了解有关渠道属性的更多信息。
 
 
-## 了解渠道分配{#channel-properties}中的渠道属性
+## 了解渠道分配中的渠道属性 {#channel-properties}
 
-### 参考通道{#ref-channel}
+### 参考渠道 {#ref-channel}
 
 引用渠道允许您按渠道名称或渠道路径提供对所需渠道的引用。
 
@@ -161,7 +161,7 @@ ht-degree: 42%
 >
 >此外，您可以为每个渠道定义&#x200B;***优先级***。例如，如果将两个渠道设置为同一天同一时间或同一个月播放，则将先播放具有较高优先级的渠道。优先级的最小值可以设置为 0。
 
-#### 播放具有相同优先级的渠道内容  {#playing-content-for-channels-with-same-priority}
+#### 播放具有相同优先级的渠道内容 {#playing-content-for-channels-with-same-priority}
 
 此示例显示了某家商店的DayParting功能，该商店在12月月份会按相同的计划显示冬季收藏集。 但是，由于在最后一周渠道 B 的优先级设置为 2，因此，渠道 B 会播放其内容，而渠道 A 则不会播放内容。
 
@@ -177,5 +177,4 @@ ht-degree: 42%
 >
 >* [处理资产中的循环](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [处理渠道中资产的循环](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
