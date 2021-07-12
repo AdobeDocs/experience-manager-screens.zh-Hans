@@ -5,17 +5,17 @@ description: 请按照此用例创建永久接管渠道。
 seo-description: 请按照此用例，设置一个项目，以创建一个持续播放特定日期和时间的永久接管渠道。
 contentOwner: jsyal
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
 
 ---
 
-
-# 永久接管通道{#perpetual-takeover-channel}
+# 永久接管渠道 {#perpetual-takeover-channel}
 
 以下页面展示了一个用例，其中着重说明了如何设置一个项目，以便创建一个持续播放特定日期和时间的永久接管渠道。
 
@@ -33,11 +33,11 @@ ht-degree: 1%
 * **[创建和管理计划](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要行为者{#primary-actors}
+### 主要行为者 {#primary-actors}
 
 内容作者
 
-## 设置项目{#setting-up-the-project}
+## 设置项目 {#setting-up-the-project}
 
 请按照以下步骤设置项目：
 
@@ -111,7 +111,7 @@ ht-degree: 1%
       ![](assets/p_usecase8.png)
 assetNow，TakeOverchannel将 **** 在每周三下午2:00 **** 接管MainAdChannel，为期2小时，至下午4:00，并播放其内容，从2020年1月09日到2020年1月31日。
 
-## 示例表达式{#example-expressions}
+## 示例表达式 {#example-expressions}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
