@@ -1,8 +1,8 @@
 ---
 title: 使用体验片段
 seo-title: 使用体验片段
-description: '请阅读本页，了解如何在AEM Screens中使用体验片段。 '
-seo-description: '请阅读本页，了解如何在AEM Screens中使用体验片段。 '
+description: 请阅读本页，了解如何在AEM Screens中使用体验片段。
+seo-description: 请阅读本页，了解如何在AEM Screens中使用体验片段。
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: 创作屏幕、体验片段
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 8%
 
 ---
-
 
 # 使用体验片段 {#using-experience-fragments}
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 例如，以下工作流演示了如何在站点中使用We.Retail中的体验片段。 您可以选择一个网页，并在其中一个项目的AEM Screens渠道中利用该内容。
 
-### 先决条件{#pre-requisites}
+### 先决条件 {#pre-requisites}
 
 **使用渠道创建演示项目**
 
@@ -161,7 +161,7 @@ ht-degree: 8%
 
    j.单击复选标记以完成该过程。
 
-### 验证结果{#validating-the-result}
+### 验证结果 {#validating-the-result}
 
 完成上述步骤后，您可以通过以下方式在&#x200B;**ChannelOne**&#x200B;中验证您的体验片段：
 
@@ -171,7 +171,7 @@ ht-degree: 8%
 您将从渠道的&#x200B;**Sites**&#x200B;页面（体验片段的Live-copy）中查看内容，如下图所示：\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## 将更改传播到页面{#propagating-changes-from-the-master-page}
+## 将更改传播到页面 {#propagating-changes-from-the-master-page}
 
 ***Live*** Copy是指由转出配置定义的同步操作维护的（源的）副本。
 
@@ -209,7 +209,7 @@ ht-degree: 8%
 
    ![screen_shot_2018-06-08at32148pm](assets/screen_shot_2018-06-08at32148pm.png)
 
-### 验证更改{#validating-the-changes}
+### 验证更改 {#validating-the-changes}
 
 请按照以下步骤确认渠道中的更改：
 
@@ -219,4 +219,3 @@ ht-degree: 8%
 
 下图说明了&#x200B;**TestChannel**&#x200B;中的更改：\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
