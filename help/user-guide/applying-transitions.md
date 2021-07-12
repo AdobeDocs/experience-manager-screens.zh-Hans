@@ -6,17 +6,17 @@ seo-description: 请阅读本页内容，了解如何将过渡应用到Screens�
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 2%
 
 ---
 
-
-# 应用过渡{#applying-transitions}
+# 应用过渡 {#applying-transitions}
 
 本节介绍如何在不同资产（图像和视频）和渠道中的嵌入式序列之间应用&#x200B;**过渡**&#x200B;组件。
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >
 >要详细了解&#x200B;**Transition**&#x200B;组件的属性，请参阅[Transitions](adding-components-to-a-channel.md#transition)。
 
-## 将过渡组件添加到渠道{#adding-transition}中的资产
+## 将过渡组件添加到渠道中的资产 {#adding-transition}
 
 请按照以下步骤将过渡组件添加到您的AEM Screens项目：
 
@@ -60,4 +60,3 @@ ht-degree: 2%
 1. 此外，如果向此渠道编辑器添加&#x200B;**嵌入式序列**&#x200B;组件（包括序列渠道），则可以在末尾添加过渡组件，以便内容按顺序播放，如下图所示：
 
    ![图像3](assets/transitions5.png)
-
