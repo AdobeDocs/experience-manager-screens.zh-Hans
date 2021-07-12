@@ -3,21 +3,21 @@ title: 播放器的自动注册
 seo-title: 播放器的自动注册
 description: 请阅读本页，了解使用AMS/On-Prem Screens自动注册播放器的信息。
 feature: 管理屏幕、播放器
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
-
-# 播放器自动注册{#auto-registration}
+# 播放器的自动注册 {#auto-registration}
 
 手动批量注册数千个播放器可能会变得非常麻烦，并会增加时间和成本。 为简化此过程，批量注册功能允许您在AEM中指定预共享密钥，该密钥可通过配置文件或移动设备管理(MDM)解决方案配置到播放器中。
 
-## 实施播放器自动注册{#bulk-registering-implementation}
+## 实现播放器自动注册 {#bulk-registering-implementation}
 
 请按照以下步骤实施播放器的自动注册：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    ![图像](/help/user-guide/assets/auto-registration/auto-register2.png)
 
-## 安全最佳实践{#security-best-practices}
+## 安全最佳实践 {#security-best-practices}
 
 请按照以下部分考虑一些安全最佳实践：
 
