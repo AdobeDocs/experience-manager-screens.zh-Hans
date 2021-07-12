@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: 管理屏幕
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# 实施Chrome OS播放器{#implementing-chrome-os-player}
+# 实施Chrome OS播放器  {#implementing-chrome-os-player}
 
 本节介绍如何使用Chrome管理控制台实施Chrome OS播放器。
 
-## 使用Chrome管理控制台{#using-chrome-management-console}
+## 使用Chrome管理控制台 {#using-chrome-management-console}
 
 请按照以下步骤设置Chrome管理控制台：
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >为部署和管理Chrome OS设备，建议使用设备管理解决方案（如Chrome管理控制台）。 尽管如此，本文档为Chrome管理控制台提供了实施，但仍有其他供应商声称提供类似功能。 请联系设备管理软件的供应商。
 
-## 命名Chrome OS播放器{#name-chrome}
+## 命名Chrome OS播放器 {#name-chrome}
 
 您可以为Chrome播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Chrome播放器，还允许您轻松分配相应的内容。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    >[!NOTE]
    >必须在企业注册中注册Chrome播放器，并且必须通过Chrome管理控制台部署Chrome播放器，否则资产ID将返回空白（例如，将Chrome作为扩展）。 设备名称仅在注册时记录。 Adobe Experience Manager(AEM)将不会接收将来的更改。
 
-### 启用Kiosk模式{#enabling-kiosk-mode}
+### 启用Kiosk模式 {#enabling-kiosk-mode}
 
 按照以下步骤启用Kiosk模式：
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    更改可能需要几分钟才能生效，具体取决于网络。 建议重新启动。
 
-#### 正在检查远程设备状态{#checking-remote-device-status}
+#### 检查远程设备状态 {#checking-remote-device-status}
 
 1. 登录到Chrome开发人员控制台。
 1. 浏览至&#x200B;**设备管理** > **Chrome设备**，然后选择要控制的设备。
@@ -91,7 +91,7 @@ ht-degree: 0%
 >
 >请注意，这些设置可能会在设备注册后几分钟内启用。 每个选项可能会随着时间的推移而启用。
 
-### 配置Chrome OS播放器的远程配置{#configuring-remote-configuration-of-chrome-os-players}
+### 配置Chrome OS播放器的远程配置 {#configuring-remote-configuration-of-chrome-os-players}
 
 AEM Screens Player是一个支持Kiosk的应用程序，还为Chrome OS播放器启用远程策略配置。
 
@@ -108,7 +108,7 @@ AEM Screens Player是一个支持Kiosk的应用程序，还为Chrome OS播放器
 >
 >重新启动设备以同步策略更改。
 
-#### 策略JSON文件{#example-policy-json-file}示例
+#### 策略JSON文件示例 {#example-policy-json-file}
 
 ```java
 {
@@ -133,7 +133,7 @@ AEM Screens Player是一个支持Kiosk的应用程序，还为Chrome OS播放器
 }
 ```
 
-### 策略属性和用途{#policy-attributes-and-purpose}
+### 策略属性和用途 {#policy-attributes-and-purpose}
 
 下表概述了策略及其功能。
 
