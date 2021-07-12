@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: 创作屏幕、启动项
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # 使用Screens Launch更新内容 {#launches}
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * 服务器和播放器的任何时间差异
 
-### 了解宽限期{#understanding-grace-period}
+### 了解宽限期 {#understanding-grace-period}
 
 为了让播放器能够在设置的起始日期开始播放内容，我们需要在起始日期之前开始之前的活动。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >
 >现成的Screens Launch的宽限期设置为24小时，这意味着当我们在&#x200B;*/content/screens*&#x200B;下为任何资源启动设置起始日期时，促销活动将以此偏移开始。
 
-### 更新现成的宽限期{#updating-out-of-the-box-grace-period}
+### 更新现成的宽限期 {#updating-out-of-the-box-grace-period}
 
 本节将介绍如何将现成的宽限期更新为10分钟。
 
@@ -86,7 +86,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 此部分将演示如何在您的AEM Screens项目中实施Screens Launch。
 
-### 创建屏幕启动项{#creating-a-launch}
+### 创建屏幕启动项 {#creating-a-launch}
 
 请按照以下步骤将Screens Launch功能实施到您的AEM Screens项目：
 
@@ -154,7 +154,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ![图像](/help/user-guide/assets/launches-images/launches-16.png)
 
 
-### 编辑Launch属性以设置启动日期和范围{#editing-the-launch-properties-to-set-the-live-date-and-scope}
+### 编辑启动项属性以设置启动日期和范围 {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 创建启动项后，您可以使用&#x200B;**启动属性**&#x200B;来更新属性，例如启动日期、启动项标题和促销活动范围。
 
@@ -177,13 +177,13 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![图像](/help/user-guide/assets/launches-images/launches-19.png)
 
-### 编辑Screens Launch以添加或删除渠道{#editing-the-screens-launch-to-add-or-remove-channels}
+### 编辑屏幕启动项以添加或删除渠道  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 创建启动项后，可以使用&#x200B;**编辑启动项**&#x200B;选项向现有启动项添加或删除渠道。
 
 完成后，单击&#x200B;**Save**&#x200B;以导航回&#x200B;**FutureLaunch**&#x200B;渠道。
 
-### 手动提升屏幕启动{#promote-the-screens-launch-manually}
+### 手动提升屏幕启动项{#promote-the-screens-launch-manually}
 
 您可以使用&#x200B;**待定启动项**&#x200B;面板中的&#x200B;**提升启动项**&#x200B;选项来手动提升启动项。
 
@@ -200,11 +200,10 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 1. 在&#x200B;**提升启动项**&#x200B;向导中，单击&#x200B;**下一步**。
 1. 单击&#x200B;**Promote**&#x200B;以提升启动项。
 
-### 删除屏幕启动项{#deleting-the-screens-launch}
+### 删除屏幕启动项 {#deleting-the-screens-launch}
 
 您可以使用&#x200B;**从**&#x200B;待定启动项&#x200B;**面板中的删除启动项**&#x200B;选项来删除启动项。
 
 >[!CAUTION]
 >
 >此操作还将删除所有子项（嵌套启动项）。
-
