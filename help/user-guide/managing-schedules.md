@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 48%
 
 ---
-
 
 # 创建和管理计划 {#creating-and-managing-schedules}
 
@@ -46,7 +46,7 @@ ht-degree: 48%
 您将在项目中看到一个具有指定名称和标题的计划文件夹。
 
 
-## 查看功能板  {#viewing-dashboard}
+## 查看功能板 {#viewing-dashboard}
 
 在项目中创建计划文件夹后，您可以从计划功能板中查看详细信息。
 
@@ -67,4 +67,3 @@ ht-degree: 48%
    **已分配渠** 道面板单击已分配渠道面板右上角的+分配渠道以打开渠道分配对话框。
 
    **已分配显** 示面板从已分配显示面板中选择任意显示以打开显示功能板。
-
