@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: 概述
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
-
-# 第5部分：支持注意事项{#part-support-considerations}
+# 第5部分：支持注意事项 {#part-support-considerations}
 
 本页重点介绍5个部分系列的结尾部分，该系列旨在帮助团队成员了解如何解决硬件、软件和连接问题。 本阶段探讨现场支持的成本估算和框架。 此外，还说明了如何管理SLA参数、操作预算和NOC切换。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 确定在整个网络中重新调解问题的最佳方法。
 * 在制定第2天支持计划时，促进AEM实施者与AV Integrator之间的协调
 
-## 第2天支持{#summary-of-key-considerations-involved-in-day-support}中涉及的主要注意事项摘要
+## 第2天支持中涉及的主要注意事项摘要 {#summary-of-key-considerations-involved-in-day-support}
 
 以下是第2天支持的一些关键注意事项：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * 一些屏幕制造商提供独立于媒体播放器的屏幕监视功能，而其他制造商则需要外部设备。
 * AV集成商利用多种技术，因此解决方案保持灵活性，以最好地满足最终客户的需求。
 
-## 第5部分：有关支持注意事项的视频教程{#part-video-tutorial-on-support-considerations}
+## 第5部分：有关支持注意事项的视频教程 {#part-video-tutorial-on-support-considerations}
 
 按照本结论教程，阅读下面的5部分系列教程，其中着重介绍了如何确保从实施到操作支持的一致性和顺利过渡。 它还说明AEM实施者必须如何与AV Integrator合作，以确保在第2天支持计划中定义适当的支持脚本。
 
@@ -72,4 +72,3 @@ ht-degree: 0%
 ## 结论 {#conclusion}
 
 这5个部分系列重点介绍了对确保项目成功至关重要的关键注意事项。 有关实施详细信息，请参阅《AEM Screens用户指南》的其他部分。
-
