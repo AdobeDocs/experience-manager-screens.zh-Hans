@@ -3,17 +3,17 @@ title: Kickstart指南
 seo-title: Kickstart指南
 description: 请按照本页创建一个演示AEM Screens项目。 它可帮助您创建数字标牌体验，从安装和设置新项目开始，到在AEM Screens播放器中查看您的内容。
 feature: 数字标牌概述
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 5%
 
 ---
 
-
-# Kickstart指南{#kickstart-guide}
+# Kickstart指南 {#kickstart-guide}
 
 AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导您设置基本的数字标牌体验，并向每个渠道添加资产和/或视频等内容，以及将内容进一步发布到AEM Screens播放器。
 
@@ -33,7 +33,7 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 >请按照以下步骤启用&#x200B;***Apache Sling反向链接过滤器允许空***:
 
 
-## 允许空反向链接请求{#allow-empty-referrer-requests}
+## 允许空反向链接请求 {#allow-empty-referrer-requests}
 
 1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
 
@@ -49,9 +49,9 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 
 1. 单击&#x200B;**Save**&#x200B;以启用Apache Sling反向链接过滤器允许为空。
 
-## 在五分钟之内创建一个数字标牌体验{#creating-a-digital-signage-experience-in-minutes}
+## 在五分钟之内创建一个数字标牌体验 {#creating-a-digital-signage-experience-in-minutes}
 
-### 创建AEM Screens项目{#creating-project}
+### 创建AEM Screens项目 {#creating-project}
 
 第一步是创建一个AEM Screens项目。
 
@@ -85,7 +85,7 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 
    ![图像](assets/kickstart/demo-5.png)
 
-### 向渠道{#adding-content}添加内容
+### 向渠道添加内容 {#adding-content}
 
 渠道就绪后，您需要向渠道中添加AEM Screens播放器将显示的内容。
 
@@ -123,7 +123,7 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 将创建&#x200B;**TestLocation**&#x200B;并将其添加到您的&#x200B;**Locations**&#x200B;文件夹中。
 
 
-### 创建位置{#creating-display}的显示
+### 创建位置显示 {#creating-display}
 
 创建位置后，您需要为该位置创建一个新显示屏。
 
@@ -148,7 +148,7 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 
    ![图像](assets/kickstart/demo-disp4.png)
 
-### 分配渠道{#assigning-channel}
+### 分配渠道 {#assigning-channel}
 
 项目设置完成后，必须将渠道分配给显示屏来查看内容。
 
@@ -182,7 +182,7 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 
 1. 配置首选项后，单击&#x200B;**Save**。
 
-### 注册设备并将设备分配给显示器{#registering-device}
+### 注册设备并将设备分配给显示器 {#registering-device}
 
 您需要使用AEM仪表板注册设备。
 
@@ -238,7 +238,7 @@ AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导
 
    ![图像](assets/kickstart/demo-register9.png)
 
-### 在Chrome播放器{#viewing-content-output}中查看内容
+### 在Chrome播放器中查看内容 {#viewing-content-output}
 
 现在，渠道中的所有资产都在您的Chrome OS播放器上播放。
 
