@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-
-# 创建视频内边距工作流{#creating-a-video-padding-workflow}
+# 创建视频内边距工作流 {#creating-a-video-padding-workflow}
 
 本节涵盖以下主题：
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## 创建视频内边距工作流{#creating-a-video-padding-workflow-1}
+## 创建视频内边距工作流 {#creating-a-video-padding-workflow-1}
 
 要创建视频填充工作流，您必须为视频创建工作流，然后在AEM Screens项目渠道中使用该工作流。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 1. 创建工作流
 1. 在AEM Screens项目中使用工作流
 
-### 创建工作流{#creating-a-workflow}
+### 创建工作流 {#creating-a-workflow}
 
 请按照以下步骤为视频创建工作流：
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### 在AEM Screens项目{#using-the-workflow-in-an-aem-screens-project}中使用工作流
+### 在AEM Screens项目中使用工作流 {#using-the-workflow-in-an-aem-screens-project}
 
 请按照以下步骤使用您的AEM Screens项目中的工作流：
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## 验证工作流{#validating-the-output-for-the-workflow}的输出
+## 验证工作流的输出 {#validating-the-output-for-the-workflow}
 
 您可以通过以下方式验证输出：
 
@@ -121,4 +121,3 @@ ht-degree: 0%
 * 导航到CRXDE Lite中的&#x200B;***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4***，如下图所示：
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
