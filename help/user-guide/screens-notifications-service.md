@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 5%
 
 ---
-
 
 # AEM Screens通知服务{#aem-screens-notifications-service}
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 此服务可在OSGi Web控制台中配置。
 
-## 配置电子邮件设置{#configuring-email-settings}
+## 配置电子邮件设置 {#configuring-email-settings}
 
 请按照以下步骤配置电子邮件通知设置：
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
 1. 单击&#x200B;**Save**&#x200B;以通过电子邮件为您的AEM Screens设备配置监视器活动。
 
-## 电子邮件通知{#email-notification}
+## 电子邮件通知 {#email-notification}
 
 设置电子邮件通知的配置后，您将收到一封电子邮件通知，其中将包含指向实际设备的链接，该设备报告为不活动状态。
 
@@ -96,7 +96,7 @@ ht-degree: 5%
 
 仅当至少有一个设备在给定的ping超时内未ping通，并且在生成电子邮件时仍未ping通时，才会发送电子邮件。
 
-### {#example-use-cases}用例示例
+### 用例示例 {#example-use-cases}
 
 以下示例介绍了从Screens设备电子邮件监控服务配置属性的一些参考方案。
 
