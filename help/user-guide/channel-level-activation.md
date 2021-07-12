@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: 创作屏幕，渠道级别激活
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
 
-
-# 通道级激活{#channel-level-activation-single-event-playback}
+# 渠道级别激活 {#channel-level-activation-single-event-playback}
 
 本页介绍渠道中使用的资产的渠道级别激活。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
    ![new1](assets/new1.gif)
 
-## 查看结果{#viewing-the-results}
+## 查看结果 {#viewing-the-results}
 
 设置渠道和显示结束后，请启动AEM Screens播放器以查看内容。
 
@@ -156,13 +156,13 @@ ht-degree: 0%
 [使用AEM Screens Player](working-with-screens-player.md)
 
 
-## 处理渠道{#handling-recurrence-in-assets}中资产的循环
+## 处理渠道中资产的循环 {#handling-recurrence-in-assets}
 
 您可以根据需要安排渠道中的资产在每日、每周或每月定期发生。
 
 假设您希望仅在星期五下午1:00至晚上10:00显示渠道的内容。 您可以使用&#x200B;**Activation**&#x200B;选项卡为资产设置所需的循环间隔。
 
-### 日期划分{#day-parting}
+### 将日期分开 {#day-parting}
 
 1. 选择渠道，然后单击操作栏中的&#x200B;**功能板**&#x200B;以打开渠道功能板。
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### 将日期分开的示例表达式{#example-one}
+#### 将日期分开的示例表达式 {#example-one}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### WeekParting {#example-two}的示例表达式
+#### 用于将星期分开的示例表达式 {#example-two}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -217,7 +217,7 @@ ht-degree: 0%
 您还可以使用&#x200B;_军事时间_&#x200B;符号（即14:00），而不是&#x200B;*am/pm*&#x200B;符号（即下午2:00）。
 
 
-### MonthParting {#month-parting}
+### 月份划分 {#month-parting}
 
 1. 选择渠道，然后单击操作栏中的&#x200B;**功能板**&#x200B;以打开渠道功能板。
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### MonthParting {#example-three}的示例表达式
+#### 月份划分的示例表达式 {#example-three}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 >[!NOTE]
 您还可以使用&#x200B;_军事时间_&#x200B;符号（即14:00），而不是&#x200B;*am/pm*&#x200B;符号（即下午2:00）。
 
-### 部分{#combined-parting}的组合
+### 零件组合 {#combined-parting}
 
 1. 选择渠道，然后单击操作栏中的&#x200B;**功能板**&#x200B;以打开渠道功能板。
 
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**Schedule**&#x200B;中输入表达式，此时资产将按特定的日期和时间间隔显示。
 
-#### 部分组合{#example-four}的示例表达式
+#### 部分组合的示例表达式 {#example-four}
 
 下表汇总了在将渠道分配给显示屏时可添加到计划的几个示例表达式。
 
@@ -265,4 +265,3 @@ ht-degree: 0%
 
 >[!NOTE]
 在定义一周中的日期和月份时，您既可以使用短手符号和全名符号，如周一/周一和一月/一月。  此外，您还可以使用&#x200B;_军事时间_&#x200B;符号（即14:00），而不是&#x200B;*am/pm*&#x200B;符号（即下午2:00）。
-
