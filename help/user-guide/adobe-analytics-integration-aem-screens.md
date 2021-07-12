@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: 管理屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Analytics与AEM Screens集成{#adobe-analytics-integration-with-aem-screens}
+# Adobe Analytics与AEM Screens集成 {#adobe-analytics-integration-with-aem-screens}
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ AEM Screens提供了与Adobe Analytics的开箱即用集成，并为您提供了
 * 实现数字标牌实施的ROI
 * 将Analytics集成为将来支持收集和分析使用信息的基础
 
-## 体系结构详细信息{#architectural-details}
+## 架构详细信息 {#architectural-details}
 
 AEM Screens客户希望了解在什么时间显示了哪些内容，以及显示了多长时间（汇总）。 这是标牌解决方案的常见功能。 AEM Screens将利用Adobe Analytics，而不是构建我们自己的分析，通过它，我们可以实现市场上独一无二的功能 — 跨渠道分析可帮助将位置中显示的内容与其他数据源进行关联。
 
@@ -73,7 +73,7 @@ AEM Screens客户希望了解在什么时间显示了哪些内容，以及显示
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## 屏幕分析：启用流程{#screens-analytics-enablement-flow}
+## 屏幕分析：启用流程 {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ AEM Screens客户希望了解在什么时间显示了哪些内容，以及显示
 
 ![]()
 
-### 配置属性{#configuring-the-properties}
+### 配置属性 {#configuring-the-properties}
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ AEM Screens客户希望了解在什么时间显示了哪些内容，以及显示
 >
 >默认情况下， **Analytics发送频率**&#x200B;为15分钟。
 
-#### 在AEM Screens中使用Adobe Analytics服务{#using-adobe-analytics-service-in-aem-screens}
+#### 在AEM Screens中使用Adobe Analytics服务 {#using-adobe-analytics-service-in-aem-screens}
 
 此方案通过固件中分析服务以及仪器屏幕核心组件中的REST调用Analytics API，以明确创建和发送特定用例的事件，同时允许可扩展性，在该可扩展性中，任何自定义消息都可以从自定义开发的渠道发送到Analytics。
 
@@ -132,4 +132,3 @@ Analytics事件会离线存储在indexedDB中，稍后进行分块并发送到�
 >[!NOTE]
 >
 >要详细了解&#x200B;***Sequing***&#x200B;和&#x200B;***事件标准数据模型***，请参阅&#x200B;**[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
-
