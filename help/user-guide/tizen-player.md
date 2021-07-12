@@ -2,17 +2,17 @@
 title: 蒂森球员
 description: 本页介绍Tizen Player的安装和工作。
 feature: 管理屏幕、播放器
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
 
 ---
 
-
-# 实现Tizen播放器{#tizen-player}
+# 实施Tizen播放器 {#tizen-player}
 
 ## 安装Tizen Player {#installing-tizen-player}
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 1. 从本地计算机安装Tizen播放器&#x200B;*(.zip)*&#x200B;文件。
 
-## 设置本地服务器并解压Zip文件{#setting-local-server}
+## 设置本地服务器并解压Zip文件 {#setting-local-server}
 
 >[!NOTE]
 > 解压缩zip文件，并通过`http server`使Tizen播放器可用。 （`http server`不是本地或Apache服务器所必需的）。
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 1. Tizen播放器从本地服务器下载安装程序。
 
-### 命名Tizen播放器{#name-tizen}
+### 命名Tizen播放器 {#name-tizen}
 
 您可以为Tizen播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Tizen播放器，还允许您轻松分配相应的内容。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 1. 单击遥控器上的菜单按钮。
 1. 导航到&#x200B;**network** —> **设备名称** ，以为播放器分配名称。
 
-### 在Samsung设备{#config-updates}上配置更新
+### 在Samsung设备上配置更新 {#config-updates}
 
 按照Samsung设备上的以下步骤，在设备上完成AEM Screens播放器的安装：
 
@@ -70,7 +70,7 @@ ht-degree: 1%
    >Tizen设备和`http`服务器应能够相互连接，即服务器应该可以连接到Tizen播放器。
 
 
-## 使用SameSite Cookie问题{#exempting-user-agents}免除用户代理
+## 使用SameSite Cookie问题免除用户代理 {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**本节适用于Adobe Experience Manager(AEM)6.5.5到AEM 6.5.7**
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 1. 针对您的AEM 6.5.5及更高版本实例注册Tizen播放器，该播放器应正常注册和显示内容。
 
-## 远程配置Tizen播放器{#remote-provisioning}
+## 远程配置Tizen播放器 {#remote-provisioning}
 
 远程配置Tizen Player使您能够无需付出多大努力即可部署成千上万的三星Tizen显示屏。 它避免了使用服务器URL和批量注册代码或其他参数配置每个播放器的繁琐手动操作，在将Screens用作配置云模式和云令牌的Cloud Service时也是如此。
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 在托管Tizen应用程序的`HTTP`服务器上，将文件`config.json`放置到与`wgt`文件相同的位置。 文件名必须为`config.json`。
 Tizen播放器将安装，在启动时（以及每次重新引导时）将检查并应用`config.json`文件中的设置。
 
-### JSON策略示例{#example-json}
+### JSON策略示例 {#example-json}
 
 ```java
 {
@@ -110,7 +110,7 @@ Tizen播放器将安装，在启动时（以及每次重新引导时）将检查
 }
 ```
 
-### 策略属性和用途{#policy-attributes}
+### 策略属性和用途 {#policy-attributes}
 
 下表概述了策略及其功能。
 
@@ -130,7 +130,7 @@ Tizen播放器将安装，在启动时（以及每次重新引导时）将检查
 | cloudToken | 要在Screens中注册为Cloud Service的注册令牌。 |
 
 
-## 将Tizen设备注册到Samsung远程管理服务(RMS){#enroll-tizen-device-rms}
+## 将Tizen设备注册到Samsung远程管理服务(RMS) {#enroll-tizen-device-rms}
 
 请按照以下步骤将Tizen设备注册到Samsung远程管理服务(RMS)并远程配置URL启动器：
 
@@ -164,4 +164,3 @@ Tizen播放器将安装，在启动时（以及每次重新引导时）将检查
    ![图像](/help/user-guide/assets/tizen/rms-9.png)
 
 1. 单击&#x200B;**Save**，将所做的更改显示在显示屏上。
-
