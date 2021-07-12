@@ -11,25 +11,25 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: 创作屏幕
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 60%
 
 ---
 
-
 # 向渠道添加组件{#adding-components-to-a-channel}
 
 组件是 AEM (Adobe Experience Manager) 体验的基本元素。您可以使用多个组件，并将其添加到 AEM Screens 项目中的渠道。
 
-## AEM Screens 中的组件  {#components-in-aem-screens}
+## AEM Screens 中的组件 {#components-in-aem-screens}
 
 AEM Screens 提供了可用于 Screens 项目的不同 AEM 组件。
 
-### 查看 AEM Screens 组件  {#viewing-aem-screens-components}
+### 查看 AEM Screens 组件 {#viewing-aem-screens-components}
 
 无论何时创建 AEM Screens 项目，您都将会看到可添加到项目的默认组件列表。
 
@@ -62,7 +62,7 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
 >
 >同样，您可以向项目中添加任意数量的与 AEM Screens 兼容的新组件。
 
-## 了解 AEM Screens 组件  {#understanding-aem-screen-components}
+## 了解 AEM Screens 组件 {#understanding-aem-screen-components}
 
 以下部分介绍了可在项目中使用的AEM Screens组件。
 
@@ -336,4 +336,3 @@ AEM 提供了许多其他组件。鉴于这些组件与 AEM Screens 兼容，您
   </tr>
  </tbody>
 </table>
-
