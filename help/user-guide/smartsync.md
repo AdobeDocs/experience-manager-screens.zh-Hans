@@ -10,17 +10,17 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: 管理屏幕
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
 
 ---
 
-
-# 从ContentSync转换到SmartSync {#transitioning-from-contentsync-to-smartsync}
+# 从ContentSync过渡到SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 本节概述了SmartSync功能，以及它如何最大限度地减少服务器负载/存储和网络流量以降低成本。
 
@@ -39,7 +39,7 @@ SmartSync是AEM Screens使用的最新机制。 它取代了当前用于缓存�
 
 * 播放器会根据上面生成的清单更新其内容。
 
-### 使用SmartSync {#benefits-of-using-smartsync}的好处
+### 使用SmartSync的好处 {#benefits-of-using-smartsync}
 
 SmartSync功能为您的AEM Screens项目提供了许多好处。 它允许
 
