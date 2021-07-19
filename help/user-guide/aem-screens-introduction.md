@@ -6,9 +6,9 @@ feature: 数字标牌概述
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '584'
 ht-degree: 8%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 8%
 **AEM(Adobe Experience Manager)Screens**  — 一种数字标牌解决方案，允许您与全面的数字营销平台一起发布涉及不同屏幕类型的动态交互式数字体验和交互。
 
 使用[AEM Screens Kickstart](kickstart-for-aem-screens.md)快速启动并运行简单的数字标牌体验。
+
+要了解如何在AEM as a Cloud Service中配置和创建AEM Screens项目，请参阅[此处](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en)。
 
 ## 概述 {#overview}
 
