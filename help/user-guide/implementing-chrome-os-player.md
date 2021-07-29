@@ -13,9 +13,9 @@ feature: 管理屏幕
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,9 @@ ht-degree: 0%
 ## 命名Chrome OS播放器 {#name-chrome}
 
 您可以为Chrome播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Chrome播放器，还允许您轻松分配相应的内容。
+
+>[!NOTE]
+>只有在注册之前，您才可以选择播放器名称。 注册播放器后，无法再更改播放器名称。
 
 请按照以下步骤在Chrome播放器中配置名称：
 
