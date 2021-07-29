@@ -14,9 +14,9 @@ feature: 管理屏幕， Android播放器
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,9 @@ Ad-Hoc方法允许您安装最新的Android播放器(*.exe*)。 访问&#x200B;[*
 ## 命名Android播放器 {#name-android}
 
 您可以为Android播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Android播放器，还允许您轻松分配相应的内容。
+
+>[!NOTE]
+>只有在注册之前，您才可以选择播放器名称。 注册播放器后，无法再更改播放器名称。
 
 请按照以下步骤在Android播放器中配置名称：
 
