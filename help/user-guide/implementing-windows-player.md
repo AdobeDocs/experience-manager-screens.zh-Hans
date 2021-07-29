@@ -14,9 +14,9 @@ feature: 管理屏幕， Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,9 @@ Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**A
 ## 命名Windows Player {#name-windows}
 
 您可以为Windows播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Windows播放器，还允许您轻松分配相应的内容。
+
+>[!NOTE]
+>只有在注册之前，您才可以选择播放器名称。 注册播放器后，无法再更改播放器名称。
 
 请按照以下步骤在Windows播放器中配置名称：
 
