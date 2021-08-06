@@ -7,9 +7,9 @@ feature: 管理屏幕
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '432'
 ht-degree: 3%
 
 ---
@@ -26,11 +26,19 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 >
 >如果没有调度程序，请在OSGi组件列表中禁用注册Servlet。
 
-## 先决条件 {#pre-requisites}
+## 先决条件 {#prerequisites}
 
-在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
+>[!IMPORTANT]
+>在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
+>有关更多详细信息，请参阅[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
 
-有关更多详细信息，请参阅[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
+在使用配置Dispatcher for AEM Screens之前，请确保遵循以下两个先决条件：
+
+* 确保您使用的是`v3 manifests`。 导航到`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`并确保未选中`Enable ContentSync Cache`。
+
+* 确保在发布实例的`/etc/replication/agents.publish/dispatcher1useast1Agent`处配置调度程序刷新代理。
+
+   ![图像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## 配置 Dispatcher {#configuring-dispatcher}
 
