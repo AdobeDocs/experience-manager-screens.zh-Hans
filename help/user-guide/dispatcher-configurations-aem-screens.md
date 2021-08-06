@@ -7,7 +7,7 @@ feature: 管理屏幕
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 2%
@@ -135,7 +135,7 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存任�
 
 请确保在位于发布实例前方的调度程序中允许这些过滤器和缓存规则，以便Screens正常运行。
 
-## 清单版本v3的先决条件{#prerequisites3}
+### 清单版本v3的先决条件{#prerequisites3}
 
 在为AEM Screens配置Dispatcher（清单版本v3）之前，请确保遵循以下两个先决条件：
 
