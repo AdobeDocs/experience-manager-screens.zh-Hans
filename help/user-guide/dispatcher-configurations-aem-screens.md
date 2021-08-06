@@ -7,9 +7,9 @@ feature: 管理屏幕
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -28,16 +28,15 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
 ## 先决条件 {#prerequisites}
 
->[!IMPORTANT]
->在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
->有关更多详细信息，请参阅[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
+在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
+有关更多详细信息，请参阅[配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)。
 
 ## 配置 Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->以下Dispatcher配置仅适用于清单版本v2。 有关清单版本V3，请参阅[清单版本v3]{#configuring-dispatcherv3}的调度程序配置。
+>以下Dispatcher配置仅适用于清单版本v2。 有关清单版本v3的信息，请参阅[清单版本v3](#configuring-dispatcherv3)的调度程序配置。
 
-AEM Screens播放器/设备还使用经过身份验证的会话来访问发布实例中的资源。 因此，当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器/设备的所有请求都有效。
+AEM Screens播放器或设备还使用经过身份验证的会话来访问发布实例中的资源。 因此，当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器/设备的所有请求都有效。
 
 请按照以下步骤为AEM Screens项目配置Dispatcher。
 
@@ -138,7 +137,7 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存任�
 
 ## 清单版本v3的先决条件{#prerequisites3}
 
-在使用配置Dispatcher for AEM Screens之前，请确保遵循以下两个先决条件：
+在为AEM Screens配置Dispatcher（清单版本v3）之前，请确保遵循以下两个先决条件：
 
 * 确保使用`v3 manifests`。 导航到`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`并确保未选中`Enable ContentSync Cache`。
 
