@@ -3,13 +3,13 @@ title: 渠道级别激活 — 单事件播放
 seo-title: 渠道级别激活 — 单事件播放
 description: 请阅读本指南，以了解使用单事件播放的渠道级别激活。
 topic-tags: authoring
-feature: 创作屏幕，渠道级别激活
+feature: 创作屏幕，渠道
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 72352b9ece8fde2d02b9fa0ccd25c6dfd7d602fd
+source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
