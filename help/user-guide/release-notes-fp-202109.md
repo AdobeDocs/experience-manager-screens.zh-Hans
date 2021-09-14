@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 12%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
@@ -29,30 +29,23 @@ AEM Screens功能包202109的发行日期是2021年9月9日。
 
 ### 新增功能 {#what-is-new}
 
-* **锁定AEM Screens渠道中的页面**
+* **视频的缩略图支持**
 
-   AEM Screens现在支持&#x200B;*锁定页面*，这已在AEM Sites中实施。 Adobe Experience Manager(AEM)允许您锁定页面，这样其他人就无法修改页面内容。 当您要对某个特定页面做出大量编辑，或者需要冻结页面一段时间时，此功能非常有用。
+   AEM Screens现在支持缩略图支持中的视频。 内容作者可以为视频定义缩略图，以便图像可用作占位符，并在相应团队最终确定实际视频时，正确测试内容播放和定位。 在视频播放失败时，也可以使用图像。
+有关更多详细信息，请参阅视频的缩略图支持。
 
-* **命名AEM Screens播放器设备**
+* **基本播放监控**
 
-   AEM Screens播放器现在包含向Adobe Experience Manager(AEM)发送设备名称的功能。
-默认情况下，使用批量注册注册来注册设备时，系统会在标题字段中输入系统生成的用户名。 作为替代方法，客户可能使用资产标记或其他友好名称，以便在AEM中可见资产标记，并且更便于分配相应内容。
+   AEM Screens现在支持基本的播放监控。 现在，播放器将报告各种播放量度，并且每次ping（默认为30秒）。 根据这些量度，它能够检测各种边缘情况（体验卡住、空白屏幕、计划问题等）。 此功能允许团队远程监控播放器是否正确播放了内容，提高对空白屏幕或现场中已损坏体验的反应性，并降低向最终用户显示已损坏体验的风险。
+有关更多详细信息，请参阅基本播放监控。
 
-   请参阅以下文档，了解如何在每个受支持的操作系统中配置名称：
+* **内容分配报表的更新**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [蒂岑](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **清单生成**
-
-   更快地生成通道清单，并改善性能，例如在服务器上分配更少的资源。
 
 ### 错误修复 {#bug-fixes}
 
-* 播放器在切换到包含动态嵌入式序列的渠道时显示黑屏。
-* Screens播放器现在会阻止切换到任何损坏的渠道，从而进一步避免404错误或出现错误消息的页面。
+
 
 ### 已发布AEM Screens播放器 {#released-aem-screens-players}
 
