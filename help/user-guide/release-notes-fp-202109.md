@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '397'
+ht-degree: 4%
 
 ---
 
@@ -41,6 +41,10 @@ AEM Screens功能包202109的发行日期是2021年9月9日。
 
 * **内容分配报表的更新**
 
+* **支持V3舱单**
+
+   现在，您可以为清单版本v3配置Dispatcher。 有关更多详细信息，请参阅[为清单版本配置Dispatcher v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 。
+此外，如果您将自定义组件用作v3清单的一部分，请参阅[自定义处理程序的模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers)。
 
 
 ### 错误修复 {#bug-fixes}
