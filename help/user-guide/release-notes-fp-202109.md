@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,8 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 有关更多详细信息，请参阅基本播放监控。
 
 * **内容分配报表的更新**
+
+   内容分配报表现在已通过增强的用户体验进行优化和改进。 可下载的报表在一个电子表格选项卡中显示经过改进的播放器相关实体（如位置、显示屏和设备），以及内容提供商信息（如渠道）和其他选项卡中的资产。
 
 * **支持V3舱单**
 
