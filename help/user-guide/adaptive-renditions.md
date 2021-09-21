@@ -2,9 +2,9 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ ht-degree: 1%
 
 ## 后续步骤 {#next-steps}
 
-上传演绎版后，您现在可以在AEM Screens渠道中使用自适应演绎版。 有关更多详细信息，请参阅使用自适应演绎版。
+配置并上传演绎版后，您现在可以在AEM Screens渠道中使用自适应演绎版。 有关更多详细信息，请参阅使用自适应演绎版。

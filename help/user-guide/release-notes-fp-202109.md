@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 您现在可以根据Splunk日志设置Slack警报。
 
-* 增强ping功能，以便在响应无效的JSON时重新进行身份验证。
+* 增强了ping功能，以便在响应无效时重新进行身份验证。
 
 * 数字渠道名称/角色会导致屏幕空白。
 
@@ -67,9 +67,7 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 将映射转换为演绎版键值列表。
 
-* 删除对Windows播放器中cmd.exe和reg.exe的访问权限。
-
-* 限制csrf令牌调用。
+* 删除了对Windows播放器中`cmd.exe`和`reg.exe`的访问。
 
 * 播放器需要报告其上次成功播放事件。
 
@@ -83,7 +81,7 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 如果在下载渠道更新时重新加载播放器，则播放器会忽略更新。
 
-* 嵌入的页面组件不考虑接触事件。
+* 嵌入式页面组件现在考虑接触事件。
 
 * 现在支持远程配置Tizen播放器。
 
@@ -100,13 +98,11 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 如果已发布引用的页面，则会自动更新渠道清单。
 
-* 渠道JSON不包括自定义渠道(#942)
-
 * 现在，已删除的设备不会阻止Screens复制队列。
 
-* 清单不包含目标内容或站点嵌入页面。
+* 清单既不包含目标内容，也不包含嵌入的站点页面。 此问题现已修复。
 
-* 未将新的核心图像组件添加到渠道清单。
+* 新的核心图像组件现已添加到渠道清单中。
 
 * 现在支持通过SmartSync下载优化的演绎版。
 
@@ -120,12 +116,9 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 空的动态嵌入式序列有时会导致空白屏幕。
 
-* 播放器需要报告其播放状态。
+* 播放器现在会报告其播放状态。
 
-* 视频在`Tiny mode`中播放，而不在设备上以全屏视频形式播放。
-
-* OSGi密码显示为纯文本。
-
+* 视频在`Tiny mode`中播放，在设备上不作为全屏视频播放，此问题现已修复。
 
 ### 已发布AEM Screens播放器 {#released-aem-screens-players}
 
