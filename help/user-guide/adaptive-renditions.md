@@ -2,9 +2,9 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍如何在AEM Screens中使用自适应演绎版。
 index: false
-source-git-commit: 0a870f337f69f3379abb15dac504ee8e8355bc98
+source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 目标 {#objective}
 
-作为AEM Screens内容作者，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。
+作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 您必须先配置自适应演绎版，内容作者才能在AEM Screens渠道中使用此功能。
 
 因此，如果您部署了多种设备，则使用此功能后，设备将可以根据规则自动下载和播放资产的最合适演绎版。
 
