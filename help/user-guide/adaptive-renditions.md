@@ -2,10 +2,10 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 0%
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 0%
 
 自适应演绎版是基于这样一种想法：让多个资产演绎版按照特定的命名约定进行命名。 通过评估媒体查询表达式来决定是否播放特定呈现，这些表达式只能在具有预期功能的设备上解析。 具有关联的演绎版命名模式的功能定义了演绎版映射规则。 在计算所有可用的表达式后，Screens播放器将收集与匹配规则对应的命名模式。 在序列播放期间，通过查找演绎版名称中的模式，可使用这些模式找到正确的演绎版。
 
+![图像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## 配置设置以使用自适应演绎版 {#setup-adaptive-renditions}
 
@@ -36,27 +37,36 @@ ht-degree: 0%
    >[!NOTE]
    >所有最新功能包都预填充了此节点结构。
 
+   ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
 1. 确保Screens项目具有与其关联的演绎版映射配置。
 
    * 使用Screens项目向导创建的每个新项目都将包含一个指向演绎版映射配置的引用。
 
+      ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+
    * 在旧版Screens项目中，需要通过将指向`/conf/screens`的`sling:configRef`属性添加到项目内容节点来明确定义关联。
+
+      ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## 迁移策略 {#migration-strategy}
 
 >[!IMPORTANT]
 >对于大型网络，建议逐步迁移以降低风险，因为该功能将对清单和文件存储格式进行更改。
 
-要启用该功能，请至少添加一个映射规则，并确保在显示和渠道的上下文中可解析演绎版映射配置：
+下图描述了大型网络的迁移策略：
 
-1. 添加演绎版映射规则。
+![图像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+要启用该功能，请至少添加一个映射规则，并确保在显示和渠道的上下文中可解析演绎版映射配置。 按照以下步骤进行迁移：
+
+1. 添加[演绎版映射规则](#adding-rendition-mapping-rules)。
 1. 为新渠道创建文件夹，并添加指向演绎版映射配置的引用。
 1. 创建替换旧渠道的新渠道并上传演绎版。
 1. 将显示的内容重新分配给新渠道。
-1. 添加对指向演绎版映射配置的已迁移显示/位置的引用。
+1. 添加对指向演绎版映射配置的已迁移显示屏或位置的引用。
 1. 对所有剩余的渠道和显示屏重复步骤3、4和5。
-1. 完成迁移后，从渠道/显示/位置删除所有配置引用，并向项目内容节点添加一个配置引用。
+1. 完成迁移后，从渠道、显示屏和位置中删除所有配置引用，并将单个配置引用添加到项目内容节点。
 
 ## 设置创作和发布 {#setup-author-publish}
 
@@ -66,7 +76,7 @@ ht-degree: 0%
 
 * 默认情况下，资产演绎版不会复制。 需要手动复制所有相关资产。
 
-## 添加演绎版映射规则 {#adding-rendition-mapping-rules}
+## 添加演绎版映射规则 {#add-rendition-mapping-rules}
 
 1. 要添加映射规则，您需要在演绎版映射节点下创建类型为`nt:unstructured`的节点。
 
@@ -77,6 +87,9 @@ ht-degree: 0%
 
 1. 如果将表达式计算为true，请添加模式属性，其值包含将选中的演绎版命名模式。
 
+   ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+
+
 ## 上传演绎版 {#upload-renditions}
 
 1. 创建更适合标牌显示的资产版本，例如`portrait orientation`。
@@ -85,8 +98,9 @@ ht-degree: 0%
 
 1. 重命名资产文件，使其包含模式，例如`my_asset_portrait.png`。
 
-1. 单击工具栏中的添加演绎版按钮，以上传演绎版。
+1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
 
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 后续步骤 {#next-steps}
 
