@@ -1,15 +1,16 @@
 ---
 title: AEM Screens中的自适应演绎版
-description: 本页介绍如何在AEM Screens中使用自适应演绎版。
+description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# 自适应演绎版 {#adaptive-renditions}
+
+# 自适应演绎版：体系结构概述和配置 {#adaptive-renditions}
 
 ## 简介 {#introduction}
 
@@ -59,12 +60,11 @@ ht-degree: 0%
 
 ## 设置创作和发布 {#setup-author-publish}
 
-按照以下步骤设置创作和发布：
+在使用自适应演绎版之前，请在创作和发布中考虑以下建议：
 
 * 必须手动复制演绎版映射。
 
 * 默认情况下，资产演绎版不会复制。 需要手动复制所有相关资产。
-
 
 ## 添加演绎版映射规则 {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 
 ## 后续步骤 {#next-steps}
 
-上传演绎版后，您现在可以在AEM Screens渠道中使用自适应演绎版。
+上传演绎版后，您现在可以在AEM Screens渠道中使用自适应演绎版。 有关更多详细信息，请参阅使用自适应演绎版。

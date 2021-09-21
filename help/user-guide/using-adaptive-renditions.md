@@ -2,10 +2,10 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 本页介绍如何在AEM Screens中使用自适应演绎版。
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 1%
 ## 前提条件 {#pre-reqs}
 
 >[!IMPORTANT]
->在开始使用自适应演绎版之前，建议您在AEM Screens渠道中了解此功能的架构概述和配置。 有关更多详细信息，请参阅自适应演绎版。
+>在开始使用自适应演绎版之前，建议您在AEM Screens渠道中了解此功能的架构概述和配置。 请参阅自适应演绎版：架构概述和配置，以了解更多详细信息。
 
-## 使用自适应演绎版 {#using-adaptive-renditions}
+## 在AEM Screens渠道中使用自适应演绎版 {#using-adaptive-renditions}
+
+现在，您在添加映射规则和上传的演绎版后，即可在AEM Screens渠道中将自适应演绎版用于您的资产。
+
+应遵循以下步骤：
+
+
 
