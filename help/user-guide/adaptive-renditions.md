@@ -2,10 +2,10 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,12 @@ ht-degree: 1%
 
 ## 配置设置以使用自适应演绎版 {#setup-adaptive-renditions}
 
-要启用自适应演绎版功能，应当存在映射规则，并且上下文感知配置可针对渠道进行解析并显示：
+要启用自适应演绎版功能，应当存在映射规则，并且上下文感知(CA)配置可针对渠道和显示进行解析。
+
+>[!NOTE]
+>要了解有关内容感知配置的更多信息，请参阅[此处](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)。
+
+请按照以下步骤配置设置：
 
 1. 检查`JCR`中是否存在演绎版映射配置。 所有最新功能包都预填充了此节点结构。
 
@@ -74,4 +79,4 @@ ht-degree: 1%
 
 ## 后续步骤 {#next-steps}
 
-配置并上传演绎版后，您现在可以以内容作者的身份使用自适应演绎版，并且还可以在AEM Screens渠道中迁移设备以应用此功能。 有关更多详细信息，请参阅[使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
+配置并上传演绎版后，您现在可以作为内容作者使用自适应演绎版，并且还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
