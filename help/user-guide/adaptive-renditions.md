@@ -2,10 +2,10 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ![图像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## 配置设置以使用自适应演绎版 {#setup-adaptive-renditions}
+## 将演绎版映射属性添加到Screens项目 {#rendition-mapping-new}
 
 要启用自适应演绎版功能，应当存在以下映射规则，并且上下文感知(CA)配置应当可以针对渠道和显示进行解析。
 
@@ -37,22 +37,22 @@ ht-degree: 3%
 
 请按照以下步骤配置设置：
 
-1. 导航到&#x200B;**CRXDE Lite**。 如果&#x200B;**rendition-mapping**&#x200B;配置存在于`JCR`中，请检查，如下图所示。
+1. 导航到&#x200B;**CRXDE Lite**。 如果&#x200B;**rendition-mapping**&#x200B;配置存在于`/conf/screens/sling:configs/rendition-mapping`中，请检查，如下图所示。
 
-   >[!NOTE]
-   >所有最新功能包都预填充了此节点结构。
+   >![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >如果安装了最新的功能包202109，您将看到在CRXDE Lite的`/conf/screens/sling:configs/rendition-mapping`中预填充了&#x200B;**rendition-mapping**&#x200B;节点结构。 请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)发行说明，以获取有关最新功能包的详细信息。
+   >对于现有项目，请确保Screens项目关联&#x200B;**rendition-mapping**&#x200B;配置。 请参阅[将演绎版映射添加到现有项目](#rendition-mapping-existing)一节，以了解更多信息。
 
-1. 确保Screens项目具有与其关联的演绎版映射配置。
+### 将演绎版映射属性添加到现有项目 {#rendition-mapping-existing}
 
-   * 使用Screens项目向导创建的每个新项目都将包含一个指向&#x200B;**rendition-mapping**&#x200B;配置的引用。
+1. 导航到&#x200B;**CRXDE Lite**。
 
-      ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. 通过向项目内容节点添加指向`/conf/screens`的`sling:configRef`属性来显式定义演绎版映射关联，如下图所示。
 
-   * 在旧版Screens项目中，您需要通过将指向`/conf/screens`的`sling:configRef`属性添加到项目内容节点来明确定义关联。
+   ![图像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## 设置创作和发布 {#setup-author-publish}
 
