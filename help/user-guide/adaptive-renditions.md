@@ -2,7 +2,7 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 配置设置以使用自适应演绎版 {#setup-adaptive-renditions}
 
-要启用自适应演绎版功能，应当存在映射规则，并且CA配置可针对渠道进行解析并显示：
+要启用自适应演绎版功能，应当存在映射规则，并且上下文感知配置可针对渠道进行解析并显示：
 
 1. 检查`JCR`中是否存在演绎版映射配置。 所有最新功能包都预填充了此节点结构。
 

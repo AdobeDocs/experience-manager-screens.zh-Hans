@@ -2,14 +2,14 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 本页介绍如何在AEM Screens中使用自适应演绎版。
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: 97354c05f3b01dd76b6b8d4bdaf45c9be3ce4db2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
-# 使用自适应演绎版 {#adaptive-renditions}
+# 在AEM Screens中使用自适应演绎版 {#adaptive-renditions}
 
 ## 简介 {#introduction}
 
