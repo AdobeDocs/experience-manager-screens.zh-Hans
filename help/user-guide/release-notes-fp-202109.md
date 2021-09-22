@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,14 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 * **内容分配报表的更新**
 
    内容分配报表现在已通过增强的用户体验进行优化和改进。 可下载的报表在一个电子表格选项卡中显示经过改进的播放器相关实体（如位置、显示屏和设备），以及内容提供商信息（如渠道）和其他选项卡中的资产。
+
+* **自适应演绎版**
+
+   自适应演绎版允许设备根据客户定义的规则自动为设备选择最佳演绎版。
+
+   作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅自适应演绎版：架构概述和配置，以了解更多信息。
+
+   此外，作为AEM Screens内容作者，您现在可以在AEM Screens项目中使用自适应演绎版，并且还可以对大型网络应用迁移策略。 有关更多详细信息，请参阅使用自适应演绎版。
 
 * **支持V3舱单**
 

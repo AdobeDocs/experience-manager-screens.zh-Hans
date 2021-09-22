@@ -2,7 +2,7 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ ht-degree: 1%
    * 在旧版Screens项目中，需要通过将指向`/conf/screens`的`sling:configRef`属性添加到项目内容节点来明确定义关联。
 
       ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## 设置创作和发布 {#setup-author-publish}
 
