@@ -2,9 +2,9 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -49,24 +49,7 @@ ht-degree: 1%
 
       ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## 迁移策略 {#migration-strategy}
 
->[!IMPORTANT]
->对于大型网络，建议逐步迁移以降低风险，因为该功能将对清单和文件存储格式进行更改。
-
-下图描述了大型网络的迁移策略：
-
-![图像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-要启用该功能，请至少添加一个映射规则，并确保在显示和渠道的上下文中可解析演绎版映射配置。 按照以下步骤进行迁移：
-
-1. 添加[演绎版映射规则](#adding-rendition-mapping-rules)。
-1. 为新渠道创建文件夹，并添加指向演绎版映射配置的引用。
-1. 创建替换旧渠道的新渠道并上传演绎版。
-1. 将显示的内容重新分配给新渠道。
-1. 添加对指向演绎版映射配置的已迁移显示屏或位置的引用。
-1. 对所有剩余的渠道和显示屏重复步骤3、4和5。
-1. 完成迁移后，从渠道、显示屏和位置中删除所有配置引用，并将单个配置引用添加到项目内容节点。
 
 ## 设置创作和发布 {#setup-author-publish}
 
@@ -90,17 +73,6 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## 上传演绎版 {#upload-renditions}
-
-1. 创建更适合标牌显示的资产版本，例如`portrait orientation`。
-
-1. 选择演绎版命名模式，例如`portrait`。
-
-1. 重命名资产文件，使其包含模式，例如`my_asset_portrait.png`。
-
-1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
-
-   ![图像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## 后续步骤 {#next-steps}
 

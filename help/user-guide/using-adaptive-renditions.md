@@ -2,10 +2,10 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 本页介绍如何在AEM Screens中使用自适应演绎版。
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '376'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +21,39 @@ ht-degree: 3%
 
 因此，如果您部署了多种设备，则使用此功能后，设备将可以根据规则自动下载和播放资产的最合适演绎版。
 
-## 前提条件 {#pre-reqs}
-
 >[!IMPORTANT]
 >在开始使用自适应演绎版之前，建议您在AEM Screens渠道中了解此功能的架构概述和配置。 请参阅自适应演绎版：架构概述和配置，以了解更多详细信息。
 
-## 在AEM Screens渠道中使用自适应演绎版 {#using-adaptive-renditions}
+## 迁移策略 {#migration-strategy}
 
-现在，您在添加映射规则和上传的演绎版后，即可在AEM Screens渠道中将自适应演绎版用于您的资产。
+>[!IMPORTANT]
+>对于大型网络，建议逐步迁移以降低风险，因为该功能将对清单和文件存储格式进行更改。
 
-应遵循以下步骤：
+下图描述了大型网络的迁移策略：
+
+![图像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+要启用该功能，请至少添加一个映射规则，并确保在显示和渠道的上下文中可解析演绎版映射配置。 按照以下步骤进行迁移：
+
+1. 添加[演绎版映射规则](/help/user-guide/adaptive-renditions.md)。
+1. 为新渠道创建文件夹，并添加指向演绎版映射配置的引用。
+1. 创建替换旧渠道的新渠道并上传演绎版。
+1. 将显示的内容重新分配给新渠道。
+1. 添加对指向演绎版映射配置的已迁移显示屏或位置的引用。
+1. 对所有剩余的渠道和显示屏重复步骤3、4和5。
+
+   >[!NOTE]
+   >完成迁移后，请确保从渠道、显示屏和位置中删除所有配置引用，并向项目内容节点添加一个配置引用。
 
 
+## 在AEM Screens渠道中上传演绎版和使用自适应演绎版 {#upload-renditions}
 
+1. 创建更适合标牌显示的资产版本，例如`portrait orientation`。
+
+1. 选择演绎版命名模式，例如`portrait`。
+
+1. 重命名资产文件，使其包含模式，例如`my_asset_portrait.png`。
+
+1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
