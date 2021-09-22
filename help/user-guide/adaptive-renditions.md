@@ -2,10 +2,10 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
+source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -20,24 +20,24 @@ ht-degree: 2%
 
 作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 您必须先配置自适应演绎版，内容作者才能在AEM Screens渠道中使用此功能。
 
-因此，如果您部署了多种设备，则使用此功能后，设备将可以根据规则自动下载和播放资产的最合适演绎版。
-
 ## 架构概述 {#architectural-overview}
 
-自适应演绎版是基于这样一种想法：让多个资产演绎版按照特定的命名约定进行命名。 通过评估媒体查询表达式来决定是否播放特定呈现，这些表达式只能在具有预期功能的设备上解析。 具有关联的演绎版命名模式的功能定义了演绎版映射规则。 在计算所有可用的表达式后，Screens播放器将收集与匹配规则对应的命名模式。 在序列播放期间，通过查找演绎版名称中的模式，可使用这些模式找到正确的演绎版。
+自适应演绎版是基于这样一种想法：让多个资产演绎版按照特定的命名约定进行命名。 通过评估媒体查询表达式来决定是否播放特定呈现，这些表达式只能在具有预期功能的设备上解析。
+
+具有关联的演绎版命名模式的功能可定义演绎版映射规则，如纵向或横向，如下图所示。 在计算所有可用的表达式后，Screens播放器将收集与匹配规则对应的命名模式。 在序列播放期间，通过查找演绎版名称中的模式，可使用这些模式找到正确的演绎版。
 
 ![图像](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## 配置设置以使用自适应演绎版 {#setup-adaptive-renditions}
 
-要启用自适应演绎版功能，应当存在映射规则，并且上下文感知(CA)配置可针对渠道和显示进行解析。
+要启用自适应演绎版功能，应当存在以下映射规则，并且上下文感知(CA)配置应当可以针对渠道和显示进行解析。
 
 >[!NOTE]
 >要了解有关内容感知配置的更多信息，请参阅[此处](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)。
 
 请按照以下步骤配置设置：
 
-1. 检查`JCR`中是否存在演绎版映射配置。 所有最新功能包都预填充了此节点结构。
+1. 导航到&#x200B;**CRXDE Lite**。 如果&#x200B;**rendition-mapping**&#x200B;配置存在于`JCR`中，请检查，如下图所示。
 
    >[!NOTE]
    >所有最新功能包都预填充了此节点结构。
@@ -46,11 +46,11 @@ ht-degree: 2%
 
 1. 确保Screens项目具有与其关联的演绎版映射配置。
 
-   * 使用Screens项目向导创建的每个新项目都将包含一个指向演绎版映射配置的引用。
+   * 使用Screens项目向导创建的每个新项目都将包含一个指向&#x200B;**rendition-mapping**&#x200B;配置的引用。
 
       ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
 
-   * 在旧版Screens项目中，需要通过将指向`/conf/screens`的`sling:configRef`属性添加到项目内容节点来明确定义关联。
+   * 在旧版Screens项目中，您需要通过将指向`/conf/screens`的`sling:configRef`属性添加到项目内容节点来明确定义关联。
 
       ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 ## 添加演绎版映射规则 {#add-rendition-mapping-rules}
 
-1. 要添加映射规则，您需要在演绎版映射节点下创建类型为`nt:unstructured`的节点。
+1. 要添加映射规则，您需要在&#x200B;**rendition-mapping**&#x200B;节点下创建类型为`nt:unstructured`的节点。
 
 1. 使用包含查询表达式的值添加表达式属性。
 
@@ -74,7 +74,6 @@ ht-degree: 2%
 1. 如果将表达式计算为true，请添加模式属性，其值包含将选中的演绎版命名模式。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
-
 
 
 ## 后续步骤 {#next-steps}
