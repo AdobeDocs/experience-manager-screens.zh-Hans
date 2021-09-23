@@ -2,9 +2,9 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
@@ -86,9 +86,10 @@ ht-degree: 2%
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. 使用包含演绎版命名模式的值添加模式属性。
 
-
-1. 如果将表达式计算为true，请添加模式属性，其值包含将选中的演绎版命名模式。
+   >[!NOTE]
+   >模式属性中定义的值将与新资产演绎版匹配，并且如果表达式的计算结果为true，则会选择该值。
 
    要添加模式属性，请单击您创建的&#x200B;**rule1**，并在&#x200B;**名称**&#x200B;中输入&#x200B;**模式**，并在&#x200B;**值**&#x200B;中输入&#x200B;**横向**，如下所示。 单击&#x200B;**Add**。
 
@@ -101,4 +102,4 @@ ht-degree: 2%
 
 ## 后续步骤 {#next-steps}
 
-配置并上传演绎版后，您现在可以作为内容作者使用自适应演绎版，并且还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
+添加演绎版映射属性和规则（现在作为内容作者）后，您可以将资产配置为使用自适应演绎版，还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
