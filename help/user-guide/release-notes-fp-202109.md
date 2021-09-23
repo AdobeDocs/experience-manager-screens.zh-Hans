@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
@@ -32,24 +32,25 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 * **视频的缩略图支持**
 
    AEM Screens现在支持缩略图支持中的视频。 内容作者可以为视频定义缩略图，以便图像可用作占位符，并在相应团队最终确定实际视频时，正确测试内容播放和定位。 在视频播放失败时，也可以使用图像。
-有关更多详细信息，请参阅视频的缩略图支持。
+有关更多详细信息，请参阅[视频的缩略图支持](/help/user-guide/thumbnail-support.md)。
 
 * **基本播放监控**
 
    AEM Screens现在支持基本的播放监控。 现在，播放器将报告各种播放量度，并且每次ping（默认为30秒）。 根据这些量度，它能够检测各种边缘情况（体验卡住、空白屏幕、计划问题等）。 此功能允许团队远程监控播放器是否正确播放了内容，提高对空白屏幕或现场中已损坏体验的反应性，并降低向最终用户显示已损坏体验的风险。
-有关更多详细信息，请参阅基本播放监控。
+有关更多详细信息，请参阅[基本播放监控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring)。
 
 * **内容分配报表的更新**
 
    内容分配报表现在已通过增强的用户体验进行优化和改进。 可下载的报表在一个电子表格选项卡中显示经过改进的播放器相关实体（如位置、显示屏和设备），以及内容提供商信息（如渠道）和其他选项卡中的资产。
+有关更多详细信息，请参阅[内容分配报表](/help/user-guide/content-assignment-report.md)。
 
 * **自适应演绎版**
 
    自适应演绎版允许设备根据客户定义的规则自动为设备选择最佳演绎版。
 
-   作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅自适应演绎版：架构概述和配置，以了解更多信息。
+   作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。
 
-   此外，作为AEM Screens内容作者，您现在可以在AEM Screens项目中使用自适应演绎版，并且还可以对大型网络应用迁移策略。 有关更多详细信息，请参阅使用自适应演绎版。
+   此外，作为AEM Screens内容作者，您现在可以在AEM Screens项目中使用自适应演绎版，并且还可以对大型网络应用迁移策略。
 
 * **支持V3舱单**
 
