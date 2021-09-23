@@ -1,10 +1,9 @@
 ---
-title: AEM Screens中的自适应演绎版
-description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: 自适应演绎版体系结构概述和配置
+description: 本页介绍了AEM Screens中自适应呈现的CRXDE Lite架构概述和配置。
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -54,14 +53,6 @@ ht-degree: 2%
    ![图像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## 设置创作和发布 {#setup-author-publish}
-
-在使用自适应演绎版之前，请在创作和发布中考虑以下建议：
-
-* 必须手动复制演绎版映射。
-
-* 默认情况下，资产演绎版不会复制。 需要手动复制所有相关资产。
-
 ## 添加演绎版映射规则 {#add-rendition-mapping-rules}
 
 按照以下步骤在“演绎版映射”下添加节点：
@@ -102,4 +93,4 @@ ht-degree: 2%
 
 ## 后续步骤 {#next-steps}
 
-添加演绎版映射属性和规则（现在作为内容作者）后，您可以将资产配置为使用自适应演绎版，还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
+添加演绎版映射属性和规则（现在作为内容作者）后，您可以将资产配置为使用自适应演绎版，还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。

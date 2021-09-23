@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '460'
 ht-degree: 19%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 19%
    + [从ContentSync过渡到SmartSync](smartsync.md)
    + [从文件新建项目导入程序](project-importer.md)
    + [将数据触发器复制到发布服务器](replicating-data-triggers.md)
-   + [视频的缩略图支持](thumbnail-support.md)
    + 客户端特定注意事项{#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome播放器作为扩展进行疑难解答](using-chrome-player-as-an-extension.md)
@@ -82,6 +81,7 @@ ht-degree: 19%
       + [使用数据触发器进行创作](authoring-data-triggers.md)
       + [语音识别](voice-recognition.md)
       + [内容分配报告](content-assignment-report.md)
+      + [视频的缩略图支持](thumbnail-support.md)
    + 管理内容更新{#content-updates}
       + [按需内容更新](on-demand-content.md)
       + [内容即服务更新](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 19%
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [为多区域布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [为文本叠加图应用自定义品牌和样式](custom-branding-text-overlays.md)
+   + [自适应演绎版：体系结构概述和配置](/help/user-guide/adaptive-renditions.md)
 + {#troubleshooting}疑难解答和常见问题解答
    + [AEM Screens常见问题解答](aem-screens-faqs.md)
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包202109的发行说明](release-notes-fp-202109.md)
    + [功能包202105的发行说明](release-notes-fp-202105.md)
    + [功能包202103的发行说明](release-notes-fp-202103.md)
    + [功能包202011的发行说明](release-notes-fp-202011.md)

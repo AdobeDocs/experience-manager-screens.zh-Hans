@@ -1,13 +1,13 @@
 ---
 title: 蒂森球员
 description: 本页介绍Tizen Player的安装和工作。
-feature: 管理屏幕、播放器
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 0f99b96e90f0aac6bf923343ecefa1708d5cfd17
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 1. 从本地计算机安装Tizen播放器&#x200B;*(.zip)*&#x200B;文件。
 
-## 设置本地服务器并解压Zip文件 {#setting-local-server}
+## 设置http服务器 {#setting-local-server}
 
 >[!NOTE]
 > 解压缩zip文件，并通过`http server`使Tizen播放器可用。 （`http server`不是本地或Apache服务器所必需的）。

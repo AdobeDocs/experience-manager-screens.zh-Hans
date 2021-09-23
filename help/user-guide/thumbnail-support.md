@@ -1,11 +1,11 @@
 ---
 title: 在AEM Screens中支持视频的缩略图
 description: 本页介绍如何在Screens中为视频添加缩略图支持。
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ ht-degree: 0%
 
 1. 选择渠道，然后单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
 
+   ![图像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. 添加或编辑现有视频组件，如下图所示。
+
+   ![图像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. 选择视频并单击&#x200B;*扳手*&#x200B;图标以打开视频属性。
 
+   ![图像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. 将打开&#x200B;**视频**&#x200B;对话框，您将在其中查看&#x200B;**Thumbnail**&#x200B;拖放区域。
 
+   ![图像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. 将资产选取器中的图像拖放到&#x200B;**Thumbnail**&#x200B;拖放区域，然后单击&#x200B;**Done**。
+
+   ![图像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. 单击&#x200B;**预览**。
 
