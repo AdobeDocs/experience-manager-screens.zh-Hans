@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,6 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 * 通过将资产替换为演绎版，解决了文件缓存错误。
 
 * 现在，如果存在演绎版映射，则播放器仅显示资产演绎版。
-
-* 您现在可以根据Splunk日志设置Slack警报。
 
 * 增强了ping功能，以便在响应无效时重新进行身份验证。
 

@@ -2,9 +2,9 @@
 title: AEM Screens中的自适应演绎版
 description: 本页介绍了AEM Screens中自适应呈现的架构概述和配置。
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -64,16 +64,39 @@ ht-degree: 2%
 
 ## 添加演绎版映射规则 {#add-rendition-mapping-rules}
 
-1. 要添加映射规则，您需要在&#x200B;**rendition-mapping**&#x200B;节点下创建类型为`nt:unstructured`的节点。
+按照以下步骤在“演绎版映射”下添加节点：
 
-1. 使用包含查询表达式的值添加表达式属性。
+1. 从&#x200B;**CRXDE Lite**&#x200B;导航到此路径`/conf/screens/sling:configs/rendition-mapping`。
+
+1. 在&#x200B;**rendition-mapping**&#x200B;下创建节点。 右键单击&#x200B;**rendition-mapping**，然后单击&#x200B;**创建** —> **创建节点**，如下图所示。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. 在&#x200B;**创建节点**&#x200B;对话框中，为映射规则（如&#x200B;**rule1**）输入&#x200B;**Name**，并将节点&#x200B;**类型**&#x200B;设置为&#x200B;**nt:unstructured**。 单击&#x200B;**确定**。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. 您需要使用包含查询表达式的值添加表达式属性。
 
    >[!NOTE]
    >请参阅[使用媒体查询语法](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)以了解更多信息。
 
+   单击您创建的&#x200B;**rule1**，然后在&#x200B;**名称**&#x200B;和&#x200B;**（方向：横向）**&#x200B;的&#x200B;**值**&#x200B;中输入&#x200B;**expression**，如下所示。 单击&#x200B;**Add**。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. 如果将表达式计算为true，请添加模式属性，其值包含将选中的演绎版命名模式。
 
-   ![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   要添加模式属性，请单击您创建的&#x200B;**rule1**，并在&#x200B;**名称**&#x200B;中输入&#x200B;**模式**，并在&#x200B;**值**&#x200B;中输入&#x200B;**横向**，如下所示。 单击&#x200B;**Add**。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. 单击&#x200B;**Save All** ，您将在&#x200B;**rendition-mapping**&#x200B;下创建的节点下看到属性。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## 后续步骤 {#next-steps}
