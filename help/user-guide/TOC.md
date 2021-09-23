@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 19%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 19%
    + [从ContentSync过渡到SmartSync](smartsync.md)
    + [从文件新建项目导入程序](project-importer.md)
    + [将数据触发器复制到发布服务器](replicating-data-triggers.md)
+   + [视频的缩略图支持](thumbnail-support.md)
    + 客户端特定注意事项{#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [使用Chrome播放器作为扩展进行疑难解答](using-chrome-player-as-an-extension.md)
