@@ -1,10 +1,10 @@
 ---
 title: 功能包202109的发行说明
-description: 请阅读本页以了解2021年9月23日发布的AEM Screens功能包202105的信息。
+description: 请阅读本页以了解2021年9月23日发布的AEM Screens功能包202109的信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
+source-git-commit: 238d53377acdad857d722c2c53f74f3a29868b57
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
