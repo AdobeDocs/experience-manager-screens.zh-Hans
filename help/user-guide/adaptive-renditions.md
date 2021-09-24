@@ -1,13 +1,13 @@
 ---
 title: 自适应演绎版体系结构概述和配置
 description: 本页介绍了AEM Screens中自适应呈现的CRXDE Lite架构概述和配置。
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: 3ce31c5a0a330f36cae614f4b3c257711253fd12
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
 
 ---
-
 
 # 自适应演绎版：体系结构概述和配置 {#adaptive-renditions}
 
