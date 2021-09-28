@@ -1,9 +1,9 @@
 ---
 title: 在AEM Screens中使用自适应演绎版
 description: 本页介绍如何在AEM Screens中使用自适应演绎版。
-source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
+source-git-commit: 68e7a47d7a9b10d1d3fecb7a7f7d96bbbde1c48a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,18 @@ ht-degree: 0%
 
 1. 选择演绎版命名模式，例如`landscape`，与&#x200B;**CRXDE Lite**&#x200B;中&#x200B;**pattern**&#x200B;属性中定义的模式类似。 有关更多详细信息，请参阅[添加演绎版映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)。
 
-1. 重命名资产文件，使其包含模式（在步骤3中定义），例如`seahorse_landscape.png`。
+1. 重命名资产文件，使其包含模式（在步骤3中定义），例如`seahorse-landscape.png`。
 
 1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
+1. 添加资产后，选择资产，然后单击操作栏中的&#x200B;**管理发布**&#x200B;以发布资产。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
+
+   >[!NOTE]
+   >请参阅[按需内容更新](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) ，了解有关管理发布和将内容更新从创作传送到设备的更多信息。
 
 
 ## 迁移策略 {#migration-strategy}
