@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
-source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
+source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 19%
+source-wordcount: '466'
+ht-degree: 18%
 
 ---
 
@@ -82,6 +82,7 @@ ht-degree: 19%
       + [语音识别](voice-recognition.md)
       + [内容分配报告](content-assignment-report.md)
       + [视频的缩略图支持](thumbnail-support.md)
+      + [在AEM Screens中使用自适应演绎版](using-adaptive-renditions.md)
    + 管理内容更新{#content-updates}
       + [按需内容更新](on-demand-content.md)
       + [内容即服务更新](content-update-as-a-service.md)

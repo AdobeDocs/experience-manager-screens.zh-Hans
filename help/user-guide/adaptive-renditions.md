@@ -2,9 +2,9 @@
 title: 自适应演绎版体系结构概述和配置
 description: 本页介绍了AEM Screens中自适应呈现的CRXDE Lite架构概述和配置。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 3ce31c5a0a330f36cae614f4b3c257711253fd12
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 2%
 
 ---
@@ -93,4 +93,4 @@ ht-degree: 2%
 
 ## 后续步骤 {#next-steps}
 
-添加演绎版映射属性和规则（现在作为内容作者）后，您可以将资产配置为使用自适应演绎版，还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。
+添加演绎版映射属性和规则（现在作为内容作者）后，您可以将资产配置为使用自适应演绎版，还可以在AEM Screens渠道中为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
