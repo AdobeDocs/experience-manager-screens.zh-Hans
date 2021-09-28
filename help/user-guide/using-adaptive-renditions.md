@@ -2,10 +2,10 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 本页介绍如何在AEM Screens中使用自适应演绎版。
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,34 @@ ht-degree: 1%
 开发人员添加演绎版映射属性和规则后，您现在可以将演绎版映射应用到资产，并随后将其包含在AEM Screens渠道中。
 
 >[!IMPORTANT]
->在开始使用自适应演绎版之前，建议您在AEM Screens渠道中了解此功能的架构概述和配置。 请参阅自适应演绎版：架构概述和配置，以了解更多详细信息。
+>在开始使用自适应演绎版之前，建议您在AEM Screens渠道中了解此功能的架构概述和配置。 请参阅[自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)以了解更多详细信息。
+
+## 在渠道中使用自适应演绎版 {#using-adaptive-renditions}
+
+>[!NOTE]
+>将[演绎版映射属性添加到Screens项目](/help/user-guide/adaptive-renditions.md#rendition-mapping-new)和[演绎版映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)后，作为内容作者，您现在可以将这些演绎版应用到资产。
+
+### 将演绎版应用于资产 {#apply-renditions-assets}
+
+请按照以下步骤将演绎版应用到您要在导览屏幕渠道中使用的资产：
+
+1. 导航到AEM实例中的&#x200B;**Assets**&#x200B;文件夹。
+
+1. 创建更适合标牌显示的资产版本，例如`seahorse.jpg`。
+
+1. 选择演绎版命名模式，例如`landscape`，与CRXDE Lite中模式属性中定义的模式类似。 有关更多详细信息，请参阅[添加演绎版映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)。
+
+1. 重命名资产文件，使其包含模式，例如`seahorse_landscape.png`。
+
+1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
+
+   ![图像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## 迁移策略 {#migration-strategy}
 
 >[!IMPORTANT]
->对于大型网络，建议逐步迁移以降低风险，因为该功能将对清单和文件存储格式进行更改。
+>对于大型网络，建议逐步迁移以降低风险，因为该功能将对清单和文件存储格式进行更改。 将`sling:configRef`添加到整个项目涉及将所有播放器更新到功能包6.5.9。如果您更新了某些播放器，则需要仅将`sling:configRef`添加到所有播放器都更新到功能包6.5.9的显示、位置或渠道文件夹。
 
 下图描述了大型网络的迁移策略：
 
@@ -44,14 +66,3 @@ ht-degree: 1%
    >[!NOTE]
    >完成迁移后，请确保从渠道、显示屏和位置中删除所有配置引用，并向项目内容节点添加一个配置引用。
 
-## 在AEM Screens渠道中上传演绎版和使用自适应演绎版 {#upload-renditions}
-
-1. 创建更适合标牌显示的资产版本，例如`portrait orientation`。
-
-1. 选择演绎版命名模式，例如`portrait`。
-
-1. 重命名资产文件，使其包含模式，例如`my_asset_portrait.png`。
-
-1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
-
-   ![图像](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
