@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 2%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
    作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅[自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)以了解更多详细信息。
 
-   此外，作为AEM Screens内容作者，您现在可以在AEM Screens项目中使用自适应演绎版，并且还可以对大型网络应用迁移策略。
+   此外，作为AEM Screens内容作者，您还可以在AEM Screens渠道中将资产配置为使用自适应演绎版，并为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
 
 * **支持V3舱单**
 
