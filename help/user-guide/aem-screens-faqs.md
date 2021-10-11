@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,17 @@ ht-degree: 1%
 1. 显示屏的父级位置有一个与引用的渠道名称匹配的子节点
 
 等等，直到您到达位置文件夹并立即停止该位置（因此，您无法引用渠道文件夹中的渠道，例如，仅引用位置子树中的渠道）。
+
+### 5.如何在AEM Screens Channel中设置Custom clientlib离线配置？
+
+在AEM Screens渠道中使用构建的自定义客户端代码`clientlib`时，需要执行以下步骤，以确保在渠道(`manifest.json`)中成功加载`clientlib`文件，并将包含`clientlib`的路径。
+
+从渠道编辑器中按照以下步骤操作：
+
+1. 选择渠道，然后单击操作栏中的&#x200B;**编辑**&#x200B;以打开渠道编辑器。
+1. 选择要添加自定义`clientlib`的组件。
+1. 单击“配置”按钮（扳手图标）。
+1. 导航到&#x200B;**Offline Config**&#x200B;选项卡，并在&#x200B;**客户端库**&#x200B;中将路径添加到自定义clientlib。
 
 ## 设备注册 {#device-registration}
 
