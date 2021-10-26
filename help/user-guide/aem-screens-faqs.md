@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 * 检查渠道预览是否正常工作。
 * 检查显示预览是否正常工作
 * 尝试将播放器注册为系统上的浏览器扩展，使其显示到该显示屏，然后检查它是否正常工作。
-* 在系统上运行播放器时，导航到 `http://localhost:24502`. 检查所有内容下载是否正确。
+* 在系统上运行播放器后，导航到 `http://localhost:24502`. 检查所有内容下载是否正确。
 * 检查已创建相应演绎版且正在播放正确的演绎版的资产。
 * 检查任何计划内容以及时间是否正确。 检查播放器中设置的时间是否正确。
 * Inspect播放器控制台会记录并检查是否存在任何错误。 右键单击并检查以查看控制台日志。 如果使用windows播放器，请按 `CTRL + ALT +I` 以显示开发控制台以查看日志。
@@ -221,7 +221,7 @@ AEM Screens会为产品使用的查询创建索引定义。
 您还可以在 [Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3.配置v3舱单所需的条件 {#configure-v3}
+### 3.配置v3舱单需要什么？ {#configure-v3}
 
 要启用v3清单，您必须：
 
