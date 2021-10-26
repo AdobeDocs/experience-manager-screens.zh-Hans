@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2040'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,10 @@ ht-degree: 1%
 * 检查渠道预览是否正常工作。
 * 检查显示预览是否正常工作
 * 尝试将播放器注册为系统上的浏览器扩展，使其显示到该显示屏，然后检查它是否正常工作。
-* 在系统上运行播放器后，导航到`http://localhost:24502`。 检查所有内容下载是否正确。
+* 在系统上运行播放器时，导航到 `http://localhost:24502`. 检查所有内容下载是否正确。
 * 检查已创建相应演绎版且正在播放正确的演绎版的资产。
 * 检查任何计划内容以及时间是否正确。 检查播放器中设置的时间是否正确。
-* Inspect播放器控制台会记录并检查是否存在任何错误。 右键单击并检查以查看控制台日志。 如果使用windows播放器，请按`CTRL + ALT +I`调出开发控制台以查看日志。
+* Inspect播放器控制台会记录并检查是否存在任何错误。 右键单击并检查以查看控制台日志。 如果使用windows播放器，请按 `CTRL + ALT +I` 以显示开发控制台以查看日志。
 
 ### 2.如何通过创建默认渠道或计划来解决AEM Screens中的灰屏问题？
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ### 2.如何在线创建渠道？ {#how-do-i-make-a-channel-online}
 
-选择渠道，然后从操作栏中导航到渠道属性。 选中&#x200B;**开发人员模式（强制使渠道联机）** **渠道**&#x200B;选项卡下的以使渠道联机。
+选择渠道，然后从操作栏中导航到渠道属性。 检查 **开发人员模式（强制渠道联机）** 在 **渠道** 选项卡以使渠道联机。
 
 ### 3.渠道角色字段的用法是什么？ {#what-is-the-use-of-the-channel-role-field}
 
@@ -55,9 +55,9 @@ ht-degree: 1%
 
 ### 4.如何实现实际的通道分辨率？ {#how-does-actual-channel-resolution-happen}
 
-对于&#x200B;*静态引用*，分辨率仅遵循指定的路径。
+对于 *静态引用*，则分辨率仅会遵循指定的路径。
 
-对于&#x200B;*动态引用*，在将渠道分配给显示屏（而非计划）后，会出现解析。 显示路径将成为渠道的上下文，其分辨率按以下方式（优先级从高到低）进行：
+对于 *动态引用*，则在将渠道分配给显示屏（而非计划）后，会出现解决方案。 显示路径将成为渠道的上下文，其分辨率按以下方式（优先级从高到低）进行：
 
 1. 显示屏有一个与引用的渠道名称匹配的子节点
 1. 显示屏有一个与引用的渠道名称匹配的同级节点
@@ -68,14 +68,14 @@ ht-degree: 1%
 
 ### 5.如何在AEM Screens Channel中设置Custom clientlib离线配置？
 
-在AEM Screens渠道中使用构建的自定义客户端代码`clientlib`时，需要执行以下步骤，以确保在渠道(`manifest.json`)中成功加载`clientlib`文件，并将包含`clientlib`的路径。
+使用构建的自定义客户端代码时 `clientlib` 在AEM Screens渠道中，需要执行以下步骤，以确保 `clientlib` 已成功在渠道中加载文件(`manifest.json`)和将包含的路径 `clientlib`.
 
 从渠道编辑器中按照以下步骤操作：
 
-1. 选择渠道，然后单击操作栏中的&#x200B;**编辑**&#x200B;以打开渠道编辑器。
-1. 选择要添加自定义`clientlib`的组件。
+1. 选择渠道并单击 **编辑** 从操作栏中打开渠道编辑器。
+1. 选择要添加自定义内容的组件 `clientlib`.
 1. 单击“配置”按钮（扳手图标）。
-1. 导航到&#x200B;**Offline Config**&#x200B;选项卡，并在&#x200B;**客户端库**&#x200B;中将路径添加到自定义clientlib。
+1. 导航到 **脱机配置** 选项卡，并在 **客户端库**.
 
 ## 设备注册 {#device-registration}
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 ### 3.是否有方法拒绝设备注册请求？ {#is-there-a-way-to-decline-a-device-registration-request}
 
-您无法拒绝注册请求。 注册请求应会在`Adobe Experience Manager Web Console`中配置的超时后过期。 默认情况下，此值设置为一天，并存储在内存缓存中。
+您无法拒绝注册请求。 注册请求应会在中配置的超时后过期 `Adobe Experience Manager Web Console`. 默认情况下，此值设置为一天，并存储在内存缓存中。
 
 ## 设备监控和运行状况报告 {#device-monitoring-and-health-reports}
 
@@ -109,25 +109,25 @@ ht-degree: 1%
 
 您需要启用Apache Sling反向链接过滤器允许为空。 这是在AEM Screens Player和AEM Screens服务器之间优化控制协议操作所必需的。
 
-1. 导航到&#x200B;**Adobe Experience Manager Web控制台配置**
-1. 选中&#x200B;**allow.empty**&#x200B;选项。
+1. 导航到 **Adobe Experience Manager Web控制台配置**
+1. 检查 **allow.empty** 选项。
 1. 单击&#x200B;**保存**。
 
 ### 3.如果在注册AEM Screens播放器时，设备显示失败，控制台日志显示ENAME_NOT_FOUND错误，则如何进行故障诊断？ {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-如果播放器找不到AEM Screens Server DNS，则可能会出现此问题。 您可以尝试使用IP地址进行连接。 要获取服务器的IP，请使用：*arp &lt;server_dns_name>*。
+如果播放器找不到AEM Screens Server DNS，则可能会出现此问题。 您可以尝试使用IP地址进行连接。 要获取服务器的IP，请使用： *arp &lt;server_dns_name>*.
 
 ### 4. AMS是否建议在所有设备上实施Android监视程序？ 监视工具(Cordova)插件是否作为APK的一部分包含在内？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 使用纯Android API的跨平台Android监视程序已经是APK的一部分。 无需其他软件，但根据您使用的设备，您可能需要放弃apk才能获得完全电源周期(Powermanager api)的系统权限。 如果它没有使用制造商密钥辞职，它将退出并重新启动应用程序，但不会重新启动电源。
 
-有关如何实施Android播放器的更多信息，请参阅&#x200B;[**实施Android播放器**](implementing-android-player.md)。
+有关如何实施Android播放器的更多信息，请参阅 [**实施Android播放器**](implementing-android-player.md).
 
 ### 5.Adobe/AMS建议使用哪些第三方远程监控和警报工具（软件）来监控每台设备？  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 根据您对监控和警报的需求，新增的AEM Screens通知服务会在设备一段时间内未ping通知您。 第三方工具将取决于您的操作系统(OS)、其功能和客户的特定需求。
 
-有关可监视设备活动的位置的更多信息，请参阅&#x200B;[**AEM Screens通知服务**](screens-notifications-service.md)。
+有关可在何处监视设备活动的更多信息，请参阅 [**AEM Screens通知服务**](screens-notifications-service.md).
 
 ## AEM Screens 播放器 {#aem-screens-player}
 
@@ -135,27 +135,27 @@ ht-degree: 1%
 
 在开发人员模式下，ChromeOS播放器可以作为Chrome浏览器插件安装，而无需使用实际的Chrome播放器设备。 要进行安装，请执行以下步骤：
 
-1. 单击[此处](https://download.macromedia.com/screens/)下载最新的Chrome播放器。
+1. 单击 [此处](https://download.macromedia.com/screens/) 下载最新的Chrome播放器。
 1. 解压缩并将其保存在磁盘上。
-1. 打开Chrome浏览器并从菜单中选择&#x200B;**扩展**，或直接导航到&#x200B;***chrome://extensions***。
-1. 从右上角切换&#x200B;**开发人员模式**。
-1. 单击左上角的&#x200B;**Load Unpacked** ，然后加载已解压的Chrome播放器。
-1. 检查&#x200B;**AEM Screens Chrome Player**&#x200B;插件（如果扩展列表中可用）。
-1. 打开新选项卡，然后单击左上角的&#x200B;**Apps**&#x200B;图标，或直接导航到&#x200B;***chrome://apps***。
-1. 单击&#x200B;**AEM Screens**&#x200B;插件以启动Chrome播放器。 默认情况下，播放器以全屏模式启动。 按&#x200B;**esc**&#x200B;退出全屏模式。
+1. 打开Chrome浏览器并选择 **扩展** ，或直接导航到 ***chrome://extensions***.
+1. 打开 **开发人员模式** 从右上角。
+1. 单击 **加载已解压** 从左上角加载已解压的Chrome播放器。
+1. 检查 **AEM Screens Chrome Player** 插件（如果在扩展列表中可用）。
+1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
+1. 单击 **AEM Screens** 用于启动Chrome播放器的插件。 默认情况下，播放器以全屏模式启动。 按 **esc** 退出全屏模式。
 
 ### 2.如果Screens播放器无法通过使用自定义错误处理程序的发布实例进行身份验证，如何进行故障诊断？ {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-当AEM Screens播放器启动时，它会向&#x200B;***/content/screens/svc.ping.json***&#x200B;发出请求，此时播放器会收到404错误。 播放器会发起身份验证请求以针对发布实例进行身份验证。 如果发布实例中存在自定义错误处理程序，请确保在&#x200B;***/content/screens/svc.ping.json***&#x200B;上返回匿名用户的404状态代码。
+AEM Screens播放器启动时，会向 ***/content/screens/svc.ping.json***，当播放器收到404错误时。 播放器会发起身份验证请求以针对发布实例进行身份验证。 如果发布实例中存在自定义错误处理程序，请确保在 ***/content/screens/svc.ping.json***.
 
 ### 3.如何在Android播放器中设置设备屏幕保持打开状态？ {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 请按照以下步骤在任何Android播放器上打开保持清醒：
 
 1. 导航到Android播放器设置 — > **关于**
-1. 对内部版本号点按7次，以在&#x200B;**Settings**&#x200B;中启用&#x200B;**开发人员选项**
-1. 导航到&#x200B;**开发人员选项**
-1. 启用&#x200B;**保持清醒**
+1. 对内部版本号点按7次以启用 **开发人员选项** in **设置**
+1. 导航到 **开发人员选项**
+1. 启用 **保持清醒**
 
 ### 4.如何为Windows播放器启用窗口模式？{#enable-player}
 
@@ -163,17 +163,17 @@ Windows播放器中没有窗口模式。 始终为全屏模式。
 
 ### 5.如何对AEM Screens播放器是否持续发送登录请求进行故障诊断？{#requests-login}
 
-按照以下步骤对连续向`/content/screens/svc.json`和`/libs/granite/core/content/login.validate/j_security_check`发送请求的AEM Screens播放器进行故障诊断：
+按照以下步骤对连续向发送请求的AEM Screens播放器进行故障诊断 `/content/screens/svc.json` 和 `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. AEM Screens播放器启动时，会请求`/content/screens/svc.json`。 当播放器在响应中获取404状态代码时，它会针对&#x200B;*publish*&#x200B;实例使用`/libs/granite/core/content/login.validate/j_security_check`发起身份验证请求。 如果&#x200B;*publish*&#x200B;实例中存在自定义错误处理程序，请确保在`/content/screens/svc.json`或`/content/screens/svc.ping.json`上返回匿名用户的404状态代码。
+1. 当AEM Screens播放器启动时，它会请求 `/content/screens/svc.json`. 当播放器在响应中获取404状态代码时，会使用 `/libs/granite/core/content/login.validate/j_security_check` 反对 *发布* 实例。 如果 *发布* 实例中，确保在 `/content/screens/svc.json` 或 `/content/screens/svc.ping.json`.
 
-1. 检查您的调度程序配置是否允许在`/filters`中发送这些请求。
+1. 检查您的调度程序配置是否允许在 `/filters`.
 
-   有关更多详细信息，请参阅[配置Screens过滤器](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters)。
+   请参阅 [配置Screens过滤器](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 以了解更多详细信息。
 
 1. 检查调度程序重写规则是否正在将任何屏幕路径重写为其他路径。
 
-1. 检查您在&#x200B;*author*&#x200B;或&#x200B;*publish*&#x200B;实例和屏幕上是否有`/etc/map`规则，这些规则与`sling:match`的路径匹配，并在内部重定向到其他路径。 解析`/system/console/jcrresolver`中的确切URL有助于确定&#x200B;*publish*&#x200B;实例是否正在将这些URL重写为任何其他路径。
+1. 检查是否 `/etc/map` 规则 *作者* 或 *发布* 实例和屏幕路径与 `sling:match` 并在内部重定向到其他路径。 解析中的确切URL `/system/console/jcrresolver` 有助于识别 *发布* 实例会将这些URL重写到任何其他路径。
 
 1. 检查Apache Sling资源解析程序工厂配置是否导致内部重写。
 
@@ -182,7 +182,7 @@ Windows播放器中没有窗口模式。 始终为全屏模式。
 您可以通过以下方式获取显示屏和设备的详细信息：
 
 * **内部JS API**
-* **ContextHub存储**:在中定义了三个ContextHub存储 `/libs/screens/clientlibs/contexthub` 区，用于显示渠道、设备和显示信息。
+* **ContextHub存储**:在 `/libs/screens/clientlibs/contexthub` 以显示渠道、设备和显示信息。
 
    请按照以下步骤使用这些ContentHub存储值：
 
@@ -204,18 +204,33 @@ Windows播放器中没有窗口模式。 始终为全屏模式。
 1. ***禁用Livefyre包：***
 
    * 导航至 `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
-   * 搜索AEM Livefyre包：`com.adobe.cq.social.cq-social-livefyre`
-   * 单击&#x200B;**Stop**
+   * 搜索AEM Livefyre包： `com.adobe.cq.social.cq-social-livefyre`
+   * 单击 **停止**
 
 1. ***禁用Livefyre poller:***
 
-   * 在CRXDE Lite中，导航到`/etc/importers/polling/livefyre-poller/jcr:content`
-   * 添加新属性&#x200B;*enabled*&#x200B;类型&#x200B;*Boolean*
-   * 将&#x200B;**enabled属性**&#x200B;设置为&#x200B;**false**
+   * 在CRXDE Lite中，导航到 `/etc/importers/polling/livefyre-poller/jcr:content`
+   * 添加新资产 *已启用* type *布尔值*
+   * 已设置 **已启用属性** to **false**
 
 ### 2.如何添加Oak索引信息？ {#add-oak-index-info}
 
 AEM Screens会为产品使用的查询创建索引定义。
-如果`error.log`中存在任何&#x200B;*查询遍历警告*，请为查询创建自定义索引。 有关更多详细信息，请参阅[配置索引](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) 。
+如果有 *查询遍历警告* 在 `error.log`，为查询创建自定义索引。 请参阅 [配置索引](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) 以了解更多详细信息。
 
-您还可以在[Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上引用其他资源。
+您还可以在 [Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
+### 3.配置v3舱单所需的条件 {#configure-v3}
+
+要启用v3清单，您必须：
+
+* 更新Dispatcher。
+请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以了解更多详细信息。
+
+* 更新自定义组件。
+请参阅 [自定义处理程序模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) 以了解更多详细信息。
+
+* 在 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* 在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.

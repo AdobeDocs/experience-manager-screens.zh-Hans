@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens发布了AEM 6.5功能包9。
 
-您可以使用Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens 6.5.9版的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**Screens**&#x200B;以获取标题为&#x200B;**AEM 6.5 Screens FP9**&#x200B;的最新功能包。
+您可以从下载适用于AEM Screens 6.5.9版的最新功能包 [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 用你的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取最新功能包的标题为 **AEM 6.5 Screens FP9**.
 
 ## 发布日期 {#release-date}
 
@@ -32,30 +32,33 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 * **视频的缩略图支持**
 
    AEM Screens现在支持缩略图支持中的视频。 内容作者可以为视频定义缩略图，以便图像可用作占位符，并在相应团队最终确定实际视频时，正确测试内容播放和定位。 在视频播放失败时，也可以使用图像。
-有关更多详细信息，请参阅[视频的缩略图支持](/help/user-guide/thumbnail-support.md)。
+请参阅 [视频的缩略图支持](/help/user-guide/thumbnail-support.md) 以了解更多详细信息。
 
 * **基本播放监控**
 
    AEM Screens现在支持基本的播放监控。 现在，播放器将报告各种播放量度，并且每次ping（默认为30秒）。 根据这些量度，它能够检测各种边缘情况（体验卡住、空白屏幕、计划问题等）。 此功能允许团队远程监控播放器是否正确播放了内容，提高对空白屏幕或现场中已损坏体验的反应性，并降低向最终用户显示已损坏体验的风险。
-有关更多详细信息，请参阅[基本播放监控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring)。
+请参阅 [基本播放监控](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) 以了解更多详细信息。
 
 * **内容分配报表的更新**
 
    内容分配报表现在已通过增强的用户体验进行优化和改进。 可下载的报表在一个电子表格选项卡中显示经过改进的播放器相关实体（如位置、显示屏和设备），以及内容提供商信息（如渠道）和其他选项卡中的资产。
-有关更多详细信息，请参阅[内容分配报表](/help/user-guide/content-assignment-report.md)。
+请参阅 [内容分配报表](/help/user-guide/content-assignment-report.md) 以了解更多详细信息。
 
 * **自适应演绎版**
 
    自适应演绎版允许设备根据客户定义的规则自动为设备选择最佳演绎版。
 
-   作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅[自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)以了解更多详细信息。
+   作为AEM Screens开发人员，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅 [自适应演绎版：体系结构概述和配置](/help/user-guide/adaptive-renditions.md) 以了解更多详细信息。
 
-   此外，作为AEM Screens内容作者，您还可以在AEM Screens渠道中将资产配置为使用自适应演绎版，并为大型网络迁移设备以使用此功能。 有关更多详细信息，请参阅[在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
+   此外，作为AEM Screens内容作者，您还可以在AEM Screens渠道中将资产配置为使用自适应演绎版，并为大型网络迁移设备以使用此功能。 请参阅 [在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md) 以了解更多详细信息。
 
 * **支持V3舱单**
 
-   现在，您可以为清单版本v3配置Dispatcher。 有关更多详细信息，请参阅[为清单版本配置Dispatcher v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 。
-此外，如果您将自定义组件用作v3清单的一部分，请参阅[自定义处理程序的模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers)。
+   现在，您可以为清单版本v3配置Dispatcher。 要启用v3清单，您需要配置：*更新Dispatcher *更新自定义组件*在中禁用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+*在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以了解更多详细信息。
+此外，如果您将自定义组件用作v3清单的一部分，请参阅 [自定义处理程序模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### 错误修复 {#bug-fixes}
@@ -74,13 +77,13 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 将映射转换为演绎版键值列表。
 
-* 删除了对Windows播放器中`cmd.exe`和`reg.exe`的访问。
+* 删除了对 `cmd.exe` 和 `reg.exe` 在windows播放器中。
 
 * 播放器需要报告其上次成功播放事件。
 
 * 播放器需要报告其播放状态。
 
-* 清除`ALL`缓存后，播放器不会重新下载资产。
+* 当 `ALL` 缓存已清除。
 
 * 作为播放器管理员，您现在可以选择播放器名称。
 
@@ -119,13 +122,13 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * 嵌入式序列播放策略已损坏，现已修复该问题。
 
-* 使用请求参数`wcmmode`获取html条目的脱机清单，使其无法执行。
+* 使用请求参数的脱机清单 `wcmmode` 用于html条目，使其无法执行。
 
 * 空的动态嵌入式序列有时会导致空白屏幕。
 
 * 播放器现在会报告其播放状态。
 
-* 视频在`Tiny mode`中播放，在设备上不作为全屏视频播放，此问题现已修复。
+* 视频正在播放 `Tiny mode` 和不会作为全屏视频在设备上播放，此问题现已修复。
 
 ### 已发布AEM Screens播放器 {#released-aem-screens-players}
 
@@ -139,4 +142,4 @@ AEM 6.5功能包9发布了以下AEM Screens播放器：
 
 #### AEM Screens Player下载  {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;**[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**。
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens Player下载](https://download.macromedia.com/screens/index.html)**.
