@@ -3,9 +3,9 @@ title: 配置Screens复制代理
 description: 请阅读本页以获取有关如何配置Screens复制代理的信息。
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Screens复制代理负责提供Ping数据，例如 *用户*, *密码*, *rebootSc
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 在创作时搜索Screens复制代理，然后单击链接，如下图所示。
+1. 在创作时搜索所有Screens复制代理，然后单击链接，如下图所示。
 
    >[!NOTE]
-   >使用字母搜索Screens复制代理 **S** 包含在作者姓名中。
+   >搜索所有Screens复制代理。 Screens复制代理名称将包含一个字母 **S** 中。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
