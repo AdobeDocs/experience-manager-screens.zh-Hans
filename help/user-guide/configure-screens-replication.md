@@ -3,10 +3,10 @@ title: 配置Screens复制代理
 description: 请阅读本页以获取有关如何配置Screens复制代理的信息。
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ ht-degree: 5%
 
 ## 启用用户和更新密码 {#enable-users}
 
-应遵循以下步骤：
+请按照以下步骤为用户启用并更新screens-receiver-user的密码：
+
+>[!NOTE]
+>出于安全考虑，建议避免为screens-receiver-user使用管理员密码。
 
 1. 导航到您的AEM实例。
 
