@@ -3,17 +3,25 @@ title: 配置Screens复制代理
 description: 请阅读本页以获取有关如何配置Screens复制代理的信息。
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 6%
+source-wordcount: '396'
+ht-degree: 5%
 
 ---
 
 
 # 配置Screens复制代理 {#configuring-screens-replication-agent}
 
-本节介绍如何配置Screens复制代理。
+以下页面介绍了如何配置Screens复制代理。
+
+>[!NOTE]
+>要了解有关Screens复制代理的更多信息，请参阅 [Screens复制代理和命令](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+您必须完成以下两个部分，才能完成Screens复制代理的配置：
+
+1. [启用用户和更新密码](#enable-users)
+1. [更新Screens复制代理](#replicate-agent)
 
 ## 启用用户和更新密码 {#enable-users}
 
@@ -87,7 +95,7 @@ ht-degree: 6%
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. 单击链接，如下图所示。
+1. 搜索带有信件的链接 **S** 并单击它，如下图所示。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
