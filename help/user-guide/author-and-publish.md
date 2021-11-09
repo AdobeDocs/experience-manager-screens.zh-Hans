@@ -1,16 +1,16 @@
 ---
 title: 在AEM Screens中配置创作和发布
-seo-title: 在AEM Screens中配置创作和发布
+seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创作内容，然后将其转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
-seo-description: AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创作内容，然后将其转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
-feature: 管理屏幕
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 2%
+source-wordcount: '1882'
+ht-degree: 3%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->如果要与Dispatcher一起使用多个发布实例，则必须更新Dispatcher中的dispatcher.any文件。 有关更多详细信息，请参阅[启用置顶会话](dispatcher-configurations-aem-screens.md#enable-sticky-session)。
+>如果要与Dispatcher一起使用多个发布实例，则必须更新Dispatcher中的dispatcher.any文件。 请参阅 [启用置顶会话](dispatcher-configurations-aem-screens.md#enable-sticky-session) 以了解更多详细信息。
 
 ## 配置创作实例和发布实例 {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->要进一步了解作者和发布架构概述以及如何在AEM创作实例上创作内容，然后将内容转发复制到多个发布实例，请参阅[创作和发布架构概述](author-publish-architecture-overview.md)。
+>要进一步了解作者和发布架构概述，以及如何在AEM创作实例上创作内容，然后将其转发复制到多个发布实例，请参阅 [创作和发布架构概述](author-publish-architecture-overview.md).
 
 以下部分介绍如何在创作拓扑和发布拓扑上设置复制代理。
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 Screens需要3个复制代理：
 
-1. **默认复制代 ***理(*** 指定为标准复制代理**)
+1. **默认复制代理 ***(指定为*** 标准复制代理**)
 1. **Screens复制代理**
 1. **反向复制代理**
 
@@ -66,35 +66,35 @@ Screens需要3个复制代理：
 
 按照以下步骤创建默认复制代理：
 
-1. 导航到AEM实例 — >锤子图标 — > **操作** —> **配置**。
+1. 导航到AEM实例 — >锤子图标 — > **操作** —> **配置**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. 从左侧导航树中选择&#x200B;**Replication**。
+1. 选择 **复制** 从左侧导航树中。
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. 从&#x200B;**Replication**&#x200B;文件夹中选择&#x200B;**创作代理** ，然后单击&#x200B;**New**&#x200B;以创建新的标准复制代理。
+1. 选择 **作者代理** 从 **复制** 文件夹，单击 **新建** 创建新的标准复制代理。
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. 输入&#x200B;**标题**&#x200B;和&#x200B;**名称**&#x200B;以创建复制代理，然后单击&#x200B;**创建**。
+1. 输入 **标题** 和 **名称** 要创建复制代理，请单击 **创建**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. 右键单击复制代理，然后单击&#x200B;**打开**&#x200B;以编辑设置。
+1. 右键单击复制代理，然后单击 **打开** 以编辑设置。
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. 单击&#x200B;**编辑**&#x200B;以打开&#x200B;**代理设置**&#x200B;对话框以输入详细信息。
+1. 单击 **编辑** 打开 **代理设置** 对话框以输入详细信息。
 
    >[!NOTE]
    >
-   >用户需要选中&#x200B;**Enabled**&#x200B;以启用复制代理。 您必须在默认、屏幕和反向复制代理中选中此选项。
+   >用户需要检查 **已启用** 启用复制代理。 您必须在默认、屏幕和反向复制代理中选中此选项。
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. 导航到&#x200B;**Transport**&#x200B;选项卡并输入&#x200B;**URI**、**User**&#x200B;和&#x200B;**Password**。
+1. 导航到 **运输** ，然后输入 **URI**, **用户** 和 **密码**.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
@@ -105,13 +105,16 @@ Screens需要3个复制代理：
 
 #### 创建标准复制代理  {#creating-standard-replication-agents}
 
-1. 为pub1创建标准复制代理（应该已配置现成的默认代理）(例如，*https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
+1. 为pub1创建标准复制代理（应已配置现成的默认代理）(例如， *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. 为pub2创建标准复制代理。 您可以复制pub1的rep agent ，并通过更改传输配置中的端口来更新用于pub2的传输。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 创建Screens复制代理 {#creating-screens-replication-agents}
 
 1. 为pub1创建AEM Screens复制代理。 现成，有一个名为Screens复制代理的端口指向4503。 需要启用此功能。
 1. 为pub2创建AEM Screens复制代理。 复制pub1的Screens复制代理，并将端口更改为pub2的4504。
+
+   >[!NOTE]
+   >要了解如何配置Screens复制代理，请参阅 [配置Screens复制代理](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### 创建Screens反向复制代理 {#creating-screens-reverse-replication-agents}
 
@@ -127,18 +130,18 @@ Screens需要3个复制代理：
 对于每个发布实例：
 
 1. 导航至 `https://<host>:<port>/system/console/configMgr`
-1. 选择&#x200B;**Apache Sling基于Oak的发现服务**&#x200B;配置。
+1. 选择 **Apache Sling Oak-Based Discovery Service** 配置。
 1. 更新拓扑连接器URL:添加所有参与的发布实例的URL，这些实例为：
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
 1. **拓扑连接器白名单**:适应包含参与发布实例的IP或子网
-1. 启用&#x200B;**自动停止本地循环**
+1. 启用 **自动停止局部循环**
 
 每个发布实例的配置应相同，并且自动停止本地循环可防止无限循环。
 
 #### 步骤2:验证发布拓扑 {#step-verify-publish-topology}
 
-对于任何发布实例，导航到`https://:/system/console/topology`。 应会在&#x200B;**传出拓扑连接器**&#x200B;下看到拓扑中表示的每个发布实例。
+对于任何发布实例，导航到 `https://:/system/console/topology`. 您应会在 **传出拓扑连接器**.
 
 #### 步骤3:设置ActiveMQ Artemis群集 {#step-setup-activemq-artemis-cluster}
 
@@ -147,10 +150,10 @@ Screens需要3个复制代理：
 
 在每个发布实例上：
 
-1. 在OSGi控制台中，导航到&#x200B;**MAIN** —> **Crypto Support**(`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`)。
-1. 在&#x200B;**纯文本**&#x200B;中键入所需的纯文本密码（对于所有实例均相同）
-1. 单击&#x200B;**Protect**。
-1. 将值&#x200B;**Protected Text**&#x200B;复制到记事本或文本编辑器。 此值将用在ActiveMQ的OSGi配置中。
+1. 在OSGi控制台中，导航到 **主要** —> **加密支持** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`)。
+1. 在 **纯文本**
+1. 单击 **Protect**.
+1. 复制值 **受保护文本** 到记事本或文本编辑器。 此值将用在ActiveMQ的OSGi配置中。
 
 由于每个发布实例默认具有唯一的加密密钥，因此您需要对每个发布实例执行此步骤，并保存唯一密钥以进行下一次配置。
 
@@ -163,18 +166,18 @@ Screens需要3个复制代理：
 
 在每个发布实例上：
 
-1. 导航到OSGi配置管理器`https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
-1. 选择&#x200B;**Apache ActiveMQ Artemis JMS提供程序**&#x200B;配置
+1. 导航到OSGi配置管理器 `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
+1. 选择 **Apache ActiveMQ目标JMS提供程序** 配置
 1. 更新以下内容：
 
    * ***群集密码***:对每个实例使用上一步中的加密值
-   * ***主题***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
+   * ***主题***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### 验证ActiveMQ Artemis群集 {#verify-activemq-artemis-cluster}
 
 对每个Publish实例执行以下步骤：
 
-1. 导航到OSGi控制台 — >主> ActiveMQ Artemis `https://localhost:4505/system/console/mq`。
+1. 导航到OSGi控制台 — >主> ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. 验证并检查群集信息>拓扑>节点=2，成员=2下的其他实例的端口。
 1. 发送测试消息(屏幕顶部的“Broker Information（代理信息）”下)
 1. 在字段中输入以下更改：
@@ -189,7 +192,7 @@ Screens需要3个复制代理：
 
 例如，在成功配置ActiveMQ Artemis Server时，会显示以下图像。
 
-如果未在&#x200B;*/system/console/mq*&#x200B;中看到以下配置，请导航至&#x200B;*/system/console/mq*&#x200B;并单击&#x200B;**重新启动**&#x200B;以重新启动代理。
+如果您在 */system/console/mq*，然后导航到 */system/console/mq* 单击 **重新启动** 重新启动代理。
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -197,9 +200,9 @@ Screens需要3个复制代理：
 
 按照每个Publish实例上的步骤操作：
 
-1. 导航到&#x200B;**OSGi控制台** > **Configuration Manager**
-1. 选择&#x200B;**Apache Sling反向链接过滤器**
-1. 更新配置和&#x200B;**选中允许空**
+1. 导航到 **OSGi控制台** > **配置管理器**
+1. 选择 **Apache Sling反向链接过滤器**
+1. 更新配置和 **选中允许为空**
 
 ### 配置创作和发布实例 {#configuring-author-and-publish-instance}
 
@@ -214,7 +217,7 @@ Screens需要3个复制代理：
 #### 步骤1:启动AEM Screens播放器（设备） {#step-starting-an-aem-screens-player-device}
 
 1. 启动一个单独的浏览器窗口。
-1. 使用&#x200B;*Web浏览器*（即`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`）转到Screens播放器，或启动AEM Screens应用程序。 在打开设备时，您会注意到设备的状态为未注册。
+1. 使用 *Web浏览器*，即`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` 或启动AEM Screens应用程序。 在打开设备时，您会注意到设备的状态为未注册。
 
 >[!NOTE]
 >
@@ -222,19 +225,19 @@ Screens需要3个复制代理：
 
 #### 步骤2:在创作中注册设备 {#step-registering-a-device-on-author}
 
-1. 转到`https://localhost:4502/screens.html/content/screens/we-retail`或选择您的项目，然后导航到“设备”>“设备管理器”。
-1. 选择&#x200B;**注册设备**。
-1. 单击&#x200B;**设备注册**&#x200B;以查看设备。
-1. 选择要注册的设备，然后单击&#x200B;**注册设备**。
-1. 验证注册代码并单击&#x200B;**验证**。
-1. 输入设备的标题并单击&#x200B;**注册**。
+1. 转到 `https://localhost:4502/screens.html/content/screens/we-retail` 或选择您的项目，然后导航到“设备”>“设备管理器”。
+1. 选择 **注册设备**.
+1. 单击 **设备注册** 查看设备。
+1. 选择要注册的设备，然后单击 **注册设备**.
+1. 验证注册代码并单击 **验证**.
+1. 输入设备的标题并单击 **注册**.
 
 #### 步骤3:将设备分配给显示器 {#step-assigning-the-device-to-display}
 
-1. 在上一步的对话框中单击&#x200B;**指定显示**。
-1. 从&#x200B;**Locations**&#x200B;文件夹中选择渠道的显示路径。
-1. 单击&#x200B;**Assign**。
-1. 单击&#x200B;**完成**&#x200B;以完成该过程，现在已分配设备。
+1. 单击 **分配显示** 中，将其排除在以下位置。
+1. 从 **位置** 文件夹。
+1. 单击 **分配**.
+1. 单击 **完成** 完成该过程，现在已分配设备。
 
 查看您的播放器，您将看到您在渠道中添加的内容。
 
@@ -242,13 +245,13 @@ Screens需要3个复制代理：
 
 **验证设备**
 
-在执行以下步骤之前，请确保验证设备ID。 要进行验证，请在CRXDE Lite中搜索设备ID，路径为&#x200B;*/home/users/screens/we-retail/devices*。
+在执行以下步骤之前，请确保验证设备ID。 要进行验证，请在CRXDE Lite中搜索设备ID，路径为 */home/users/screens/we-retail/devices*.
 
 按照以下步骤复制设备用户：
 
-1. 导航到用户管理页面(例如：`https://localhost:4502/useradmin`
-1. 搜索&#x200B;**screens-devices-主控**&#x200B;组
-1. 右键单击组，然后单击&#x200B;**激活**
+1. 导航到用户管理页面(例如： `https://localhost:4502/useradmin`
+1. 搜索 **screens-devices-主控** 群组
+1. 右键单击群组，然后单击 **激活**
 
 >[!CAUTION]
 >
@@ -256,15 +259,15 @@ Screens需要3个复制代理：
 
 您还可以从设备管理控制台激活设备。 应遵循以下步骤：
 
-1. 导航到您的Screens项目 — > **设备**。
-1. 单击操作栏中的&#x200B;**设备管理器**。
-1. 选择设备，然后单击操作栏中的&#x200B;**激活** ，如下图所示。
+1. 导航到您的Screens项目 — > **设备**.
+1. 单击 **设备管理器** 中。
+1. 选择设备并单击 **激活** ，如下图所示。
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->或者，激活设备后，您还可以通过单击操作栏中的&#x200B;**编辑服务器URL**&#x200B;来编辑或更新服务器URL，如下图所示，您所做的更改将传播到AEM Screens播放器。
+>或者，激活设备后，您还可以通过单击 **编辑服务器URL** ，如下图所示，您所做的更改将会传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,20 +275,20 @@ Screens需要3个复制代理：
 
 以下几点汇总了“发布检查”列表：
 
-* *Screens设备用户*  — 此用户将作为AEM用户存储，并从工具 **>** 安全 **>** 用户 ****&#x200B;中激活。用户将带有带有长序列化字符串的“screens”前缀。
+* *Screens设备用户*  — 此ID将存储为AEM用户，并从 **工具** > **安全性** > **用户**. 用户将带有带有长序列化字符串的“screens”前缀。
 
-* *项目*  -AEM Screens项目。
+* *项目* -AEM Screens项目。
 * *位置*  — 设备连接到的位置。
 * *渠道*  — 在位置显示的一个或多个渠道
-* *计划*  — 如果使用计划，请确保已发布该计划
-* *位置、计划和渠道文件夹*  — 如果相应资源位于文件夹中，则执行此操作。
+* *计划*  — 如果使用计划，请确保已发布
+* *位置、计划和渠道文件夹*  — 如果相应的资源位于文件夹中。
 
 请按照以下步骤验证作者/发布行为：
 
 1. 在创作实例上更新一些渠道内容
-1. 执行&#x200B;**管理发布**&#x200B;以将新更改发布到所有发布实例
-1. 按&#x200B;**激活**&#x200B;以从&#x200B;**设备管理器**&#x200B;激活设备
-1. **编辑** 从创作实例URL到其中一个发布实例URL的URL
+1. 执行 **管理发布** 发布对所有发布实例的新更改
+1. 按 **激活** 从激活设备 **设备管理器**
+1. **编辑URL** 从创作实例URL到其中一个发布实例URL
 1. 验证更新的渠道内容是否显示在AEM Screens播放器上
 1. 使用其他发布实例重复这些步骤
 
@@ -293,17 +296,17 @@ Screens需要3个复制代理：
 #### 步骤5:在“管理面板”中将设备指向发布实例 {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. 从Screens播放器中查看管理员UI，长按左上角以打开“管理员”菜单、触屏AEM Screens播放器，或使用鼠标。
-1. 单击侧面板中的&#x200B;**Configuration**&#x200B;选项。
-1. 将创作实例更改为在&#x200B;**Server**&#x200B;中发布实例。
+1. 单击 **配置** 选项。
+1. 将创作实例更改为在中发布实例 **服务器**.
 
 查看AEM Screens播放器中的更改。
 
 或者，您也可以通过设备管理控制台通过以下步骤更新/编辑服务器URL:
 
-1. 导航到您的AEM Screens项目，然后选择&#x200B;**Devices**&#x200B;文件夹。
-1. 单击操作栏中的&#x200B;**设备管理器**。
-1. 选择设备，然后单击操作栏中的&#x200B;**编辑服务器URL** ，如下图所示，您所做的更改将传播到AEM Screens播放器。
+1. 导航到您的AEM Screens项目，然后选择 **设备** 文件夹。
+1. 单击 **设备管理器** 中。
+1. 选择设备并单击 **编辑服务器URL** ，如下图所示，您所做的更改将会传播到AEM Screens播放器。
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-**管理发布**&#x200B;功能允许您将内容更新从创作传送到发布到设备。 您可以发布/取消发布整个AEM Screens项目的内容，也只能发布/取消发布渠道、位置、设备、应用程序或计划中的一个内容。 要了解有关此功能的更多信息，请参阅[On-Demand Content Update](on-demand-content.md)。
+的 **管理发布** 功能允许您将内容更新从创作交付到发布到设备。 您可以发布/取消发布整个AEM Screens项目的内容，也只能发布/取消发布渠道、位置、设备、应用程序或计划中的一个内容。 要了解有关此功能的更多信息，请参阅 [按需内容更新](on-demand-content.md).
