@@ -3,9 +3,9 @@ title: 配置Screens复制代理
 description: 请阅读本页以获取有关如何配置Screens复制代理的信息。
 role: Developer
 level: Intermediate
-source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 目标 {#objective}
 
-Screens复制代理负责将Ping数据从发布引导到创作。 必须配置此参数，以便作者能够显示设备ping。
+Screens复制代理负责提供Ping数据，例如 *用户*, *密码*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*，以及从发布到创作的更多此类值。 必须配置此参数，以便作者能够显示设备ping。
 
 >[!NOTE]
 >要了解有关Screens复制代理的更多信息，请参阅 [Screens复制代理和命令](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
