@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
+source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -54,11 +54,18 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * **支持V3舱单**
 
-   现在，您可以为清单版本v3配置Dispatcher。 要启用v3清单，您需要配置：*更新Dispatcher *更新自定义组件*在中禁用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-*在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   现在，您可以为清单版本v3配置Dispatcher。 要启用v3清单，您需要配置：
 
-   请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以了解更多详细信息。
-此外，如果您将自定义组件用作v3清单的一部分，请参阅 [自定义处理程序模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * 更新调度程序
+
+   * 更新自定义组件
+
+   * 在 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * 在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   * 请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以了解更多详细信息。
+   * 如果您将自定义组件用作v3清单的一部分，请参阅 [自定义处理程序模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### 错误修复 {#bug-fixes}
