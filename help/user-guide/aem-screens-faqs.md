@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2120'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 当前只能在创作实例上注册。 虽然注册服务未经过身份验证，但它只会在AEM中创建待处理设备，而不会实际注册设备或分配任何显示屏。
 
-要注册设备(这意味着在AEM中为设备创建用户)，您仍需要对AEM进行身份验证，并且当前需要手动按照注册向导完成注册。 从理论上讲，恶意用户可能会创建多个挂起的设备，但如果没有AEM登录，则无法注册任何设备。
+要注册设备(这意味着在AEM中为设备创建用户)，您仍需要对AEM进行身份验证，并且当前需要手动按照注册向导完成注册。 理论上，恶意用户可能会创建多个挂起的设备，但如果没有AEM登录，则无法注册任何设备。
 
 ### 2.是否可以通过某种身份验证形式，将HTTPGET请求转换为HTTPPOST? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 1. 单击 [此处](https://download.macromedia.com/screens/) 下载最新的Chrome播放器。
 1. 解压缩并将其保存在磁盘上。
 1. 打开Chrome浏览器并选择 **扩展** ，或直接导航到 ***chrome://extensions***.
-1. 打开 **开发人员模式** 从右上角。
+1. 打开 **开发人员模式** 右上角。
 1. 单击 **加载已解压** 从左上角加载已解压的Chrome播放器。
 1. 检查 **AEM Screens Chrome Player** 插件（如果在扩展列表中可用）。
 1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
@@ -240,3 +240,7 @@ AEM Screens会为产品使用的查询创建索引定义。
 * 导航到 **脱机配置** 选项卡。
 
 * 输入 `clientlibs `和需要添加到清单的静态文件的文件夹。
+
+### 4.如果软件包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心包安装但未激活后，您应该怎么做？
+
+必须安装最低版本的AEM 6.5 Feature Pack 8 AMS，AMS连接器才能正常工作。 请参阅 [可用性](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 以获取功能包的最低版本。
