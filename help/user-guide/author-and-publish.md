@@ -1,18 +1,14 @@
 ---
 title: 在AEM Screens中配置创作和发布
-seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创作内容，然后将其转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
 workflow-type: tm+mt
-source-wordcount: '1882'
-ht-degree: 3%
+source-wordcount: '2006'
+ht-degree: 2%
 
 ---
+
 
 # 在AEM Screens中配置创作和发布 {#configuring-author-and-publish-in-aem-screens}
 
@@ -192,7 +188,7 @@ Screens需要3个复制代理：
 
 例如，在成功配置ActiveMQ Artemis Server时，会显示以下图像。
 
-如果您在 */system/console/mq*，然后导航到 */system/console/mq* 单击 **重新启动** 重新启动代理。
+如果您在 */system/console/mq*，然后导航到 */system/console/mq* 单击 **重新启动** 以重新启动代理。
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -310,3 +306,22 @@ Screens需要3个复制代理：
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 的 **管理发布** 功能允许您将内容更新从创作交付到发布到设备。 您可以发布/取消发布整个AEM Screens项目的内容，也只能发布/取消发布渠道、位置、设备、应用程序或计划中的一个内容。 要了解有关此功能的更多信息，请参阅 [按需内容更新](on-demand-content.md).
+
+## 疑难解答提示 {#troubleshoot-tips}
+
+请按照以下部分获取与创作/发布设置相关的常见问题解答。
+
+### 如何在初始注册和分配后将重定向从https添加到http ? {#add-redirect}
+
+**解决方案**
+设置启用 `Proxy/Load Balancer Connection in the Jetty configuration` to `true`.
+
+### 如何更新外部资产的离线内容和播放器下载问题 `/content/dam/projects/<project>`? {#update-offline-content}
+
+**解决方案**
+为批量脱机更新屏幕服务用户和屏幕设备主控组授予读取权限，以便所有用户 `/content/dam` 或者，如果您希望对资产设置更多限制，也可以选择要使用的特定资产。
+
+### 如何解决Screens复制代理错误？ {#replication-agent}
+
+**解决方案**
+请确保您未在代理配置中选中使用进行反向复制选项。 Screens复制代理不能用作反向复制代理，此功能的范围是将设备命令从创作转发到发布。
