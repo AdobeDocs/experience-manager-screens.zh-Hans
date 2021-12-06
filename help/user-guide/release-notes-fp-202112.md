@@ -1,10 +1,10 @@
 ---
 title: 功能包202112的发行说明
-description: 请阅读本页以了解2021年12月03日发布的AEM Screens功能包202112的相关信息。
+description: 请阅读本页以了解2021年12月06日发布的AEM Screens功能包202112的相关信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
+source-git-commit: a80b7d81df0ddcfad814e3462604e4d64f0c88ac
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
@@ -25,7 +25,7 @@ AEM Screens发布了AEM 6.5功能包10。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包202112的发行日期是2021年12月3日。
+AEM Screens功能包202112的发行日期是2021年12月6日。
 
 ### 新增功能 {#what-is-new}
 
