@@ -1,10 +1,10 @@
 ---
 title: 功能包202112的发行说明
-description: 请阅读本页以了解2021年12月06日发布的AEM Screens功能包202112的相关信息。
+description: 请阅读本页以了解2021年12月17日发布的AEM Screens功能包202112的相关信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ab67ce4704b3e3cb3f38ffca6e6964d94709967d
+source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
