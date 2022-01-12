@@ -4,13 +4,13 @@ description: 请阅读本页以了解2021年12月17日发布的AEM Screens功能
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 6%
+source-wordcount: '291'
+ht-degree: 5%
 
 ---
-
 
 # 功能包202112的发行说明 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ AEM Screens功能包202112的发行日期是2021年12月17日。
 
 * 升级后，播放器未更新固件版本。 此问题现已修复。
 
+* 显示预览在以前的播放器配置中卡住。
+
+* 在某些情况下，显示预览未呈现。
+
+* 修复了SmartSync中的并发下载错误。
 
 ### 已发布AEM Screens播放器 {#released-aem-screens-players}
 
