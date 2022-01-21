@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '931'
+ht-degree: 2%
 
 ---
 
@@ -54,18 +54,31 @@ AEM Screens功能包202109的发行日期是2021年9月23日。
 
 * **支持V3舱单**
 
-   现在，您可以为清单版本v3配置Dispatcher。 要启用v3清单，您需要配置：
+   现在，您可以为清单版本v3配置Dispatcher。 要启用v3清单，您需要：
+
+   * 清除作者和已发布中的任何待处理脱机内容作业
+
+      * 在创作和发布中导航到crx/de
+
+      * 单击“工具” — >“查询”
+
+      * 在查询中使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * 这将列出队列中当前正在运行或处于待处理状态的任何脱机内容作业
+
+      * 等待查询不再返回离线内容作业
+   * 在 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * 在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * 更新调度程序
 
    * 更新自定义组件
 
-   * 在 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * 在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * 请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以了解更多详细信息。
    * 如果您将自定义组件用作v3清单的一部分，请参阅 [自定义处理程序模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+
 
 
 ### 错误修复 {#bug-fixes}
