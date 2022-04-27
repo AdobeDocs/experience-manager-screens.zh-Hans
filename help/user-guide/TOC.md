@@ -6,10 +6,10 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
-source-git-commit: 3602eda37d662017ec5a1d31735e42b6b6f0f89d
+source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 18%
+source-wordcount: '480'
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 + 配置和管理 {#administering}
    + [Screens服务器配置](configuring-screens-introduction.md)
    + [设置调度程序配置](dispatcher-configurations-aem-screens.md)
-   + [安装Screens播放器](installing-screens-player.md)
+   + [安装 Screens 播放器](installing-screens-player.md)
    + [连接Screens播放器](working-with-screens-player.md)
    + [设备注册](device-registration.md)
    + [设置ACL](setting-up-acls.md)
@@ -113,6 +113,7 @@ ht-degree: 18%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包202204的发行说明](release-notes-fp-202204.md)
    + [功能包202112的发行说明](release-notes-fp-202112.md)
    + [功能包202109的发行说明](release-notes-fp-202109.md)
    + [功能包202105的发行说明](release-notes-fp-202105.md)
