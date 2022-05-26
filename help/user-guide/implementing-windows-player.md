@@ -1,8 +1,8 @@
 ---
 title: 实施Windows 10 Player
-seo-title: 实施Windows 10 Player
+seo-title: Implementing Windows 10 Player
 description: 请阅读本页以了解有关配置AEM Screens Windows 10播放器的信息。
-seo-description: 请阅读本页以了解有关配置AEM Screens Windows 10播放器的信息。
+seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,26 +10,26 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: 管理屏幕， Windows Player
+feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
 
 # 实施Windows 10 Player {#implementing-windows-player}
 
-本节介绍如何配置AEM Screens Windows 10播放器。 它提供了配置文件、可用选项的信息，以及有关开发和测试中要使用的设置的建议。
+本节介绍如何配置AEM Screens Windows 10播放器。 它提供了配置文件、可用选项的信息，以及有关开发和测试所使用的设置的建议。
 
 ## 安装Windows Player {#installing-windows-player}
 
 要实施适用于AEM Screens的Windows Player，请安装适用于AEM Screens的Windows Player。
 
-访问&#x200B;[**AEM 6.5 Player下载**](https://download.macromedia.com/screens/)页面。
+访问 [**AEM 6.5播放器下载**](https://download.macromedia.com/screens/) 页面。
 
 >[!NOTE]
 >Windows播放器中没有窗口模式。 始终为全屏模式。
@@ -39,36 +39,34 @@ ht-degree: 1%
 >[!NOTE]
 >如果您使用的是AEM Screens 6.5.5 Service Pack，则必须为Windows Player设置环境。
 
-将登录令牌Cookie的&#x200B;**SameSite属性从** Lax **设置为**&#x200B;从&#x200B;**Adobe Experience Manager Web控制台的None**
-在所有AEM创作实例和发布实例上配置**。**
+设置 **登录令牌Cookie的SameSite属性** 从 **Lax** to **无** 从 **Adobe Experience Manager Web控制台配置** 在所有AEM创作和发布实例上。
 
 应遵循以下步骤：
 
-1. 导航到&#x200B;**Adobe Experience Manager Web控制台
-使用`http://localhost:4502/system/console/configMgr`进行配置**。
+1. 导航到 **Adobe Experience Manager Web控制台配置** 使用 `http://localhost:4502/system/console/configMgr`.
 
-1. 搜索&#x200B;*AdobeGranite令牌身份验证处理程序*。
+1. 搜索 *AdobeGranite令牌身份验证处理程序*.
 
-1. 将登录令牌Cookie的&#x200B;**SameSite属性从** Lax **设置为** None **。**
+1. 设置 **登录令牌Cookie的SameSite属性** 从 **Lax** to **无**.
    ![图像](/help/user-guide/assets/granite-updates.png)
 
 1. 单击&#x200B;**保存**。
 
 ### Ad-Hoc方法 {#ad-hoc-method}
 
-Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**AEM 6.5播放器下载**](https://download.macromedia.com/screens/)页面。
+Ad-Hoc方法允许您安装最新的Windows播放器(*.exe*)。 访问 [**AEM 6.5播放器下载**](https://download.macromedia.com/screens/) 页面。
 
 下载应用程序后，请按照播放器中的步骤完成临时安装：
 
 1. 长按左上角以打开管理面板。
-1. 从左侧操作菜单导航到&#x200B;**Configuration** ，输入要连接的AEM实例的位置（地址），然后单击&#x200B;**Save**。
-1. 从左侧操作菜单中导航到&#x200B;**Device** **Registration**&#x200B;链接，以检查设备注册过程的状态。
+1. 导航到 **配置** 从左侧操作菜单中，输入要连接到的AEM实例的位置（地址）并单击 **保存**.
+1. 导航到 **设备** **注册** 从左侧操作菜单链接以检查设备注册过程的状态。
 
 >[!NOTE]
 >
->如果&#x200B;**State**&#x200B;为&#x200B;**REGISTERED**，则会注意到将填充&#x200B;**Device id**&#x200B;字段。
+>如果 **州** is **已注册**，您会注意到 **设备ID** 字段。
 >
->如果&#x200B;**State**&#x200B;为&#x200B;**UNRECISTED**，则可以使用&#x200B;**Token**&#x200B;注册设备。
+>如果 **州** is **未注册**，则可以使用 **令牌** 来注册设备。
 
 ## 命名Windows Player {#name-windows}
 
@@ -79,8 +77,8 @@ Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**A
 
 请按照以下步骤在Windows播放器中配置名称：
 
-1. 单击&#x200B;**start** —> **运行**
-1. 输入`system.cpl`
+1. 单击 **开始** —> **运行**
+1. 输入 `system.cpl`
 1. 使用计算机名称选项卡设置计算机的主机名
 
 ## 在Windows Installer中更改默认选项 {#changing-default-options}
@@ -89,7 +87,7 @@ Ad-Hoc方法允许您安装最新的Windows Player(*.exe*)。 访问&#x200B;[**A
 
 ## 使用CLI(PowerShell)进行安装 {#install-powershell}
 
-1. 为Screens播放器创建自定义位置&#x200B;**专用**，例如：
+1. 创建自定义位置 **专用** 例如，对于Screens播放器：
    `C:\Users\User\screens-player`)
 1. 安装
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -115,7 +113,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 按照以下步骤配置Windows 10 Player:
 
 1. 安装Windows Player。
-1. 在&#x200B;***%appdata%\com.adobe.aem.screens.player\config.json***&#x200B;下找到配置文件。
+1. 在 ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. 使用以下信息更新配置JSON，然后将同一文件夹复制到播放器所在的所有系统。
 
 ### 策略属性 {#policy-attributes}
@@ -128,7 +126,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 | 分辨率 | 设备的分辨率。 |
 | rebootSchedule | 重新引导播放器的计划。 |
 | enableAdminUI | 启用管理员UI以在站点上配置设备。 在生产环境中完全配置后，将其设置为false。 |
-| enableOSD | 启用渠道切换器UI，以便用户在设备上切换渠道。 在完全配置并投入生产后，请考虑将设置为false。 |
+| enableOSD | 启用渠道切换器UI，以便用户在设备上切换渠道。 在完全配置并投入生产后，请考虑将其设置为false。 |
 | enableActivityUI | 启用以显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
 
 #### 策略JSON文件示例 {#example-policy-json-file}
@@ -150,7 +148,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 >[!CAUTION]
 >
->Adobe建议使用设备管理解决方案来启用Windows版Kiosk。 如果您没有设备管理解决方案来启用Kiosk模式，请按照以下步骤操作。 此方法使用Windows 10企业版和Edu版中提供的Shell启动器功能。 任何其他微软推荐的非UWP应用方式也可应用于启用Kiosk，尤其是在其他Windows版本上。
+>Adobe建议使用设备管理解决方案来启用Windows版Kiosk。 如果您没有设备管理解决方案来启用Kiosk模式，请按照以下步骤操作。 此方法使用Windows 10企业版和Edu版中提供的Shell启动器功能。 对于非UWP应用，任何Microsoft推荐的其他方法也可应用于启用Kiosk，尤其是在其他Windows版本上。
 
 按照以下步骤启用Kiosk模式：
 
@@ -160,11 +158,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 1. 启用Shell启动器。
 
-   有关其他信息，请参阅Microsoft Windows支持在&#x200B;**[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**&#x200B;页面中配置Shell Launcher ***一节。***
+   请参阅一节 ***配置Shell启动器*** in **[壳启动器](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** 页面，以了解其他信息。Microsoft Windows支持。
 
 1. 创建要用于Kiosk的非管理用户（如果您还没有）。 这可以是本地用户或域用户。
-1. 从[AEM Screens Player下载](https://download.macromedia.com/screens/)页面为该Kiosk用户安装Windows播放器。
-1. 有关详细信息，请参阅[使用Shell启动器创建Windows 10 kiosk](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher)以修改PowerShell脚本。
+1. 从为该Kiosk用户安装Windows播放器 [AEM Screens Player下载](https://download.macromedia.com/screens/) 页面。
+1. 请参阅 [使用Shell Launcher创建Windows 10网亭](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) 以修改PowerShell脚本，以了解详细信息。
 
    修改PowerShell脚本，将用户名替换为您创建的用户名。 确保应用程序可执行文件的路径正确。 这会将自定义shell设置为kiosk用户的windows播放器应用程序，并将其他用户的默认设置为explorer.exe。
 
@@ -185,7 +183,7 @@ Windows播放器的默认安装路径是：
 >
 >在某些Windows环境中， PowerShell脚本可能受策略（特别是无符号脚本）的限制。 要运行脚本，您可能需要临时禁用并重新启用此限制才能运行脚本。 打开PowerShell窗口并使用这些命令。
 >
->*set-executionpolicy不受限制*  — 可暂时删除限制
+>*set-executionpolicy不受限制*  — 临时删除限制
 >
 >*set-executionpolicy受限*  — 在运行脚本后重新启用限制
 
@@ -196,3 +194,7 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
+
+### 使用Screens远程控制 {#using-remote-control}
+
+AEM Screens提供远程控制功能。 请在此处了解有关此功能的更多信息： [Screens远程控制](implementing-remote-control.md)

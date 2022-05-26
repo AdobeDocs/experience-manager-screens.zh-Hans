@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
-source-git-commit: 411b3c98b70b998fb5a134a8c33ad77478b15fe0
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '484'
 ht-degree: 20%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 20%
       + [Windows Player](implementing-windows-player.md)
       + [蒂森球员](tizen-player.md)
       + [播放器的自动注册](auto-registration-players.md)
+      + [使用远程控制](implementing-remote-control.md)
    + 创作发布 {#author-publish}
       + [创作 — 发布架构概述](author-publish-architecture-overview.md)
       + [配置创作和发布](author-and-publish.md)
