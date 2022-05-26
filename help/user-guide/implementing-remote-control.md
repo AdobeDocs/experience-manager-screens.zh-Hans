@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ ht-degree: 0%
 >[!NOTE]
 >如果将enableAdminUI和/或enableOSD的设备配置值设置为false，则远程设备将不会切换管理员UI和渠道切换器。 您也无法使用箭头键在管理员UI或渠道中导航。 但是，您仍可以清除缓存并重新加载播放器。 如果任何键盘组合与您的交互式内容发生冲突，您可以使用以下代码禁用远程控制功能：
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
