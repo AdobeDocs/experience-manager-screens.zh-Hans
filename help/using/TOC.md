@@ -2,15 +2,15 @@
 user-guide-title: AEM Screens 项目的“最佳实践指南”
 breadcrumb-title: AEM Screens 最佳实践指南
 solution-title: AEM Screens
-getting-started-title: AEM Screens 最佳实践指南
+getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 78%
 + 部署简报 {#deployment-brief}
    + [AEM 平台配置](aem-platform-configurations.md)
    + [项目分类与实施](project-taxonomy-implementation.md)
-   + 网络流量管理{#manage-network-traffic}
+   + 网络流量管理 {#manage-network-traffic}
       + [管理网络流量](/help/using/managing-network-traffic.md)
       + [直接Internet网络（有线/无线）](/help/using/direct-internet-network.md)
       + [直接移动网络](/help/using/mobile-network.md)
