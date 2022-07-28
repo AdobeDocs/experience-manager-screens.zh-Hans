@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -233,9 +233,7 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
 
 ### 为segments.js添加失效规则 {#invalidsegmentjs}
 
-如果要添加新区段并发布它们，请 `segments.js` dispatcher提供的文件没有在screens设备上破坏定向流的新条目。 segments.js文件正在调度程序级别缓存，但没有适用于该文件的失效规则。 因此，您必须添加失效规则。
-
-* 向 `/conf/<project-name>/settings/wcm/segments.seg.js` 文件。
+如果您要在AEM Screens中使用定位营销活动，则 `segments.js file` 在AEM上添加和发布新区段时，调度程序提供的区段需要失效。 如果没有此失效规则，新的定位营销活动将无法在Screens播放器上运行（它将显示默认内容）。
 
 * 将失效规则添加到 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 以下是要添加的规则：
 
@@ -244,7 +242,7 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
