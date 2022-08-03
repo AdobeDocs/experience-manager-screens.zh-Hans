@@ -8,8 +8,8 @@ user-guide-description: 了解如何使用这款数字标牌解决方案，发�
 feature-set: Experience Manager Screens
 source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '484'
+ht-degree: 20%
 
 ---
 
