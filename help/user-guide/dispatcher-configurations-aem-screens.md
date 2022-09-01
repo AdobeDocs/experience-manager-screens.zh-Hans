@@ -7,10 +7,10 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 2%
+source-wordcount: '643'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 >如果没有调度程序，请在OSGi组件列表中禁用注册Servlet。
 
 在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
-请参阅 [配置Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) 以了解更多详细信息。
+请参阅 [配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans) 以了解更多详细信息。
 
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
 

@@ -1,26 +1,26 @@
 ---
 title: 为AEM Screens开发自定义组件
-seo-title: 为AEM Screens开发自定义组件
+seo-title: Developing a Custom Component for AEM Screens
 description: 以下教程将演示为AEM Screens创建自定义组件的步骤。 AEM Screens可重复使用其他AEM产品的许多现有设计模式和技术。 本教程重点介绍了在为AEM Screens开发时存在的差异和特殊注意事项。
-seo-description: 为AEM Screens构建简单的“Hello World”组件的介绍性教程。 AEM Screens可重复使用其他AEM产品的许多现有设计模式和技术。 下面的教程将重点介绍在为AEM Screens进行开发时存在的具体差异和注意事项。
+seo-description: An introductory tutorial to build a simple "Hello World" component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The following tutorial intends to highlight the specific differences and considerations when developing for AEM Screens.
 uuid: 8ec8be5a-6348-48f2-9cb7-75b2bad555a6
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: 开发屏幕
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2127'
 ht-degree: 2%
 
 ---
 
-
-# 为AEM Screens开发自定义组件{#developing-a-custom-component-for-aem-screens}
+# 为AEM Screens开发自定义组件 {#developing-a-custom-component-for-aem-screens}
 
 以下教程将演示为AEM Screens创建自定义组件的步骤。 AEM Screens可重复使用其他AEM产品的许多现有设计模式和技术。 本教程重点介绍了在为AEM Screens开发时存在的差异和特殊注意事项。
 
@@ -34,24 +34,24 @@ ht-degree: 2%
 
 要完成本教程，需要满足以下条件：
 
-1. [AEM 6.5](https://helpx.adobe.com/cn/experience-manager/6-4/release-notes.html) 或 [AEM 6.3](https://helpx.adobe.com/cn/experience-manager/6-3/release-notes.html) +最新Screens功能包
+1. [AEM 6.5](https://helpx.adobe.com/cn/experience-manager/6-4/release-notes.html) 或 [AEM 6.3](https://helpx.adobe.com/cn/experience-manager/6-3/release-notes.html) +最新屏幕功能包
 
 1. [AEM Screens 播放器](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. 本地开发环境
 
-使用&#x200B;**CRXDE-Lite**&#x200B;执行教程步骤和屏幕截图。 IDE还可用于完成本教程。 有关使用IDE通过AEM开发[的详细信息，请参阅此处。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
+使用 **CRXDE-Lite**. IDE还可用于完成本教程。 有关使用IDE进行开发的更多信息 [与AEM的关联。](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
 
 
-## 项目设置{#project-setup}
+## 项目设置 {#project-setup}
 
-Screens项目的源代码通常作为多模块Maven项目进行管理。 为加快教程的进度，已使用[AEM项目原型13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype)预生成一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息，请参阅此处](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule)。
+Screens项目的源代码通常作为多模块Maven项目进行管理。 为加快教程进度，已使用 [AEM项目原型13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). 有关 [可在此处找到使用Maven AEM项目原型创建项目](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
 
-1. 使用[CRX包管理器](http://localhost:4502/crx/packmgr/index.jsp)下载并安装以下包：
+1. 使用 [CRX包管理器](http://localhost:4502/crx/packmgr/index.jsp):
 
 [获取文件](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [获取文件](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **** 如果使用Eclipse或其他IDE，则可以选择下载以下源包。使用Maven命令将项目部署到本地AEM实例：
+   **（可选）** 如果使用Eclipse或其他IDE，请下载以下源包。 使用Maven命令将项目部署到本地AEM实例：
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -59,7 +59,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为加�
 
 [获取文件](assets/src-screens-weretail-run.zip)
 
-1. 在[CRX包管理器](http://localhost:4502/crx/packmgr/index.jsp)中，验证是否安装了以下两个包：
+1. 在 [CRX包管理器](http://localhost:4502/crx/packmgr/index.jsp) 验证是否安装了以下两个包：
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
@@ -68,9 +68,9 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为加�
 
    Screens We.Retail运行Ui.Apps和Ui.Content包，这些包通过CRX包管理器安装
 
-1. **screens-weretail-run.ui.apps**&#x200B;包在`/apps/weretail-run`下安装代码。
+1. 的 **screens-weretail-run.ui.apps** 软件包安装代码 `/apps/weretail-run`.
 
-   此包包含负责为项目渲染自定义组件的代码。 此包包含组件代码以及所需的任何JavaScript或CSS。 此包还嵌入了&#x200B;**screens-weretail-run.core-0.0.1-SNAPSHOT.jar**，其中包含项目所需的任何Java代码。
+   此包包含负责为项目渲染自定义组件的代码。 此包中包含组件代码以及所需的任何JavaScript或CSS。 此包也嵌入了 **screens-weretail-run.core-0.0.1-SNAPSHOT.jar** ，其中包含项目所需的任何Java代码。
 
    >[!NOTE]
    >
@@ -80,15 +80,15 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为加�
 
    ui.apps代码在CRXDE Lite中的表示形式
 
-   **helloworld**&#x200B;组件当前只是占位符。 在本教程中，将添加允许作者更新组件显示的消息的功能。
+   的 **螺旋世界** 组件当前只是占位符。 在本教程中，将添加允许作者更新组件显示的消息的功能。
 
-1. **screens-weretail-run.ui.content**&#x200B;包在以下位置安装代码：
+1. 的 **screens-weretail-run.ui.content** 包安装代码如下：
 
    * `/conf/we-retail-run`
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   此包包含项目所需的开始内容和配置结构。 **`/conf/we-retail-run`** 包含We.Retail Run项目的所有配置。**`/content/dam/we-retail-run`** 包括为项目启动数字资产。**`/content/screens/we-retail-run`** 包含Screens内容结构。所有这些路径下方的内容主要在AEM中更新。 为了提高环境（本地、开发、暂存、生产）之间的一致性，通常在源代码管理中保存基本内容结构。
+   此包包含项目所需的开始内容和配置结构。 **`/conf/we-retail-run`** 包含We.Retail Run项目的所有配置。 **`/content/dam/we-retail-run`** 包括为项目启动数字资产。 **`/content/screens/we-retail-run`** 包含Screens内容结构。 所有这些路径下方的内容主要在AEM中更新。 为了提高环境（本地、开发、暂存、生产）之间的一致性，通常在源代码管理中保存基本内容结构。
 
 1. **导航到AEM Screens > We.Retail Run项目：**
 
@@ -96,9 +96,9 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为加�
 
    ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
-## 创建Hello World组件{#hello-world-cmp}
+## 创建Hello World组件 {#hello-world-cmp}
 
-“Hello World”组件是一个简单的组件，允许用户输入要在屏幕上显示的消息。 组件基于[AEM Screens组件模板：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)。
+“Hello World”组件是一个简单的组件，允许用户输入要在屏幕上显示的消息。 组件基于 [AEM Screens组件模板：https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
 AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这些限制。
 
@@ -106,9 +106,9 @@ AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这
 * 大多数Screens组件需要可嵌入到序列渠道中才能生成幻灯片
 * 创作应允许在序列渠道中编辑各个组件，因此无需全屏渲染组件
 
-1. 在&#x200B;**CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp`（或选择的IDE）中，导航到`/apps/weretail-run/components/content/helloworld.`
+1. 在 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` （或选择的IDE）导航到 `/apps/weretail-run/components/content/helloworld.`
 
-   将以下属性添加到`helloworld`组件：
+   将以下属性添加到 `helloworld` 组件：
 
    ```
        jcr:title="Hello World"
@@ -120,9 +120,9 @@ AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这
 
    /apps/weretail-run/components/content/helloworld的属性
 
-   **helloworld**&#x200B;组件扩展了&#x200B;**foundation/components/parbase**&#x200B;组件，以便能够在序列通道中正确使用。
+   的 **螺旋世界** 组件 **foundation/components/parbase** 组件，以便在序列渠道中正确使用。
 
-1. 在名为`helloworld.html.`的`/apps/weretail-run/components/content/helloworld`下创建文件
+1. 在下方创建文件 `/apps/weretail-run/components/content/helloworld` 已命名 `helloworld.html.`
 
    使用以下内容填充文件：
 
@@ -140,14 +140,14 @@ AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   Screens组件需要两种不同的渲染，具体取决于使用的创作模式](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes):[
+   屏幕组件需要两种不同的渲染，具体取决于 [创作模式](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) 正在使用：
 
    1. **生产**:预览或发布模式(wcmmode=disabled)
    1. **编辑**:用于所有其他创作模式，例如编辑、设计、基架、开发人员……
 
-   `helloworld.html`充当交换机，检查当前处于活动状态的创作模式并重定向到其他HTL脚本。屏幕组件使用的常见约定是：具有用于编辑模式的`edit.html`脚本和用于生产模式的`production.html`脚本。
+   `helloworld.html`充当交换机，检查当前处于活动状态的创作模式并重定向到其他HTL脚本。 屏幕组件使用的常见约定是 `edit.html` 用于编辑模式的脚本和 `production.html` 脚本。
 
-1. 在名为`production.html.`的`/apps/weretail-run/components/content/helloworld`下创建文件
+1. 在下方创建文件 `/apps/weretail-run/components/content/helloworld` 已命名 `production.html.`
 
    使用以下内容填充文件：
 
@@ -162,13 +162,13 @@ AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这
    </div>
    ```
 
-   上面是Hello World组件的生产标记。 由于组件在序列通道上使用，因此包含`data-duration`属性。 序列渠道使用`data-duration`属性来了解序列项的显示时长。
+   上面是Hello World组件的生产标记。 A `data-duration` 属性，因为组件在序列渠道中使用。 的 `data-duration` 序列渠道使用属性来了解序列项目的显示时长。
 
-   组件会呈现一个`div`和一个带有文本的`h1`标记。 `${properties.message}` 是HTL脚本的一部分，该脚本将输出名为的JCR属性的内 `message`容。稍后会创建一个对话框，允许用户为`message`属性文本输入值。
+   组件会呈现 `div` 和 `h1` 标记。 `${properties.message}` 是HTL脚本的一部分，该脚本将输出名为的JCR属性的内容 `message`. 稍后将创建一个对话框，允许用户为 `message` 属性文本。
 
-   另请注意，组件使用BEM（块元素修饰符）符号。 BEM是一种CSS编码约定，可更轻松地创建可重用组件。 BEM是[AEM核心组件](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的符号。 有关更多信息，请访问：[https://getbem.com/](https://getbem.com/)
+   另请注意，组件使用BEM（块元素修饰符）符号。 BEM是一种CSS编码约定，可更轻松地创建可重用组件。 BEM是使用的符号 [AEM核心组件](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
-1. 在名为`edit.html.`的`/apps/weretail-run/components/content/helloworld`下创建文件
+1. 在下方创建文件 `/apps/weretail-run/components/content/helloworld` 已命名 `edit.html.`
 
    使用以下内容填充文件：
 
@@ -195,14 +195,14 @@ AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这
 
    上面是Hello World组件的编辑标记。 如果填充了对话框消息，则第一个块会显示组件的编辑版本。
 
-   如果未输入对话框消息，则会呈现第二个块。 在这种情况下，`cq-placeholder`和`data-emptytext`将标签&#x200B;***Hello World***&#x200B;渲染为占位符。 为了支持在多个区域设置中进行创作，可以使用i18n将标签的字符串国际化。
+   如果未输入对话框消息，则会呈现第二个块。 的 `cq-placeholder` 和 `data-emptytext` 呈现标签 ***《你好世界》*** 作为这种情况下的占位符。 为了支持在多个区域设置中进行创作，可以使用i18n将标签的字符串国际化。
 
 1. **复制屏幕图像对话框以用于Hello World组件。**
 
    最简单的方法是从现有对话框开始，然后进行修改。
 
-   1. 从以下位置复制对话框：`/libs/screens/core/components/content/image/cq:dialog`
-   1. 将对话框粘贴到`/apps/weretail-run/components/content/helloworld`下方
+   1. 从以下位置复制对话框： `/libs/screens/core/components/content/image/cq:dialog`
+   1. 在下方粘贴对话框 `/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
@@ -266,7 +266,7 @@ AEM Screens存在一些有趣的限制，但传统WCM Sites组件未必存在这
    </jcr:root>
    ```
 
-   消息的文本字段将保存到名为`message`的属性中，持续时间的编号字段将保存到名为`duration`的属性中。 HTL在`/apps/weretail-run/components/content/helloworld/production.html`中将这两个属性均作为`${properties.message}`和`${properties.duration}`引用。
+   消息的文本字段将保存到名为 `message` 以及持续时间的number字段将保存到名为 `duration`. 这两个属性均在 `/apps/weretail-run/components/content/helloworld/production.html` 由HTL作为 `${properties.message}` 和 `${properties.duration}`.
 
    ![Hello World — 已完成对话框](assets/2018-04-29_at_5_21pm.png)
 
@@ -280,11 +280,11 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
 
 1. 为Hello World组件的客户端库创建文件夹。
 
-   在`/apps/weretail-run/components/content/helloworld`下方创建一个名为`clientlibs`的新文件夹。
+   下 `/apps/weretail-run/components/content/helloworld`创建名为 `clientlibs`.
 
    ![2018-04-30_at_1046am](assets/2018-04-30_at_1046am.png)
 
-1. 在`clientlibs`文件夹下，创建一个名为`shared`的类型为`cq:ClientLibraryFolder.`的新节点
+1. 在 `clientlibs` 文件夹创建名为的新节点 `shared` 类型 `cq:ClientLibraryFolder.`
 
    ![2018-04-30_at_1115am](assets/2018-04-30_at_1115am.png)
 
@@ -292,7 +292,7 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
 
    * `allowProxy` | 布尔型 | `true`
 
-   * `categories`|字符串[] |  `cq.screens.components`
+   * `categories`|字符串[] | `cq.screens.components`
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/shared的属性](assets/2018-05-03_at_1026pm.png)
 
@@ -302,7 +302,7 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
 
    最佳做法是，切勿在生产环境中直接向/apps显示任何路径。 allowProxy属性可确保客户端库CSS和JS通过前缀of/etc.clientlibs引用。
 
-1. 在共享文件夹下方创建名为`css.txt`的文件。
+1. 创建名为 `css.txt` 共享文件夹下方。
 
    使用以下内容填充文件：
 
@@ -312,13 +312,13 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
    styles.less
    ```
 
-1. 在`shared`文件夹下创建一个名为`css`的文件夹。 在`css`文件夹下添加名为`style.less`的文件。 客户端库的结构现在应如下所示：
+1. 创建名为的文件夹 `css` 在 `shared` 文件夹。 添加名为 `style.less` 在 `css` 文件夹。 客户端库的结构现在应如下所示：
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   本教程不使用LESS，而是直接编写CSS。 [](https://lesscss.org/) LESS是一种常用的CSS预编译器，它支持CSS变量、混合和函数。AEM客户端库本身支持LESS编译。 Sas或其他预编译器可以使用，但需要在AEM之外进行编译。
+   本教程不使用LESS，而是直接编写CSS。 [LESS](https://lesscss.org/) 是一种常用的CSS预编译器，它支持CSS变量、混合和函数。 AEM客户端库本身支持LESS编译。 Sas或其他预编译器可以使用，但需要在AEM之外进行编译。
 
-1. 使用以下内容填充`/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` :
+1. 填充 `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` ，具有以下特点：
 
    ```css
    /**
@@ -338,13 +338,13 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
    }
    ```
 
-1. 复制并粘贴`shared`客户端库文件夹，以创建名为`production`的新客户端库。
+1. 复制并粘贴 `shared` 客户端库文件夹，用于创建名为 `production`.
 
    ![复制共享的客户端库以创建新的生产客户端库](assets/copy-clientlib.gif)
 
    复制共享的客户端库以创建新的生产客户端库
 
-1. 将生产clientlibrary的`categories`属性更新为`cq.screens.components.production.`
+1. 更新 `categories` 要 `cq.screens.components.production.`
 
    这可确保样式仅在“预览”/“生产”模式下加载。
 
@@ -352,7 +352,7 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
 
    /apps/weretail-run/components/content/helloworld/clientlibs/production的属性
 
-1. 使用以下内容填充`/apps/weretail-run/components/content/helloworld/clientlibs/production/css/styles.less` :
+1. 填充 `/apps/weretail-run/components/content/helloworld/clientlibs/production/css/styles.less` ，具有以下特点：
 
    ```css
    /**
@@ -377,23 +377,23 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
 
    以上样式将在屏幕中间显示消息，但仅在生产模式下显示。
 
-第三个clientlibrary类别：`cq.screens.components.edit`可用于向组件添加仅限编辑的特定样式。
+第三个clientlibrary类别： `cq.screens.components.edit` 可用于向组件添加仅限编辑的特定样式。
 
-| Clientlib类别 | 使用 |
+| Clientlib类别 | 用途 |
 |---|---|
 | `cq.screens.components` | 在编辑模式和生产模式之间共享的样式和脚本 |
 | `cq.screens.components.edit` | 仅在编辑模式下使用的样式和脚本 |
 | `cq.screens.components.production` | 仅在生产模式中使用的样式和脚本 |
 
-## 创建设计页面{#design-page}
+## 创建设计页面 {#design-page}
 
-AEM Screens使用[静态页面模板](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)和[设计配置](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html)进行全局更改。 设计配置通常用于在渠道上为Parsys配置允许的组件。 最佳实践是以特定于应用程序的方式存储这些配置。
+AEM Screens使用 [静态页面模板](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/page-templates-static.html) 和 [设计配置](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) ，以便进行全局更改。 设计配置通常用于在渠道上为Parsys配置允许的组件。 最佳实践是以特定于应用程序的方式存储这些配置。
 
 在创建的We.Retail运行设计页面下，该页面将存储特定于We.Retail运行项目的所有配置。
 
-1. 在&#x200B;**CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs`中，导航到`/apps/settings/wcm/designs`
-1. 在designs文件夹下创建新节点，名为`we-retail-run`，类型为`cq:Page`。
-1. 在`we-retail-run`页面下方，添加另一个名为`jcr:content`的`nt:unstructured`类型节点。 将以下属性添加到`jcr:content`节点：
+1. 在 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs` 导航到 `/apps/settings/wcm/designs`
+1. 在designs文件夹下创建新节点，该节点名为 `we-retail-run` 具有 `cq:Page`.
+1. 在 `we-retail-run` 页面，添加另一个名为 `jcr:content` 类型 `nt:unstructured`. 将以下属性添加到 `jcr:content` 节点：
 
    | 名称 | 类型 | 值 |
    |---|---|---|
@@ -405,29 +405,29 @@ AEM Screens使用[静态页面模板](https://helpx.adobe.com/experience-manager
 
    位于/apps/settings/wcm/designs/we-retail-run的“设计”页面
 
-## 创建序列通道{#create-sequence-channel}
+## 创建序列渠道 {#create-sequence-channel}
 
 “Hello World”组件将用于序列渠道。 要测试组件，将创建一个新的序列渠道。
 
-1. 从“AEM开始”菜单中，导航到&#x200B;**Screens** > **We.Retail Ru** n >并选择&#x200B;**渠道**。
+1. 从AEM开始菜单导航到 **Screens** > **We.Retail Ru** n >选择 **渠道**.
 
-1. 单击&#x200B;**Create**&#x200B;按钮
+1. 单击 **创建** 按钮
 
-   1. 选择&#x200B;**创建实体**
+   1. 选择 **创建实体**
 
    ![2018-04-30_at_5_18pm](assets/2018-04-30_at_5_18pm.png)
 
 1. 在创建向导中：
 
-1. 模板步骤 — 选择&#x200B;**序列渠道**
+1. 模板步骤 — 选择 **序列渠道**
 
    1. 属性步骤
    * 基本选项卡>标题= **空闲渠道**
-   * 渠道选项卡>检查&#x200B;**使渠道联机**
+   * “渠道”选项卡>选中 **使渠道联机**
 
    ![空闲渠道](assets/idle-channel.gif)
 
-1. 打开空闲渠道的页面属性。 更新设计字段，以指向在上一部分中创建的设计页面`/apps/settings/wcm/designs/we-retail-run,`。
+1. 打开空闲渠道的页面属性。 更新“设计”字段以指向 `/apps/settings/wcm/designs/we-retail-run,`在上一部分中创建的设计页面。
 
    ![设计配置/apps/settings/wcm/designs/we-retail-run](assets/2018-05-07_at_1240pm.png)
 
@@ -435,31 +435,31 @@ AEM Screens使用[静态页面模板](https://helpx.adobe.com/experience-manager
 
 1. 编辑新创建的空闲渠道以将其打开。
 
-1. 将页面模式切换为&#x200B;**Design**&#x200B;模式
+1. 将页面模式切换为 **设计** 模式
 
-   1. 单击Parsys中的&#x200B;**扳手**&#x200B;图标以配置允许的组件
+   1. 单击 **扳手** Parsys中用于配置允许的组件的图标
 
-   1. 选择&#x200B;**Screens**&#x200B;组和&#x200B;**We.Retail Run - Content**&#x200B;组。
+   1. 选择 **Screens** 及 **We.Retail运行 — 内容** 群组。
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
-1. 将页面模式切换为&#x200B;**Edit**。 现在，可以将“Hello World”组件添加到页面中，并与其他序列渠道组件组合使用。
+1. 将页面模式切换为 **编辑**. 现在，可以将“Hello World”组件添加到页面中，并与其他序列渠道组件组合使用。
 
    ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
-1. 在&#x200B;**CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par`中，导航到`/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`。 请注意，`components`属性现在包含`group:Screens`、`group:We.Retail Run - Content`。
+1. 在 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par` 导航到 `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`. 请注意 `components` 现在包含 `group:Screens`, `group:We.Retail Run - Content`.
 
    ![/apps/settings/wcm/designs/we-retail-run下的设计配置](assets/2018-05-07_at_1_14pm.png)
 
    /apps/settings/wcm/designs/we-retail-run下的设计配置
 
-## 自定义处理程序{#custom-handlers}的模板
+## 自定义处理程序模板 {#custom-handlers}
 
 如果您的自定义组件使用外部资源(如资产（图像、视频、字体、图标等）、特定资产演绎版或客户端库（css、js等），则这些资源不会自动添加到离线配置中，因为默认情况下，我们仅捆绑HTML标记。
 
 为了让您自定义和优化下载到播放器的确切资产，我们为自定义组件提供了一个扩展机制，用于在Screens中显示它们对离线缓存逻辑的依赖关系。
 
-以下部分显示自定义离线资源处理程序的模板以及该特定项目的`pom.xml`中的最低要求。
+以下部分显示了自定义离线资源处理程序的模板，以及 `pom.xml` 特定项目。
 
 ```java
 package …;
@@ -524,7 +524,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 }
 ```
 
-以下代码提供了`pom.xml`中针对该特定项目的最低要求：
+以下代码提供了 `pom.xml` 对于该特定项目：
 
 ```css
    <dependencies>
@@ -548,15 +548,15 @@ public class MyCustomHandler extends AbstractResourceHandler {
       </dependencies>
 ```
 
-## 将所有数据放在一起{#putting-it-all-together}
+## 融于一起 {#putting-it-all-together}
 
 以下视频显示完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到“位置”显示屏，并最终分配给Screens播放器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
 
-## 完成的代码{#finished-code}
+## 完成的代码 {#finished-code}
 
-以下是教程中完成的代码。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是编译的AEM包。 **SRC-screens-weretail-run-0.0.1.zip **是未编译的源代码，可使用Maven部署。
+以下是教程中完成的代码。 的 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** 和 **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** 是编译的AEM包。 **SRC-screens-weretail-run-0.0.1.zip **是未编译的源代码，可使用Maven部署。
 
 [获取文件](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

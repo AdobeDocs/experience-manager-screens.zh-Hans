@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
 user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 + [Screens简介](aem-screens-introduction.md)
 + 概述和Kickstart指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
-   + [Screens最佳实践指南](https://docs.adobe.com/content/help/zh-Hans/experience-manager-screens/using/about-guide.html)
+   + [Screens最佳实践指南](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
    + [关键术语](screens-glossary.md)
 + 数字标牌网络基础知识 {#digital-signage-network}
    + [第一部分：项目角色和职责](project-roles-responsibilities.md)
@@ -64,7 +64,7 @@ ht-degree: 20%
       + 分配渠道 {#assigning-channels}
          + [渠道分配](channel-assignment-latest-fp.md)
          + [渠道分配：旧版AEM Screens功能包](channel-assignment.md)
-   + 使用核心产品功能 {#product-features}
+   + 使用核心产品功能{#product-features}
       + [文本覆盖](text-overlay.md)
       + [批量离线更新](bulk-offline-update.md)
       + [AEM Screens通知服务](screens-notifications-service.md)
