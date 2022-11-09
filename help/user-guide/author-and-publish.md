@@ -2,7 +2,7 @@
 title: 在AEM Screens中配置创作和发布
 description: AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创作内容，然后将其转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 2%
@@ -102,20 +102,20 @@ Screens需要3个复制代理：
 #### 创建标准复制代理  {#creating-standard-replication-agents}
 
 1. 为pub1创建标准复制代理（应已配置现成的默认代理）(例如， *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. 为pub2创建标准复制代理。 您可以复制pub1的rep agent ，并通过更改传输配置中的端口来更新用于pub2的传输。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. 为pub2创建标准复制代理。 您可以复制pub1的复制代理，并通过更改传输配置中的端口来更新要用于pub2的传输。 (例如， *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### 创建Screens复制代理 {#creating-screens-replication-agents}
 
-1. 为pub1创建AEM Screens复制代理。 现成，有一个名为Screens复制代理的端口指向4503。 需要启用此功能。
-1. 为pub2创建AEM Screens复制代理。 复制pub1的Screens复制代理，并将端口更改为pub2的4504。
+1. 为pub1创建屏幕复制代理。 现成，有一个名为Screens复制代理的端口指向4503。 需要启用此功能。
+1. 为pub2创建屏幕复制代理。 复制pub1的Screens复制代理，并将pub2的端口更改为4504。
 
    >[!NOTE]
    >要了解如何配置Screens复制代理，请参阅 [配置Screens复制代理](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### 创建Screens反向复制代理 {#creating-screens-reverse-replication-agents}
 
-1. 为pub1创建标准反向复制代理。
-1. 为pub2创建标准反向复制代理。 您可以通过更改传输配置中的端口，复制pub1的反向rep代理，并更新要用于pub2的传输。
+1. 为pub1创建反向复制代理。
+1. 为pub2创建反向复制代理。 您可以复制pub1的反向复制代理，并通过更改传输配置中的端口来更新要用于pub2的传输。
 
 ## 设置发布拓扑 {#setting-up-publish-topology}
 
