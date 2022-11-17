@@ -1,13 +1,13 @@
 ---
 title: 功能包202112的发行说明
-description: 请阅读本页以了解2021年12月17日发布的AEM Screens功能包202112的相关信息。
+description: 请阅读本页以了解2022年1月12日发布的AEM Screens功能包202112的信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '313'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,17 @@ AEM Screens发布了AEM 6.5功能包10。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包202112的发行日期是2021年12月17日。
+AEM Screens功能包202112的发行日期是2022年1月12日。
 
 ### 新增功能 {#what-is-new}
 
 * Android应用程序更新现在以Android 11（API级别30）为目标。 目前，Android播放器处于目标API级别29。
+
+* 显示预览在以前的播放器配置中卡住
+
+* 在某些情况下，显示预览未呈现
+
+* 修复SmartSync中的并发下载错误
 
 * 作为开发人员，您现在将查看资产演绎版，以仅作为演绎版条目列在清单中相应资产下，以确保清单处理的可扩展性、清晰性和轻松性。
 

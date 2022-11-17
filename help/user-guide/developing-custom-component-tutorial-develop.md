@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 2%
 
 ---
@@ -553,6 +553,15 @@ public class MyCustomHandler extends AbstractResourceHandler {
 以下视频显示完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到“位置”显示屏，并最终分配给Screens播放器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## 有关自定义组件嵌入其他页面或片段的其他注意事项 {#additional-considerations}
+
+如果您开发的自定义组件旨在包含其他页面或体验片段，并且如果您希望播放器自动接收嵌入内容中的更改，而无需重新发布渠道，则需要考虑以下2个限制：
+
+1. 而不是直接扩展 `foundation/components/parbase`，则必须将 `screens/core/components/content/page` 或 `screens/core/components/content/experiencefragment`
+2. 用于引用嵌入内容的属性的名称需要为 `pagePath`
+
+利用这2个Screens核心组件还附带一个额外的好处，即它们可以负责捆绑您需要的一些依赖项（客户端库、字体等） 通过组件对话框中的脱机配置选项，这会降低您为此必须使用的任何自定义脱机处理程序的责任，有时甚至会完全消除最初使用该处理程序的需要。
 
 ## 完成的代码 {#finished-code}
 
