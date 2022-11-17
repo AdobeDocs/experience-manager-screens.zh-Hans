@@ -2,9 +2,9 @@
 title: 在AEM Screens中配置创作和发布
 description: AEM Screens架构类似于传统的AEM Sites架构。 在AEM创作实例上创作内容，然后将其转发复制到多个发布实例。 可查看本页以了解如何为AEM Screens配置创作和发布。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 2%
 
 ---
@@ -128,9 +128,10 @@ Screens需要3个复制代理：
 1. 导航至 `https://<host>:<port>/system/console/configMgr`
 1. 选择 **Apache Sling Oak-Based Discovery Service** 配置。
 1. 更新拓扑连接器URL:添加所有参与的发布实例的URL，这些实例为：
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **拓扑连接器白名单**:适应包含参与发布实例的IP或子网
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **拓扑连接器白名单**:适应涵盖所有发布实例的IP或子网。 确保将所有发布实例的IP/主机名列入白名单，但不带端口号。
+
 1. 启用 **自动停止局部循环**
 
 每个发布实例的配置应相同，并且自动停止本地循环可防止无限循环。
