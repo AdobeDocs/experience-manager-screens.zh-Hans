@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1771'
 ht-degree: 2%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 2%
 
 要完成本教程，您需要满足以下条件：
 
-1. [AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html?lang=zh-Hans) 或 [AEM 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans) +最新屏幕功能包
+1. AEM 6.5 +最新Screens功能包
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本地开发环境
 
-使用CRXDE-Lite可执行教程步骤和屏幕截图。 [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDE还可用于完成本教程。 有关使用IDE以 [可在此处找到使用AEM进行开发](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+使用CRXDE-Lite可执行教程步骤和屏幕截图。 [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) 或 [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDE还可用于完成本教程。 有关使用IDE以 [可在此处找到使用AEM进行开发](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## 项目设置 {#project-setup}
 
@@ -335,7 +335,7 @@ AEM Screens组件在编辑模式与预览/生产模式下的呈现方式不同�
 1. 将以下属性添加到共享客户端库：
 
    * `allowProxy` | 布尔型 | `true`
-   * `categories` |字符串[] | `cq.screens.components`
+   * `categories` | 字符串[] | `cq.screens.components`
 
    ![/apps/weretail-run/components/content/poster/clientlibs/shared的属性](assets/2018-05-03_at_1026pm-1.png)
 
