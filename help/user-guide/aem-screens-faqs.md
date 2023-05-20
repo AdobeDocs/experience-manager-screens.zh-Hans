@@ -1,7 +1,7 @@
 ---
-title: AEM Screens常见问题解答
+title: AEM Screens常見問題集
 seo-title: AEM Screens FAQs
-description: 可查看本页以获取有关AEM Screens项目的常见问题解答。
+description: 請依照本頁面的說明操作，取得與AEM Screens專案相關的常見問題解答。
 seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
 feature: Digital Signage, Content
 role: Developer
@@ -10,184 +10,184 @@ exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
 source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
 source-wordcount: '2185'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# AEM Screens常见问题解答 {#aem-screens-faqs}
+# AEM Screens常見問題集 {#aem-screens-faqs}
 
-以下部分对几个与AEM Screens项目相关的常见问题解答提供了答案。
+以下章節提供與AEM Screens專案相關之常見問答集的解答。
 
-## 空白屏幕问题 {#blank-screen}
+## 空白畫面問題 {#blank-screen}
 
 >[!NOTE]
->列出的强制性检查，在提出问题之前，应由主要支持或客户端支持尝试。
+>列出的強制檢查，在引發問題之前應由主要支援或客戶端支援嘗試。
 
-### 1.对于任何面向黑屏或非播放内容的客户，应采取哪些急救疑难解答步骤？ {#troubleshooting-blank-screen}
+### 1.面對黑熒幕或未播放內容的客戶，其急救疑難排解步驟是什麼？ {#troubleshooting-blank-screen}
 
-* 检查渠道预览是否正常工作。
-* 检查显示预览是否正常工作
-* 尝试将播放器注册为系统上的浏览器扩展，使其显示到该显示屏，然后检查它是否正常工作。
-* 在系统上运行播放器后，导航到 `http://localhost:24502`. 检查所有内容下载是否正确。
-* 检查已创建相应演绎版且正在播放正确的演绎版的资产。
-* 检查任何计划内容以及时间是否正确。 检查播放器中设置的时间是否正确。
-* Inspect播放器控制台会记录并检查是否存在任何错误。 右键单击并检查以查看控制台日志。 如果使用windows播放器，请按 `CTRL + ALT +I` 以显示开发控制台以查看日志。
+* 檢查頻道預覽是否正常運作。
+* 檢查顯示預覽是否正常運作
+* 請嘗試將播放器註冊為系統上的瀏覽器擴充功能，以顯示在相同的顯示器上，並檢查此功能是否運作。
+* 在系統上執行播放器時，導覽至 `http://localhost:24502`. 檢查是否已正確下載所有內容。
+* 檢查資產是否已建立適當的轉譯，且正在播放正確的轉譯。
+* 檢查是否有任何排程內容，以及時間是否正確。 檢查播放器中設定的時間是否正確。
+* Inspect播放器主控台會記錄並檢查是否有任何錯誤。 按一下滑鼠右鍵並檢查以檢視主控台記錄。 如果使用Windows Player，請按 `CTRL + ALT +I` 開啟dev console以檢視記錄。
 
-### 2.如何通过创建默认渠道或计划来解决AEM Screens中的灰屏问题？
+### 2.如何建立預設頻道或排程，以解決AEM Screens中的灰幕問題？
 
-要避免字段中出现空白或灰色的屏幕，请创建默认的全局渠道或计划，并将其分配给优先级最低的每个显示屏1。 如果内容更新出现问题（由于网络、播放器、服务器或复制原因），因为播放器已将此内容缓存在磁盘上，因此该内容应该可以正常播放并避免出现灰屏。
+為避免欄位中出現空白或灰色畫面，請建立預設的全域頻道或排程，指派給優先順序最低為1的每個顯示器。 萬一內容更新發生問題（由於網路、播放器、伺服器或復寫），因為播放器已在光碟上快取此內容，播放應該可以正常並避免灰屏。
 
-所有其他内容（如渠道或计划）的优先级将大于1，因此其他内容具有优先级，而全局渠道或计划内容（优先级为1）将仅作为回退选项播放。
+所有其他內容（例如頻道或排程）的優先順序將大於1，因此其他內容具有優先順序，並且全域頻道或排程內容（具有優先順序1）將僅作為回退選項播放。
 
-## 渠道管理 {#channel-management}
+## 頻道管理 {#channel-management}
 
-### 1.线上和线下渠道之间有何区别？ {#what-is-the-difference-between-an-online-and-an-offline-channel}
+### 1.線上和離線管道之間有何差異？ {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-“联机渠道”******&#x200B;将会在实时环境中显示更新的内容，而“脱机渠道”******&#x200B;则会显示缓存的内容。
+一個 ***線上頻道***，會在即時環境中顯示更新的內容，而 ***離線頻道***，會顯示快取的內容。
 
-### 2.如何在线创建渠道？ {#how-do-i-make-a-channel-online}
+### 2.如何線上建立管道？ {#how-do-i-make-a-channel-online}
 
-选择渠道，然后从操作栏中导航到渠道属性。 检查 **开发人员模式（强制渠道联机）** 在 **渠道** 选项卡以使渠道联机。
+選取頻道，然後從動作列導覽至頻道屬性。 Check **開發人員模式（強制頻道上線）** 在 **頻道** 索引標籤讓頻道上線。
 
-### 3.渠道角色字段的用法是什么？ {#what-is-the-use-of-the-channel-role-field}
+### 3. 「管道角色」欄位有何用途？ {#what-is-the-use-of-the-channel-role-field}
 
-渠道角色是实际运行渠道的抽象，以便作者可以直接专注于通用体验。 您可以将其视为一种标记，用于在其上下文（显示或计划）中唯一标识渠道。
+管道角色是實際執行管道的抽象概念，可供作者直接專注於一般體驗。 您可以將它視為一種標籤，可唯一識別相關內容（顯示或排程）中的管道。
 
-### 4.如何实现实际的通道分辨率？ {#how-does-actual-channel-resolution-happen}
+### 4.實際管道解析如何發生？ {#how-does-actual-channel-resolution-happen}
 
-对于 *静态引用*，则分辨率仅会遵循指定的路径。
+對象 *靜態參考*，解析度會依循指定的路徑。
 
-对于 *动态引用*，则在将渠道分配给显示屏（而非计划）后，会出现解决方案。 显示路径将成为渠道的上下文，其分辨率按以下方式（优先级从高到低）进行：
+對象 *動態參考*，將頻道指派給顯示區（而非排程）後，就會發生解析度。 顯示路徑會成為色版的前後關聯，解析度如下（最高至最低優先順序）：
 
-1. 显示屏有一个与引用的渠道名称匹配的子节点
-1. 显示屏有一个与引用的渠道名称匹配的同级节点
-1. 显示屏的父位置有一个与引用的渠道名称匹配的子节点
-1. 显示屏的父级位置有一个与引用的渠道名称匹配的子节点
+1. 顯示區有一個子節點符合參照的管道名稱
+1. 該顯示區有一個與參照的管道名稱相符的同層級節點
+1. 顯示的父級位置有一個與參照的管道名稱相符的子節點
+1. 顯示的父項位置有一個子節點符合參照的管道名稱
 
-等等，直到您到达位置文件夹并立即停止该位置（因此，您无法引用渠道文件夹中的渠道，例如，仅引用位置子树中的渠道）。
+等等，直到您到達「位置」資料夾並在此停止（因此您無法參照會位於「色版」資料夾中的色版，例如僅參照位置子樹狀結構中的色版）。
 
-### 5.如何在AEM Screens Channel中设置Custom clientlib离线配置？
+### 5.如何在AEM Screens頻道中設定自訂clientlib離線設定？
 
-使用构建的自定义客户端代码时 `clientlib` 在AEM Screens渠道中，需要执行以下步骤，以确保 `clientlib` 已成功在渠道中加载文件(`manifest.json`)和将包含的路径 `clientlib`.
+使用內建自訂使用者端代碼時 `clientlib` 在AEM Screens管道中，若要確保 `clientlib` 檔案在管道中載入成功(`manifest.json`)並且將包含 `clientlib`.
 
-从渠道编辑器中按照以下步骤操作：
+從管道編輯器執行以下步驟：
 
-1. 选择渠道并单击 **编辑** 从操作栏中打开渠道编辑器。
-1. 选择要添加自定义内容的组件 `clientlib`.
-1. 单击“配置”按钮（扳手图标）。
-1. 导航到 **脱机配置** 选项卡，并在 **客户端库**.
+1. 選取管道並按一下 **編輯** 以開啟管道編輯器。
+1. 選取您要新增自訂的元件 `clientlib`.
+1. 按一下設定按鈕（扳手圖示）。
+1. 導覽至 **離線設定** 標籤並新增您的自訂clientlib的路徑 **使用者端資料庫**.
 
 ## 设备注册 {#device-registration}
 
-### 1.如果我发现了设备载入和注册请求等端点，我可以编写大量设备的脚本并注册这些设备。 除了将其锁定到分支Wi-Fi之外，是否还可以保护这些请求？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1.如果發現端點（例如裝置上線和註冊請求），我可以編寫大量裝置的指令碼並註冊這些裝置。 除了將此鎖定到分支Wi-Fi之外，是否可以保護這些請求？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
-当前只能在创作实例上注册。 虽然注册服务未经过身份验证，但它只会在AEM中创建待处理设备，而不会实际注册设备或分配任何显示屏。
+目前僅可在作者執行個體上註冊。 雖然註冊服務未經驗證，但只會在AEM中建立擱置中的裝置，實際上並不會註冊裝置或指派任何顯示器。
 
-要注册设备(这意味着在AEM中为设备创建用户)，您仍需要对AEM进行身份验证，并且当前需要手动按照注册向导完成注册。 理论上，恶意用户可能会创建多个挂起的设备，但如果没有AEM登录，则无法注册任何设备。
+若要註冊裝置(這表示在AEM中為該裝置建立使用者)，您仍然需要向AEM進行驗證，並且目前手動遵循註冊精靈以完成註冊。 理論上，惡意使用者可能會建立多個擱置中的裝置，但無法在沒有AEM登入的情況下註冊任何裝置。
 
-### 2.是否可以通过某种身份验证形式，将HTTPGET请求转换为HTTPPOST? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2.是否有方法可透過某種形式的驗證將HTTPGET要求轉換為HTTPPOST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
-注册请求是POST请求。
+註冊要求是POST要求。
 
-建议从会话中获取设备ID，而不是作为参数传递。 这将清理服务器日志、浏览器缓存等。 当前不是安全问题。 请注意，当服务器上没有状态更改时，将使用语义GET，当状态更改时，将使用POST。
+建議從工作階段取得裝置ID，而非以引數傳遞。 這會清除伺服器記錄、瀏覽器快取等。 目前不是安全性問題。 請注意，當伺服器上沒有狀態變更時，會使用語義GET，而當狀態變更時，則會使用POST。
 
-### 3.是否有方法拒绝设备注册请求？ {#is-there-a-way-to-decline-a-device-registration-request}
+### 3.是否可以拒絕裝置註冊要求？ {#is-there-a-way-to-decline-a-device-registration-request}
 
-您无法拒绝注册请求。 注册请求应会在中配置的超时后过期 `Adobe Experience Manager Web Console`. 默认情况下，此值设置为一天，并存储在内存缓存中。
+您無法拒絕註冊要求。 實際上，註冊請求應在中設定的逾時後過期 `Adobe Experience Manager Web Console`. 根據預設，此值會設定為一天，並儲存在記憶體快取中。
 
-## 设备监控和运行状况报告 {#device-monitoring-and-health-reports}
+## 裝置監視和健康情況報告 {#device-monitoring-and-health-reports}
 
-### 1.如果我的AEM Screens播放器显示空白屏幕，如何进行故障诊断？ {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1.如果我的AEM Screens播放器顯示空白熒幕，該如何進行疑難排解？ {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
-请检查以下可能性，以解决空白屏幕问题：
+請檢查下列是否可能疑難排解空白熒幕問題：
 
-* AEM无法推送离线内容
-* 渠道没有任何内容
-* 当前未计划显示任何资产
+* AEM無法推送離線內容
+* 頻道沒有任何內容
+* 沒有任何資產排程為目前時間顯示
 
-### 2.如果AEM Screens播放器无法注册且其状态显示为“失败”，我该怎么做？ {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2.如果AEM Screens播放器無法註冊且其狀態顯示為「失敗」，我該怎麼做？ {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
-您需要启用Apache Sling反向链接过滤器允许为空。 这是在AEM Screens Player和AEM Screens服务器之间优化控制协议操作所必需的。
+您需要啟用Apache Sling反向連結篩選允許空白。 這是在AEM Screens Player和AEM Screens伺服器之間最佳化控制通訊協定運作的必要專案。
 
-1. 导航到 **Adobe Experience Manager Web控制台配置**
-1. 检查 **allow.empty** 选项。
-1. 单击&#x200B;**保存**。
+1. 導覽至 **Adobe Experience Manager Web主控台設定**
+1. 檢查 **allow.empty** 選項。
+1. 单击“**保存**”。
 
-### 3.如果在注册AEM Screens播放器时，设备显示失败，控制台日志显示ENAME_NOT_FOUND错误，则如何进行故障诊断？ {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3.如果在註冊AEM Screens播放器時，裝置顯示失敗且主控台記錄顯示ENAME_NOT_FOUND錯誤，該如何進行疑難排解？ {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-如果播放器找不到AEM Screens Server DNS，则可能会出现此问题。 您可以尝试使用IP地址进行连接。 要获取服务器的IP，请使用： *arp &lt;server_dns_name>*.
+如果播放器找不到AEM Screens伺服器DNS，就可能會發生此問題。 您可以嘗試使用IP位址進行連線。 若要取得伺服器的IP，請使用： *arp &lt;server_dns_name>*.
 
-### 4. AMS是否建议在所有设备上实施Android监视程序？ 监视工具(Cordova)插件是否作为APK的一部分包含在内？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
+### 4. AMS是否建議在所有裝置上實作Android Watchdog？ APK是否包含Watchdog (Cordova)外掛程式？ {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
-使用纯Android API的跨平台Android监视程序已经是APK的一部分。 无需其他软件，但根据您使用的设备，您可能需要放弃apk才能获得完全电源周期(Powermanager api)的系统权限。 如果它没有使用制造商密钥辞职，它将退出并重新启动应用程序，但不会重新启动电源。
+使用純Android API的跨平台Android看門狗已經是計畫的一部分。 不需要其他軟體，但視您使用的裝置而定，您可能需要放棄此要求，才能取得完整電源週期(Powermanager api)的系統許可權。 若未使用製造商金鑰放棄，則會結束並重新啟動應用程式，但不會重新啟動電源。
 
-有关如何实施Android播放器的更多信息，请参阅 [**实施Android播放器**](implementing-android-player.md).
+如需如何實作Android Player的詳細資訊，請參閱 [**實作Android Player**](implementing-android-player.md).
 
-### 5.Adobe/AMS建议使用哪些第三方远程监控和警报工具（软件）来监控每台设备？  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5.Adobe/AMS建議使用哪些協力廠商遠端監視和警示工具（軟體）來監視每個裝置？  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-根据您对监控和警报的需求，新增的AEM Screens通知服务会在设备一段时间内未ping通知您。 第三方工具将取决于您的操作系统(OS)、其功能和客户的特定需求。
+根據您希望在監視和警報中顯示的內容，如果裝置一段時間未偵測，AEM Screens Notifications服務會通知您。 協力廠商工具取決於您的作業系統(OS)、其功能及客戶的特定需求。
 
-有关可在何处监视设备活动的更多信息，请参阅 [**AEM Screens通知服务**](screens-notifications-service.md).
+有關您可在何處監控裝置活動的詳細資訊，請參閱 [**AEM Screens通知服務**](screens-notifications-service.md).
 
 ## AEM Screens 播放器 {#aem-screens-player}
 
-### 1.如何将ChromeOS播放器安装为Chrome浏览器插件？ {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1.如何將ChromeOS播放器安裝為Chrome瀏覽器外掛程式？ {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-在开发人员模式下，ChromeOS播放器可以作为Chrome浏览器插件安装，而无需使用实际的Chrome播放器设备。 要进行安装，请执行以下步骤：
+ChromeOS播放器可在開發人員模式下安裝為Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。 若要進行安裝，請遵循下列步驟：
 
-1. 单击 [此处](https://download.macromedia.com/screens/) 下载最新的Chrome播放器。
-1. 解压缩并将其保存在磁盘上。
-1. 打开Chrome浏览器并选择 **扩展** ，或直接导航到 ***chrome://extensions***.
-1. 打开 **开发人员模式** 右上角。
-1. 单击 **加载已解压** 从左上角加载已解压的Chrome播放器。
-1. 检查 **AEM Screens Chrome Player** 插件（如果在扩展列表中可用）。
-1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
-1. 单击 **AEM Screens** 用于启动Chrome播放器的插件。 默认情况下，播放器以全屏模式启动。 按 **esc** 退出全屏模式。
+1. 按一下 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome Player。
+1. 解壓縮並儲存在磁碟上。
+1. 開啟Chrome瀏覽器並選取 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
+1. 切換至 **開發人員模式** 從右上角。
+1. 按一下 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
+1. Check **AEM Screens Chrome Player** 外掛程式（如果可在擴充功能清單中取得）。
+1. 開啟新標籤，然後按一下 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
+1. 按一下 **AEM Screens** 啟動Chrome Player的外掛程式。 依預設，播放器會以全熒幕模式啟動。 按下 **esc** 以結束全熒幕模式。
 
-### 2.如果Screens播放器无法通过使用自定义错误处理程序的发布实例进行身份验证，如何进行故障诊断？ {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
+### 2.如果Screens播放器無法透過具有自訂錯誤處理常式的發佈執行個體進行驗證，該如何進行疑難排解？ {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-AEM Screens播放器启动时，会向 ***/content/screens/svc.ping.json***，当播放器收到404错误时。 播放器会发起身份验证请求以针对发布实例进行身份验证。 如果发布实例中存在自定义错误处理程序，请确保在 ***/content/screens/svc.ping.json***.
+AEM Screens播放器啟動時，會要求 ***/content/screens/svc.ping.json***，播放器收到404錯誤時。 播放器會起始驗證請求，以針對發佈執行個體進行驗證。 如果發佈執行個體中有自訂錯誤處理常式，請確定您在上為匿名使用者傳回404狀態碼 ***/content/screens/svc.ping.json***.
 
-### 3.如何在Android播放器中设置设备屏幕保持打开状态？ {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3.如何在Android Player中設定裝置熒幕持續開啟？ {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
-请按照以下步骤在任何Android播放器上打开保持清醒：
+請依照下列步驟，在任何Android播放器上開啟「保持清醒」：
 
-1. 导航到Android播放器设置 — > **关于**
-1. 对内部版本号点按7次以启用 **开发人员选项** in **设置**
-1. 导航到 **开发人员选项**
-1. 启用 **保持清醒**
+1. 導覽至Android播放器設定 — > **關於**
+1. 在組建編號上點選7次以啟用 **開發人員選項** 在 **設定**
+1. 導覽至 **開發人員選項**
+1. 啟用 **保持清醒**
 
-### 4.如何为Windows播放器启用窗口模式？{#enable-player}
+### 4.如何啟用Windows播放器的視窗模式？{#enable-player}
 
-Windows播放器中没有窗口模式。 始终为全屏模式。
+Windows Player中沒有視窗模式。 永遠是全熒幕模式。
 
-### 5.如何对AEM Screens播放器是否持续发送登录请求进行故障诊断？{#requests-login}
+### 5.如果AEM Screens播放器持續傳送登入要求，該如何進行疑難排解？{#requests-login}
 
-按照以下步骤对连续向发送请求的AEM Screens播放器进行故障诊断 `/content/screens/svc.json` 和 `/libs/granite/core/content/login.validate/j_security_check`:
+請依照下列步驟，疑難排解持續傳送請求的AEM Screens播放器 `/content/screens/svc.json` 和 `/libs/granite/core/content/login.validate/j_security_check`：
 
-1. 当AEM Screens播放器启动时，它会请求 `/content/screens/svc.json`. 当播放器在响应中获取404状态代码时，会使用 `/libs/granite/core/content/login.validate/j_security_check` 反对 *发布* 实例。 如果 *发布* 实例中，确保在 `/content/screens/svc.json` 或 `/content/screens/svc.ping.json`.
+1. AEM Screens播放器啟動時，會要求 `/content/screens/svc.json`. 當播放器收到回應中的404狀態碼時，它會使用起始驗證請求 `/libs/granite/core/content/login.validate/j_security_check` 針對 *發佈* 執行個體。 如果中有自訂錯誤處理常式 *發佈* 執行個體，請確定傳回匿名使用者的404狀態碼 `/content/screens/svc.json` 或 `/content/screens/svc.ping.json`.
 
-1. 检查您的调度程序配置是否允许在 `/filters`.
+1. 檢查您的Dispatcher設定是否允許在 `/filters`.
 
-   请参阅 [配置Screens过滤器](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 以了解更多详细信息。
+   另請參閱 [設定畫面篩選器](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) 以取得更多詳細資料。
 
-1. 检查调度程序重写规则是否正在将任何屏幕路径重写为其他路径。
+1. 檢查您的Dispatcher重寫規則是否正在將任何Screens路徑重寫為其他路徑。
 
-1. 检查是否 `/etc/map` 规则 *作者* 或 *发布* 实例和屏幕路径与 `sling:match` 并在内部重定向到其他路径。 解析中的确切URL `/system/console/jcrresolver` 有助于识别 *发布* 实例会将这些URL重写到任何其他路径。
+1. 檢查您是否擁有 `/etc/map` 上的規則 *作者* 或 *發佈* 執行個體和畫面路徑符合 `sling:match` 並在內部重新導向至不同的路徑。 解析中的確切url `/system/console/jcrresolver` 有助於識別 *發佈* 執行個體正在將這些URL重寫為任何其他路徑。
 
-1. 检查Apache Sling资源解析程序工厂配置是否导致内部重写。
+1. 檢查Apache Sling Resource Resolver Factory設定是否造成內部重寫。
 
-### 6.如何从播放器API获取显示器和设备的详细信息？
+### 6.如何從播放器API取得顯示器和裝置的詳細資料？
 
-您可以通过以下方式获取显示屏和设备的详细信息：
+您可以透過以下方式取得顯示器和裝置的詳細資訊：
 
-* **内部JS API**
-* **ContextHub存储**:在 `/libs/screens/clientlibs/contexthub` 以显示渠道、设备和显示信息。
+* **內部JS API**
+* **ContextHub存放區**：三個ContextHub存放區定義於 `/libs/screens/clientlibs/contexthub` 以公開頻道、裝置和顯示資訊。
 
-   请按照以下步骤使用这些ContentHub存储值：
+   請依照下列步驟，使用這些ContentHub存放區值：
 
-   * 编辑渠道属性，并在个性化选项卡中将ContextHub路径设置为值（如上所述）
-   * 在渠道JS中，您可以使用：
+   * 編輯管道屬性，並將「個人化」標籤中的ContextHub路徑設定為值（如上所述）
+   * 在管道JS中，您可以使用：
 
       ```shell
          ContextHub.getStore('screens-device');
@@ -195,62 +195,62 @@ Windows播放器中没有窗口模式。 始终为全屏模式。
          ContextHub.getStore('screens-channels');
       ```
 
-## 一般故障诊断提示 {#general-troubleshooting-tips}
+## 一般疑難排解提示 {#general-troubleshooting-tips}
 
-### 1.如何禁用Livefyre以避免A/P屏幕错误？ {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
+### 1.如何停用Livefyre以避免A/P Screens錯誤？ {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
-为了避免出现日志错误，请禁用Livefyre :
+若要停用Livefyre以避免記錄錯誤：
 
-1. ***禁用Livefyre包：***
+1. ***停用Livefyre套裝：***
 
    * 导航至 `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
-   * 搜索AEM Livefyre包： `com.adobe.cq.social.cq-social-livefyre`
-   * 单击 **停止**
+   * 搜尋AEM Livefyre套件組合： `com.adobe.cq.social.cq-social-livefyre`
+   * 按一下 **停止**
 
-1. ***禁用Livefyre poller:***
+1. ***停用Livefyre輪詢程式：***
 
-   * 在CRXDE Lite中，导航到 `/etc/importers/polling/livefyre-poller/jcr:content`
-   * 添加新资产 *已启用* type *布尔值*
-   * 已设置 **已启用属性** to **false**
+   * 在CRXDE Lite中，導覽至 `/etc/importers/polling/livefyre-poller/jcr:content`
+   * 新增屬性 *已啟用* type *布林值*
+   * 設定 **啟用屬性** 至 **false**
 
-### 2.如何添加Oak索引信息？ {#add-oak-index-info}
+### 2.如何新增Oak索引資訊？ {#add-oak-index-info}
 
-AEM Screens会为产品使用的查询创建索引定义。
-如果有 *查询遍历警告* 在 `error.log`，为查询创建自定义索引。 请参阅 [配置索引](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) 以了解更多详细信息。
+AEM Screens會為產品使用的查詢建立索引定義。
+如果有的話 *查詢周遊警告* 在 `error.log`，為您的查詢建立自訂索引。 請參閱 [設定索引](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) 以取得更多詳細資料。
 
-您还可以在 [Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+您也可以參閱上的其他資源 [Oak檔案](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3.配置v3舱单需要什么？ {#configure-v3}
+### 3.設定v3資訊清單需要什麼？ {#configure-v3}
 
-要启用v3清单，您必须：
+若要啟用v3資訊清單，您必須：
 
 * 更新Dispatcher。
-请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以了解更多详细信息。
+另請參閱 [為資訊清單版本v3設定Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) 以取得更多詳細資料。
 
-* 更新自定义组件。
-请参阅 [自定义处理程序模板](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) 以了解更多详细信息。
+* 更新自訂元件。
+另請參閱 [自訂處理常式的範本](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) 以取得更多詳細資料。
 
-* 在 `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+* 在中停用ContentSync `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-* 在 `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+* 在中啟用SmartSync `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
 * 编辑 `channel/experience fragment/page components`.
 
-* 导航到 **脱机配置** 选项卡。
+* 導覽至 **離線設定** 標籤。
 
-* 输入 `clientlibs `和需要添加到清单的静态文件的文件夹。
+* 輸入 `clientlibs `以及需要新增至資訊清單的靜態檔案資料夾。
 
-### 4.如果软件包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心包安装但未激活后，您应该怎么做？
+### 4.如果在套件screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心套件已安裝但未啟用，您應該怎麼做？
 
-必须安装最低版本的AEM 6.5功能包8才能使AMS连接器正常工作。 请参阅 [可用性](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 以获取Screens功能包的最低版本。
+您必須安裝AEM 6.5 Feature Pack 8的最低版本，AMS聯結器才能運作。 請參閱 [可用性](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) 以取得Screens Feature Pack的最低版本。
 
-### 5.如何在Screens中配置CQ Link Externalizer服务？
+### 5.如何在Screens中設定CQ Link Externalizer服務？
 
-该服务用于定义创作和发布实例的公共主机名，然后使用这些值更新设备服务器URL和ContextHub定位。
+此服務可用來定義製作和發佈執行個體的公用主機名稱，然後使用值來更新裝置伺服器URL及用於ContextHub目標定位。
 
-Screens中的CQ Link Externalizer服务可以通过以下方式进行配置：
+Screens中的CQ Link Externalizer服務可透過以下方式設定：
 
 1. 导航至 `http://localhost:4502/system/console/configMgr`
-1. Day CQ链接外部器
-1. 更改的主机名 `author/publish` 根据需要输入
+1. Day CQ連結外部化器
+1. 變更的主機名稱 `author/publish` 視需要輸入

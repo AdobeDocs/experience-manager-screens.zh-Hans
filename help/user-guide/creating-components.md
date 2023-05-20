@@ -1,61 +1,60 @@
 ---
 title: 创建组件
-seo-title: 创建组件
-description: AEM组件用于保存、格式化和渲染网页上提供的内容。 可查看本页以了解有关创作渠道和渲染组件的信息。
-seo-description: AEM组件用于保存、格式化和渲染网页上提供的内容。 可查看本页以了解有关创作渠道和渲染组件的信息。
+seo-title: Creating Components
+description: AEM元件可用來保留、格式化及轉譯可在您的網頁上使用的內容。 請依照本頁所述操作，瞭解製作管道和演算元件的相關資訊。
+seo-description: AEM components are used to hold, format, and render the content made available on your webpages. Follow this page to learn about authoring channels and rendering components.
 uuid: 66c76dd5-495a-4dcb-ad18-7f8a92669752
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: cdc530d8-ef0e-4b61-b1f0-5f4d831f1392
-feature: 开发屏幕
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4d673039-4963-458a-89e9-023a993dd354
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 3%
 
 ---
 
+# 创建组件 {#creating-components}
 
-# 创建组件{#creating-components}
-
-AEM组件用于保存、格式化和渲染网页上提供的内容。
+AEM元件可用來保留、格式化及轉譯可在您的網頁上使用的內容。
 
 >[!NOTE]
 >
->要了解有关创建AEM组件的详细信息，请参阅开发AEM组件。
+>若要瞭解建立AEM元件的詳細資訊，請參閱開發AEM元件。
 
-## 创作渠道{#authoring-channels}
+## 製作管道 {#authoring-channels}
 
-渠道是交付到一组显示屏的内容的中心对象。 因此，内容作者通常会在编辑器中打开渠道以添加或修改内容。 由于渠道是&#x200B;***cq:Page***，因此它将遵循相同的传统UX模式在渠道中添加和更改组件。
+色版是傳送至一組顯示器的內容中心物件。 因此，內容作者通常會在編輯器中開啟管道，以新增或修改內容。 由於頻道是 ***cq：Page*** 它會遵循相同的傳統UX模式，在通道上新增和變更元件。
 
-但是，由于渠道中的组件通常呈现全屏，因此在尝试编辑单个组件或撰写新订单时，创作体验将会受损。 因此，渠道将依赖选择器来呈现组件的不同视图。 创作环境将利用编辑选择器来激活自定义渠道渲染。
+不過，由於管道中的元件通常會在全熒幕上呈現，因此在嘗試編輯單一元件或撰寫新訂單時，編寫體驗會受到影響。 因此，管道將依賴選取器來呈現元件的不同檢視。 製作環境將利用編輯選擇器來啟動自訂管道呈現。
 
 例如，`http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 
-在编辑时，用户不必负责将选择器添加到URL。 客户端逻辑正在侦听层交换事件，并在通道具有专用资源类型&#x200B;*screens/core/components/channel时添加选择器。*
+編輯時，使用者不必將選擇器新增至URL。 使用者端邏輯正在接聽層切換事件，並在通道具有專用資源型別時新增選擇器 *screens/core/components/channel.*
 
-## 渲染组件{#rendering-components}
+## 演算元件 {#rendering-components}
 
-要启用正确的创作功能，组件需要提供以下两种渲染：
+若要啟用正確編寫，元件需要提供下列兩種轉譯：
 
-| **组件** | **演绎版** |
+| **Component** | **演绎版** |
 |---|---|
-| *my-component/my-component.html* | 生产渲染 |
-| *my-component/edit.html* | 在较小的视图中编辑渲染 |
+| *my-component/my-component.html* | 生產呈現 |
+| *my-component/edit.html* | 在較小的檢視中編輯演算 |
 
-内置组件利用以下客户端库类别：
+內建元件會運用下列使用者端程式庫類別：
 
-| **组件** | **客户端库** |
+| **Component** | **客户端库** |
 |---|---|
-| *cq.screens.components.edit* | 必须在创作过程中加载的CSS和JS |
-| *cq.screens.components.production* | 必须在渠道运行时加载的CSS和JS |
-| *cq.screens.components* | 共享的CSS和JS |
+| *cq.screens.components.edit* | 編寫期間必須載入的CSS和JS |
+| *cq.screens.components.production* | 通道執行時須載入的CSS和JS |
+| *cq.screens.components* | 共用的CSS和JS |
 
 >[!NOTE]
 >
->要开发自定义组件，请使用***[AEM Screens示例组件模板](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
-
+>若要開發自訂元件，請使用***[AEM Screens範例元件範本](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。

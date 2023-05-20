@@ -1,8 +1,8 @@
 ---
-title: 配置和部署AEM Screens
-seo-title: 配置和部署 Screens
-description: AEM Screens播放器适用于Android、Chrome OS、iOS和Windows。 本页介绍了AEM Screens的配置和部署，并概述了播放器设备的高/低选择准则。
-seo-description: AEM Screens播放器适用于Android、Chrome OS、iOS和Windows。 本页介绍了AEM Screens的配置和部署，并概述了播放器设备的高/低选择准则。
+title: 設定和部署AEM Screens
+seo-title: Configuring and Deploying Screens
+description: AEM Screens播放器適用於Android、Chrome作業系統、iOS和Windows。 此頁面說明AEM Screens的設定和部署，並概述播放器裝置的h/w選擇准則。
+seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
 uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
 contentOwner: Jyotika syal
 content-type: reference
@@ -15,140 +15,140 @@ level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 1%
+source-wordcount: '714'
+ht-degree: 0%
 
 ---
 
-# 配置和部署AEM Screens {#configuring-and-deploying-aem-screens}
+# 設定和部署AEM Screens {#configuring-and-deploying-aem-screens}
 
-本页介绍如何在您的设备上安装和配置Screens播放器。
+本頁面說明如何在您的裝置上安裝和設定Screens播放器。
 
-## 服务器配置 {#server-configuration}
+## 伺服器設定 {#server-configuration}
 
 >[!NOTE]
 >
->**重要信息**：
+>**重要**:
 >
->AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要配置和AEM服务器以便准备好用于AEM Screens，请通过允许空反向链接来跳过反向链接过滤器。
+>AEM Screens播放器未使用跨網站請求偽造(CSRF)權杖。 因此，為了設定和AEM伺服器以準備好用於AEM Screens，請允許空白反向連結以略過反向連結篩選。
 
-## 运行状况检查框架 {#health-check-framework}
+## 健康情況檢查架構 {#health-check-framework}
 
-运行状况检查框架允许用户在运行AEM Screens项目之前检查是否设置了两个必需的配置。
+健康情況檢查架構可讓使用者在執行AEM Screens專案之前，檢查是否已設定兩個必要的設定。
 
-它允许用户验证以下两个配置检查以运行AEM Screens项目，即检查以下两个过滤器的状态：
+它可讓使用者驗證以下兩個設定檢查以執行AEM Screens專案，即檢查以下兩個篩選器的狀態：
 
-1. **允许空反向链接**
+1. **允許空的反向連結**
 2. **https**
 
-请按照以下步骤检查是否已为AEM Screens启用这两个重要配置：
+請依照下列步驟，檢查這兩個重要設定是否已為AEM Screens啟用：
 
-1. 导航至[Adobe Experience Manager Web Console Sling运行状况检查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)。
+1. 導覽至 [Adobe Experience Manager Web主控台Sling健康狀態檢查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
-   ![资产](assets/health-check1.png)
+   ![資產](assets/health-check1.png)
 
 
-2. 单击&#x200B;**执行选定的运行状况检查**&#x200B;以对上面列出的两个属性运行验证。
+2. 按一下 **執行選取的運行狀況檢查** 以對上述兩個屬性執行驗證。
 
-   如果同时启用了这两个过滤器，则&#x200B;**Screens Configuration Health Service**&#x200B;将&#x200B;**Result**&#x200B;显示为&#x200B;**OK**，并同时启用这两个配置。
+   如果兩個篩選器都啟用，則 **Screens設定健康情況服務** 顯示 **結果** 作為 **確定** 將兩個設定都設為啟用。
 
-   ![资产](assets/health-check2.png)
+   ![資產](assets/health-check2.png)
 
-   如果禁用一个或两个过滤器，则会为用户显示警报，如下图所示。
+   如果停用其中一個或兩個篩選器，則會顯示給使用者的警報，如下圖所示。
 
-   以下警报会显示是否同时禁用了这两个过滤器：
-   ![资产](assets/health-check3.png)
+   下列警報會顯示兩個篩選器皆已停用的情況：
+   ![資產](assets/health-check3.png)
 
 >[!NOTE]
 >
->* 要启用&#x200B;**Apache Sling反向链接过滤器**，请参阅[允许空反向链接请求](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)。
->* 要启用&#x200B;**HTTP**&#x200B;服务，请参阅[Apache Felix Jetty Based HTTP服务](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)。
+>* 若要啟用 **Apache Sling查閱者篩選器**，請參閱 [允許空的反向連結請求](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* 若要啟用 **HTTP** 服務，請參閱 [Apache Felix Jetty型HTTP服務](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 
 ### 前提条件 {#prerequisites}
 
-以下要点可帮助配置和AEM服务器以准备好用于AEM Screens。
+以下要點可協助您設定和AEM伺服器，以準備好用於AEM Screens。
 
-#### 允许空反向链接请求 {#allow-empty-referrer-requests}
+#### 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
-1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
+1. 導覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體 — >槌子圖示 — > **作業** —> **網頁主控台**.
 
    ![图像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web控制台** 配置打开。搜索sling反向链接。
+1. **Adobe Experience Manager Web主控台設定** 隨即開啟。 搜尋Sling反向連結。
 
-   要搜索Sling反向链接属性，请按&#x200B;**Command+F**（对于&#x200B;**Mac**）和&#x200B;**Control+F**（对于&#x200B;**Windows**）。
+   若要搜尋Sling查閱者屬性，請按 **Command+F** 的 **Mac** 和 **Control+F** 的 **Windows**.
 
-1. 选中&#x200B;**允许空**&#x200B;选项，如下图所示。
+1. 檢查 **允許空白** 選項，如下圖所示。
 
    ![图像](assets/config/empty-ref2.png)
 
-1. 单击&#x200B;**Save**&#x200B;以启用Apache Sling反向链接过滤器允许为空。
+1. 按一下 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
 
 
-#### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
+#### Apache Felix Jetty型HTTP服務 {#allow-apache-felix-service}
 
-1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
+1. 導覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體 — >槌子圖示 — > **作業** —> **網頁主控台**.
 
    ![图像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web控制台** 配置打开。搜索基于Apache Felix Jetty的HTTP服务。
+1. **Adobe Experience Manager Web主控台設定** 隨即開啟。 搜尋Apache Felix Jetty型HTTP服務。
 
-   要搜索此属性，请按&#x200B;**Command+F**（对于&#x200B;**Mac**）和&#x200B;**Control+F**（对于&#x200B;**Windows**）。
+   若要搜尋此屬性，請按 **Command+F** 的 **Mac** 和 **Control+F** 的 **Windows**.
 
-1. 选中&#x200B;**启用HTTP**&#x200B;选项，如下图所示。
+1. 檢查 **啟用HTTP** 選項，如下圖所示。
 
    ![图像](assets/config/config-1.png)
 
-1. 单击&#x200B;**Save**&#x200B;以启用&#x200B;*http*&#x200B;服务。
+1. 按一下 **儲存** 以啟用 *http* 服務。
 
-#### 为AEM Screens启用触屏UI {#enable-touch-ui-for-aem-screens}
+#### 啟用AEM Screens的觸控式UI {#enable-touch-ui-for-aem-screens}
 
-AEM Screens需要触屏UI，并且无法用于Adobe Experience Manager(AEM)的经典UI。
+AEM Screens需要TOUCH UI，無法搭配Adobe Experience Manager (AEM)的CLASSIC UI使用。
 
-1. 导航到&#x200B;*&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
-1. 确保将&#x200B;**默认创作UI模式**&#x200B;设置为&#x200B;**TOUCH**，如下图所示
+1. 導覽至 *&lt;yourauthorinstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. 確保 **預設編寫UI模式** 設為 **觸控**，如下圖所示
 
-或者，您也可以使用AuthorInstance *->*&#x200B;工具（锤子图标） — > **操作** -> **Web控制台**&#x200B;执行相同的设置，并搜索&#x200B;**WCM创作UI模式服务**。
+或者，您也可以使用yourAuthorInstance執行相同的設定 *->* 工具（槌子圖示） -> **作業** -> **網頁主控台** 並搜尋 **WCM編寫UI模式服務**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
 >[!NOTE]
 >
->您始终可以使用用户首选项为特定用户启用经典UI。
+>您一律可以使用使用者偏好設定為特定使用者啟用傳統UI。
 
-#### AEM在NOSAMPLECONTENT运行模式中 {#aem-in-nosamplecontent-runmode}
+#### NOSAMPLECONTENT執行模式中的AEM {#aem-in-nosamplecontent-runmode}
 
-在生产中运行AEM使用&#x200B;**NOSAMPLECONTENT**&#x200B;运行模式。 从&#x200B;**
+在生產環境中執行AEM會使用 **NOSAMPLECONTENT** 執行模式。 移除 *X-Frame-Options=SAMEORIGIN* 標題（在其他回應標題區段中）來自
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
-AEM Screens播放器需要此参数才能播放在线渠道。
+這是AEM Screens Player播放線上頻道所必需的。
 
-#### 密码限制 {#password-restrictions}
+#### 密碼限制 {#password-restrictions}
 
-对&#x200B;***DeviceServiceImpl***&#x200B;进行最新更改后，您不必删除密码限制。
+包含對下列專案的最新變更： ***DeviceServiceImpl***，您不必移除密碼限制。
 
-您可以从以下链接配置&#x200B;***DeviceServiceImpl*** ，以在为屏幕设备用户创建密码时启用密码限制：
+您可以設定 ***DeviceServiceImpl*** 從下列連結為screens裝置使用者建立密碼時啟用密碼限制：
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-请按照以下步骤配置&#x200B;***DeviceServiceImpl***:
+請依照下列步驟進行設定 ***DeviceServiceImpl***：
 
-1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
+1. 導覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體 — >槌子圖示 — > **作業** —> **網頁主控台**.
 
-1. **Adobe Experience Manager Web控制台** 配置打开。搜索&#x200B;*deviceservice*。 要搜索属性，请按&#x200B;**Command+F**（对于macOS）和&#x200B;**Control+F**（对于Microsoft Windows）。
+1. **Adobe Experience Manager Web主控台設定** 隨即開啟。 搜尋 *裝置服務*. 若要搜尋屬性，請按 **Command+F** 適用於macOS和 **Control+F** 適用於Microsoft Windows。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### 调度程序配置 {#dispatcher-configuration}
+#### Dispatcher設定 {#dispatcher-configuration}
 
-要了解如何为AEM Screens项目配置Dispatcher，请参阅[为AEM Screens项目配置Dispatcher](dispatcher-configurations-aem-screens.md)。
+若要瞭解如何為AEM Screens專案設定Dispatcher，請參閱 [為AEM Screens專案設定Dispatcher](dispatcher-configurations-aem-screens.md).
 
-#### Java编码 {#java-encoding}
+#### Java編碼 {#java-encoding}
 
-将&#x200B;***Java编码***&#x200B;设置为Unicode。 例如， *Dfile.encoding=Cp1252*&#x200B;将不起作用。
+設定 ***Java編碼*** 轉換為Unicode。 例如， *Dfile.encoding=Cp1252* 將無法運作。
 
 >[!NOTE]
->**推荐:**
->建议在生产使用中对AEM Screens Server使用HTTPS。
+>**建議：**
+>建議將HTTPS用於AEM Screens伺服器以供生產使用。

@@ -1,8 +1,8 @@
 ---
-title: 通道级别批量图像播放持续时间
-seo-title: 通道级别批量图像播放持续时间
-description: 本页介绍如何编辑特定图像组件的播放持续时间。
-seo-description: 本页介绍如何编辑特定图像组件的播放持续时间。
+title: 頻道層級大量影像播放持續時間
+seo-title: Channel Level Bulk Image Playback Duration
+description: 此頁面說明如何編輯特定影像元件的播放持續時間。
+seo-description: This page describes how you can edit the playback duration of a specific image component.
 uuid: 4ebb00a9-b04d-4dfe-9fee-2348a2e2c142
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,70 +10,70 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 4%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
-# 通道级别批量图像播放持续时间 {#channel-level-bulk-image-playback-duration}
+# 頻道層級大量影像播放持續時間 {#channel-level-bulk-image-playback-duration}
 
 ## 概述 {#overview}
 
-创建序列渠道并向其添加图像后，默认情况下，所有图像都将假定播放持续时间是在渠道级别配置中定义的。 任何单个图像仍可以覆盖默认值，并且其播放持续时间会有所不同，这是通过编辑特定图像组件的播放持续时间来完成的。
+建立序列頻道並在其中新增影像後，根據預設，所有影像都會採用頻道層級設定中定義的播放持續時間。 任何個別影像仍可覆寫預設值，並具有不同的播放持續時間，這是透過編輯特定影像元件的播放持續時間來完成的。
 
 ### 前提条件 {#prerequisites}
 
-在开始实施此功能之前，请确保已将项目设置为开始实施此功能的先决条件。 例如，
+開始實作此功能之前，請確定您已設定專案作為開始實作此功能的先決條件。 例如，
 
-1. 创建AEM Screens项目示例， **ChannelLevelPlayback**。
+1. 建立AEM Screens專案範例， **ChannelLevelPlayback**.
 
-1. 在&#x200B;**Channels**&#x200B;文件夹下，创建序列渠道作为&#x200B;**PlaybackChannel**。
+1. 建立序列管道為 **PlaybackChannel** 在 **頻道** 資料夾。
 
-1. 将内容添加到&#x200B;**PlaybackChannel**。
+1. 新增內容至 **PlaybackChannel**.
 
-## 编辑渠道级别的图像播放持续时间分配 {#editing-channel-level-image-playback-duration-assignment}
+## 編輯頻道層級影像播放持續時間指派 {#editing-channel-level-image-playback-duration-assignment}
 
-以下部分介绍如何编辑AEM Screens渠道中内容的播放持续时间。
+以下章節說明如何在AEM Screens頻道中編輯內容的播放持續時間。
 
-### 更新渠道中图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-channel}
+### 更新頻道中影像的播放持續時間 {#updating-the-playback-duration-for-images-in-a-channel}
 
-请按照以下步骤了解如何更新渠道级别图像播放持续时间分配：
+請依照下列步驟操作，瞭解如何更新頻道層級影像播放期間指派：
 
-1. 导航到序列渠道&#x200B;**PlaybackChannel**。
+1. 導覽至序列頻道 **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。
+1. 按一下 **編輯** 以開啟編輯器。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
-1. 在渠道编辑器中添加两个或更多图像，如下图所示。
+1. 在管道編輯器中新增兩個或多個影像，如下圖所示。
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. 选择通道中的所有图像，然后单击左上角的扳手图标（如下图所示）以打开“通道级别配置”对话框。
+1. 選取色版中的所有影像，然後按一下左上方的扳手圖示（如下圖所示）以開啟「色版層級設定」對話方塊。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **** 页面对话框打开。
+1. **頁面** 對話方塊開啟。
 
    >[!NOTE]
-   >默认情况下，渠道中的图像会设置为8秒的播放持续时间。
+   >根據預設，頻道中的影像會設定為8秒的播放持續時間。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑从8000(ms)到3000(ms)的&#x200B;**持续时间**，即3秒。 单击&#x200B;**Page**&#x200B;对话框右上角的复选标记以保存更改。
+   編輯 **持續時間** 從8000 (ms)到3000 (ms)，即3秒。 按一下右上方的勾號 **頁面** 對話方塊以儲存變更。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### 查看结果 {#viewing-the-result}
+### 檢視結果 {#viewing-the-result}
 
-更新渠道播放持续时间（在本例中为所有三幅图像）后，您会注意到图像现在将播放3秒，而不是8秒（默认值）。
+更新頻道播放持續時間後（在此範例中是全部三個影像），您會注意到影像現在會播放3秒而不是8秒（預設值）。
 
 ![channel_preview](assets/channel_preview.gif)

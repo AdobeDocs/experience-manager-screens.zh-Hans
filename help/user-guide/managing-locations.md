@@ -1,67 +1,67 @@
 ---
-title: 创建和管理位置
-seo-title: 管理位置
-description: 可查看本页以了解有关创建/管理位置的信息。
-seo-description: 可查看本页以了解有关创建/管理位置的信息。
+title: 建立和管理位置
+seo-title: Managing Locations
+description: 請依照本頁面瞭解如何建立/管理位置。
+seo-description: Follow this page to learn about creating/managing locations.
 uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 52%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
-# 创建和管理位置 {#creating-and-managing-locations}
+# 建立和管理位置 {#creating-and-managing-locations}
 
-位置会根据各个屏幕所在的位置来托管显示器的配置。
+位置會根據各種熒幕的位置來主控顯示器的設定。
 
-本页显示了如何为 Screens 创建和管理位置。
+此頁面顯示建立和管理Screens的位置。
 
-**先决条件**：
+**先決條件**：
 
-* [配置和部署 Screens](configuring-screens-introduction.md)
-* [创建和管理Screens项目](creating-a-screens-project.md)
-* [创建和管理渠道](managing-channels.md)
+* [設定和部署畫面](configuring-screens-introduction.md)
+* [建立和管理畫面專案](creating-a-screens-project.md)
+* [建立和管理管道](managing-channels.md)
 
-## 创建新位置 {#creating-a-new-location}
+## 建立新位置 {#creating-a-new-location}
 
-创建 Screens 项目后，请按照以下步骤为 Screens 项目创建新位置：
+建立Screens專案後，請依照下列步驟為Screens專案建立新的「位置」：
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择“屏幕”。或者，您也可以直接导航到：`http://localhost:4502/screens.html/content/screens`。
-1. 导航到Screens项目，然后单击&#x200B;**位置**。
-1. 单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
-1. 从向导中选择模板&#x200B;**Location** ，然后单击&#x200B;**Next**。
+1. 選取Adobe Experience Manager連結（左上方），然後選取Screens。 或者，您也可以直接導覽至： `http://localhost:4502/screens.html/content/screens`.
+1. 導覽至畫面專案，然後按一下 **位置**.
+1. 按一下 **建立** 加號圖示旁邊。 將會開啟精靈。
+1. 選取範本 **位置** 從精靈中並按一下 **下一個**.
 
-1. 输入&#x200B;**标题和标记**、**更多标题和描述**、**开启/关闭时间**&#x200B;和&#x200B;**虚URL**&#x200B;的属性。
+1. 輸入屬性 **標題和標籤**， **更多標題和說明**， **開啟/關閉時間**、和 **虛名URL**.
 
-1. 单击&#x200B;**创建**，此时将创建位置并将其添加到您的位置文件夹。
+1. 按一下 **建立** 且位置會建立並新增至您的位置資料夾。
 
-请参阅以下步骤，了解如何为AEM Screens项目创建新位置。 出于演示目的，在&#x200B;*DemoProject*&#x200B;下创建新位置(SanJose)。
+請參閱下列步驟，瞭解如何為AEM Screens專案建立新位置。 為了示範，新位置(SanJose)建立於 *示範專案*.
 
 ![player2](assets/player2.gif)
 
-创建位置后，您必须为该位置创建一个新显示屏。
+建立位置後，您必須為位置建立新的顯示。
 
-### 编辑位置的属性 {#editing-properties-for-a-location}
+### 編輯位置的屬性 {#editing-properties-for-a-location}
 
-要编辑/访问位置的属性，请执行以下操作：
+若要編輯/存取位置的屬性：
 
-1. 选择位置。
-1. 单击操作栏中的&#x200B;**属性**。
+1. 選取位置。
+1. 按一下 **屬性** 動作列中的。
 
 ![player3](assets/player3.gif)
 
 #### 后续步骤 {#the-next-steps}
 
-创建位置后，您必须为该位置创建一个新显示屏。
+建立位置後，您必須為位置建立新的顯示。
 
-有关更多详细信息，请参阅[创建和管理显示](managing-displays.md) 。
+另請參閱 [建立和管理顯示區](managing-displays.md) 以取得更多詳細資料。

@@ -1,62 +1,62 @@
 ---
-title: 应用过渡
-seo-title: 应用过渡
-description: 请阅读本页内容，了解如何将过渡应用到Screens项目。
-seo-description: 请阅读本页内容，了解如何将过渡应用到Screens项目。
+title: 套用轉變
+seo-title: Applying Transitions
+description: 請依照本頁面的說明操作，瞭解如何將轉變套用至您的Screens專案。
+seo-description: Follow this page to learn how to apply transitions to your Screens projects.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
-# 应用过渡 {#applying-transitions}
+# 套用轉變 {#applying-transitions}
 
-本节介绍如何在不同资产（图像和视频）和渠道中的嵌入式序列之间应用&#x200B;**过渡**&#x200B;组件。
+本節說明如何套用 **轉變** 不同資產（影像和影片）之間的元件，以及管道中的內嵌順序。
 
 
 >[!CAUTION]
 >
->要详细了解&#x200B;**Transition**&#x200B;组件的属性，请参阅[Transitions](adding-components-to-a-channel.md#transition)。
+>詳細瞭解 **轉變** 元件，請參閱 [轉變](adding-components-to-a-channel.md#transition).
 
-## 将过渡组件添加到渠道中的资产 {#adding-transition}
+## 在管道中新增轉變元件至資產 {#adding-transition}
 
-请按照以下步骤将过渡组件添加到您的AEM Screens项目：
+請依照下列步驟，將轉變元件新增至您的AEM Screens專案：
 
 >[!NOTE]
 >
 >**前提条件**
 >
->创建具有渠道&#x200B;**TestTransition**&#x200B;的AEM Screens项目&#x200B;**TestProject**。 此外，还应设置一个位置和一个显示器，以查看输出。
+>建立AEM Screens專案 **TestProject** 使用管道 **TestTransition**. 此外，設定位置和顯示以檢視輸出。
 
-1. 导航到渠道&#x200B;**TestTransition**，然后单击操作栏中的&#x200B;**编辑**。
+1. 導覽至頻道 **TestTransition** 並按一下 **編輯** 動作列中的。
 
-   ![图像1](assets/transitions1.png)
+   ![image1](assets/transitions1.png)
 
    >[!NOTE]
    >
-   >**TestTransition**&#x200B;渠道中已有很少的资产（图像和视频）。 例如，**TestTransition**&#x200B;渠道包含三个图像和两个视频，如下所示：
+   >此 **TestTransition** 頻道中已有少量資產（影像和影片）。 例如， **TestTransition** 頻道包含三個影像和兩個影片，如下所示：
 
-   ![图像2](assets/transitions2.png)
+   ![image2](assets/transitions2.png)
 
 
-1. 将&#x200B;**Transition**&#x200B;组件拖放到编辑器中。
+1. 拖放 **轉變** 元件至您的編輯器。
    >[!CAUTION]
    >
-   >在渠道中将过渡添加到资产之前，请确保不要在顺序渠道中的第一个资产之前添加过渡。 渠道中的第一个项目必须是资产，而不是过渡。
+   >將轉變新增至管道中的資產之前，請務必不要在循序管道中的第一個資產之前新增轉變。 管道中的第一個專案必須是資產，而不是轉變。
 
-   ![图像3](assets/transitions3.png)
+   ![image3](assets/transitions3.png)
 
    >[!NOTE]
    >
-   >默认情况下，过渡组件的属性（如&#x200B;**Type**）设置为&#x200B;**Fade**，而&#x200B;**Duration**)设置为&#x200B;*1600毫秒*。  此外，不建议设置的过渡持续时间长于应用到的资产。
+   >依預設，轉變元件的屬性，例如 **型別** 設為 **淡化** 和 **持續時間** 設為 *1600毫秒*.  此外，不建議將過渡持續時間設定為長於套用到的資產。
 
-1. 此外，如果向此渠道编辑器添加&#x200B;**嵌入式序列**&#x200B;组件（包括序列渠道），则可以在末尾添加过渡组件，以便内容按顺序播放，如下图所示：
+1. 此外，如果您新增 **內嵌順序** 元件（包括順序頻道）至此頻道編輯器，您可以在結尾新增轉變元件，以便內容依序播放，如下圖所示：
 
-   ![图像3](assets/transitions5.png)
+   ![image3](assets/transitions5.png)

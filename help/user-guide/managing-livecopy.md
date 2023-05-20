@@ -1,137 +1,137 @@
 ---
-title: 创建和管理Live Copy
-seo-title: 管理 Live Copy
-description: 本页介绍了如何创建和管理渠道的 Live Copy。
-seo-description: 可查看本页以创建渠道的 Live Copy、查看属性、检查状态，以及将渠道中的更改传播到其 Live Copy。
+title: 建立和管理即時副本
+seo-title: Managing LiveCopy
+description: 本頁說明如何建立和管理管道的即時副本。
+seo-description: Follow this page to create live copy of a channel, view properties, check status, and propagate changes from a channel to its live copy.
 uuid: 78ec7219-95ab-44d1-9514-1b97aded5bf4
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 84%
+source-wordcount: '696'
+ht-degree: 1%
 
 ---
 
-# 创建和管理Live Copy {#creating-and-managing-a-live-copy}
+# 建立和管理即時副本 {#creating-and-managing-a-live-copy}
 
-本页介绍了如何创建和管理渠道的 Live Copy。
+本頁說明如何建立和管理管道的即時副本。
 
-***Live Copy***&#x200B;是特定站点内容的副本，其与原始源的Live关系将保持在该副本中。 此实时关系允许 Live Copy 从源中继承内容和页面属性。
+A ***即時副本*** 是特定網站內容的復本，其中與原始來源維持即時關係。 此即時關係可讓即時副本從來源繼承內容和頁面屬性。
 
-本页介绍了如何创建渠道的 Live Copy、查看属性、检查状态，以及将渠道中的更改传播到其 Live Copy。
+本頁面說明如何建立管道的即時副本、檢視屬性、檢查狀態，以及將變更從管道傳播至其即時副本。
 
 
 ## 创建 Live Copy {#creating-a-live-copy}
 
-请按照以下步骤在项目文件夹中创建渠道的 Live Copy。
+請依照下列步驟，在您的專案資料夾中建立頻道的即時副本。
 
-1. 选择 Adobe Experience Manager 链接（左上方），然后选择&#x200B;**屏幕**。或者，您也可以直接转到：`http://localhost:4502/screens.html/content/screens`。
+1. 選取Adobe Experience Manager連結（左上方），然後 **Screens**. 或者，您可以直接前往： `http://localhost:4502/screens.html/content/screens`.
 
-1. 导航到 Screens 项目，然后单击&#x200B;**渠道**。
-1. 单击&#x200B;**创建**&#x200B;并选择&#x200B;**Live Copy**&#x200B;以创建渠道的Live Copy。
+1. 導覽至畫面專案，然後按一下 **頻道**.
+1. 按一下 **建立** 並選取 **即時副本** 以建立頻道的即時副本。
 
-1. 选择目标，然后单击&#x200B;**下一步**。
-1. 选择将存放 Live Copy 的位置。
-1. 在&#x200B;**创建 Live Copy** 页面中输入&#x200B;**标题**&#x200B;和&#x200B;**名称**。
+1. 選取目的地並按一下 **下一個**.
+1. 選取即時副本的存放位置。
+1. 輸入 **標題** 和 **名稱** 在 **建立即時副本** 頁面。
 
-1. 单击&#x200B;**打开**&#x200B;以查看新 Live Copy 的内容，或单击&#x200B;**完成**&#x200B;以返回主页。
+1. 按一下 **開啟** 若要檢視新即時副本的內容，或 **完成** 以返回首頁面。
 
-或者，请查看下面以可视化形式显示的有关创建渠道的新 Live Copy 的步骤。
+或者，您也可以參閱下列步驟，瞭解建立新頻道即時副本的視覺化呈現。
 
-以下示例显示了如何在目标文件夹&#x200B;***渠道***&#x200B;中创建 ***Idle Channel*** 的 Live Copy (***IdleLiveCopy***)。
+以下範例說明如何建立即時副本(***IdleLiveCopy***)表示 ***閒置頻道*** 目的地資料夾為 ***頻道***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
-## 查看 Live Copy 渠道的内容 {#viewing-content-of-the-live-copy-channel}
+## 檢視即時副本管道的內容 {#viewing-content-of-the-live-copy-channel}
 
-Live Copy 是已存在的渠道的副本。
+即時副本是已存在頻道的副本。
 
-要查看您的 Live Copy 内容，请执行以下步骤：
+若要檢視即時副本的內容，請參閱下列步驟：
 
-1. 导航到 Screens 项目，然后单击您最初创建 Live Copy 的位置，如上面的部分所示。（此处，选择的位置为&#x200B;**渠道**&#x200B;文件夹）
+1. 導覽至Screens專案，然後按一下您最初建立即時副本的位置，如上節所示。 (在此，選擇位置為 **頻道** 資料夾)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. 单击操作栏中的&#x200B;**编辑**&#x200B;以查看渠道中的内容。
+1. 按一下 **編輯** 以檢視頻道中的內容。
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
    >[!NOTE]
    >
-   >查看 Live Copy 渠道的内容时，您将在菜单中看到一个额外的项目 **Live Copy 状态**。有关更多详细信息，请参阅以下部分。
+   >檢視即時副本管道的內容時，您將在功能表中檢視額外專案為 **即時副本狀態**. 如需更多詳細資訊，請參閱以下章節。
 
-### 查看 Live Copy 的属性 {#viewing-properties-of-a-live-copy}
+### 檢視即時副本的屬性 {#viewing-properties-of-a-live-copy}
 
-您还可以查看 Live Copy 渠道的属性。
+此外，您也可以檢視即時副本頻道的屬性。
 
-1. 导航到您的 Live Copy 渠道，然后单击操作栏中的&#x200B;**属性**。
+1. 導覽至您的即時副本頻道，然後按一下 **屬性** 動作列中的。
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
-1. 选择 **Live Copy** 选项卡以查看渠道的详细信息。
+1. 選取 **即時副本** 標籤以檢視您頻道的詳細資訊。
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
 ### Live Copy 状态 {#live-copy-status}
 
-如下图所示，**Live Copy 状态**&#x200B;模式允许您查看渠道中所有资产的关系状态。
+模式 **即時副本狀態**&#x200B;如下圖所示，可讓您檢視管道中所有資產的關係狀態。
 
-1. 单击&#x200B;**编辑**&#x200B;以选择&#x200B;**Live Copy状态**，并查看渠道内容与原始渠道（从中生成Live Copy）的关联。
+1. 按一下 **編輯** 以選擇 **即時副本狀態** 和檢視您的頻道內容與原始頻道（產生即時副本的來源）的關聯。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
-1. 选择 **Live Copy 状态**&#x200B;以显示预览页面。
+1. 選取 **即時副本狀態** 以顯示預覽頁面。
 
-   所有具有绿色边框的资源均表示内容是从原始渠道继承的。
+   所有具有綠色邊框的資源會顯示內容繼承自原始通道。
 
    ![chlimage_1-23](assets/chlimage_1-23.png)
 
-### 中断继承 {#breaking-the-inheritance}
+### 中斷繼承 {#breaking-the-inheritance}
 
-您也可以从 Live Copy 中取消继承，以使内容变得与原始分支无关。
+您也可以取消從LiveCopy的繼承，使內容獨立於原始分支。
 
-如以下示例所示，您可以在编辑模式下选择图像，然后单击右上方的取消继承符号。
+下列範例顯示您在編輯模式中選取影像，然後按一下右上方的取消繼承符號。
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
-### 将更改传播到 Live Copy 渠道 {#propagating-changes-to-the-live-copy-channel}
+### 將變更傳播至即時副本頻道 {#propagating-changes-to-the-live-copy-channel}
 
-如果您在原始渠道中进行了更改/更新，您需要也将这些更改传播到 Live Copy 渠道。
+如果您在原始頻道中進行變更/更新，您也需要將這些變更傳播到您的即時副本頻道。
 
-请按照以下步骤确保您的更改会从原始渠道传播到 Live Copy 渠道：
+請依照下列步驟操作，以確保您的變更從原始頻道傳播到即時副本頻道：
 
-1. 选择原始渠道 (***Idle Channel***)，然后单击操作栏中的&#x200B;**编辑**。
+1. 選取原始頻道(***閒置頻道***)並按一下 **編輯** 動作列中的。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. 对此渠道内容进行编辑。例如，从此渠道中删除一个图像。
+1. 對此管道內容進行編輯。 例如，從此頻道中刪除影像。
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
-1. 选择此渠道的 Live Copy (***IdleLiveCopy***)，然后单击操作栏中的&#x200B;**编辑**。此时您将注意到已删除的图像仍显示在 Live Copy 中。
+1. 選取頻道的即時副本(***IdleLiveCopy***)並按一下 **編輯** 動作列中的。 您會發現刪除的影像仍會顯示在即時副本中。
 
-   为了传播更改，您需要同步渠道。
+   為了傳播變更，您需要同步管道。
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. 要将更改传播到 Live Copy 渠道，请导航到 AEM 功能板并选择 Live Copy 渠道，然后单击操作栏中的&#x200B;**属性**。
+1. 若要將變更傳播至即時副本頻道，請導覽至AEM控制面板並選取即時副本頻道，然後按一下 **屬性** 動作列中的。
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
-1. 选择 **Live Copy** 选项卡，然后单击操作栏中的&#x200B;**同步**。
+1. 選取 **即時副本** 標籤並按一下 **同步** 動作列中的。
 
-   ![chlimage_1-21](assets/chlimage_1-29.png)
+   ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. 单击&#x200B;**同步**&#x200B;以确认所做的更改。单击&#x200B;**保存并关闭**&#x200B;以导航回AEM功能板。
+1. 按一下 **同步** 以確認變更。 按一下 **儲存並關閉** 導覽回AEM控制面板。
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
-   此时您将注意到图像现在也已从 Live Copy 渠道中删除。
+   您會發現影像現在也已從即時副本頻道中刪除。

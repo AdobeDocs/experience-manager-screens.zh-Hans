@@ -1,7 +1,7 @@
 ---
-title: 使用命令同步
+title: 使用Command Sync
 seo-title: Using Command Sync
-description: 请阅读本页，了解如何使用命令同步。
+description: 請依照本頁瞭解如何使用Command Sync。
 seo-description: Follow this page to learn about how to use Command Sync.
 feature: Authoring Screens
 role: Admin, Developer
@@ -16,131 +16,131 @@ ht-degree: 2%
 
 # 命令同步 {#command-sync}
 
-以下页介绍如何使用命令同步。 命令同步允许在不同播放器之间同步播放。 播放器可以播放不同的内容，但每个资产需要具有相同的持续时间。
+以下頁面說明如何使用「命令同步」。 Command Sync允許跨不同播放器同步播放。 播放器可播放不同內容，但每個資產需要相同的持續時間。
 
 >[!IMPORTANT]
 >
->此功能不支持嵌入式序列、动态嵌入式序列、应用程序渠道或过渡。
+>此功能不支援內嵌序列、動態內嵌序列、應用程式通道或轉換。
 
 ## 概述 {#overview}
 
-数字标牌解决方案需要支持视频墙和同步播放，以支持诸如新年倒计时或大视频被切片在多个屏幕中播放等场景，这正是命令同步发挥作用的地方。
+數位看板解決方案需要支援視訊牆壁和同步播放，以支援新年倒數或分割為多個熒幕播放的大型視訊等情境，這也是Command Sync發揮作用的地方。
 
-要使用命令同步，一个播放器充当 *主要* 发出命令，其他所有的玩家 *客户* 并在收到命令时播放。
+若要使用Command Sync，單一播放器會作為 *主要* 並傳送指令，而所有其他播放器則充當 *使用者端* 並在收到指令時播放。
 
-的 *主要* 将要开始播放项目时，会向所有注册的客户端发送命令。 其有效负荷可以是要播放的项目的索引和/或要播放的元素的外部html。
+此 *主要* 即將開始播放專案時，會傳送命令給所有已註冊的使用者端。 此專案的裝載可以是要播放專案的索引及/或要播放的元素的外部HTML。
 
-## 实现命令同步 {#using-command-sync}
+## 實作命令同步 {#using-command-sync}
 
-以下部分介绍如何在AEM Screens项目中使用命令同步。
+下節說明如何在AEM Screens專案中使用Command Sync。
 
 >[!NOTE]
 >
->对于同步播放，要求所有硬件设备具有相同的硬件规范，最好是相同的操作系统。 不建议在不同硬件和操作系统之间进行同步。
+>若要進行同步播放，所有硬體裝置都必須具備相同的硬體規格，而且最好是相同的作業系統。 不建議在不同的硬體與作業系統之間同步處理。
 
 ### 设置项目 {#setting-up}
 
-在使用命令同步功能之前，请确保您有一个项目和一个渠道，该渠道已为您的项目设置内容。
+在使用Command Sync功能之前，請確定您擁有專案和管道，其中包含專案設定的內容。
 
-1. 以下示例展示了一个名为 **CommandSyncDemo** 和序列频道 **ChannelLobby**.
+1. 以下範例示範專案 **CommandSyncDemo** 和序列頻道 **頻道大廳**.
 
-   ![图像1](assets/command-sync/command-sync1-1.png)
-
-   >[!NOTE]
-   >
-   >要了解如何创建渠道或向渠道添加内容，请参阅 [创建和管理渠道](/help/user-guide/managing-channels.md)
-
-   渠道包含以下内容，如下图所示。
-
-   ![图像1](assets/command-sync/command-sync2-1.png)
-
-1. 创建位置 **大堂** 和标题为 **LobbyDisplay** 在 **位置** 文件夹中，如下图所示。
-   ![图像1](assets/command-sync/command-sync3-1.png)
-
-1. 分配渠道， **ChannelLobby** 至 **LobbyDisplay**. 您现在可以从显示功能板中查看为显示屏分配的渠道。
-   ![图像1](assets/command-sync/command-sync4-1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >要了解如何将渠道分配给显示屏，请参阅 [创建和管理显示屏](/help/user-guide/managing-displays.md).
+   >若要瞭解如何建立管道或新增內容至管道，請參閱 [建立和管理管道](/help/user-guide/managing-channels.md)
 
-1. 导航到 **设备** 文件夹，单击 **设备管理器** 来注册设备。
+   此頻道包含下列內容，如下圖所示。
 
-   ![图像1](assets/command-sync5.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
+
+1. 建立位置 **大廳** 並隨後顯示標題為 **LobbyDisplay** 在 **位置** 資料夾，如下圖所示。
+   ![image1](assets/command-sync/command-sync3-1.png)
+
+1. 指派頻道， **頻道大廳** 至您的 **LobbyDisplay**. 您現在可以從顯示儀表板檢視指派給顯示的管道。
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >要了解如何注册设备，请参阅 [设备注册](/help/user-guide/device-registration.md)
+   >若要瞭解如何將管道指派給顯示區，請參閱 [建立和管理顯示區](/help/user-guide/managing-displays.md).
 
-1. 出于演示目的，此示例将Chrome设备和Windows播放器作为两个单独的设备显示。 两个设备指向同一显示屏。
-   ![图像1](assets/command-sync6.png)
+1. 導覽至 **裝置** 資料夾並按一下 **裝置管理員** 以註冊裝置。
 
-### 更新渠道设置
+   ![image1](assets/command-sync5.png)
 
-1. 导航到 **ChannelLobby** 单击 **编辑** 来更新渠道设置。
+   >[!NOTE]
+   >
+   >若要瞭解如何註冊裝置，請參閱 [裝置註冊](/help/user-guide/device-registration.md)
 
-1. 选择整个渠道，如下图所示。
-   ![图像1](assets/command-sync/command-sync7-1.png)
+1. 為了示範之用，此範例將Chrome裝置和Windows Player顯示為兩個不同的裝置。 兩個裝置都指向相同的顯示器。
+   ![image1](assets/command-sync6.png)
 
-1. 单击扳手图标以打开 **页面** 对话框。
-   ![图像1](assets/command-sync/command-sync8-1.png)
+### 更新頻道設定
 
-1. 输入 *同步* 关键词 **策略** 字段。
+1. 導覽至 **頻道大廳** 並按一下 **編輯** 以更新頻道設定。
 
-   ![图像1](assets/command-sync/command-sync9-1.png)
+1. 選取整個通道，如下圖所示。
+   ![image1](assets/command-sync/command-sync7-1.png)
+
+1. 按一下扳手圖示以開啟 **頁面** 對話方塊。
+   ![image1](assets/command-sync/command-sync8-1.png)
+
+1. 輸入 *已同步* 中的關鍵字 **策略** 欄位。
+
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### 设置主 {#setting-up-primary}
+### 設定主要 {#setting-up-primary}
 
-1. 从导航到显示功能板 **CommandSyncDemo** —> **位置**  —> **大堂** —> **LobbyDisplay** 单击 **功能板** 中。
-您将在 **设备** 面板，如下图所示。
-   ![图像1](assets/command-sync/command-sync10-1.png)
+1. 瀏覽至顯示控制面板，從 **CommandSyncDemo** —> **位置**  —> **大廳** —> **LobbyDisplay** 並按一下 **儀表板** 動作列中的。
+您會在中看到兩個裝置（chrome和windows player） **裝置** 面板，如下圖所示。
+   ![image1](assets/command-sync/command-sync10-1.png)
 
-1. 从 **设备** 面板中，选择要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击 **设置为主设备**.
+1. 從 **裝置** 面板中，選取要設定為主要裝置的裝置。 下列範例示範如何將Chrome裝置設定為主要裝置。 按一下 **設定為主要裝置**.
 
-   ![图像1](assets/command-sync/command-sync11-1.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
-1. 在 **设置为主设备** 单击 **保存**.
+1. 輸入IP位址 **設定為主要裝置** 並按一下 **儲存**.
 
-   ![图像1](assets/command-sync/command-sync12-1.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
->您可以将多个设备设置为主设备。
+>您可以將多個裝置設定為主要裝置。
 
-### 与主同步 {#sync-up-primary}
+### 正在與主要播放器同步 {#sync-up-primary}
 
-1. 将Chrome设备设置为主设备后，可以同步其他设备（在本例中为Windows播放器）以与主设备同步。
-从 **设备** 面板，单击 **同步到主设备**，如下图所示。
+1. 將Chrome裝置設定為主要裝置後，您就可以同步處理其他裝置（在此例中為Windows Player），以便與主要裝置同步。
+從中選擇其他裝置（在此例中為windows player） **裝置** 面板，然後按一下 **同步處理至主要裝置**，如下圖所示。
 
-   ![图像1](assets/command-sync/command-sync13-1.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
-1. 从列表中选择设备，然后单击 **保存**.
+1. 從清單中選取裝置，然後按一下 **儲存**.
 
    >[注意:]
-   > 的 **同步到主设备** 对话框将显示主设备列表。 您可以选择所需的首选项之一。
+   > 此 **同步處理至主要裝置** 對話方塊將顯示主要裝置清單。 您可以選取想要的偏好設定之一。
 
-1. 将设备（Windows播放器）同步到主设备（Chrome播放器）后，您将在 **设备** 的上界。
+1. 將裝置（Windows播放器）同步至主要播放器（Chrome播放器）後，您會看到該裝置已同步至 **裝置** 面板。
 
-   ![图像1](assets/command-sync/command-sync14-1.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
-### 取消与主同步 {#desync-up-primary}
+### 正在與主要播放器取消同步 {#desync-up-primary}
 
-将设备或设备同步到主设备后，即可从该设备中取消同步分配。
+將一或多個裝置同步至主要裝置後，即可從該裝置解除同步指派。
 
 >[!NOTE]
 >
->如果取消主设备同步，则它还会取消与该主设备关联的所有客户端设备的链接。
+>如果您取消同步處理主要裝置，它也會取消連結與該主要裝置相關聯的所有使用者端裝置。
 
-要从主设备删除同步，请执行以下步骤：
+若要從主要裝置移除同步處理，請遵循下列步驟：
 
-1. 导航到 **设备** 面板，然后选择设备。
+1. 導覽至 **裝置** 面板並選取裝置。
 
-1. 单击 **取消同步设备** 从主设备中取消同步客户端。
+1. 按一下 **取消同步處理裝置** 將使用者端與主要裝置解除同步。
 
-   ![图像1](assets/command-sync/command-sync15-1.png)
+   ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 单击 **确认** 从主设备中取消同步选定设备。
+1. 按一下 **確認** 將選取的裝置從主要裝置解除同步。
 
    >[注意:]
-   > 如果选择主设备并使用取消同步选项，则所有连接到主设备的设备都将在一个步骤中取消同步。
+   > 如果您選取主要裝置並使用de-sync選項，則所有連線至主要裝置的裝置都會在單一步驟中解除同步。

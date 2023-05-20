@@ -1,8 +1,8 @@
 ---
-title: 在AEM Screens中配置ContextHub
-seo-title: 在AEM Screens中配置ContextHub
-description: 可阅读本页以了解定位引擎中的ContextHub，以定义用于数据触发内容更改的数据存储。
-seo-description: 可阅读本页以了解定位引擎中的ContextHub，以定义用于数据触发内容更改的数据存储。
+title: 在AEM Screens中設定ContextHub
+seo-title: Configuring ContextHub in AEM Screens
+description: 請詳閱本頁，瞭解鎖定目標引擎中的ContextHub，以定義資料存放區，方便資料觸發內容變更。
+seo-description: Follow this page to learn about ContextHub in the targeting engine to define data store for the purpose of data trigger content change.
 uuid: be06bda8-7de9-40d6-a84b-5ed8d8b3d180
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,60 +10,60 @@ topic-tags: developing
 content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
-feature: 开发屏幕
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 1%
+source-wordcount: '1503'
+ht-degree: 2%
 
 ---
 
+# 在AEM Screens中設定ContextHub {#configuring-contexthub-in-aem-screens}
 
-# 在AEM Screens中配置ContextHub {#configuring-contexthub-in-aem-screens}
+本節著重於使用資料存放區建立和管理資料導向資產變更。
 
-本节重点介绍如何使用数据存储来创建和管理数据驱动的资产更改。
+## 重要條款 {#key-terms}
 
-## 关键术语{#key-terms}
+在我們開始瞭解在您的AEM Screens專案中建立和管理庫存導向管道的詳細資訊之前，您必須瞭解幾個重要的關鍵術語，這些術語與不同的情境相關。
 
-在我们详细介绍如何在您的AEM Screens项目中创建和管理库存驱动型渠道之前，您必须了解一些与不同方案相关的重要术语。
+**品牌** 請參閱您的高階專案說明。
 
-**** 品牌是指您对项目的高级描述。
+**區域** 是指您的AEM Screens專案名稱，例如數位廣告招牌
 
-**** 区域是指您的AEM Screens项目名称，如数字广告标牌
+**活動** 定義規則類別，例如庫存導向、天氣導向、部門可用性導向等。
 
-**** 活动定义规则类别，如库存驱动、天气驱动、部门可用性驱动等。
+**對象** 定義規則。
 
-**** AudienceDefined the rule。
+**區段** 參照要依指定規則播放的資產版本，例如如果溫度低於華氏50度，則畫面會顯示熱咖啡的影像，否則會顯示冷飲。
 
-**** 区段是指针对给定规则播放的资产版本，例如，如果温度低于50华氏度，则屏幕会显示热咖啡的图像，否则会显示冷饮。
-
-下图直观地显示了ContextHub配置如何与“活动”、“受众”和“渠道”保持一致。
+下圖以視覺化方式呈現ContextHub設定與活動、受眾和管道的一致性。
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
-## 先决条件 {#preconditions}
+## 先決條件 {#preconditions}
 
-在开始为AEM Screens项目配置ContextHub配置之前，必须设置Google工作表（用于演示目的）。
+開始為AEM Screens專案設定Context Hub設定之前，您必須設定Google工作表（用於示範用途）。
 
 >[!IMPORTANT]
 >
->在以下示例中，Google Sheets用作获取值的示例数据库系统，仅用于教育目的。 Adobe不支持将Google工作表用于生产环境。
+>在下列範例中，Google Sheets會作為範例資料庫系統使用，其值會從中擷取，且僅供教育用途。 Adobe不認可將Google Sheets用於生產環境。
 >
->有关更多信息，请参阅Google文档中的[获取API密钥](https://developers.google.com/maps/documentation/javascript/get-api-key) 。
+>如需詳細資訊，請參閱 [取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key) 在Google檔案中。
 
-## 步骤1:设置数据存储{#step-setting-up-a-data-store}
+## 步驟1：設定資料存放區 {#step-setting-up-a-data-store}
 
-您可以将数据存储设置为本地I/O事件或本地数据库事件。
+您可以將資料存放區設定為本機I/O事件或本機資料庫事件。
 
-以下资产级别数据触发器示例展示了本地数据库事件，该事件设置了数据存储（如excel表），以便您使用ContextHub配置和区段到AEM Screens渠道的路径。
+下列資產層級資料觸發器範例會示範本機資料庫事件，此事件會設定資料存放區（例如Excel工作表），讓您使用ContextHub設定和AEM Screens通道的區段路徑。
 
-正确设置Google工作表后，例如，如下所示：
+正確設定Google工作表後（例如），如下所示：
 
 ![图像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-在检查连接时，您将通过以下格式输入两个值（*google工作表ID*&#x200B;和&#x200B;*API密钥*）来查看以下验证内容：
+當您輸入兩個值來檢查連線時，將會檢視以下驗證。 *google工作表ID* 和 *API金鑰* 格式如下：
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
@@ -71,61 +71,61 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->以下特定示例将google工作表显示为数据存储，如果值大于100或小于50，则会触发资产更改。
+>以下特定範例會展示Google工作表作為資料存放區，如果值高於100或小於50，則會觸發資產變更。
 
-## 步骤2:设置存储配置{#step-setting-store-configurations}
+## 步驟2：設定存放區設定 {#step-setting-store-configurations}
 
-1. **导航到ContextHub**
+1. **瀏覽至ContextHub**
 
-   导航到您的AEM实例，然后单击左侧栏中的工具图标。 单击&#x200B;**Sites** —> **ContextHub**，如下图所示。
+   導覽至您的AEM執行個體，然後按一下左側邊欄中的工具圖示。 按一下 **網站** —> **ContextHub**，如下圖所示。
 
    ![图像](/help/user-guide/assets/context-hub/context-hub3.png)
 
-1. **创建新的ContextHub存储配置**
+1. **建立新的ContextHub存放區設定**
 
-   1. 导航到标题为&#x200B;**screens**&#x200B;的配置容器。
+   1. 導覽至標題為的設定容器 **畫面**.
 
-   1. 单击&#x200B;**创建** > **创建配置容器**&#x200B;并输入&#x200B;**ContextHubDemo**&#x200B;的标题。
+   1. 按一下 **建立** > **建立設定容器** 並輸入標題為 **ContextHubDemo**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **** 导航到 **ContextHubDemo**  >  **** **CreateContentHub配置，然** 后单击 **保存**。
+   1. **導覽** 至 **ContextHubDemo** > **建立** **ContentHub設定** 並按一下 **儲存**.
 
       >[!NOTE]
-      > 单击&#x200B;**Save**&#x200B;后，将显示在&#x200B;**ContextHub Configuration**&#x200B;屏幕中。
+      > 在您按一下 **儲存** 您將位於 **ContextHub設定** 畫面。
 
-   1. 在&#x200B;**ContextHub Configuration**&#x200B;屏幕中，单击&#x200B;**Create** > **ContentHub Store Configuration..**
+   1. 從 **ContextHub設定** 熒幕，按一下 **建立** > **ContentHub存放區設定……**
 
       ![图像](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
       >
-      >作为AEM 6.5功能包4或AEM 6.4功能包8的一部分，客户应将`/conf/screens/settings/cloudsettings`更新为`sling:Folder`。
+      >在AEM 6.5 Feature Pack 4或AEM 6.4 Feature Pack 8中，客戶應更新 `/conf/screens/settings/cloudsettings` 至 `sling:Folder`.
       >
       >应遵循以下步骤：
       >
-      >1. 导航到CRXDE Lite，然后导航到`/conf/screens/settings/cloudsettings`。
-      >1. 检查`cloudsettings jcr:primaryType`是否位于`sling:Folder`中。 如果`jcr:primaryType`不在`sling:folder`中，请继续执行后续步骤。
-      >1. 右键单击`/conf/screens/settings`并创建一个新节点，其名称&#x200B;*名称*&#x200B;为&#x200B;**cloudsettings1**&#x200B;和&#x200B;*键入*&#x200B;作为&#x200B;**sling:Folder**&#x200B;并保存更改。
-      >1. 将`/conf/screens/settings/cloudsettings`下的所有节点移动到`cloudsettings1`。
-      >1. 删除`cloudsettings`并保存。
-      >1. 将`cloudsettings1`重命名为`cloudsettings`并保存。
-      >1. 现在，您应该看到/conf/screens/settings/cloudsettings将`jcr:primaryType`作为`sling:Folder`。
+      >1. 導覽至「CRXDE Lite」，然後導覽至 `/conf/screens/settings/cloudsettings`.
+      >1. 檢查 `cloudsettings jcr:primaryType` 位於 `sling:Folder`. 如果 `jcr:primaryType` 不在 `sling:folder`，請繼續進行後續步驟。
+      >1. 按一下右鍵 `/conf/screens/settings` 和建立新節點，使用 *名稱*  作為 **cloudsettings1** 和 *型別* 作為 **sling：Folder** 並儲存變更。
+      >1. 將所有的節點移到 `/conf/screens/settings/cloudsettings` 至 `cloudsettings1`.
+      >1. 刪除 `cloudsettings` 並儲存。
+      >1. 重新命名 `cloudsettings1` 至 `cloudsettings` 並儲存。
+      >1. 您現在應該注意到/conf/screens/settings/cloudsettings具有 `jcr:primaryType` 作為 `sling:Folder`.
 
       >
-      >您应在创作中按照这些步骤操作，并在升级之前或之后发布。
+      >升級之前或之後，您應該依照這些步驟在author和publish中進行。
 
-   1. 将&#x200B;**标题**&#x200B;输入为&#x200B;**Google工作表**，将&#x200B;**存储名称**&#x200B;输入为&#x200B;**google工作表**，将&#x200B;**存储类型**&#x200B;输入为&#x200B;**contexthub.generic-jsonp**，然后单击&#x200B;**Next**。
+   1. 輸入 **標題** 作為 **Google工作表**， **存放區名稱** 作為 **Google工作表**、和 **存放區型別** 作為 **contexthub.generic-jsonp** 並按一下 **下一個**.
 
       >[!CAUTION]
-      >如果您使用的是Adobe Experience Manager(AEM)6.4，请输入&#x200B;**配置标题**&#x200B;作为&#x200B;**googlesheets**，以及&#x200B;**存储类型**&#x200B;作为&#x200B;**contexthub.generic-jsonp**。
+      >如果您使用Adobe Experience Manager (AEM) 6.4，請輸入 **設定標題** 作為 **Google工作表** 和 **存放區型別** 作為 **contexthub.generic-jsonp**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 输入您的特定json配置。 例如，您可以将以下json用于演示目的，然后单击&#x200B;**Save**，此时您将在ContextHub配置中看到标题为&#x200B;**Google Sheets**&#x200B;的存储配置。
+   1. 輸入您特定的json設定。 例如，您可以將以下json用於示範目的，然後按一下 **儲存** 而且您會看到商店設定的標題為 **Google工作表** 在ContextHub設定中。
 
       >[!IMPORTANT]
-      >确保将代码替换为您在设置Google工作表时获取的&#x200B;*&lt;工作表ID>*&#x200B;和&#x200B;*&lt;API密钥>*&#x200B;代码。
+      >請務必將程式碼取代為 *&lt;sheet id=&quot;&quot;>* 和 *&lt;api key=&quot;&quot;>*，即您在設定Google工作表時擷取的內容。
 
       ```
        {
@@ -144,180 +144,178 @@ ht-degree: 1%
       ```
 
       >[!NOTE]
-      在上述示例代码中， **pollInterval**&#x200B;定义刷新值的频率（以毫秒为单位）。
-      将代码替换为您在设置Google工作表时获取的&#x200B;*&lt;工作表ID>*&#x200B;和&#x200B;*&lt;API密钥>*&#x200B;代码。
+      在上述範常式式碼中， **pollInterval** 會定義重新整理值的頻率（以毫秒為單位）。
+      將程式碼取代為 *&lt;sheet id=&quot;&quot;>* 和 *&lt;api key=&quot;&quot;>*，即您在設定Google工作表時擷取的內容。
 
       >[!CAUTION]
-      如果您在全局文件夹之外创建Google工作表存储配置（例如在您自己的项目文件夹中），则无法开箱即用地进行定位。
+      如果您在全域資料夾之外（例如，在您自己的專案資料夾中）建立Google Sheets存放區設定，則無法立即使用目標定位。
 
+1. **設定商店分段**
 
-1. **设置存储区段**
-
-   1. 导航到&#x200B;**ContentHub存储配置……** 然后，在screens配置容器中创建另一个存储配置，并设置 **** 标题 **segmentation-contexthub**、 **存储** 名称 **** 区段 **和存储** 类型 **aem.segmentation**。
+   1. 導覽至 **ContentHub存放區設定……** 並在screens設定容器中建立另一個商店設定，並將 **標題** 作為 **segmentation-contexthub**， **存放區名稱** 作為 **細分** 和 **存放區型別** 作為 **aem.segmentation**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. 单击&#x200B;**Next**，然后单击&#x200B;**Save**。
+   1. 按一下 **下一個** 然後 **儲存**.
 
       >[!NOTE]
-您必须跳过定义json的过程，并将其留空。
+您必須跳過定義JSON的程式，並保留空白。
 
 
-## 步骤3:在受众中设置区段{#setting-up-audience}
+## 步驟3：在對象中設定區段 {#setting-up-audience}
 
-1. **在受众中创建区段**
+1. **在受眾中建立區段**
 
-   1. 从AEM实例导航到&#x200B;**Personalization** > **受众** > **屏幕**。
+   1. 從您的AEM執行個體瀏覽至 **個人化** > **受眾** > **畫面**.
 
-   1. 单击&#x200B;**创建** > **创建ContextHub区段。** 将打 **开“新建** ContextHub区段”对话框。
+   1. 按一下 **建立** > **建立內容中心區段。** 此 **新增ContextHub區段** 對話方塊開啟。
 
-   1. 在&#x200B;**标题**&#x200B;中输入&#x200B;**高于50**，然后单击&#x200B;**创建**。 同样，创建另一个名为&#x200B;**Lowerthan50**&#x200B;的区段。
+   1. 輸入 **標題** 作為 **Higherthan50** 並按一下 **建立**. 同樣地，建立另一個區段，標題為 **Lowerthan50**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. 选择区段&#x200B;**高于50**，然后单击操作栏中的&#x200B;**属性**。
+   1. 選取區段 **Higherthan50** 並按一下 **屬性** 動作列中的。
       ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 从&#x200B;**区段属性**&#x200B;中选择&#x200B;**个性化**&#x200B;选项卡。 将&#x200B;**ContextHub Path**&#x200B;设置为`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`，将&#x200B;**区段路径**&#x200B;设置为`/conf/screens/settings/wcm/segments`，然后单击&#x200B;**保存**，如下图所示。
+   1. 選取 **個人化** 標籤從 **區段屬性**. 設定 **ContextHub路徑** 至 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **區段路徑** 至 `/conf/screens/settings/wcm/segments` 並按一下 **儲存**，如下圖所示。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. 同样，为&#x200B;**Lowerthan50**&#x200B;区段设置&#x200B;**ContextHub路径**&#x200B;和&#x200B;**区段路径**。
+   1. 同樣地，設定 **ContextHub路徑** 和 **區段路徑** 的 **Lowerthan50** 區段也是。
 
-## 步骤4:设置品牌和区域{#setting-brand-area}
+## 步驟4：設定品牌和區域 {#setting-brand-area}
 
-请按照以下步骤在您的活动和品牌下的区域中创建品牌：
+請依照下列步驟，在您的活動與品牌下的區域建立品牌：
 
-1. **在活动中创建品牌**
+1. **在活動中建立品牌**
 
-   1. 从AEM实例导航到&#x200B;**Personalization** > **Activities**。
+   1. 從您的AEM執行個體瀏覽至 **個人化** > **活動**.
 
-   1. 单击&#x200B;**创建** > **创建品牌**。
+   1. 按一下 **建立** > **建立品牌**.
 
-   1. 从&#x200B;**创建页面**&#x200B;向导中选择&#x200B;**Brand**，然后单击&#x200B;**Next**。
+   1. 選取 **品牌** 從 **建立頁面** 精靈並按一下 **下一個**.
 
-   1. 将&#x200B;**标题**&#x200B;输入为&#x200B;**ScreensBrand**，然后单击&#x200B;**创建**。 现在，您的品牌即已创建，如下所示。
+   1. 輸入 **標題** 作為 **ScreensBrand** 並按一下 **建立**. 您的品牌現已建立，如下所示。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
       >[!CAUTION]
-      已知问题：
-要添加区域，请从URL中删除主控，例如
+      已知問題：若要新增區域，請從URL移除主版，例如
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
-1. **在品牌中创建区域**
+1. **在您的品牌中建立區域**
 
-   按照以下步骤在品牌中创建区域：
+   請依照下列步驟，在品牌中建立區域：
 
-   1. 单击&#x200B;**创建**，然后单击&#x200B;**创建区域**。
+   1. 按一下 **建立** 然後 **建立區域**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. 从&#x200B;**创建页面**&#x200B;向导中选择&#x200B;**区域**，然后单击&#x200B;**下一步**。
+   1. 選取 **區域** 從 **建立頁面** 精靈並按一下 **下一個**.
 
-   1. 将&#x200B;**标题**&#x200B;输入为&#x200B;**ScreensValue**，然后单击&#x200B;**创建**。
-将在您的品牌中创建一个区域。
+   1. 輸入 **標題** 作為 **ScreensValue** 並按一下 **建立**.
+將會在您的品牌中建立一個區域。
 
-## 步骤5:在活动中创建区段{#step-setting-up-audience-segmentation}
+## 步驟5：在活動中建立區段 {#step-setting-up-audience-segmentation}
 
-设置数据存储并定义活动（品牌和区域）后，请按照以下步骤在活动中创建区段。
+設定資料存放區並定義活動（品牌和區域）後，請依照下列步驟在活動中建立區段。
 
-1. **在活动中创建区段**
+1. **在活動中建立區段**
 
-   1. 从您的AEM实例导航到&#x200B;**Personalization** > **活动** > **ScreensBrand** >**ScreensValue**。
+   1. 從您的AEM執行個體瀏覽至 **個人化** > **活動** > **ScreensBrand** >**ScreensValue**.
 
-   1. 单击&#x200B;**创建** > **创建活动。** 配置 **活动向** 导。
+   1. 按一下 **建立** > **建立活動。** 此 **設定活動精靈** 隨即開啟。
 
-   1. 将&#x200B;**标题**&#x200B;输入为&#x200B;**ValueCheck50**，将&#x200B;**名称**&#x200B;输入为&#x200B;**valuecheck50**。 从下拉列表中选择&#x200B;**定位引擎**&#x200B;作为&#x200B;**ContextHub(AEM)**，然后单击&#x200B;**Next**。
+   1. 輸入 **標題** 作為 **ValueCheck50** 和 **名稱** 作為 **valuecheck50**. 選取 **目標定位引擎** 作為 **ContextHub (AEM)** 從下拉式清單，然後按一下 **下一個**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. 单击&#x200B;**配置活动向导**&#x200B;中的&#x200B;**添加体验** 。
+   1. 按一下 **新增體驗** 從 **設定活動精靈**.
 
-   1. 从&#x200B;**受众**&#x200B;中，选择&#x200B;**高于50**，然后单击&#x200B;**添加体验**，并输入&#x200B;**高于50** **的标题**&#x200B;作为&#x200B;**高于50**&#x200B;的名称&#x200B;**。**&#x200B;单击&#x200B;**确定**。
+   1. 從 **受眾**，選取 **Higherthan50** 並按一下 **新增體驗** 並輸入 **標題** 作為 **higherthan50** **名稱** 作為 **higherthan50**. 按一下 **確定**.
 
-   1. 从&#x200B;**Audiences**&#x200B;中，选择&#x200B;**低于50**&#x200B;并单击&#x200B;**添加体验**，然后输入&#x200B;**标题**&#x200B;作为低于50 ****&#x200B;名称&#x200B;**作为**&#x200B;低于50 **的**。 单击&#x200B;**确定**。
+   1. 從 **受眾**，選取 **Lowerthan50** 並按一下 **新增體驗** 並輸入 **標題** 作為 **lowerthan50** **名稱** 作為 **lowerthan50**. 按一下 **確定**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 单击&#x200B;**Next**，然后单击&#x200B;**Save**。 **ValueCheck50** 活动现已创建并配置。
+   1. 按一下 **下一個** 然後 **儲存**. **ValueCheck50** 活動現在已建立並設定。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## 步骤5:编辑受众中的区段{#editing-audience-segmentation}
+## 步驟5：編輯受眾中的區段{#editing-audience-segmentation}
 
-1. **编辑区段**
+1. **編輯區段**
 
-   1. 从AEM实例导航到&#x200B;**Personalization** > **受众** > **屏幕**。
+   1. 從您的AEM執行個體瀏覽至 **個人化** > **受眾** > **畫面**.
 
-   1. 选择区段&#x200B;**高于50**，然后单击操作栏中的&#x200B;**编辑**。
+   1. 選取區段 **Higherthan50**，然後按一下 **編輯** 動作列中的。
 
-   1. 拖放&#x200B;**比较：属性 — 将值**&#x200B;组件添加到编辑器。
+   1. 拖放 **比較：屬性 — 值** 元件至編輯器。
 
-   1. 单击扳手图标以打开&#x200B;**Comparing a property with value**&#x200B;对话框。
+   1. 按一下扳手圖示以開啟 **比較屬性與值** 對話方塊。
 
-   1. 从&#x200B;**属性名称**&#x200B;的下拉菜单中选择&#x200B;**googlesheets/value/1/0**。
+   1. 選取 **Googlesheets/value/1/0** 從的下拉式清單 **屬性名稱**.
 
       >[!NOTE]
-googlesheets/value/1/ **0** 是指在下图的google工作表中填充的行2和列：
+此 **Googlesheets/value/1/0** 參考下圖中填入google工作表中的第2列和欄：
 
       ![图像](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. 从下拉菜单中选择&#x200B;**运算符**&#x200B;作为&#x200B;**greater-than**。
+   1. 選取 **運運算元** 作為 **大於** 從下拉式功能表。
 
-   1. 输入&#x200B;**值**&#x200B;作为&#x200B;**70**。
+   1. 輸入 **值** 作為 **70**.
 
       >[!NOTE]
-      AEM将区段显示为绿色，以验证来自Google工作表的数据。
+      AEM會將您的區段顯示為綠色，以驗證Google工作表中的資料。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub18.png)
-   同样，将属性值编辑为&#x200B;**Lowerthan50**。
+   同樣地，將屬性值編輯為 **Lowerthan50**.
 
-   1. 拖放&#x200B;**比较：属性 — 将值**&#x200B;组件添加到编辑器。
+   1. 拖放 **比較：屬性 — 值** 元件至編輯器。
 
-   1. 单击扳手图标以打开&#x200B;**Comparing a property with value**&#x200B;对话框。
+   1. 按一下扳手圖示以開啟 **比較屬性與值** 對話方塊。
 
-   1. 从&#x200B;**属性名称**&#x200B;的下拉菜单中选择&#x200B;**googlesheets/value/1/0**。
+   1. 選取 **Googlesheets/value/1/0** 從的下拉式清單 **屬性名稱**.
 
-   1. 从下拉菜单中选择&#x200B;**运算符**&#x200B;作为&#x200B;**less-than**。
+   1. 選取 **運運算元** 作為 **小於** 從下拉式功能表。
 
-   1. 输入&#x200B;**值**&#x200B;作为&#x200B;**50**。
+   1. 輸入 **值** 作為 **50**.
 
 
 
-## 在渠道中启用定位{#step-enabling-targeting-in-channels}
+## 在管道中啟用鎖定目標 {#step-enabling-targeting-in-channels}
 
-按照以下步骤在渠道中启用定位。
+請依照下列步驟，在您的管道中啟用目標定位。
 
-1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创建的&#x200B;**DataDrivenChannel**&#x200B;来启用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用啟用鎖定目標 **DataDrivenChannel** 在AEM Screens頻道中建立。
 
-1. 选择渠道&#x200B;**TargetChannel**，然后单击操作栏中的&#x200B;**属性**。
+1. 選取頻道 **TargetChannel** 並按一下 **屬性** 動作列中的。
 
    ![图像](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. 选择&#x200B;**Personalization**&#x200B;选项卡以设置ContextHub配置。
+1. 選取 **個人化** 索引標籤以設定ContextHub設定。
 
-   1. 将&#x200B;**ContextHub Path**&#x200B;设置为`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`，将&#x200B;**区段路径**&#x200B;设置为`/conf/screens/settings/wcm/segments`，然后单击&#x200B;**Save**。
+   1. 設定 **ContextHub路徑** 至 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **區段路徑** 至 `/conf/screens/settings/wcm/segments` 並按一下 **儲存**.
 
-   1. 单击&#x200B;**保存并关闭**。
+   1. 单击“**保存并关闭**”。
 
       >[!NOTE]
-      使用ContextHub和区段路径，您最初在其中保存了ContextHub配置和区段。
+      使用ContextHub和區段路徑，您最初儲存您的Context Hub設定和區段。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   1. 导航并选择&#x200B;**TargetChannel**&#x200B;渠道，然后单击操作栏中的&#x200B;**编辑**。
+   1. 瀏覽並選取 **TargetChannel** 頻道與點按 **編輯** 動作列中的。
 
       >[!NOTE]
-      如果已正确设置所有内容，您将在编辑器的下拉菜单中看到&#x200B;**定位**&#x200B;选项，如下图所示。
+      如果您已正確設定所有內容，您將會看到 **目標定位** 選項下拉式清單中的下拉式清單，如下圖所示。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub21.png)
 
-## 了解更多：{#learn-more-example-use-cases}用例示例
+## 深入瞭解：範例使用案例 {#learn-more-example-use-cases}
 
-为AEM Screens项目配置ContextHub后，您可以按照不同的用例了解数据触发资产如何在不同行业中发挥关键作用：
+為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發的資產如何在不同的產業中扮演重要角色：
 
-1. **[零售库存目标激活](retail-inventory-activation.md)**
-1. **[旅行中心温度激活](local-temperature-activation.md)**
-1. **[酒店预订激活](hospitality-reservation-activation.md)**
+1. **[零售詳細目錄目標啟動](retail-inventory-activation.md)**
+1. **[旅行中心溫度啟用](local-temperature-activation.md)**
+1. **[Hospality Reservation Activation](hospitality-reservation-activation.md)**

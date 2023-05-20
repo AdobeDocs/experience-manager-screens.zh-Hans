@@ -1,144 +1,144 @@
 ---
-title: 设置ACL
-seo-title: 设置ACL
-description: 请阅读本页，了解如何使用ACL分隔项目，以便每个人或团队都能够处理自己的项目。
-seo-description: 请阅读本页，了解如何使用ACL分隔项目，以便每个人或团队都能够处理自己的项目。
+title: 設定ACL
+seo-title: Setting up ACLs
+description: 請依照本頁面的說明操作，瞭解如何使用ACL區隔專案，讓每個個人或團隊自行處理專案。
+seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
 uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-feature: 管理屏幕
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 2%
 
 ---
 
-# 设置ACL {#setting-up-acls}
+# 設定ACL {#setting-up-acls}
 
-以下部分介绍如何使用ACL分隔项目，以便每个人或团队都能够处理自己的项目。
+下節將說明如何使用ACL分隔專案，以便每個個人或團隊處理自己的專案。
 
-作为AEM管理员，您需要确保项目的团队成员不会妨碍其他项目，并且每个用户都会根据项目要求分配特定角色。
+作為AEM管理員，您想要確保專案的團隊成員不會干預其他專案，並且每個使用者都會根據專案需求被指派特定角色。
 
-## 设置权限 {#setting-up-permissions}
+## 設定許可權 {#setting-up-permissions}
 
-以下步骤概述了为项目设置ACL的过程：
+下列步驟摘要說明為專案設定ACL的程式：
 
-1. 登录AEM并导航到&#x200B;**工具** > **安全**。
+1. 登入AEM並導覽至 **工具** > **安全性**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 单击&#x200B;**Groups**&#x200B;并输入ID（例如Acme）。
+1. 按一下 **群組** 並輸入ID （例如Acme）。
 
-   或者，使用此链接`http://localhost:4502/libs/granite/security/content/groupadmin.html`。
+   或者，使用此連結， `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   随后，单击&#x200B;**Save**。
+   接著，按一下 **儲存**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 从列表中选择&#x200B;**参与者** ，然后双击该列表。
+1. 選取 **貢獻者** ，然後按兩下。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 将&#x200B;**Acme**（您创建的项目）添加到&#x200B;**将成员添加到组**。 单击&#x200B;**保存**。
+1. 新增 **Acme** （您建立的專案）至 **新增成員至群組**. 单击“**保存**”。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
-   >如果希望项目团队成员注册播放器（包括为每个播放器创建用户），请找到群组用户管理员，并将ACME群组添加到用户管理员
+   >如果您希望專案團隊成員註冊播放器（包括為每個播放器建立使用者），請找到群組使用者管理員並將ACME群組新增到使用者管理員
 
-1. 将要在&#x200B;**Acme**&#x200B;项目中工作的所有用户添加到&#x200B;**Acme**&#x200B;组。
+1. 新增所有將處理「 」的使用者 **Acme** 專案至 **Acme** 群組。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 使用此`(http://localhost:4502/useradmin)`设置组&#x200B;**Acme**&#x200B;的权限。
+1. 設定群組的許可權 **Acme** 使用此 `(http://localhost:4502/useradmin)`.
 
-   选择组&#x200B;**Acme**&#x200B;并单击&#x200B;**permissions**。
+   選取群組 **Acme** 並按一下 **許可權**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
 ### 权限 {#permissions}
 
-下表汇总了项目级别具有权限的路径：
+下表總結了具有專案層級許可權的路徑：
 
 | **路径** | **权限** | **描述** |
 |---|---|---|
-| `/apps/<project>` | 读取 | 提供对项目文件的访问（如果适用） |
-| `/content/dam/<project>` | 全部 | 提供在DAM中存储图像或视频等项目资产的访问权限 |
-| `/content/screens/<project>` | 全部 | 删除对/content/screens下所有其他项目的访问权限 |
-| `/content/screens/svc` | 读取 | 提供对注册服务的访问 |
-| `/libs/screens` | 读取 | 提供对DCC的访问 |
-| `/var/contentsync/content/screens/` | 全部 | 用于更新项目的离线内容 |
+| `/apps/<project>` | 讀取 | 提供專案檔案的存取權（如果適用） |
+| `/content/dam/<project>` | 全部 | 提供在DAM中儲存影像或影片等專案資產的存取權 |
+| `/content/screens/<project>` | 全部 | 移除/content/screens底下所有其他專案的存取權 |
+| `/content/screens/svc` | 讀取 | 提供註冊服務的存取權 |
+| `/libs/screens` | 讀取 | 提供DCC的存取權 |
+| `/var/contentsync/content/screens/` | 全部 | 允許更新專案的離線內容 |
 
 >[!NOTE]
 >
->在某些情况下，您可以将创作功能（例如管理资产和创建渠道）与管理功能（例如注册播放器）分开。 在这种情况下，请创建两个组，并将作者组添加到参与者，将管理员组添加到参与者和用户管理员。
+>在某些情況下，您可以將作者功能（例如管理資產和建立管道）與管理功能（例如註冊播放器）分開。 在這種情況下，請建立兩個群組，並將作者群組新增至貢獻者，並將管理員群組新增至貢獻者和使用者管理員。
 
-### 创建群组 {#creating-groups}
+### 建立群組 {#creating-groups}
 
-创建新项目时，还应创建默认用户组，并分配一组基本权限。 您应该将权限扩展到我们拥有的典型AEM Screens角色。
+建立新專案時，也應建立具有指派基本許可權集的預設使用者群組。 您應該將許可權擴充至我們對AEM Screens所擁有的典型角色。
 
-例如，您可以创建以下特定于项目的组：
+例如，您可以建立下列專案特定群組：
 
-* Screens项目管理员
-* Screens项目运营商（注册播放器，并管理位置和设备）
-* 屏幕项目用户（处理渠道、计划和渠道分配）
+* 畫面專案管理員
+* Screens專案操作員（註冊播放器，以及管理位置和裝置）
+* 畫面專案使用者（使用頻道、時程表和頻道指派）
 
-下表汇总了具有AEM Screens项目说明和权限的组：
+下表概述具有AEM Screens專案說明和許可權的群組：
 
 <table>
  <tbody>
   <tr>
-   <td><strong>群组名称</strong></td>
+   <td><strong>群組名稱</strong></td>
    <td><strong>描述</strong></td>
    <td><strong>权限</strong></td>
   </tr>
   <tr>
-   <td>Screens管理员<br /> <em>screens-admins</em></td>
-   <td>对AEM Screens功能的管理员级别访问权限</td>
+   <td>Screens管理員<br /> <em>screens-admins</em></td>
+   <td>管理員層級存取AEM Screens功能</td>
    <td>
     <ul>
-     <li>派遣国成员</li>
-     <li>用户管理员成员</li>
+     <li>貢獻者成員</li>
+     <li>使用者管理員成員</li>
      <li>所有/content/screens</li>
-     <li>所有/content/dam</li>
+     <li>ALL /content/dam</li>
      <li>所有/content/experience-fragments</li>
      <li>所有/etc/design/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens用户<br /> <em>screens-users</em></td>
-   <td>创建和更新渠道和计划，并将其分配给AEM Screens中的位置</td>
+   <td>Screens使用者<br /> <em>screens-users</em></td>
+   <td>建立和更新管道和排程，並指派至AEM Screens中的位置</td>
    <td>
     <ul>
-     <li>派遣国成员</li>
+     <li>貢獻者成員</li>
      <li>&lt;project&gt; /content/screens</li>
      <li>&lt;project&gt; /content/dam</li>
      <li>&lt;project&gt; /content/experience-fragments</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens运算符<br /> <em>screens-operators</em></td>
-   <td>在AEM Screens中创建和更新位置结构并注册播放器</td>
+   <td>Screens運運算元<br /> <em>screens-operators</em></td>
+   <td>在AEM Screens中建立和更新位置結構並註冊播放器</td>
    <td>
     <ul>
-     <li>派遣国成员</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
+     <li>貢獻者成員</li>
+     <li>jcr：all /home/users/screens</li>
+     <li>jcr：all /home/groups/screens</li>
      <li>&lt;project&gt; /content/screens</li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens播放器<br /> <em>screens-&lt;项目&gt; — 设备</em></td>
-   <td>自动将所有播放器和所有播放器/设备分组为参与者的成员。</td>
-   <td><p> 撰稿人</p> </td>
+   <td>Screens播放器<br /> <em>畫面 — &lt;project&gt; — 裝置</em></td>
+   <td>所有播放器及所有播放器/裝置皆為貢獻者自動群組。</td>
+   <td><p> 貢獻者成員</p> </td>
   </tr>
  </tbody>
 </table>

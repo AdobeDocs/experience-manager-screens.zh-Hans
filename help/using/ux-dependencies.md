@@ -1,44 +1,42 @@
 ---
-title: '[!UICONTROL AEM Screens]的UX依赖项'
-seo-title: '[!UICONTROL AEM Screens]的UX依赖项'
-description: 本指南介绍[!UICONTROL AEM Screens]的UX依赖项
-seo-description: 本指南介绍[!UICONTROL AEM Screens]的UX依赖项
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+title: UX相依性 [!UICONTROL AEM Screens]
+seo-title: UX Dependencies for [!UICONTROL AEM Screens]
+description: 本指南說明的UX相依性 [!UICONTROL AEM Screens]
+seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
-
 
 # UX 依赖关系 {#ux-dependencies}
 
 >[!NOTE]
 >
->此活动的典型利益相关方是营销/业务策略师。
+>此活動的一般利害關係人是行銷/業務策略專家。
 
-UX依赖关系定义了内容的策略位置和方式，以使其发挥最大影响力。
+UX相依性會定義內容的策略化位置及方式，使其最具影響力。
 
-定义硬件内容策略时应考虑以下问题：
+定義硬體內容策略時，應考量下列問題：
 
-1. 如何将零售布局与内容策略保持一致？
+1. 零售版面配置應該如何與內容策略一致？
 
-1. 是否需要交互（即触摸屏、运动检测）？
+1. 是否需要互動（即觸控熒幕、動作偵測）？
 
-1. 数字标牌的用途是什么？
+1. 數位招牌的用途為何？
 
-   * 它是否用于产品配置？
-   * 是找路吗？
-   * 它是否显示广告？
+   * 是否用於產品設定？
+   * 是否正在尋找？
+   * 它是否顯示廣告？
 
-1. 如何设置连接和网络布线？
+1. 如何設定連線和網路佈線？
 
-1. 计算机和连接的打开和关闭频率是多少？
+1. 電腦和連線開機與關機的頻率為何？
 
-1. 夹具设计是否支持无障碍功能？
+1. 夾具設計是否支援協助工具？
 
-1. 一个显示屏是否需要多个设备（例如，多区域、超大的主板）？
+1. 單一顯示器是否需要多部裝置（例如，多區域、超大型主機板）？
 
-1. 亮度、温度和季节等环境因素有哪些？
-
-
+1. 環境考量因素有哪些，例如亮度、溫度和季節？

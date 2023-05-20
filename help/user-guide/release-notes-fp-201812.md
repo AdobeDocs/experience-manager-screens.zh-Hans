@@ -1,8 +1,8 @@
 ---
-title: 功能包201812的发行说明
-seo-title: 功能包201812的发行说明
-description: 请阅读本页以了解2019年1月16日发布的AEM Screens功能包201812的信息。
-seo-description: 请阅读本页以了解2019年1月16日发布的AEM Screens功能包201812的信息。
+title: Feature Pack 201812發行說明
+seo-title: Release Notes for Feature Pack 201812
+description: 請詳閱本頁，瞭解2019年1月16日發行的AEM Screens Feature Pack 201812的相關資訊。
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019.
 uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,55 +10,55 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 08ace4d8-bccf-4783-a664-a28bbae7ecc3
 noindex: true
-feature: 功能包
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
 
-
-# 功能包201812{#release-notes-for-feature-pack}的发行说明
+# Feature Pack 201812發行說明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建议您升级到最新版本的Adobe Experience Manager(AEM)。 Screens为AEM 6.3 Screens平台提供维护支持。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
-AEM Screens发布了AEM 6.3功能包5和AEM 6.4功能包3，其中包含以下详细信息。
+AEM Screens已發行AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，並提供下列詳細資料。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包201812的发行日期是2019年1月16日。
+AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
 
 ### 新增功能 {#what-s-new}
 
-* **渠道中资产上的文本叠加**:
+* **在管道中的資產上覆蓋文字**：
 
-   文本叠加是AEM Screens中提供的一项功能，通过提供覆盖在图像顶部的标题或描述，该功能允许您在序列渠道中创建引人入胜的体验。 请参阅&#x200B;[**文本叠加**](text-overlay.md)&#x200B;以了解更多信息。
+   文字覆蓋是AEM Screens中提供的功能，可讓您透過在影像上方提供標題或說明，在序列頻道中建立引人入勝的體驗。 請參閱 [**文字覆蓋**](text-overlay.md) 以深入瞭解。
 
-* **多资产计划**:
+* **多資產排程**：
 
-   多资产计划允许用户选择多个资产，并将播放计划应用于所有选定的资产。 请参阅&#x200B;**[资产计划](asset-level-scheduling.md)**&#x200B;中的&#x200B;**多资产计划**&#x200B;部分，以了解更多信息。
+   多資產排程可讓使用者選取多個資產，並將播放排程套用至所有選取的資產。 請參閱 **多資產排程**&#x200B;中的區段&#x200B;**[資產排程](asset-level-scheduling.md)** 以深入瞭解。
 
-* **多区域布局**:
+* **多區域配置**：
 
-   多区域布局允许您创建多个区域内容，并使用可在单个屏幕中组合的各种资产，如视频、图像和文本。 请参阅&#x200B;**[多区域布局](multi-zone-layout-aem-screens.md)**&#x200B;以了解更多信息。
+   多區域版面配置可讓您建立多個區域內容，並使用可在單一畫面中結合的各種資產，例如影片、影像和文字。 請參閱 **[多區域配置](multi-zone-layout-aem-screens.md)** 以深入瞭解。
 
-* **将资产智能同步到播放器**
-* **创作/发布部署（强化）**
+* **將資產智慧型同步至播放器**
+* **作者/發佈部署（強化）**
 
-### 已发布的AEM Screens播放器{#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-以下AEM Screens播放器已发布适用于AEM 6.3功能包5和AEM 6.4功能包3:
+下列AEM Screens Player已針對AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3發行：
 
 * ChromeOS
 * Windows
 * Android
 * iOS
 
-#### AEM Screens播放器下载{#aem-screens-player-downloads}
+#### AEM Screens播放器下載 {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;[**AEM Screens播放器下载**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).

@@ -1,8 +1,8 @@
 ---
-title: “第4部分：项目管理和部署”
-seo-title: “第4部分：项目管理和部署”
-description: 请阅读本教程，了解有关项目管理和部署准备（项目预生产、项目启动、项目进度）的信息。 此外，了解如何定义项目范围和计划，并收集有关供应商、内部人工和剪切表的信息。
-seo-description: 请阅读本教程，了解有关项目管理和部署准备（项目预生产、项目启动、项目进度）的信息。 此外，了解如何定义项目范围和计划，并收集有关供应商、内部人工和剪切表的信息。
+title: 「第4部分：專案管理與部署」
+seo-title: "Part 4: Project Management and Deployment"
+description: 按照本教學課程瞭解專案管理和部署準備（專案預生產、專案啟動、專案進度）。 此外，瞭解專案範圍和時程表的定義方式，以及收集廠商、內部人力和裁切表的資訊。
+seo-description: Follow this tutorial to learn about project management and deployment preparation (project pre-production, project initiation, project progression). Additionally, get to know how the project scope and schedule is defined along with gathering information on vendor, internal labor, and cut-sheets.
 uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
 contentOwner: jsyal
 content-type: reference
@@ -10,86 +10,86 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-feature: 概述
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
-# 第4部分：项目管理和部署 {#part-project-management-and-deployment}
+# 第4部分：專案管理與部署 {#part-project-management-and-deployment}
 
-本页重点介绍5个部分系列的第4部分，该系列旨在涵盖项目管理和部署准备，并定义AV Integrator负责与项目管理和部署准备相关的关键因素。
+本頁著重說明第4部分，此系列包含5個部分，旨在涵蓋專案管理和部署準備，並定義AV Integrator負責專案管理和部署準備的關鍵因素。
 
 ## 概述 {#overview}
 
-本页介绍项目预生产、项目启动和项目进度。
+本頁涵蓋專案前期製作、專案啟動和專案進度。
 
-所有利益相关方都必须了解AV集成商的责任，确保根据本集中讨论的要点制定有文档记录的计划
+所有利害關係人都必須瞭解AV整合商的職責，確保根據本集所討論的要點來開發有案可稽的計畫
 
 >[!NOTE]
 >
->识别具有大规模数字标牌部署项目管理专业知识的AV集成商对于长期成功至关重要，强烈建议在制定和完成计划时对AV集成商和AEM实施商之间的项目计划进行比较，以确保实现一致。
+>在大規模的數位看板部署專案管理方面物色具備專業知識的AV整合商對長期成功極為重要，強烈建議比較AV整合商與AEM實作人員之間的專案計畫，以確保在制定與完成計畫時保持一致。
 >
->在管理项目“预生产”、启动和推进阶段方面采取整体方法的合作伙伴将有助于确保您的最终客户能够从其投资中实现最大价值
+>合作夥伴若能以全方位的方式，管理專案「預生產」、啟動和進度階段，將有助於確保您的最終客戶能夠從其投資中獲得最大價值
 
-## 项目管理的所有三个阶段的总结 {#summary-of-all-three-phases-in-project-management}
+## 專案管理所有三個階段的摘要 {#summary-of-all-three-phases-in-project-management}
 
-为了支持成功部署数字标牌，通常将项目分为3个阶段。 这些阶段通常称为&#x200B;***days***。
+為了支援成功的數位看板部署，通常會將專案分成3個階段。 這些階段通常稱為 ***天***.
 
-### 零日活动 {#day-zero-activities}
+### 第0天活動 {#day-zero-activities}
 
-第一个阶段称为&#x200B;***天零***。 此阶段包括完全定义项目范围所需的所有售前和发现工作。 第二个阶段（第一天）是指部署工作中包含的所有活动。 最后，第二天将所有持续的操作和支持元素作为整体解决方案的一部分。
+第一個階段稱為 ***第0天***. 此階段包含完整定義專案範圍所需的所有售前和探索工作。 第二個階段（第一天）是指部署工作中包含的所有活動。 最後，第二天是指作為整體解決方案一部分的所有持續運作和支援元素。
 
-零日活动包括售前、客户发现、应用程序需求分析和项目范围定义。 此阶段还可以包括为部署做准备，为项目管理提供初始参与和定义项目要求。
+Day Zero活動包括售前、客戶探索、應用程式需求分析和專案範圍定義。 此階段也可以包括專案管理的初始參與和專案需求定義，為部署做準備。
 
-“零日”包含八个关键步骤，涵盖项目管理升级的所有方面：
+Day Zero包含八個主要步驟，涵蓋專案管理提升的各個層面：
 
-* 界定工作范围
-* 定义项目计划
-* 定义供应商和内部人工
-* 获取设备切片
-* 规划和获取地点许可证
-* 规划站点访问
-* 考虑电源和连接
-* 审查技术计划或绘图
+* 定義工作範圍
+* 定義專案排程
+* 定義供應商與內部人工
+* 取得裝置剪下表
+* 規劃及取得場地許可
+* 網站存取規劃
+* 考慮電源與連線能力
+* 檢閱技術計畫或圖面
 
-### 第一天活动 {#day-one-activities}
+### 第一天活動 {#day-one-activities}
 
-第二个阶段（***第一天***）是指部署工作中包含的所有活动。 成功项目的另一个重要技术文档是部署甘特图。
+第二個階段， ***第一天***，是指部署作業中包含的所有活動。 成功專案的另一個重要技術檔案是部署甘特圖。
 
-当销售机会转移到项目时，将安排一次启动会议以确认：
+當銷售機會轉移至專案時，會排程啟動會議以確認：
 
-* 初步预算
-* 项目里程碑和相互关系
-* 设备列表
-* 帐户设置，包括帐单条款的确认
-* 关键联系人列表
-* 工作范围
-* 劳动要求。
+* 初步預算
+* 專案里程碑和相依性
+* 裝置清單
+* 包括帳單條件確認的帳戶設定
+* 主要連絡人清單
+* 工作範圍
+* 人力需求。
 
-### 第二天活动 {#day-two-activities}
+### 第二天活動 {#day-two-activities}
 
-第一天计划的最后一部分是完成NOC切换。 如果已完成的项目将包括任何第2天服务和支持，项目经理将安排与这些团队的主管举行NOC切换会议。
+第一天計畫的最後一部分是完成NOC移交。 如果完成的專案將包括任何第2天的服務和支援，專案經理將安排與這些團隊主管的NOC移交會議。
 
-此会议主要由客户管理、网络运营、现场后勤、内容服务和会计部门的AV Integrator代表组成。 来自Adobe、AEM实施者和最终客户的项目管理代表通常与AV Integrator一起定义计划、终止时间和权限。 项目经理通常最好协调讨论以确保适当各方的一致性，并为NOC切换会议编写所需的文档。 除了涉及所有各方的销售和客户管理资源之外，关键支持文档可能还来自IT和/或AV工程部门。 对于任何需要NOC支持的客户，需要向NOC主管提供文档以上传到知识库平台。
+本次會議主要由客戶管理、網路營運、現場後勤、內容服務及會計的AV整合商代表組成。 來自Adobe、AEM實作人員和最終客戶的專案管理代表通常會同時參與，與AV整合商一起定義排程、步調和收費。 專案經理通常最善於協調討論，以確保適當的各方協調一致，並為NOC移交會議開發必要的檔案。 除了所有相關各方的銷售和帳戶管理資源外，重要支援檔案可能還會來自IT和/或AV工程。 任何需要NOC服務檯支援的客戶都必須向NOC主管提供檔案，以便上傳至知識庫平台。
 
-## 第4部分：有关项目管理和部署的视频教程 {#part-video-tutorial-on-project-management-and-deployment}
+## 第4部分：專案管理和部署的影片教學課程 {#part-video-tutorial-on-project-management-and-deployment}
 
-请阅读本教程，了解项目管理和部署准备，并定义AV Integrator负责与项目管理和部署准备相关的关键因素。
+按照本教學課程瞭解專案管理和部署準備，並定義AV Integrator負責專案管理和部署準備的關鍵因素。
 
-### 项目管理和部署
+### 專案管理與部署
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
-*了解项目管理和部署准备（项目预生产、项目启动、项目进度）。*
+*瞭解專案管理和部署準備（專案前期製作、專案啟動、專案進度）。*
 
 ## 下一步 {#the-next-step}
 
-在您对与AEM Screens部署的项目管理相关的重要注意事项进行全面了解之后；
+在針對AEM Screens部署的專案管理進行周密考量後；
 
-导航到&#x200B;**[第5部分：支持注意事项](support-considerations.md)**&#x200B;以了解第2天支持和涉及的流程。
+導覽至 **[第5部分：支援考量事項](support-considerations.md)** 瞭解第2天支援和相關流程。

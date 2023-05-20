@@ -1,188 +1,188 @@
 ---
-title: 紧急渠道
-seo-title: 紧急渠道
-description: 请遵循此用例示例，了解如何创建和管理紧急渠道，内容作者可在存在先决条件的情况下从序列渠道切换该渠道。
-seo-description: 请遵循此用例示例，了解如何创建和管理紧急渠道，内容作者可在存在先决条件的情况下从序列渠道切换该渠道。
+title: 緊急通道
+seo-title: Emergency Channel
+description: 依照此使用案例範例瞭解如何建立和管理緊急頻道，內容作者可在有先決條件的情況下從序列頻道切換。
+seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
 uuid: 612917c9-a832-453b-970c-f4365f7b105d
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 8%
+source-wordcount: '781'
+ht-degree: 1%
 
 ---
 
-# 紧急渠道 {#emergency-channel}
+# 緊急通道 {#emergency-channel}
 
-## 用例描述 {#use-case-description}
+## 使用案例說明 {#use-case-description}
 
-本节介绍一个用例示例，该示例着重介绍如何创建和管理紧急渠道，内容作者可在存在先决条件的情况下从序列渠道进行切换。
+本節說明一個使用案例範例，著重於建立和管理緊急通道，內容作者可以在有先決條件的情況下從順序通道切換。
 
-### 先决条件 {#preconditions}
+### 先決條件 {#preconditions}
 
-在开始使用此用例之前，请确保您了解如何：
+在開始此使用案例之前，請確定您瞭解如何：
 
-* **[创建和管理渠道](managing-channels.md)**
-* **[创建和管理位置](managing-locations.md)**
-* **[创建和管理计划](managing-schedules.md)**
+* **[建立和管理頻道](managing-channels.md)**
+* **[建立和管理位置](managing-locations.md)**
+* **[建立和管理時程表](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要行为者 {#primary-actors}
+### 主要執行者 {#primary-actors}
 
 内容作者
 
-## 基本流程：设置项目 {#basic-flow-setting-up-the-project}
+## 基本流程：設定專案 {#basic-flow-setting-up-the-project}
 
-请按照以下步骤设置紧急渠道：
+請依照下列步驟設定緊急通道：
 
-1. 创建名为&#x200B;**EmergentChannel**&#x200B;的AEM Screens项目，如下所示。
+1. 建立名為的AEM Screens專案 **緊急通道**，如下所示。
 
    >[!NOTE]
-   >要了解有关在AEM Screens中创建和管理项目的更多信息，请参阅创建项目。
+   >若要進一步瞭解如何在AEM Screens中建立和管理專案，請參閱建立專案。
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
-1. **创建序列渠道**
+1. **建立順序頻道**
 
-   1. 选择&#x200B;**渠道**&#x200B;文件夹，然后单击&#x200B;**创建**&#x200B;以打开向导以创建渠道。
+   1. 選取 **頻道** 資料夾並按一下 **建立** 以開啟精靈來建立頻道。
 
-   1. 从向导中选择&#x200B;**序列渠道**&#x200B;并创建标题为&#x200B;**MainAdChannel**&#x200B;的渠道。
+   1. 選取 **序列頻道** 並從精靈建立標題為 **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
-1. **向序列渠道添加内容**
+1. **新增內容至序列頻道**
 
-   1. 选择渠道(**MainAdChannel**)。
-   1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。将几个资产拖放到您的渠道中。
+   1. 選取頻道(**MainAdChannel**)。
+   1. 按一下 **編輯** 以開啟編輯器。 將幾個資產拖放至您的頻道。
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
-1. **创建紧急渠道**
+1. **建立緊急通道**
 
-   1. 选择&#x200B;**Channels**&#x200B;文件夹。
-   1. 单击&#x200B;**创建**&#x200B;以打开创建渠道的向导。
-   1. 从向导中选择&#x200B;**序列渠道**&#x200B;并创建标题为&#x200B;**EmercyChannel**&#x200B;的渠道。
+   1. 選取 **頻道** 資料夾。
+   1. 按一下 **建立** 以開啟精靈來建立頻道。
+   1. 選取 **序列頻道** 並從精靈建立標題為 **緊急通道**.
 
    >[!NOTE]
    >
-   >通常情况下，紧急渠道会添加到预先存在的生产项目中。
+   >一般而言，您的緊急通道會新增至您既有的生產專案。
 
    ![screen_shot_2019-02-21at40151pm](assets/screen_shot_2019-02-21at40151pm.png)
 
-1. **将内容添加到紧急渠道**
+1. **新增內容至緊急頻道**
 
-   1. 选择渠道（**紧急渠道）**。
-   1. 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器。将您要在紧急情况下运行的资产拖放到渠道中。
+   1. 選取頻道(**緊急通道)**.
+   1. 按一下 **編輯** 以開啟編輯器。 將您要在緊急情況下執行的資產拖放到您的頻道。
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
-1. **创建位置**
+1. **建立位置**
 
-   1. 导航到&#x200B;**Locations**&#x200B;文件夹。
-   1. 单击操作栏中的&#x200B;**创建** ，然后从向导中创建标题为&#x200B;**Store**&#x200B;的位置。
+   1. 導覽至 **位置** 資料夾。
+   1. 按一下 **建立** 並從動作列建立標題為 **儲存** 從精靈中。
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
-1. **在您的位置中创建显示屏**
+1. **在您的位置中建立顯示區**
 
-   导航到您的位置(**Store**)，然后单击操作栏中的&#x200B;**创建**。 按照向导创建两个标题为&#x200B;**StoreFront**&#x200B;和&#x200B;**StoreRear**&#x200B;的&#x200B;**显示。**
+   導覽至您的位置(**儲存**)並按一下 **建立** 動作列中的。 按照精靈建立兩個 **顯示區** 標題為 **StoreFront** 和 **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
-1. **创建计划**
+1. **建立排程**
 
-   1. 导航到您的&#x200B;**Schedules**&#x200B;文件夹。
-   1. 单击操作栏中的&#x200B;**创建**。按照向导创建标题为&#x200B;**StoreSchedule**&#x200B;的计划。
+   1. 導覽至 **時程表** 資料夾。
+   1. 按一下 **建立** 動作列中的。 依照精靈建立標題為的排程 **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
-1. 将显示内容分配给计划并设置优先级
+1. 將兩個顯示指定給排程並設定優先順序
 
-   1. 选择计划&#x200B;**(StoreSchedule)**，然后单击操作栏中的&#x200B;**功能板**。
+   1. 選取排程 **(StoreSchedule)** 並按一下 **儀表板** 動作列中的。
 
-   1. 单击&#x200B;**已分配通道**&#x200B;面板中的&#x200B;**+分配通道**。
+   1. 按一下 **+指派管道** 從 **已指派的頻道** 面板。
 
-   1. 在&#x200B;**渠道分配**&#x200B;对话框中：
+   1. 從 **頻道指定任務** 對話方塊：
 
-      1. 选择&#x200B;**MainAdChannel**&#x200B;的路径
-      1. 将&#x200B;**优先级**&#x200B;设置为2
-      1. 将支持的事件设置为&#x200B;**初始加载**&#x200B;和&#x200B;**空闲屏幕**。
-      1. 单击&#x200B;**Save**
+      1. 選取的路徑 **MainAdChannel**
+      1. 設定 **優先順序** as 2
+      1. 將支援的事件設為 **初始載入** 和 **閒置畫面**.
+      1. 按一下 **儲存**
 
-      同样，您也必须再次执行相同的步骤来分配&#x200B;**EmergencyChannel**&#x200B;并设置其&#x200B;**Priority**。
+      同樣地，您必須再次執行相同的步驟才能指派 **緊急通道** 並設定其 **優先順序**.
    >[!NOTE]
    >
-   >优先级用于在多个分配匹配播放条件时对分配进行排序。具有最高值的分配将始终优先于具有较低值的分配。
+   >「優先順序」可用來對指派進行排序，以防多個指派符合播放條件。 值最高的總是優先於較低的值。
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. 单击&#x200B;**已分配通道**&#x200B;面板中的&#x200B;**+分配通道**。
+1. 按一下 **+指派管道** 從 **已指派的頻道** 面板。
 
-1. 在&#x200B;**渠道分配**&#x200B;对话框中：
+1. 從 **頻道指定任務** 對話方塊：
 
-   1. 选择&#x200B;**EmergentChannel**&#x200B;的路径
-   1. 将&#x200B;**优先级**&#x200B;设置为1
+   1. 選取的路徑 **緊急通道**
+   1. 設定 **優先順序** as 1
 
-   1. 将支持的事件设置为&#x200B;**初始负载**、**空闲屏幕**&#x200B;和&#x200B;**用户交互**
+   1. 將支援的事件設為 **初始載入**， **閒置畫面**、和 **使用者互動**
 
-   1. 单击&#x200B;**Save**
+   1. 按一下 **儲存**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
-   您可以从&#x200B;**StoreSchedule**&#x200B;功能板查看分配的渠道。
+   您可以從以下位置檢視指派的頻道： **StoreSchedule** 儀表板。
 
    ![screen_shot_2019-02-25at93658pm](assets/screen_shot_2019-02-25at93658pm.png)
 
-1. **将计划分配给每个显示**
+1. **指派排程給每個顯示器**
 
-   1. 导航到每个显示屏，如&#x200B;**EmercyChannel** —> **位置** —> **存储** —>**StoreFront**。
+   1. 導覽至每個顯示區，例如 **緊急通道** —> **位置** —> **儲存** —>**StoreFront**.
 
-   1. 单击操作中的&#x200B;**功能板**&#x200B;以打开显示功能板。
-   1. 单击&#x200B;**...**&#x200B;从&#x200B;**已分配的渠道和计划**&#x200B;面板中，进一步单击&#x200B;**+分配计划**。
+   1. 按一下 **儀表板** 以開啟顯示控制面板。
+   1. 按一下 **...** 從 **已指派的管道和排程** 面板，然後按一下 **+指派排程**.
 
-   1. 选择计划的路径（例如，此处&#x200B;**EmercyChannel** —> **计划** —>**StoreSchedule**）。
+   1. 選取排程的路徑(例如，此處， **緊急通道** —> **時程表** —>**StoreSchedule**)。
 
-   1. 单击&#x200B;**保存**。
+   1. 单击“**保存**”。
 
-   您可以从&#x200B;**StoreSchedule**功能板中查看分配给显示的计划。
+   您可以從以下位置檢視指派給顯示的排程： **StoreSchedule** 儀表板。
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **设备注册**
 
-   完成设备注册过程，注册后，您将在AEM Screens播放器中查看以下输出。
+   完成裝置註冊程式，註冊後即可在您的AEM Screens播放器上檢視下列輸出。
 
    ![new30](assets/new30.gif)
 
-## 切换到紧急渠道 {#switching-to-emergency-channel}
+## 切換到緊急頻道 {#switching-to-emergency-channel}
 
-在发生紧急情况时，请执行以下步骤：
+發生緊急狀況時，請執行以下步驟：
 
-1. 导航至&#x200B;**EmergencyChannel** —> **Schedules** —> **StoreSchedule**，然后从操作栏中选择&#x200B;**Dashboard**。
+1. 導覽至 **緊急通道** —> **時程表** —> **StoreSchedule** 並選取 **儀表板** 動作列中的。
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. 从&#x200B;**StoreSchedule**&#x200B;功能板中选择&#x200B;**EmergencyChannel** ，然后单击&#x200B;**编辑分配**。
+1. 選取 **緊急通道** 從 **StoreSchedule** 儀表板並按一下 **編輯指派**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. 从&#x200B;**渠道分配**&#x200B;对话框中将&#x200B;**EmergencyChannel**&#x200B;的&#x200B;**优先级**&#x200B;更新为&#x200B;**3**，然后单击&#x200B;**Save**。
+1. 更新 **優先順序** 的 **緊急通道** 至 **3** 從 **頻道指定任務** 對話方塊並按一下 **儲存**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 一旦渠道的优先级更新，所有AEM Screens播放器都将显示&#x200B;**EmercyChannel**&#x200B;内容，如下所示。
+1. 管道的優先順序一更新，所有AEM Screens播放器就會顯示 **緊急通道** 內容，如下所示。
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
-### 结论 {#conclusion}
+### 結論 {#conclusion}
 
-**EmercyChannel**&#x200B;将继续显示其内容，直到内容作者将优先级值重置为1为止。
+此 **緊急通道** 將繼續顯示其內容，直到內容作者將優先順序值重設為1。
 
-内容作者收到紧急情况清除指令后，应更新&#x200B;**MainAdChannel**&#x200B;的优先级，该优先级将导致正常播放恢复。
+一旦內容作者收到緊急狀態已清除的指示，他/她應更新以下專案的優先順序： **MainAdChannel** 將會導致正常播放繼續。

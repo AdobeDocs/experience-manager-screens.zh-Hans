@@ -1,149 +1,149 @@
 ---
-title: 创建和管理显示屏
-seo-title: 管理显示屏
-description: 可查看本页以了解有关创建新显示屏和设备配置的信息。此外，还可了解显示功能板。
-seo-description: 可查看本页以了解有关创建新显示屏和设备配置的信息。此外，还可了解显示功能板。
+title: 建立和管理顯示區
+seo-title: Managing Displays
+description: 請依照本頁所述操作，瞭解如何建立新的顯示器和裝置設定。 此外，瞭解顯示控制面板。
+seo-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
 uuid: dfde0740-5c8b-4e6c-bc83-bf8fbb31a16a
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 59%
+source-wordcount: '752'
+ht-degree: 1%
 
 ---
 
-# 创建和管理显示屏 {#creating-and-managing-displays}
+# 建立和管理顯示區 {#creating-and-managing-displays}
 
-显示屏是通常彼此相邻放置的屏幕的虚拟分组。显示屏对于某个安装通常是永久性的。这将是作者要处理的对象内容，并且始终引用为逻辑显示而不是其实际计数部分。
+顯示區是虛擬的熒幕群組，通常位於彼此旁邊。 顯示通常是永久性的安裝。 這將是內容作者將搭配使用的物件，並一律參照為邏輯顯示，而不是其實體計數器部分。
 
-创建位置后，您必须为该位置创建一个新显示屏。
+建立位置後，您必須為位置建立新的顯示。
 
-本页显示了如何为 Screens 创建和管理显示屏。
+此頁面顯示建立及管理Screens的畫面。
 
-**先决条件**：
+**先決條件**：
 
-* [配置和部署 Screens](configuring-screens-introduction.md)
-* [创建和管理Screens项目](creating-a-screens-project.md)
-* [创建和管理渠道](managing-channels.md)
-* [创建和管理位置](managing-locations.md)
+* [設定和部署畫面](configuring-screens-introduction.md)
+* [建立和管理畫面專案](creating-a-screens-project.md)
+* [建立和管理頻道](managing-channels.md)
+* [建立和管理位置](managing-locations.md)
 
-## 创建新显示屏 {#creating-a-new-display}
+## 建立新顯示區 {#creating-a-new-display}
 
 >[!NOTE]
 >
->在创建显示屏之前，您需要先创建位置。要了解如何创建位置，请参阅[创建和管理位置](managing-locations.md)以获取更多信息。
+>您需要先建立位置，才能建立顯示。 若要瞭解如何建立位置，請參閱 [建立和管理位置](managing-locations.md) 以取得詳細資訊。
 
-要在您的位置中创建新显示屏，请按照以下步骤操作：
+若要在您的位置中建立新的顯示區，請遵循下列步驟：
 
-1. 导航到相应的位置，例如`http://localhost:4502/screens.html/content/screens/TestProject`。
-1. 选择您的位置文件夹，然后点按/单击操作栏中加号图标旁边的&#x200B;**创建**。 此时将打开一个向导。
-1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**显示**，然后单击&#x200B;**下一步**。
+1. 導覽至適當位置，例如 `http://localhost:4502/screens.html/content/screens/TestProject`.
+1. 選取您的位置資料夾，然後點選/按一下 **建立** 加號圖示旁邊。 將會開啟精靈。
+1. 選取 **顯示** 從 **建立** 精靈並按一下 **下一個**.
 
-1. 输入显示位置的&#x200B;**名称**&#x200B;和&#x200B;**标题**。
+1. 輸入 **名稱** 和 **標題** 顯示位置。
 
-1. 在&#x200B;**Display**&#x200B;选项卡下，选择布局的详细信息。 选择所需的&#x200B;**Resolution**（例如&#x200B;**全高清**）。 此外，您还可以选择水平和垂直设备的数量。
+1. 在 **顯示** 索引標籤中，選擇配置圖的詳細資訊。 選擇所需的 **解析度** (例如， **Full HD**)。 此外，您也可以選擇水平與垂直裝置數量。
 
 1. 单击&#x200B;**创建**。
 
-将创建显示屏(*StoreDisplay*)并将其添加到位置(*SanJose*)。
+顯示區(*StoreDisplay*)建立並新增至位置(*聖荷西*)。
 
-![显示](assets/display.gif)
+![顯示](assets/display.gif)
 
-创建显示屏后，下一步是为该特定显示屏创建设备配置。请按照以下部分创建新设备配置。
+顯示就位後，下一步就是為該特定顯示建立裝置設定。 請依照以下章節建立新的裝置設定。
 
 >[!NOTE]
 >
 >**下一步**：
 >
->为您的位置创建显示屏后，您需要为显示屏分配渠道以利用内容。
+>為您的位置建立顯示區後，您需要指派頻道給顯示區，以運用內容。
 >
->请参阅[分配渠道](channel-assignment.md)部分，了解如何将渠道分配给显示屏。
+>另請參閱 [指派管道](channel-assignment.md) 區段，以瞭解如何指派頻道給顯示區。
 
-## 创建新设备配置 {#creating-a-new-device-config}
+## 建立新的裝置設定 {#creating-a-new-device-config}
 
-设备配置充当尚未安装的实际数字标牌设备的占位符。
+裝置設定可作為尚未安裝之實際數位看板裝置的預留位置。
 
-请按照以下步骤创建新设备配置：
+請依照下列步驟建立新的裝置設定：
 
-1. 导航到相应的显示屏，例如`http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`。
-1. 选择您的显示文件夹，然后点按/单击操作栏中的&#x200B;**查看功能板**。
-1. 点按/单击&#x200B;**设备**&#x200B;面板右上角的&#x200B;**+添加设备配置**。
+1. 導覽至適當的顯示區，例如， `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
+1. 選取您的顯示資料夾，然後點選/按一下 **檢視控制面板** 在動作列中。
+1. 點選/按一下 **+新增裝置設定** 右上角 **裝置** 面板。
 
-1. 选择&#x200B;**设备配置**&#x200B;作为所需的模板，然后点按/单击&#x200B;**下一步**。
+1. 選取 **裝置設定** 作為所需的範本，然後點選/按一下 **下一個**.
 
-1. 根据需要输入属性，然后点按/单击&#x200B;**创建**。
+1. 視需要輸入屬性，然後點選/按一下 **建立**.
 
-将创建设备配置并将其添加到当前显示屏（在以下演示中，新设备配置为&#x200B;*DeviceConfig*）。
+裝置設定已建立並新增至目前的顯示(在下列示範中，新的裝置設定為 *裝置設定*)。
 
-![设备配置](assets/deviceconfig.gif)
+![deviceconfig](assets/deviceconfig.gif)
 
-为位置中的显示屏设置设备配置后，下一步是将渠道分配到显示屏。
+一旦將裝置設定設定為位置中的顯示器，下一步就是將頻道指派給顯示器。
 
 >[!NOTE]
 >
->为位置中的显示屏设置设备配置后，下一步是将渠道分配到显示屏。
+>一旦將裝置設定設定為位置中的顯示器，下一步就是將頻道指派給顯示器。
 >
->如下图所示，如果设备配置在&#x200B;**DEVICES**&#x200B;面板中显示为未分配，则没有为该特定设备配置分配任何渠道。
+>如果裝置設定在「 」中顯示為「未指派」，如下圖所示 **裝置** 面板（如果未將任何頻道指派給該特定裝置設定）。
 >
->您应当已事先了解如何创建和管理渠道。有关更多详细信息，请参阅[创建和管理渠道](managing-channels.md)。
+>您應事先瞭解如何建立和管理管道。 另請參閱 [建立和管理頻道](managing-channels.md) 以取得更多詳細資料。
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## 显示功能板 {#display-dashboard}
 
-显示功能板为您提供了不同的面板，用于为您的设备管理显示设备和设备配置。
+顯示儀表板提供您不同的面板，用於管理裝置的顯示裝置和裝置配置。
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
 >[!NOTE]
 >
->您可以选择功能板列表并对多个项目触发批量操作，而不是对每个项目单独执行操作。
+>您可以選取儀表板清單並觸發對專案的批次動作，而不是分別瀏覽每個專案。
 >
->例如，下图显示了如何从显示功能板中选择多个渠道。
+>例如，下圖顯示如何從顯示圖示板中選取多個色版。
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
-### “显示信息”面板 {#display-information-panel}
+### 顯示資訊面板 {#display-information-panel}
 
-**显示信息**&#x200B;面板提供了显示属性。
+此 **顯示資訊** 面板提供顯示屬性。
 
-单击&#x200B;**显示信息**&#x200B;面板右上角的 (**...**) 可查看属性并预览显示。
-
-
-#### 查看属性 {#viewing-properties}
-
-单击&#x200B;**属性**&#x200B;可查看或更改显示屏的属性。
-
-此外，您还可以在&#x200B;**Display**&#x200B;选项卡下的&#x200B;**Idle timeout**&#x200B;属性中调整交互式渠道的事件计时器值。 默认值设为 *300 秒*。
-
-使用&#x200B;**CRXDE Lite**&#x200B;访问&#x200B;**idleTimeout**&#x200B;属性，即`http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` 。
+按一下(**...**)的右上角 **顯示資訊** 面板以檢視屬性並預覽顯示。
 
 
-### “已指定渠道”面板 {#assigned-channels-panel}
+#### 檢視屬性 {#viewing-properties}
 
-**已指定渠道**&#x200B;面板显示了已分配到此设备的渠道。
+按一下 **屬性** 以檢視或變更顯示的屬性。
+
+此外，您也可以調整互動式頻道的事件計時器值，位置如下： **閒置逾時** 下的屬性 **顯示** 標籤。 預設值設為 *300秒*.
+
+使用 **CRXDE Lite**，以存取 **idleTimeout** 屬性，也就是說， `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
 
-### “设备”面板 {#devices-panel}
+### 已指派的色版面板 {#assigned-channels-panel}
 
-**设备**&#x200B;面板提供了有关设备配置的信息。
+此 **已指派的頻道** 面板會顯示指派給此裝置的頻道。
 
-单击(**...**)以添加设备配置和更新设备。****
 
-此外，单击设备配置可查看属性、分配设备或将其完全删除。
+### 裝置面板 {#devices-panel}
+
+此 **裝置** 面板提供裝置設定的相關資訊。
+
+按一下(**...**)的右上角 **裝置** 面板以新增裝置設定和更新裝置。
+
+此外，按一下裝置設定即可檢視屬性、指派裝置，或將其完全刪除。
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
 #### 后续步骤 {#the-next-steps}
 
-为您的位置创建完显示屏后，您需要为显示屏分配渠道。
+完成建立位置的顯示後，您需要為顯示指派頻道。
 
-有关更多详细信息，请参阅[分配渠道](channel-assignment.md) 。
+另請參閱 [指派管道](channel-assignment.md) 以取得更多詳細資料。

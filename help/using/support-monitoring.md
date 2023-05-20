@@ -1,49 +1,48 @@
 ---
-title: 支持监控
-seo-title: 支持监控AEM Screens
-description: 本页介绍《AEM Screens最佳实践支持监控指南》
-seo-description: 本页介绍《AEM Screens最佳实践支持监控指南》
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+title: 支援監控
+seo-title: Support Monitoring for AEM Screens
+description: 頁面說明「AEM Screens支援監控最佳實務指南」
+seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
+# 支援監控 {#support-monitoring}
 
-# 支持监视{#support-monitoring}
+本節提供與管理數位看板專案中裝置和內容異常相關的最佳實務。
 
-本节提供了与管理数字标牌项目中的设备和内容异常相关的最佳实践。
+支援監控包括：
 
-支持监控包括：
+* **裝置監視**
+* **內容監視**
 
-* **设备监控**
-* **内容监控**
+## 內容監視 {#content-monitoring}
 
-## 内容监控{#content-monitoring}
+內容監視可讓您疑難排解與畫面上未正確顯示內容相關的問題：
 
-内容监控允许您对与未正确显示在屏幕上的内容相关的问题进行故障诊断：
+1. 如果遇到空白熒幕問題：
 
-1. 如果遇到空白屏幕问题：
+   * Check *預覽* 以檢視頻道是否顯示黑色熒幕
+   * 註冊 *本機chrome播放器* （作為擴充功能）顯示至該顯示器，並檢視是否顯示黑色熒幕。
+   * 按一下滑鼠右鍵，檢查並檢查 *適用的記錄*.
 
-   * 检查&#x200B;*preview*&#x200B;以查看渠道是否显示黑屏
-   * 在笔记本电脑上注册&#x200B;*本地Chrome播放器*（作为扩展）以显示该显示屏，并查看该显示屏是否显示黑屏。
-   * 右键单击并检查&#x200B;*适用的日志*。
+   此外，如果這並非本機播放器上的動作，而是隻發生在裝置上的動作：
 
-   此外，如果本地播放器上没有发生这种情况，但只有设备上发生了这种情况：
-
-   * 检查&#x200B;*媒体类型*（正在使用），这些媒体类型在该设备上可能存在问题，并确认内容是否已成功在本地下载（管理员UI清除通道缓存）。
-   * 在票证中包含任何&#x200B;*设备日志*&#x200B;以便快速进行故障诊断。
-   * *从* 设备收集日志AEM。
+   * Check *媒體型別* （正在使用）中，該裝置上可能有問題，並且還要確認內容是否已成功在本機下載（管理員UI清除頻道快取）。
+   * 包含任何 *裝置記錄* 快速疑難排解的票證中。
+   * *收集記錄* 從AEM裝置。
 
 
-## 设备监控{#device-monitoring}
+## 裝置監視 {#device-monitoring}
 
-与监控物理设备相关的设备监控（如果遇到空白屏幕问题）：
+與監視實體裝置相關的裝置監視（如果您遇到空白熒幕問題）：
 
-1. 如果遇到空白屏幕问题：
+1. 如果遇到空白熒幕問題：
 
-   * 检查&#x200B;*display*&#x200B;是否已打开。
-   * 检查&#x200B;*computer*&#x200B;是否已打开并正在发送信号。
-   * 右键单击并检查&#x200B;*适用的日志*。
-
+   * 檢查 *顯示* 已開啟。
+   * 檢查 *電腦* 已開啟電源，且正在傳送訊號。
+   * 按一下滑鼠右鍵，檢查並檢查 *適用的記錄*.

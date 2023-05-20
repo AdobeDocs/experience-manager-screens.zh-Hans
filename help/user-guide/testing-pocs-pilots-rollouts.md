@@ -1,8 +1,8 @@
 ---
-title: '"第3部分：测试、POC、试点和推广”'
-seo-title: '"第3部分：测试、POC、试点和推广”'
-description: 请阅读本教程，了解总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试用和推广。
-seo-description: 请阅读本教程，了解总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试用和推广。
+title: 「第3部分：測試、POC、試行方案和推出」
+seo-title: "Part 3: Testing, POCs, Pilots & Rollouts"
+description: 按照本教學課程瞭解整體專案計畫中涉及的關鍵術語，例如專案週期、圍繞硬體測試的動作、概念證明、試行方案和推出。
+seo-description: Follow this tutorial to learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and rollouts.
 uuid: 8e9b4f8f-cc09-4cd6-9465-c8eedb639dd8
 contentOwner: jsyal
 content-type: reference
@@ -10,72 +10,72 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-feature: 概述
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
-# 第三部分：测试、POC、试点和推广 {#part-testing-pocs-pilots-rollouts}
+# 第3部分：測試、POC、試行方案和推出 {#part-testing-pocs-pilots-rollouts}
 
-本页重点介绍5个部分系列的第3部分，该系列旨在帮助团队成员更好地了解在推出之前开发成功解决方案的关键术语。
+本頁面著重說明第3部分（共5個部分），旨在協助團隊成員更瞭解關鍵術語，以確保在推出之前能開發出成功的解決方案。
 
 ## 概述 {#overview}
 
-本教程涵盖与成功部署项目计划相关的以下几点：
+本教學課程涵蓋下列與成功部署專案計畫相關的要點：
 
-* 确定在总体项目计划中经常被低估的领域，包括：
-* 围绕硬件实验室测试和性能验证的操作
-* 系统和软件集成测试
-* 概念验证（也称为POC）和试点计划
-* 端到端测试
+* 找出整體專案計畫中經常被低估的領域，包括：
+* 圍繞硬體實驗室測試與效能驗證的動作
+* 系統與軟體整合測試
+* 概念證明（也稱為POC）和試行方案
+* 端對端測試
 
 >[!NOTE]
 >
->数字标牌部署的典型销售周期介于9 - 18个月之间。 影响最终时间线的因素有很多，其中最重要的一点是，最终客户如何衡量成功以及他们的业务合作伙伴在引入新解决方案时是多么厌恶风险。
+>數位招牌大規模部署的典型銷售週期為9至18個月。 有許多因素會影響最終時程，尤其是最終客戶在推出新解決方案時，如何衡量成功及避免業務合作夥伴的風險。
 
-例如，零售环境中数字标牌计划的利益相关方可能包括：店内营销、商店环境或可视促销、商店运营、IT安全、IT支持、产品类别商家及其供应商，他们可能共同为解决方案提供资金。
+例如，零售環境中數位招牌計畫的利害關係人可能包括：店內行銷、商店環境或視覺銷售、商店營運、IT安全、IT支援、產品類別商家及其供應商（他們可能共同資助該解決方案）。
 
-## 总体项目计划涉及的关键术语概述 {#summary-of-key-terms-involved-in-an-overall-project-plan}
+## 整體專案計畫中涉及的關鍵術語摘要 {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-以下部分概述了总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试用和推广。
+以下章節提供整體專案計畫中涉及的關鍵術語的概觀，例如專案週期、圍繞硬體測試的動作、概念證明、試行方案和推出。
 
-### 概念验证(POC) {#proof-of-concept-poc}
+### 概念證明(POC) {#proof-of-concept-poc}
 
-POC的目的是获得对解决方案关键功能的初步反馈，并使最终客户和AV Integrator都有机会确定需要改进的领域，并准备有关劳动需求和资源需求的假设。 POC还为双方提供了评估解决方案性能的机会，该性能通常通过以下方式进行衡量：
+POC的目的是取得解決方案關鍵功能的初始意見回饋，並讓終端客戶和AV整合商有機會找出要改善的領域，並準備有關人力需求和資源需求的假設。 POC也讓雙方有機會評估解決方案的效能，通常透過以下方式測量：
 
-### 质量控制 {#quality-control}
+### 品質控制 {#quality-control}
 
-系统和软件集成测试从AV Integrator的IT工程团队开始。 IT工程团队参考批准的系统设计，在AV Integrator设施的“实验室环境”中配置、实施和监督硬件组件的安装。 这样，您就可以仔细审查和测试整个解决方案以进行质量控制。
+系統與軟體整合測試從AV整合商的IT工程團隊開始。 IT工程團隊會參考核准的系統設計，在AV整合器設施的「實驗室環境」中設定、實作及監督硬體元件的安裝。 如此一來，您便可針對品質控制密切檢閱和測試整個解決方案。
 
-完成QC测试后，IT工程团队将在第2天支持期间创建文档、工作流和培训以供参考。 要测试的系统方面包括：
+QC測試完成後，IT工程團隊會建立檔案、工作流程和培訓，以供在第2天支援期間參考。 要測試的系統方面包括：
 
-* AEM实施者集成
-* 第三方系统集成
-* 软件
-* 硬件
-* 连接
-* 内容部署工作流，包括手动、自动和条件部署。
+* AEM實作人員整合
+* 協力廠商系統整合
+* 軟體
+* 硬體
+* 連線能力
+* 內容部署工作流程包括手動、自動化和條件式部署。
 
-## 第三部分：有关测试、POC、试点和推广的视频教程 {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
+## 第3部分：關於測試、POC、試行方案和轉出的影片教學課程 {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-请阅读以下教程，了解测试、概念验证、试点计划和推广。
+請依照下列教學課程瞭解測試、概念證明、試行方案和轉出。
 
-将所有这些阶段作为总体项目计划的一部分，将有助于管理预期并确定对AEM Screens部署的投资进行评估的自然点。
+將所有這些階段視為整體專案計畫的一部分，將有助於管理預期並找出評估AEM Screens部署投資的自然點。
 
-### 测试、POC、试点和推广
+### 測試、POC、試行方案和推出
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405)
 
-*了解总体项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试点和推广。*
+*瞭解整體專案計畫中涉及的關鍵術語，例如專案週期、圍繞硬體測試的動作、概念證明、試行方案和推出。*
 
 ## 下一步 {#the-next-step}
 
-在您对测试、概念验证、试点计划和推广进行全面介绍后，请阅读下一个教程，深入学习项目管理和涉及的流程。
+在徹底進行測試、概念驗證、試驗計畫和推出後，請遵循下一個教學課程，深入瞭解專案管理和所涉及的過程。
 
-导航到&#x200B;**[第4部分：项目管理和部署](project-management-and-deployment.md)**&#x200B;以了解更多详细信息。
+導覽至 **[第4部分：專案管理與部署](project-management-and-deployment.md)** 以取得更多詳細資料。

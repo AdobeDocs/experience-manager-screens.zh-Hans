@@ -1,8 +1,8 @@
 ---
-title: 创建视频内边距工作流
-seo-title: 创建视频内边距工作流
-description: 可查看本页以了解有关在工作流中为资产创建视频内边距的信息。
-seo-description: 可查看本页以了解有关在工作流中为资产创建视频内边距的信息。
+title: 建立視訊邊框間距工作流程
+seo-title: Creating a Video Padding Workflow
+description: 請依照本頁所述，瞭解如何在資產的工作流程中建立視訊邊框間距。
+seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,114 +10,114 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
-# 创建视频内边距工作流 {#creating-a-video-padding-workflow}
+# 建立視訊邊框間距工作流程 {#creating-a-video-padding-workflow}
 
-本节涵盖以下主题：
+本節涵蓋下列主題：
 
 * **概述**
 * **前提条件**
-* **创建视频内边距工作流**
-   * **创建工作流**
-   * **在AEM Screens项目中使用工作流**
+* **建立視訊邊框間距工作流程**
+   * **建立工作流程**
+   * **在AEM Screens專案中使用工作流程**
 
-* **验证工作流的输出**
+* **驗證工作流程的輸出**
 
 ## 概述 {#overview}
 
-以下用例涉及放置视频(示例：1280 x 720)，其中显示器为1920 x 1080，并且视频被放置在0x0（左上方）。 不应以任何方式拉伸或修改视频，并且不应在视频组件中使用&#x200B;**Cover**。
+下列使用案例涉及將視訊（範例： 1280 x 720）放置在顯示為1920 x 1080的頻道中，並將視訊放置在0x0 （左上方）。 視訊不應以任何方式延伸或修改，也不應使用 **封面** 在視訊元件中。
 
-视频将作为对象显示，从像素1到像素1280，从像素1到像素720向下显示，而通道的其余部分将是默认颜色。
+視訊會以物件的形式顯示，從畫素1到畫素1280 （橫跨畫素1，從畫素1到畫素720），其餘色版為預設顏色。
 
 ## 前提条件 {#prerequisites}
 
-在创建视频工作流之前，请完成以下先决条件：
+在建立視訊工作流程之前，請先完成下列必要條件：
 
-1. 在AEM实例的&#x200B;**Assets**&#x200B;文件夹中上传视频
-1. 创建AEM Screens项目（例如，**TestVideoRendition**）和名为(**VideoRendering**)的渠道，如下图所示：
+1. 上傳視訊於 **資產** 在您的AEM執行個體中的資料夾
+1. 建立AEM Screens專案(例如， **TestVideoRendition**)和名為(**視訊演算**)，如下圖所示：
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## 创建视频内边距工作流 {#creating-a-video-padding-workflow-1}
+## 建立視訊邊框間距工作流程 {#creating-a-video-padding-workflow-1}
 
-要创建视频填充工作流，您必须为视频创建工作流，然后在AEM Screens项目渠道中使用该工作流。
+若要建立視訊填補工作流程，您必須為視訊建立工作流程，然後在AEM Screens專案頻道中使用相同的工作流程。
 
-请按照以下步骤创建和使用工作流：
+請依照下列步驟建立及使用工作流程：
 
-1. 创建工作流
-1. 在AEM Screens项目中使用工作流
+1. 建立工作流程
+1. 在AEM Screens專案中使用工作流程
 
-### 创建工作流 {#creating-a-workflow}
+### 建立工作流程 {#creating-a-workflow}
 
-请按照以下步骤为视频创建工作流：
+請依照下列步驟，為您的影片建立工作流程：
 
-1. 导航到您的AEM实例，然后单击侧边栏中的工具。 选择&#x200B;**工作流** —> **模型**&#x200B;以创建新模型。
+1. 導覽至您的AEM執行個體，然後從側邊欄按一下工具。 選取 **工作流程** —> **模型** 以建立新模型。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 单击&#x200B;**模型** —> **创建** —> **创建模型**。 在&#x200B;**添加工作流模型**&#x200B;中输入&#x200B;**标题**（作为&#x200B;**VideoRendition**）和&#x200B;**名称**。 单击&#x200B;**完成**&#x200B;以添加工作流模型。
+1. 按一下 **模型** —> **建立** —> **建立模型**. 輸入 **標題** (as **視訊轉譯**)和 **名稱** 在 **新增工作流程模型**. 按一下 **完成** 以新增工作流程模型。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. 创建工作流模型后，选择模型(**VideoRendition**)，然后单击操作栏中的&#x200B;**编辑**。
+1. 建立工作流程模型後，請選取模型(**視訊轉譯**)，然後按一下 **編輯** 動作列中的。
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. 将&#x200B;**命令行**&#x200B;组件拖放到工作流中。
+1. 拖放 **命令列** 元件至工作流程。
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. 选择&#x200B;**命令行**&#x200B;组件并打开属性对话框。
+1. 選取 **命令列** 元件並開啟「屬性」對話方塊。
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. 选择&#x200B;**参数**&#x200B;选项卡，以输入&#x200B;**命令行 — 步骤属性**&#x200B;对话框中的字段。
+1. 選取 **引數** 標籤以輸入欄位 **命令列 — 步驟屬性** 對話方塊。
 
-   在&#x200B;**Mime类型**（作为&#x200B;***video/mp4***）中输入格式，并在&#x200B;**命令**&#x200B;字段中输入命令(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***)中输入启动工作流的格式。
+   輸入格式 **Mime型別** (as ***video/mp4***)和命令為(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920：height=1080：x=0：y=0：color=black&quot; cq5dam.video.fullhd-hp.mp4***)，以啟動工作流程於 **命令** 欄位。
 
-   请参阅下面注释中&#x200B;**Mime类型**&#x200B;和&#x200B;**命令**&#x200B;的详细信息。
+   請參考以下詳細資料： **Mime型別** 和 **命令** 在下面的註解中。
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. 选择工作流(**VideoRenditions**)，然后单击操作栏中的&#x200B;**启动工作流**&#x200B;以打开&#x200B;**运行工作流**&#x200B;对话框。
+1. 選取工作流程(**視訊轉譯**)並按一下 **開始工作流程** 從動作列開啟 **執行工作流程** 對話方塊。
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. 在&#x200B;**Payload**(as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)中选择资产的路径，然后输入&#x200B;**Title**&#x200B;作为&#x200B;***RunVideo***，然后单击&#x200B;**Run**。
+1. 在「 」中選取資產的路徑 **裝載** (as ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)並輸入 **標題** 作為 ***RunVideo*** 並按一下 **執行**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### 在AEM Screens项目中使用工作流 {#using-the-workflow-in-an-aem-screens-project}
+### 在AEM Screens專案中使用工作流程 {#using-the-workflow-in-an-aem-screens-project}
 
-请按照以下步骤使用您的AEM Screens项目中的工作流：
+請依照下列步驟，在您的AEM Screens專案中使用工作流程：
 
-1. 导航到AEM Screens项目（**TestVideoRendition** —> **渠道** —>**VideoRendition**）。
+1. 導覽至AEM Screens專案(**TestVideoRendition** —> **頻道** —>**視訊轉譯**)。
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. 单击操作栏中的&#x200B;**编辑**。 将您最初上传到&#x200B;**Assets**&#x200B;的视频拖放到其中。
+1. 按一下 **編輯** 動作列中的。 拖放您最初上傳的視訊 **資產**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. 上传视频后，单击&#x200B;**预览**&#x200B;以查看输出。
+1. 上傳視訊後，請按一下 **預覽** 以檢視輸出。
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## 验证工作流的输出 {#validating-the-output-for-the-workflow}
+## 驗證工作流程的輸出 {#validating-the-output-for-the-workflow}
 
-您可以通过以下方式验证输出：
+您可以透過以下方式驗證輸出：
 
-* 检查渠道中的视频预览
-* 导航到CRXDE Lite中的&#x200B;***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4***，如下图所示：
+* 檢查頻道中的視訊預覽
+* 導覽至 ***/content/dam/testvideo.mp4/jcr：content/renditions/cq5dam.video.fullhd-hp.mp4*** CRXDE Lite，如下圖所示：
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

@@ -1,68 +1,68 @@
 ---
-title: “第1部分：项目角色和职责”
-seo-title: “第1部分：项目角色和职责”
-description: 请阅读本教程，以更好地了解数字标牌项目在销售和项目生命周期期间所需的角色、职责和时间线。
-feature: 概述
+title: 「第1部分：專案角色與職責」
+seo-title: "Part 1: Project Roles and Responsibilities"
+description: 請參照本教學課程，深入瞭解數位看板專案在銷售和專案生命週期期間所需的角色、職責和時間線。
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
 
-# 第一部分：项目角色和职责 {#part-project-roles-and-responsibilities}
+# 第1部分：專案角色與職責 {#part-project-roles-and-responsibilities}
 
-本页重点介绍由5个部分组成的系列的第1部分，这些系列旨在帮助团队成员更好地了解数字标牌项目在销售和项目生命周期中需要的角色、职责和时间线。
+此頁面著重說明了5部分系列的第1部分，旨在協助專案團隊成員更瞭解數位招牌專案的銷售和專案生命週期中所需的角色、職責和時間表。
 
 ## 概述 {#overview}
 
-以下教程涵盖Adobe、AEM实施人员和高级A/V集成人员的项目角色和职责。 您可以导航到后续的几集，以获取有关如何成功开发AEM Screens机会的全面概述，并定位部署以实现长期成功。
+下列教學課程從高層面涵蓋Adobe、AEM實作人員和A/V整合商的專案角色和責任。 您可以導覽至後續集數，取得有關如何成功開發AEM Screens商機的全面概觀，並推介部署以實現長期成功。
 
-有3个主要组通过以下内的投放流程参与：
+有3個主要群組是在內透過傳遞程式參與：
 
 * Adobe
-* A/V集成商
-* AEM实施团队
+* A/V整合器
+* AEM實作團隊
 
 >[!NOTE]
 >
->所有相关人员都必须准确了解每个方如何将因素纳入AEM Screens部署和问题解决工作流，并明确定义用于解决性能问题的角色，这一点非常重要。
+>所有參與者都必須確切瞭解AEM Screens部署和問題解決工作流程中各參與方的因素，並清楚定義解決效能問題的角色。
 
-## 数字标牌项目中涉及的角色摘要 {#summary-of-roles-involved-in-a-digital-signage-project}
+## 數位看板專案中涉及的角色摘要 {#summary-of-roles-involved-in-a-digital-signage-project}
 
-与Adobe、AEM实施者和A/V集成商合作定义应用程序用例参数将推动软件开发范围。 这可确保采用分阶段的方法，通过在整个项目中标识的性能基准和成功量度来建立。
+與Adobe、AEM Implementor和A/V Integrator合作定義應用程式使用案例引數，將推動軟體開發範圍。 這可確保分階段建立方法，並在整個專案中識別效能基準和成功量度。
 
 ### Adobe {#adobe}
 
-Adobe包括Adobe Managed Services资源，如CSE（客户成功工程师）和Adobe支持。
+Adobe包括Adobe Managed Services資源，例如CSE （客戶成功工程師）和Adobe支援。
 
 #### AEM 实施人员 {#aem-implementors}
 
-**AEM实施者**&#x200B;负责执行开发和集成任务，以便为AEM开发用户体验、自定义模板和后端集成。
+一個 **AEM實作人員** 負責執行開發和整合工作，以開發AEM的使用者體驗、自訂範本和後端整合。
 
-此外，还通过此过程捕获和提供满足最终客户UX（用户体验）参数所需的自定义功能。
+透過此程式，系統也會擷取並傳遞處理最終客戶UX （使用者體驗）引數所需的自訂功能。
 
-AEM实施人员通常会随着时间的推移逐步部署自定义功能。 例如，他们可能首先建立对播放基本循环视频或静态图形内容的支持。 下一阶段可能包括启用通过动态模板和元数据标记支持播放本地化内容的功能，其他阶段包括通过触屏、传感器、动态触发器等支持交互式元素。
+AEM實作者通常會在一段時間內分階段將自訂功能部署到位置。 例如，他們可能會先建立對基本回圈視訊或靜態圖形內容播放的支援。 下一個階段可能包括啟用透過動態範本和中繼資料標籤支援播放當地語系化內容的能力，而其他階段則包含透過觸控熒幕、感應器、動態觸發器等支援互動式元素。
 
 #### AV 集成人员 {#av-integrators}
 
-**AV Integrator**&#x200B;负责与最终客户进行发现，以定义确定项目范围的要求，以设计、构建和有效管理围绕数字标牌硬件的部署。
+一個 **AV整合器** 負責與終端客戶進行探索，以定義需求，決定專案範圍以設計、建置並有效管理數位看板硬體的部署。
 
-## 第一部分：有关项目角色和职责的视频教程 {#part-video-tutorial-on-project-roles-and-responsibilities}
+## 第1部分：專案角色和責任的影片教學課程 {#part-video-tutorial-on-project-roles-and-responsibilities}
 
-请阅读以下教程，以确切了解各方如何在AEM Screens部署中将任何问题解决工作流程纳入到部署中，并在解决性能问题时明确定义了相应的角色。
+請依照下列教學課程瞭解AEM Screens部署中每一方的因素如何解決任何問題工作流程，以及在解決效能問題時的明確角色。
 
-### 第一部分：项目角色和职责
+### 第1部分：專案角色與職責
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*了解Adobe、AV集成商和AEM实施人员的角色和职责。*
+*瞭解Adobe、AV整合經銷商和AEM實作人員的角色和責任。*
 
 ## 下一步 {#the-next-step}
 
-了解了项目在实施数字标牌项目中的角色和职责后，请阅读下一个教程，深入探讨诸如测试和售前注意事项等主题，因为开发AEM Screens商机时该项目的范围是什么。
+瞭解實作數位看板專案的專案角色和責任後，請遵循下一個教學課程，深入探討專案範圍界定時開發AEM Screens機會的主題，例如測試和售前注意事項。
 
-导航到&#x200B;**[第2部分：有关项目适用范围的注意事项](project-considerations.md)**&#x200B;以了解更多详细信息。
+導覽至 **[第2部分：設定範圍專案的考量事項](project-considerations.md)** 以取得更多詳細資料。

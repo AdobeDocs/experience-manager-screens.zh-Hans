@@ -1,62 +1,62 @@
 ---
-title: 功能包201909的发行说明
-seo-title: 功能包201909的发行说明
-description: 请阅读本页以了解2019年7月31日发布的AEM Screens功能包201909的相关信息。
-seo-description: 请阅读本页以了解2019年10月7日发布的AEM Screens功能包201909的信息。
-feature: 功能包
+title: Feature Pack 201909發行說明
+seo-title: Release Notes for Feature Pack 201909
+description: 請詳閱本頁，瞭解2019年7月31日發行的AEM Screens Feature Pack 201909的相關資訊。
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201909 released on October 07, 2019.
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
 
-
-# 功能包201909{#release-notes-for-feature-pack}的发行说明
+# Feature Pack 201909發行說明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建议您升级到最新版本的Adobe Experience Manager(AEM)。 Screens为AEM 6.3 Screens平台提供维护支持。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
-AEM Screens发布了AEM 6.4.6功能包6和AEM 6.5.2功能包2，其中包含以下详细信息。
+AEM Screens已發行AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2，並提供下列詳細資料。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包201909的发行日期是2019年10月7日。
+AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
 
 ### 新增功能 {#what-s-new}
 
-* **对“创建屏幕”项目的增强UI更新**
+* **增強UI更新以建立畫面專案**
 
-   更新了用于创建新屏幕项目的用户界面现已可用。 您只需单击几下即可创建新的Screens项目。 此外，每个项目的属性选项卡现在具有更直观的用户界面。
+   更新後的使用者介面現在可供建立新畫面專案。 只需按幾下滑鼠，即可建立新的Screens專案。 此外，每個專案的屬性標籤現在都有了更具啟發性的使用者介面。
 
-   有关更多详细信息，请参阅[创建新Screens项目](creating-a-screens-project.md) 。
+   請參閱 [建立新畫面專案](creating-a-screens-project.md) 以取得更多詳細資料。
 
-* **增强的设备功能板：**
+* **增強型裝置控制面板：**
 
-   设备功能板显示设备信息、状态、屏幕截图、日志、首选项以及设备详细信息，以便您监控设备活动和功能。 面板现已更新。
+   裝置儀表板會顯示裝置資訊、狀態、熒幕擷圖、記錄、偏好設定，以及可讓您監視裝置活動和功能的裝置詳細資訊。 面板現在已更新。
 
-   有关更多详细信息，请参阅[设备控制中心疑难解答](monitoring-screens.md) 。
+   請參閱 [疑難排解裝置控制中心](monitoring-screens.md) 以取得更多詳細資料。
 
-* **已启用超时以允许键盘交互**
+* **啟用逾時以允許鍵盤互動**
 
-   启用远程控制设备作为触控面板的替代方法。 要交互的触屏和活动超时可处理键盘输入。
+   啟用遠端控制裝置作為觸控面板的替代方案。 互動的觸控和活動逾時可處理鍵盤輸入。
 
-* **体验片段中的离线配置**
+* **體驗片段中的離線設定**
 
-   现在，您可以在配置Screens体验片段时添加离线配置（客户端库和静态文件）。
-有关更多详细信息，请参阅[使用体验片段](experience-fragments-in-screens.md)。
+   您現在可以在設定Screens體驗片段時新增離線設定（使用者端程式庫和靜態檔案）。
+請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
 
-### 已发布的AEM Screens播放器{#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-以下AEM Screens播放器已发布适用于AEM 6.4.6功能包6和AEM 6.5.2功能包2:
+下列AEM Screens Player已針對AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2發行：
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens播放器下载{#aem-screens-player-downloads}
+#### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;[**AEM Screens播放器下载**](https://download.macromedia.com/screens/)。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).

@@ -1,7 +1,7 @@
 ---
-title: 适用于AEM Screens的调度程序配置
+title: 適用於AEM Screens的Dispatcher設定
 seo-title: Dispatcher Configurations for AEM Screens
-description: 本页重点介绍为AEM Screens项目配置调度程序的准则。
+description: 本頁面重點說明為AEM Screens專案設定Dispatcher的准則。
 seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
 feature: Administering Screens
 role: Developer, User
@@ -14,33 +14,33 @@ ht-degree: 3%
 
 ---
 
-# 适用于AEM Screens的调度程序配置{#dispatcher-configurations-for-aem-screens}
+# 適用於AEM Screens的Dispatcher設定{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。
 
-以下页面提供了为AEM Screens项目配置调度程序的准则。
+以下頁面提供為AEM Screens專案設定Dispatcher的准則。
 
 >[!NOTE]
 >
->如果调度程序可用，则可以通过在调度程序规则中进行过滤来阻止与注册Servlet的连接。
+>如果Dispatcher可用，可藉由在Dispatcher規則中篩選來避免與註冊servlet的連線。
 >
->如果没有调度程序，请在OSGi组件列表中禁用注册Servlet。
+>如果沒有Dispatcher，請停用OSGi元件清單中的註冊servlet。
 
-在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
-请参阅 [配置Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans) 以了解更多详细信息。
+在為AEM Screens專案設定Dispatcher之前，您必須先瞭解Dispatcher。
+請參閱 [設定Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=zh-Hans) 以取得更多詳細資料。
 
-## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
+## 為資訊清單版本v2設定Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->以下Dispatcher配置仅适用于清单版本v2。 请参阅 [清单版本v3的调度程序配置](#configuring-dispatcherv3) 对于清单版本v3。
+>下列Dispatcher設定僅適用於Manifest版本v2。 請參閱 [資訊清單版本v3的Dispatcher設定](#configuring-dispatcherv3) 資訊清單版本v3。
 
-AEM Screens播放器或设备还使用经过身份验证的会话来访问发布实例中的资源。 因此，当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器/设备的所有请求都有效。
+AEM Screens播放器或裝置使用已驗證的工作階段來存取發佈執行個體中的資源。 因此，當您有多個發佈執行個體時，請求應一律前往相同的發佈執行個體，以便已驗證的工作階段對來自AEM Screens播放器/裝置的所有請求有效。
 
-请按照以下步骤为AEM Screens项目配置Dispatcher。
+請依照下列步驟，為AEM Screens專案設定Dispatcher。
 
-### 启用置顶会话 {#enable-sticky-session}
+### 啟用粘性工作階段 {#enable-sticky-session}
 
-如果要使用由单个调度程序前端的多个发布实例，则必须更新 `dispatcher.any` 文件以启用吸引力
+如果您想要使用單一Dispatcher提前的多個發佈執行個體，您必須更新 `dispatcher.any` 啟用粘著度的檔案
 
 ```xml
 /stickyConnections {
@@ -51,25 +51,25 @@ AEM Screens播放器或设备还使用经过身份验证的会话来访问发布
  }
 ```
 
-如果一个发布实例由一个调度程序前端，则在调度程序上启用吸引力将不起作用，因为负载平衡器可能会向调度程序发送每个请求。 在这种情况下，单击 **启用** in **吸引力** 字段以在负载平衡器级别启用它，如下图所示：
+如果您有一個發佈執行個體由一個Dispatcher主持，則在Dispatcher上啟用粘著沒有幫助，因為負載平衡器可能會將每個請求傳送給Dispatcher。 在此情況下，請按一下 **啟用** 在 **粘著度** 欄位，以在您的負載平衡器層級啟用，如下圖所示：
 
 ![图像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-例如，如果您使用的是AWS ALB，请参阅 [应用程序负载平衡器的目标组](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) 用于在ALB级别启用粘性。 启用1天的吸引力。
+例如，如果您使用AWS ALB，請參閱 [應用程式負載平衡器的目標群組](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) 用於啟用ALB層級的粘著度。 啟用粘著度1天。
 
-### 步骤1:配置客户端标头 {#step-configuring-client-headers}
+### 步驟1：設定使用者端標頭 {#step-configuring-client-headers}
 
-将以下内容添加到 `/clientheaders`部分：
+將下列專案新增至 `/clientheaders`區段：
 
 **X-Requested-With**
 
-**X-SET-HEARTBEAT**
+**X設定心率**
 
 **X-REQUEST-COMMAND**
 
-### 步骤2:配置Screens过滤器 {#step-configuring-screens-filters}
+### 步驟2：設定畫面篩選器 {#step-configuring-screens-filters}
 
-要配置Screens过滤器，请将以下内容添加到 ***/filter***.
+若要設定Screens篩選器，請將下列專案新增至 ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -90,16 +90,16 @@ AEM Screens播放器或设备还使用经过身份验证的会话来访问发布
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### 步骤3:禁用Dispatcher缓存 {#step-disabling-dispatcher-cache}
+### 步驟3：停用Dispatcher快取 {#step-disabling-dispatcher-cache}
 
-禁用的调度程序缓存 ***/content/screens路径***.
+停用Dispatcher快取 ***/content/screens路徑***.
 
-Screens播放器使用经过验证的会话，因此调度程序不会缓存的任何屏幕播放器请求 `channels/assets`.
+Screens播放器使用已驗證的工作階段，因此Dispatcher不會快取播放器請求的任何畫面 `channels/assets`.
 
-要为资产启用缓存，以便从调度程序缓存提供资产，您必须：
+若要啟用資產的快取，以便從Dispatcher快取中提供資產，您必須：
 
-* 添加 `/allowAuthorization 1` in `/cache` 部分
-* 将以下规则添加到 `/rules` 部分 `/cache`
+* 新增 `/allowAuthorization 1` 在 `/cache` 區段
+* 將下列規則新增至 `/rules` 部分 `/cache`
 
 ```xml
 /0000
@@ -129,17 +129,17 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
     }
 ```
 
-## 为清单版本v3配置Dispatcher{#configuring-dispatcherv3}
+## 為資訊清單版本v3設定Dispatcher{#configuring-dispatcherv3}
 
-请确保在位于发布实例前方的调度程序中允许这些过滤器和缓存规则，以便Screens正常运行。
+請務必允許這些篩選器和快取規則位於發佈執行個體前面的排程程式中，以便Screens運作。
 
-### 清单版本v3的先决条件{#prerequisites3}
+### 資訊清單版本v3的先決條件{#prerequisites3}
 
-在为AEM Screens配置Dispatcher（清单版本v3）之前，请确保遵循以下两个先决条件：
+在為AEM Screens設定Dispatcher （資訊清單版本v3）之前，請務必遵循這兩個先決條件：
 
-* 确保您使用 `v3 manifests`. 导航到 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 并确保 `Enable ContentSync Cache` 未选中。
+* 請確定您使用 `v3 manifests`. 導覽至 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 並確保 `Enable ContentSync Cache` 未勾選。
 
-* 确保在 `/etc/replication/agents.publish/dispatcher1useast1Agent` 在发布实例中。
+* 請確定Dispatcher Flush代理程式設定在 `/etc/replication/agents.publish/dispatcher1useast1Agent` 在發佈執行個體中。
 
    ![图像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -171,16 +171,16 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
 /0230 { /type "allow" /method "GET" /url "/etc.clientlibs/*" }
 ```
 
-### 缓存规则 {#cache-rules-v3}
+### 快取規則 {#cache-rules-v3}
 
-* 添加 `/allowAuthorized "1"` to `/cache` 部分 `publish_farm.any`.
+* 新增 `/allowAuthorized "1"` 至 `/cache` 中的區段 `publish_farm.any`.
 
-* 所有Screens播放器都将使用经过身份验证的会话连接到AEM（创作/发布）。 现成的Dispatcher不会缓存这些url，因此我们应该启用这些url。
+* 所有Screens播放器都會使用已驗證的工作階段來連線至AEM （作者/發佈）。 現成可用的Dispatcher不會快取這些URL，因此我們應該啟用這些URL。
 
-* 添加 `statfileslevel "10"` to `/cache` 部分 `publish_farm.any`
-这将支持从缓存缓存中缓存多达10个级别，并在发布内容时相应地使其失效，而不是使所有内容失效。 根据内容结构的深度随时更改此级别
+* 新增 `statfileslevel "10"` 至 `/cache` 中的區段 `publish_farm.any`
+這將支援從快取docroot快取最多10個層級，並在內容發佈時相應地失效而不是使所有內容失效。 您可以根據內容結構的深度來變更此層級
 
-* 将以下内容添加到 `/invalidate section in publish_farm.any`
+* 將下列專案新增至 `/invalidate section in publish_farm.any`
 
    ```
    /0003 {
@@ -189,7 +189,7 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
    }
    ```
 
-* 将以下规则添加到 `/rules` 部分 `/cache` in `publish_farm.any` 或包含在 `publish_farm.any`:
+* 將下列規則新增至 `/rules` 中的區段 `/cache` 在 `publish_farm.any` 或包含在檔案中的 `publish_farm.any`：
 
    ```
    ## Don't cache CSRF login tokens
@@ -231,11 +231,11 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
        }
    ```
 
-### 为segments.js添加失效规则 {#invalidsegmentjs}
+### 為segments.js新增失效規則 {#invalidsegmentjs}
 
-如果您要在AEM Screens中使用定位营销活动，则 `segments.js file` 在AEM上添加和发布新区段时，调度程序提供的区段需要失效。 如果没有此失效规则，新的定位营销活动将无法在Screens播放器上运行（它将显示默认内容）。
+如果您透過AEM Screens使用目標式行銷活動，則 `segments.js file` 您需要在AEM上新增和發佈新區段時，讓Dispatcher提供的服務失效。 如果沒有此失效規則，新的目標定位行銷活動將無法在Screens播放器上運作（它將改為顯示預設內容）。
 
-* 将失效规则添加到 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 以下是要添加的规则：
+* 新增失效規則至 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 以下是新增的規則：
 
 ```
     /invalidate {
@@ -248,4 +248,4 @@ Screens播放器使用经过验证的会话，因此调度程序不会缓存的�
                 }
 ```
 
-* 此规则确保 `segments.js` 文件无效，且在修改时会获取最新文件。
+* 此規則可確保 `segments.js` 檔案會失效，並在修改時擷取最新版本。

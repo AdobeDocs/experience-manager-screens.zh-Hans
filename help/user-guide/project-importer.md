@@ -1,8 +1,8 @@
 ---
-title: 从文件新建项目导入程序
-seo-title: 从文件新建项目导入程序
-description: 利用此功能，可将一组位置从CSV/XLS电子表格批量导入AEM Screens项目。
-seo-description: 利用此功能，可将一组位置从CSV/XLS电子表格批量导入AEM Screens项目。
+title: 從檔案新增專案匯入工具
+seo-title: New Project Importer from File
+description: 此功能可讓您將一組位置從CSV/XLS試算表大量匯入至您的AEM Screens專案。
+seo-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,119 +10,117 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-feature: 管理屏幕
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '673'
 ht-degree: 2%
 
 ---
 
-# 从文件新建项目导入程序 {#new-project-importer-from-file}
+# 從檔案新增專案匯入工具 {#new-project-importer-from-file}
 
-此部分介绍了将一组位置从CSV/XLS电子表格批量导入AEM Screens项目的功能。
+本節說明如何從CSV/XLS試算表大量匯入一組位置至您的AEM Screens專案。
 
 ## 简介 {#introduction}
 
-在您组织中首次设置AEM Screens项目时，您还需要创建所有位置。 如果您的项目涉及大量位置，则会导致一项繁琐的任务，该任务需要在UI中多次单击并等待。
+設定AEM Screens專案時，如果是在組織中第一次，您也需要建立所有位置。 如果您的專案涉及大量位置，則會導致繁瑣的任務，包括在UI中多次點按和等待。
 
-此功能的目标是缩短设置项目所需的时间，从而解决预算问题。
+此功能的目標是減少設定專案所需的時間，進而解決預算問題。
 
-通过让作者提供电子表格作为输入文件，并让系统在后端自动创建位置树，该功能可以：
+藉由讓作者提供試算表作為輸入檔案，並讓系統自動在後端建立位置樹，此功能：
 
-* *与通过用户界面手动单击相比，可以获得更好的性能*
-* *允许客户从其自己的系统中导出他们拥有的位置，并轻松地直接在AEM中导入这些位置*
+* *相較於透過UI手動點按，成效大幅提升*
+* *可讓客戶從自己的系統匯出位置，並輕鬆地直接在AEM中匯入*
 
-这既节省了初始项目设置期间的时间，也节省了资金，同时也节省了将现有AEM Screens扩展到新位置时的时间和资金。
+在初始專案設定期間或將現有AEM Screens擴充至新位置時，這既可節省時間又可節省資金。
 
 ## 架构概述 {#architectural-overview}
 
-下图显示了项目导入器功能的架构概述：
+下圖顯示Project Importer功能的架構概觀：
 
 ![screen_shot_2019-05-14at20618pm](assets/screen_shot_2019-05-14at20618pm.png)
 
 ### 数据模型 {#data-model}
 
-项目导入器的数据模型如下所述：
+專案匯入工具的資料模型說明如下：
 
 >[!NOTE]
 >
->当前版本仅支持导入位置。
+>目前版本僅支援匯入位置。
 
 | **属性** | **描述** |
 |---|---|
-| ***路径{string*}** | 位置的资源路径 |
-| ***[。/jcr:title] {string*}** | 要使用的模板的名称（即&#x200B;*screens/core/templates/location*&#x200B;的位置） |
-| ***模板{string}*** | 用于页面的可选标题 |
-| ***[。/jcr:description] {string}*** | 用于页面的可选描述 |
+| ***路徑{string*}** | 位置的資源路徑 |
+| ***[。/jcr：title] {string*}** | 要使用的範本名稱(即位置 *screens/core/templates/location*) |
+| ***範本{string}*** | 用於頁面的選用標題 |
+| ***[。/jcr：description] {string}*** | 用於頁面的選擇性說明 |
 
-因此，电子表格(CSV/XLS)文件需要以下列：
+試算表(CSV/XLS)檔案，因此需要下列欄：
 
-* **路径{string}** 要导入的位置的路径，其中路径的根是项目的位置文件夹(即， */* 将导入 */content/screens/&lt;project> /locations/foo*)
+* **路徑{string}** 要匯入的位置的路徑，其中路徑的根是專案的位置資料夾(即 */foo* 將會匯入至 */content/screens/&lt;project>/locations/foo*)
 
-* **模板{string}** 用于新位置的模板，目前唯一允许的值是“location”，但将来会扩展到所有Screens模板（“display”、“sequencchannel”等）
-* **[。/*] {string}**&#x200B;要在该位置设置的任何可选属性(即。/jcr:title, ./jcr:description, ./foo、。/条形图). 当前版本不允许进行筛选
+* **範本{string}** 用於新位置的範本，目前唯一允許值為「location」，但未來將擴充至所有Screens範本（「display」、「sequencechannel」等）
+* **[。/*] {string}** 任何要在位置上設定的選用屬性(即。/jcr:title, ./jcr：description， 。/foo， 。/条形图). 目前的版本目前不允許篩選
 
 >[!NOTE]
 >
->任何与上述条件不匹配的列将被忽略。 例如，如果您在工作表(CSV/XLS)文件中定义了除&#x200B;**path**、**template**、**title**&#x200B;和&#x200B;**description**&#x200B;之外的任何其他列，则这些字段将被忽略，而&#x200B;**项目导入器**&#x200B;将不会验证这些附加字段，以便将项目导入到AEM Screens项目。
+>不符合上述條件的任何欄都將被忽略。 例如，如果您在工作表(CSV/XLS)檔案中定義了任何其他欄， **路徑**，**範本**，**標題**、和 **說明** 在您的檔案中，這些欄位將被忽略，並且 **專案匯入工具** 將不會驗證這些額外的欄位，以便將您的專案匯入至AEM Screens專案。
 
-## 使用项目导入器 {#using-project-importer}
+## 使用專案匯入工具 {#using-project-importer}
 
-以下部分介绍如何在AEM Screens项目中使用项目导入器。
+下節將說明如何在AEM Screens專案中使用Project Importer。
 
 >[!CAUTION]
 >
->限制:
+>限制：
 >
->* 当前版本不支持CSV/XLS/XLSX扩展名以外的文件。
->* 对于导入的文件以及以“”开头的任何内容，不存在对属性的筛选。/”。
-
+>* 目前版本不支援CSV/XLS/XLSX副檔名以外的檔案。
+>* 對於匯入的檔案和任何以「」開頭的檔案，不存在屬性的篩選條件。「/」將會匯入。
 >
-
 
 
 ### 前提条件 {#prerequisites}
 
-* 创建名为&#x200B;**DemoProjectImport**&#x200B;的新项目
+* 建立標題為的新專案 **DemoProjectImport**
 
-* 使用需要导入的CSV或Excel示例文件。
+* 使用您需要匯入的範例CSV或Excel檔案。
 
-出于演示目的，您可以从以下部分下载Excel文件。
+如需示範，您可以從下節下載Excel檔案。
 
 [获取文件](assets/minimal-file.xls)
 
-### 使用最少必填字段导入文件 {#importing-the-file-with-minimum-required-fields}
+### 匯入具有最少必填欄位的檔案 {#importing-the-file-with-minimum-required-fields}
 
-请按照以下步骤将文件导入位置文件夹，其中至少包含必填字段：
+請依照下列步驟，將檔案匯入至具有最少必要欄位的「位置」資料夾：
 
 >[!NOTE]
 >
->以下示例显示导入项目所需的至少四个字段：
+>以下範例示範匯入專案所需的最少四個欄位：
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. 导航到您的AEM Screens项目(**DemoProjectImport**)。
+1. 導覽至您的AEM Screens專案(**DemoProjectImport**)。
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 从侧栏中选择** DemoProjectImporter **—>**&#x200B;创建&#x200B;**—>**&#x200B;导入位置**项目。
+1. 選取專案，**DemoProjectImporter **—>** 建立 **—>** 匯入位置**從側邊列。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 将打开&#x200B;**Import**&#x200B;向导。 选择您为具有位置的项目所拥有的文件，或选择您从&#x200B;*Requisements*&#x200B;部分下载的文件(***minimal-file.xls***)。
+1. 此 **匯入** 精靈開啟。 選取您專案中擁有的位置檔案，或選取檔案(***最小檔案.xls***)從「 」下載 *必要條件* 區段。
 
-   选择文件后，单击&#x200B;**Next**。
+   選取檔案後，按一下 **下一個**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 从“导入”向导中验证文件（位置）的内容，然后单击&#x200B;**导入**。
+1. 從「匯入」精靈中驗證檔案內容（位置），然後按一下 **匯入**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 
-1. 因此，您现在将能够查看导入到项目的所有位置。
+1. 因此，您現在將能夠檢視匯入至專案的所有位置。
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)

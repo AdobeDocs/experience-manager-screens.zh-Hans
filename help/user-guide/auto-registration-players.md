@@ -1,54 +1,54 @@
 ---
-title: 播放器的自动注册
-seo-title: 播放器的自动注册
-description: 请阅读本页，了解使用AMS/On-Prem Screens自动注册播放器的信息。
-feature: 管理屏幕、播放器
+title: 自動註冊播放器
+seo-title: Auto Registration of Players
+description: 請詳閱本頁面，瞭解如何使用AMS/內部部署畫面自動註冊播放器。
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-# 播放器的自动注册 {#auto-registration}
+# 自動註冊播放器 {#auto-registration}
 
-手动批量注册数千个播放器可能会变得非常麻烦，并会增加时间和成本。 为简化此过程，批量注册功能允许您在AEM中指定预共享密钥，该密钥可通过配置文件或移动设备管理(MDM)解决方案配置到播放器中。
+手動大量註冊數千個播放器可能會變得非常麻煩，並增加時間和成本。 為簡化此程式，大量註冊功能可讓您在AEM中指定預先共用金鑰，並可透過設定檔案或行動裝置管理(MDM)解決方案將其布建至播放器。
 
-## 实现播放器自动注册 {#bulk-registering-implementation}
+## 實作播放器自動註冊 {#bulk-registering-implementation}
 
-请按照以下步骤实施播放器的自动注册：
+請依照下列步驟實作播放器的自動註冊：
 
-1. 登录AEM实例并选择您的AEM screens项目，然后单击操作栏中的&#x200B;**属性**。
-1. 选择&#x200B;**Advanced**&#x200B;选项卡以查看&#x200B;**Device registration**&#x200B;部分。
+1. 登入您的AEM執行個體並選取您的AEM畫面專案，然後按一下 **屬性** 動作列中的。
+1. 選取 **進階** 標籤以檢視 **裝置註冊** 區段。
 
-1. 在&#x200B;**批量注册代码**&#x200B;字段中指定自动注册代码，并在&#x200B;**默认显示分配**&#x200B;中指定一个可选的默认显示，以分配给自动注册的播放器。
+1. 在中指定自動註冊代碼 **大量註冊代碼** 欄位和選用的預設顯示於 **預設顯示指派** 以指派給自動註冊的播放器。
    >[!NOTE]
-   >输入您选择的代码，并根据需要选择默认显示。
+   >輸入您選擇的程式碼，並視需要選取預設顯示。
 
    ![图像](/help/user-guide/assets/auto-registration/auto-register1.png)
-1. 使用MDM或配置JSON文件为播放器配置相应的服务器URL和注册代码。
+1. 使用MDM或設定JSON檔案，為播放器布建適當的伺服器URL和註冊代碼。
 
    >[!NOTE]
-   >有关更多详细信息，请参阅适用于您的操作系统(OS)的特定播放器的实施页面。 您还可以使用管理员UI输入注册代码。
+   >如需詳細資訊，請參閱作業系統(OS)專用播放器的實作頁面。 您也可以使用管理員UI來輸入註冊代碼。
 
-1. 如果`registrationKey`属性与AEM中配置的属性匹配，则播放器将自动注册自身，如果配置了默认显示，则将下载和播放该内容。
+1. 如果 `registrationKey` 屬性與AEM中設定的屬性相符，播放器會自動註冊，而且如果設定了預設顯示，則會下載並播放該內容。
 
    ![图像](/help/user-guide/assets/auto-registration/auto-register2.png)
 
-## 安全最佳实践 {#security-best-practices}
+## 安全性最佳實務 {#security-best-practices}
 
-请按照以下部分考虑一些安全最佳实践：
+請參考以下章節，思考一些安全性最佳實務：
 
-* 要确保注册代码不会受到破坏，请在开始批量注册之前在AEM中配置该代码，完成后，请清除该字段，并将其保存在AEM中。
+* 為確保註冊代碼不被破壞，請在開始大量註冊之前先在AEM中設定代碼，完成後，請清除該欄位並儲存在AEM中。
 
-* 您可以将路径`/bin/screens/registration`配置为只能从已知的IP范围访问（如果可能）。
+* 您可以設定路徑 `/bin/screens/registration` ，以儘可能從已知的IP範圍存取。
 
-* 考虑使用MDM为播放器配置配置。
+* 考慮使用MDM以設定布建播放器。
 
-* 与AEM进行播放器通信时，请始终使用`HTTPS`，而不使用`HTTP`。
+* 永遠使用 `HTTPS` 而非 `HTTP` 用於與AEM的播放器通訊。
 
    >[!NOTE]
-   >默认显示分配当前仅适用于批量注册，而不适用于没有注册代码的手动注册。
+   >預設顯示指定目前僅適用於大量註冊，不適用於沒有註冊代碼的手動註冊。

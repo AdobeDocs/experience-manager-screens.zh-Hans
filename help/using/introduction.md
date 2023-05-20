@@ -1,19 +1,19 @@
 ---
 title: '[!UICONTROL AEM Screens] 简介'
-seo-title: '[!UICONTROL AEM Screens] 项目的“最佳实践指南”'
+seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
 description: 本页面是 AEM Screens 的简介部分
-seo-description: 本页面简要介绍 AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: This page provides an introduction to AEM Screens
+exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '673'
 ht-degree: 83%
 
 ---
 
-
 # AEM Screens 简介 {#introduction}
 
-**AEM(Adobe Experience Manager)Screensis** 是一款数字标牌解决方案，允许您创作、发布和播放涉及不同类型现场显示屏的动态交互式数字体验，以与全渠道数字营销策略相一致。
+**AEM (Adobe Experience Manager) Screens** 是數位看板解決方案，可讓您製作、發佈和播放動態和互動式的數位體驗，其中包含不同型別的場地內顯示熒幕，並結合全方位的全頻道數位行銷策略。
 
 AEM Screens 允许您创建：
 
@@ -52,11 +52,11 @@ AEM Screens 可提供统一的创作/播放平台，用于将内容部署到公�
 
 * **媒体循环分段**：将每个播放器设备配置为使用其自身的循环区段，这可以确保在整个数字体验中都能轻松创作、发布和播放本地化内容。将嵌入式序列渠道中包含的媒体资产添加到前一循环区段，并为每个位置分组提供以媒体循环区段为目标的机会。
 
-* **交互式体验**：可运用 AEM 和 SPA 编辑器，在 Screens 渠道中创作并交付支持触屏的 kiosk 应用。最佳做法是应用一致的全渠道设计属性、使用非活动计时器重置体验以及针对应用程序可以执行的任务采取明确的行动。 登陆页面应当由关键的数字元素组成，这些元素旨在传递价值、吸引用户访问屏幕并提示用户参与。
+* **交互式体验**：可运用 AEM 和 SPA 编辑器，在 Screens 渠道中创作并交付支持触屏的 kiosk 应用。最佳實務是套用一致的全通道設計屬性、用於重設體驗的不活動計時器，以及針對應用程式可執行哪些任務的明確行動號召。 登陆页面应当由关键的数字元素组成，这些元素旨在传递价值、吸引用户访问屏幕并提示用户参与。
 
-AEM Screens 提供了一个框架，可以将内容部署到实体设备。包括媒体内容或触屏应用在内的内容，将会分配给 Screens 中的“渠道”。在此框架内，AEM Sites应用程序可以作为内容通过渠道交付。
+AEM Screens 提供了一个框架，可以将内容部署到实体设备。包括媒体内容或触屏应用在内的内容，将会分配给 Screens 中的“渠道”。在此架構中，AEM Sites應用程式可透過頻道以內容形式傳送。
 
-在将AEM Sites放入Screens的渠道中之前，必须对其进行格式设置，以便在其要使用的显示设备的尺寸中使用。
+AEM Sites在拖放至Screens的頻道中之前，必須先格式化為可在預期顯示裝置的尺寸下使用。
 
 >[!NOTE]
 >许多 AEM Sites 组件与 AEM Screens 并不兼容。AEM Screens 附带了许多现成的组件，您无需自定义即可构建数字体验。如果项目要求允许，请尽可能使用内置的 AEM Screens 功能。

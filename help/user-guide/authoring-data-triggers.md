@@ -1,84 +1,84 @@
 ---
-title: 使用数据触发器进行创作
-seo-title: 使用数据触发器进行创作
-description: 请阅读本页以了解如何使用数据触发器进行创作。
-feature: 创作屏幕
+title: 使用資料觸發器製作
+seo-title: Authoring with Data Triggers
+description: 請詳閱本頁面，瞭解如何使用資料觸發器進行創作。
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
-# 使用数据触发器进行创作 {#authoring-with-data-triggers}
+# 使用資料觸發器製作 {#authoring-with-data-triggers}
 
-本节重点介绍如何在渠道中启用定位。
+本節著重說明如何在您的管道中啟用目標定位。
 
 >[!IMPORTANT]
 >
->在AEM Screens渠道中，支持数据触发器的最低版本为AEM 6.5.3 Feature Pack 3。
+>AEM Screens管道中支援資料觸發器的最低版本為AEM 6.5.3 Feature Pack 3。
 
 ## 前提条件 {#prereqs}
 
-在按照以下步骤在渠道中启用定位之前，您必须了解在AEM Screens中配置](configuring-context-hub.md)中的[关键术语，这是了解AEM Screens中的ContextHub和定位所需的。
+在依照下列步驟啟用管道中的目標定位之前，您必須瞭解 [在AEM Screens中設定的重要條款](configuring-context-hub.md) 瞭解AEM Screens中的ContextHub和鎖定目標所需。
 
 >[!IMPORTANT]
 >
->在AEM Screens渠道中启用定位之前，建议您了解并设置ContextHub配置。
+>在AEM Screens頻道中啟用鎖定目標之前，建議您先瞭解並設定ContextHub設定。
 
-有关更多信息，请访问以下链接：
+如需詳細資訊，請前往下列連結：
 
-1. **[设置数据存储](configuring-context-hub.md)**
-1. **[设置受众分段](configuring-context-hub.md)**
+1. **[設定資料存放區](configuring-context-hub.md)**
+1. **[設定對象細分](configuring-context-hub.md)**
 
-完成上述步骤后，即可在渠道中启用定位。
+完成上述步驟後，您就可以在管道中啟用目標定位。
 
-## 使用数据触发器创作概述 {#author-targeting}
+## 使用Data Triggers製作概述 {#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM Screens渠道中启用定位 {#enabling-targeting}
+## 在AEM Screens頻道中啟用鎖定目標 {#enabling-targeting}
 
-按照以下步骤在渠道中启用定位。
+請依照下列步驟，在您的管道中啟用目標定位。
 
-1. 导航到其中一个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创建的&#x200B;**DataDrivenRetail** *(sequence channel)*&#x200B;启用定位。
+1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用啟用鎖定目標 **DataDrivenRetail** *（順序頻道）* 在AEM Screens頻道中建立。
 
-1. 选择渠道&#x200B;**DataDrivenRetail**，然后单击操作栏中的&#x200B;**属性**。
+1. 選取頻道 **DataDrivenRetail** 並按一下 **屬性** 動作列中的。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 选择&#x200B;**Personalization**&#x200B;选项卡以设置ContextHub配置并选择ContextHub和区段路径。
+1. 選取 **個人化** 索引標籤以設定ContextHub設定，並選取ContextHub和區段路徑。
 
-   1. 选择&#x200B;**ContextHub路径**&#x200B;作为&#x200B;**libs** > **设置** > **cloudsettings** > **默认** > **ContextHub配置**&#x200B;并单击&#x200B;**选择**。
+   1. 選取 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並按一下 **選取**.
 
-   1. 选择&#x200B;**区段路径**&#x200B;作为&#x200B;**conf** > **We.Retail** > **设置** > **wcm** > **区段**，然后单击&#x200B;**选择**。
+   1. 選取 **區段路徑** 作為 **conf** > **We.Retail** > **設定** > **wcm** > **區段** 並按一下 **選取**.
 
-   1. 单击&#x200B;**保存并关闭**。
+   1. 单击“**保存并关闭**”。
    >[!NOTE]
    >
-   >使用ContextHub和区段路径，您最初在其中保存了ContextHub配置和区段。
+   >使用ContextHub和區段路徑，您最初儲存您的Context Hub設定和區段。
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 从&#x200B;**DataDrivenAssets** > **渠道**&#x200B;中导航并选择&#x200B;**DataDrivenRetail**，然后单击操作栏中的&#x200B;**编辑**。 在渠道编辑器中拖放资产。
+1. 瀏覽並選取 **DataDrivenRetail** 從 **DataDrivenAssets** > **頻道** 並按一下 **編輯** 動作列中的。 在管道編輯器中拖放資產。
 
    >[!NOTE]
    >
-   >如果已正确设置所有内容，您将在编辑器的下拉菜单中看到&#x200B;**定位**&#x200B;选项，如下图所示。
+   >如果您已正確設定所有內容，您將會看到 **目標定位** 選項下拉式清單中的下拉式清單，如下圖所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 单击&#x200B;**定位**。
+1. 按一下 **目標定位**.
 
-1. 从下拉菜单中选择&#x200B;**Brand**&#x200B;和&#x200B;**Activity**，然后单击&#x200B;**开始定位**。
+1. 選取 **品牌** 和 **活動** 從下拉式功能表，然後按一下 **開始定位**.
 
-### 了解更多：用例示例 {#learn-more-example-use-cases}
+### 深入瞭解：範例使用案例 {#learn-more-example-use-cases}
 
-为AEM Screens项目配置ContextHub后，您可以按照不同的用例了解数据触发资产如何在不同行业中发挥关键作用：
+為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發的資產如何在不同的產業中扮演重要角色：
 
-1. **[零售库存目标激活](retail-inventory-activation.md)**
-1. **[旅行中心温度激活](local-temperature-activation.md)**
-1. **[酒店预订激活](hospitality-reservation-activation.md)**
+1. **[零售詳細目錄目標啟動](retail-inventory-activation.md)**
+1. **[旅行中心溫度啟用](local-temperature-activation.md)**
+1. **[Hospality Reservation Activation](hospitality-reservation-activation.md)**

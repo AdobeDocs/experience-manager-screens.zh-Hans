@@ -1,61 +1,61 @@
 ---
-title: 项目分类
+title: 專案分類法
 seo-title: Project Taxonomy
-description: 本页介绍项目分类
+description: 本頁說明專案分類法
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
-# 项目分类 {#project-taxonomy}
+# 專案分類法 {#project-taxonomy}
 
 >[!NOTE]
 >
->本活动的典型利益相关方是AEM实施者。
+>此活動的典型利害關係人是AEM實作人員。
 
-在创建AEM Screens项目之前，请务必了解在项目的UX线框构建阶段中定义的所有组件，并为其制定策略。
+在建立AEM Screens專案之前，請務必瞭解並策略化專案的UX線框階段中定義的所有元件。
 
-在实施AEM Screens数字标牌解决方案之前，请确保考虑以下元素：
+在實作AEM Screens數位看板解決方案之前，請務必考量下列元素：
 
 * **位置**
 * **MediaZones**
 * **显示**
 * **计划**
-* **预览内容**
+* **預覽內容**
 
-要了解这些术语，请参阅 [术语表](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
-
->[!NOTE]
->
->最好考虑使用：
->
->* 用于自动填充Screens项目的硬件资产数据库
->* 文本配置文件，自动将每个播放器指向AEM的特定实例
-
-
-## 实施AEM Screens项目 {#creating-a-project}
-
-AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户体验。 作者通过配置、部署和集成AEM Screens的可用区段，创建和审阅内容并提供易于使用的图形用户界面。
+若要瞭解這些詞語，請參閱 [字彙表](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
->作者将通过给定的序列创建渠道，并了解营销活动受众和所需的焦点。因此，AEM Screens 作者将通过创建不同的渠道并将序列分配到定时渠道体验中，来创建和安排最终用户体验。
+>最佳實務是考慮使用：
+>
+>* 自動填入Screens專案的硬體資產資料庫
+>* 文字設定檔案，可自動將每個播放器指向AEM的特定執行個體
 
-作者通常通过以下方式开始AEM Screens项目：
 
-* [创建AEM Screens项目](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
-* [创建渠道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
-* [将组件和资产添加到渠道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
-* [创建计划](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
-* [创建位置](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
-* [创建显示](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
-* [将渠道分配到显示屏](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+## 實作AEM Screens專案 {#creating-a-project}
 
-* [在AEM Screens播放器中查看内容](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
+AEM Screens作者負責使用AEM Screens中的可用元件來建立和管理使用者體驗。 作者可設定、部署和整合AEM Screens的可用區段，藉此建立和檢閱內容，並提供簡單易用的圖形使用者介面。
 
 >[!NOTE]
->您还可以将一组位置从CSV/XLS电子表格批量导入到AEM Screens项目。 关注 [从文件新建项目导入程序](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) 以了解更多详细信息。
+>
+>作者會從指定的序列建立管道，並瞭解行銷活動對象和所需的焦點。 因此，AEM Screens作者可建立不同的管道，並將序列指派至計時管道體驗，藉此建立並協調一般使用者體驗。
+
+作者一般會透過以下方式開始AEM Screens專案：
+
+* [建立AEM Screens專案](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [建立頻道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [新增元件和資產至管道](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [建立排程](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [建立位置](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [建立顯示區](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [將管道指派給顯示區](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [在AEM Screens播放器中檢視內容](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
+
+>[!NOTE]
+>您也可以從CSV/XLS試算表大量匯入一組位置至您的AEM Screens專案。 追隨 [從檔案新增專案匯入工具](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) 以取得更多詳細資料。

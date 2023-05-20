@@ -1,247 +1,247 @@
 ---
 title: Kickstart指南
-seo-title: Kickstart指南
-description: 请按照本页创建一个演示AEM Screens项目。 它可帮助您创建数字标牌体验，从安装和设置新项目开始，到在AEM Screens播放器中查看您的内容。
-feature: 数字标牌概述
+seo-title: Kickstart Guide
+description: 請依照本頁面的說明建立示範AEM Screens專案。 它可協助您建立數位看板體驗，從安裝和設定新專案開始，一直到在AEM Screens播放器中檢視您的內容。
+feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 5%
+source-wordcount: '1315'
+ht-degree: 2%
 
 ---
 
 # Kickstart指南 {#kickstart-guide}
 
-AEM Screens启动演示了如何设置和运行AEM Screens项目。 它可指导您设置基本的数字标牌体验，并向每个渠道添加资产和/或视频等内容，以及将内容进一步发布到AEM Screens播放器。
+AEM Screens快速入門示範如何設定和執行AEM Screens專案。 它會逐步帶您設定基本的數位看板體驗，以及將資產和/或視訊等內容新增至每個管道，並進一步將內容發佈至AEM Screens播放器。
 
 >[!NOTE]
->在开始处理项目详细信息之前，请确保已安装最新的AEM Screens功能包。 您可以使用Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载最新功能包。
+>開始處理專案詳細資料之前，請確定您已安裝AEM Screens的最新Feature Pack。 您可以從以下網址下載最新的Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
 
 ## 前提条件 {#prerequisites}
 
-请按照以下步骤为AEM Screens创建示例项目，并进一步将内容发布到Screens播放器。
+請依照下列步驟，為AEM Screens建立範例專案，並進一步將內容發佈至Screens播放器。
 
 >[!NOTE]
->以下教程将在Chrome OS播放器中显示渠道的内容。
+>下列教學課程會示範如何在Chrome作業系統播放器中播放管道的內容。
 
 >[!IMPORTANT]
->**OSGi配置设置**
->必须启用空反向链接，才能允许设备将数据发布到服务器。 例如，如果禁用了空反向链接属性，则设备将无法发布回屏幕截图。 目前，其中某些功能仅在OSGi配置中启用了Apache Sling反向链接过滤器允许为空时才可用。 功能板可能显示一条警告，指出安全设置可能会阻止某些功能正常工作。
->请按照以下步骤启用&#x200B;***Apache Sling反向链接过滤器允许空***:
+>**OSGi組態設定**
+>您必須啟用空白反向連結，以允許裝置將資料發佈至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。 目前，其中部分功能僅在OSGi設定中啟用Apache Sling反向連結篩選允許空白時才能使用。 儀表板可能會顯示警告，指出安全性設定可能會阻止這些功能的部分功能運作。
+>請依照下列步驟啟用 ***Apache Sling反向連結篩選器允許空白***：
 
 
-## 允许空反向链接请求 {#allow-empty-referrer-requests}
+## 允許空的反向連結請求 {#allow-empty-referrer-requests}
 
-1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
+1. 導覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體 — >槌子圖示 — > **作業** —> **網頁主控台**.
 
    ![图像](assets/config/empty-ref1.png)
 
-1. **Adobe Experience Manager Web控制台** 配置打开。搜索sling反向链接。
+1. **Adobe Experience Manager Web主控台設定** 隨即開啟。 搜尋Sling反向連結。
 
-   要搜索Sling反向链接属性，请按&#x200B;**Command+F**（对于&#x200B;**Mac**）和&#x200B;**Control+F**（对于&#x200B;**Windows**）。
+   若要搜尋Sling查閱者屬性，請按 **Command+F** 的 **Mac** 和 **Control+F** 的 **Windows**.
 
-1. 选中&#x200B;**允许空**&#x200B;选项，如下图所示。
+1. 檢查 **允許空白** 選項，如下圖所示。
 
    ![图像](assets/config/empty-ref2.png)
 
-1. 单击&#x200B;**Save**&#x200B;以启用Apache Sling反向链接过滤器允许为空。
+1. 按一下 **儲存** 以啟用Apache Sling反向連結篩選允許空白。
 
-## 在五分钟之内创建一个数字标牌体验 {#creating-a-digital-signage-experience-in-minutes}
+## 在5分鐘內建立數位看板體驗 {#creating-a-digital-signage-experience-in-minutes}
 
-### 创建AEM Screens项目 {#creating-project}
+### 建立AEM Screens專案 {#creating-project}
 
-第一步是创建一个AEM Screens项目。
+第一步是建立AEM Screens專案。
 
-1. 导航到您的Adobe Experience Manager(AEM)实例，然后单击&#x200B;**Screens**。 或者，您也可以直接从`https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`导航。
+1. 導覽至您的Adobe Experience Manager (AEM)執行個體，然後按一下 **Screens**. 或者，您可以直接從 `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. 单击&#x200B;**创建Screens项目**&#x200B;以创建新的Screens项目。 输入&#x200B;**DemoScreens**&#x200B;标题，然后单击&#x200B;**Save**。
+1. 按一下 **建立畫面專案** 以建立新的畫面專案。 輸入標題為 **DemoScreens** 並按一下 **儲存**.
 
    ![图像](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >创建项目后，您将返回Screens项目主页。 现在，您可以选择自己的项目。在项目中，有五个不同的文件夹，标题为&#x200B;**应用程序**、**渠道**、**设备**、**位置**&#x200B;和&#x200B;**计划**。
+   >建立專案後，您會回到「畫面專案」首頁。 您現在可以選取專案。 在專案中，有5個標題為 **應用**， **頻道**， **裝置**， **位置**、和 **時程表**.
 
-### 创建渠道 {#creating-channel}
+### 建立頻道 {#creating-channel}
 
-创建AEM Screens项目后，您需要创建一个新渠道以在其中管理内容。
+建立AEM Screens專案後，您需要建立一個管理內容的新管道。
 
-请按照以下步骤为项目创建新渠道：
+請依照下列步驟，為您的專案建立新管道：
 
-1. 创建项目后，选择&#x200B;**DemoScreens**&#x200B;项目，然后选择&#x200B;**渠道**&#x200B;文件夹，如下图所示。 单击操作栏中的&#x200B;**+创建**。
+1. 建立專案後，選取 **DemoScreens** 專案並選取 **頻道** 資料夾，如下圖所示。 按一下 **+建立** 動作列中的。
 
    ![图像](assets/kickstart/demo-2.png)
 
-1. 从向导中选择&#x200B;**序列渠道**，然后单击&#x200B;**下一步**。
+1. 選擇 **序列頻道** 從精靈中並按一下 **下一個**.
    ![图像](assets/kickstart/demo-3.png)
 
-1. 将&#x200B;**标题**&#x200B;输入为&#x200B;**TestChannel**，然后单击&#x200B;**创建**。
+1. 輸入 **標題** 作為 **TestChannel** 並按一下 **建立**.
 
    ![图像](assets/kickstart/demo-4.png)
 
-   **TestChannel**&#x200B;现已添加到渠道文件夹中，如下图所示。
+   此 **TestChannel** 現在已新增至您的管道資料夾，如下圖所示。
 
    ![图像](assets/kickstart/demo-5.png)
 
-### 向渠道添加内容 {#adding-content}
+### 新增內容至頻道 {#adding-content}
 
-渠道就绪后，您需要向渠道中添加AEM Screens播放器将显示的内容。
+頻道準備就緒後，您需要將AEM Screens播放器顯示的內容新增到頻道。
 
-请按照以下步骤向项目中的渠道(**TestChannel**)添加内容：
+請依照下列步驟，將內容新增至頻道(**TestChannel**)中：
 
-1. 导航到您创建的&#x200B;**DemoProject**，然后从&#x200B;**Channels**&#x200B;文件夹中选择&#x200B;**TestChannel**。
+1. 導覽至 **示範專案** 您已建立並選取 **TestChannel** 從 **頻道** 資料夾。
 
-1. 单击操作栏中的&#x200B;**编辑**（请参阅下图）。 将打开&#x200B;**TestChannel**&#x200B;的编辑器。
+1. 按一下 **編輯** （請參閱下圖）。 的編輯器 **TestChannel** 隨即開啟。
 
    ![图像](assets/kickstart/demo-6.png)
 
-1. 单击操作栏左侧用于切换侧面板的图标以打开资产和组件。
+1. 按一下可切換動作列左側側面板的圖示，開啟資產和元件。
 
-1. 将您希望添加的组件拖放到渠道中。
+1. 拖放您要新增至頻道的元件。
 
    ![图像](assets/kickstart/demo-7.png)
 
-### 创建位置 {#creating-location}
+### 建立位置 {#creating-location}
 
-渠道就位后，您需要创建一个位置。
-
->[!NOTE]
->***位置***&#x200B;可划分您的各种数字标牌体验，并包含各种屏幕所在位置所对应的显示器配置。
-
-请按照以下步骤为项目创建新位置：
-
-1. 导航到您创建的&#x200B;**DemoProject**&#x200B;文件夹，然后选择&#x200B;**Locations**&#x200B;文件夹。
-
-1. 单击操作栏中的&#x200B;**+创建**。
-
-1. 从向导中选择&#x200B;**位置**&#x200B;并单击&#x200B;**下一步**。
-
-1. 输入位置的&#x200B;**名称**（输入&#x200B;**TestLocation**&#x200B;的标题），然后单击&#x200B;**创建**。
-
-将创建&#x200B;**TestLocation**&#x200B;并将其添加到您的&#x200B;**Locations**&#x200B;文件夹中。
-
-
-### 创建位置显示 {#creating-display}
-
-创建位置后，您需要为该位置创建一个新显示屏。
+管道備妥後，您需要建立位置。
 
 >[!NOTE]
->***显示***&#x200B;表示在一个或多个屏幕上运行的数字体验。
+>***位置*** 劃分您的各種數位看板體驗，並根據各種熒幕的位置包含顯示器的設定。
 
-1. 导航到&#x200B;**TestLocation**&#x200B;并选择它。
+請依照下列步驟，為您的專案建立新位置：
 
-1. 单击操作栏中的&#x200B;**创建**。
+1. 導覽至 **示範專案** 您已建立並選取 **位置** 資料夾。
+
+1. 按一下 **+建立** 動作列中的。
+
+1. 選取 **位置** 從精靈中並按一下 **下一個**.
+
+1. 輸入 **名稱** （輸入標題為） **TestLocation**)並按一下 **建立**.
+
+此 **TestLocation** 已建立並新增至您的 **位置** 資料夾。
+
+
+### 建立位置顯示 {#creating-display}
+
+建立位置後，您需要為位置建立新的顯示區。
+
+>[!NOTE]
+>***顯示*** 代表在一或多個熒幕上執行的數位體驗。
+
+1. 導覽至 **TestLocation** 並選取它。
+
+1. 按一下 **建立** 動作列中的。
 
    ![图像](assets/kickstart/demo-disp1.png)
 
-1. 从&#x200B;**创建**&#x200B;向导中选择&#x200B;**显示**，然后单击&#x200B;**下一步**。
+1. 選取 **顯示** 從 **建立** 精靈並按一下 **下一個**.
 
    ![图像](assets/kickstart/demo-disp2.png)
 
-1. 将&#x200B;**标题**&#x200B;输入为&#x200B;**LobbyDisplay**，然后单击&#x200B;**创建**。
+1. 輸入 **標題** 作為 **LobbyDisplay** 並按一下 **建立**.
 
    ![图像](assets/kickstart/demo-disp3.png)
 
-   标题为&#x200B;**TestDisplay**&#x200B;的新显示屏现已添加到您的位置&#x200B;**TestLocation**，如下图所示。
+   標題為的新顯示 **TestDisplay** 現在已新增至您的位置 **TestLocation**，如下圖所示。
 
    ![图像](assets/kickstart/demo-disp4.png)
 
-### 分配渠道 {#assigning-channel}
+### 指派管道 {#assigning-channel}
 
-项目设置完成后，必须将渠道分配给显示屏来查看内容。
+專案設定完成後，您必須將頻道指派給顯示區，才能檢視內容。
 
-1. 从&#x200B;**DemoScreens** —> **位置** —> **TestLocation** —> **LobbyDisplay**&#x200B;导航到所需的显示屏。
+1. 瀏覽至所需顯示區，從 **DemoScreens** —> **位置** —> **TestLocation** —> **LobbyDisplay**.
 
-1. 点按/单击操作栏中的&#x200B;**分配渠道** 。
+1. 點選/按一下 **指派頻道** 動作列中的。
 
    ![图像](assets/kickstart/demo-assign1.png)
 
-   或者，
+   或者,
 
-   点按/单击操作栏中的&#x200B;**功能板** ，然后单击&#x200B;**已分配的渠道和计划**&#x200B;面板中的&#x200B;**+分配渠道**。
+   點選/按一下 **儀表板** ，然後按一下 **+指派頻道** 從 **已指派的管道和排程** 面板。
 
    ![图像](assets/kickstart/demo-assign2.png)
 
-1. 将打开&#x200B;**渠道分配**&#x200B;对话框。
+1. 此 **頻道指定任務** 對話方塊開啟。
 
-1. 从&#x200B;**设置**&#x200B;选项中，按路径&#x200B;**和**&#x200B;受支持事件&#x200B;**选择通道**&#x200B;作为&#x200B;**初始加载**&#x200B;和&#x200B;**空闲屏幕**。
+1. 從 **設定** 選項，選擇頻道 **依路徑**  和 **支援的事件** 作為 **初始載入** 和 **閒置畫面**.
 
    >[!NOTE]
    >
-   >默认情况下，将填充&#x200B;**渠道角色**、**优先级**&#x200B;和&#x200B;**中断方法**。 请参阅[渠道属性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties)部分，了解有关渠道分配属性的更多信息。
+   >此 **頻道角色**， **優先順序**、和 **中斷方法** 預設會填入所有內容。 另請參閱 [管道屬性](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) 區段，以進一步瞭解頻道指派屬性。
 
    ![图像](assets/kickstart/demo-assign3.png)
 
-   此外，您还可以选择&#x200B;**激活窗口**&#x200B;和&#x200B;**重复计划**。
+   此外，您也可以選取 **啟用期間** 和 **遞回排程**.
 
    >[!NOTE]
-   >*重复计划*允许您为渠道设置重复计划。 为渠道设置多个重复计划。
-   >有关更多详细信息，请参阅[重复计划](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
+   >此 *遞回排程* 可讓您設定頻道的週期性排程。 您可以為管道設定多個週期排程。
+   >另請參閱 [遞回排程](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 以取得更多詳細資料。
 
-1. 配置首选项后，单击&#x200B;**Save**。
+1. 按一下 **儲存** 設定您的偏好設定後。
 
-### 注册设备并将设备分配给显示器 {#registering-device}
+### 註冊裝置並指派裝置給顯示器 {#registering-device}
 
-您需要使用AEM仪表板注册设备。
+您必須使用AEM儀表板註冊裝置。
 
 >[!IMPORTANT]
->在开发人员模式下，Chrome OS播放器可以作为Chrome浏览器插件安装，而无需使用实际的Chrome播放器设备。 要进行安装，请执行以下步骤：
+>Chrome作業系統播放器可在開發人員模式下安裝為Chrome瀏覽器外掛程式，而不需要實際的Chrome播放器裝置。 若要進行安裝，請遵循下列步驟：
 >
->1. 单击[此处](https://download.macromedia.com/screens/)下载最新的Chrome播放器。
->1. 解压缩并将其保存在磁盘上。
->1. 打开Chrome浏览器并从菜单中选择&#x200B;**扩展**，或直接导航到&#x200B;***chrome://extensions***。
->1. 从右上角切换&#x200B;**开发人员模式**。
->1. 单击左上角的&#x200B;**Load Unpacked** ，然后加载已解压的Chrome播放器。
->1. 检查&#x200B;**AEM Screens Chrome Player**&#x200B;插件（如果扩展列表中可用）。
->1. 打开新选项卡，然后单击左上角的&#x200B;**Apps**&#x200B;图标，或直接导航到&#x200B;***chrome://apps***。
->1. 单击&#x200B;**AEM Screens**&#x200B;插件以启动Chrome播放器。 默认情况下，播放器以全屏模式启动。 按&#x200B;**esc**&#x200B;退出全屏模式。
+>1. 按一下 [此處](https://download.macromedia.com/screens/) 以下載最新的Chrome Player。
+>1. 解壓縮並儲存在磁碟上。
+>1. 開啟Chrome瀏覽器並選取 **擴充功能** 或直接導覽至「 」 ***chrome://extensions***.
+>1. 切換至 **開發人員模式** 從右上角。
+>1. 按一下 **載入已解壓縮** 從左上角，並載入解壓縮的Chrome Player。
+>1. Check **AEM Screens Chrome Player** 外掛程式（如果可在擴充功能清單中取得）。
+>1. 開啟新標籤，然後按一下 **應用程式** 圖示瀏覽，或直接導覽至 ***chrome://apps***.
+>1. 按一下 **AEM Screens** 啟動Chrome Player的外掛程式。 依預設，播放器會以全熒幕模式啟動。 按下 **esc** 以結束全熒幕模式。
 
 
-在您的Chrome OS播放器开启后，请按照以下步骤注册Chrome设备。
+開啟Chrome作業系統播放器後，請依照下列步驟註冊Chrome裝置。
 
-1. 从AEM实例导航到项目的&#x200B;**Devices**&#x200B;文件夹。
+1. 導覽至 **裝置** 從AEM執行個體取得專案的資料夾。
 
-1. 点按/单击操作栏中的&#x200B;**设备管理器**。
+1. 點選/按一下 **裝置管理員** 動作列中的。
 
    ![图像](assets/kickstart/demo-register1.png)
 
-1. 点按/单击右上方的&#x200B;**设备注册**。
+1. 點選/按一下 **裝置註冊** 從右上角。
 
-1. 选择所需的设备，然后点按/单击&#x200B;**注册设备**。
+1. 選取所需的裝置，然後點選/按一下 **註冊裝置**.
 
    ![图像](assets/kickstart/demo-register2.png)
 
-1. 等待设备发送其注册代码，并同时检查Chrome设备中的&#x200B;**注册代码**。
+1. 等候裝置傳送其註冊代碼，同時檢查 **註冊代碼** 從您的Chrome裝置。
    ![图像](assets/kickstart/demo-register3.png)
 
-1. 如果两台计算机上的&#x200B;**注册代码**&#x200B;相同，请点按/单击AEM中的&#x200B;**验证**。
+1. 如果 **註冊代碼** 在這兩部電腦上相同，請點選/按一下 **驗證** 在AEM中。
 
-1. 将设备的所需名称设置为&#x200B;**ChromeDeviceforDemo**，然后单击&#x200B;**注册**。
+1. 將所需的名稱設為 **ChromeDeviceforDemo** ，然後按一下 **註冊**.
 
    ![图像](assets/kickstart/demo-register4.png)
 
-1. 单击&#x200B;**设备注册成功**&#x200B;对话框中的&#x200B;**指定显示**。
+1. 按一下 **指派顯示區** 從 **裝置註冊成功** 對話方塊。
 
    ![图像](assets/kickstart/demo-register5.png)
 
-1. 选择显示路径，作为&#x200B;**DemoScreens** —> **位置** —> **TestLocation** —> **LobbyDisplay** ，然后单击&#x200B;**分配**。
+1. 選取要顯示為 **DemoScreens** —> **位置** —> **TestLocation** —> **LobbyDisplay** 並按一下 **指派**.
 
    ![图像](assets/kickstart/demo-device6.png)
 
-1. 成功分配设备后，您将看到以下确认信息。
+1. 成功指派裝置後，您將會看到以下確認。
 
    ![图像](assets/kickstart/demo-register8.png)
 
-1. 点按/单击&#x200B;**完成**&#x200B;以完成注册过程。 您应该能够从显示仪表板中查看注册的设备。
+1. 點選/按一下 **完成** 以完成註冊程式。 您應該可以從顯示儀表板檢視已註冊的裝置。
 
    ![图像](assets/kickstart/demo-register9.png)
 
-### 在Chrome播放器中查看内容 {#viewing-content-output}
+### 在Chrome播放器中檢視內容 {#viewing-content-output}
 
-现在，渠道中的所有资产都在您的Chrome OS播放器上播放。
+您頻道中的所有資產現在都會在Chrome作業系統播放器上播放。
 
-恭喜您现在正在AEM Screens频道中播放内容！
+恭喜您現在在AEM Screens頻道中播放內容！
 
 ![图像](assets/kickstart/demo-video-screens.gif)

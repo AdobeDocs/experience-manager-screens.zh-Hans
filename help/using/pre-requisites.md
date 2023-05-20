@@ -1,45 +1,45 @@
 ---
-title: 先决条件[!UICONTROL AEM Screens]
-seo-title: '[!UICONTROL AEM Screens]项目的先决条件'
-description: 本指南介绍了启动AEM Screens项目之前的先决条件。
-seo-description: 本指南介绍了启动AEM Screens项目之前的先决条件。
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+title: 必要條件 [!UICONTROL AEM Screens]
+seo-title: Prerequisites for [!UICONTROL AEM Screens] Projects
+description: 本指南說明啟動AEM Screens專案前的先決條件。
+seo-description: The guide describes what are the pre-requisites before starting an AEM Screens project.
+exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 1%
+source-wordcount: '598'
+ht-degree: 2%
 
 ---
 
+# 先決條件 {#prerequisites}
 
-# 先决条件 {#prerequisites}
+在深入瞭解實作AEM Screens專案的詳細資訊之前，建議您遵循特定的教學課程和閱讀材料。
 
-在深入了解实施AEM Screens项目的详细信息之前，建议您先阅读特定的教程和阅读材料。
+## 學習AEM (Adobe Experience Manager) {#learning-aem}
 
-## 学习AEM(Adobe Experience Manager){#learning-aem}
+開始使用AEM Screens製作數位看板專案前，請先瞭解Adobe Experience Manager (AEM)知識，並應在AEM Screens專案製作前完成。
 
-在您开始使用AEM Screens来创建数字标牌项目之前，需要具备Adobe Experience Manager(AEM)相关知识，且应在处理AEM Screens项目之前完成该知识。
+請參閱下列教學課程和資源，以瞭解Adobe Experience Manager 6.5：
 
-请参阅以下教程和资源以了解Adobe Experience Manager 6.5:
+* **[Adobe Experience Manager快速入門](https://helpx.adobe.com/cn/experience-manager/get-started.html)**：探索Adobe Experience Manager的快速入門文章和影片教學課程。
 
-* **[Adobe Experience Manager快速入门](https://helpx.adobe.com/cn/experience-manager/get-started.html)**:了解Adobe Experience Manager的入门文章和视频教程。
+* **[AEM 6.5Tutorials和影片](https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html)**：教學課程和影片系列，重點說明AEM 6.5版本中AEM Sites、Assets、Forms、Screens和Foundation的新功能和更新功能。
 
-* **[AEM 6.5Tutorials和视频](https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html)**:AEM 6.5版本中的教程和视频集合，其中重点介绍了AEM Sites、Assets、Forms、Screens和Foundation的新增和更新功能。
+* **[作者的首要步驟](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/first-steps.html)**：本節提供開始使用Adobe Experience Manager (AEM)編寫內容時將使用的主要工作概覽。
 
-* **[作者的首要步骤](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/first-steps.html)**:本节概述开始使用Adobe Experience Manager(AEM)创作内容时将使用的主要任务。
+* **[AEM核心概念](https://helpx.adobe.com/cn/experience-manager/6-5/sites/developing/using/the-basics.html)**：概述AEM如何建構的核心概念以及如何在其上進行開發，包括瞭解JCR、Sling、OSGi、Dispatcher、工作流程和MSM。
 
-* **[AEM核心概念](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html)**:概述了AEM的结构方式以及如何在其上进行开发的核心概念，包括了解JCR、Sling、OSGi、调度程序、工作流和MSM。
+## 瞭解AEM Screens中的產品功能和角色 {#product-features}
 
-## 在AEM Screens中了解产品功能和角色{#product-features}
+若要瞭解AEM Screens專案的基本知識，請參閱下列資源：
 
-要了解AEM Screens项目的基础知识，请参阅以下资源：
+* **[AEM Screens使用手冊](https://helpx.adobe.com/cn/experience-manager/6-5/screens/user-guide.html)**：提供在AEM Screens專案中使用的各種角色之特性和功能的詳細檔案。
 
-* **[AEM Screens用户指南](https://helpx.adobe.com/cn/experience-manager/6-5/screens/user-guide.html)**:提供关于AEM Screens项目中所用各种角色的特性和功能的详细文档。
+* **[AEM Screens Implements Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**：提供引導式教學課程，重點說明AEM Screens實作Essentials。
 
-* **[AEM Screens实施要点](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**:提供了一个指导式教程，其中重点介绍了AEM Screens实施要点。
-
-* **[有关数字标牌网络基础知识的视频](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)**:提供了五个基本视频，重点介绍有关A/V、数字标牌硬件、标牌网络以及与A/V集成商合作的关键要素。
-   * *[第一部分：项目角色和职责](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)*:重点介绍5个部分系列的第1部分，这些系列旨在帮助团队成员更好地了解数字标牌项目在销售和项目生命周期期间所需的角色、职责和时间线。涵盖Adobe、AEM实施人员和高级AV集成人员的项目角色和职责。
-   * *[第2部分：关于项目适用范围的注意事项](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html)*:重点介绍5部分系列的第2部分，该系列旨在帮助团队成员更好地了解促进成功部署AEM Screens的售前方面。涵盖在项目发现过程中必须确定的元素以及利益相关方的意见，以评估项目并准备适当的设计。
-   * *[第三部分：测试、POC、试点和推广](https://helpx.adobe.com/experience-manager/6-5/screens/using/testing-pocs-pilots-rollouts.html)*:重点介绍5部分系列的第3部分，该系列旨在帮助团队成员更好地了解在推出产品之前开发成功解决方案的关键术语。包括围绕硬件实验室测试和性能验证、概念验证（也称为POC）和试点计划的操作。
-   * *[第4部分：项目管理和部署](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)*:重点介绍5个部分系列的第4部分，该系列旨在涵盖项目管理和部署准备，并定义AV Integrator负责与项目管理和部署准备相关的关键因素。包括项目预生产、项目启动和项目进展。
-   * *[第5部分：支持注意事项](https://helpx.adobe.com/experience-manager/6-5/screens/using/support-considerations.html)*:重点介绍5部分系列的结束部分，该系列旨在帮助团队成员了解如何解决硬件、软件和连接问题。本阶段探讨现场支持的成本估算和框架。 此外，还说明了如何管理SLA参数、操作预算和NOC切换。
+* **[數位看板網路基本概念影片](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html?topic=/experience-manager/6-5/screens/morehelp/digital-signage-networks-basics.ug.js)**：提供五部基本影片，重點說明A/V、數位看板硬體、看板網路及與A/V整合經銷商合作等重要元素。
+   * *[第1部分：專案角色與職責](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)*：重點說明5部分系列的第1部分，旨在協助專案團隊成員更瞭解數位看板專案的銷售和專案生命週期期間所需的角色、職責和時間表。 從高層面涵蓋Adobe、AEM實作人員和AV整合商的專案角色和責任。
+   * *[第2部分：設定範圍專案的考量事項](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html)*：此影片共5個部分，重點說明第2部分，旨在協助團隊成員更瞭解成功開發AEM Screens部署的售前環節。 涵蓋專案探索期間必須識別的元素，以及利害關係人的意見，以評估專案並準備適當的設計。
+   * *[第3部分：測試、POC、試行方案和推出](https://helpx.adobe.com/experience-manager/6-5/screens/using/testing-pocs-pilots-rollouts.html)*：重點說明五部分系列的第3部分，旨在協助團隊成員更瞭解關鍵術語，以確保在推出解決方案之前能開發出成功的解決方案。 涵蓋有關硬體實驗室測試和效能驗證、概念證明（也稱為POC）和實驗計畫的動作。
+   * *[第4部分：專案管理與部署](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)*：重點說明五部分系列的第4部分，其設計涵蓋專案管理和部署準備，並定義AV整合商負責專案管理和部署準備的關鍵因素。 涵蓋專案前期製作、專案啟動和專案進度。
+   * *[第5部分：支援考量事項](https://helpx.adobe.com/experience-manager/6-5/screens/using/support-considerations.html)*：重點說明五個部分系列的結尾部分，旨在協助團隊成員瞭解如何解決硬體、軟體和連線問題。 本階段探討現場支援的成本估算與架構。 此外，也說明如何管理SLA引數、營運預算和NOC移交。

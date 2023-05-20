@@ -1,95 +1,95 @@
 ---
-title: 从ContentSync过渡到SmartSync
-seo-title: 从ContentSync过渡到SmartSync
-description: 请阅读本页，了解SmartSync功能以及如何从ContentSync迁移到SmartSync。
-seo-description: 请阅读本页，了解SmartSync功能以及如何从ContentSync迁移到SmartSync。
+title: 從ContentSync轉換為SmartSync
+seo-title: Transitioning from ContentSync to SmartSync
+description: 請依照本頁瞭解SmartSync功能，以及如何從ContentSync轉換到SmartSync。
+seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 uuid: c0619b56-1f6f-465a-a428-6df28e40b555
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
-feature: 管理屏幕
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
-# 从ContentSync过渡到SmartSync {#transitioning-from-contentsync-to-smartsync}
+# 從ContentSync轉換為SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-本节概述了SmartSync功能，以及它如何最大限度地减少服务器负载/存储和网络流量以降低成本。
+本節提供SmartSync功能的概觀，並說明如何最小化伺服器負載/儲存及網路流量，以降低成本。
 
 ## 概述 {#overview}
 
-SmartSync是AEM Screens使用的最新机制。 它取代了当前用于缓存离线渠道并将其交付到播放器的方法。
+SmartSync是AEM Screens使用的最新機制。 它取代目前用來快取離線頻道並將它們傳送給播放器的方法。
 
-它同时在服务器端和客户端执行。
+它會在伺服器端和使用者端執行。
 
-**在服务器端**:
+**在伺服器端**：
 
-* 渠道的内容（包括资产）缓存在&#x200B;*/var/contentsync*&#x200B;中。
-* 缓存通过描述显示屏可用内容的清单向播放器公开。
+* 管道的內容（包括資產）會快取到 */var/contentsync*.
+* 快取會透過資訊清單向播放器公開，資訊清單會說明可供顯示的內容。
 
-**在客户端**:
+**使用者端**：
 
-* 播放器会根据上面生成的清单更新其内容。
+* 播放器會根據上述產生的資訊清單更新其內容。
 
-### 使用SmartSync的好处 {#benefits-of-using-smartsync}
+### 使用SmartSync的好處 {#benefits-of-using-smartsync}
 
-SmartSync功能为您的AEM Screens项目提供了许多好处。 它允许
+SmartSync功能可為您的AEM Screens專案提供許多優點。 它允許
 
-* 大幅降低网络流量和服务器端存储需求
-* 仅当资产丢失或发生更改时，播放器才会智能地下载资产
-* 服务器端和客户端存储优化
-
->[!NOTE]
->
->Adobe强烈建议对AEM Screens项目使用SmartSync。
-
-## 从ContentSync迁移到SmartSync {#migrating-from-contentsync-to-smartsync}
+* 大幅降低網路流量與伺服器端儲存需求
+* 只有在資產遺失或變更時，播放器才會智慧地下載資產
+* 伺服器端和使用者端儲存最佳化
 
 >[!NOTE]
 >
->如果您已安装AEM 6.3功能包5和AEM 6.4功能包3，则可以为资产启用SmartSync以提高磁盘空间使用率。 要启用SmartSync，请按照以下部分从ContentSync转换到SmartSync，从而启用SmartSync。
->
->SmartSync可用于具有受支持服务器AEM 6.4.3 FP3的Screens播放器。
->
->请参阅[AEM Screens Player Downloads](https://download.macromedia.com/screens/)以下载最新的播放器。 下表描述了每个平台所需的最低播放器版本：
+>Adobe強烈建議對AEM Screens專案使用SmartSync。
 
-| **平台** | **支持的最低播放器版本** |
+## 從ContentSync移轉至SmartSync {#migrating-from-contentsync-to-smartsync}
+
+>[!NOTE]
+>
+>如果您已安裝AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，您可以啟用資產的SmartSync來改善磁碟空間使用量。 若要啟用SmartSync，請遵循以下章節，從ContentSync轉變為SmartSync，進而啟用SmartSync。
+>
+>SmartSync適用於支援伺服器AEM 6.4.3 FP3的Screens Player。
+>
+>請參閱 [AEM Screens播放器下載](https://download.macromedia.com/screens/) 以下載最新的播放器。 下表說明每個平台所需的最低播放器版本：
+
+| **Platform** | **最低支援的播放器版本** |
 |---|---|
 | Android | 3.3.72 |
-| Chrome OS | 1.0.136 |
+| Chrome作業系統 | 1.0.136 |
 | Windows | 1.0.136 |
 
-请按照以下步骤从ContentSync迁移到SmartSync:
+請依照下列步驟，從ContentSync轉變為SmartSync：
 
-1. 从ContentSync迁移到SmartSync时，需要先清除ContentSync缓存，然后再激活SmartSync。
+1. 從ContentSync移轉至SmartSync時，必須先清除ContentSync快取，才能啟動SmartSync。
 
-   使用链接&#x200B;***https://localhost:4502/libs/cq/contentsync/content/console.html***&#x200B;从实例导航到ContentSync控制台，然后单击&#x200B;**清除缓存**，如下图所示：
+   使用連結從您的執行個體導覽至ContentSync主控台 ***https://localhost:4502/libs/cq/contentsync/content/console.html*** 並按一下 **清除快取**，如下圖所示：
 
-   ![clear_contensync_cache](assets/clear_contesync_cache.png)
+   ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
    >[!CAUTION]
    >
-   >在首次使用SmartSync之前，必须清除所有内容缓存。
+   >第一次使用SmartSync之前，必須清除所有內容快取。
 
-1. 通过AEM实例导航到&#x200B;**Adobe Experience Manager Web控制台配置** —>锤子图标 — > **操作** —> **Web控制台**。
+1. 導覽至 **Adobe Experience Manager Web主控台設定** 透過AEM執行個體 — >槌子圖示 — > **作業** —> **網頁主控台**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Web控制台** 配置打开。搜索&#x200B;*offlinecontentservice*。
+1. **Adobe Experience Manager Web主控台設定** 隨即開啟。 搜尋 *offlinecontentservice*.
 
-   要搜索&#x200B;**Screens Offline Content Service**&#x200B;属性，请按&#x200B;**Command+F**（对于&#x200B;**Mac**）和&#x200B;**Control+F**（对于&#x200B;**Windows**）。
+   用於搜尋 **Screens離線內容服務** 屬性，按下 **Command+F** 的 **Mac** 和 **Control+F** 的 **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. 单击&#x200B;**Save**&#x200B;以启用&#x200B;**Screens Offline Content Services**&#x200B;属性，从而为AEM Screens使用SmartSync。
-1. 启用SmartSync后，必须导航到您的项目并单击&#x200B;**更新离线内容** *（从操作栏中），*，如下图所示。
+1. 按一下 **儲存** 以啟用 **Screens離線內容服務** 屬性，因此使用AEM Screens的SmartSync。
+1. 啟用SmartSync後，您必須導覽至專案並按一下 **更新離線內容** *（從動作列），* 如下圖所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

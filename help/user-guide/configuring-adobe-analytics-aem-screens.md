@@ -1,8 +1,8 @@
 ---
-title: 使用Adobe Analytics配置AEM Screens
-seo-title: 使用Adobe Analytics配置AEM Screens
-description: 请阅读本节内容，了解有关使用离线Adobe Analytics排序和发送自定义事件的更多信息
-seo-description: 请阅读本节内容，了解有关使用离线Adobe Analytics排序和发送自定义事件的更多信息
+title: 使用AEM Screens設定Adobe Analytics
+seo-title: Configuring Adobe Analytics with AEM Screens
+description: 請參照本節，進一步瞭解如何使用離線Adobe Analytics排序和傳送自訂事件
+seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -10,216 +10,216 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: 管理屏幕
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '672'
+ht-degree: 7%
 
 ---
 
-# 使用Adobe Analytics配置AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# 使用AEM Screens設定Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->仅当您安装了AEM 6.4.2功能包2和AEM 6.3.3功能包4时，才提供此AEM Screens功能。
+>此AEM Screens功能僅在您已安裝AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4時可用。
 >
->要访问这些功能包中的任何一个，您必须联系Adobe支持并请求获取访问权限。 您获得权限后，就可以从“包共享”下载它。
+>若要存取這兩個Feature Pack，您必須聯絡Adobe支援並請求存取權。 一旦您擁有許可權，就可以從「封裝共用」下載它。
 
-本节涵盖以下主题：
+本節涵蓋下列主題：
 
-* **Adobe Analytics与AEM Screens测序**
-* **使用离线发送自定义事件Adobe Analytics**
+* **使用AEM Screens在Adobe Analytics中排序**
+* **使用離線Adobe Analytics傳送自訂事件**
 
-## Adobe Analytics与AEM Screens测序 {#sequencing-in-adobe-analytics-with-aem-screens}
+## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-***排序过程***&#x200B;从激活Adobe Analytics服务的数据存储服务开始。 渠道内容通过工资单发送Adobe Analytics事件，即数据测试捕获到Windows I/O并触发逗留事件。 事件将保存到索引数据库中，并进一步放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，然后在区块存储中进一步传输数据。 连接后，会尝试发送最大数据量。
+此 ***排序程式*** 從啟用Adobe Analytics服務的資料儲存服務開始。 管道內容會傳送具有給薪的Adobe Analytics事件，也就是將資料測試擷取傳送到Windows I/O，並觸發保留事件。 事件會儲存至索引DB，並進一步放入物件存放區。 管理員會根據排程設定，從物件存放區剪下資料，然後進一步在區塊存放區中傳輸資料。 它會嘗試在連線時傳送最大數量的資料。
 
-### 排序图 {#sequencing-diagram}
+### 排序圖表 {#sequencing-diagram}
 
-以下顺序图介绍了Adobe Analytics与AEM Screens的集成：
+下列順序圖說明Adobe Analytics與AEM Screens的整合：
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## 使用离线发送自定义事件Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
+## 使用離線Adobe Analytics傳送自訂事件 {#sending-custom-events-using-offline-adobe-analytics}
 
-下表汇总了事件的标准数据模型。 其中列出了发送到Adobe Analytics的所有字段：
+下表總結列出事件的標準資料模型。 其中列出傳送至Adobe Analytics的所有欄位：
 
 <table>
  <tbody>
   <tr>
-   <td><strong>区域</strong></td> 
-   <td><strong>属性标签</strong></td> 
-   <td><strong>属性名称/键</strong></td> 
+   <td><strong>分区</strong></td> 
+   <td><strong>屬性標籤</strong></td> 
+   <td><strong>屬性名稱/金鑰</strong></td> 
    <td><strong>必填</strong></td> 
    <td><strong>数据类型</strong></td> 
-   <td><strong>属性类型</strong><br /> </td> 
+   <td><strong>屬性型別</strong><br /> </td> 
    <td><strong>描述</strong></td> 
   </tr>
   <tr>
    <td><strong><em>核心/事件</em></strong></td> 
    <td>事件GUID</td> 
    <td>event.guid</td> 
-   <td>推荐</td> 
+   <td>建議</td> 
    <td>字符串</td> 
    <td>UUID</td> 
-   <td>标识事件实例的唯一ID</td> 
+   <td>識別事件執行個體的唯一ID</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>事件收集的日期时间</td> 
+   <td>收集事件的日期時間</td> 
    <td>event.coll_dts</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>字符串</td> 
-   <td>时间戳 — UTC</td> 
-   <td>收集日期时间</td> 
+   <td>時間戳記 — UTC</td> 
+   <td>集合日期時間</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>事件的日期时间（开始）</td> 
+   <td>事件的日期時間（開始）</td> 
    <td>event.dts_start</td> 
-   <td>推荐</td> 
+   <td>建議</td> 
    <td>字符串</td> 
-   <td>时间戳 — UTC</td> 
-   <td>事件开始日期时间，如果未指定此时间，则事件时间将假定为服务器收到该时间的时间</td> 
+   <td>時間戳記 — UTC</td> 
+   <td>事件開始日期時間，如果您未指定此時間，則會將事件時間假設為伺服器收到該事件的時間</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>事件的日期时间（结束）</td> 
+   <td>事件的日期時間（結束）</td> 
    <td>event.dts_end</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>字符串</td> 
-   <td>时间戳 — UTC</td> 
-   <td>事件完成日期时间</td> 
+   <td>時間戳記 — UTC</td> 
+   <td>事件完成日期時間</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>工作流</td> 
    <td>event.workflow</td> 
-   <td>推荐</td> 
+   <td>建議</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>工作流名称（屏幕）</td> 
+   <td>工作流程名稱（畫面）</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>主要DMe类别</td> 
+   <td>主要DMe類別</td> 
    <td>event.category</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>主类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型的分组 — <strong>我们发送播放器</strong></td> 
+   <td>主要類別（案頭、行動裝置、網頁、程式、SDK、服務、生態系統） — 事件型別分組 —  <strong>我們傳送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>子类别</td> 
+   <td>子類別</td> 
    <td>event.subcategory</td> 
-   <td>推荐</td> 
+   <td>建議</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>子类别 — 工作流的部分或屏幕的区域等。 （近期文件、抄送文件、移动设备创建等。）</td> 
+   <td>子類別 — 工作流程的區段或熒幕區域等。 （最近使用的檔案、CC檔案、行動裝置建立等）。</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>事件/操作类型</td> 
+   <td>事件/動作型別</td> 
    <td>event.type</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>事件类型（渲染、单击、捏合、缩放） — 主要用户操作</td> 
+   <td>事件型別（轉譯、按一下、捏合、縮放） — 主要使用者動作</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>子类型</td> 
    <td>event.subtype</td> 
-   <td>推荐</td> 
+   <td>建議</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>事件子类型（创建、更新、删除、发布等）  — 用户操作的其他详细信息</td> 
+   <td>事件子型別（建立、更新、刪除、發佈等）  — 使用者動作的其他詳細資訊</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>离线</td> 
    <td>event.offline</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>布尔型</td> 
    <td> </td> 
-   <td>操作处于离线/在线状态时生成事件(true/false)</td> 
+   <td>動作離線/上線時產生事件(true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>用户代理</td> 
+   <td>使用者代理</td> 
    <td>event.user_agent</td> 
-   <td>推荐（web属性）</td> 
+   <td>建議（Web屬性）</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>用户代理</td> 
+   <td>使用者代理</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>语言/区域设置</td> 
+   <td>語言/地區設定</td> 
    <td>event.language</td> 
-   <td>推荐</td> 
+   <td>建議</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>用户区域设置是基于RFC 3066的语言标记约定（例如，en-US、fr-FR或es-ES）的字符串</td> 
+   <td>使用者地區設定是以RFC 3066的語言標籤慣例為基礎的字串（例如，en-US、fr-FR或es-ES）</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>设备GUID</td> 
+   <td>裝置GUI</td> 
    <td>event.device_guid</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>字符串<br /> </td> 
    <td>UUID</td> 
-   <td>标识设备GUID（例如，计算机ID或IP地址+子网掩码+网络ID +用户代理的哈希） — 在此，我们将发送在注册时生成的播放器用户名。</td> 
+   <td>識別裝置GUID （例如電腦ID或IP位址的雜湊+子網路遮罩+網路ID +使用者代理） — 我們將在這裡傳送註冊時產生的播放器使用者名稱。</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>计数</td> 
    <td>event.count</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>数字</td> 
    <td> </td> 
-   <td>事件发生次数 — 此处我们发送视频持续时间</td> 
+   <td>事件發生的次數 — 我們在這裡傳送影片持續時間</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>值</td> 
+   <td>价值</td> 
    <td>event.value</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>事件的值（例如，打开/关闭设置）</td> 
+   <td>事件的值（例如開啟/關閉設定）</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>Pagename</td> 
    <td>event.pagename</td> 
-   <td>AA所需</td> 
+   <td>AA的必要專案</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>Adobe Analytics对自定义页面名称的支持</td> 
+   <td>Adobe Analytics對自訂頁面名稱的支援</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>URL</td> 
    <td>event.url</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>Web属性或移动架构的URL — 必须包含完全限定的URL</td> 
+   <td>Web屬性或行動結構描述的URL — 必須包含完整限定的URL</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>错误代码</td> 
+   <td>錯誤代碼</td> 
    <td>event.error_code</td> 
    <td> </td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>失败代码</td> 
+   <td>失敗碼</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -228,40 +228,40 @@ ht-degree: 9%
    <td> </td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>失败类型</td> 
+   <td>失敗型別</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>错误描述</td> 
+   <td>錯誤說明</td> 
    <td>event.error_description</td> 
    <td> </td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>失败描述<br /> </td> 
+   <td>失敗說明<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>来源/来源产品</em></strong></td> 
+   <td><strong><em>來源/原始產品</em></strong></td> 
    <td>名称</td> 
    <td>source.name</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>应用程序名称(AEM Screens)</td> 
+   <td>應用程式名稱(AEM Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>版本号</td> 
+   <td>版本</td> 
    <td>source.version</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>固件版本</td> 
+   <td>韌體版本</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>平台</td> 
+   <td>Platform</td> 
    <td>source.platform</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -270,64 +270,64 @@ ht-degree: 9%
    <td> </td> 
    <td>设备</td> 
    <td>source.device</td> 
-   <td>必需的例外</td> 
+   <td>必填（包含例外）</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>播放器名称</td> 
+   <td>播放器名稱</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>操作系统版本</td> 
+   <td>作業系統版本</td> 
    <td>source.os_version</td> 
-   <td>必需的例外</td> 
+   <td>必填（包含例外）</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>O/S版本</td> 
+   <td>作業系統版本</td> 
   </tr>
   <tr>
    <td><strong><em>内容</em></strong></td> 
    <td>操作</td> 
    <td>content.action</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>资产的URL，包括实际播放的演绎版</td> 
+   <td>資產（包括實際播放的轉譯）的URL</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Mime类型</td> 
+   <td>Mime型別</td> 
    <td>content.mimetype</td> 
-   <td>可选</td> 
+   <td>可選</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>内容的MIME类型</td> 
+   <td>內容的MIME型別</td> 
   </tr>
   <tr>
    <td><strong><em>交易</em></strong></td> 
-   <td>交易编号</td> 
+   <td>交易編號</td> 
    <td>trn.number</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td>UUID</td> 
-   <td>最好符合UUID v4的唯一ID</td> 
+   <td>最好遵守UUID v4的唯一ID</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>产品描述</td> 
+   <td>產品說明</td> 
    <td>trn.product</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>资产的URL（不包括演绎版）</td> 
+   <td>資產的URL （不包括轉譯）</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>数量</td> 
    <td>trn.quantity</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>播放的持续时间</td> 
+   <td>播放持續時間</td> 
   </tr>
  </tbody>
 </table>

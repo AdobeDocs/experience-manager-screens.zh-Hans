@@ -1,75 +1,74 @@
 ---
-title: 在AEM Screens中使用自适应演绎版
-description: 本页介绍如何在AEM Screens中使用自适应演绎版。
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+title: 在AEM Screens中使用最適化轉譯
+description: 本頁說明如何在AEM Screens中使用最適化轉譯。
+exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
+source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
-
-# 在AEM Screens中使用自适应演绎版 {#adaptive-renditions}
+# 在AEM Screens中使用最適化轉譯 {#adaptive-renditions}
 
 ## 简介 {#introduction}
 
-自适应演绎版允许设备根据客户定义的规则自动为设备选择最佳演绎版。 这些设备将根据这些规则自动下载并播放资产的最合适演绎版，这样客户就只能专注于设计&#x200B;*主*&#x200B;体验。
+最適化轉譯可讓裝置根據客戶定義的規則，自動為裝置選取最佳轉譯。 裝置會根據這些規則，自動下載並播放資產的最適當轉譯，讓客戶僅能專注於設計 *主要* 體驗。
 
 ## 目标 {#objective}
 
-作为AEM Screens内容作者，您现在可以将特定于设备的资产演绎版配置为自动下载和播放，而无需手动创建所有内容变体。
-开发人员添加演绎版映射属性和规则后，您现在可以将演绎版映射应用到资产，并随后将其包含在AEM Screens渠道中。
+身為AEM Screens內容作者，您現在可以將裝置特定的資產轉譯設定為自動下載和播放，而不需要手動建立所有內容變化。
+開發人員新增轉譯對應屬性和規則後，您現在就可以將轉譯對應套用至資產，並隨後將這些資產納入AEM Screens頻道。
 
 >[!IMPORTANT]
->在开始使用自适应演绎版之前，建议您在AEM Screens渠道中了解此功能的架构概述和配置。 请参阅[自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)以了解更多详细信息。
+>開始使用最適化轉譯之前，建議您先在AEM Screens管道中瞭解此功能的架構概觀和設定。 另請參閱 [最適化轉譯：架構概觀和設定](/help/user-guide/adaptive-renditions.md) 以取得更多詳細資料。
 
-## 在渠道中使用自适应演绎版 {#using-adaptive-renditions}
+## 在頻道中使用最適化轉譯 {#using-adaptive-renditions}
 
 >[!NOTE]
->将[演绎版映射属性添加到Screens项目](/help/user-guide/adaptive-renditions.md#rendition-mapping-new)和[演绎版映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)后，作为内容作者，您现在可以将这些演绎版应用到资产。
+>新增後 [轉譯對應屬性至畫面專案](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，身為內容作者，您現在可以將轉譯套用至資產。
 
-### 将演绎版应用于资产 {#apply-renditions-assets}
+### 將轉譯套用至資產 {#apply-renditions-assets}
 
-请按照以下步骤将演绎版应用到您要在导览屏幕渠道中使用的资产：
+請依照下列步驟，將轉譯套用至您要用於導覽Screens頻道的資產：
 
-1. 导航到AEM实例中的&#x200B;**Assets**&#x200B;文件夹。
+1. 導覽至 **資產** AEM資料夾。
 
-1. 创建更适合标牌显示的资产版本，例如`seahorse.jpg`。
+1. 建立更適合招牌顯示的資產版本，例如， `seahorse.jpg`.
 
-1. 选择演绎版命名模式，例如`landscape`，与&#x200B;**CRXDE Lite**&#x200B;中&#x200B;**pattern**&#x200B;属性中定义的模式类似。 有关更多详细信息，请参阅[添加演绎版映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)。
+1. 選擇轉譯命名模式，例如，`landscape`，類似於中定義的 **圖樣** 中的屬性 **CRXDE Lite**. 請參閱 [新增轉譯對應規則](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 以取得更多詳細資料。
 
-1. 单击&#x200B;**添加演绎版**&#x200B;以上传演绎版，如下图所示。
+1. 按一下 **新增轉譯** 上傳轉譯，如下圖所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. 选择重命名的资产文件。 要添加的演绎版必须包含模式（在步骤3中定义），例如`seahorse-landscape.png`。
+1. 選取重新命名的資產檔案。 您新增的轉譯必須包含模式（在步驟3中定義），例如， `seahorse-landscape.png`.
 
-1. 添加资产后，选择资产，然后单击操作栏中的&#x200B;**管理发布**&#x200B;以发布资产。
+1. 新增資產後，請選取資產並按一下 **管理發布** 以發佈資產。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >请参阅[按需内容更新](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) ，了解有关管理发布和将内容更新从创作传送到设备的更多信息。
+   >請參閱 [隨選內容更新](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) 以進一步瞭解如何管理出版物以及將內容更新從作者傳送至發佈裝置。
 
 
-## 迁移策略 {#migration-strategy}
+## 移轉策略 {#migration-strategy}
 
 >[!IMPORTANT]
->对于大型网络，建议逐步迁移以降低风险，因为该功能将对清单和文件存储格式进行更改。 将`sling:configRef`添加到整个项目涉及将所有播放器更新到功能包6.5.9。如果您更新了某些播放器，则需要仅将`sling:configRef`添加到所有播放器都更新到功能包6.5.9的显示、位置或渠道文件夹。
+>對於大型網路，建議逐步進行移轉，以降低風險，因為功能將會變更資訊清單和檔案儲存格式。 新增 `sling:configRef` 整個專案涉及將所有播放器更新至Feature Pack 6.5.9。如果您更新了部分播放器，則需要新增 `sling:configRef` 僅限所有播放器皆更新至Feature Pack 6.5.9的顯示器、位置或頻道資料夾。
 
-下图描述了大型网络的迁移策略：
+下圖說明大型網路的移轉策略：
 
 ![图像](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
 
-要启用该功能，请至少添加一个映射规则，并确保在显示和渠道的上下文中可解析演绎版映射配置。 按照以下步骤进行迁移：
+若要啟用此功能，請至少新增一個對應規則，並確認轉譯對應設定在顯示和管道的上下文中可解析。 請依照下列步驟進行移轉：
 
-1. 添加[演绎版映射规则](/help/user-guide/adaptive-renditions.md)。
-1. 为新渠道创建文件夹，并添加指向演绎版映射配置的引用。
-1. 创建替换旧渠道的新渠道并上传演绎版。
-1. 将显示的内容重新分配给新渠道。
-1. 添加对指向演绎版映射配置的已迁移显示屏或位置的引用。
-1. 对所有剩余的渠道和显示屏重复步骤3、4和5。
+1. 新增 [節目對應規則](/help/user-guide/adaptive-renditions.md).
+1. 為新頻道建立資料夾，並新增指向轉譯對應設定的參考。
+1. 建立新管道來取代舊管道，並上傳轉譯。
+1. 重新指派顯示區給新色版。
+1. 新增參考至移轉的顯示區或指向轉譯對應設定的位置。
+1. 對所有其餘的色版和顯示器重複步驟3、4和5。
 
    >[!NOTE]
-   >完成迁移后，请确保从渠道、显示屏和位置中删除所有配置引用，并向项目内容节点添加一个配置引用。
-
+   >完成移轉後，請務必移除頻道、顯示區和位置中的所有設定參照，並將單一設定參照新增至專案內容節點。

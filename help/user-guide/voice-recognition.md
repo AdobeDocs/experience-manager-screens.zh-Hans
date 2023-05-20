@@ -1,186 +1,186 @@
 ---
-title: AEM Screens语音识别
-description: 本页介绍AEM Screens中的语音识别功能。
-feature: 创作屏幕
+title: AEM Screens中的語音辨識
+description: 本頁說明AEM Screens的語音辨識功能。
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
 
-# AEM Screens语音识别 {#voice-recognition}
+# AEM Screens中的語音辨識 {#voice-recognition}
 
 >[!IMPORTANT]
 >
->**重要隐私信息**
+>**重要隱私權資訊**
 >
->使用语音识别功能时，请遵循您所在区域的所有适用法律和道德准则（包括但不限于向最终用户发出提示播放器正在使用语音识别的可见通知）。 Adobe Inc。不会接收、存储或处理任何与语音相关的信息。 AEM Screens播放器使用内置于浏览引擎中的标准Web语音API。 在后台，此API会向Google服务器发送您的语音波形，以便从语音转换为文本，并且此文本由播放器根据配置的关键词进行匹配。
+>使用語音辨識功能時，請遵循您所在地區適用的所有法律和道德准則（包括但不限於向使用者提供播放器正在使用語音辨識的可見通知）。 Adobe Inc不會接收、儲存或處理任何語音相關資訊。 AEM Screens播放器使用內建在瀏覽引擎中的標準網路語音API。 在幕後，此API會將您語音的波形傳送至Google的伺服器，以進行從語音到文字的轉換，而此文字會由播放器根據設定的關鍵字進行比對。
 >
->有关更多详细信息，请参阅[Google Privacy White-paper on Web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) 。
+>請參閱 [網頁語音API上的Google隱私權白皮書](https://www.google.com/chrome/privacy/whitepaper.html#speech) 以取得更多詳細資料。
 
 
-语音识别特征允许由语音交互驱动的AEM Screens信道中的内容改变。
+語音辨識功能可讓您在由語音互動驅動的AEM Screens頻道中變更內容。
 
-内容作者可以将显示器配置为启用语音。 此功能旨在允许客户利用语音作为与其显示器进行交互的方法。 一些类似的用例包括在商店中查找产品推荐、在用餐者和餐馆订购菜单。 此功能增加了用户的辅助功能，并可大大增强客户体验。
+內容作者可以將顯示器設定為啟用語音。 此功能的目的是讓客戶利用語音作為與顯示器互動的方法。 類似的使用案例包括在商店中尋找產品推薦、在用餐者和餐廳訂購功能表專案。 此功能可提升使用者的協助工具，並可大幅提升客戶體驗。
 
 >[!NOTE]
->播放器硬件必须支持语音输入，如麦克风。
+>播放器硬體必須支援語音輸入，例如麥克風。
 
-## 实现语音识别 {#implementing}
+## 實作語音辨識 {#implementing}
 
 >[!IMPORTANT]
-> 语音识别功能仅在Chrome OS和Windows播放器上可用。
+> 語音辨識功能僅適用於Chrome作業系統和Windows播放器。
 
-要在AEM Screens项目中实施语音识别，您必须为“显示”启用语音识别，并将每个渠道与唯一标记关联以触发渠道过渡。
+若要在您的AEM Screens專案中實作語音辨識，您必須啟用顯示器的語音辨識，並將每個頻道與唯一標籤建立關聯，以觸發頻道轉換。
 
-以下部分介绍如何在AEM Screens项目中启用和使用语音识别功能。
+下節說明如何在AEM Screens專案中啟用和使用語音辨識功能。
 
-## 以全屏或分屏渠道开关查看内容 {#sequence-channel}
+## 以全熒幕或拆分畫面頻道切換檢視內容 {#sequence-channel}
 
-在使用语音识别功能之前，请确保您有一个项目和一个渠道，且该渠道的内容已针对您的项目进行设置。
+使用語音辨識功能之前，請確定您擁有專案和頻道，且已為專案設定內容。
 
-1. 以下示例显示名为&#x200B;**VoiceDemo**&#x200B;的演示项目，以及三个序列渠道&#x200B;**Main**、**ColdDricks**&#x200B;和&#x200B;**HotDricks**，如下图所示。
+1. 以下範例示範專案 **VoiceDemo** 和三個序列頻道 **主要**， **冷飲**、和 **熱飲**，如下圖所示。
 
    ![图像](assets/voice-recognition/vr-1.png)
 
    >[!NOTE]
    >
-   >要了解如何创建渠道或向渠道添加内容，请参阅[创建和管理渠道](/help/user-guide/managing-channels.md)
+   >若要瞭解如何建立管道或新增內容至管道，請參閱 [建立和管理管道](/help/user-guide/managing-channels.md)
 
-   或者，
+   或者,
 
-   您可以创建三个顺序渠道&#x200B;**Main**、**ColdDrinks**&#x200B;和&#x200B;**HotDrinks**，以及一个额外的1x2 Split Screens渠道&#x200B;**SplitScreen**，如下图所示。
+   您可以建立三個序列色版 **主要**， **冷飲**、和 **熱飲**&#x200B;以及額外的1x2拆分畫面頻道 **SplitScreen** 如下圖所示。
 
    ![图像](assets/voice-recognition/vr-emb-1.png)
 
-1. 导航到每个渠道并添加内容。 例如，导航到&#x200B;**VoiceDemo** —> **渠道** —> **主**&#x200B;并选择渠道。 单击操作栏中的&#x200B;**编辑**&#x200B;以打开编辑器并根据需要添加内容（图像/视频）。 同样，向&#x200B;**ColdDrinks**&#x200B;和&#x200B;**HotDrinks**&#x200B;渠道添加内容。
+1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** —> **頻道** —> **主要** 並選取頻道。 按一下 **編輯** 以開啟編輯器，並根據需求新增內容（影像/影片）。 同樣地，將內容新增至兩者 **冷飲** 和 **熱飲** 頻道。
 
-   如下图所示，渠道现在包含资产（图像）。
+   管道現在包含資產（影像），如下圖所示。
 
    **主要**:
 
    ![图像](assets/voice-recognition/vr-4.png)
 
-   **冷饮**:
+   **冷飲**：
 
    ![图像](assets/voice-recognition/vr-3.png)
 
-   **热饮**:
+   **熱飲**：
 
    ![图像](assets/voice-recognition/vr-2.png)
 
-   如果已将Split Screens渠道添加到项目中，请导航到&#x200B;**SplitScreen**，拖放两个嵌入式序列，并添加到&#x200B;**ColdDricks**&#x200B;和&#x200B;**HotDricks**渠道的路径，如下图所示。
+   如果您已將拆分畫面頻道新增至專案，請導覽至 **SplitScreen** 和拖放兩個內嵌序列並將路徑新增至 **冷飲** 和 **熱飲** 頻道，如下圖所示。
    ![图像](assets/voice-recognition/vr-emb-6.png)
 
 
-### 为渠道设置标记 {#setting-tags}
+### 設定管道標籤 {#setting-tags}
 
-向渠道添加内容后，您需要导航到每个渠道并添加相应的标记以触发语音识别。
+新增內容至管道後，您需要導覽至每個管道，並新增可觸發語音識別的適當標籤。
 
-请按照以下步骤向渠道添加标记：
+請依照下列步驟，將標籤新增至您的頻道：
 
-1. 导航到每个渠道并添加内容。 例如，导航到&#x200B;**VoiceDemo** —> **渠道** —> **主**&#x200B;并选择渠道。
+1. 導覽至每個管道並新增內容。 例如，導覽至 **VoiceDemo** —> **頻道** —> **主要** 並選取頻道。
 
-1. 单击操作栏中的&#x200B;**属性**。
+1. 按一下 **屬性** 動作列中的。
 
    ![图像](assets/voice-recognition/vr-5.png)
 
-1. 导航到&#x200B;**Basics**&#x200B;选项卡，然后从&#x200B;**Tags**&#x200B;字段中选择一个已有的标记，或创建一个新标记。
+1. 導覽至 **基本知識** 標籤並選取已存在的標籤 **標籤** 欄位或建立新欄位。
 
-   您可以通过为标记键入新名称并点击`return`键来创建新标记，如下图所示：
+   您可以輸入標籤和點選的新名稱來建立新標籤 `return` 鍵，如下圖所示：
 
    ![图像](assets/voice-recognition/vr-6.png)
 
-   或者，
+   或者,
 
-   您还可以预先从AEM实例为项目创建标记，并选择这些标记。 按照[创建标记](#creating-tags)中所述的步骤操作后，您可以从位置选择标记并将其添加到渠道，如下图所示：
+   您也可以預先從專案的AEM例項建立標籤，然後選取那些標籤。 依照中說明的步驟操作後， [建立標籤](#creating-tags)，您可以從位置選取標籤並將其新增至您的頻道，如下圖所示：
 
    ![图像](assets/voice-recognition/vr-tag1.png)
 
-1. 同样，将标题为&#x200B;**hot**&#x200B;的标记添加到&#x200B;**HotDrinks**&#x200B;渠道中。
+1. 同樣地，新增標題為 **熱** 至 **熱飲** 頻道。
 
-1. 如果您使用的是Split Screens渠道，请将标记（**hot**&#x200B;和&#x200B;**cold**）添加到&#x200B;**SplitScreen**&#x200B;渠道属性中，如下图所示。
+1. 如果您使用「拆分畫面」頻道，請新增兩個標籤(**熱** 和 **冷**)重新命名為 **SplitScreen** 頻道屬性，如下圖所示。
 
    ![图像](assets/voice-recognition/vr-emb-7.png)
 
-1. 完成后，单击&#x200B;**保存并关闭**。
+1. 按一下 **儲存並關閉** 完成後。
 
 
-### 创建标记 {#creating-tags}
+### 建立標籤 {#creating-tags}
 
-请按照以下步骤创建标记：
+請依照下列步驟建立標籤：
 
-1. 导航到您的AEM实例。
+1. 導覽至您的AEM執行個體。
 
-1. 单击“工具”图标 — > **Tagging**。
+1. 按一下工具圖示 — > **標籤**.
    ![图像](assets/voice-recognition/vr-7.png)
 
-1. 单击&#x200B;**创建** —> **创建命名空间**。
+1. 按一下 **建立** —> **建立名稱空間**.
    ![图像](assets/voice-recognition/vr-tag3.png)
 
-1. 输入项目的名称，例如&#x200B;**VoiceDemo**，然后单击&#x200B;**创建**。
+1. 輸入專案名稱，例如， **VoiceDemo** 並按一下 **建立**.
 
-1. 选择&#x200B;**VoiceDemo**&#x200B;项目，然后单击操作栏中的&#x200B;**创建标记**。
+1. 選取 **VoiceDemo** 專案並按一下 **建立標籤** 動作列中的。
    ![图像](assets/voice-recognition/vr-tag4.png)
 
-1. 输入标记的名称，然后单击&#x200B;**Submit**。
+1. 輸入標簽名稱，然後按一下 **提交**.
    ![图像](assets/voice-recognition/vr-tag5.png)
 
-现在，您可以在AEM Screens项目中使用这些标记。
+現在，您可以在AEM Screens專案中使用這些標籤。
 
-### 为显示器分配频道并启用语音识别 {#channel-assignment}
+### 指定頻道給顯示器並啟用語音辨識 {#channel-assignment}
 
-1. 在&#x200B;**Locations**&#x200B;文件夹中创建显示屏，如下图所示。
+1. 在中建立顯示區 **位置** 資料夾，如下圖所示。
 
    ![图像](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >要了解如何将渠道分配给显示屏，请参阅[创建和管理显示屏](/help/user-guide/managing-displays.md)。
+   >若要瞭解如何將管道指派給顯示區，請參閱 [建立和管理顯示區](/help/user-guide/managing-displays.md).
 
-1. 将渠道&#x200B;**Main**、**ColdDricks**&#x200B;和&#x200B;**HotDricks**&#x200B;分配给&#x200B;**LobbyDisplay**。 此外，如果您正在为项目使用&#x200B;**SplitScreen**&#x200B;渠道，请确保将该渠道分配给显示屏。
+1. 指派管道 **主要**， **冷飲**、和 **熱飲** 至您的 **LobbyDisplay**. 此外，如果您使用 **SplitScreen** 您專案的頻道，請確定您將其也指派給顯示區。
 
    >[!NOTE]
-   >如果已创建分屏渠道，请将&#x200B;**SplitScreen**&#x200B;渠道分配给显示屏。
+   >如果您已建立拆分畫面頻道，請指派 **SplitScreen** 頻道也到您的顯示區。
 
-1. 在分配渠道时，为每个渠道设置以下属性。
+1. 指派管道時，為每個管道設定下列屬性。
 
    | **渠道名称** | **优先级** | **支持的事件** |
    |---|---|---|
-   | 主要 | 2 | 初始加载、空闲屏幕、计时器 |
-   | 热饮 | 1 | 用户交互 |
-   | 冷饮 | 1 | 用户交互 |
+   | 主要 | 2 | 初始載入、閒置畫面、計時器 |
+   | 熱飲 | 1 | 用户交互 |
+   | 冷飲 | 1 | 用户交互 |
    | SplitScreen | 1 | 用户交互 |
 
    >[!NOTE]
    >
-   >要了解如何将渠道分配给显示屏，请参阅[创建和管理显示屏](/help/user-guide/managing-displays.md)。
+   >若要瞭解如何將管道指派給顯示區，請參閱 [建立和管理顯示區](/help/user-guide/managing-displays.md).
 
-1. 为显示屏分配渠道后，导航到&#x200B;**LobbyDisplay**&#x200B;并选择显示屏。 从操作栏中选择&#x200B;**属性**。
+1. 將管道指派給顯示區後，請導覽至 **LobbyDisplay** 並選取顯示區。 選取 **屬性** 動作列中的。
 
-1. 导航到&#x200B;**Display**&#x200B;选项卡，并在&#x200B;**Content**&#x200B;下启用&#x200B;**语音启用**&#x200B;选项。
+1. 導覽至 **顯示** 標籤並啟用 **啟用語音** 下的選項 **內容**.
 
    ![图像](assets/voice-recognition/vr-disp.png)
 
    >[!IMPORTANT]
-   >必须从显示器中启用语音识别功能。
+   >必須從顯示器啟用語音辨識功能。
 
-### 在Chrome播放器中查看内容 {#viewing-content}
+### 在Chrome播放器中檢視內容 {#viewing-content}
 
-完成上述步骤后，您可以注册Chrome设备以查看输出。
+完成上述步驟後，您可以註冊Chrome裝置以檢視輸出。
 
 >[!NOTE]
->请参阅[设备注册](device-registration.md)以了解如何在AEM Screens播放器上注册设备。
+>請參閱 [裝置註冊](device-registration.md) 以瞭解如何在AEM Screens播放器上註冊裝置。
 
-**序列渠道的所需输出**
+**序列頻道的所需輸出**
 
-**Main**&#x200B;渠道正在播放其内容，但是当您使用关键词&#x200B;**hot**&#x200B;的词语（如&#x200B;*）时，我想要热饮*，渠道开始播放&#x200B;**HotDrips**&#x200B;渠道的内容。
+此 **主要** 頻道正在播放其內容，但當您使用具有關鍵字的字詞時 **熱** 例如 *我想要一杯熱飲*，頻道會開始播放 **熱飲** 頻道。
 
-同样，如果您使用关键字&#x200B;**cold**&#x200B;的单词（如&#x200B;*），我希望获得某个cold*，则渠道会开始播放&#x200B;**ColdDricks**&#x200B;渠道的内容。
+同樣地，如果您使用具有關鍵字的文字 **冷** 例如 *我想喝點冷飲*，頻道會開始播放 **冷飲** 頻道。
 
-**分屏渠道的所需输出**
+**分割畫面頻道的所需輸出**
 
-**Main**&#x200B;渠道正在播放其内容，但是当您将关键词&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;一起使用时，如&#x200B;*我想看热饮和冷饮的菜单*，渠道开始播放&#x200B;**SplitScreen**&#x200B;渠道的内容。 如果您说&#x200B;*返回主菜单*，则它会切换回主通道。
+此 **主要** 頻道正在播放其內容，但當您使用具有關鍵字的字詞時 **熱** 和 **冷** 共同使用，例如 *我想看看熱飲和冷飲的選單*，頻道會開始播放 **SplitScreen** 頻道。 如果您說 *返回主功能表*，則會切換回主要通道。

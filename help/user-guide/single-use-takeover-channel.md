@@ -1,112 +1,112 @@
 ---
-title: 单次使用TakeOver渠道
-seo-title: 单次使用TakeOver渠道
-description: 请按照此用例创建单次使用转接渠道。
-seo-description: 请按照此用例创建单次使用转接渠道。
+title: 單次使用接管管道
+seo-title: Single Use TakeOver Channel
+description: 請依照此使用案例來建立單一「使用接管管道」。
+seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
 contentOwner: jsyal
-feature: 创作屏幕
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '614'
 ht-degree: 2%
 
 ---
 
-# 单次使用TakeOver渠道 {#single-use-takeover-channel}
+# 單次使用接管管道 {#single-use-takeover-channel}
 
-以下页面展示了一个用例，其中着重介绍了如何设置一个关于如何创建在特定时间只播放一次的“单次转接”渠道的项目。
+以下頁面會展示使用案例，著重於設定專案，說明如何建立只在特定時間播放一次的Single TakeOver頻道。
 
 
-## 用例描述 {#use-case-description}
+## 使用案例說明 {#use-case-description}
 
-此用例说明如何为显示屏或显示屏组创建从正常播放的渠道中&#x200B;*接管*的渠道。 收购将只发生一次，并在特定时间进行。
-例如，有一个“单次接管”渠道在周五的上午9点到10点播放。 在此期间，不应播放其他频道。 在此之前和之后，单次使用接管渠道将不会播放。 以下示例显示如何创建单个接管渠道，以便播放该渠道，以便内容在12月31日凌晨12:00至凌晨12:01之前播放2分钟。
+此使用案例說明如何建立符合以下條件的管道： *接管* 來自顯示器或顯示器群組的正常播放頻道。 接管只會發生一次，並持續一段特定時間。
+例如，有一個Single TakeOver頻道，在星期五上午9點至上午10點播放。 在此期間，不應播放其他頻道。 在這段時間之前和之後，將不播放單次使用接管頻道。 以下範例說明如何建立單一接管管道，並播放該管道，讓內容在12月31日凌晨12:00前播放達2分鐘，直到中午12:01。
 
-### 先决条件 {#preconditions}
+### 先決條件 {#preconditions}
 
-在开始使用此用例之前，请确保您了解如何：
+在開始此使用案例之前，請確定您瞭解如何：
 
-* **[创建和管理渠道](managing-channels.md)**
-* **[创建和管理位置](managing-locations.md)**
-* **[创建和管理计划](managing-schedules.md)**
+* **[建立和管理頻道](managing-channels.md)**
+* **[建立和管理位置](managing-locations.md)**
+* **[建立和管理時程表](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要行为者 {#primary-actors}
+### 主要執行者 {#primary-actors}
 
 内容作者
 
 ## 设置项目 {#setting-up-the-project}
 
-请按照以下步骤设置项目：
+請依照下列步驟設定專案：
 
-**设置渠道和显示**
+**設定頻道和顯示**
 
-1. 创建标题为&#x200B;**SingleUseTakeOver**&#x200B;的AEM Screens项目，如下所示。
+1. 建立標題為的AEM Screens專案 **SingleUseTover**，如下所示。
 
    ![资产](assets/single-takeover1.png)
 
-1. 在&#x200B;**Channels**&#x200B;文件夹中创建&#x200B;**MainAdChannel**。
+1. 建立 **MainAdChannel** 在 **頻道** 資料夾。
 
    ![资产](assets/single-takeover2.png)
 
-1. 选择&#x200B;**MainAdChannel**，然后单击操作栏中的&#x200B;**编辑**。 将某些资产（图像、视频、嵌入式序列）拖放到您的渠道中。
+1. 選取 **MainAdChannel** 並按一下 **編輯** 動作列中的。 將部分資產（影像、影片、內嵌序列）拖放至您的頻道。
 
    ![资产](assets/single-takeover2.png)
 
 
    >[!NOTE]
-   >此示例中的&#x200B;**MainAdChannel**&#x200B;演示连续播放内容的序列渠道。
+   >此 **MainAdChannel** 在此範例中，會示範持續播放內容的順序頻道。
 
    ![资产](assets/single-takeover3.png)
 
-1. 创建一个&#x200B;**TakeOver**&#x200B;渠道，该渠道接管&#x200B;**MainAdChannel**&#x200B;中的内容，并且仅在特定的日期和时间播放。
+1. 建立 **接管** 接收內容的頻道 **MainAdChannel** 和只會播放特定日期和時間。
 
-1. 选择&#x200B;**TakeOver** ，然后单击操作栏中的&#x200B;**编辑**。 将一些资产拖放到您的渠道中。 以下示例显示了添加到此渠道的单个区域图像。
+1. 選取 **接管** 並按一下 **編輯** 動作列中的。 將部分資產拖放至您的頻道。 下列範例示範新增至此頻道的單一區域影像。
 
    ![资产](assets/single-takeover4.png)
 
-1. 为渠道设置位置和显示屏。 例如，为此项目设置了以下位置&#x200B;**Lobby**&#x200B;和显示&#x200B;**MainLobbyDisplay**。
+1. 設定管道的位置和顯示。 例如，下列位置 **大廳** 和顯示 **MainLobbyDisplay** 已針對此專案設定。
 
    ![资产](assets/single-takeover5.png)
 
-**将渠道分配给显示器**
+**將頻道指派給顯示區**
 
-1. 从&#x200B;**Locations**&#x200B;文件夹中选择显示&#x200B;**MainLobbyDisplay**。 单击操作栏中的&#x200B;**分配渠道** 。
+1. 選取顯示區 **MainLobbyDisplay** 從 **位置** 資料夾。 按一下 **指派頻道** 動作列中的。
 
    ![资产](assets/single-takeover6.png)
 
    >[!NOTE]
-   >要了解如何将渠道分配给显示屏，请参阅&#x200B;**[渠道分配](channel-assignment.md)**。
+   >若要瞭解如何將管道指派給顯示區，請參閱 **[頻道指定任務](channel-assignment.md)**.
 
-1. 从“渠道分配”对话框中填充字段（**渠道路径**、**优先级**&#x200B;和&#x200B;**支持的事件**），然后单击“保存”**。******&#x200B;您现在已将&#x200B;**MainAdChannel**&#x200B;分配给显示屏。
+1. 填入欄位(**頻道路徑**， **優先順序**、和 **支援的事件**)從 **頻道指定任務** 對話方塊並按一下 **儲存**. 您現在已指派 **MainAdChannel** 至您的顯示區。
 
    ![资产](assets/single-takeover7.png)
 
-1. 从&#x200B;**Locations**&#x200B;文件夹中选择显示的&#x200B;**TakeOver**。 单击操作栏中的&#x200B;**分配渠道**&#x200B;以分配单次使用接管渠道。
+1. 選取顯示區 **接管** 從 **位置** 資料夾。 按一下 **指派頻道** 從動作列指派單次使用接管管道。
 
-1. 要在计划时间将&#x200B;**TakeOver**&#x200B;渠道分配给您的显示屏，并在&#x200B;**渠道分配**&#x200B;对话框中填充以下字段，然后单击&#x200B;**Save**:
+1. 若要指派 **接管** 在排程的時間進入您的顯示區，並填入以下欄位： **頻道指定任務** 對話方塊並按一下 **儲存**：
 
-   * **渠道路径**:选择TakeOver渠道的路径
-   * **优先级**:将此渠道的优先级设置为大于 **MainAdChannel**。例如，本示例中设置的优先级为8。
+   * **頻道路徑**：選取接管管道的路徑
+   * **優先順序**：將此頻道的優先順序設定大於 **MainAdChannel**. 例如，在此範例中設定的優先順序為8。
 
       >[!NOTE]
-      >优先级可以是高于正常播放渠道的优先级值的任何值。
-   * **支持的事件**:选择“ **空闲** 屏幕和 **计时器**”。
-   * **计划**:输入您希望此渠道运行显示的计划文本。例如，此处的文本允许内容在12月31日凌晨12:00到凌晨12:01之前播放2分钟。
-本示例中提及的**Schedule**&#x200B;中的文本是&#x200B;*在12月23:58之后的31天，也在1月1日00.01*&#x200B;之前。
+      >優先順序可以是高於正常播放頻道之優先順序值的任何值。
+   * **支援的事件**：選取 **閒置畫面** 和 **計時器**.
+   * **排程**：輸入您希望此頻道執行顯示的排程文字。 例如，此處的文字可讓內容在12月31日凌晨12:00前的2分鐘播放至凌晨12:01。
+此文字位於 **排程** 此範例中提及的是 *23:58之後的12月31日，以及00.01之前的1月1日*.
 
       ![资产](assets/single-takeover8.png)
 
-      从&#x200B;**SingleUseTakeOver** —> **位置** —> **大堂** —> **MainLobbyDisplay**&#x200B;导航到显示屏，然后单击操作栏中的&#x200B;**功能板**&#x200B;查看分配的渠道及其优先级，如下所示。
+      瀏覽至顯示區，從 **SingleUseTover** —> **位置** —> **大廳** —> **MainLobbyDisplay** 並按一下 **儀表板** 從動作列檢視指派的管道及其優先順序，如下所示。
 
       >[!NOTE]
-      >必须将收购渠道的优先级设置为最高。
+      >強制將接管管道的優先順序設定為最高。
 
       ![资产](assets/single-takeover9.png)
 
 >[!NOTE]
 >
->播放单次使用接管渠道后，最好删除该渠道。
+>最佳實務是在播放後刪除「單次使用TakeOver」管道。

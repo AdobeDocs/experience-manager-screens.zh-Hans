@@ -1,61 +1,62 @@
 ---
-title: 功能包202204的发行说明
-description: 请阅读本页以了解2022年4月26日发布的AEM Screens功能包202204的相关信息。
+title: Feature Pack 202204發行說明
+description: 請詳閱本頁，瞭解2022年4月26日發行的AEM Screens Feature Pack 202204的相關資訊。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 6c1576a46511b172e703de59414e301fdffe2992
+exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
+source-git-commit: 2db3ebae489bc0fcc435e21e45e41c995d3a617e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 5%
 
 ---
 
-# 功能包202204的发行说明 {#release-notes-for-feature-pack}
+# Feature Pack 202204發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建议您升级到最新版本的Adobe Experience Manager(AEM)。 Screens为AEM 6.3 Screens平台提供维护支持。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
-AEM Screens发布了AEM 6.5功能包11。
+AEM Screens已發行AEM 6.5 Feature Pack 11。
 
-您可以从下载适用于AEM Screens 6.5.11版本的最新功能包 [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 用你的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取最新功能包的标题为 **AEM 6.5 Screens FP11**.
+您可以從以下網站下載AEM Screens 6.5.11版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP11**.
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包202204的发行日期是2022年4月26日。
+AEM Screens Feature Pack 202204的發行日期為2022年4月26日。
 
 ### 新增功能 {#what-is-new}
 
-* 新的远程控制功能使访问管理员UI、渠道切换器或其他功能（如清除缓存和重新加载）更加容易。 您还可以查看播放器上的本地固件版本和系统信息。
+* 新的遠端控制功能可讓您更輕鬆地存取管理員UI、管道切換器或其他功能，例如清除快取和重新載入。 您也可以檢視播放器上的本機韌體版本和系統資訊。
 
 ### 错误修复 {#bug-fixes}
 
-* 定位/个性化不起作用。 此问题现已修复。
+* 目標定位/個人化無法運作。 此問題現在已修正。
 
-* FP10后，Screens监控电子邮件无法正常工作。 此问题现已修复。
+* FP10之後，熒幕監視電子郵件無法運作。 此問題現在已修正。
 
-* 在纵向模式下拍摄屏幕截图时，Windows播放器崩溃。 此问题现已修复。
+* 在直向模式下擷取熒幕擷圖時，Windows播放器當機。 此問題現在已修正。
 
-* Screens SPA渠道导致Windows Player出现白屏。 此问题现已修复。
+* Screens SPA頻道導致Windows Player出現白色熒幕。 此問題現在已修正。
 
-* wcmmode参数已从发布实例上的所有Screens请求中删除。
+* wcmmode引數已從發佈執行個體上的所有Screens請求中移除。
 
-* 播放器活动UI现在可以按预期工作。
+* 播放器活動UI現在可如預期運作。
 
-* 播放器无法通过管理发布获取最新更新。 此问题现已修复。
+* 播放器無法透過管理發布取得最新更新。 此問題現在已修正。
 
-### 已发布AEM Screens播放器 {#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-为AEM 6.5功能包11发布了以下AEM Screens播放器：
+下列AEM Screens Player已針對AEM 6.5 Feature Pack 11發行：
 
 * ChromeOS
 * Windows
-* 蒂岑
+* Tizen
 * Android
 * Linux
 
-#### AEM Screens Player下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens Player下载](https://download.macromedia.com/screens/index.html)**.
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

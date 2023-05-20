@@ -1,64 +1,64 @@
 ---
-title: 功能包202011的发行说明
-description: “请阅读本页以了解2020年11月30日发布的AEM Screens功能包202011的相关信息。”
-feature: 功能包
+title: Feature Pack 202011發行說明
+description: 「請詳閱本頁，瞭解2020年11月30日發行的AEM Screens Feature Pack 202011的相關資訊。」
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b080a697-0e65-4ae1-a161-669c3098246b
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 6%
 
 ---
 
-
-# 功能包202011 {#release-notes-for-feature-pack}发行说明
+# Feature Pack 202011發行說明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建议您升级到最新版本的Adobe Experience Manager(AEM)。 Screens为AEM 6.3 Screens平台提供维护支持。
+>建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
 
 ## 可用性 {#availability}
 
-AEM Screens发布了AEM 6.5功能包6。
+AEM Screens已發行AEM 6.5 Feature Pack 6。
 
-您可以使用Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens 6.5.6版的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**Screens**&#x200B;以获取标题为&#x200B;**AEM 6.5 Screens FP6**&#x200B;的最新功能包。
+您可以從以下網站下載AEM Screens 6.5.6版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP6**.
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包202011的发行日期是2020年11月30日。
+AEM Screens Feature Pack 202011的發行日期為2020年11月30日。
 
 ### 新增功能 {#what-is-new}
 
 * **内容分配报告**
 
-   内容分配报表功能允许AEM Screens管理员或作者以电子表格格式导出&#x200B;*内容分配报表*。
-有关更多详细信息，请参阅[内容分配报表](/help/user-guide/content-assignment-report.md)。
+   「內容指派報告」功能可讓AEM Screens管理員或作者匯出 *內容指派報表* 以試算表格式顯示。
+請參閱 [內容指派報表](/help/user-guide/content-assignment-report.md) 以取得更多詳細資料。
 
 
-* **蒂森球员**
+* **Tizen Player**
 
-   在AEM Screens 6.5.6版中引入了称为Tizen播放器的新播放器，并提供了最新的功能包。
-有关更多详细信息，请参阅[实施Tizen Player](/help/user-guide/tizen-player.md)。
+   AEM Screens 6.5.6版本的最新功能套件已引入稱為Tizen播放器的新播放器。
+請參閱 [實作Tizen播放器](/help/user-guide/tizen-player.md) 以取得更多詳細資料。
 
-* **“设备管理器”中的搜索功能**
+* **從「裝置管理員」搜尋功能**
 
-   现在，Device Manager UI中提供了新的搜索功能，其中包含AEM Screens 6.5.6版的最新功能包。
-有关更多详细信息，请参阅[从设备管理器](/help/user-guide/device-registration.md#search-device)中搜索设备。
+   AEM Screens 6.5.6版的最新Feature Pack現已提供裝置管理員UI中的全新搜尋功能。
+請參閱 [從「裝置管理員」搜尋裝置](/help/user-guide/device-registration.md#search-device) 以取得更多詳細資料。
 
-* **默认Ping间隔**
+* **預設Ping間隔**
 
-   在此版本中，默认的Ping间隔现在设置为30秒。
+   在這個版本中，預設偵測間隔現在設定為30秒。
 
-### 已发布的AEM Screens播放器{#released-aem-screens-players}
+### 已發行的AEM Screens Players {#released-aem-screens-players}
 
-为AEM 6.5功能包6发布了以下AEM Screens播放器：
+下列AEM Screens Player已針對AEM 6.5 Feature Pack 6發行：
 
-* Chrome OS
+* Chrome作業系統
 * Windows
 * Android
-* 蒂岑
+* Tizen
 * Linux
 
-#### AEM Screens播放器下载{#aem-screens-player-downloads}
+#### AEM Screens播放器下載  {#aem-screens-player-downloads}
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;**[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**。
+若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.

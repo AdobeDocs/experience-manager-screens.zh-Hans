@@ -1,7 +1,7 @@
 ---
-title: 实施Chrome OS播放器
+title: 實作Chrome OS Player
 seo-title: Implementing Chrome OS Player
-description: 请阅读本页，了解如何使用Chrome管理控制台实施Chrome OS播放器。
+description: 請詳閱本頁面，瞭解如何使用Chrome管理主控台實作Chrome作業系統播放器。
 seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
@@ -20,98 +20,98 @@ ht-degree: 0%
 
 ---
 
-# 实施Chrome OS播放器  {#implementing-chrome-os-player}
+# 實作Chrome OS Player  {#implementing-chrome-os-player}
 
-本节介绍如何使用Chrome管理控制台实施Chrome OS播放器。
+本節說明如何使用Chrome管理主控台實作Chrome作業系統播放器。
 
-## 使用Chrome管理控制台 {#using-chrome-management-console}
+## 使用Chrome管理主控台 {#using-chrome-management-console}
 
-请按照以下步骤设置Chrome管理控制台：
+請依照下列步驟設定Chrome管理主控台：
 
-1. 注册Chrome管理控制台。 您需要获取Chrome管理控制台的许可证。 联系人 [Google支持](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) 以管理Chrome设备设置，以了解更多信息。
-1. 将您的Chrome OS设备注册到域，等待15分钟，以便设备与Chrome管理控制台同步。 要了解有关注册Chrome设备的更多信息，请单击 [此处](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. Chrome播放器将在Chrome网上应用商店中提供。
+1. 註冊Chrome管理主控台。 您必須取得Chrome管理主控台的授權。 連絡人 [Google支援](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) 管理Chrome裝置設定以取得詳細資訊。
+1. 將您的Chrome作業系統裝置註冊至網域，等待15分鐘，讓裝置與Chrome管理主控台同步。 若要進一步瞭解如何註冊Chrome裝置，請按一下 [此處](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Chrome播放器可在Chrome線上應用程式商店中取得。
 
 >[!NOTE]
 >
->为部署和管理Chrome OS设备，建议使用设备管理解决方案（如Chrome管理控制台）。 尽管如此，本文档为Chrome管理控制台提供了实施，但仍有其他供应商声称提供类似功能。 请联系设备管理软件的供应商。
+>建議使用裝置管理解決方案（例如Chrome管理主控台）來部署及管理Chrome作業系統裝置。 雖然如此，本檔案提供Chrome管理主控台的實作，但其他廠商也聲稱提供類似的功能。 請連絡裝置管理軟體的廠商。
 
-## 命名Chrome OS播放器 {#name-chrome}
+## 命名Chrome作業系統播放器 {#name-chrome}
 
-您可以为Chrome播放器分配用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager(AEM)。 此功能不仅允许您命名Chrome播放器，还允许您轻松分配相应的内容。
+您可以為Chrome播放器指派好記的裝置名稱，藉此將指派的裝置名稱傳送至Adobe Experience Manager (AEM)。 此功能不僅可讓您為Chrome播放器命名，也可讓您輕鬆指派適當內容。
 
 >[!NOTE]
->只有在注册之前，您才可以选择播放器名称。 注册播放器后，无法再更改播放器名称。
+>您只能在註冊之前選擇播放器名稱。 播放器註冊後，就無法再變更播放器名稱。
 
-请按照以下步骤在Chrome播放器中配置名称：
+請依照下列步驟，在Chrome播放器中設定名稱：
 
-1. 您可以选择允许AV集成商或IT管理员将资产ID和位置设置为企业注册的一部分。
+1. 您可以選擇允許AV整合經銷商或IT管理員設定資產ID和位置，作為企業註冊的一部分。
 
    ![图像](/help/user-guide/assets/chrome-device/chrome1.png)
 
-1. 当您注册设备时，将为您提供相应的选项。
+1. 當您註冊裝置時，畫面會顯示選項。
 
    ![图像](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. 您可以在企业注册以及Chrome管理控制台中将资产ID设置为一部分。
+1. 您可以將資產ID設定為企業註冊的一部分以及在Chrome管理主控台中。
 
    ![图像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >必须在企业注册中注册Chrome播放器，并且必须通过Chrome管理控制台部署Chrome播放器，否则资产ID将返回空白（例如，将Chrome作为扩展）。 设备名称仅在注册时记录。 Adobe Experience Manager(AEM)将不会接收将来的更改。
+   >Chrome播放器必須在企業註冊中註冊，且Chrome播放器必須透過Chrome管理主控台部署，否則資產ID會傳回空白（例如chrome作為擴充功能）。 裝置名稱僅在註冊時記錄。 Adobe Experience Manager (AEM)不會擷取未來的變更。
 
-### 启用Kiosk模式 {#enabling-kiosk-mode}
+### 啟用資訊站模式 {#enabling-kiosk-mode}
 
-按照以下步骤启用Kiosk模式：
+請依照下列步驟啟用Kiosk模式：
 
-1. 登录到Chrome开发人员控制台。
+1. 登入Chrome開發人員主控台。
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. 浏览到 **设备管理** > **Chrome管理** > **设备设置**.
-1. 向下滚动到 **网亭设置** 单击 **管理Kiosk应用程序**.
+1. 瀏覽至 **裝置管理** > **Chrome管理** > **裝置設定**.
+1. 向下捲動至 **資訊站設定** 並按一下 **管理資訊站應用程式**.
 
-   ![亭](assets/kiosk.png)
+   ![資訊站](assets/kiosk.png)
 
-1. 从Chrome网上应用店中选择AEM Screens播放器。
+1. 從Chrome線上應用程式商店選取AEM Screens Player。
 
    >[!NOTE]
    >
-   >最近发布的应用程序可能需要大约15分钟才能显示在此列表中。
+   >最近發佈的應用程式可能需要約15分鐘才會出現在此清單中。
 
-1. 选择 **AEM Screens Player** 从 **自动启动Kiosk应用程序** 下拉列表。
+1. 選取 **AEM Screens Player** 從 **自動啟動資訊站應用程式** 下拉式清單。
 
-   更改可能需要几分钟才能生效，具体取决于网络。 建议重新启动。
+   視網路而定，變更可能需要幾分鐘才會生效。 建議重新啟動。
 
-#### 检查远程设备状态 {#checking-remote-device-status}
+#### 正在檢查遠端裝置狀態 {#checking-remote-device-status}
 
-1. 登录到Chrome开发人员控制台。
-1. 浏览到 **设备管理** > **Chrome设备** 并选择要控制的设备。
-1. 单击 **系统活动和疑难解答**.
-1. 检查 **重新启动设备** 和 **屏幕捕获** 设备的属性。 您还可以检查设备状态和运行状况信息。
-
->[!NOTE]
->
->请注意，这些设置可能会在设备注册后几分钟内启用。 每个选项可能会随着时间的推移而启用。
-
-### 配置Chrome OS播放器的远程配置 {#configuring-remote-configuration-of-chrome-os-players}
-
-AEM Screens Player是一个支持Kiosk的应用程序，还为Chrome OS播放器启用远程策略配置。
-
-请按照以下步骤配置播放器的各种选项：
-
-1. 登录到Chrome管理控制台。
-1. 单击 **设备管理** > **Chrome管理** > **应用程序管理**. AEM Screens播放器将显示在列表中。
-1. 单击应用程序 **AEM Screens Player**.
-1. 单击 **网亭设置** 选择您的组织(*如果使用测试环境*)。
-1. 单击 **上载配置文件** 并上传配置策略(*Json文件*)。
-1. 单击&#x200B;**保存**。必须重新启动设备才能同步策略。
+1. 登入Chrome開發人員主控台。
+1. 瀏覽至 **裝置管理** > **Chrome裝置** 並選取您要控制的裝置。
+1. 按一下 **系統活動和疑難排解**.
+1. 檢查 **重新開機裝置** 和 **熒幕擷取** 裝置的屬性。 您也可以檢查裝置狀態和健康情況資訊。
 
 >[!NOTE]
 >
->重新启动设备以同步策略更改。
+>請注意，這些設定可能會在裝置註冊後幾分鐘啟用。 每個選項都可能隨著時間啟用。
 
-#### 策略JSON文件示例 {#example-policy-json-file}
+### 設定Chrome作業系統播放器的遠端設定 {#configuring-remote-configuration-of-chrome-os-players}
+
+AEM Screens Player是啟用Kiosk的應用程式，也可啟用Chrome作業系統播放器的遠端原則設定。
+
+請依照下列步驟設定播放器的各種選項：
+
+1. 登入Chrome管理主控台。
+1. 按一下 **裝置管理** > **Chrome管理** > **應用程式管理**. AEM Screens Player會顯示在清單中。
+1. 按一下應用程式 **AEM Screens Player**.
+1. 按一下 **資訊站設定** 並選取您的組織(*若使用測試環境*)。
+1. 按一下 **上傳設定檔** 並上傳設定原則(*Json檔案*)。
+1. 单击“**保存**”。您必須重新啟動裝置才能同步原則。
+
+>[!NOTE]
+>
+>重新啟動裝置以同步處理原則變更。
+
+#### 原則JSON檔案範例 {#example-policy-json-file}
 
 ```java
 {
@@ -136,23 +136,23 @@ AEM Screens Player是一个支持Kiosk的应用程序，还为Chrome OS播放器
 }
 ```
 
-### 策略属性和用途 {#policy-attributes-and-purpose}
+### 原則屬性和用途 {#policy-attributes-and-purpose}
 
-下表概述了策略及其功能。
+下表總結了這些原則及其功能。
 
-| **策略名称** | **用途** |
+| **原則名稱** | **用途** |
 |---|---|
-| *服务器* | 指向Adobe Experience Manager Server的URL |
-| *分辨率* | Chrome OS设备的分辨率 |
-| *rebootSchedule* | 重新启动Chrome播放器的计划 |
-| *enableAdminUI* | 为技术人员启用管理员UI，以便在现场配置设备。 在生产环境中完全配置后，将其设置为false。 |
-| *enableOSD* | 启用渠道切换器UI，以便用户在设备上切换渠道。 在完全配置并投入生产后，请考虑将其设置为false。 |
-| *enableActivityUI* | 启用以显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
+| *服务器* | Adobe Experience Manager伺服器的URL |
+| *分辨率* | Chrome作業系統裝置的解析度 |
+| *rebootSchedule* | 重新開機Chrome播放器的排程 |
+| *enableAdminUI* | 啟用管理員UI，讓技術人員在現場設定裝置。 完成設定並投入生產後，請設為false。 |
+| *enableOSD* | 啟用頻道切換器UI，讓使用者在裝置上切換頻道。 在完全設定完畢並投入生產後，請考慮將設定為false 。 |
+| *enableActivityUI* | 啟用以顯示活動的進度，例如下載和同步。 啟用以進行疑難排解，並在完全設定後和生產環境中停用。 |
 
 >[!NOTE]
 >
->策略配置是严格强制执行的，不会在播放器的管理员UI中手动覆盖。 要允许为特定策略手动配置播放器，请不要在 ***策略配置，*** 例如，如果要允许手动配置重新启动计划，请不要指定键 ***rebootSchedule*** 在策略配置中。
+>原則設定會嚴格執行，不會手動在播放器的管理UI覆寫。 若要允許特定原則的手動播放器設定，請勿在 ***原則設定，*** 例如，如果要允許手動設定重新開機排程，請勿指定機碼 ***rebootSchedule*** 在原則設定中。
 
-### 使用Screens远程控制 {#using-remote-control}
+### 使用Screens遙控器 {#using-remote-control}
 
-AEM Screens提供远程控制功能。 请在此处了解有关此功能的更多信息： [Screens远程控制](implementing-remote-control.md)
+AEM Screens提供遠端控制功能。 若要進一步瞭解此功能，請前往這裡： [熒幕遙控器](implementing-remote-control.md)

@@ -1,30 +1,29 @@
 ---
-title: Analytics与AEM Screens
-seo-title: Analytics与AEM Screens
-description: 本页介绍Analytics与AEM Screens
-seo-description: 本页介绍使用AEM Screens分析
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+title: Analytics與AEM Screens
+seo-title: Analytics with AEM Screens
+description: 本頁說明使用AEM Screens進行Analytics
+seo-description: The page describes the analytics with AEM Screens
+exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-
-# 具有AEM Screens的Analytics {#analytics-screens}
+# Analytics與AEM Screens {#analytics-screens}
 
 >[!NOTE]
 >
->此活动的典型利益相关方是营销/业务策略师。
+>此活動的一般利害關係人為行銷/業務策略專家。
 
-AEM Screens提供在本地捕获每个播放器设备执行的每个可跟踪事件的功能。 此数据将存储在本地，直到其上传到云进行处理。 除了所有事件数据之外，还添加了deviceID和时间戳。 这可确保将一个播放器中的数据与另一个播放器进行区分，并且如果需要，可以单独评估一天中不同时间执行的数据。
+AEM Screens提供在本機擷取每個播放器裝置執行的每個可追蹤事件的功能。 此資料將會儲存在本機，直到可以上傳至雲端以進行處理為止。 除了所有事件資料外，也會新增deviceID和timestamp。 這可確保來自一個播放器的資料可與另一個播放器區分，並且可視需要單獨評估在一天中不同時間執行的資料。
 
-可能需要捕获此数据有两个基本原因。
+我們擷取此資料有兩個基本原因。
 
-第一个包括&#x200B;**反馈循环和机器学习**，第二个包括&#x200B;**创建图形、功能板和报表**，供人们使用。
+第一個涉及 **回饋回圈與機器學習** 而第二個涉及 **建立圖表、控制面板和報告** 供人類使用。
 
-在反馈循环用例中，我们并不关心可视报表或功能板，而是希望定义AEM可对其执行的规则以进行修改内容。 通过使用和处理特定时间段内的所有Screens播放器事件数据，我们可以定义一个规则来评估image1与image2的有效性。 通过将销售数据与播放数据相结合，AEM可能会确定image1对销售的影响要大得多，并会自动指示所有播放器使用image1。
+在回饋回圈使用案例中，我們並不在乎視覺報表或控制面板，而是想要定義AEM可針對內容修改執行的規則。 我們會使用及處理特定時段內的所有Screens播放器事件資料，藉此定義評估image1與image2效能的規則。 透過結合銷售資料與播放資料，AEM可判斷image1對銷售的影響更大，並自動指示所有播放器使用image1。
 
-使用分析的第二个用例是通过报表和功能板处理播放事件和使用数据，以供人们使用。
-我们可以使用此数据创建交互式体验的热图，以确定通过我们的应用程序的首选历程图。 我们还可以选择创建一个功能板，以图形方式解释消费者与我们的应用程序交互的次数。
-
+使用Analytics的第二個使用案例是透過報表和儀表板處理播放事件和使用資料，以供人類消耗。
+我們可能會使用此資料來建立互動式體驗的熱度圖，以透過我們的應用程式決定偏好的歷程圖。 我們也可以選擇建立儀表板，以圖形化方式解譯消費者與應用程式互動的次數。
