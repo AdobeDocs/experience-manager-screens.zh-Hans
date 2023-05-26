@@ -1,7 +1,7 @@
 ---
 title: 测试和质量保证
 seo-title: Testing and Quality Assurance for AEM Screens
-description: 頁面說明AEM Screens最佳實務指南的測試和品質保證
+description: 此页面介绍了AEM Screens最佳实践的测试和质量保证指南
 seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
@@ -14,74 +14,74 @@ ht-degree: 2%
 # 测试和质量保证 {#testing-quality}
 
 >[!NOTE]
->此活動的一般利害關係人是A/V整合商。
+>此活动的典型利益相关者是A/V集成商。
 
-當我們更接近數位看板網路的實際部署時，應該建立測試與QA計畫，解決網路的每個元素，包括所有硬體元件、所有軟體元件和所有網路元件。
-在這個階段中，應該建置並完整測試整個測試系統。
+随着我们越来越接近数字标牌网络的实际部署，我们应制定一个测试和QA计划，以解决网络的每个元素，包括所有硬件组件、所有软件组件和所有网络组件。
+在这一阶段，应建立并全面测试整个测试系统。
 
-應建立檢查清單，識別所有先前定義的KPI，並根據它們測量交付成果。
+应创建一个清单，该清单可识别之前定义的所有关键绩效指标，并根据这些指标衡量可交付成果。
 
 >[!NOTE]
 >
->此階段也應作為建立安裝和使用手冊的工具，之後可隨裝置一併寄出，並保留在現場以供日後參考。
+>此阶段还应该用作创建安装和用户指南的工具，该指南以后可以随设备一起提供，并保留在现场以供将来参考。
 
-應考慮以下元素：
+应考虑以下元素：
 
-## 1.機械考量 {#mechanical-considerations}
+## 1.机械方面的考虑 {#mechanical-considerations}
 
-建議採取下列機械考量：
+建议采取以下机械注意事项：
 
-* 顯示器掛載
-* 播放器掛載
-* 通風
-* 周邊裝置附件
-* 纜線管理
-* 裝置網路
+* 显示器安装
+* 播放器安装
+* 通风
+* 外围设备附件
+* 电缆管理
+* 设备联网
 
-## 2.軟體考量事項 {#software-considerations}
+## 2.软件注意事项 {#software-considerations}
 
-建議採取下列軟體考量事項：
+建议注意以下软件注意事项：
 
-* 裝置註冊
-* 媒體發佈
+* 设备注册
+* 媒体发布
 * 播放
-* 資料庫相依性（先前定義）
+* 数据库依赖关系（以前定义）
 
 
-## 3.裝置管理考量事項 {#device-management-considerations}
+## 3.设备管理注意事项 {#device-management-considerations}
 
-AEM Screens包含Device Control Center模組，可管理Screens播放器應用程式端點。
+AEM Screens包括设备控制中心模块，用于管理Screens播放器应用程序端点。
 
-這指任何 *播放器* 已安裝Screens播放器應用程式且已註冊至AEM執行個體的硬體裝置。
-此模組可讓您：
+这指任何 *播放器* 安装了Screens播放器应用程序并注册到AEM实例的硬件设备。
+利用此模块，您可以：
 
-1. 監視播放器應用程式錯誤記錄
-1. 管理遠端熒幕擷取畫面
-1. 管理內容下載
-1. 管理應用程式重新啟動問題
+1. 监控播放器应用程序错误日志
+1. 管理远程屏幕截图
+1. 管理内容下载
+1. 管理应用程序重启问题
 
-若要深入瞭解 ***裝置控制中心***，請參閱 [疑難排解裝置控制中心](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 在 **AEM Screens使用手冊**.
+详细了解 ***设备控制中心***，请参阅 [设备控制中心故障诊断](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) 在 **AEM Screens用户指南**.
 
 >[!CAUTION]
 >
-> 您不應使用「裝置控制中心」來：
-> 1. 安裝播放器應用程式的新版本
-> 1. 監視系統層級資源
-> 1. 疑難排解系統層級錯誤
-> 1. 允許遠端案頭介入
+> 您不应使用设备控制中心来：
+> 1. 安装播放器应用程序的新版本
+> 1. 监视系统级别资源
+> 1. 系统级错误故障诊断
+> 1. 允许远程桌面干预
 
 
 
 >[!NOTE]
 >
-> Adobe建議所有部署都應使用專用的第三方裝置管理平台。
+> Adobe建议在所有部署中都使用专用的第三方设备管理平台。
 
-選擇的特定平台取決於許多因素，包括 ***目標作業系統***， ***專案需求*** 和 ***端點數目***.
+选择的特定平台取决于多种因素，包括 ***目标操作系统***， ***项目要求*** 和 ***端点数***.
 
-以下是幾個範例：
+以下示例很少：
 
-* Google Chrome裝置管理
-* 團隊檢視器
+* Google Chrome设备管理
+* TeamViewer
 * AirWatch
 * 42Gears
-* 專屬AV Integrator中介軟體
+* 专有AV Integrator中间件

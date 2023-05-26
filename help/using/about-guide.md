@@ -1,7 +1,7 @@
 ---
 title: 关于本指南
 seo-title: Description on the Guide
-description: 遵循AEM Screens專案的最佳實務AEM 6.5指南，規劃和執行專案，從策略與設計簡報，到部署，再到支援後。
+description: 遵循此最佳实践AEM 6.5 《AEM Screens项目指南》，规划和执行从战略和设计简报到部署和支持后的项目。
 seo-description: This page describes the intent of the Best Practices Guide
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
@@ -33,7 +33,7 @@ AEM Screens 是 Adobe Experience Manager (AEM) 的一项新型扩展功能，由
 >
 > 本指南旨在识别实施 AEM Screens 项目期间的常见缺陷，其相关材料主要侧重于以下主题：
 >
-> * **[專案角色與責任](roles-responsibilities.md)**
+> * **[项目角色和职责](roles-responsibilities.md)**
 > * **[适用于不同角色的 RACI 图表](roles-responsibilities.md#raci-chart)**
 > * **[AEM 平台配置](aem-platform-configurations.md)**
 > * **[支持和监测](support-monitoring.md)**

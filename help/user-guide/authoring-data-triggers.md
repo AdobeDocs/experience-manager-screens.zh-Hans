@@ -1,7 +1,7 @@
 ---
-title: 使用資料觸發器製作
+title: 使用Data Triggers创作
 seo-title: Authoring with Data Triggers
-description: 請詳閱本頁面，瞭解如何使用資料觸發器進行創作。
+description: 按照此页面了解如何使用数据触发器创作。
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
@@ -13,72 +13,72 @@ ht-degree: 1%
 
 ---
 
-# 使用資料觸發器製作 {#authoring-with-data-triggers}
+# 使用Data Triggers创作 {#authoring-with-data-triggers}
 
-本節著重說明如何在您的管道中啟用目標定位。
+本节重点介绍如何在渠道中启用定位。
 
 >[!IMPORTANT]
 >
->AEM Screens管道中支援資料觸發器的最低版本為AEM 6.5.3 Feature Pack 3。
+>在AEM Screens渠道中支持数据触发器的最低版本是AEM 6.5.3 Feature Pack 3。
 
 ## 前提条件 {#prereqs}
 
-在依照下列步驟啟用管道中的目標定位之前，您必須瞭解 [在AEM Screens中設定的重要條款](configuring-context-hub.md) 瞭解AEM Screens中的ContextHub和鎖定目標所需。
+在执行以下步骤以在渠道中启用定位之前，您必须了解 [在AEM Screens中配置的关键术语](configuring-context-hub.md) 了解AEM Screens中的ContextHub和定位时需要此信息。
 
 >[!IMPORTANT]
 >
->在AEM Screens頻道中啟用鎖定目標之前，建議您先瞭解並設定ContextHub設定。
+>在AEM Screens渠道中启用定位之前，建议您先了解并设置ContextHub配置。
 
-如需詳細資訊，請前往下列連結：
+有关详细信息，请访问下面的链接：
 
-1. **[設定資料存放區](configuring-context-hub.md)**
-1. **[設定對象細分](configuring-context-hub.md)**
+1. **[设置数据存储](configuring-context-hub.md)**
+1. **[设置受众分段](configuring-context-hub.md)**
 
-完成上述步驟後，您就可以在管道中啟用目標定位。
+完成上述步骤后，您便可以在渠道中启用定位。
 
-## 使用Data Triggers製作概述 {#author-targeting}
+## 使用Data Triggers创作概述 {#author-targeting}
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## 在AEM Screens頻道中啟用鎖定目標 {#enabling-targeting}
+## 在AEM Screens渠道中启用定位 {#enabling-targeting}
 
-請依照下列步驟，在您的管道中啟用目標定位。
+请按照以下步骤在您的渠道中启用定位。
 
-1. 導覽至其中一個AEM Screens頻道。 下列步驟示範如何使用啟用鎖定目標 **DataDrivenRetail** *（順序頻道）* 在AEM Screens頻道中建立。
+1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用启用定位 **DataDrivenRetail** *（序列渠道）* 在AEM Screens渠道中创建。
 
-1. 選取頻道 **DataDrivenRetail** 並按一下 **屬性** 動作列中的。
+1. 选择渠道 **DataDrivenRetail** 并单击 **属性** 操作栏中的。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 選取 **個人化** 索引標籤以設定ContextHub設定，並選取ContextHub和區段路徑。
+1. 选择 **个性化** 选项卡以设置ContextHub配置并选择ContextHub和区段路径。
 
-   1. 選取 **ContextHub路徑** 作為 **程式庫** > **設定** > **雲端設定** > **預設** > **ContextHub設定** 並按一下 **選取**.
+   1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并单击 **选择**.
 
-   1. 選取 **區段路徑** 作為 **conf** > **We.Retail** > **設定** > **wcm** > **區段** 並按一下 **選取**.
+   1. 选择 **区段路径** 作为 **会议** > **We.Retail** > **设置** > **wcm** > **区段** 并单击 **选择**.
 
    1. 单击“**保存并关闭**”。
    >[!NOTE]
    >
-   >使用ContextHub和區段路徑，您最初儲存您的Context Hub設定和區段。
+   >使用ContextHub和区段路径，您最初是在其中保存了Context Hub配置和区段。
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 瀏覽並選取 **DataDrivenRetail** 從 **DataDrivenAssets** > **頻道** 並按一下 **編輯** 動作列中的。 在管道編輯器中拖放資產。
+1. 导航并选择 **DataDrivenRetail** 起始日期 **DataDrivenAssets** > **渠道** 并单击 **编辑** 操作栏中的。 将资产拖放到渠道编辑器中。
 
    >[!NOTE]
    >
-   >如果您已正確設定所有內容，您將會看到 **目標定位** 選項下拉式清單中的下拉式清單，如下圖所示。
+   >如果一切设置正确，您将看到 **定位** 选项，如下图所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 按一下 **目標定位**.
+1. 单击 **定位**.
 
-1. 選取 **品牌** 和 **活動** 從下拉式功能表，然後按一下 **開始定位**.
+1. 选择 **品牌** 和 **活动** 从下拉菜单中单击 **开始定位**.
 
-### 深入瞭解：範例使用案例 {#learn-more-example-use-cases}
+### 了解详情：示例用例 {#learn-more-example-use-cases}
 
-為AEM Screens專案設定ContextHub後，您可以依照不同的使用案例來瞭解資料觸發的資產如何在不同的產業中扮演重要角色：
+为AEM Screens项目配置ContextHub后，您可以按照不同的用例来了解数据触发的资源如何在不同的行业中发挥重要作用：
 
-1. **[零售詳細目錄目標啟動](retail-inventory-activation.md)**
-1. **[旅行中心溫度啟用](local-temperature-activation.md)**
+1. **[零售库存目标激活](retail-inventory-activation.md)**
+1. **[移动中心温度激活](local-temperature-activation.md)**
 1. **[Hospality Reservation Activation](hospitality-reservation-activation.md)**

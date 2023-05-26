@@ -1,7 +1,7 @@
 ---
-title: 體驗片段啟用
+title: 体验片段激活
 seo-title: Experience Fragments Activation
-description: 請依照此使用案例範例來瞭解體驗片段啟用。
+description: 按照此用例示例了解体验片段激活。
 seo-description: Follow this use case example to learn about experience fragments activation.
 source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
 workflow-type: tm+mt
@@ -11,32 +11,32 @@ ht-degree: 0%
 ---
 
 
-# 體驗片段啟用： OmniChannel體驗 {#experience-fragments-activation}
+# 体验片段激活：全渠道体验 {#experience-fragments-activation}
 
-## 使用案例說明 {#use-case-description}
+## 用例描述 {#use-case-description}
 
-體驗片段是一組一或多個元件，包括頁面中參照的內容和版面。
+体验片段是由一个或多个组件组成的组，其中包括在页面中引用的内容和布局。
 
-以下使用案例可讓您實作示範專案，從中將體驗片段運用到AEM Screens專案。 此使用案例的主要重點包括：
+以下用例允许您实施演示项目，其中体验片段被利用到AEM Screens项目。 此用例的主要亮点包括：
 
-* 增加文字大小
-* 翻轉影像
-* 移除使用者介面，例如按鈕
-* 瞭解繼承
+* 增加文本大小
+* 翻转图像
+* 删除用户界面（如按钮）
+* 了解继承
 
 >[!NOTE]
 >**前提条件
->您必須預先瞭解體驗片段的基本知識，以及如何在AEM Screens專案中使用體驗片段。 另請參閱 [使用體驗片段](/help/user-guide/experience-fragments-in-screens.md)
+>您必须事先了解体验片段的基础知识以及如何在AEM Screens项目中使用体验片段。 参见 [使用体验片段](/help/user-guide/experience-fragments-in-screens.md)
 
-### 設定示範專案 {#demo-project-setup}
+### 设置演示项目 {#demo-project-setup}
 
-建立標題為的專案 **示範專案** 和標題為的序列頻道 **TestChannel** 在AEM Screens中，如下圖所示。
+创建标题为 **演示项目** 和一个标题为 **TestChannel** 在AEM Screens中，如下图所示。
 
-### 在AEM Screens專案中實作體驗片段 {#experience-fragments-implementation}
+### 在AEM Screens项目中实施体验片段 {#experience-fragments-implementation}
 
-建立體驗片段並在AEM Screens專案中運用後， **示範專案** 您現在可以根據需求增強體驗片段。
+创建体验片段并在您的AEM Screens项目中利用后， **演示项目** 您现在可以根据自己的要求增强体验片段。
 
-### 增加文字大小 {#increasing-text-size}
+### 增加文本大小 {#increasing-text-size}
 
 
 

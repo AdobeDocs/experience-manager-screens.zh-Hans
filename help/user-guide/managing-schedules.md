@@ -1,7 +1,7 @@
 ---
-title: 建立和管理排程
+title: 创建和管理调度
 seo-title: Managing Schedules
-description: 請依照本頁瞭解「排程」，此排程可讓您將管道組織成可重複使用的群組，如此您就不必針對要顯示內容的每個顯示區個別重複其指派。
+description: 按照本页了解“计划”，该计划可让您将渠道组织到可重复使用的组中，这样您就不必为要显示内容的每个显示分别重复其分配。
 seo-description: Follow this page to learn about Schedules, that lets you organize channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
@@ -20,50 +20,50 @@ ht-degree: 0%
 
 ---
 
-# 建立和管理排程 {#creating-and-managing-schedules}
+# 创建和管理调度 {#creating-and-managing-schedules}
 
-**時程表**(在AEM Screens中)可讓您將管道組織成可重複使用的群組，如此您就不必個別針對要顯示內容的每個顯示重複其指派。
+**时间表**&#x200B;在AEM Screens中，您可以将渠道组织到可重复使用的组中，这样您就不必为要显示内容的每个显示分别重复其分配。
 
-排程結合使用 ***日時段分割***，可讓您設定在一天中的特定時間執行多個管道的全域排程，並一次重複使用該設定來顯示所有顯示器。
+与合并时的计划 ***日期分段***，允许您设置一个全局计划，在一天中的特定时间运行多个渠道，并一次为所有显示重复使用该设置。
 
 >[!NOTE]
 >
->此AEM Screens功能僅在您已安裝AEM 6.3 Sites Feature Pack 1時可用。 若要存取此Feature Pack，您必須聯絡Adobe支援並要求存取權。 一旦您擁有許可權，就可以從「封裝共用」下載它。
+>此AEM Screens功能仅在安装了AEM 6.3 Sites Feature Pack 1时才可用。 要访问此功能包，您必须联系Adobe支持部门并请求获取访问权限。 一旦您拥有权限，就可以从包共享下载它。
 
-## 建立排程 {#creating-a-schedule}
+## 创建调度 {#creating-a-schedule}
 
-您可以為Screens專案建立排程，用於管理使用案例的所有活動。
+您可以为Screens项目创建一个计划，用于管理用例的所有活动。
 
-請依照下列步驟，為您的頻道建立排程：
+请按照以下步骤为您的渠道创建计划：
 
-1. 選取Adobe Experience Manager連結（左上方），然後選取Screens。 或者，您可以直接前往： `http://localhost:4502/screens.html/content/screens`.
-1. 導覽至畫面專案，然後按一下 **時程表**.
-1. 按一下 **建立** 動作列中的。
-1. 選取 **排程** 從 **建立** 精靈並按一下 **下一個**.
+1. 选择Adobe Experience Manager链接（左上方），然后选择Screens。 或者，您可以直接转到： `http://localhost:4502/screens.html/content/screens`.
+1. 导航到屏幕项目并单击 **时间表**.
+1. 单击 **创建** 操作栏中的。
+1. 选择 **计划** 从 **创建** 向导并单击 **下一个**.
 
-1. 輸入 **名稱** 和 **標題** 並按一下 **建立**.
+1. 输入 **名称** 和 **标题** 并单击 **创建**.
 
-您會在專案中看到具有指定名稱和標題的排程資料夾。
+您将在项目中看到一个具有指定名称和标题的计划文件夹。
 
 
-## 檢視控制面板 {#viewing-dashboard}
+## 查看功能板 {#viewing-dashboard}
 
-在專案中建立排程資料夾後，您就可以從排程儀表板檢視詳細資訊。
+在项目中创建了计划文件夹后，可以从计划仪表板查看详细信息。
 
-請依照下列步驟檢視排程控制面板。 下列範例顯示We.Retail專案的控制面板：
+按照以下步骤查看计划仪表板。 以下示例显示了We.Retail项目的仪表板：
 
-1. 導覽至 **時程表** Screens （例如We.Retail）專案的資料夾。
+1. 导航到 **时间表** 屏幕（例如，We.Retail）项目的文件夹。
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. 按一下 **儀表板** 以開啟排程的控制面板。
+1. 单击 **仪表板** 从操作栏中打开计划的仪表板。
 
-   您可以檢視三個不同的面板，例如 **排程資訊**， **已指派的頻道**、和 **已指派的顯示區**.
+   您可以查看三个不同的面板，例如 **时间表信息**， **已分配渠道**、和 **已分配显示区**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **排程資訊面板** 按一下「排程資訊面板」右上角的「屬性」，以檢視/變更排程的屬性。
+   **“计划信息”面板** 单击“计划信息”面板右上角的属性以查看/更改计划的属性。
 
-   **已指派的色版面板** 按一下「已指派的色版」面板右上角的+指派色版，開啟「色版指派」對話方塊。
+   **“分配的渠道”面板** 从“分配的渠道”面板的右上角，单击+分配渠道以打开“渠道分配”对话框。
 
-   **指派的顯示面板** 從「指定的顯示面板」中選取任何顯示以開啟顯示圖示板。
+   **已分配显示面板** 从“指定的显示”面板中选择任意显示以打开显示仪表板。

@@ -1,5 +1,5 @@
 ---
-title: 資料導向事件
+title: 数据驱动事件
 seo-title: Data Driven Events
 description: null
 seo-description: null
@@ -15,35 +15,35 @@ ht-degree: 0%
 ---
 
 
-# 資料導向事件{#data-driven-events}
+# 数据驱动事件{#data-driven-events}
 
-在數位看板中，資料導向事件會透過數位選單和視訊牆壁的互動式使用，即時互動和傳達資訊。 您可以透過資料導向事件最大化使用者體驗。
+在数字标牌中，数据驱动事件通过数字菜单和视频墙的交互式使用实时参与和传递信息。 您可以使用数据驱动事件最大化用户体验。
 
-## 針對資料導向事件使用Context Hub {#using-context-hub-for-data-driven-events}
+## 将Context Hub用于数据驱动事件 {#using-context-hub-for-data-driven-events}
 
-AEM Screens會透過Context Hub啟用資料導向事件。 Context Hub，可讓您使用即時
+AEM Screens通过Context Hub启用数据驱动事件。 Context Hub，允许您使用实时
 
-### 分類資料導向事件 {#categorizing-data-driven-events}
+### 分类数据驱动事件 {#categorizing-data-driven-events}
 
-資料導向事件分為四個不同的類別：
+数据驱动事件分为四个不同的类别：
 
-* 營運中的資料
-* 簡報中的資料
-* 資料輸出可操作
-* 資料輸出呈現
+* 运行中的数据
+* 演示文稿中的数据
+* 数据输出可操作
+* 数据输出呈现
 
-#### 營運中的資料 {#data-in-operational}
+#### 运行中的数据 {#data-in-operational}
 
-這可以進一步分類為通道插斷和預留位置。
+这可以进一步分类为渠道中断和占位符。
 
-#### 簡報中的資料 {#data-in-presentation}
+#### 演示文稿中的数据 {#data-in-presentation}
 
-資料在臨時管道中執行，觸發後，會變更管道內的資產。
+数据在临时渠道中运行，触发后，会更改渠道中的资产。
 
-#### 資料輸出可操作 {#data-out-actionable}
+#### 数据输出可操作 {#data-out-actionable}
 
-當命令傳送至液晶熒幕以開啟和關閉熒幕時。 例如，熒幕的亮度或音量。
+当命令发送到液晶屏以打开和关闭屏幕时。 例如，屏幕的亮度或音量。
 
-#### 資料輸出呈現 {#data-out-presentational}
+#### 数据输出呈现 {#data-out-presentational}
 
-將資訊彙總至回饋回圈的圖表。 它會使用Analytics來評估及通知事件。
+将信息聚合到反馈循环中的图表。 它使用Analytics来评估和注意事件。

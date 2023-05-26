@@ -1,7 +1,7 @@
 ---
-title: 製作和發佈架構概覽
+title: 创作和发布架构概述
 seo-title: Author and Publish Architectural Overview
-description: AEM Screens架構類似於傳統AEM Sites架構。 內容是在AEM編寫執行個體上編寫，然後轉送復寫到多個發佈執行個體。 請詳閱本頁內容，瞭解更多有關作者和發佈架構概觀的資訊。
+description: AEM Screens架构类似于传统的AEM Sites架构。 内容在AEM创作实例上创作，然后转发到多个发布实例。 请阅读本页，了解有关创作和发布架构概述的更多信息。
 seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
@@ -20,96 +20,96 @@ ht-degree: 0%
 
 ---
 
-# 製作和發佈架構概覽 {#author-and-publish-architectural-overview}
+# 创作和发布架构概述 {#author-and-publish-architectural-overview}
 
-本頁面主要說明下列主題：
+本页重点介绍以下主题：
 
-* **發佈伺服器簡介**
+* **发布服务器简介**
 * **架构概述**
-* **註冊程式**
+* **注册流程**
 
 ## 前提条件 {#prerequisites}
 
-在開始使用作者和發佈伺服器之前，您應該具備以下先前的知識：
+在开始使用创作和发布服务器之前，您应该事先了解以下知识：
 
-* **AEM拓撲**
-* **建立和管理AEM Screens專案**
-* **裝置註冊程式**
+* **AEM拓扑**
+* **创建和管理AEM Screens项目**
+* **设备注册流程**
 
 >[!NOTE]
 >
->此AEM Screens功能僅在您已安裝AEM 6.4 Screens Feature Pack 2時可用。 若要存取此Feature Pack，您必須聯絡Adobe支援並要求存取權。 一旦您擁有許可權，就可以從「封裝共用」下載它。
+>此AEM Screens功能仅在安装了AEM 6.4 Screens Feature Pack 2时才可用。 要访问此功能包，您必须联系Adobe支持部门并请求获取访问权限。 一旦您拥有权限，就可以从包共享下载它。
 
 ## 简介 {#introduction}
 
-AEM Screens架構類似於傳統AEM Sites架構。 內容是在AEM編寫執行個體上編寫，然後轉送復寫到多個發佈執行個體。 AEM Screens裝置現在可以透過負載平衡器連線至AEM發佈陣列。 可以新增多個AEM發佈執行個體以繼續擴充發佈陣列。
+AEM Screens架构类似于传统的AEM Sites架构。 内容在AEM创作实例上创作，然后转发到多个发布实例。 AEM Screens设备现在可以通过负载平衡器连接到AEM发布场。 可以添加多个AEM发布实例以继续扩展发布场。
 
-*例如*，AEM Screens內容作者會在製作系統上針對設定為與發佈陣列互動的特定裝置發出命令，或是取得設定為與發佈陣列互動之裝置相關資訊的AEM Screens內容作者。
+*例如*，AEM Screens内容作者在创作系统上为配置为与发布场交互的特定设备发出命令，或者AEM Screens内容作者获取有关配置为与发布场交互的设备的信息。
 
-下圖說明製作和發佈環境。
+下图说明了创作和发布环境。
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
-## 架構設計 {#architectural-design}
+## 体系结构设计 {#architectural-design}
 
-有五個架構元件，可加速此解決方案：
+有五个体系结构组件，可帮助实现此解决方案：
 
-* ***復寫內容*** 從作者到發佈，以依裝置顯示
+* ***复制内容*** 从创作到发布以供设备显示
 
-* ***反轉*** 將二進位內容從發佈（從裝置接收）複製到作者
-* ***傳送中*** 透過特定REST API從作者發佈到發佈的命令
-* ***傳訊*** 在發佈執行個體之間同步裝置資訊更新和命令
-* ***輪詢*** 作者透過特定REST API取得裝置資訊
+* ***反向*** 将二进制内容从发布（从设备接收）复制到创作
+* ***正在发送*** 通过特定REST API从作者到发布的命令
+* ***消息传送*** 在发布实例之间同步设备信息更新和命令
+* ***轮询*** 发布实例的作者通过特定的REST API获取设备信息
 
-### 內容和設定的復寫（轉送）  {#replication-forward-of-content-and-configurations}
+### 内容和配置的复制（转发）  {#replication-forward-of-content-and-configurations}
 
-標準復寫代理程式可用來復寫畫面通道內容、位置設定和裝置設定。 這可讓作者更新管道的內容，並在發佈管道更新之前選擇性地進行某種核准工作流程。 需要為發佈伺服器陣列中的每個發佈執行個體建立復寫代理程式。
+标准复制代理用于复制screens通道内容、位置配置和设备配置。 这允许作者更新渠道的内容，并在发布渠道更新之前选择性地完成某种审批工作流。 需要为发布场中的每个发布实例创建复制代理。
 
-下圖說明復製程式：
+下图说明了复制过程：
 
 ![screen_shot_2019-03-04at33935pm](assets/screen_shot_2019-03-04at33935pm.png)
 
 >[!NOTE]
 >
->需要為發佈伺服器陣列中的每個發佈執行個體建立復寫代理程式。
+>需要为发布场中的每个发布实例创建复制代理。
 
-### Screens復寫代理和命令  {#screens-replication-agents-and-commands}
+### Screens复制代理和命令  {#screens-replication-agents-and-commands}
 
-自訂Screens專用的復寫代理程式是用來從Author執行個體傳送命令至AEM Screens裝置。 AEM Publish執行個體可作為將這些命令轉送至裝置的中介者。
+可创建特定于Custom Screens的复制代理，以将命令从Author实例发送到AEM Screens设备。 AEM Publish实例充当将这些命令转发到设备的中介。
 
-這可讓作者繼續管理裝置，例如傳送裝置更新，以及從作者環境擷取熒幕擷圖。 AEM Screens復寫代理程式具有自訂傳輸設定，例如標準復寫代理。
+这允许作者继续管理设备，例如，发送设备更新，并从创作环境拍摄屏幕快照。 AEM Screens复制代理具有自定义传输配置，如标准复制代理。
 
-### 發佈執行個體之間的傳訊  {#messaging-between-publish-instances}
+### 发布实例之间的消息传递  {#messaging-between-publish-instances}
 
-在許多情況下，命令只適用於單次傳送至裝置。 但在負載平衡的發佈架構中，未知裝置要連線的發佈執行個體。
+在许多情况下，命令只应发送到设备一次。 但在负载平衡的发布架构中，未知设备连接到哪个发布实例。
 
-因此，作者執行個體會將訊息傳送給所有發佈執行個體。 不過，之後只應將單一訊息轉送至裝置。 為確保傳訊正確無誤，發佈執行個體之間必須通訊。 這是使用取得的 *Apache ActiveMQ Artemis*. 每個發佈執行個體都會使用Oak型Sling探索服務放在鬆散耦合的拓撲中，且ActiveMQ已設定為讓每個發佈執行個體可以通訊並建立單一訊息佇列。 Screens裝置透過負載平衡器輪詢發佈陣列，並從佇列頂端挑選命令。
+因此，创作实例会将消息发送到所有发布实例。 但是，只应将一条消息中继到设备。 为确保消息传递正确，发布实例之间必须进行通信。 这是通过使用以下方式实现的 *Apache ActiveMQ Artemis*. 使用基于Oak的Sling发现服务将每个发布实例置于松散耦合的拓扑中，并配置ActiveMQ，以便每个发布实例可以通信并创建单个消息队列。 Screens设备通过负载平衡器轮询发布场，并从队列顶部选取命令。
 
-### 反向復寫 {#reverse-replication}
+### 反向复制 {#reverse-replication}
 
-在許多情況下，在命令之後，會預期從Screens裝置將某種回應轉送到Author執行個體。 為了達成此AEM ***反向復寫*** 已使用。
+在许多情况下，执行命令后，Screens设备中的某种响应应转发到Author实例。 要实现此AEM ***反向复制*** 已使用。
 
-* 為每個發佈執行個體建立反向復寫代理，類似於標準復寫代理和screens復寫代理。
-* 工作流程啟動器設定會監聽在發佈執行個體上修改的節點，然後觸發工作流程將裝置的回應放入發佈執行個體的寄件匣中。
-* 此內容中的反向復寫僅適用於裝置提供的二進位資料（例如記錄檔和熒幕擷圖）。 非二進位資料會透過輪詢擷取。
-* 從AEM編寫執行個體輪詢的反向復寫會擷取回應，並將其儲存至編寫執行個體。
+* 为每个发布实例创建一个反向复制代理，类似于标准复制代理和screens复制代理。
+* 工作流启动器配置会侦听在发布实例上修改的节点，然后触发工作流以将设备的响应放入发布实例的发件箱中。
+* 此上下文中的反向复制仅用于设备提供的二进制数据（例如，日志文件和屏幕截图）。 通过轮询检索非二进制数据。
+* 从AEM创作实例轮询的反向复制会检索响应并将其保存到创作实例。
 
-### 輪詢發佈執行個體  {#polling-of-publish-instances}
+### 轮询发布实例  {#polling-of-publish-instances}
 
-製作執行個體必須能夠輪詢裝置以取得心率，並瞭解連線裝置的健康狀態。
+创作实例需要能够轮询设备以获取心跳，并了解已连接设备的运行状况。
 
-裝置ping負載平衡器並路由至發佈執行個體。 然後，發佈執行個體會透過提供的Publish API公開裝置的狀態@ **api/screens-dcc/devices/static** 適用於所有使用中裝置和 **api/screens-dcc/devices/&lt;device_id>/status.json** 適用於單一裝置。
+设备ping负载平衡器并路由到发布实例。 然后，发布实例通过提供的发布API公开设备的状态。 **api/screens-dcc/devices/static** 适用于所有活动设备和 **api/screens-dcc/devices/&lt;device_id>/status.json** 用于单个设备。
 
-製作執行個體會輪詢所有發佈執行個體，並將裝置狀態回應合併為單一狀態。 輪詢作者的排程工作為 `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` 並且可以根據cron運算式進行設定。
+创作实例可轮询所有发布实例，并将设备状态响应合并为单个状态。 轮询作者的计划作业为 `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` 并且可以基于cron表达式进行配置。
 
 ## 注册 {#registration}
 
-註冊會持續源自AEM編寫執行個體。 AEM Screens裝置指向作者執行個體並完成註冊。
+注册仍源自AEM创作实例。 AEM Screens Device指向创作实例并完成注册。
 
-一旦裝置在製作環境中註冊後，裝置設定和管道/排程指派就會複製到AEM發佈執行個體。 AEM Screens裝置設定接著會更新，以指向AEM發佈伺服器陣列前面的負載平衡器。 此為一次性設定，一旦Screens裝置成功連線至發佈環境，就可以繼續接收來自製作環境的命令，而且應該不需要直接將Screens裝置連線至製作環境。
+在创作环境中注册设备后，设备配置和渠道/计划分配将复制到AEM发布实例。 AEM Screens设备配置随后将更新，以指向AEM发布场前的负载平衡器。 此操作旨在一次性设置，一旦Screens设备成功连接到发布环境，它就可以继续接收来自创作环境的命令，并且无需将Screens设备直接连接到创作环境。
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
 ### 后续步骤 {#the-next-steps}
 
-瞭解AEM Screens中作者與發佈設定的架構設計後，請參閱 [設定AEM Screens的作者和發佈](author-and-publish.md) 以取得更多詳細資料。
+了解AEM Screens中创作和发布设置的架构设计后，请参阅 [为AEM Screens配置“创作”和“发布”](author-and-publish.md) 了解更多详细信息。

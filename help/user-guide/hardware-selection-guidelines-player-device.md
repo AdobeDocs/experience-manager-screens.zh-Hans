@@ -1,6 +1,6 @@
 ---
-title: 播放器裝置的硬體選擇准則
-description: 播放器裝置的硬體選擇准則
+title: 播放器设备的硬件选择准则
+description: 播放器设备的硬件选择准则
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
 workflow-type: tm+mt
 source-wordcount: '220'
@@ -9,78 +9,78 @@ ht-degree: 3%
 ---
 
 
-# 播放器裝置的硬體選擇准則 {#hardware-selection}
+# 播放器设备的硬件选择准则 {#hardware-selection}
 
-下節提供AEM Screens播放器的硬體選擇准則。
+以下部分提供了AEM Screens播放器的硬件选择准则。
 
 ## 重要注意事项 {#important-considerations}
 
-* 永遠來源 ***商業*** 或 ***工業*** PC播放器及顯示面板或投影機的等級元件。
+* 始终源 ***商业*** 或 ***工业*** PC播放器和显示面板或投影仪的等级组件。
 
-* 永遠與數位看板市場的供應商互動。
-* 請務必考量環境因素，例如環境溫度和相對濕度。
-* 請務必檢閱電源需求與電源調節。
-* 請仔細檢閱應用程式所需的效能需求和I/O連線埠。
+* 始终与服务数字标牌市场的供应商接洽。
+* 请务必考虑环境因素，如环境温度和相对湿度。
+* 请务必查看电源要求和电源调节。
+* 仔细审查应用程序所需的性能需求和I/O端口。
 
-## 硬體組態 {#hardware-configurations}
+## 硬件配置 {#hardware-configurations}
 
-下表總結列出AEM Screens專案的硬體組態與典型使用案例：
+下表总结了AEM Screens项目的硬件配置以及典型用例：
 
 <table>
  <tbody>
   <tr>
    <tr>
-   <td><strong>播放器設定</strong></td>
-   <td><strong>處理器</strong></td>
+   <td><strong>播放器配置</strong></td>
+   <td><strong>处理器</strong></td>
    <td><strong>内存</strong></td>
-   <td><strong>儲存固態硬碟</strong></td>
+   <td><strong>存储SSD</strong></td>
    <td><strong>GPU</strong></td>
    <td><strong>显示器</strong></td>
    <td><strong>I/O</strong></td>
-   <td><strong>典型使用案例</strong></td>
+   <td><strong>典型用例</strong></td>
   </tr>
   <tr>
    <td>基本</td>
-   <td>雙核心、i3或入門級四核心Intel® Atom處理器</td>
-   <td><p>4GB記憶體</p> <p>2MB快取記憶體</p> </td>
+   <td>双核、i3或入门级四核英特尔®凌动处理器</td>
+   <td><p>4GB内存</p> <p>2MB高速缓存</p> </td>
    <td><p>·ChromeOS 32 GB</p> <p>·Windows 128GB</p> </td>
-   <td>內建</td>
+   <td>板载</td>
    <td>1920x1080</td>
-   <td>DVI、<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI、<br /> 以太网/无线、<br /> 2个USB</td>
    <td>
     <ul>
-     <li>標準全熒幕回圈<br /> </li>
-     <li>日時段分割</li>
+     <li>标准全屏循环<br /> </li>
+     <li>日划分</li>
     </ul> </td>
   </tr>
   <tr>
    <td>标准</td>
-   <td>四核心、Intel® Core i5處理器</td>
-   <td><p>8GB記憶體</p> <p>4MB快取記憶體</p> </td>
+   <td>四核、英特尔®酷睿i5处理器</td>
+   <td><p>8GB内存</p> <p>4MB缓存</p> </td>
    <td>128 GBB</td>
-   <td>內建</td>
+   <td>板载</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI、HDMI<br /> 以太网/无线、<br /> 2个USB</td>
    <td>
     <ul>
-     <li>單一來源動態內容</li>
-     <li>簡單互動式</li>
-     <li>1-3區域配置</li>
+     <li>单一来源动态内容</li>
+     <li>简单交互式</li>
+     <li>1-3区域布局</li>
     </ul> </td>
   </tr>
   <tr>
    <td>高级</td>
-   <td>四核心，含超執行緒、Intel® Core i7處理器</td>
-   <td><p>16GB記憶體</p> <p>8MB快取記憶體</p> </td>
+   <td>四核超线程，英特尔®酷睿i7处理器</td>
+   <td><p>16 GB内存</p> <p>8MB缓存</p> </td>
    <td>256 GB</td>
-   <td>專用圖形GPU</td>
+   <td>专用图形GPU</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 4個USB</td>
+   <td>DVI、HDMI<br /> 以太网/无线、<br /> 4个USB</td>
    <td>
     <ul>
-     <li>4個或多個內容區域，同時播放視訊</li>
-     <li>多頁互動式</li>
-     <li>多來源資料觸發程式</li>
+     <li>4个或更多内容区域，并发视频播放</li>
+     <li>多页交互式</li>
+     <li>多源数据触发器</li>
     </ul> </td>
   </tr>
  </tbody>

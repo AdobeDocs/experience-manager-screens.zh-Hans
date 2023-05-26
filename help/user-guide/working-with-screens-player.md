@@ -1,7 +1,7 @@
 ---
 title: 使用AEM Screens Player
 seo-title: Working with Screens Player
-description: 請依照本頁所述操作，瞭解Screens播放器。 此外也說明Admin UI和Channel Switcher。
+description: 按照此页面了解Screens播放器。 它还介绍了管理员UI和渠道切换器。
 seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
 uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
 contentOwner: jyotika syal
@@ -22,197 +22,197 @@ ht-degree: 1%
 
 # 使用AEM Screens Player {#working-with-aem-screens-player}
 
-您可以在AEM Screens Player上管理頻道內容和其他設定。
+您可以在AEM Screens Player上管理渠道内容和其他设置。
 
 >[!NOTE]
 >
->按下 ***Ctrl+Cmd+F*** 以結束OS X AEM Screens Player的全熒幕模式。
+>按 ***Ctrl+Cmd+F*** 退出OS X AEM Screens Player的全屏模式。
 
-將管道指派給顯示區後，AEM Screens Player就會顯示內容。 您可以使用管理員UI的偏好設定（從儀表板）或播放器本身，來設定播放器的設定。
+将渠道分配给显示区后，AEM Screens Player会显示内容。 您可以使用管理员UI的首选项（从仪表板）或播放器本身，为播放器配置设置。
 
-## 使用裝置控制面板 {#using-the-device-dashboard}
+## 使用设备功能板 {#using-the-device-dashboard}
 
-您可以從裝置控制面板設定裝置的偏好設定，這可透過您的AEM編寫執行個體存取。
+您可以从设备仪表板配置设备的首选项，可以通过AEM创作实例访问。
 
-1. 從您的專案導覽至裝置控制面板，例如， ***測試專案*** —> ***裝置***.
+1. 从项目中导航到设备仪表板，例如， ***测试项目*** —> ***设备***.
 
-   選取 **裝置** 和 **裝置管理員** 動作列中的。
+   选择 **设备** 和 **设备管理器** 操作栏中的。
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 按一下裝置以開啟裝置控制面板。
+1. 单击设备以打开设备仪表板。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. 檢查 **偏好設定** 面板。 您可以啟用/停用 **管理員UI** 和 **頻道切換器** 從這兩個選項為您的播放器設定。
+1. 查看 **首选项** 面板。 您可以启用/禁用 **管理员UI** 和 **渠道切换器** 从这两个选项为您的播放器提供支持。
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
-### 管理員UI {#the-admin-ui}
+### 管理员UI {#the-admin-ui}
 
-啟用 **管理員UI** 從「偏好設定」面板中，使用者可以從Screens播放器開啟管理員設定。 此外，如果您從裝置儀表板停用此選項，使用者將無法從播放器開啟管理員UI。
+启用 **管理员UI** 通过“首选项”面板，用户可以从Screens播放器打开管理员设置。 此外，如果从设备仪表板禁用此选项，则用户无法从播放器打开管理员UI。
 
-若要從Screens播放器檢視Admin UI，請在左上角長按以開啟「管理員」功能表、在已啟用觸控功能的AEM Screens播放器上或使用滑鼠。 它會在註冊完成和載入管道後顯示資訊。
+要从Screens播放器查看管理员UI，请在左上角长按以打开“管理员”菜单、在启用了触摸的AEM Screens播放器上或者使用鼠标。 它会在注册完成后显示信息并加载渠道。
 
 >[!NOTE]
 >
->此外，您也可以檢視AEM Screens Player應用程式運作時間，以檢查應用程式健全狀態。
+>此外，您还可以查看AEM Screens Player应用程序正常运行时间，以检查应用程序运行状况。
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-#### 存取組態功能表選項 {#configuration-options}
+#### 访问配置菜单选项 {#configuration-options}
 
-您可以更新設定，如果您選取 **設定** 側選單中的選項，如下圖所示：
+如果选择 **配置** 侧菜单中的选项，如下图所示：
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-「組態」功能表可讓您修改下列設定：
+利用Configuration菜单，可修改以下设置：
 
-* 重設 **韌體**， **偏好設定**，或 **至工廠** 從此對話方塊中。
+* 重置 **固件**， **首选项**，或 **到工厂** 从该对话框中。
 
-* 指定AEM Screens播放器保留的最大記錄檔數 **最大數量 要保留的記錄檔**.
+* 指定AEM Screens播放器保留的最大日志文件数 **最大数量 要保留的日志文件**.
 
-* 啟用或停用 **管理功能表**， **頻道切換器**、和 **活動UI** 用於Screens播放器。
+* 启用或禁用 **管理员菜单**， **渠道切换器**、和 **活动UI** 用于屏幕播放器。
 
-   如果 **活動UI** 啟用自 **設定** 功能表，AEM Screens播放器會顯示 *播放器活動通知* 播放器右上角，如下圖所示。
+   如果 **活动UI** 已启用，从 **配置** 菜单，AEM Screens播放器会显示 *播放器活动通知* 播放器右上角的位置，如下图所示。
 
    ![图像](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->此 **更新韌體** 選項僅適用於Cordova，例如Android播放器。
+>此 **更新固件** 选项仅适用于cordova，例如Android播放器。
 
 >[!NOTE]
 >
->建議您 **管理員UI** 在生產部署中停用。
+>建议 **管理员UI** 在生产部署中被禁用。
 
-#### 存取內容快取功能表選項 {#content-cache-options}
+#### 访问内容缓存菜单选项 {#content-cache-options}
 
-您可以從AEM Screens播放器中的管理員UI清除管道和應用程式的快取。
+您可以从AEM Screens播放器中的管理员UI中清除渠道和应用程序的缓存。
 
-選取 **內容快取** 以更新快取。
+选择 **内容缓存** 以更新缓存。
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
-### 頻道切換器 {#the-channel-switcher}
+### 渠道切换器 {#the-channel-switcher}
 
-啟用 **頻道切換器** 從「偏好設定」面板中，使用者可以從「Screens播放器」開啟頻道選擇/設定。
+启用 **渠道切换器** 通过“首选项”面板，用户可以从Screens播放器打开渠道选择/设置。
 
-此外，如果您從裝置儀表板停用此選項，使用者將無法從Screens播放器控制頻道偏好設定。
+此外，如果从设备仪表板禁用此选项，则用户无法从Screens播放器控制渠道首选项。
 
-您可以從Screens播放器切換並控制頻道的設定。
+您可以从Screens播放器切换和控制渠道设置。
 
-若要從播放器檢視頻道切換器，請在左下角長按以開啟允許切換頻道和其他功能的頻道切換器。
+要从播放器查看频道切换器，请在左下角长按以打开允许切换频道和其他功能的频道切换器。
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
->您也可以從Screens播放器啟用或停用播放器的管理功能表及頻道切換器。
+>您还可以在Screens播放器中启用或禁用播放器的管理菜单和渠道切换器。
 >
->(請參閱 *從Screens播放器變更偏好設定* （如下節所述）。
+>(请参阅 *从Screens播放器更改首选项* （如下节所述）。
 
-### 從AEM Screens Player管理偏好設定 {#managing-preferences-from-the-aem-screens-player}
+### 从AEM Screens Player管理首选项 {#managing-preferences-from-the-aem-screens-player}
 
-您也可以從播放器本身變更管理員UI和管道切換器的設定。
+您还可以从播放器本身更改管理员UI和渠道切换器的设置。
 
-請依照下列步驟，從您的播放器變更偏好設定：
+按照以下步骤更改播放器的首选项：
 
-1. 長按閒置頻道左上角的「 」以開啟「管理」面板。
-1. 導覽至 **設定** 從左側動作功能表。
-1. 啟用/停用設定 **管理員UI** 或 **頻道切換器**.
+1. 长按空闲频道左上角以打开“管理”面板。
+1. 导航到 **配置** 从左侧的“操作”菜单中。
+1. 启用/禁用配置 **管理员UI** 或 **渠道切换器**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## 疑難排解AEM Screens Player {#troubleshooting-aem-screens-player}
+## AEM Screens Player疑难解答 {#troubleshooting-aem-screens-player}
 
-您可以針對AEM Screens Player （硬體和軟體）的各種相關問題進行疑難排解：
+您可以对与AEM Screens Player（硬件和软件）相关的各种问题进行故障诊断：
 
 | **问题** | **推荐** |
 |---|---|
-| 播放器儲存空間已滿 | 消除不必要的檔案 |
-| 播放器失去網路 | 使用Cat-5/Cat-6纜線。 若使用Wifi，請縮短路由器與播放器裝置的距離 |
-| AEM Screens Player當機 | 建議使用監視程式應用程式，以確保AEM Screens Player一律執行 |
-| AEM Screens Player遺失設定 | 檢查與AEM伺服器的連線 |
-| AEM Screens Player不會在播放器重新啟動/重新開機後自動啟動 | 檢查作業系統啟動資料夾或初始化程式 |
-| AEM Screens Player顯示錯誤/舊的內容 | 檢查網路連線 |
+| 播放器存储空间已满 | 消除不必要的文件 |
+| 播放器丢失网络 | 使用Cat-5/Cat-6缆线。 对于Wifi，请缩短路由器与播放器设备之间的距离 |
+| AEM Screens Player崩溃 | 建议设置一个监视程序应用程序，以确保AEM Screens Player始终运行 |
+| AEM Screens Player丢失设置 | 检查与AEM服务器的连接 |
+| AEM Screens Player不会在播放器重新启动/重新引导后自动启动 | 检查操作系统启动文件夹或初始化过程 |
+| AEM Screens Player显示错误/旧的内容 | 检查网络连接 |
 
 ### AEM Screens Player更新 {#updates-for-aem-screens-player}
 
-AEM Screens Player有兩種型別的更新：
+AEM Screens Player有两种类型的更新：
 
-| **方法** | **详细信息** | **透過遠端** | **自動化** | **0停機時間** |
+| **方法** | **详细信息** | **通过远程** | **自动** | **0停机** |
 |---|---|---|---|---|
-| 韌體更新 | 透過遠端命令套用至現有的已安裝播放器。 更新後，播放器將自動重新載入現有內容。 | 是 | 自定义 | 幾乎 — 1-3秒 |
-| 播放器殼層更新 | 這是要部署在播放器上的新可執行檔。 這需要在播放器上遠端複製新的二進位檔，並停止目前執行的專案，然後啟動新版本。 這可能需要重新下載套件的預先載入。 | 是（透過遠端殼層） | 自定义 | 否 |
+| 固件更新 | 通过远程命令应用于现有安装的播放器。 更新后，播放器将自动重新加载现有内容。 | 是 | 自定义 | 几乎 — 1-3秒 |
+| 播放器外壳更新 | 这是要在播放器上部署的新可执行文件。 这需要在播放器上远程复制新二进制文件，并停止当前运行并启动新版本。 这可能需要重新下载预加载的包。 | 是（通过远程shell） | 自定义 | 否 |
 
-## 播放器裝置的硬體選擇准則 {#hardware-selection-guidelines-for-player-device}
+## 播放器设备的硬件选择准则 {#hardware-selection-guidelines-for-player-device}
 
-下節提供Screens專案的硬體選擇准則：
+以下部分提供了Screens项目的硬件选择准则：
 
-* 永遠來源 ***商業*** 或 ***工業*** PC播放器及顯示面板或投影機的等級元件。
+* 始终源 ***商业*** 或 ***工业*** PC播放器和显示面板或投影仪的等级组件。
 
-* 永遠與數位看板市場的供應商互動。
-* 請務必考量環境因素，例如環境溫度和相對濕度。
-* 請務必檢閱電源需求與電源調節。
-* 請仔細檢閱應用程式所需的效能需求和I/O連線埠。
+* 始终与服务数字标牌市场的供应商接洽。
+* 请务必考虑环境因素，如环境温度和相对湿度。
+* 请务必查看电源要求和电源调节。
+* 仔细审查应用程序所需的性能需求和I/O端口。
 
-下表總結列出AEM Screens專案的硬體組態與典型使用案例：
+下表总结了AEM Screens项目的硬件配置以及典型用例：
 
 <table>
  <tbody>
   <tr>
-   <td>播放器設定</td>
-   <td>處理器</td>
+   <td>播放器配置</td>
+   <td>处理器</td>
    <td>内存</td>
-   <td>儲存固態硬碟</td>
+   <td>存储SSD</td>
    <td>GPU</td>
    <td>显示器</td>
    <td>I/O</td>
-   <td>典型使用案例</td>
+   <td>典型用例</td>
   </tr>
   <tr>
    <td>基本</td>
-   <td>雙核心、i3或入門級四核心Intel® Atom處理器</td>
-   <td><p>4GB記憶體</p> <p>2MB快取記憶體</p> </td>
+   <td>双核、i3或入门级四核英特尔®凌动处理器</td>
+   <td><p>4GB内存</p> <p>2MB高速缓存</p> </td>
    <td><p>·ChromeOS 32 GB</p> <p>·Windows 128GB</p> </td>
-   <td>內建</td>
+   <td>板载</td>
    <td>1920x1080</td>
-   <td>DVI、<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI、<br /> 以太网/无线、<br /> 2个USB</td>
    <td>
     <ul>
-     <li>標準全熒幕回圈<br /> </li>
-     <li>日時段分割</li>
+     <li>标准全屏循环<br /> </li>
+     <li>日划分</li>
     </ul> </td>
   </tr>
   <tr>
    <td>标准</td>
-   <td>四核心、Intel® Core i5處理器</td>
-   <td><p>8GB記憶體</p> <p>4MB快取記憶體</p> </td>
+   <td>四核、英特尔®酷睿i5处理器</td>
+   <td><p>8GB内存</p> <p>4MB缓存</p> </td>
    <td>128 GBB</td>
-   <td>內建</td>
+   <td>板载</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 2個USB</td>
+   <td>DVI、HDMI<br /> 以太网/无线、<br /> 2个USB</td>
    <td>
     <ul>
-     <li>單一來源動態內容</li>
-     <li>簡單互動式</li>
-     <li>1-3區域配置</li>
+     <li>单一来源动态内容</li>
+     <li>简单交互式</li>
+     <li>1-3区域布局</li>
     </ul> </td>
   </tr>
   <tr>
    <td>高级</td>
-   <td>四核心，含超執行緒、Intel® Core i7處理器</td>
-   <td><p>16GB記憶體</p> <p>8MB快取記憶體</p> </td>
+   <td>四核超线程，英特尔®酷睿i7处理器</td>
+   <td><p>16 GB内存</p> <p>8MB缓存</p> </td>
    <td>256 GB</td>
-   <td>專用圖形GPU</td>
+   <td>专用图形GPU</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI、HDMI<br /> 乙太網路/無線、<br /> 4個USB</td>
+   <td>DVI、HDMI<br /> 以太网/无线、<br /> 4个USB</td>
    <td>
     <ul>
-     <li>4個或多個內容區域，同時播放視訊</li>
-     <li>多頁互動式</li>
-     <li>多來源資料觸發程式</li>
+     <li>4个或更多内容区域，并发视频播放</li>
+     <li>多页交互式</li>
+     <li>多源数据触发器</li>
     </ul> </td>
   </tr>
  </tbody>

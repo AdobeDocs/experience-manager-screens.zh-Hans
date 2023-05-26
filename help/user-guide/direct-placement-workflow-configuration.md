@@ -1,7 +1,7 @@
 ---
-title: 直接放置工作流程設定
+title: 直接投放工作流配置
 seo-title: Direct Placement Workflow Configuration
-description: 本頁面主要說明直接放置工作流程設定。
+description: 本页重点介绍直接放置工作流配置。
 seo-description: This page highlights Direct Placement Workflow Configuration.
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
@@ -11,34 +11,34 @@ ht-degree: 0%
 ---
 
 
-# 直接放置工作流程設定 {#direct-placement-workflow}
+# 直接投放工作流配置 {#direct-placement-workflow}
 
-請詳閱本頁面，瞭解如何設定資產工作流程，以程式設計方式將資產插入預先定義的AEM Screens頻道。
+阅读本页，了解如何配置资源工作流，以便通过编程方式将资源插入到预定义的AEM Screens渠道。
 
-本節涵蓋下列主題：
+本节涵盖以下主题：
 
 * 概述
-* 設定直接放置工作流程
+* 配置直接投放工作流
 
 ## 概述 {#overview}
 
-直接放置工作流程設定會將AEM Screens專案頻道對應至資產中的特定資料夾，並允許在該資料夾中放置任何資產。 建議您觸發大量離線更新，以便完成發佈。
+直接放置工作流配置将AEM Screens项目渠道映射到资源中的特定文件夹，并允许在该文件夹中放置任何资源。 建议触发批量脱机更新以完成发布。
 
-或者，作為內容作者，您可以手動按一下 **更新離線內容**.
+或者，作为内容作者，您可以手动单击 **更新离线内容**.
 
 >[!NOTE]
 >
->若要瞭解如何使用大量離線更新，請參閱 [內容更新即服務](/help/user-guide/content-update-as-a-service.md).
+>要了解如何使用批量脱机更新，请参阅 [内容更新即服务](/help/user-guide/content-update-as-a-service.md).
 
-## 設定直接放置工作流程 {#configuring-workflow}
+## 配置直接投放工作流 {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->開始設定之前，您必須先安裝 [示範套件](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). 安裝套件後，您應該能夠從AEM執行個體檢視和存取它 — >工具（圖示） —> **工作流程** —> **工作流程模型**.
+>在开始配置之前，您必须安装 [演示包](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). 安装包后，您应该能够从AEM实例查看和访问包 — >工具（图标） — > **工作流** —> **工作流模型**.
 
-請依照下列步驟設定直接放置工作流程：
+按照以下步骤配置直接投放工作流：
 
-1. 從您的AEM執行個體瀏覽至AEM Screens，並建立標題為 **資產工作流程**.
+1. 从您的AEM实例导航到AEM Screens，并创建一个标题为 **资产工作流**.
 
-1. 建立標題為的頻道 **Workflow-Assets** 在 **頻道** 資料夾。
+1. 创建标题为 **Workflow-Assets** 下 **渠道** 文件夹。
 

@@ -1,7 +1,7 @@
 ---
-title: 套用轉變
+title: 应用过渡
 seo-title: Applying Transitions
-description: 請依照本頁面的說明操作，瞭解如何將轉變套用至您的Screens專案。
+description: 关注此页面，了解如何将过渡应用于Screens项目。
 seo-description: Follow this page to learn how to apply transitions to your Screens projects.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
@@ -16,47 +16,47 @@ ht-degree: 1%
 
 ---
 
-# 套用轉變 {#applying-transitions}
+# 应用过渡 {#applying-transitions}
 
-本節說明如何套用 **轉變** 不同資產（影像和影片）之間的元件，以及管道中的內嵌順序。
+本节介绍如何应用 **过渡** 不同资产（图像和视频）和渠道中的嵌入式序列之间的组件。
 
 
 >[!CAUTION]
 >
->詳細瞭解 **轉變** 元件，請參閱 [轉變](adding-components-to-a-channel.md#transition).
+>详细了解 **过渡** 组件，请参阅 [过渡](adding-components-to-a-channel.md#transition).
 
-## 在管道中新增轉變元件至資產 {#adding-transition}
+## 将过渡组件添加到渠道中的资产 {#adding-transition}
 
-請依照下列步驟，將轉變元件新增至您的AEM Screens專案：
+按照以下步骤向AEM Screens项目添加过渡组件：
 
 >[!NOTE]
 >
 >**前提条件**
 >
->建立AEM Screens專案 **TestProject** 使用管道 **TestTransition**. 此外，設定位置和顯示以檢視輸出。
+>创建AEM Screens项目 **测试项目** 通过渠道 **TestTransition**. 此外，设置位置和显示器以查看输出。
 
-1. 導覽至頻道 **TestTransition** 並按一下 **編輯** 動作列中的。
+1. 导航到渠道 **TestTransition** 并单击 **编辑** 操作栏中的。
 
    ![image1](assets/transitions1.png)
 
    >[!NOTE]
    >
-   >此 **TestTransition** 頻道中已有少量資產（影像和影片）。 例如， **TestTransition** 頻道包含三個影像和兩個影片，如下所示：
+   >此 **TestTransition** 渠道中已有少量资产（图像和视频）。 例如， **TestTransition** 渠道包括三个图像和两个视频，如下所示：
 
    ![image2](assets/transitions2.png)
 
 
-1. 拖放 **轉變** 元件至您的編輯器。
+1. 拖放 **过渡** 组件添加到编辑器中。
    >[!CAUTION]
    >
-   >將轉變新增至管道中的資產之前，請務必不要在循序管道中的第一個資產之前新增轉變。 管道中的第一個專案必須是資產，而不是轉變。
+   >在将过渡添加到渠道中的资产之前，请确保不要在顺序渠道中的第一个资产之前添加过渡。 渠道中的第一个项目必须是资源而不是过渡。
 
    ![image3](assets/transitions3.png)
 
    >[!NOTE]
    >
-   >依預設，轉變元件的屬性，例如 **型別** 設為 **淡化** 和 **持續時間** 設為 *1600毫秒*.  此外，不建議將過渡持續時間設定為長於套用到的資產。
+   >默认情况下，过渡组件的属性，例如 **类型** 设置为 **渐隐** 和 **持续时间** 设置为 *1600毫秒*.  此外，不建议设置比应用它的资产更长的过渡持续时间。
 
-1. 此外，如果您新增 **內嵌順序** 元件（包括順序頻道）至此頻道編輯器，您可以在結尾新增轉變元件，以便內容依序播放，如下圖所示：
+1. 此外，如果您添加 **嵌入式序列** 组件（包括序列渠道）添加到此渠道编辑器后，您可以在末尾添加过渡组件，以便按顺序播放内容，如下图所示：
 
    ![image3](assets/transitions5.png)

@@ -1,7 +1,7 @@
 ---
-title: Feature Pack 201905發行說明
+title: 功能包201905的发行说明
 seo-title: Release Notes for Feature Pack 201905
-description: 請詳閱本頁，瞭解2019年5月16日發行的AEM Screens Feature Pack 201905的相關資訊。
+description: 关注此页面以获取2019年5月16日发布的AEM Screens功能包201905的信息。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201905 released on May 16, 2019.
 uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
 contentOwner: jsyal
@@ -21,52 +21,52 @@ ht-degree: 1%
 
 ---
 
-# Feature Pack 201905發行說明 {#release-notes-for-feature-pack}
+# 功能包201905的发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建议您升级到最新版本的Adobe Experience Manager (AEM)。 Screens提供对AEM 6.3 Screens平台的维护支持。
 
-AEM Screens已發行AEM 6.3.3.3 Feature Pack 6和AEM 6.4.4.0 Feature Pack 4，並提供下列詳細資料。
+AEM Screens发布了AEM 6.3.3.3功能包6和AEM 6.4.4.0功能包4 ，但包含以下详细信息。
 
 ## 发布日期 {#release-date}
 
-AEM Screens Feature Pack 201905的發行日期為2019年5月16日。
+AEM Screens功能包201905的发布日期是2019年5月16日。
 
 ### 新增功能 {#what-s-new}
 
-* **專案匯入工具**
+* **项目导入程序**
 
-Project Importer是AEM Screens中提供的功能，可讓您從CSV/XLS試算表將一組位置大量匯入至AEM Screens專案。
+项目导入器是AEM Screens中提供的功能，它允许您将CSV/XLS电子表格中的一组位置批量导入到AEM Screens项目。
 
-請參閱 **[從檔案新增專案匯入工具](project-importer.md)** 以取得更多詳細資料。
+请参阅 **[从文件新建项目导入程序](project-importer.md)** 了解更多详细信息。
 
-* **從ContentSync轉換為SmartSync**
+* **从ContentSync过渡到SmartSync**
 
-SmartSync可將伺服器負載/儲存及網路流量降至最低，以降低成本。
+SmartSync可最大限度地减少服务器负载/存储和网络流量，从而降低成本。
 
-請參閱 **[從ContentSync轉換為SmartSync](smartsync.md)** 以取得更多詳細資料。
+请参阅 **[从ContentSync过渡到SmartSync](smartsync.md)** 了解更多详细信息。
 
-* **緊急通道**
+* **紧急渠道**
 
-此使用案例的範例著重於建立和管理緊急通道，內容作者可在有先決條件的情況下從順序通道切換。
+此用例示例侧重于创建和管理紧急渠道，内容作者可以在前提条件下从序列渠道切换紧急渠道。
 
-請參閱 **[緊急通道](emergency-channel.md)** 使用案例以取得更多詳細資料。
+请参阅 **[紧急渠道](emergency-channel.md)** 用例，以了解更多详细信息。
 
-* **使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合**
+* **使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成**
 
-本節說明如何使用AEM SPA編輯器(可由AEM中的商務專業人員設定)使用REACT (或Angular)內嵌互動式單頁應用程式，以及如何將互動式應用程式與離線Adobe Analytics整合。
+本节介绍如何使用AEM SPA编辑器(可由AEM中的业务专业人员配置)使用REACT(或Angular)嵌入交互式单页应用程序，以及如何将交互式应用程序与离线Adobe Analytics集成。
 
-請參閱 **[使用AEM SPA編輯器內嵌REACT應用程式並與AEM Screens Analytics整合](embedding-react-app.md)** 以取得更多詳細資料。
+请参阅 **[使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成](embedding-react-app.md)** 了解更多详细信息。
 
-### 已發行的AEM Screens Players  {#released-aem-screens-players}
+### 已发布的AEM Screens Players  {#released-aem-screens-players}
 
-下列AEM Screens Player已針對AEM 6.3.3.3 Feature Pack 6和AEM 6.4.4.0 Feature Pack 4發行：
+已为AEM 6.3.3.3功能包6和AEM 6.4.4.0功能包4发布以下AEM Screens Player：
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/)**.
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/)**.

@@ -1,7 +1,7 @@
 ---
-title: 疑難排解裝置控制中心
+title: 设备控制中心故障诊断
 seo-title: Monitoring Screens
-description: 請依照此頁面，使用Device儀表板來監視和疑難排解Screens播放器活動和裝置的效能。
+description: 按照此页面进行操作，以使用Device仪表板对Screens播放器活动和设备的性能进行监视和故障排除。
 seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device usingtheDevice dashboard.
 uuid: b6895d5d-c743-4e10-a166-de573e122335
 contentOwner: Jyotika Syal
@@ -21,103 +21,103 @@ ht-degree: 2%
 
 ---
 
-# 疑難排解裝置控制中心 {#troubleshooting-device-control-center}
+# 设备控制中心故障诊断 {#troubleshooting-device-control-center}
 
-您可以使用「裝置」儀表板來監視和疑難排解Screens播放器活動和裝置的效能。 此頁面提供如何監視和疑難排解Screens播放器和指派裝置的感知效能問題的相關資訊。
+您可以使用设备仪表板监控并排除Screens播放器活动和设备的性能。 本页提供了有关如何监视和疑难解答Screens播放器和分配的设备的感知性能问题的信息。
 
-## 從Device Control Center進行監控和疑難排解 {#monitor-and-troubleshoot-from-device-control-center}
+## 从设备控制中心进行监控和故障排除 {#monitor-and-troubleshoot-from-device-control-center}
 
-您可以使用Device Dashboard監控活動，進而疑難排解Screens播放器的問題。
+您可以使用Device Dashboard监控该活动，从而排除Screens播放器的故障。
 
-### 裝置控制面板 {#device-dashboard}
+### 设备功能板 {#device-dashboard}
 
-請依照下列步驟導覽至裝置控制面板：
+按照以下步骤导航到设备仪表板：
 
-1. 從您的專案導覽至裝置控制面板，例如， ***測試專案*** —> ***裝置***.
+1. 从项目中导航到设备仪表板，例如， ***测试项目*** —> ***设备***.
 
-   選取 **裝置** 和 **裝置管理員** 動作列中的。
+   选择 **设备** 和 **设备管理器** 操作栏中的。
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
-1. 清單會顯示指派和未指派的裝置，如下圖所示。
+1. 该列表显示了已分配和未分配的设备，如下图所示。
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 選取裝置(**NewTestDevice**)並按一下 **儀表板** 動作列中的。
+1. 选择设备(**NewTestDevice**)，然后单击 **仪表板** 操作栏中的。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
-1. 此頁面會顯示裝置資訊、活動，以及可讓您監視裝置活動和功能的裝置詳細資訊。
+1. 该页面显示设备信息、活动，以及允许您监视设备活动和功能的设备详细信息。
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 
-### 監視裝置活動 {#monitor-device-activity}
+### 监控设备活动 {#monitor-device-activity}
 
-此 **活動** 面板會以時間戳記顯示screens播放器的最後一次ping。 上次ping對應於裝置上次連線伺服器的時間。
+此 **活动** 面板显示带有时间戳的screens播放器的最后一次ping。 上次ping对应于设备上次与服务器联系的时间。
 
 ![chlimage_1](assets/chlimage_1.png)
 
-此外，按一下 **收集記錄** 從的右上角 **活動** 面板以檢視播放器的記錄檔。
+此外，单击 **收集日志** 从右上角 **活动** 面板以查看播放器的日志。
 
-### 更新裝置詳細資料 {#update-device-details}
+### 更新设备详细信息 {#update-device-details}
 
-檢查 **裝置詳細資料** 面板可檢視裝置IP、儲存空間使用量、韌體版本和播放器運作時間。
+查看 **设备详细信息** 用于查看设备的设备IP、存储使用情况、固件版本和播放器正常运行时间的面板。
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-此外，按一下 **清除快取** 和 **更新** 以清除裝置的快取並更新 [韌體](screens-glossary.md) 版本（分別來自此面板）。
+此外，单击 **清除缓存** 和 **更新** 清除设备的缓存并更新 [固件](screens-glossary.md) 版本。
 
-此外，按一下 **...** 從右上角 **裝置詳細資料** 面板以重新啟動或重新整理播放器的狀態。
+此外，单击 **...** 从右上角 **设备详细信息** 用于重新启动或刷新播放器状态的面板。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### 更新裝置資訊 {#update-device-information}
+### 更新设备信息 {#update-device-information}
 
-檢查 **裝置資訊** 面板以檢視設定更新、裝置型號、裝置作業系統和殼層資訊。
+查看 **设备信息** 用于查看配置更新、设备型号、设备操作系统和shell信息的面板。
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-此外，按一下(**...**)，以檢視屬性或更新裝置。
+此外，单击(**...**)，以查看属性或更新设备。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-按一下 **屬性** 若要檢視 **裝置屬性** 對話方塊。 您可以編輯裝置標題或選擇設定更新的選項，如下所示 **手動** 或 **自動**.
+单击 **属性** 查看 **设备属性** 对话框。 您可以编辑设备标题或选择用于配置更新的选项 **手动** 或 **自动**.
 
 >[!NOTE]
 >
->若要進一步瞭解與裝置的自動或手動更新相關聯的事件，請參閱區段 ***從裝置儀表板自動與手動更新*** 在 [管理管道](managing-channels.md).
+>要了解有关设备自动或手动更新相关事件的更多信息，请参阅部分 ***从设备仪表板进行自动更新与手动更新*** 在 [管理渠道](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
-### 檢視播放器熒幕擷圖 {#view-player-screenshot}
+### 查看播放器屏幕快照 {#view-player-screenshot}
 
-您可以從裝置檢視播放器熒幕擷圖 **播放器熒幕擷圖** 面板。
+您可以从设备查看播放器屏幕快照 **播放器屏幕快照** 面板。
 
-按一下(**...**)，然後選取「 」 **重新整理熒幕擷圖** 以檢視執行中播放器的快照。
+单击(**...**)，然后选择 **刷新屏幕快照** 查看正在运行的播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
-### 管理偏好設定 {#manage-preferences}
+### 管理首选项 {#manage-preferences}
 
-此 **偏好設定** 面板可讓使用者變更的偏好設定 **管理員UI**， **頻道切換器**、和 **遠端偵錯** 裝置的。
+此 **首选项** 允许用户更改首选项 **管理员UI**， **渠道切换器**、和 **远程调试** 设备名称。
 
 >[!NOTE]
->若要進一步瞭解這些選項，請參閱 [AEM Screens Player](working-with-screens-player.md).
+>要了解有关这些选项的更多信息，请参阅 [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-此外，按一下 **設定** 從右上角更新裝置偏好設定。 您可以更新下列偏好設定：
+此外，单击 **设置** 更新设备首选项。 您可以更新以下首选项：
 
 * **服务器 URL**
 * **解决方法**
 * **重新启动计划**
-* **最大數量 要保留的記錄檔**
+* **最大数量 要保留的日志文件**
 * **日志级别**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->您可以選取下列任一「記錄」層級：
+>您可以选择以下任一日志级别：
 >* **禁用**
 >* **调试**
 >* **信息**
@@ -127,40 +127,40 @@ ht-degree: 2%
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## 疑難排解OSGi設定 {#troubleshoot-osgi-settings}
+## OSGi设置疑难解答 {#troubleshoot-osgi-settings}
 
-您必須啟用空白反向連結，才能讓裝置將資料張貼至伺服器。 例如，如果停用空白反向連結屬性，裝置就無法張貼熒幕擷圖。
+您需要启用空反向链接，以允许设备向服务器发布数据。 例如，如果禁用了空反向链接属性，则设备无法发布屏幕快照。
 
-目前，其中部分功能僅適用於 *Apache Sling反向連結篩選器允許空白* 在OSGi設定中啟用。 儀表板可能會顯示警告，指出安全性設定可能會阻止這些功能的部分功能運作。
+目前，这些功能中的某些功能仅在 *Apache Sling引用过滤器允许为空* 在OSGi配置中启用。 仪表板可能会显示一条警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
 
-請依照下列步驟，啟用Apache Sling查閱者篩選條件允許空白
+按照以下步骤启用Apache Sling引用过滤器允许为空
 
-1. 導覽至 **Adobe Experience Manager Web主控台設定**，也就是說， `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. 檢查 **allow.empty** 選項。
+1. 导航到 **Adobe Experience Manager Web控制台配置**，即， `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. 查看 **allow.empty** 选项。
 1. 单击“**保存**”。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
 ### 推荐 {#recommendations}
 
-下節建議監控網路連結、伺服器和播放器，以瞭解運作狀況並對問題做出反應。
+以下部分建议监控网络链接、服务器和播放器，以了解运行状况并对问题做出反应。
 
-AEM提供下列專案的內建監控：
+AEM提供针对以下各项的内置监控：
 
-* *心率* 每5秒顯示一次，指出AEM Screens Player運作中。
-* *熒幕擷圖* 從「播放器」中，顯示目前顯示在「播放器」上的內容。
-* 此 *AEM Screens播放器韌體* 版本已安裝在播放器上。
-* *可用儲存空間* 在播放器上。
+* *心率* 每5秒显示一次，以指示AEM Screens Player正在运行。
+* *屏幕快照* 播放器中的播放，其中显示当前在播放器上显示的内容。
+* 此 *AEM Screens播放器固件* 版本。
+* *可用存储空间* 在播放器上。
 
-使用第三方軟體進行遠端監控的Recommendations：
+使用第三方软件实现远程监控的Recommendations：
 
-* 播放器上的CPU使用量。
-* 檢查AEM Screens Player程式是否正在執行。
-* 遠端重新啟動/重新開機播放器。
-* 即時通知。
+* 播放器上的CPU使用情况。
+* 检查AEM Screens Player进程是否正在运行。
+* 远程重新启动/重新引导播放器。
+* 实时通知。
 
-建議以可讓遠端登入診斷問題和重新啟動播放器的方式部署播放器硬體及作業系統。
+建议以允许远程登录诊断问题和重新启动播放器的方式部署播放器硬件和操作系统。
 
 #### 其他资源 {#additional-resources}
 
-另請參閱 [視訊播放設定和疑難排解](troubleshoot-videos.md) 若要對頻道中播放的視訊進行除錯和疑難排解，請執行下列動作。
+参见 [视频播放配置和故障排除](troubleshoot-videos.md) 调试和排除频道中播放的视频故障。

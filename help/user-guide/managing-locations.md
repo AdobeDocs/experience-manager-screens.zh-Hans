@@ -1,7 +1,7 @@
 ---
-title: 建立和管理位置
+title: 创建和管理位置
 seo-title: Managing Locations
-description: 請依照本頁面瞭解如何建立/管理位置。
+description: 按照本页了解如何创建/管理位置。
 seo-description: Follow this page to learn about creating/managing locations.
 uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
 contentOwner: Jyotika syal
@@ -20,48 +20,48 @@ ht-degree: 2%
 
 ---
 
-# 建立和管理位置 {#creating-and-managing-locations}
+# 创建和管理位置 {#creating-and-managing-locations}
 
-位置會根據各種熒幕的位置來主控顯示器的設定。
+位置根据各种屏幕的位置来托管显示器的配置。
 
-此頁面顯示建立和管理Screens的位置。
+此页显示创建和管理Screens的位置。
 
-**先決條件**：
+**先决条件**：
 
-* [設定和部署畫面](configuring-screens-introduction.md)
-* [建立和管理畫面專案](creating-a-screens-project.md)
-* [建立和管理管道](managing-channels.md)
+* [配置和部署Screens](configuring-screens-introduction.md)
+* [创建和管理屏幕项目](creating-a-screens-project.md)
+* [创建和管理渠道](managing-channels.md)
 
-## 建立新位置 {#creating-a-new-location}
+## 创建新位置 {#creating-a-new-location}
 
-建立Screens專案後，請依照下列步驟為Screens專案建立新的「位置」：
+为Screens项目创建项目后，请按照以下步骤为Screens项目创建新位置：
 
-1. 選取Adobe Experience Manager連結（左上方），然後選取Screens。 或者，您也可以直接導覽至： `http://localhost:4502/screens.html/content/screens`.
-1. 導覽至畫面專案，然後按一下 **位置**.
-1. 按一下 **建立** 加號圖示旁邊。 將會開啟精靈。
-1. 選取範本 **位置** 從精靈中並按一下 **下一個**.
+1. 选择Adobe Experience Manager链接（左上方），然后选择Screens。 或者，您可以直接导航到： `http://localhost:4502/screens.html/content/screens`.
+1. 导航到屏幕项目并单击 **位置**.
+1. 单击 **创建** 操作栏中加号图标旁边。 此时将打开向导。
+1. 选择模板 **位置** 在向导中单击 **下一个**.
 
-1. 輸入屬性 **標題和標籤**， **更多標題和說明**， **開啟/關閉時間**、和 **虛名URL**.
+1. 输入属性 **标题和标记**， **更多标题和描述**， **开启/关闭时间**、和 **虚URL**.
 
-1. 按一下 **建立** 且位置會建立並新增至您的位置資料夾。
+1. 单击 **创建** 并创建位置并将其添加到您的位置文件夹。
 
-請參閱下列步驟，瞭解如何為AEM Screens專案建立新位置。 為了示範，新位置(SanJose)建立於 *示範專案*.
+请参阅以下步骤以了解如何为AEM Screens项目创建新位置。 出于演示目的，将在下创建新位置(SanJose) *演示项目*.
 
 ![player2](assets/player2.gif)
 
-建立位置後，您必須為位置建立新的顯示。
+创建位置后，必须为位置创建新显示。
 
-### 編輯位置的屬性 {#editing-properties-for-a-location}
+### 编辑位置的属性 {#editing-properties-for-a-location}
 
-若要編輯/存取位置的屬性：
+要编辑/访问位置的属性，请执行以下操作：
 
-1. 選取位置。
-1. 按一下 **屬性** 動作列中的。
+1. 选择位置。
+1. 单击 **属性** 操作栏中的。
 
 ![player3](assets/player3.gif)
 
 #### 后续步骤 {#the-next-steps}
 
-建立位置後，您必須為位置建立新的顯示。
+创建位置后，必须为位置创建新显示。
 
-另請參閱 [建立和管理顯示區](managing-displays.md) 以取得更多詳細資料。
+参见 [创建和管理显示区](managing-displays.md) 了解更多详细信息。

@@ -1,7 +1,7 @@
 ---
-title: Feature Pack 201812發行說明
+title: 功能包201812的发行说明
 seo-title: Release Notes for Feature Pack 201812
-description: 請詳閱本頁，瞭解2019年1月16日發行的AEM Screens Feature Pack 201812的相關資訊。
+description: 关注本页，以获取2019年1月16日发布的AEM Screens Feature Pack 201812的信息。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019.
 uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
 contentOwner: jsyal
@@ -21,44 +21,44 @@ ht-degree: 2%
 
 ---
 
-# Feature Pack 201812發行說明{#release-notes-for-feature-pack}
+# 功能包201812的发行说明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建议您升级到最新版本的Adobe Experience Manager (AEM)。 Screens提供对AEM 6.3 Screens平台的维护支持。
 
-AEM Screens已發行AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，並提供下列詳細資料。
+AEM Screens发布了AEM 6.3功能包5和AEM 6.4功能包3，其中包含以下详细信息。
 
 ## 发布日期 {#release-date}
 
-AEM Screens Feature Pack 201812的發行日期為2019年1月16日。
+AEM Screens功能包201812的发布日期为2019年1月16日。
 
 ### 新增功能 {#what-s-new}
 
-* **在管道中的資產上覆蓋文字**：
+* **渠道中的资产上的文本叠加**：
 
-   文字覆蓋是AEM Screens中提供的功能，可讓您透過在影像上方提供標題或說明，在序列頻道中建立引人入勝的體驗。 請參閱 [**文字覆蓋**](text-overlay.md) 以深入瞭解。
+   文本叠加是AEM Screens中一项可用的功能，它允许您通过在图像上方提供标题或描述而在序列渠道中创建引人入胜的体验。 请参阅 [**文本叠加**](text-overlay.md) 了解更多信息。
 
-* **多資產排程**：
+* **多资源调度**：
 
-   多資產排程可讓使用者選取多個資產，並將播放排程套用至所有選取的資產。 請參閱 **多資產排程**&#x200B;中的區段&#x200B;**[資產排程](asset-level-scheduling.md)** 以深入瞭解。
+   多资源计划允许用户选择多个资源并将播放计划应用于所有选定的资源。 请参阅 **多资产调度**&#x200B;中的部分&#x200B;**[资产计划](asset-level-scheduling.md)** 了解更多信息。
 
-* **多區域配置**：
+* **多区域布局**：
 
-   多區域版面配置可讓您建立多個區域內容，並使用可在單一畫面中結合的各種資產，例如影片、影像和文字。 請參閱 **[多區域配置](multi-zone-layout-aem-screens.md)** 以深入瞭解。
+   多区域布局允许您创建多个区域内容并使用可在单个屏幕中组合的各种资产，例如视频、图像和文本。 请参阅 **[多区域布局](multi-zone-layout-aem-screens.md)** 了解更多信息。
 
-* **將資產智慧型同步至播放器**
-* **作者/發佈部署（強化）**
+* **将资产智能同步到播放器**
+* **创作/发布部署（强化）**
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players {#released-aem-screens-players}
 
-下列AEM Screens Player已針對AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3發行：
+已为AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3发布以下AEM Screens播放器：
 
 * ChromeOS
 * Windows
 * Android
 * iOS
 
-#### AEM Screens播放器下載 {#aem-screens-player-downloads}
+#### AEM Screens播放器下载 {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [**AEM Screens播放器下载**](https://download.macromedia.com/screens/).

@@ -1,7 +1,7 @@
 ---
 title: 安装 Screens 播放器
 seo-title: Installing Screens Player
-description: 請依照本頁所述操作，瞭解如何安裝可用的AEM Screens Player。
+description: 按照本页了解可用的AEM Screens Player的安装。
 seo-description: Installing Screens Player
 contentOwner: jsyal
 feature: Administering Screens
@@ -15,74 +15,74 @@ ht-degree: 1%
 
 ---
 
-# 安裝AEM Screens Player {#installing-player}
+# 安装AEM Screens Player {#installing-player}
 
-本頁面說明如何安裝AEM Screens播放器。
+本页介绍如何安装AEM Screens播放器。
 
 ## 可用的Screens播放器 {#available-players}
 
-AEM Screens播放器適用於Android、Chrome作業系統和Windows。
+AEM Screens播放器适用于Android、Chrome OS和Windows。
 
-若要下載 **AEM Screens Player**，請造訪 [AEM 6.5播放器下載](https://download.macromedia.com/screens/) 頁面。
+要下载 **AEM Screens Player**，请访问 [AEM 6.5播放器下载](https://download.macromedia.com/screens/) 页面。
 
 >[!NOTE]
 >
->下載最新的播放器後(*.exe*)，然後依照播放器上的步驟完成隨選安裝：
+>下载最新的播放器后(*.exe*)，按照播放器上的步骤完成临时安装：
 >
->1. 長按左上角以開啟「管理」面板。
->1. 導覽至 **設定** 從左側動作功能表，並輸入AEM執行個體的位置地址 **伺服器** 並按一下 **儲存**.
->1. 按一下 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
+>1. 长按左上角以打开管理面板。
+>1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并单击 **保存**.
+>1. 单击 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
 
 
-## 基本播放監視 {#playback-monitoring}
+## 基本回放监控 {#playback-monitoring}
 
-播放器會報告各種播放量度，每種 `ping` 預設為30秒。 根據這些量度，我們可以偵測各種邊緣情況，例如停滯體驗、空白畫面和排程問題。 這可讓我們瞭解裝置上的問題並加以疑難排解，進而加快與您進行調查和採取修正措施。
+播放器会报告每个播放器中的各种播放量度 `ping` 默认为30秒。 根据这些量度，我们可以检测各种边缘情况，例如卡住体验、空白屏幕和计划问题。 这让我们能够了解并排除设备上的问题，从而加快与您开展的调查和纠正措施。
 
-AEM Screens播放器中的基本播放監視可讓我們：
+AEM Screens播放器中的基本播放监视允许我们：
 
-* 遠端監視（如果播放器正確播放內容）。
+* 远程监控（如果播放器正在正确播放内容）。
 
-* 改善對空白畫面或欄位中中斷體驗的反應性。
+* 改善对空白屏幕或现场中断体验的反应性。
 
-* 降低向一般使用者顯示中斷體驗的風險。
+* 降低向最终用户显示中断体验的风险。
 
-### 瞭解屬性 {#understand-properties}
+### 了解属性 {#understand-properties}
 
-下列屬性包含在每個 `ping`：
+每个报表包中包含以下属性 `ping`：
 
 | 属性 | 描述 |
 |---|---|
-| ID {string} | 播放器識別碼 |
-| activeChannel {string} | 目前播放頻道路徑，或若未排程則為空值 |
-| activeElements {string} | 以逗號分隔的字串，目前所有播放順序頻道中可見的元素（如果是多區域配置，則為多個） |
-| isDefaultContent {boolean} | 如果播放頻道被視為預設或備援頻道（即優先順序為1且無排程），則為true |
-| hasContentChanged {boolean} | 如果內容在過去5分鐘內變更，則為真，否則為假 |
-| lastContentChange {string} | 上次內容變更的時間戳記 |
+| id {string} | 播放器标识符 |
+| activeChannel {string} | 当前播放渠道路径，如果未安排任何项目，则为空 |
+| activeElements {string} | 以逗号分隔的字符串，当前所有播放序列渠道中的可见元素（如果是多区域布局，则为多个） |
+| isDefaultContent {boolean} | 如果播放渠道被视为默认或备用渠道（即，优先级为1且无计划），则为true |
+| hasContentChanged {boolean} | 如果内容在过去5分钟内发生更改，则返回true；否则返回false |
+| lastContentChange {string} | 上次内容更改的时间戳 |
 
 >[!NOTE]
->或者，您也可以從播放器偏好設定（啟用播放監視）啟用更進階的屬性，即：
->|屬性|說明|
+>或者，也可以从播放器首选项（启用播放监视）启用更高级的属性，即：
+>|属性|描述|
 >|—|—|
->|isContentRendering {boolean}|true (如果GPU能確認它正在播放實際內容（根據畫素分析）|
+>|isContentRendering {boolean}|true，如果GPU能够确认它正在播放实际内容（基于像素分析）|
 
 ### 限制 {#limitations}
 
-基本播放監視的少數限制列於下方：
+下面列出了基本回放监视的一些限制：
 
-* 播放器會向伺服器報告自己的播放狀態，因此需要使用中的連線。
+* 播放器会向服务器报告自身的播放状态，因此需要活动连接。
 
-* 此 `isContentRendering` 檢查GPU的屬性目前資源過於密集，預設無法啟用，且需要從播放器偏好設定中明確選擇加入。 建議不要在生產環境中與影片結合使用。
+* 此 `isContentRendering` 用于检查GPU的属性当前占用太多资源，默认情况下无法启用，并且需要从播放器首选项中明确选择加入。 建议不要将其与生产环境中的视频结合使用。
 
-* 此功能僅支援序列頻道，尚未涵蓋互動式頻道(SPA)使用案例。
+* 仅序列渠道支持此功能，尚未涵盖交互式渠道(SPA)用例。
 
-* 這些量度尚未完全開放給我們的客戶，我們正在努力在不久的將來啟用類似控制面板的報告和警報機制。
+* 这些指标尚未完全暴露给我们的客户，我们正在努力在不久的将来启用类似功能板的报告和警报机制。
 
 ### 其他资源 {#additional-resources}
 
-如需深入資訊，請參閱下列主題：
+有关深入信息，请参阅以下主题：
 
-* 若要下載Android Player，請造訪 **Google Play**. 若要瞭解如何實作Android Watchdog，請參閱 [實作Android播放器](implementing-android-player.md).
+* 要下载Android Player，请访问 **Google Play**. 要了解如何实施Android Watchdog，请参阅 [实施Android播放器](implementing-android-player.md).
 
-* 若要實作Chrome OS Player，請參閱 [Chrome管理主控台](implementing-chrome-os-player.md) 以取得詳細資訊。
+* 要实施Chrome操作系统播放器，请参阅 [Chrome管理控制台](implementing-chrome-os-player.md) 了解更多信息。
 
-* 若要設定AEM Screens Windows Player，請參閱 [實作Windows Player](implementing-windows-player.md).
+* 要配置AEM Screens Windows Player，请参阅 [实施Windows Player](implementing-windows-player.md).

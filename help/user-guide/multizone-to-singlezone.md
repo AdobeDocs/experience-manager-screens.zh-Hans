@@ -1,6 +1,6 @@
 ---
-title: 多區域到單一區域轉換使用案例
-description: 請依照本頁瞭解MultiZone to SingleZone Transitions使用案例。
+title: 多区域到单区域过渡用例
+description: 按照本页了解MultiZone to SingleZone Transitions用例。
 seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
@@ -14,76 +14,76 @@ ht-degree: 3%
 
 ---
 
-# 多區域到單一區域轉換 {#multizone-to-singlezone-use-case}
+# 多区域到单区域过渡 {#multizone-to-singlezone-use-case}
 
 
-## 使用案例說明 {#use-case-description}
+## 用例描述 {#use-case-description}
 
-本節說明使用案例範例，著重說明如何設定與單一區域版面配置管道交替的多區域版面配置管道。 多區域管道有排序影像/視訊資產，並顯示如何設定從多區域切換為單一區域（或反之）的專案。
+本节介绍一个用例示例，重点介绍如何设置与单区域布局渠道交替的多区域布局渠道。 多区域渠道具有顺序图像/视频资产，它显示如何设置从多区域到单区域交替的项目，反之亦然。
 
-### 先決條件 {#preconditions}
+### 前提条件 {#preconditions}
 
-在開始此使用案例之前，請確定您瞭解如何：
+在开始此用例之前，请确保您了解如何：
 
-* **[建立和管理頻道](managing-channels.md)**
-* **[建立和管理位置](managing-locations.md)**
-* **[建立和管理時程表](managing-schedules.md)**
+* **[创建和管理渠道](managing-channels.md)**
+* **[创建和管理位置](managing-locations.md)**
+* **[创建和管理时间表](managing-schedules.md)**
 * **[设备注册](device-registration.md)**
 
-### 主要執行者 {#primary-actors}
+### 主要行为者 {#primary-actors}
 
 内容作者
 
 ## 设置项目 {#setting-up-the-project}
 
-請依照下列步驟設定專案：
+按照以下步骤设置项目：
 
-1. 建立名為的AEM Screens專案 **TakeoverLoop**，如下所示。
+1. 创建名为的AEM Screens项目 **TakeoverLoop**，如下所示。
 
    ![资产](assets/mz-to-sz1.png)
 
 
-1. **建立多區域畫面頻道**
+1. **创建多区域Screens频道**
 
-   1. 選取 **頻道** 資料夾並按一下 **建立** 從動作列開啟精靈以建立頻道。
-   1. 選取 **左側L列拆分畫面頻道** 並從精靈建立標題為 **MultiZoneLayout**.
-   1. 新增內容至頻道。 將資產拖放至每個區域。 下列範例顯示 **MultiZoneLayout** 由影片、影像和文字橫幅組成的頻道（以內嵌順序顯示），如下所示。
+   1. 选择 **渠道** 文件夹并单击 **创建** 从操作栏中打开向导以创建渠道。
+   1. 选择 **Left-L栏分屏渠道** 并从向导中创建标题为 **多区域布局**.
+   1. 向渠道添加内容。 将资源拖放到每个区域。 以下示例显示了 **多区域布局** 由视频、图像和文本横幅（以嵌入顺序）组成的频道，如下所示。
 
    ![资产](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >若要進一步瞭解如何在您的頻道中建立多區域版面配置，請參閱 [多區域配置](multi-zone-layout-aem-screens.md).
+   >要了解有关在渠道中创建多区域布局的更多信息，请参阅 [多区域布局](multi-zone-layout-aem-screens.md).
 
 
-1. 建立另一個標題為的頻道 **TakeoverChannel** 至您的 **頻道** 資料夾。
+1. 创建另一个标题为 **TakeoverChannel** 敬您的 **渠道** 文件夹。
 
    ![资产](assets/mz-to-sz3.png)
 
-1. 按一下 **編輯** 以新增內容至此頻道。 新增 **頻道** 您要切換至此頻道的元件和影像資產，如下圖所示：
+1. 单击 **编辑** 以向此渠道添加内容。 添加 **渠道** 要切换到此渠道的组件和图像资源，如下图所示：
 
    ![资产](assets/mz-to-sz4.png)
 
-1. 開啟Channel元件的設定，並將其指向 **MultiZoneLayout** 您在中建立的管道 *步驟2*.
+1. 打开渠道组件的设置，并将其指向 **多区域布局** 您在中创建的渠道 *步骤2*.
 
    ![资产](assets/mz-to-sz5.png)
 
-1. 設定持續時間，從 **序列** 欄位至 **10000毫秒**.
+1. 设置持续时间 **序列** 字段至 **10000毫秒**.
 
    ![资产](assets/mz-to-sz6.png)
 
-1. 同樣地，請開啟影像（您新增的資產）的設定，並從以下專案設定其持續時間： **序列** 欄位至 **3000毫秒**.
+1. 同样，打开图像（您添加的资产）的设置，然后从以下位置设置其持续时间 **序列** 字段至 **3000毫秒**.
 
    ![资产](assets/mz-to-sz7.png)
 
-## 檢查預覽 {#checking-the-preview}
+## 检查预览 {#checking-the-preview}
 
-您可以從播放器檢視所需的輸出，或只要按一下 **預覽** 從編輯器中。
+您可以在播放器中查看所需的输出，也可以通过单击 **预览** 从编辑器中删除。
 
-輸出將示範如何播放多區域配置 *10000毫秒* 然後切換至播放持續時間的單一區域版面 *3000毫秒* 然後切換回多區域配置。
+输出将演示多区域布局如何播放 *10000毫秒* 然后切换到播放持续时间的单区域布局 *3000毫秒* 然后切换回多区域布局。
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
->您可以根據需求自訂管道轉變（從多區域到單區域配置，反之亦然）。
+>您可以根据需要自定义渠道过渡（从多区域布局到单区域布局，反之亦然）。

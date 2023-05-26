@@ -1,7 +1,7 @@
 ---
-title: AEM Screens通知服務
+title: AEM Screens通知服务
 seo-title: AEM Screens Notifications Service
-description: 請詳閱本頁，瞭解更多關於如何監視裝置活動的資訊。
+description: 请阅读本页，详细了解如何监测设备活动。
 seo-description: Follow this page to learn more about how you can monitor device activity.
 uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
 contentOwner: jsyal
@@ -20,90 +20,90 @@ ht-degree: 0%
 
 ---
 
-# AEM Screens通知服務{#aem-screens-notifications-service}
+# AEM Screens通知服务{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens通知服務***，說明可監控裝置活動的功能。
+***AEM Screens通知服务***，介绍用于监控设备活动的功能。
 
-本節涵蓋下列主題：
+本节涵盖以下主题：
 
 * **概述**
-* **正在設定電子郵件設定**
-* **電子郵件通知**
-* **範例使用案例**
+* **配置电子邮件设置**
+* **电子邮件通知**
+* **示例用例**
 
 >[!CAUTION]
 >
->此AEM Screens功能僅在您已安裝AEM 6.3.2 Feature Pack 3或AEM 6.4.1 Screens Feature Pack 1時可用。
+>此AEM Screens功能仅在安装了AEM 6.3.2 Feature Pack 3或AEM 6.4.1 Screens Feature Pack 1时才可用。
 >
->若要存取此Feature Pack，您必須聯絡Adobe支援並要求存取權。 一旦您擁有許可權，就可以從「封裝共用」下載它。
+>要访问此功能包，您必须联系Adobe支持部门并请求获取访问权限。 一旦您拥有权限，就可以从包共享下载它。
 
 ## 概述 {#overview}
 
-***AEM Screens通知服務***，可讓管理員在AEM screens播放器未ping通可設定時段時收到電子郵件。
+***AEM Screens通知服务***，允许管理员在AEM screens播放器未在可配置的时间段ping时收到电子邮件。
 
-此服務可在OSGi Web主控台中設定。
+可在OSGi Web控制台中配置此服务。
 
-## 正在設定電子郵件設定 {#configuring-email-settings}
+## 配置电子邮件设置 {#configuring-email-settings}
 
-請依照下列步驟設定電子郵件通知設定：
+按照以下步骤配置电子邮件通知设置：
 
-1. 開啟 **Adobe Experience Manager Web主控台設定**.
-1. 開啟 **Screens裝置電子郵件監控服務**.
+1. 打开 **Adobe Experience Manager Web控制台配置**.
+1. 打开 **Screens设备电子邮件监控服务**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. 定義下列欄位以設定電子郵件的設定：
+1. 定义以下字段以配置电子邮件的设置：
 
-   **裝置路徑** 輸入您要監視的畫面專案的路徑。 路徑通常為 `/home/users/screens/<Name of your project>`.
+   **设备路径** 输入要监视的屏幕项目的路径。 路径通常为 `/home/users/screens/<Name of your project>`.
 
-   例如，如果您的專案為 **We.Retail**，您會將專案路徑用作 ***/home/users/screens/we-retail***.
-
-   >[!NOTE]
-   >
-   >指定裝置使用者所在的專案路徑。
-
-   **排程頻率** 指定此監視器應傳送電子郵件的時間（例如，下午5:00或17:00）或頻率（例如，1）。
-
-   **Ping逾時** 這會指定間隔，以分鐘為單位，之後裝置應視為無法連線。
-
-   **SMTP伺服器** 指定用於傳送電子郵件的SMTP伺服器。
-
-   **SMTP連線埠** 輸入SMTP連線埠。
-
-   **使用TLS** 傳輸層安全性(TLS)可讓您使用與SMTP伺服器的安全通訊。
-
-   建議使用TLS來安全地連線到公司郵件伺服器。 請洽詢您的郵件管理員以取得適當的值。
-
-   **使用者名稱** 指定傳送電子郵件的使用者名稱。
-
-   **密碼** 指定傳送電子郵件的密碼。
-
-   **收件者** 指定收件者的電子郵件地址。
+   例如，如果您的项目是 **We.Retail**，您会将项目路径用作 ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
-   >您只能輸入一個電子郵件地址。 若要傳送大量電子郵件，請建立群組或通訊群組清單以及相關使用者。
+   >指定设备用户所在的项目路径。
 
-1. 按一下 **儲存** 若要透過電子郵件為您的AEM Screens裝置設定監視器活動。
+   **计划频率** 以小时为单位指定此监视器应发送电子邮件的时间（例如，5:00下午或17:00）或频率（例如，1）。
 
-## 電子郵件通知 {#email-notification}
+   **Ping超时** 这指定间隔（以分钟为单位），在此间隔后，设备应被视为不可访问。
 
-設定電子郵件通知的設定後，您將會收到電子郵件通知，其中包含報告為非使用狀態的實際裝置的連結。
+   **SMTP服务器** 指定用于发送电子邮件的SMTP服务器。
 
-存取該連結會直接將您導覽至裝置控制面板。
+   **SMTP端口** 输入SMTP端口。
 
-只有當至少一個裝置在指定的ping逾時期間尚未偵測，且在產生電子郵件時仍未偵測，才會傳送電子郵件。
+   **使用TLS** 传输层安全性(TLS)使您能够使用与SMTP服务器的安全通信。
 
-### 範例使用案例 {#example-use-cases}
+   建议使用TLS安全地连接到公司邮件服务器。 请与邮件管理员联系以获取适当的值。
 
-以下範例說明一些案例，以供在Screens裝置電子郵件監視服務中設定屬性時參考。
+   **用户名** 指定用于发送电子邮件的用户名。
 
-**案例1**：
+   **密码** 指定发送电子邮件的密码。
 
-如果您將排程頻率設定為凌晨1:00，並將ping逾時設定為60，那麼如果您的Screens裝置在正午12:00到正午1:00之間未執行ping，則您會收到電子郵件通知，確認裝置處於非使用狀態。
+   **收件人** 指定收件人的电子邮件地址。
 
-**案例2**：
+   >[!NOTE]
+   >
+   >您只能输入一个电子邮件地址。 要发送批量电子邮件，请创建包含相关用户的组或通讯组列表。
 
-如果您將排程頻率設為1，將ping逾時設為60，則如果您的Screens裝置在一天的任何特定時間都未執行一次ping動作，您會收到電子郵件通知，確認裝置未使用中。
+1. 单击 **保存** 以通过电子邮件为AEM Screens设备配置监视器活动。
+
+## 电子邮件通知 {#email-notification}
+
+设置电子邮件通知的配置后，您将收到一封电子邮件通知，其中包含指向被报告为不活动的实际设备的链接。
+
+访问该链接会将您直接导航到设备仪表板。
+
+仅当至少有一台设备在给定的ping超时内未执行ping操作且在生成电子邮件时仍未执行ping操作时，才会发送电子邮件。
+
+### 示例用例 {#example-use-cases}
+
+以下示例介绍了一些场景，以供从Screens设备电子邮件监视服务配置属性时参考。
+
+**场景1**：
+
+如果将计划频率设置为凌晨1:00，将ping超时设置为60，那么如果Screens设备在晚上12:00到下午1:00之间未执行ping操作，则您将收到一封电子邮件通知，确认设备处于非活动状态。
+
+**场景2**：
+
+如果将计划频率设置为1，将ping超时设置为60，那么如果您的Screens设备在一天的任何特定时间都未执行一次ping操作，则您将收到一封电子邮件通知，确认设备处于非活动状态。

@@ -1,7 +1,7 @@
 ---
 title: 设备注册
 seo-title: Device Registration
-description: 本頁說明AEM Screens專案中的裝置註冊程式。
+description: 本页介绍了AEM Screens项目中的设备注册过程。
 seo-description: This page describes the device registration process in an AEM Screens project.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
@@ -23,150 +23,150 @@ ht-degree: 1%
 
 # 设备注册 {#device-registration}
 
-以下頁面說明AEM Screens專案中的裝置註冊程式。
+以下页面介绍了AEM Screens项目中的设备注册过程。
 
-## 註冊裝置 {#registering-a-device}
+## 注册设备 {#registering-a-device}
 
-裝置註冊程式會在2台不同的電腦上完成：
+设备注册过程在2台单独的计算机上完成：
 
-* 要註冊的實際裝置，例如您的標牌顯示器
-* 用來註冊裝置的AEM伺服器
+* 要注册的实际设备，例如您的标牌显示器
+* 用于注册设备的AEM服务器
 
 >[!NOTE]
 >
->下載最新的Windows Player之後(*.exe*)，從 [AEM 6.4播放器下載](https://download.macromedia.com/screens/) 頁面，請依照播放器上的步驟完成隨選安裝：
+>下载最新的Windows Player后(*.exe*)，从 [AEM 6.4播放器下载](https://download.macromedia.com/screens/) 页面，按照播放器上的步骤完成临时安装：
 >
->1. 長按左上角以開啟「管理」面板。
->1. 導覽至 **設定** 從左側動作功能表，並輸入AEM執行個體的位置地址 **伺服器** 並按一下 **儲存**.
->1. 按一下 **註冊** 左側動作選單的連結，以及完成裝置註冊程式的下列步驟。
+>1. 长按左上角以打开管理面板。
+>1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并单击 **保存**.
+>1. 单击 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
 
 >
 
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. 在您的裝置上啟動AEM Screens Player。 將顯示註冊UI。
+1. 在设备上，启动AEM Screens Player。 将显示注册UI。
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. 在AEM中，導覽至 **裝置** 資料夾。
+1. 在AEM中，导航到 **设备** 文件夹中的任意位置。
 
    >[!NOTE]
    >
-   >若要取得在AEM儀表板中為Screens建立新專案的詳細資訊，請參閱 [建立和管理畫面專案](creating-a-screens-project.md).
+   >要获取有关在AEM功能板中为Screens创建新项目的更多信息，请参阅 [创建和管理屏幕项目](creating-a-screens-project.md).
 
-1. 點選/按一下 **裝置管理員** 按鈕。
+1. 点按/单击 **设备管理器** 按钮进行修改。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 點選/按一下 **裝置註冊** 按鈕。
+1. 点按/单击 **设备注册** 按钮。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 選取所需的裝置（與步驟1相同），然後點選/按一下 **註冊裝置**.
+1. 选择所需的设备（与步骤1相同），然后点按/单击 **注册设备**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. 在AEM中，等候裝置傳送其註冊代碼。
+1. 在AEM中，等待设备发送其注册代码。
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 在您的裝置中，檢查 **註冊代碼**.
+1. 在您的设备中，检查 **注册码**.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果 **註冊代碼** 在這兩部電腦上相同，請點選/按一下 **驗證** AEM按鈕，如步驟(6)所示。
-1. 為裝置設定所要的名稱，然後按一下 **註冊**.
+1. 如果 **注册码** 两台计算机上是相同的，请点按/单击 **验证** AEM按钮，如步骤(6)中所示。
+1. 为设备设置所需的名称，然后单击 **注册**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 點選/按一下 **完成** 以完成註冊程式。
+1. 点按/单击 **完成** 以完成注册过程。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >此 **註冊新專案** 可讓您註冊新裝置。
+   >此 **注册新项** 用于注册新设备。
    >
-   >此 **指派顯示區** 可讓您直接將裝置新增至顯示器。
+   >此 **分配显示区** 允许您将设备直接添加到显示区。
 
-   如果您按一下 **完成**，您必須將裝置指派給顯示器。
+   如果您单击 **完成**，您需要将设备分配给显示器。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >若要進一步瞭解如何建立和管理您的Screens專案的顯示器，請參閱 [建立和管理顯示區](managing-displays.md).
+   >要了解有关为Screens项目创建和管理显示的更多信息，请参阅 [创建和管理显示区](managing-displays.md).
 
-### 將裝置指派給顯示器 {#assigning-device-to-a-display}
+### 将设备分配给显示器 {#assigning-device-to-a-display}
 
-如果您尚未將裝置指派給顯示器，請依照下列步驟將裝置指派給AEM Screens專案中的顯示器：
+如果尚未将设备分配给显示，请按照以下步骤将设备分配给AEM Screens项目中的显示：
 
-1. 選取裝置並按一下 **指派裝置** 動作列中的。
+1. 选择设备并单击 **指定设备** 操作栏中的。
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 選取顯示的路徑 **顯示器/裝置設定路徑**.
+1. 选择显示的路径 **显示器/设备配置路径**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 按一下 **指派** 當您選取路徑時。
+1. 单击 **分配** 选择路径时。
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 按一下 **完成** 成功指派裝置後，如下圖所示。
+1. 单击 **完成** 成功分配设备后，如下图所示。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您也可以按一下「 」以檢視顯示控制面板 **完成**.
+   此外，您还可以通过单击查看显示仪表板 **完成**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-## 從「裝置管理員」搜尋裝置 {#search-device}
+## 从设备管理器中搜索设备 {#search-device}
 
-在您將裝置註冊到播放器後，您可以從「裝置管理員」UI檢視所有裝置。
+将设备注册到播放器后，即可从设备管理器UI查看所有设备。
 
-1. 例如，從您的AEM Screens專案導覽至「裝置管理員UI」。 **DemoScreens** —> **裝置**.
+1. 例如，从AEM Screens项目导航到设备管理器UI， **DemoScreens** —> **设备**.
 
-1. 選取 **裝置** 資料夾並按一下 **裝置管理員** 動作列中的。
+1. 选择 **设备** 文件夹，然后单击 **设备管理器** 操作栏中的。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
-1. 已註冊裝置的清單隨即顯示。
+1. 此时将显示已注册设备的列表。
 
-1. 如果您的註冊裝置清單很長，現在可以使用動作列中的搜尋圖示來搜尋
+1. 如果注册的设备列表很长，您现在可以使用操作栏中的搜索图标进行搜索
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-2.png)
 
    或者,
 
-   按一下 `/` （正斜線）以叫用搜尋功能。
+   单击 `/` （正斜杠）以调用搜索功能。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-### 搜尋功能的限制 {#limitations}
+### 搜索功能的限制 {#limitations}
 
-* 使用者將能夠搜尋任何存在於中的單字 *裝置ID* 或 *裝置名稱*.
+* 用户将能够搜索中存在的任何单词 *设备ID* 或 *设备名称*.
 
    >[!NOTE]
-   >建議您以多個字詞來建立裝置名稱，例如 *波士頓商店大廳* 而不是單一的 *BostonStoreLobby*.
+   >建议您用多个单词创建设备名称，例如 *波士顿商店大厅* 而不是一个人 *BostonStoreLobby*.
 
-* 如果您建立裝置名稱，例如 *波士頓商店大廳*，可搜尋任何字詞 *波士頓*， *儲存* 或 *大廳* 但如果裝置名稱是指 *BostonStoreLobby* 搜尋 *波士頓* 將不會顯示結果。
+* 如果您创建设备名称，例如 *波士顿商店大厅*，可搜索任意单词 *波士顿*， *存储* 或 *大厅* 但如果设备名称称为 *BostonStoreLobby* 搜索 *波士顿* 将不会显示结果。
 
-* 萬用字元， `*` 支援搜尋。 如果您想要尋找所有名稱開頭為的裝置 *波士頓*，您可以使用 *波士頓**.
+* 通配符， `*` 支持搜索。 如果您希望查找名称以开头的所有设备， *波士顿*，您可以使用 *波士顿**.
 
-* 如果裝置名稱為 *BostonStoreLobby* 並搜尋 *波士頓* 不會傳回結果，而是使用 *波士頓**會傳回搜尋結果。
+* 如果设备名称为 *BostonStoreLobby* 和搜索 *波士顿* 不会返回结果，而是使用 *波士顿**在搜索条件中，将返回结果。
 
-## 裝置註冊的限制 {#limitations-on-device-registration}
+## 设备注册的限制 {#limitations-on-device-registration}
 
-系統範圍的使用者密碼限制可能會導致裝置註冊失敗。 裝置註冊會使用隨機產生的密碼來建立裝置使用者。
+系统范围的用户密码限制可能会导致设备注册失败。 设备注册使用随机生成的密码来创建设备用户。
 
-如果密碼受 *AuthorizableActionProvider* 設定，建立裝置使用者可能會失敗。
+如果密码受 *AuthorizableActionProvider* 配置，创建设备用户可能会失败。
 
 >[!NOTE]
 >
->目前產生的隨機密碼由36個ASCII字元組成，範圍從33到122 （包含幾乎所有的特殊字元）。
+>当前生成的随机密码由36个ASCII字符组成，范围从33到122（几乎包括所有特殊字符）。
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -178,4 +178,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他资源 {#additional-resources}
 
-若要瞭解AEM Screens Player，請參閱 [AEM Screens Player](working-with-screens-player.md).
+要了解AEM Screens Player，请参阅 [AEM Screens Player](working-with-screens-player.md).

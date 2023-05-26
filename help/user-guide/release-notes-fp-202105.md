@@ -1,6 +1,6 @@
 ---
-title: Feature Pack 202105發行說明
-description: 「請詳閱本頁，瞭解2021年6月4日發行的AEM Screens Feature Pack 202105的相關資訊。」
+title: 功能包202105的发行说明
+description: “关注本页，了解2021年6月4日发布的AEM Screens Feature Pack 202105的信息。”
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,54 +12,54 @@ ht-degree: 11%
 
 ---
 
-# Feature Pack 202105發行說明 {#release-notes-for-feature-pack}
+# 功能包202105的发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建议您升级到最新版本的Adobe Experience Manager (AEM)。 Screens提供对AEM 6.3 Screens平台的维护支持。
 
 ## 可用性 {#availability}
 
-AEM Screens已發行AEM 6.5 Feature Pack 8。
+AEM Screens发布了AEM 6.5功能包8。
 
-您可以從以下網站下載AEM Screens 6.5.8版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP8**.
+您可以从以下网站下载AEM Screens 6.5.8版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取最新的功能包，标题为 **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->安裝套件後，您必須安裝AEM 6.5 Feature Pack 8的最低版本，AMS聯結器才能運作 `screens-cloud-ams-pkg-0.0.20`， `screens-cloud-ams-pkg-0.0.16` 和 `screens core bundles`.
+>安装包后，必须安装AEM 6.5 Feature Pack 8的最低版本才能使AMS连接器正常工作 `screens-cloud-ams-pkg-0.0.20`， `screens-cloud-ams-pkg-0.0.16` 和 `screens core bundles`.
 
 ## 发布日期 {#release-date}
 
-AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
+AEM Screens功能包202105的发布日期是2021年6月4日。
 
 ### 新增功能 {#what-is-new}
 
-* **在AEM Screens頻道中鎖定頁面**
+* **在AEM Screens渠道中锁定页面**
 
-   AEM Screens現在支援 *鎖定頁面*，實作於AEM Sites。 Adobe Experience Manager (AEM)可讓您鎖定頁面，讓其他人無法修改內容。 当您要对某个特定页面做出大量编辑，或者需要冻结页面一段时间时，此功能非常有用。
+   AEM Screens现在支持 *锁定页面*，如已在AEM Sites中实施的那样。 Adobe Experience Manager (AEM)允许您锁定页面，这样其他人就无法修改页面内容。 当您要对某个特定页面做出大量编辑，或者需要冻结页面一段时间时，此功能非常有用。
 
-* **命名AEM Screens播放器裝置**
+* **命名AEM Screens Player设备**
 
-   AEM Screens播放器現在包含將裝置名稱傳送至Adobe Experience Manager (AEM)的功能。
-根據預設，當使用大量註冊來註冊裝置時，系統產生的使用者名稱會輸入在標題欄位中。 或者，客戶可使用資產標籤或其他易記名稱，以便在AEM中可見，且更易於指派適當內容。
+   AEM Screens播放器现在包括向Adobe Experience Manager (AEM)发送设备名称的功能。
+默认情况下，当使用批量注册来注册设备时，系统生成的用户名将输入到标题字段中。 作为替代方法，客户可以使用资源标记或其他友好名称，以便在AEM中可见且更易于分配适当的内容。
 
-   請參閱下列檔案，瞭解如何在每個支援的作業系統中設定名稱：
+   请参阅以下文档，了解如何在每个支持的操作系统中配置名称：
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome作業系統](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [Chrome操作系统](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **資訊清單產生**
+* **清单生成**
 
-   透過改善的效能（例如在伺服器上配置較少的資源）加快產生通道資訊清單。
+   通过改进的性能（如在服务器上分配更少的资源）加快通道清单的生成。
 
 ### 错误修复 {#bug-fixes}
 
-* 當切換至包含動態內嵌序列的頻道時，播放器會顯示黑色熒幕。
-* Screens播放器現在會封鎖切換至任何中斷頻道的功能，進而避免404錯誤或頁面出現錯誤訊息。
+* 当切换到包含动态嵌入序列的渠道时，播放器显示一个黑屏。
+* Screens播放器现在阻止切换到任何中断的频道，从而进一步避免404错误或包含错误消息的页面。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players {#released-aem-screens-players}
 
-下列AEM Screens Player已針對AEM 6.5 Feature Pack 8發行：
+已为AEM 6.5 Feature Pack 8发布以下AEM Screens Player：
 
 * ChromeOS
 * Windows
@@ -67,6 +67,6 @@ AEM Screens Feature Pack 202105的發行日期為2021年6月4日。
 * Android
 * Linux
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**.

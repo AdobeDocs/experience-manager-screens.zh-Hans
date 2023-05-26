@@ -1,7 +1,7 @@
 ---
-title: 視訊轉譯
+title: 视频演绎版
 seo-title: Video Renditions
-description: 請依照本頁所述操作，瞭解如何為您的Screens專案產生Full HD轉譯。
+description: 关注此页面，了解如何为屏幕项目生成全高清演绎版。
 seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
 uuid: 0a3b009e-8a97-4396-ad47-97077fe26cde
 contentOwner: jsyal
@@ -20,76 +20,76 @@ ht-degree: 0%
 
 ---
 
-# 視訊轉譯 {#video-renditions}
+# 视频演绎版 {#video-renditions}
 
-您可以產生手動和自動的Full HD轉譯。 下節將說明將轉譯新增至資產的工作流程。
+您可以生成手动和自动全高清呈现版本。 以下部分介绍了将演绎版添加到资源的工作流。
 
-## 自動產生Full HD轉譯  {#automatically-generating-full-hd-renditions}
+## 自动生成全高清呈现版本  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->如果AEM Screens視訊轉譯無法在您的裝置上以最佳方式播放，請聯絡硬體廠商，取得視訊的規格。 這將有助於在裝置上取得最佳效能，因此可建立您自己的自訂視訊設定檔，您可以在其中提供適當的引數讓FFMPEG產生您的轉譯。 接著，使用下列步驟，將您的自訂視訊設定檔新增至設定檔清單。
+>如果AEM Screens视频演绎版无法在您的设备上以最佳方式播放，请联系硬件供应商以了解视频的规格。 这将有助于在设备上获得最佳性能，从而创建您自己的自定义视频配置文件，您可以在其中为FFMPEG提供适当的参数来生成演绎版。 随后，使用以下步骤将自定义视频配置文件添加到配置文件列表。
 >
->此外，另請參閱 [疑難排解影片](troubleshoot-videos.md) 對頻道中的視訊播放進行偵錯和疑難排解。
+>此外，请参阅 [视频疑难解答](troubleshoot-videos.md) 调试和排查渠道中的视频播放问题。
 
-請依照下列步驟自動產生Full HD轉譯：
+请按照以下步骤自动生成全高清呈现版本：
 
-1. 選取Adobe Experience Manager連結（左上方），然後按一下槌子圖示以選取工具 **工作流程**.
+1. 选择Adobe Experience Manager链接（左上方），然后单击锤子图标以选择要选择的工具 **工作流**.
 
-   按一下 **模型** 以輸入工作流程模型管理。
+   单击 **模型** 以进入工作流模型管理。
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 選取 **DAM更新資產** ，然後按一下動作列中的「編輯」以開啟 **DAM更新資產** 視窗。
+1. 选择 **DAM更新资产** ，然后单击操作栏中的“编辑”以打开 **DAM更新资产** 窗口。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. 連按兩下 **FFmpeg轉碼** 步驟。
+1. 双击 **FFmpeg转码** 步骤。
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 選取 **程式** 索引標籤來編輯程式引數。 輸入Full HD設定檔至清單 **引數** 作為： ***，profile:fullhd-bp,profile:fullhd-hp*** 並按一下 **確定**.
+1. 选择 **进程** 选项卡以编辑进程参数。 将全高清配置文件输入列表 **参数** 作为： ***，profile:fullhd-bp,profile:fullhd-hp*** 并单击 **确定**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 按一下 **儲存** 左上角 **DAM更新資產** 畫面。
+1. 单击 **保存** 左上角的 **DAM更新资产** 屏幕。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 導覽至 **資產** 並上傳新影片。 按一下視訊並開啟「轉譯」側邊欄，您會發現兩部Full HD視訊。
+1. 导航到 **资产** 并上传新视频。 单击视频，然后打开呈现版本侧边栏，您会看到两个全高清视频。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. 開啟 **轉譯** 從側邊欄移除。
+1. 打开 **演绎版** 从侧边栏上删除。
 
-   ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
+   ![步骤11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
-1. 您會發現兩個新的Full HD轉譯。
+1. 您将会注意到两个新的全高清呈现版本。
 
    ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-## 手動產生Full HD轉譯 {#manually-generating-full-hd-renditions}
+## 手动生成全高清呈现版本 {#manually-generating-full-hd-renditions}
 
-請依照下列步驟手動產生Full HD轉譯：
+请按照以下步骤手动生成全高清呈现版本：
 
-1. 選取Adobe Experience Manager連結（左上方），然後按一下槌子圖示以選取工具 **工作流程**.
+1. 选择Adobe Experience Manager链接（左上方），然后单击锤子图标以选择要选择的工具 **工作流**.
 
-   按一下 **模型** 以輸入工作流程模型管理。
+   单击 **模型** 以进入工作流模型管理。
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 選取 **畫面更新資產** 模型，然後按一下 **開始工作流程** 以開啟 **執行工作流程** 對話方塊。
+1. 选择 **屏幕更新资产** 模型，然后单击 **启动工作流** 以打开 **运行工作流** 对话框。
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 在「 」中選取所需的影片 **裝載** 並按一下 **執行**.
+1. 在中选择所需的视频 **有效负荷** 并单击 **运行**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. 導覽至 **資產**，深入研究您的資產，然後按一下它。
+1. 导航到 **资产**，深入到您的资源，然后单击该资源。
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. 開啟 **轉譯** 側邊欄，您會注意到新的Full HD轉譯。
+1. 打开 **演绎版** 侧边栏中，您会看到新的全高清呈现版本。
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

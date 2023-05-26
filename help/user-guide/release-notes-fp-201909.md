@@ -1,7 +1,7 @@
 ---
-title: Feature Pack 201909發行說明
+title: 功能包201909的发行说明
 seo-title: Release Notes for Feature Pack 201909
-description: 請詳閱本頁，瞭解2019年7月31日發行的AEM Screens Feature Pack 201909的相關資訊。
+description: 关注此页面以获取2019年7月31日发布的AEM Screens功能包201909的信息。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201909 released on October 07, 2019.
 feature: Feature Pack
 role: Developer
@@ -14,49 +14,49 @@ ht-degree: 2%
 
 ---
 
-# Feature Pack 201909發行說明{#release-notes-for-feature-pack}
+# 功能包201909的发行说明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建议您升级到最新版本的Adobe Experience Manager (AEM)。 Screens提供对AEM 6.3 Screens平台的维护支持。
 
-AEM Screens已發行AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2，並提供下列詳細資料。
+AEM Screens发布了AEM 6.4.6功能包6和AEM 6.5.2功能包2，其中包含以下详细信息。
 
 ## 发布日期 {#release-date}
 
-AEM Screens Feature Pack 201909的發行日期為2019年10月7日。
+AEM Screens功能包201909的发布日期为2019年10月7日。
 
 ### 新增功能 {#what-s-new}
 
-* **增強UI更新以建立畫面專案**
+* **用于创建屏幕项目的增强UI更新**
 
-   更新後的使用者介面現在可供建立新畫面專案。 只需按幾下滑鼠，即可建立新的Screens專案。 此外，每個專案的屬性標籤現在都有了更具啟發性的使用者介面。
+   更新后的用户界面现已可用，可用于创建新屏幕项目。 只需单击几下，即可创建新的屏幕项目。 此外，每个项目的属性选项卡现在都有了更直观的用户界面。
 
-   請參閱 [建立新畫面專案](creating-a-screens-project.md) 以取得更多詳細資料。
+   请参阅 [创建新屏幕项目](creating-a-screens-project.md) 了解更多详细信息。
 
-* **增強型裝置控制面板：**
+* **增强型设备功能板：**
 
-   裝置儀表板會顯示裝置資訊、狀態、熒幕擷圖、記錄、偏好設定，以及可讓您監視裝置活動和功能的裝置詳細資訊。 面板現在已更新。
+   设备仪表板显示设备信息、状态、屏幕快照、日志、首选项，以及允许您监视设备活动和功能的设备详细信息。 面板现已更新。
 
-   請參閱 [疑難排解裝置控制中心](monitoring-screens.md) 以取得更多詳細資料。
+   请参阅 [设备控制中心故障诊断](monitoring-screens.md) 了解更多详细信息。
 
-* **啟用逾時以允許鍵盤互動**
+* **启用超时以允许键盘交互**
 
-   啟用遠端控制裝置作為觸控面板的替代方案。 互動的觸控和活動逾時可處理鍵盤輸入。
+   启用远程控制设备作为触控面板的替代方案。 用于交互的触摸和活动超时可处理键盘输入。
 
-* **體驗片段中的離線設定**
+* **体验片段中的离线配置**
 
-   您現在可以在設定Screens體驗片段時新增離線設定（使用者端程式庫和靜態檔案）。
-請參閱 [使用體驗片段](experience-fragments-in-screens.md) 以取得更多詳細資料。
+   现在，您可以在配置Screens体验片段时添加离线配置（客户端库和静态文件）。
+请参阅 [使用体验片段](experience-fragments-in-screens.md) 了解更多详细信息。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players {#released-aem-screens-players}
 
-下列AEM Screens Player已針對AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2發行：
+已为AEM 6.4.6 Feature Pack 6和AEM 6.5.2 Feature Pack 2发布以下AEM Screens Player：
 
 * ChromeOS
 * Windows
 * Android
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 [**AEM Screens播放器下載**](https://download.macromedia.com/screens/).
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [**AEM Screens播放器下载**](https://download.macromedia.com/screens/).

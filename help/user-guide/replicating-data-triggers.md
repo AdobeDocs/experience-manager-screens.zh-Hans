@@ -1,7 +1,7 @@
 ---
-title: 將資料觸發器復寫至發佈伺服器
+title: 将数据触发器复制到发布服务器
 seo-title: Replicate data-triggers to publish server
-description: 請依照本頁所述操作，瞭解如何將資料觸發器復寫至發佈伺服器。
+description: 按照此页面了解如何将数据触发器复制到发布服务器。
 seo-description: Replicate data-triggers to publish server.
 feature: Administering Screens, Data Trigger
 role: Developer
@@ -14,108 +14,108 @@ ht-degree: 2%
 
 ---
 
-# 將資料觸發程式複製到發佈伺服器 {#replicating-data-triggers}
+# 将数据触发器复制到发布服务器 {#replicating-data-triggers}
 
-使用ContextHub和AEM Targeting Engine根據作者/發佈設定中的資料觸發器自訂內容時，所有ContextHub和Personalization相關設定在發佈時不會自動與管道復寫。
+使用ContextHub和AEM定位引擎根据创作/发布设置中的数据触发器自定义内容时，所有ContextHub和个性化相关配置在发布时不会自动与渠道一起复制。
 
-請依照本頁面瞭解分別發佈這些設定所需的手冊步驟。
+按照此页面了解单独发布这些配置所需的手册步骤。
 
-這基本上歸結為手動發佈：
+这基本上归结为手动发布：
 
-1. ContextHub存放區和UI模組設定
-1. 個人化對象
-1. 個人化活動
+1. ContextHub存储和UI模块配置
+1. 个性化受众
+1. 个性化活动
 
-## 將資料觸發程式復寫至發佈伺服器的步驟 {#replicating-data-triggers-publish}
+## 将数据触发器复制到发布服务器的步骤 {#replicating-data-triggers-publish}
 
-請依照下列步驟，將資料觸發程式復寫至發佈伺服器。
+按照以下步骤将数据触发器复制到发布服务器。
 
-### 步驟1：複製ContextHub設定 {#replicating-contexthub-configurations}
+### 步骤1：复制ContextHub配置 {#replicating-contexthub-configurations}
 
-1. 導覽至 **工具** > **部署** > **分佈** > **發佈代理程式** 並按一下發佈代理程式以設定您的設定。
+1. 导航到 **工具** > **部署** > **分发** > **发布代理** ，然后单击发布代理以配置设置。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!NOTE]
    >
-   >或者，您可以使用 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 導覽至畫面以設定及測試連線。
+   >或者，您可以使用 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 直接导航到屏幕以配置和测试连接。
 
-1. 按一下 **測試連線** 從動作列驗證作者與發佈執行個體的通訊，如下圖所示。
+1. 单击 **测试连接** 从操作栏验证作者与发布实例的通信，如下图所示。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
    >[!NOTE]
    >
-   >如果測試失敗，您需要修正製作和發佈執行個體之間的復寫代理程式設定。 請參閱 [疑難排解測試連線](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 以取得更多詳細資料。
+   >如果测试失败，则需要修复创作实例和发布实例之间的复制代理配置。 请参阅 [测试连接疑难解答](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 了解更多详细信息。
 
-1. 選取 **新增** 從 **發佈代理程式** 熒幕樹狀結構並選取專案的設定路徑，例如， `/conf/screens/settings/cloudsettings/configuration`.
+1. 选择 **添加** 从 **分发代理** 屏幕树并选择项目的配置路径，例如， `/conf/screens/settings/cloudsettings/configuration`.
 
-1. 按一下 **提交**.
+1. 单击 **提交**.
 
-### 復寫對象 {#replicating-audiences}
+### 复制受众 {#replicating-audiences}
 
-1. 導覽至您的AEM執行個體> **個人化** > **受眾** 或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` 以直接導覽。
+1. 导航到您的AEM实例> **个性化** > **受众** 或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` 直接导航。
 
-1. 向下切入您的專案資料夾，例如， `/conf/screens/`.
+1. 深入到您的项目文件夹，例如， `/conf/screens/`.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. 從使用者介面中選取所有對象和區段。
+1. 从用户界面中选择所有受众和区段。
 
-1. 按一下 **管理發布** 動作列中的。
+1. 单击 **管理发布** 操作栏中的。
 
-1. 按一下 **下一個** 和 **發佈**.
+1. 单击 **下一个** 和 **Publish**.
 
-### 復寫活動  {#replicating-activities}
+### 复制活动  {#replicating-activities}
 
-1. 導覽至您的AEM執行個體> **個人化** > **活動** 或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 以直接導覽。
+1. 导航到您的AEM实例> **个性化** > **活动** 或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 直接导航。
 
-1. 向下切入您的專案資料夾，即， `/content/campaigns/screens/…`.
+1. 深入到您的项目文件夹，即， `/content/campaigns/screens/…`.
 
-1. 從使用者介面中選取所有活動。
+1. 从用户界面中选择所有活动。
 
-1. 按一下 **管理發布** 動作列中的。
+1. 单击 **管理发布** 操作栏中的。
 
-1. 按一下 **下一個** 和 **發佈**.
+1. 单击 **下一个** 和 **Publish**.
 
 >[!IMPORTANT]
 >
->複製ContextHub設定和對象是在專案設定期間完成，而複製活動且在每次頻道內的目標定位變更時都是必要的。
+>复制ContextHub配置和受众是在项目设置期间完成的，而复制活动则是必需的，每次在渠道内更改定位时都是如此。
 
 #### 结果 {#result}
 
-如果複製成功，您應在發佈執行個體（或專案的類似專案）上檢視以下結構：
+如果复制成功，您应在发布实例（或项目中的类似内容）上查看以下结构：
 
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
 `/content/campaigns/screens/…`
 
-## 疑難排解測試連線 {#troubleshoot-test}
+## 测试连接疑难解答 {#troubleshoot-test}
 
-如果測試連線在復寫ContextHub設定時失敗，請遵循以下章節以疑難排解問題：
+如果在复制ContextHub配置时测试连接失败，请按照以下部分解决问题：
 
-1. 導覽至工具> **部署** > **分佈** > **發佈代理程式**.
+1. 导航到工具> **部署** > **分发** > **发布代理**.
 
-1. 按一下 **編輯** 並確保端點URL **匯入工具端點** 欄位也指向散發代理程式中的發佈伺服器URL。
+1. 单击 **编辑** 并确保端点URL **导入程序端点** 字段还指向分发代理中的发布服务器URL。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. 如果您未使用預設的管理員認證，則需要使用不同的使用者名稱和密碼來設定發佈代理程式。
+1. 如果不使用默认管理员凭据，则需要使用其他用户名和密码配置分发代理。
 
    应遵循以下步骤：
 
-   1. 導覽至工具> **作業** > **網頁主控台** `http://localhost:4502/system/console/configMgr`以開啟 **Adobe Experience Manager Web Console畫面**.
-   1. 搜尋 **Apache Sling散發傳輸認證 — 以使用者認證為基礎的DistributionTransportSecretProvider**
+   1. 导航到工具> **操作** > **Web控制台** `http://localhost:4502/system/console/configMgr`以打开 **Adobe Experience Manager Web控制台屏幕**.
+   1. 搜索 **Apache Sling分发传输凭据 — 基于用户凭据的DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. 建立設定，透過填入 **名稱**， **使用者名稱** 和 **密碼**&#x200B;例如， *Slingtransportsecretprovider*.
+   1. 创建配置，通过填充 **名称**， **用户名** 和 **密码**&#x200B;例如， *slingTransportSecretProvider*.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. 按一下 **儲存**
-   1. 使用 `Cmd +F` 以搜尋 **Apache Sling散發代理程式 — 轉寄代理程式工廠** 以開啟設定並搜尋 **傳輸機密提供者**.
+   1. 单击 **保存**
+   1. 使用 `Cmd +F` 以搜索 **Apache Sling分发代理 — 转发代理工厂** 打开配置并搜索 **传输密钥提供程序**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
-   1. 更新 `(name=default)` 替換為 `(name=slingTransportSecretProvider)`.
-   1. 按一下 **儲存** 並從重新執行測試連線 **發佈代理程式** 再次從AEM執行個體中熒幕顯示。
+   1. 更新 `(name=default)` 替换为 `(name=slingTransportSecretProvider)`.
+   1. 单击 **保存** 并从重新运行测试连接 **分发代理** 从AEM实例中再次筛选。

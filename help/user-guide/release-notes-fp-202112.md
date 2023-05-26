@@ -1,6 +1,6 @@
 ---
-title: Feature Pack 202112發行說明
-description: 請詳閱本頁，瞭解2022年1月12日發行的AEM Screens Feature Pack 202112的相關資訊。
+title: 功能包202112的发行说明
+description: 关注此页面以获取2022年1月12日发布的AEM Screens Feature Pack 202112的信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -12,54 +12,54 @@ ht-degree: 5%
 
 ---
 
-# Feature Pack 202112發行說明 {#release-notes-for-feature-pack}
+# 功能包202112的发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建議您升級至最新版Adobe Experience Manager (AEM)。 Screens提供AEM 6.3 Screens平台的維護支援。
+>建议您升级到最新版本的Adobe Experience Manager (AEM)。 Screens提供对AEM 6.3 Screens平台的维护支持。
 
 ## 可用性 {#availability}
 
-AEM Screens已發行AEM 6.5 Feature Pack 10。
+AEM Screens发布了AEM 6.5功能包10。
 
-您可以從以下網站下載AEM Screens 6.5.10版的最新Feature Pack： [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 導覽至 **Adobe Experience Manager** 標籤並搜尋 **Screens** 以取得標題為 **AEM 6.5 Screens FP10**.
+您可以从以下网站下载AEM Screens 6.5.10版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取最新的功能包，标题为 **AEM 6.5屏幕FP10**.
 
 ## 发布日期 {#release-date}
 
-AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
+AEM Screens功能包202112的发布日期是2022年1月12日。
 
 ### 新增功能 {#what-is-new}
 
-* Android應用程式更新現在針對Android 11 （API層級30）。 目前Android播放器位於目標API層級29。
+* Android应用程序更新现在面向Android 11 （API级别30）。 目前，Android播放器处于Target API级别29。
 
-* 顯示預覽卡在先前的播放器設定
+* 显示预览卡在上一个播放器配置上
 
-* 顯示預覽在某些情況下未呈現
+* 显示预览在某些情况下未呈现
 
-* 修正SmartSync中的同時下載錯誤
+* 修复SmartSync中的并发下载错误
 
-* 身為開發人員，您現在會檢視資產轉譯，使其僅作為資訊清單中對應資產下方的轉譯專案列出，以確保資訊清單處理的可擴充性、清晰度及便利性。
+* 作为开发人员，您现在将查看资产演绎版，以仅将其列为清单中相应资产下的演绎版条目，以确保清单处理的可扩展性、清晰性和便利性。
 
 ### 错误修复 {#bug-fixes}
 
-* 您現在可以根據事件型別篩選分析事件。
+* 您现在可以根据事件类型筛选分析事件。
 
-* 收集內部部署播放器記錄，並針對黑色畫面加以分析。
+* 收集内部部署播放器日志，并分析这些日志是否为黑屏。
 
-* 顯示具有拆分畫面頻道的空白熒幕的播放器現已修正
+* 使用分屏渠道显示空白屏幕的播放器现已修复
 
-* 修正在公共maven上新增核心套件組合的自訂處理常式檔案。
+* 通过在公共maven上添加核心捆绑包修复了自定义处理程序文档。
 
-* 播放器在升級後未更新韌體版本。 此問題現在已修正。
+* 播放器在升级后未更新固件版本。 现已修复此问题。
 
-* 顯示預覽卡在先前的播放器設定。
+* 显示预览卡在上一个播放器配置上。
 
-* 顯示預覽在某些情況下未呈現。
+* 显示预览在某些情况下未呈现。
 
-* 修正SmartSync中的同時下載錯誤。
+* 修复SmartSync中的并发下载错误。
 
-### 已發行的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players {#released-aem-screens-players}
 
-下列AEM Screens Player已針對AEM 6.5 Feature Pack 10發行：
+已为AEM 6.5 Feature Pack 10发布以下AEM Screens Player：
 
 * ChromeOS
 * Windows
@@ -67,6 +67,6 @@ AEM Screens Feature Pack 202112的發行日期為2022年1月12日。
 * Android
 * Linux
 
-#### AEM Screens播放器下載  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载  {#aem-screens-player-downloads}
 
-若要下載最新的AEM Screens播放器並深入瞭解錯誤修正，請參閱 **[AEM Screens播放器下載](https://download.macromedia.com/screens/index.html)**.
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**.

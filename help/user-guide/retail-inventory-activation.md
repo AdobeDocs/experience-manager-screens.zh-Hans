@@ -1,7 +1,7 @@
 ---
-title: 零售詳細目錄目標啟動
+title: 零售库存目标激活
 seo-title: Retail Inventory Targeted Activation
-description: 此使用案例顯示三種不同顏色運動衫的零售存貨量。 根據Google Sheets中記錄的可用庫存運動衫數量，畫面上會顯示數量最高的影像（紅色、綠色或藍色運動衫）。
+description: 此用例展示了三种不同颜色运动衫的零售库存量。 根据Google Sheets中记录的可用库存运动衫数量，屏幕上将显示数量最高的图像（红色、绿色或蓝色运动衫）。
 seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
@@ -21,106 +21,106 @@ ht-degree: 0%
 
 ---
 
-# 零售詳細目錄目標啟動 {#retail-inventory-targeted-activation}
+# 零售库存目标激活 {#retail-inventory-targeted-activation}
 
-下列使用案例會根據Google工作表中的值，示範三種不同的影像。
+以下用例根据Google工作表中的值演示了三种不同的图像。
 
 ## 描述 {#description}
 
-此使用案例顯示三種不同顏色運動衫的零售存貨量。 根據Google Sheets中記錄的可用庫存運動衫數量，畫面上會顯示數量最高的影像（紅色、綠色或藍色運動衫）。
+此用例展示了三种不同颜色运动衫的零售库存量。 根据Google Sheets中记录的可用库存运动衫数量，屏幕上将显示数量最高的图像（红色、绿色或蓝色运动衫）。
 
-在此使用案例中，紅色、綠色或藍色毛衣會根據可用毛衣數量上限顯示在熒幕上。
+对于此用例，红色、绿色或蓝色毛衣将根据可用毛衣数量的最大值显示在屏幕上。
 
-## 先決條件 {#preconditions}
+## 前提条件 {#preconditions}
 
-開始實作零售詳細目錄目標定位啟用之前，您必須瞭解如何設定 ***資料存放區***， ***對象細分*** 和 ***啟用頻道目標定位*** 在AEM Screens專案中。
+在开始实施零售库存定位激活之前，您必须了解如何设置 ***数据存储***， ***受众分段*** 和 ***为渠道启用定位*** 在AEM Screens项目中。
 
-請參閱 [在AEM Screens中設定ContextHub](configuring-context-hub.md) 詳細資訊。
+请参阅 [在AEM Screens中配置ContextHub](configuring-context-hub.md) 以了解详细信息。
 
 ## 基本流量 {#basic-flow}
 
-請依照下列步驟實作「零售庫存啟用」使用案例：
+按照以下步骤实施零售库存激活用例：
 
-1. **填入Google工作表**
+1. **填充Google工作表**
 
-   1. 導覽至ContextHubDemo Google工作表。
-   1. 為三件不同運動衫新增具有對應值的三欄（紅色、綠色和藍色）。
+   1. 导航到ContextHubDemo Google工作表。
+   1. 为三件不同的运动衫添加三列（红色、绿色和蓝色），并为其添加相应的值。
 
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
-1. **依需求設定對象**
+1. **根据要求配置受众**
 
-   1. 導覽至您對象中的區段(請參閱 ***步驟2：設定對象細分*** 在 **[在AEM Screens中設定ContextHub](configuring-context-hub.md)** 頁面（以取得更多詳細資料）。
+   1. 导航到受众中的区段(请参阅 ***步骤2：设置受众分段*** 在 **[在AEM Screens中配置ContextHub](configuring-context-hub.md)** 页面（了解更多详细信息）。
 
-   1. 新增三個新區段 **For_Red**， **For_Green**、和 **For_Blue**.
+   1. 添加三个新区段 **For_Red**， **For_Green**、和 **For_Blue**.
 
-   1. 選取 **For_Red** 並按一下 **編輯** 動作列中的。
+   1. 选择 **For_Red** 并单击 **编辑** 操作栏中的。
 
-   1. 拖放 **比較：屬性 — 屬性** 至編輯器，然後按一下「設定」圖示以編輯屬性。
-   1. 選取 **Googlesheets/value/1/2** 從的下拉式清單 **第一個屬性名稱**
+   1. 拖放 **比较：属性 — 属性** 到编辑器中，然后单击“配置”图标以编辑属性。
+   1. 选择 **google表/value/1/2** 从的下拉菜单中 **第一个属性名称**
 
-   1. 選取 **運運算元** 作為 **大於** 從下拉式功能表
+   1. 选择 **运算符** 作为 **大于** 从下拉菜单中
 
-   1. 選取 **資料型別** 作為 **數字**
+   1. 选择 **数据类型** 作为 **数字**
 
-   1. 選取 **Googlesheets/value/1/1** 從的下拉式清單 **第二個屬性名稱**.
+   1. 选择 **google表/value/1/1** 从的下拉菜单中 **第二个属性名称**.
 
-   1. 拖放 **其他比較：屬性 — 屬性** 至編輯器，然後按一下「設定」圖示以編輯屬性。
-   1. 選取 **Googlesheets/value/1/2** 從的下拉式清單 **第一個屬性名稱**.
+   1. 拖放 **其他比较：属性 — 属性** 到编辑器中，然后单击“配置”图标以编辑属性。
+   1. 选择 **google表/value/1/2** 从的下拉菜单中 **第一个属性名称**.
 
-   1. 選取 **運運算元** 作為 **大於** 從下拉式功能表
+   1. 选择 **运算符** 作为 **大于** 从下拉菜单中
 
-   1. 選取 **資料型別** 作為 **數字**
+   1. 选择 **数据类型** 作为 **数字**
 
-   1. 選取 **Googlesheets/value/1/0** 從的下拉式清單 **第二個屬性名稱**
+   1. 选择 **google表/value/1/0** 从的下拉菜单中 **第二个属性名称**
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   同樣地，編輯比較屬性規則並將其新增至 **For_Blue** 區段，如下圖所示：
+   同样，编辑比较属性规则并将其添加到中 **For_Blue** 区段如下图所示：
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   同樣地，編輯比較屬性規則並將其新增到** For_Green **segment，如下圖所示：
+   同样，编辑比较属性规则并将其添加到** For_Green **segment，如下图所示：
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >您會注意到，針對區段 **For_Green** 和 **For_Green**，資料無法在編輯器中解析，因為根據Google工作表中的值，目前只有第一次比較有效。
+   >您会注意到，对于区段 **For_Green** 和 **For_Green**，数据无法在编辑器中解析，因为按照Google工作表中的值，只有第一次比较现在有效。
 
-1. 瀏覽並選取 **DataDrivenRetail** 管道（循序管道）並按一下 **編輯** 動作列中的。
+1. 导航并选择您的 **DataDrivenRetail** 渠道（一个序列化渠道）并单击 **编辑** 操作栏中的。
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >您應已設定您的 **ContextHub** **設定** 使用管道 **屬性** —> **個人化** 標籤。
+   >您应该设置您的 **ContextHub** **配置** 使用渠道 **属性** —> **个性化** 选项卡。
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   您必須同時選取 **品牌** 和 **區域** ，以便在您啟動鎖定目標程式時可正確列出活動。
+   您必须同时选择 **品牌** 和 **面积图** ，以便在您启动定位流程时正确列出活动。
 
-1. **新增預設影像**
+1. **添加默认图像**
 
-   1. 新增預設影像至您的色版，然後按一下 **目標定位**.
-   1. 選取 **品牌** 和 **活動** 從下拉式功能表，然後按一下 **開始定位**.
+   1. 向渠道添加默认图像并单击 **定位**.
+   1. 选择 **品牌** 和 **活动** 从下拉菜单中单击 **开始定位**.
 
-   1. 按一下 **開始定位**.
+   1. 单击 **开始定位**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   開始鎖定目標之前，您必須新增區段(**For_Green**， **For_Red**、和 **For_Blue**)，方法是按一下 **+新增體驗鎖定目標** 從側邊欄移除，如下圖所示。
+   在开始定位之前，必须添加区段(**For_Green**， **For_Red**、和 **For_Blue**)，方法是单击 **+添加体验定位** 从侧边栏中（如下图所示）。
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
-1. 將影像新增至所有三個不同的熒幕，如下所示。
+1. 将图像添加到所有三个不同的屏幕中，如下所示。
 
    ![retail_targeting](assets/retail_targeting.gif)
 
-1. **檢查預覽**
+1. **检查预览**
 
-   1. 按一下 **預覽。** 此外，請開啟Google工作表並更新其值。
-   1. 變更所有三個不同欄的值，您會注意到顯示影像已根據詳細目錄中的最高值更新。
+   1. 单击 **预览。** 此外，打开您的Google工作表并更新其值。
+   1. 更改所有三个不同列的值，您将注意到显示图像会根据清单中的最高值更新。
    ![retail_result](assets/retail_result.gif)

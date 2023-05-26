@@ -1,7 +1,7 @@
 ---
-title: 專案層級影像播放持續時間
+title: 项目级别图像播放持续时间
 seo-title: Project Level Image Playback Duration
-description: 此功能可讓您在專案層級定義影像播放持續時間。
+description: 此功能允许您在项目级别定义图像播放持续时间。
 seo-description: This functionality allows you to define image playback duration at the project level.
 contentOwner: jsyal
 source-git-commit: f25176be89424059b8c51296969f069687328536
@@ -12,63 +12,63 @@ ht-degree: 1%
 ---
 
 
-# 專案層級影像播放持續時間 {#project-level-image-playback}
+# 项目级别图像播放持续时间 {#project-level-image-playback}
 
 ## 概述 {#overview}
 
-此功能可讓您在專案層級定義影像播放持續時間。 依預設，所有影像都會繼承此播放持續時間。 如果在專案層級未定義持續時間，預設的8秒播放將會繼續。
+利用此功能，可在项目级别定义图像播放持续时间。 默认情况下，所有图像都会继承此播放持续时间。 如果在项目级别未定义持续时间，则将继续默认播放8秒。
 
 ### 前提条件 {#prerequisites}
 
-使用此功能之前，請務必先設定專案，作為開始實作此功能的先決條件。 例如，
+在使用此功能之前，请确保将项目设置为开始实施此功能的先决条件。 例如，
 
-1. 建立AEM Screens專案(在此範例中， **專案層級播放**)
+1. 创建一个AEM Screens项目(在本例中， **ProjectLevelPlayback**)
 
-1. 建立序列管道為 **PlayBackChannel** 在 **頻道** 資料夾
+1. 创建序列渠道为 **PlayBackChannel** 下 **渠道** 文件夹
 
-1. 新增內容至 **PlayBackChannel**
+1. 将内容添加到 **PlayBackChannel**
 
-   ![資產](assets/image_playback1.png)
+   ![资产](assets/image_playback1.png)
 
-   例如，下列影像會示範新增至 **PlayBackChannel** 編輯者：
+   例如，下图显示了添加到 **PlayBackChannel** 编辑者：
 
-   ![資產](assets/image_playback2.png)
+   ![资产](assets/image_playback2.png)
 
-## 編輯專案層級影像播放持續時間指派 {#editing-project-level-image-playback-duration-assignment}
+## 编辑项目级别图像播放持续时间分配 {#editing-project-level-image-playback-duration-assignment}
 
-以下章節說明如何編輯AEM Screens專案中內容的播放持續時間。
+以下部分介绍了如何在AEM Screens项目中编辑内容的播放持续时间。
 
-### 更新專案層級影像的播放持續時間 {#updating-the-playback-duration-for-images-in-a-project}
+### 在项目级别更新图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
 >
->如果您想要更新影像或頻道層級播放持續時間，請參閱 [頻道層級影像播放持續時間](channel-level-image-playback.md).
+>如果要更新图像或渠道级别的播放持续时间，请参阅 [渠道级别图像播放持续时间](channel-level-image-playback.md).
 
-請依照下列步驟操作，瞭解如何更新專案層級的影像播放持續時間：
+请按照以下步骤了解如何更新项目级图像播放持续时间：
 
-1. 導覽至您的專案 **專案層級播放** 並按一下 **屬性** 動作列中的。
-   ![資產](assets/image_playback3.png)
+1. 导航到您的项目 **ProjectLevelPlayback** 并单击 **属性** 操作栏中的。
+   ![资产](assets/image_playback3.png)
 
-1. 選取色版中的所有影像，然後按一下左上方的扳手圖示（如下圖所示）以開啟「色版層級設定」對話方塊。
+1. 选择渠道中的所有图像，然后单击左上角的扳手图标（如下图所示）以打开“渠道级别配置”对话框。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **頁面** 對話方塊開啟。
+1. **页面** 对话框打开。
 
    >[!NOTE]
    >
-   >根據預設，頻道中的影像會設定為8秒的播放持續時間，而視訊會以其預設持續時間播放。
+   >默认情况下，渠道中的图像被设置为8秒的播放持续时间，视频以其默认持续时间播放。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   編輯 **持續時間** 從8000 (ms)到3000 (ms)，即3秒。 按一下右上方的勾號 **頁面** 對話方塊以儲存變更。
+   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 单击右上角的复选标记 **页面** 对话框以保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### 檢視結果 {#viewing-the-result}
+### 查看结果 {#viewing-the-result}
 
-更新頻道播放持續時間後（在此範例中是全部三個影像），您會注意到影像現在會播放3秒而不是8秒（預設值）。
+更新频道播放持续时间后（在本例中是所有三个图像），您会注意到这些图像现在将播放3秒而不是8秒（默认值）。
 
 ![channel_preview](assets/channel_preview.gif)
 
