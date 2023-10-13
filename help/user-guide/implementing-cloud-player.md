@@ -1,0 +1,69 @@
+---
+title: 实施Cloud Player
+seo-title: Implementing Cloud Player
+description: 按照此页面了解如何实施Cloud Player。
+seo-description: Follow  this page to learn about the implementation of the Cloud Player.
+uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
+content-type: reference
+products: SG_EXPERIENCEMANAGER/6.5/SCREENS
+topic-tags: administering
+discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
+feature: Administering Screens
+role: Admin
+level: Intermediate
+source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 0%
+
+---
+
+# 实施Cloud Player  {#implementing-cloud-player}
+
+本节介绍如何实施云播放器。
+
+>[!NOTE]
+>
+>为了兼容Cloud Player，需要配备支持PWA的现代浏览器，以确保各种设备之间的性能一致。
+
+## 安装Cloud Player {#installing-cloud-player}
+
+Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏览器的平台都可以通过执行以下步骤来运行云播放器应用程序：
+
+1. 打开浏览器并输入 [云播放器URL](https://player.adobescreens.com) 地址栏中。
+1. 浏览器会检查云播放器是否可安装，然后在地址栏中显示安装图标。
+
+![图像](/help/user-guide/assets/cloud-player-install.png)
+
+1. 单击确认对话框上的安装图标和安装按钮。 Cloud Player将作为独立应用程序安装在您的设备上，并且可以使用图标启动。
+
+### Cloud Player安装选项 {#cloud-player-install-option}
+
+1. PWA的安装选项也称为“添加到主屏幕”或A2HS功能。  对从Web安装PWA的支持因浏览器和平台而异。
+1. 每个浏览器都有不同的标准来检查PWA应用程序是否可安装。 通常，浏览器会检查这些内容（此处提供了更多详细信息）：
+   * 如果应用程序具有清单json文件，且其中包含在平台上安装应用程序所需的最小键，即名称、图标、start_url、显示
+   * 如果应用程序有一个带回迁事件侦听器的Service Worker文件。
+   * 应用程序必须通过https提供。
+1. 安装选项可能显示在不同浏览器和设备类型中的不同位置。 某些浏览器可能会隐藏选项菜单栏中的安装图标。
+
+## 批量配置Cloud Player {#bulk-provisioning}
+
+要在多个设备上批量配置Cloud Player，请执行以下操作：
+
+1. 选择支持在网亭模式下运行带有URL的浏览器的MDM解决方案。
+1. 您可以按照以下步骤将相同的配置应用到所有设备：
+   1. 将config.json托管在服务器上，使其可访问，例如：https://&lt;config_server_host>/config.json
+   1. 要安装云播放器并应用托管配置，请使用如下云播放器URL： https://player.adobescreens.com?playerConfigAddress=https://&lt;config_server_host>
+   1. Cloud Player应用程序在根目录中查找config.json &lt;config_server_host>，解析config.json以获取自定义配置并应用这些配置。
+   1. 这些配置将在播放器的每次重新加载时应用。
+
+## Chrome操作系统上的批量配置 {#bulk-provisioning-chrome}
+
+要了解有关在Chrome操作系统上进行批量配置的更多信息，请参阅： [在Chrome操作系统上安装Cloud Player](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+
+## AEM实例上所需的配置 {#bulk-provisioning-config-aem}
+
+根据AEM实例的类型，选择以下指南之一以启用CORS b/w AEM &amp; cloud player：
+* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+
