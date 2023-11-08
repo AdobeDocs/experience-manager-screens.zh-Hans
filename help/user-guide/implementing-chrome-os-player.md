@@ -13,7 +13,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -149,7 +149,7 @@ AEM Screens播放器是一个支持Kiosk的应用程序，它还为Chrome操作�
 | enableAdminUI | 启用管理UI以在站点上配置设备。 在完全配置并投入生产后，设置为false。 |
 | enableOSD | 为用户启用通道切换器UI以在设备上切换通道。 完全配置并投入生产后，请考虑将设置为false 。 |
 | enableActivityUI | 启用可显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
-| 云模式 | 如果希望Tizen播放器as a Cloud Service连接到Screens，则设置为true。 将设置为false以连接到AMS或本地AEM。 |
+| 云模式 | 如果希望Chrome播放器as a Cloud Service连接到Screens，则设置为true。 将设置为false以连接到AMS或本地AEM。 |
 | cloudToken | 注册令牌，以针对Screensas a Cloud Service进行注册。 |
 
 >[!NOTE]
