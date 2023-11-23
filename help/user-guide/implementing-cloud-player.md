@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 * [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## 对外部内容检索的脱机支持 {#offline-support}
+
+在各种使用场景中，渠道可能要求从外部源（例如，天气构件或Commerce集成的单页面应用程序）检索内容，这些外部源本身无法提供离线支持。 为了为这些特定用例启用离线功能，Cloud Player提供对自定义标头的支持。
+Cloud Player采用网络优先缓存策略，这意味着它尝试从网络获取内容（然后使用最新更新缓存），回退到缓存的内容（如果可用）。 要为此内容检索实施离线支持，请求中必须包含自定义标头。 随后，带有自定义标头的请求将在播放器上缓存，便于离线访问内容，同时保持网络优先缓存策略。
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
