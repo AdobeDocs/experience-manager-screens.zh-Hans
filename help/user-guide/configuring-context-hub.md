@@ -14,32 +14,32 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
 
 # 在AEM Screens中配置ContextHub {#configuring-contexthub-in-aem-screens}
 
-本节重点介绍如何使用数据存储创建和管理数据驱动的资源更改。
+本节重点介绍如何使用数据存储创建和管理数据驱动的资产更改。
 
 ## 关键术语 {#key-terms}
 
-在我们详细介绍如何在AEM Screens项目中创建和管理库存驱动型渠道之前，您必须了解少数几个重要术语，这些术语与各种方案都相关。
+在我们详细介绍如何在AEM Screens项目中创建和管理库存驱动型渠道之前，您必须了解少数几个重要术语，这些术语与各种方案相关。
 
-**品牌** 指您的高级项目描述。
+**品牌** 是指您的高级别项目描述。
 
 **面积图** 是指您的AEM Screens项目名称，如数字广告标牌
 
 **活动** 定义规则类别，如库存驱动、天气驱动、部门可用性驱动等。
 
-**Audience** 定义规则。
+**受众** 定义规则。
 
-**区段** 指按照给定规则播放的资产版本，例如如果温度低于50华氏度，则屏幕显示热咖啡的图像，或者冷饮的图像。
+**区段** 指按照给定规则播放的资产版本，例如如果温度低于华氏50度，则屏幕显示热咖啡的图像，否则显示冷饮的图像。
 
-下图直观地展示了ContextHub配置如何与“活动”、“受众”和“渠道”一致。
+下图直观地展示了ContextHub配置如何与活动、受众和渠道保持一致。
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
@@ -57,13 +57,13 @@ ht-degree: 2%
 
 您可以将数据存储设置为本地I/O事件或本地数据库事件。
 
-以下资源级别数据触发器示例展示了设置数据存储区的本地数据库事件，例如Excel工作表，该工作表允许您使用ContextHub配置和指向AEM Screens渠道的区段路径。
+以下资源级别数据触发器示例展示了设置数据存储的一个本地数据库事件，例如，允许使用ContextHub配置和指向AEM Screens渠道的区段路径的Excel工作表。
 
-正确设置Google工作表后，例如，如下所示：
+正确设置Google工作表后，如下所示：
 
 ![图像](/help/user-guide/assets/context-hub/context-hub1.png)
 
-当通过输入这两个值检查连接时，您将查看以下验证， *google sheet ID* 和 *API密钥* 格式：
+当通过输入这两个值检查连接时，您将查看以下验证， *google sheet ID* 和 *API密钥* 的格式：
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
@@ -110,10 +110,9 @@ ht-degree: 2%
       >1. 将所有节点移动到 `/conf/screens/settings/cloudsettings` 到 `cloudsettings1`.
       >1. 删除 `cloudsettings` 并保存。
       >1. 重命名 `cloudsettings1` 到 `cloudsettings` 并保存。
-      >1. 您现在应该注意到/conf/screens/settings/cloudsettings具有 `jcr:primaryType` 作为 `sling:Folder`.
-
+      >1. 您现在应该看到/conf/screens/settings/cloudsettings具有 `jcr:primaryType` 作为 `sling:Folder`.
       >
-      >在升级之前或之后，您应该按照创作和发布中的以下步骤进行操作。
+      >在升级之前或之后，您应该按照创作和发布中的这些步骤进行操作。
 
    1. 输入 **标题** 作为 **Google工作表**， **存储名称** 作为 **google表**、和 **存储类型** 作为 **contexthub.generic-jsonp** 并单击 **下一个**.
 
@@ -122,10 +121,10 @@ ht-degree: 2%
 
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 输入特定的json配置。 例如，您可以将以下json用于演示目的，然后单击 **保存** 您会看到商店配置的标题为 **Google工作表** 在ContextHub配置中。
+   1. 输入特定的json配置。 例如，您可以将以下json用于演示目的，然后单击 **保存** 您会看到标题为 **Google工作表** 在ContextHub配置中。
 
       >[!IMPORTANT]
-      >确保将代码替换为 *&lt;sheet id=&quot;&quot;>* 和 *&lt;api key=&quot;&quot;>*，您在设置Google工作表时获取的数据。
+      >确保将代码替换为 *&lt;sheet id=&quot;&quot;>* 和 *&lt;api key=&quot;&quot;>*，在设置Google工作表时获取的数据。
 
       ```
        {
@@ -144,15 +143,18 @@ ht-degree: 2%
       ```
 
       >[!NOTE]
+      >
       在上述示例代码中， **pollInterval** 定义值的刷新频率（以毫秒为单位）。
-      将代码替换为 *&lt;sheet id=&quot;&quot;>* 和 *&lt;api key=&quot;&quot;>*，您在设置Google工作表时获取的数据。
+      >
+      将代码替换为 *&lt;sheet id=&quot;&quot;>* 和 *&lt;api key=&quot;&quot;>*，在设置Google工作表时获取的数据。
 
       >[!CAUTION]
+      >
       如果您在全局文件夹（例如，在您自己的项目文件夹中）之外创建Google Sheets存储配置，则定位将无法开箱即用。
 
 1. **设置商店分段**
 
-   1. 导航到 **ContentHub存储配置……** 并在screens配置容器中创建另一个商店配置，并设置 **标题** 作为 **segmentation-contexthub**， **存储名称** 作为 **分段** 和 **存储类型** 作为 **aem.segmentation**.
+   1. 导航到 **ContentHub存储配置……** 并在screens配置容器中创建另一个商店配置，然后设置 **标题** 作为 **segmentation-contexthub**， **存储名称** 作为 **分段** 和 **存储类型** 作为 **aem.segmentation**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub7.png)
 
@@ -162,19 +164,19 @@ ht-degree: 2%
 您必须跳过定义json的过程，并将其留空。
 
 
-## 步骤3：在受众中设置区段 {#setting-up-audience}
+## 步骤3：在Audience中设置区段 {#setting-up-audience}
 
 1. **在受众中创建区段**
 
    1. 从您的AEM实例导航到 **个性化** > **受众** > **屏幕**.
 
-   1. 单击 **创建** > **创建上下文中心区段。** 此 **新建ContextHub区段** 对话框打开。
+   1. 单击 **创建** > **创建上下文中心区段。** 此 **新ContextHub区段** 对话框打开。
 
-   1. 输入 **标题** 作为 **Higherthan50** 并单击 **创建**. 同样，创建另一个名为 **Lowerthan50**.
+   1. 输入 **标题** 作为 **高于50** 并单击 **创建**. 同样，创建另一个标题为 **Lowerthan50**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. 选择区段 **Higherthan50** 并单击 **属性** 操作栏中的。
+   1. 选择区段 **高于50** 并单击 **属性** 从操作栏中。
       ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. 选择 **个性化** 选项卡 **区段属性**. 设置 **ContextHub路径** 到 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **区段路径** 到 `/conf/screens/settings/wcm/segments` 并单击 **保存**，如下图所示。
@@ -185,7 +187,7 @@ ht-degree: 2%
 
 ## 步骤4：设置品牌和区域 {#setting-brand-area}
 
-请按照以下步骤在品牌下的活动和区域中创建品牌：
+请按照以下步骤在活动和区域中的品牌下创建品牌：
 
 1. **在活动中创建品牌**
 
@@ -201,7 +203,8 @@ ht-degree: 2%
 
 
       >[!CAUTION]
-      已知问题：要添加区域，请从URL中删除主控，例如
+      >
+      已知问题：要添加区域，请从URL中删除母版，例如
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **在品牌中创建区域**
@@ -214,7 +217,7 @@ ht-degree: 2%
 
    1. 选择 **面积图** 从 **创建页面** 向导并单击 **下一个**.
 
-   1. 输入 **标题** 作为 **ScreensValue** 并单击 **创建**.
+   1. 输入 **标题** 作为 **Screens值** 并单击 **创建**.
 将在您的品牌中创建一个区域。
 
 ## 步骤5：在活动中创建区段 {#step-setting-up-audience-segmentation}
@@ -223,7 +226,7 @@ ht-degree: 2%
 
 1. **在活动中创建区段**
 
-   1. 从您的AEM实例导航到 **个性化** > **活动** > **ScreensBrand** >**ScreensValue**.
+   1. 从您的AEM实例导航到 **个性化** > **活动** > **ScreensBrand** >**Screens值**.
 
    1. 单击 **创建** > **创建活动。** 此 **配置活动向导** 打开。
 
@@ -233,7 +236,7 @@ ht-degree: 2%
 
    1. 单击 **添加体验** 从 **配置活动向导**.
 
-   1. 从 **受众**，选择 **Higherthan50** 并单击 **添加体验** 并输入 **标题** 作为 **higherthan50** **名称** 作为 **higherthan50**. 单击 **确定**.
+   1. 从 **受众**，选择 **高于50** 并单击 **添加体验** 并输入 **标题** 作为 **higherthan50** **名称** 作为 **higherthan50**. 单击 **确定**.
 
    1. 从 **受众**，选择 **Lowerthan50** 并单击 **添加体验** 并输入 **标题** 作为 **lowerthan50** **名称** 作为 **lowerthan50**. 单击 **确定**.
 
@@ -249,7 +252,7 @@ ht-degree: 2%
 
    1. 从您的AEM实例导航到 **个性化** > **受众** > **屏幕**.
 
-   1. 选择区段 **Higherthan50**，然后单击 **编辑** 操作栏中的。
+   1. 选择区段 **高于50**，然后单击 **编辑** 从操作栏中。
 
    1. 拖放 **比较：属性 — 值** 组件添加到编辑器中。
 
@@ -258,18 +261,20 @@ ht-degree: 2%
    1. 选择 **google表/value/1/0** 从的下拉菜单中 **属性名称**.
 
       >[!NOTE]
-此 **google表/value/1/0** 引用下图中google工作表中填充的行2和列：
+此 **google表/value/1/0** 引用下图中在google工作表中填充的行2和列：
 
       ![图像](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. 选择 **运算符** 作为 **大于** 下拉菜单中。
+   1. 选择 **运算符** 作为 **大于** 从下拉菜单中。
 
    1. 输入 **值** 作为 **70**.
 
       >[!NOTE]
+      >
       AEM会将您的区段显示为绿色，以验证Google工作表中的数据。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub18.png)
+
    同样，将属性值编辑为 **Lowerthan50**.
 
    1. 拖放 **比较：属性 — 值** 组件添加到编辑器中。
@@ -278,36 +283,38 @@ ht-degree: 2%
 
    1. 选择 **google表/value/1/0** 从的下拉菜单中 **属性名称**.
 
-   1. 选择 **运算符** 作为 **小于** 下拉菜单中。
+   1. 选择 **运算符** 作为 **小于** 从下拉菜单中。
 
    1. 输入 **值** 作为 **50**.
 
 
-
 ## 在渠道中启用定位 {#step-enabling-targeting-in-channels}
 
-请按照以下步骤在您的渠道中启用定位。
+执行以下步骤以在渠道中启用定位。
 
 1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用启用定位 **DataDrivenChannel** 在AEM Screens渠道中创建。
 
-1. 选择渠道 **TargetChannel** 并单击 **属性** 操作栏中的。
+1. 选择渠道 **TargetChannel** 并单击 **属性** 从操作栏中。
 
    ![图像](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. 选择 **个性化** 选项卡以设置ContextHub配置。
 
-   1. 设置 **ContextHub路径** 到 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **区段路径** 到 `/conf/screens/settings/wcm/segments` 并单击 **保存**.
+   1. 设置 **ContextHub路径** 到 `/conf/screens/settings/wcm/segments` 和 **区段路径** 到 `/conf/screens/settings/wcm/segments`.
+   1. 将品牌设置为 **ScreensBrand** 从下拉菜单和 **设置区域引用** 到 **Screens值**.
 
    1. 单击“**保存并关闭**”。
 
       >[!NOTE]
+      >
       使用ContextHub和区段路径，您最初是在其中保存了Context Hub配置和区段。
 
-      ![图像](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![图像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. 导航并选择 **TargetChannel** 渠道并单击 **编辑** 操作栏中的。
+   1. 导航并选择 **TargetChannel** 渠道并单击 **编辑** 从操作栏中。
 
       >[!NOTE]
+      >
       如果一切设置正确，您将看到 **定位** 选项，如下图所示。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub21.png)
@@ -317,5 +324,5 @@ ht-degree: 2%
 为AEM Screens项目配置ContextHub后，您可以按照不同的用例来了解数据触发的资源如何在不同的行业中发挥重要作用：
 
 1. **[零售库存目标激活](retail-inventory-activation.md)**
-1. **[移动中心温度激活](local-temperature-activation.md)**
-1. **[Hospality Reservation Activation](hospitality-reservation-activation.md)**
+1. **[行程中心温度激活](local-temperature-activation.md)**
+1. **[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
