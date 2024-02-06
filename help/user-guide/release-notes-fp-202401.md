@@ -4,9 +4,9 @@ description: 请阅读本页，了解2024年1月2日发布的AEM Screens Feature
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,3 @@ AEM Screens功能包202204的发布日期为2024年1月2日。
 * XSS问题位于 `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * 修复了“周期性计划”和“添加计划”按钮缺失：渠道计划中发现的问题。 (SCRNS-2739)
-
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
-
-要下载最新的AEM Screens播放器，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**.
