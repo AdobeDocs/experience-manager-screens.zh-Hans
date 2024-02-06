@@ -8,15 +8,15 @@ user-guide-description: 了解如何使用这款数字标牌解决方案，发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
+source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 14%
+source-wordcount: '510'
+ht-degree: 11%
 
 ---
 
 
-# AEM Screens 用户指南 {#user-guide}
+# AEM Screens用户指南 {#user-guide}
 
 + [Screens简介](aem-screens-introduction.md)
 + 概述和Kickstart指南 {#overview}
@@ -86,7 +86,7 @@ ht-degree: 14%
       + [使用Data Triggers创作](authoring-data-triggers.md)
       + [语音识别](voice-recognition.md)
       + [内容分配报告](content-assignment-report.md)
-      + [视频的缩略图支持](thumbnail-support.md)
+      + [视频支持缩略图](thumbnail-support.md)
       + [在AEM Screens中使用自适应演绎版](using-adaptive-renditions.md)
    + 管理内容更新 {#content-updates}
       + [按需内容更新](on-demand-content.md)
@@ -117,6 +117,7 @@ ht-degree: 14%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包20240166发行说明](release-notes-fp-20240116.md)
    + [功能包202204发行说明](release-notes-fp-202204.md)
    + [功能包202203发行说明](release-notes-fp-202203.md)
    + [功能包202112发行说明](release-notes-fp-202112.md)
