@@ -76,9 +76,11 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 
 >[!NOTE]
 >
-## Google弃用Chrome应用程序
-1. Chrome操作系统硬件上的Chrome应用程序：Google一直积极弃用Chrome应用程序而支持PWA应用程序，计划在2025年1月之前进行迁移。 因此，Chrome操作系统上的AEM Screens Player应用程序将根据共享时间线停止运行。我们敦促当前在生产中使用Chrome Player的客户计划转换到Screens Cloud Player。
-2. Mac、Windows和Linux上的Chrome扩展播放器：由于Google的弃用过程(从Google Chrome版本114开始)，Screens Chrome扩展播放器不再受支持。 我们强烈建议转换到我们的Screens Cloud Player，以满足您的所有开发和测试要求。
+>## Google弃用Chrome应用程序
+>1. Chrome操作系统硬件上的Chrome应用程序：
+>Google一直积极弃用Chrome应用程序而支持PWA应用程序，计划在2025年1月之前进行迁移。 因此，Chrome操作系统上的AEM Screens Player应用程序将根据共享时间线停止运行。我们敦促当前在生产中使用Chrome Player的客户计划转换到Screens Cloud Player。
+>2. Mac、Windows和Linux上的Chrome扩展播放器：
+>由于Google的弃用过程(从Google Chrome版本114开始)，Screens Chrome扩展播放器不再受支持。 我们强烈建议转换到我们的Screens Cloud Player，以满足您的所有开发和测试要求。
 
 ## 对外部内容检索的脱机支持 {#offline-support}
 
