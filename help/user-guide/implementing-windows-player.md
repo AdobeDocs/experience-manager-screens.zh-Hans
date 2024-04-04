@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Ad-Hoc方法允许您安装最新的Windows Player (*.exe*)。 访问 [**AEM 6.5
 
 按照以下步骤在Windows Player中配置该名称：
 
-1. 单击 **开始** —> **运行**
+1. 单击 **开始** > **运行**
 1. 输入 `system.cpl`
 1. 使用计算机名称选项卡设置计算机的主机名
 
@@ -123,7 +123,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 | **策略名称** | **用途** |
 |---|---|
-| server | Adobe Experience Manager (AEM)服务器的URL。 |
+| 服务器 | Adobe Experience Manager (AEM)服务器的URL。 |
 | 注册密钥 | 用于使用预共享密钥批量注册设备。 |
 | 分辨率 | 设备的分辨率。 |
 | rebootSchedule | 重新启动播放器的计划。 |
