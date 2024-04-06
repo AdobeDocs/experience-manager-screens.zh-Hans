@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 Windows Player的默认安装路径为：
 
-***C:\Users\&amp;lt；您的用户>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 链接中的示例脚本将启用和禁用自定义shell。 因此，您可能需要将脚本拆分为两行，然后启用/禁用以下适用的行：
 

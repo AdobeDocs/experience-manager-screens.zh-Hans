@@ -1,7 +1,7 @@
 ---
-title: Hospality Reservation Activation
+title: Hospitality Reservation Activation
 seo-title: Hospitality Reservation Activation
-description: 以下用例演示了如何根据Google Sheets中填充的值激活医院预订。
+description: 以下用例演示了如何根据Google工作表中填充的值激活医院预订。
 seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
@@ -14,22 +14,22 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
-# Hospality Reservation Activation {#hospitality-reservation-activation}
+# Hospitality Reservation Activation {#hospitality-reservation-activation}
 
-以下用例演示了如何根据Google Sheets中填充的值激活医院预订。
+以下用例演示了如何根据Google工作表中填充的值激活医院预订。
 
 ## 描述 {#description}
 
-对于此用例，Google工作表中填充了两个餐厅的预订百分比 **Restaurant1** 和 **Restaurant2**. 根据Restaurant1和Restaurant2的值应用公式，并根据该公式，将值1或2指定给 **AdTar** 列。
+对于此用例，Google工作表中填入了两个餐厅的预订百分比 **Restaurant1** 和 **Restaurant2**. 根据Restaurant1和Restaurant2的值应用一个公式，并根据该公式，将值1或2指定给 **Adtarget** 列。
 
-如果 **Restaurant1** > **Restaurant2**，则 **AdTarget** 已分配值 **1** 否则 **AdTar** 已分配值 **2**. 值1生成 *牛排食品* 选项和值2显示 *泰国食物* 选项。
+如果值 **Restaurant1** > **Restaurant2**，则 **AdTarget** 已分配值 **1** 否则 **Adtarget** 已分配值 **2**. 值1生成 *牛排食品* 选项和值2导致显示 *泰国菜* 选项。
 
 ## 前提条件 {#preconditions}
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 ## 基本流量 {#basic-flow}
 
-请按照以下步骤为AEM Screens项目实施服务预订激活用例：
+请按照以下步骤为您的AEM Screens项目实施服务预订激活用例：
 
 1. **填充Google工作表并添加公式。**
 
-   例如，将公式应用于第三列 **AdTar**，如下图所示。
+   例如，将公式应用于第三列 **Adtarget**，如下图所示。
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    1. 选择 **工作表A1 1** 并单击 **编辑**.
 
-   1. 选择comparison属性并单击configure图标以编辑属性。
+   1. 选择比较属性，然后单击配置图标以编辑属性。
    1. 选择 **google表/value/1/2** 从的下拉菜单中 **属性名称**
 
    1. 选择 **运算符** 作为 **等于** 从下拉菜单中
@@ -62,22 +62,22 @@ ht-degree: 0%
 
    1. 同样，选择 **工作表A1 2** 并单击 **编辑**.
 
-   1. 选择comparison属性并单击configure图标以编辑属性。
+   1. 选择比较属性，然后单击配置图标以编辑属性。
    1. 选择 **google表/value/1/2** 从的下拉菜单中 **属性名称**
 
    1. 选择 **运算符** 作为 **2**
 
-1. 导航并选择您的渠道()并单击 **编辑** 操作栏中的。 在以下示例中， **DataDrivenRestaurant**，顺序渠道用于展示功能。
+1. 导航并选择您的渠道()并单击 **编辑** 从操作栏中。 在以下示例中， **DataDrivenRestaurant**，顺序渠道用于展示功能。
 
    >[!NOTE]
    >
-   >您的渠道应已有一个默认图像，并且受众应已预配置，如中所述 [在AEM Screens中配置ContextHub](configuring-context-hub.md).
+   >您的渠道应已具有默认图像，并且受众应已预配置，如中所述 [在AEM Screens中配置ContextHub](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >您应该设置您的 **ContextHub** **配置** 使用渠道 **属性** —> **个性化** 选项卡。
+   >您应该设置您的 **ContextHub** **配置** 使用渠道 **属性** > **个性化** 选项卡。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ ht-degree: 0%
 
    1. 单击 **预览。** 此外，打开您的Google工作表并更新其值。
    1. 更新中的值 **Restaurant1** 和 **Restaurant2** 列。 如果 **Restaurant1** > **餐厅2** 您应该能够查看以下项目的图像 *牛排* 食物， *泰语* 食品图像显示在屏幕上。
-   ![result5](assets/result5.gif)
+
+   ![结果5](assets/result5.gif)

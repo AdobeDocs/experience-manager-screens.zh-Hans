@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 项目设置完成后，您必须将渠道分配给显示区，以查看内容。
 
-1. 导航到所需的显示，例如， **DemoScreens** —> **位置** —> **圣何塞** —> **大厅**.
+1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
 1. 点按/单击 **分配渠道** 从操作栏中。
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 按照以下步骤导航到时间线视图：
 
-1. 导航到所需的显示，例如， **DemoScreens** —> **位置** —> **圣何塞** —> **大厅**.
+1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
 1. 点按/单击 **分配渠道** 从操作栏中。
 

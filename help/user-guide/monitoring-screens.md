@@ -1,7 +1,7 @@
 ---
-title: 设备控制中心故障诊断
+title: 设备控制中心故障排除
 seo-title: Monitoring Screens
-description: 按照此页面进行操作，以使用Device仪表板对Screens播放器活动和设备的性能进行监视和故障排除。
+description: 按照此页面中的说明，使用Device仪表板对Screens播放器活动和设备的性能进行监控和疑难解答。
 seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device usingtheDevice dashboard.
 uuid: b6895d5d-c743-4e10-a166-de573e122335
 contentOwner: Jyotika Syal
@@ -14,28 +14,28 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
-# 设备控制中心故障诊断 {#troubleshooting-device-control-center}
+# 设备控制中心故障排除 {#troubleshooting-device-control-center}
 
-您可以使用设备仪表板监控并排除Screens播放器活动和设备的性能。 本页提供了有关如何监视和疑难解答Screens播放器和分配的设备的感知性能问题的信息。
+您可以使用设备仪表板监控Screens播放器活动和设备的性能并排除其故障。 此页提供有关如何监视和排除所感知的Screens播放器和所分配设备的性能问题的信息。
 
 ## 从设备控制中心进行监控和故障排除 {#monitor-and-troubleshoot-from-device-control-center}
 
-您可以使用Device Dashboard监控该活动，从而排除Screens播放器的故障。
+您可以使用Device Dashboard监控活动，从而排除Screens播放器的故障。
 
 ### 设备功能板 {#device-dashboard}
 
-按照以下步骤导航到设备仪表板：
+按照以下步骤导航到设备功能板：
 
-1. 从项目中导航到设备仪表板，例如， ***测试项目*** —> ***设备***.
+1. 从项目中导航到设备功能板，例如， ***测试项目*** > ***设备***.
 
-   选择 **设备** 和 **设备管理器** 操作栏中的。
+   选择 **设备** 和 **设备管理器** 从操作栏中。
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -43,11 +43,11 @@ ht-degree: 2%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 选择设备(**NewTestDevice**)，然后单击 **仪表板** 操作栏中的。
+1. 选择设备(**NewTestDevice**)，然后单击 **仪表板** 从操作栏中。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
-1. 该页面显示设备信息、活动，以及允许您监视设备活动和功能的设备详细信息。
+1. 该页面显示设备信息、活动以及设备详细信息，可让您监视设备活动和功能。
 
    ![screen_shot_2019-09-05at13700pm](assets/screen_shot_2019-09-05at13700pm.png)
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 此外，单击 **清除缓存** 和 **更新** 清除设备的缓存并更新 [固件](screens-glossary.md) 版本。
 
-此外，单击 **...** 从右上角 **设备详细信息** 用于重新启动或刷新播放器状态的面板。
+此外，单击 **...** 从的右上角 **设备详细信息** 用于重新启动或刷新播放器状态的面板。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -85,13 +85,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要了解有关设备自动或手动更新相关事件的更多信息，请参阅部分 ***从设备仪表板进行自动更新与手动更新*** 在 [管理渠道](managing-channels.md).
+>要了解有关设备自动更新或手动更新相关事件的更多信息，请参阅部分 ***从设备仪表板进行自动更新与手动更新*** 在 [管理渠道](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
-### 查看播放器屏幕快照 {#view-player-screenshot}
+### 查看播放器屏幕截图 {#view-player-screenshot}
 
-您可以从设备查看播放器屏幕快照 **播放器屏幕快照** 面板。
+您可以从设备查看播放器屏幕截图 **播放器屏幕截图** 面板。
 
 单击(**...**)，然后选择 **刷新屏幕快照** 查看正在运行的播放器的快照。
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 ### 管理首选项 {#manage-preferences}
 
-此 **首选项** 允许用户更改首选项 **管理员UI**， **渠道切换器**、和 **远程调试** 设备名称。
+此 **偏好设置** 允许用户更改首选项 **管理员UI**， **渠道切换器**、和 **远程调试** 设备名称。
 
 >[!NOTE]
 >要了解有关这些选项的更多信息，请参阅 [AEM Screens Player](working-with-screens-player.md).
@@ -108,9 +108,9 @@ ht-degree: 2%
 
 此外，单击 **设置** 更新设备首选项。 您可以更新以下首选项：
 
-* **服务器 URL**
+* **服务器URL**
 * **解决方法**
-* **重新启动计划**
+* **重新引导计划**
 * **最大数量 要保留的日志文件**
 * **日志级别**
 
@@ -124,20 +124,19 @@ ht-degree: 2%
 >* **警告**
 >* **错误**
 
-
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
 ## OSGi设置疑难解答 {#troubleshoot-osgi-settings}
 
-您需要启用空反向链接，以允许设备向服务器发布数据。 例如，如果禁用了空反向链接属性，则设备无法发布屏幕快照。
+您需要启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。
 
-目前，这些功能中的某些功能仅在 *Apache Sling引用过滤器允许为空* 在OSGi配置中启用。 仪表板可能会显示一条警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
+目前，这些功能中的某些功能仅在 *Apache Sling引用过滤器允许为空* 会在OSGi配置中启用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
 
-按照以下步骤启用Apache Sling引用过滤器允许为空
+执行以下步骤以启用Apache Sling反向链接过滤器允许为空
 
 1. 导航到 **Adobe Experience Manager Web控制台配置**，即， `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. 查看 **allow.empty** 选项。
-1. 单击“**保存**”。
+1. 单击&#x200B;**保存**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
@@ -145,10 +144,10 @@ ht-degree: 2%
 
 以下部分建议监控网络链接、服务器和播放器，以了解运行状况并对问题做出反应。
 
-AEM提供针对以下各项的内置监控：
+AEM为以下对象提供内置监控：
 
 * *心率* 每5秒显示一次，以指示AEM Screens Player正在运行。
-* *屏幕快照* 播放器中的播放，其中显示当前在播放器上显示的内容。
+* *屏幕快照* 播放器中的图标，用于显示当前在播放器上显示的内容。
 * 此 *AEM Screens播放器固件* 版本。
 * *可用存储空间* 在播放器上。
 
@@ -156,11 +155,11 @@ AEM提供针对以下各项的内置监控：
 
 * 播放器上的CPU使用情况。
 * 检查AEM Screens Player进程是否正在运行。
-* 远程重新启动/重新引导播放器。
+* 远程重新启动/重新启动播放器。
 * 实时通知。
 
 建议以允许远程登录诊断问题和重新启动播放器的方式部署播放器硬件和操作系统。
 
 #### 其他资源 {#additional-resources}
 
-参见 [视频播放配置和故障排除](troubleshoot-videos.md) 调试和排除频道中播放的视频故障。
+请参阅 [视频播放配置和故障排除](troubleshoot-videos.md) 调试和排除频道中播放的视频故障。

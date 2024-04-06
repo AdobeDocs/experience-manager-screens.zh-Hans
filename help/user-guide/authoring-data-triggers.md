@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -21,13 +21,13 @@ ht-degree: 1%
 >
 >在AEM Screens渠道中支持数据触发器的最低版本是AEM 6.5.3 Feature Pack 3。
 
-## 前提条件 {#prereqs}
+## 先决条件 {#prereqs}
 
-在执行以下步骤以在渠道中启用定位之前，您必须了解 [在AEM Screens中配置的关键术语](configuring-context-hub.md) 了解AEM Screens中的ContextHub和定位时需要此信息。
+在执行以下步骤以在渠道中启用定位之前，您必须了解 [在AEM Screens中配置的关键术语](configuring-context-hub.md) 了解AEM Screens中的ContextHub和定位时需要使用。
 
 >[!IMPORTANT]
 >
->在AEM Screens渠道中启用定位之前，建议您先了解并设置ContextHub配置。
+>建议您先了解并设置ContextHub配置，然后再在AEM Screens渠道中启用定位。
 
 有关详细信息，请访问下面的链接：
 
@@ -42,11 +42,11 @@ ht-degree: 1%
 
 ## 在AEM Screens渠道中启用定位 {#enabling-targeting}
 
-请按照以下步骤在您的渠道中启用定位。
+执行以下步骤以在渠道中启用定位。
 
 1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用启用定位 **DataDrivenRetail** *（序列渠道）* 在AEM Screens渠道中创建。
 
-1. 选择渠道 **DataDrivenRetail** 并单击 **属性** 操作栏中的。
+1. 选择渠道 **DataDrivenRetail** 并单击 **属性** 从操作栏中。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
@@ -57,13 +57,14 @@ ht-degree: 1%
    1. 选择 **区段路径** 作为 **会议** > **We.Retail** > **设置** > **wcm** > **区段** 并单击 **选择**.
 
    1. 单击“**保存并关闭**”。
+
    >[!NOTE]
    >
    >使用ContextHub和区段路径，您最初是在其中保存了Context Hub配置和区段。
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 导航并选择 **DataDrivenRetail** 起始日期 **DataDrivenAssets** > **渠道** 并单击 **编辑** 操作栏中的。 将资产拖放到渠道编辑器中。
+1. 导航并选择 **DataDrivenRetail** 从 **DataDrivenAssets** > **渠道** 并单击 **编辑** 从操作栏中。 将资产拖放到渠道编辑器中。
 
    >[!NOTE]
    >
@@ -80,5 +81,5 @@ ht-degree: 1%
 为AEM Screens项目配置ContextHub后，您可以按照不同的用例来了解数据触发的资源如何在不同的行业中发挥重要作用：
 
 1. **[零售库存目标激活](retail-inventory-activation.md)**
-1. **[移动中心温度激活](local-temperature-activation.md)**
-1. **[Hospality Reservation Activation](hospitality-reservation-activation.md)**
+1. **[行程中心温度激活](local-temperature-activation.md)**
+1. **[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
