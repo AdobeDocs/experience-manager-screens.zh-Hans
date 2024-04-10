@@ -1,15 +1,13 @@
 ---
 title: 功能包202001发行说明
-seo-title: Release Notes for Feature Pack 202001
-description: 请阅读本页，了解有关2020年1月31日发布的AEM Screens功能包202001的信息。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+description: 了解2020年1月31日发布的AEM Screens功能包202001。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
 
 ## 可用性 {#availability}
 
@@ -33,13 +31,15 @@ AEM Screens功能包202001的发布日期为2020年1月31日。
 ### 新增功能 {#what-s-new}
 
 * **资源播放的命令同步**
-命令同步允许跨不同播放器同步播放。 播放器可以播放不同的内容，但每个资产需要具有相同的持续时间。
+
+命令同步允许跨不同播放器同步播放。 播放器可以播放不同的内容，但每个资源必须具有相同的持续时间。
 要了解有关Command Sync以及如何设置主服务器和客户端的更多信息，请参见 [使用命令同步](using-command-sync.md).
 
 * **用于显示https状态并允许空反向链接的运行状况检查框架**
-运行状况检查框架允许用户在运行AEM Screens项目之前检查是否设置了两个必要的配置（允许空反向链接请求和基于Apache Felix Jetty的HTTP服务）。
 
-  要了解有关运行状况检查框架的更多信息，请参阅 [运行状况检查框架](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+运行状况检查框架让用户在运行AEM Screens项目之前检查是否设置了两个必要的配置（允许空反向链接请求和基于Apache Felix Jetty的HTTP服务）。
+
+要了解有关运行状况检查框架的更多信息，请参阅 [运行状况检查框架](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **默认过渡类型的更新**
 过渡组件的属性，例如 **类型** 现已设置为 **渐隐** 和 **持续时间** 作为 **1600毫秒**，默认情况下。
@@ -47,14 +47,14 @@ AEM Screens功能包202001的发布日期为2020年1月31日。
   请参阅 [应用过渡](/help/user-guide/applying-transitions.md) 用例以了解更多详细信息。
 
 
-### 已发布的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players
 
 已为AEM 6.4 Feature Pack 7和AEM 6.5 Feature Pack 3发布以下AEM Screens播放器：
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [**AEM Screens播放器下载**](https://download.macromedia.com/screens/).

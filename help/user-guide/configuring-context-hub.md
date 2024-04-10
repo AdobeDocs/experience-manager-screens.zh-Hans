@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 1%
    >
    >1. 导航到CRXDE Lite，然后导航到 `/conf/screens/settings/cloudsettings`.
    >1. 检查 `cloudsettings jcr:primaryType` 位于 `sling:Folder`. 如果 `jcr:primaryType` 不在 `sling:folder`，继续后续步骤。
-   >1. 右键单击 `/conf/screens/settings` 并创建节点，使用 *name* 作为 **cloudsettings1** 和 *类型* 作为 **sling：Folder** 并保存更改。
+   >1. 右键单击 `/conf/screens/settings` 并创建节点，使用 *name* 作为 **`cloudsettings1`** 和 *类型* 作为 **`sling:Folder`** 并保存更改。
    >1. 将所有节点移动到 `/conf/screens/settings/cloudsettings` 到 `cloudsettings1`.
    >1. 删除 `cloudsettings` 并保存。
    >1. 重命名 `cloudsettings1` 到 `cloudsettings` 并保存。
@@ -110,10 +110,10 @@ ht-degree: 1%
    >
    >在升级之前或之后，请按照创作和发布中的以下步骤操作。
 
-   1. 输入 **标题** 作为 **Google工作表**， **存储名称** 作为 **google表**、和 **存储类型** 作为 **contexthub.generic-jsonp** 并单击 **下一个**.
+   1. 输入 **标题** 作为 **Google工作表**， **存储名称** 作为 **`googlesheets`**、和 **存储类型** 作为 **c`ontexthub.generic-jsonp`** 并单击 **下一个**.
 
       >[!CAUTION]
-      >如果您使用的是Adobe Experience Manager (AEM) 6.4，请输入 **配置标题** 作为 **google表** 和 **存储类型** 作为 **contexthub.generic-jsonp**.
+      >如果您使用的是Adobe Experience Manager (AEM) 6.4，请输入 **配置标题** 作为 **`googlesheets`** 和 **存储类型** 作为 **c`ontexthub.generic-jsonp`**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
 
