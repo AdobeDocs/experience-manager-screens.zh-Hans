@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Cloud Player与Adobe以前的本机应用程序有很大不同。 它是一个�
 
 Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏览器的平台都可以通过执行以下步骤来运行云播放器应用程序：
 
-1. 打开浏览器并输入 [云播放器URL](https://player.adobescreens.com) 地址栏中。
+1. 打开浏览器并输入 [云播放器URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) 地址栏中。
 1. 浏览器会检查云播放器是否可安装，然后在地址栏中显示安装图标。
 
    ![图像](/help/user-guide/assets/cloud-player-install.png)
@@ -67,13 +67,13 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 
 ## Chrome操作系统上的批量配置 {#bulk-provisioning-chrome}
 
-了解有关在Chrome操作系统上进行批量配置的更多信息，请参阅 [在Chrome操作系统上安装Cloud Player](https://main--screens-franklin-documentation--hlxscreens.hlx.page/updates/cloud-player/guides/chromeos-install-cloud-player).
+了解有关在Chrome操作系统上进行批量配置的更多信息，请参阅 [在Chrome操作系统上安装Cloud Player](https://www.adobe.com/go/aem_screens_cloud_player_en).
 
 ## AEM实例上所需的配置 {#bulk-provisioning-config-aem}
 
 根据AEM实例的类型，选择以下指南之一以启用CORS b/w AEM &amp; cloud player：
-* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
+* [AEM On-Premises/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
+* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 
 >[!NOTE]
 >
