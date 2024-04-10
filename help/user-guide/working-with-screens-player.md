@@ -1,34 +1,30 @@
 ---
 title: 使用AEM Screens Player
-seo-title: Working with Screens Player
-description: 关注此页面，了解Screens播放器。 它还介绍了管理员UI和渠道切换器。
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: 了解如何使用AEM Screens播放器、管理员UI和渠道切换器。
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
 
-# 使用AEM Screens Player {#working-with-aem-screens-player}
+# 使用AEM Screens Player
 
 您可以在AEM Screens播放器上管理渠道内容和其他设置。
 
 >[!NOTE]
 >
->按 ***Ctrl+Cmd+F*** 退出OS X AEM Screens Player的全屏模式。
+>按 ***Ctrl+Cmd+F*** 因此，您可以退出OS X AEM Screens Player的全屏模式。
 
-将渠道分配给显示后，AEM Screens播放器会显示内容。 您可以使用管理员UI首选项（从仪表板）或播放器本身配置播放器设置。
+将渠道分配给显示内容后，AEM Screens Player会显示内容。 您可以使用管理员UI首选项（从仪表板）或播放器本身配置播放器设置。
 
 ## 使用设备功能板 {#using-the-device-dashboard}
 
@@ -40,7 +36,7 @@ ht-degree: 0%
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 单击设备以打开设备仪表板。
+1. 单击设备，以便打开设备仪表板。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -50,9 +46,9 @@ ht-degree: 0%
 
 ### 管理员UI {#the-admin-ui}
 
-启用 **管理员UI** 用户可以从首选项面板中从Screens播放器打开管理员设置。 此外，如果从设备仪表板禁用此选项，则用户无法从播放器打开管理员UI。
+启用 **管理员UI** 用户可以从首选项面板中从Screens播放器打开管理员设置。 此外，如果从设备仪表板禁用此选项，则用户无法从播放器打开管理UI。
 
-要从Screens播放器查看管理员UI，请在支持触摸的AEM Screens播放器上或者使用鼠标长按左上角以打开“管理员”菜单。 它会在注册完成后显示信息并加载渠道。
+要从Screens播放器查看管理员UI，请在支持触摸的AEM Screens播放器上或者使用鼠标长按左上角以打开“管理员”菜单。 完成注册并加载渠道后，将显示信息。
 
 >[!NOTE]
 >
@@ -66,11 +62,11 @@ ht-degree: 0%
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
-Configuration菜单允许您修改以下设置：
+利用Configuration菜单，可修改以下设置：
 
 * 重置 **固件**， **偏好设置**，或 **到工厂** 从该对话框中删除。
 
-* 指定AEM Screens播放器保留的最大日志文件数 **最大数量 要保留的日志文件**.
+* 指定要为AEM Screens播放器保留的最大日志文件数 **最大数量 要保留的日志文件**.
 
 * 启用或禁用 **管理员菜单**， **渠道切换器**、和 **活动UI** 用于屏幕播放器。
 
@@ -80,7 +76,7 @@ Configuration菜单允许您修改以下设置：
 
 >[!NOTE]
 >
->此 **更新固件** 选项仅适用于cordova，例如Android播放器。
+>此 **更新固件** 选项仅适用于Cordova，例如Android™播放器。
 
 >[!NOTE]
 >
@@ -102,7 +98,7 @@ Configuration菜单允许您修改以下设置：
 
 您可以从Screens播放器切换和控制渠道设置。
 
-要从播放器查看频道切换器，请长按左下角的键以打开允许切换频道和其他功能的频道切换器。
+要从播放器查看频道切换器，请长按左下角以打开允许切换频道和其他功能的频道切换器。
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
@@ -112,11 +108,11 @@ Configuration菜单允许您修改以下设置：
 >
 >(请参阅 *从Screens播放器更改首选项* （如下节所述）。
 
-### 从AEM Screens播放器管理首选项 {#managing-preferences-from-the-aem-screens-player}
+### 从AEM Screens播放器管理首选项
 
 您还可以在播放器本身中更改管理员UI和渠道切换器的设置。
 
-按照以下步骤更改播放器的首选项：
+要更改播放器的首选项，请执行以下操作：
 
 1. 长按空闲频道左上角以打开管理面板。
 1. 导航到 **配置** 从左侧操作菜单中。
@@ -124,7 +120,7 @@ Configuration菜单允许您修改以下设置：
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## AEM Screens Player疑难解答 {#troubleshooting-aem-screens-player}
+## AEM Screens Player疑难解答
 
 您可以对与AEM Screens Player（硬件和软件）相关的各种问题进行故障诊断：
 
@@ -137,14 +133,14 @@ Configuration菜单允许您修改以下设置：
 | AEM Screens Player不会在播放器重新启动/重新引导后自动启动 | 检查操作系统启动文件夹或初始化过程 |
 | AEM Screens Player显示错误/旧内容 | 检查网络连接 |
 
-### AEM Screens Player更新 {#updates-for-aem-screens-player}
+### AEM Screens Player更新
 
 AEM Screens Player有两种类型的更新：
 
 | **方法** | **详细信息** | **通过远程** | **自动** | **0停机时间** |
 |---|---|---|---|---|
 | 固件更新 | 通过远程命令应用于现有安装的播放器。 更新后，播放器将自动重新加载现有内容。 | 是 | 自定义 | 几乎 — 1-3秒 |
-| 播放器外壳更新 | 这是要在播放器上部署的新可执行文件。 这需要远程复制播放器上的新二进制文件，并停止当前运行的并启动新版本。 这可能需要重新下载预加载的包。 | 是（通过远程shell） | 自定义 | 否 |
+| 播放器外壳更新 | 这是要在播放器上部署的新可执行文件。 这需要远程复制播放器上的新二进制文件，并停止当前运行的并启动新版本。 这可能需要再次下载预加载的包。 | 是（通过远程shell） | 自定义 | 否 |
 
 ## 播放器设备的硬件选择准则 {#hardware-selection-guidelines-for-player-device}
 
@@ -174,11 +170,11 @@ AEM Screens Player有两种类型的更新：
   <tr>
    <td>基本</td>
    <td>双核、i3或入门级四核英特尔®凌动处理器</td>
-   <td><p>4GB内存</p> <p>2MB高速缓存</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128GB</p> </td>
+   <td><p>4 GB内存</p> <p>2 MB缓存</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>板载</td>
    <td>1920 x 1080</td>
-   <td>DVI、<br /> 以太网/无线、<br /> 2个USB</td>
+   <td>DVI<br /> 以太网/无线<br /> 2个USB</td>
    <td>
     <ul>
      <li>标准全屏循环<br /> </li>
@@ -187,9 +183,9 @@ AEM Screens Player有两种类型的更新：
   </tr>
   <tr>
    <td>标准</td>
-   <td>四核、英特尔®酷睿i5处理器</td>
-   <td><p>8GB内存</p> <p>4MB高速缓存</p> </td>
-   <td>128 GBB</td>
+   <td>四核、英特尔®酷睿™ i5处理器</td>
+   <td><p>8 GB内存</p> <p>4 MB缓存</p> </td>
+   <td>128 GB</td>
    <td>板载</td>
    <td>3840x2160 (4K)</td>
    <td>DVI、HDMI<br /> 以太网/无线、<br /> 2个USB</td>
@@ -202,8 +198,8 @@ AEM Screens Player有两种类型的更新：
   </tr>
   <tr>
    <td>高级</td>
-   <td>四核，带超线程，英特尔®酷睿i7处理器</td>
-   <td><p>16 GB内存</p> <p>8MB高速缓存</p> </td>
+   <td>四核，带超线程，英特尔®酷睿™ i7处理器</td>
+   <td><p>16 GB内存</p> <p>8 MB缓存</p> </td>
    <td>256 GB</td>
    <td>专用显卡GPU</td>
    <td>3840x2160 (4K)</td>

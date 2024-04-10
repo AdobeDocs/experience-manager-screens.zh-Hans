@@ -2,9 +2,9 @@
 title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Screens需要三个复制代理：
 1. 更新拓扑连接器URL：添加符合以下条件的所有参与发布实例的URL：
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **拓扑连接器白名单**：适应覆盖所有Publish实例的IP或子网。 请确保将所有没有端口号的发布实例的IP/主机名列入白名单。
+1. **拓扑连接器 `Whitelist` 列表**：适应覆盖所有Publish实例的IP或子网。 确保您 `whitelist` 所有没有端口号的发布实例的IP/主机名。
 
 1. 启用 **自动停止本地环路**
 
@@ -213,7 +213,7 @@ Screens需要三个复制代理：
 >
 >要开始使用此示例，请创建一个AEM Screens项目，然后在您的项目中创建位置、显示和渠道。 向渠道添加内容并分配渠道以进行显示。
 
-#### 步骤1：启动AEM Screens播放器（设备） {#step-starting-an-aem-screens-player-device}
+#### 步骤1：启动AEM Screens播放器（设备）
 
 1. 启动单独的浏览器窗口。
 1. 使用转到Screens播放器 *Web浏览器*，即，`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` 或启动AEM Screens应用程序。 打开设备时，请注意设备的状态为“未注册”。
@@ -280,7 +280,7 @@ Screens需要三个复制代理：
 * *计划*  — 如果使用计划，请确保已发布计划
 * *位置、计划和渠道文件夹*  — 如果相应的资源位于文件夹中。
 
-执行以下步骤以验证作者/发布行为：
+执行以下步骤以验证创作和发布行为：
 
 1. 在创作实例上更新某些渠道内容。
 1. 执行 **管理发布** 以将新更改发布到所有发布实例。

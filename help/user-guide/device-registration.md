@@ -1,23 +1,19 @@
 ---
 title: 设备注册
-seo-title: Device Registration
-description: 本页介绍了AEM Screens项目中的设备注册流程。
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: 了解AEM Screens项目中的设备注册流程。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +23,7 @@ ht-degree: 1%
 
 ## 注册设备 {#registering-a-device}
 
-设备注册过程在2台单独的计算机上完成：
+设备注册过程在两个独立的计算机上完成：
 
 * 要注册的实际设备，例如您的标牌显示器
 * 用于注册设备的AEM服务器
@@ -38,7 +34,7 @@ ht-degree: 1%
 >
 >1. 长按左上角以打开管理面板。
 >1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并单击 **保存**.
->1. 单击 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
+>1. 选择 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要获取有关在AEM功能板中为Screens创建新项目的更多信息，请参阅 [创建和管理Screens项目](creating-a-screens-project.md).
+   >要获取有关在AEM功能板中创建屏幕项目的更多信息，请参阅 [创建和管理Screens项目](creating-a-screens-project.md).
 
 1. 点按/单击 **设备管理器** 按钮进行更改。
 
@@ -88,7 +84,7 @@ ht-degree: 1%
    >
    >此 **分配显示区** 允许您将设备直接添加到显示区。
 
-   如果您单击 **完成**，则需要将设备分配给显示。
+   如果您单击 **完成**，则必须将设备分配给显示。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -116,7 +112,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您还可以在单击时查看显示仪表板 **完成**.
+   此外，您还可以通过单击查看显示功能板 **完成**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -126,7 +122,7 @@ ht-degree: 1%
 
 1. 例如，从AEM Screens项目导航到设备管理器UI， **DemoScreens** > **设备**.
 
-1. 选择 **设备** 文件夹，然后单击 **设备管理器** 从操作栏中。
+1. 选择 **设备** 文件夹并单击 **设备管理器** 从操作栏中。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -145,16 +141,16 @@ ht-degree: 1%
 
 ### 搜索功能的限制 {#limitations}
 
-* 用户将能够搜索 *设备ID* 或 *设备名称*.
+* 用户能够搜索中存在的任何单词 *设备ID* 或 *设备名称*.
 
   >[!NOTE]
   >建议您用多个词创建设备名称，例如 *波士顿商店大厅* 而不是一个单身 *BostonStoreLobby*.
 
-* 如果您创建设备名称，例如 *波士顿商店大厅*，可搜索任意单词 *波士顿*， *存储* 或 *大厅* 但如果设备名称称为 *BostonStoreLobby* 搜索 *波士顿* 不显示结果。
+* 如果您创建设备名称，例如 *波士顿商店大厅*，它会搜索任意单词 *波士顿*， *存储*，或 *大厅*. 但是，如果设备名称为 *BostonStoreLobby*，然后搜索 *波士顿* 不显示任何结果。
 
-* 通配符， `*` 支持搜索。 如果想查找所有名称以开头的设备， *波士顿*，您可以使用 *波士顿**.
+* 通配符， `*` 支持搜索。 如果您希望查找所有名称以开头的设备， *波士顿*，您可以使用 *波士顿**.
 
-* 如果设备名称为 *BostonStoreLobby* 并搜索 *波士顿* 不会返回结果，而使用 *波士顿**在您的搜索条件中将返回结果。
+* 如果设备名称为 *BostonStoreLobby* 并搜索 *波士顿* 不返回结果，则使用 *波士顿**会返回结果。
 
 ## Device Registration的限制 {#limitations-on-device-registration}
 
@@ -164,7 +160,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->当前生成的随机密码由36个ASCII字符组成，范围从33到122不等（几乎包括所有特殊字符）。
+>当前生成的随机密码由36个ASCII字符组成，范围在33到122之间（几乎包括所有特殊字符）。
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration

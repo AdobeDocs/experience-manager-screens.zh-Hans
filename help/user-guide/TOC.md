@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
-user-guide-description: 了解如何使用这款数字标牌解决方案，发布动态的交互式数字体验与交互内容。
+user-guide-description: 了解如何使用数字标牌解决方案，该解决方案允许您发布动态的交互式数字体验和交互。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Screens简介](aem-screens-introduction.md)
 + 概述和Kickstart指南 {#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
-   + [Screens最佳实践指南](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
+   + [Screens最佳实践指南](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [关键术语](screens-glossary.md)
 + 数字标牌网络基础知识 {#digital-signage-network}
    + [第1部分：项目角色和职责](project-roles-responsibilities.md)
@@ -44,7 +44,7 @@ ht-degree: 11%
    + 特定于客户端的注意事项 {#installing-client}
       + [Chrome操作系统播放器](implementing-chrome-os-player.md)
       + [使用Chrome播放器作为扩展进行故障排除](using-chrome-player-as-an-extension.md)
-      + [Android Player](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [云播放器](implementing-cloud-player.md)
@@ -99,7 +99,7 @@ ht-degree: 11%
       + [零售库存目标激活](retail-inventory-activation.md)
       + [应用过渡](applying-transitions.md)
       + [多区域到单区域转换](multizone-to-singlezone.md)
-      + [单次使用接管渠道](single-use-takeover-channel.md)
+      + [一次性接管渠道](single-use-takeover-channel.md)
       + [永久使用接管渠道](perpetual-takeover-channel.md)
 + 开发人员和API资源 {#developing}
    + [REST API](rest-api.md)

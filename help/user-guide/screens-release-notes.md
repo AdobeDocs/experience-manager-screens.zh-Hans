@@ -1,7 +1,7 @@
 ---
-title: 功能包201809的发行说明
+title: 功能包201809发行说明
 seo-title: Release Notes for Feature Pack 201809
-description: 关注此页面以获取2018年10月1日发布的AEM Screens Feature Pack 201809的信息。
+description: 请阅读本页，以获取2018年10月1日发布的AEM Screens功能包201809的信息。
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
@@ -13,35 +13,35 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
-# 功能包201809的发行说明 {#release-notes-for-feature-pack}
+# 功能包201809发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->建议您升级到最新版本的Adobe Experience Manager (AEM)。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
 
-AEM Screens发布了AEM 6.4.2功能包2和AEM 6.3.3功能包4 ，其中包含以下详细信息。
+AEM Screens发布了AEM 6.4.2功能包2和AEM 6.3.3功能包4 ，并提供以下详细信息。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包201809的发布日期是2018年10月1日。
+AEM Screens功能包201809的发布日期为2018年10月1日。
 
 ### 新增功能 {#what-s-new}
 
-* **Adobe Analytics Proof of Play报告**：请参阅 [Adobe Analytics与AEM Screens的集成](adobe-analytics-integration-aem-screens.md) 了解更多信息。
+* **Adobe Analytics Proof of Play报告**：请参阅 [Adobe Analytics与AEM Screens集成](adobe-analytics-integration-aem-screens.md) 了解更多信息。
 
 * **Adobe Analytics允许播放器缓存播放事件并将其发送到Adobe Analytics**：请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 了解更多信息。
 
-* **批量更新离线内容**：允许您批量更新所有渠道，并避免导航到特定渠道和更新内容的麻烦。 请参阅 [批量脱机更新](bulk-offline-update.md) 了解更多信息。
+* **批量更新离线内容**：允许您批量更新所有渠道，并避免导航到特定渠道和更新内容带来的麻烦。 请参阅 [批量脱机更新](bulk-offline-update.md) 了解更多信息。
 
 * **批量发布渠道以发布实例**
-* **增强的播放器日志记录机制**：您可以指定AEM Screens播放器的日志文件数量上限。 请参阅 [使用AEM Screens Player](working-with-screens-player.md) 了解更多详细信息。
+* **增强的播放器日志记录机制**：您可以为AEM Screens播放器指定最大日志文件数。 请参阅 [使用AEM Screens播放器](working-with-screens-player.md) 以了解更多详细信息。
 
 * **创作/发布部署（强化）**
 
@@ -49,7 +49,7 @@ AEM Screens功能包201809的发布日期是2018年10月1日。
 
 已为AEM 6.4.2功能包2和AEM 6.3.3功能包4发布以下AEM Screens Player：
 
-* ChromeOS
+* Chrome OS
 * Windows
 * Android
 * iOS

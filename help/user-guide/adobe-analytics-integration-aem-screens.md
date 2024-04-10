@@ -1,23 +1,19 @@
 ---
 title: Adobe Analytics与AEM Screens集成
-seo-title: Adobe Analytics Integration with AEM Screens
 description: 关注本页，了解AEM Screens与Adobe Analytics的现成集成，并为您提供播放证明。
-seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 1%
+source-wordcount: '684'
+ht-degree: 0%
 
 ---
 
@@ -131,4 +127,4 @@ Analytics事件离线存储在indexedDB中，稍后进行分块并发送到云�
 
 >[!NOTE]
 >
->要了解有关 ***排序*** 和 ***事件的标准数据模型***，请参阅 **[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**.
+>要了解有关 ***排序*** 和 ***事件的标准数据模型***，请参见 **[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**.

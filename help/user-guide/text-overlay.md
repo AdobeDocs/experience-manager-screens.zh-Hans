@@ -1,22 +1,18 @@
 ---
 title: 文本覆盖
-seo-title: Text Overlay
-description: 文本叠加是AEM Screens中提供的功能，它允许您通过在图像上方提供标题或描述来在序列渠道中创建引人入胜的体验。 关注此页面以了解更多信息。
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: 了解AEM Screens中的文本叠加，它通过在图像上方提供标题或描述，让您在序列渠道中创建引人入胜的体验。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -36,7 +32,7 @@ ht-degree: 1%
 
 ## 概述 {#overview}
 
-文本叠加是AEM Screens中提供的功能，它允许您通过在图像上方提供标题或描述来在序列渠道中创建引人入胜的体验。
+文本叠加是AEM Screens中提供的功能，它通过在图像上方提供标题或描述而在序列渠道中创建引人入胜的体验。
 
 要了解如何创建自己的自定义组件，请参阅 **扩展AEM Screens组件**.
 
@@ -48,7 +44,7 @@ ht-degree: 1%
 
 **前提条件**
 
-在开始实施此功能之前，请确保已设置项目作为开始实施文本覆盖的先决条件。 例如，
+在实施此功能之前，请确保已设置项目作为开始实施文本叠加的先决条件。 例如，
 
 * 创建一个AEM Screens项目(在此示例中， **TextOverlayDemo**)
 
@@ -62,7 +58,7 @@ ht-degree: 1%
 
 请按照以下步骤在AEM Screens渠道中使用文本叠加：
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 以打开编辑器。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 从操作栏中。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ ht-degree: 1%
 
 为您的AEM Screens项目设置ContextHub配置。
 
-要了解如何使用数据存储来设置和管理数据驱动的资产更改，请参阅 [在AEM Screens中配置ContextHub](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+要了解如何使用数据存储来设置和管理数据驱动的资源更改，请参阅 [在AEM Screens中配置ContextHub](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
-为项目设置所需的配置后，请按照以下步骤使用Google工作表中的值：
+在为项目设置所需的配置后，请按照以下步骤使用Google工作表中的值：
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **属性** 从操作栏中。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并选择 **属性** 从操作栏中。
 
-1. 选择 **个性化** 选项卡以设置ContextHub配置。
+1. 选择 **个性化** 选项卡，以便设置ContextHub配置。
 
-   1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并单击 **选择**.
+   1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并选择 **选择**.
 
-   1. 选择 **区段路径** 作为 **会议** > **屏幕** > **设置** > **wcm** > **区段** 并单击 **选择**.
+   1. 选择 **区段路径** 作为 **会议** > **屏幕** > **设置** > **wcm** > **区段** 并选择 **选择**.
 
-   1. 单击“**保存并关闭**”。
+   1. 选择&#x200B;**保存并关闭**。
 
       >[!NOTE]
       >
@@ -118,17 +114,17 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 以打开编辑器。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 从操作栏中。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 将图像和文本叠加组件添加到图像，如中所述 [使用文本叠加](/help/user-guide/text-overlay.md#using-text-overlay) 部分。
 
-1. 单击 **配置** （扳手图标）以打开 **图像** 对话框。
+1. 选择于 **配置** （扳手图标）以打开 **图像** 对话框。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. 导航至 **ContextHub** 选项卡 **图像** 对话框。 单击 **添加**.
+1. 导航至 **ContextHub** 选项卡 **图像** 对话框。 选择&#x200B;**添加**。
 
    >[!NOTE]
    >如果尚未设置ContextHub配置，则会为您的项目禁用此选项。
@@ -146,6 +142,6 @@ ht-degree: 1%
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. 单击 **预览** 以查看所需的输出。
+1. 选择 **预览**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
