@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **时间表** 通过AEM Screens中的将渠道组织为可重复使用的组，您不必为要显示内容的每个显示分别重复其分配。
 
-与合并时的计划 ***DayParting***，可让您设置一个全局计划，其中多个渠道在一天中的特定时间运行，并重复使用为全部显示设置的设置。
+时间表，与组合使用 ***DayParting***，可让您设置一个全局计划，其中多个渠道在一天中的特定时间运行，并重复使用为全部显示设置的设置。
 
 >[!NOTE]
 >

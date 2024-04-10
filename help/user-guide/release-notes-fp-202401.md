@@ -1,20 +1,21 @@
 ---
 title: Screens功能包202401的发行说明
-description: 请阅读本页，了解2024年1月2日发布的AEM Screens Feature Pack 202401的信息。
+description: 了解2024年1月2日发布的AEM Screens功能包202401。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
 # 功能包202401发行说明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->建议您升级到6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 我们可以从获取最新版本信息 [此处](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>建议您升级到6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以从中获取最新版本信息 [此处](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 可用性 {#availability}
 
@@ -24,7 +25,7 @@ AEM Screens发布了AEM 6.5功能包11.1 。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包202204的发布日期为2024年1月2日。
+AEM Screens功能包202204的发布日期是2024年1月2日。
 
 ### 新增功能 {#what-is-new}
 

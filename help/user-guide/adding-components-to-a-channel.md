@@ -1,29 +1,25 @@
 ---
 title: 将组件添加到渠道
-seo-title: Adding Components to a Channel
-description: 关注此页面，了解有关在AEM Screens项目中将组件添加到渠道的更多信息。
-seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
-uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
+description: 了解有关在AEM Screens项目中将组件添加到渠道的更多信息。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1403'
 ht-degree: 5%
 
 ---
 
 # 将组件添加到渠道{#adding-components-to-a-channel}
 
-组件是AEM (Adobe Experience Manager)体验的基本元素。 在AEM Screens项目中，您可以使用许多组件并将其添加到渠道。
+组件是AEM (Adobe Experience Manager)体验的基本元素。 您可以在AEM Screens项目中使用多个组件并将其添加到渠道。
 
 ## AEM Screens中的组件 {#components-in-aem-screens}
 
@@ -35,25 +31,25 @@ AEM Screens提供了可在Screens项目中使用的各种AEM组件。
 
 要查看屏幕项目的默认组件，请执行以下步骤：
 
-1. 选择渠道。 例如， **We.Retail店内** > **渠道** > **空闲通道**.
+1. 选择渠道。 例如， **`We.Retail In Store`** > **渠道** > **空闲通道**.
 
-1. 单击 **编辑** 以打开AEM编辑器。
-1. 单击 **+** 图标以打开组件。
+1. 选择 **编辑** 从操作栏中。
+1. 在AEM编辑器中，选择 **+** 图标。
 1. 此时将显示默认包含在AEM Screens项目中的所有组件，如下图所示。
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### 添加新组件 {#adding-a-new-component}
 
-AEM提供了许多其他组件。 您可以始终向项目添加其他组件（默认情况下不包括），只要这些组件与AEM Screens兼容。
+AEM提供了其他几个组件。 您可以始终向项目添加其他组件（默认情况下不包括），只要这些组件与AEM Screens兼容。
 
 以下示例显示如何向AEM Screens项目添加Livefyre组件：
 
-1. 选择要添加新组件的渠道。 例如， **We.Retail店内** > **渠道** > **空闲通道**.
+1. 选择要添加组件的渠道。 例如， **`We.Retail In Store`** > **渠道** > **空闲通道**.
 
-1. 单击 **编辑** 以打开编辑器。
+1. 选择 **编辑** 从操作栏中。
 1. 选择 **设计** 模式。
-1. 选择右侧的整个设计编辑器，然后单击设置符号以打开 **ParSys设计** 对话框。
+1. 选择右侧的整个设计编辑器，然后选择设置符号，以便您可以打开 **Parsys设计** 对话框。
 1. 您可以选择要导入到AEM Screens项目的组件。 以下示例显示了 **Livefyre** AEM Screens项目的组件。
 
 ![adding_components](assets/adding_components.gif)
@@ -68,7 +64,7 @@ AEM提供了许多其他组件。 您可以始终向项目添加其他组件（�
 
 >[!NOTE]
 >
->要查看任何组件的属性，请选择该组件，然后单击锤子图标以打开/查看属性。
+>要查看任何组件的属性，请选择该组件，然后选择锤子图标以打开/查看属性。
 
 ### 应用程序 {#application}
 
@@ -107,14 +103,14 @@ AEM提供了许多其他组件。 您可以始终向项目添加其他组件（�
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入式通道将在特定通道中运行其全长。</td>
+   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入的通道在特定通道中运行其全长。</td>
   </tr>
  </tbody>
 </table>
 
 ### 嵌入式页面 {#embedded-page}
 
-An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可以是Web应用程序或产品目录。
+An **嵌入式页面** 允许您将嵌入页面添加到项目中。 例如，它可以是Web应用程序或产品目录。
 
 嵌入式页面具有以下属性：
 
@@ -130,7 +126,7 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入式通道将在特定通道中运行其全长。</td>
+   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入的通道在特定通道中运行其全长。</td>
   </tr>
  </tbody>
 </table>
@@ -139,7 +135,7 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
 
 >[!NOTE]
 >
->请参阅 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下，了解有关嵌入序列的详细信息。
+>要详细了解嵌入序列，请参见 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下。
 
 嵌入式序列允许您在现有渠道（包含其他资源）中添加嵌入式序列渠道。
 
@@ -157,20 +153,20 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入式通道将在特定通道中运行其全长。</td>
+   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入的通道在特定通道中运行其全长。</td>
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将该值设置为 <strong>原有</strong> 表示子序列将在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong> 而且每次运行时只显示子序列的一个项（例如，第一个循环中的第一个项，第二个循环中的第二个项，等等）。</td>
+   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将该值设置为 <strong>原有</strong> 表示子序列在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong>. 在每次运行中，此类值只显示子序列的一个项。 例如，第一个循环中的第一个项和第二个循环中的第二个项。</td>
   </tr>
  </tbody>
 </table>
 
 ### 动态嵌入式序列 {#dynamic-embedded-sequence}
 
-动态嵌入式序列允许添加与上述序列类似的序列，但渠道角色除外。
+动态嵌入式序列允许您添加与上述序列类似的序列，但按渠道角色除外。
 
-请参阅 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下，了解有关嵌入序列的详细信息。
+要了解嵌入序列，请参阅 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下。
 
 动态嵌入式序列具有以下属性：
 
@@ -186,20 +182,20 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
   </tr>
   <tr>
    <td><strong><em>持续时间（毫秒）</em></strong></td>
-   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入式通道将在特定通道中运行其全长。</td>
+   <td>选择渠道的整个持续时间。 将持续时间设置为–1表示嵌入的通道在特定通道中运行其全长。</td>
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将该值设置为 <strong>原有</strong> 表示子序列将在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong> 而且每次运行时只显示子序列的一个项（例如，第一个循环中的第一个项，第二个循环中的第二个项，等等）。</td>
+   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将该值设置为 <strong>原有</strong> 表示子序列在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong>. 在每次运行中，此类值只显示子序列的一个项。 例如，第一个循环中的第一个项和第二个循环中的第二个项。</td>
   </tr>
  </tbody>
 </table>
 
 ### 体验片段 {#experience-fragment}
 
-体验片段允许您向您的AEM Screens渠道添加体验片段（由一个或多个组件组成，包括可在页面中引用的内容和布局）。 将组件拖放到AEM编辑器并选择体验片段。
+体验片段允许您将体验片段（由一个或多个组件组成，包括可在页面中引用的内容和布局）添加到您的AEM Screens渠道中。 将组件拖放到AEM编辑器并选择体验片段。
 
-要了解有关如何创建体验片段并将其用于AEM Screens项目的更多信息，请参阅 [使用体验片段](experience-fragments-in-screens.md).
+要详细了解如何创建体验片段并将其应用于AEM Screens项目，请参阅 [使用体验片段](experience-fragments-in-screens.md).
 
 ![费用](assets/exp.gif)
 
@@ -209,12 +205,12 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
 | ***体验片段*** | 选择体验片段。 |
 | ***持续时间*** | 选择在渠道中播放的体验片段的整个持续时间。 |
 | **脱机配置** |
-| ***客户端库*** | Javascript和CSS文件。 |
+| ***客户端库*** | JavaScript和CSS文件。 |
 | ***静态文件*** | 可作为离线配置添加到体验片段的静态文件。 |
 
 >[!NOTE]
 >
->此 **客户端库** 和 **静态文件** 您从此组件添加的将是已配置的补充 **客户端库** 以及从体验片段的 **属性**.
+>此 **客户端库** 和 **静态文件** 您从此组件添加的内容是已配置的补充 **客户端库** 和从体验片段的 **属性**.
 
 ### 图像 {#image}
 
@@ -237,13 +233,13 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
 
 ### 过渡 {#transition}
 
-使用过渡组件，可向屏幕项目添加过渡。
+使用过渡组件，可以向屏幕项目添加过渡。
 
 下图显示了编辑器中的过渡组件（通过拖放添加）。
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-选择过渡图标，然后单击 **配置** （扳手图标）以打开 **过渡** 对话框。 此对话框包括三个选项卡：
+选择过渡图标并选择 **配置** （扳手图标）以打开 **过渡** 对话框。 此对话框包括三个选项卡：
 
 * **过渡**
 * **序列**
@@ -308,7 +304,7 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
 
 ### 视频 {#video}
 
-使用视频组件，可将视频添加到Screens项目。
+使用视频组件，您可以将视频添加到Screens项目。
 
 视频组件具有以下属性：
 
@@ -328,7 +324,7 @@ An **嵌入式页面** 用于向项目中添加嵌入页面。 例如，它可�
   </tr>
   <tr>
    <td><em><strong>呈现</strong></em></td>
-   <td><p>如果视频长宽比不适合屏幕，您可以将渲染调整为 <strong>contain</strong> 或 <strong>封面</strong>.</p> <p><em>Contain</em> 表示显示完整视频，并用黑色边框填充缺失区域。</p> <p><em>封面</em> 表示视频覆盖整个视区，但两侧溢出的部分被隐藏。</p> </td>
+   <td><p>如果视频长宽比不适合屏幕，您可以将渲染调整为 <strong>contain</strong> 或 <strong>封面</strong>.</p> <p><em>Contain</em> 表示显示完整视频，并使用黑色边框填充缺失区域。</p> <p><em>封面</em> 这意味着视频覆盖了整个视区，但两侧溢出的部分被隐藏。</p> </td>
   </tr>
   <tr>
    <td><em><strong>大小</strong></em></td>

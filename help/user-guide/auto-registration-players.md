@@ -5,16 +5,16 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 # 播放器自动注册 {#auto-registration}
 
-手动批量注册数千个播放器可能会变得繁琐并增加时间和成本。 为简化此过程，批量注册功能允许您在AEM中指定预共享密钥，该密钥可通过配置文件或移动设备管理(MDM)解决方案预配到播放器中。
+手动批量注册数千个播放器可能会变得繁琐并增加时间和成本。 为简化此过程，批量注册功能允许您在AEM中指定预共享密钥，该密钥可通过配置文件或移动设备管理(MDM)解决方案配置到播放器中。
 
 ## 实施播放器自动注册 {#bulk-registering-implementation}
 

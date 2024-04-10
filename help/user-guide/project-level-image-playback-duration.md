@@ -1,10 +1,8 @@
 ---
-title: 项目级别图像播放持续时间
-seo-title: Project Level Image Playback Duration
-description: 此功能允许您在项目级别定义图像播放持续时间。
-seo-description: This functionality allows you to define image playback duration at the project level.
+title: 项目级图像播放持续时间
+description: 了解如何在项目级别定义图像播放持续时间。
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -12,17 +10,17 @@ ht-degree: 1%
 ---
 
 
-# 项目级别图像播放持续时间 {#project-level-image-playback}
+# 项目级图像播放持续时间 {#project-level-image-playback}
 
 ## 概述 {#overview}
 
-利用此功能，可在项目级别定义图像播放持续时间。 默认情况下，所有图像都会继承此播放持续时间。 如果在项目级别未定义持续时间，则将继续默认播放8秒。
+利用此功能，可在项目级别定义图像播放持续时间。 默认情况下，所有图像都将继承此播放持续时间。 如果在项目级别未定义持续时间，则将继续默认播放8秒。
 
-### 前提条件 {#prerequisites}
+### 先决条件 {#prerequisites}
 
 在使用此功能之前，请确保将项目设置为开始实施此功能的先决条件。 例如，
 
-1. 创建一个AEM Screens项目(在本例中， **ProjectLevelPlayback**)
+1. 创建一个AEM Screens项目(在此示例中， **ProjectLevelPlayback**)
 
 1. 创建序列渠道为 **PlayBackChannel** 下 **渠道** 文件夹
 
@@ -36,7 +34,7 @@ ht-degree: 1%
 
 ## 编辑项目级别图像播放持续时间分配 {#editing-project-level-image-playback-duration-assignment}
 
-以下部分介绍了如何在AEM Screens项目中编辑内容的播放持续时间。
+以下部分介绍如何在AEM Screens项目中编辑内容的播放持续时间。
 
 ### 在项目级别更新图像的播放持续时间 {#updating-the-playback-duration-for-images-in-a-project}
 
@@ -47,7 +45,7 @@ ht-degree: 1%
 
 请按照以下步骤了解如何更新项目级图像播放持续时间：
 
-1. 导航到您的项目 **ProjectLevelPlayback** 并单击 **属性** 操作栏中的。
+1. 导航到您的项目 **ProjectLevelPlayback** 并单击 **属性** 从操作栏中。
    ![资产](assets/image_playback3.png)
 
 1. 选择渠道中的所有图像，然后单击左上角的扳手图标（如下图所示）以打开“渠道级别配置”对话框。
@@ -58,17 +56,17 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >默认情况下，渠道中的图像被设置为8秒的播放持续时间，视频以其默认持续时间播放。
+   >默认情况下，渠道中的图像被设置为8秒的播放持续时间，并且视频以其默认持续时间播放。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 单击右上角的复选标记 **页面** 对话框以保存更改。
+   编辑 **持续时间** 从8000 (ms)到3000 (ms)，即3秒。 单击右上角的复选标记 **页面** 对话框以保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 查看结果 {#viewing-the-result}
 
-更新频道播放持续时间后（在本例中是所有三个图像），您会注意到这些图像现在将播放3秒而不是8秒（默认值）。
+更新渠道播放持续时间后（在本例中是所有三个图像），您会注意到现在播放的图像将为3秒而不是8秒（默认值）。
 
 ![channel_preview](assets/channel_preview.gif)
 

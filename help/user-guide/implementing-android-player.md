@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### Ad Hoc方法 {#ad-hoc-method}
 
-通过Ad-Hoc方法，可安装最新的Android™ Player (*.exe*)。 访问 [**AEM 6.5播放器下载**](https://download.macromedia.com/screens/) 页面。
+通过Ad-Hoc方法，您可以安装最新的Android™播放器(*.exe*)。 访问 [**AEM 6.5播放器下载**](https://download.macromedia.com/screens/) 页面。
 
 下载应用程序后，请按照播放器上的步骤完成临时安装：
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 ## 命名Android™ Player {#name-android}
 
-您可以为Android™播放器分配一个用户友好的设备名称，然后将分配的设备名称发送到AEM (Adobe Experience Manager)。 此功能不仅允许您为Android™播放器命名，还允许您轻松分配适当的内容。
+您可以为Android™播放器分配一个用户友好的设备名称，然后将分配的设备名称发送到AEM (Adobe Experience Manager)。 此功能不仅允许您为Android™播放器命名，还允许您轻松分配相应的内容。
 
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。

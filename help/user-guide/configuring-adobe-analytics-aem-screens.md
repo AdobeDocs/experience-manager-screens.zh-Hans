@@ -1,33 +1,30 @@
 ---
 title: 使用AEM Screens配置Adobe Analytics
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: 阅读本节内容，了解有关使用离线Adobe Analytics对自定义事件进行排序和发送的更多信息
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: 了解有关使用离线Adobe Analytics对自定义事件进行排序和发送的更多信息。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 7%
+source-wordcount: '614'
+ht-degree: 10%
 
 ---
 
 # 使用AEM Screens配置Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->此AEM Screens功能仅在安装了AEM 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4时才可用。
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->要访问这两个功能包中的任何一个，您必须联系Adobe支持部门并请求获取访问权限。 一旦您拥有权限，就可以从包共享下载它。
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 本节涵盖以下主题：
 
@@ -36,7 +33,7 @@ ht-degree: 7%
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-此 ***测序过程*** 从激活Adobe Analytics服务的数据存储服务开始。 渠道内容使用工资单发送Adobe Analytics事件，即将数据测试捕获发送到Windows I/O，并触发保持事件。 这些事件被保存到索引数据库，并进一步放入对象存储中。 管理员根据计划设置，从对象存储中剪切数据，然后进一步在块存储中传输这些数据。 连接后，它会尝试发送最大数量的数据。
+此 ***排序过程*** 从激活Adobe Analytics服务的数据存储服务开始。 渠道内容使用工资单发送Adobe Analytics事件，即将数据测试捕获发送到Windows I/O，并触发保持事件。 这些事件被保存到索引DB中，并进一步被放入对象存储中。 它根据管理员设置的计划从对象存储中剪切数据，然后进一步在块存储中传输这些数据。 连接后，它会尝试发送最大数量的数据。
 
 ### 排序图 {#sequencing-diagram}
 
@@ -53,7 +50,7 @@ ht-degree: 7%
   <tr>
    <td><strong>分区</strong></td> 
    <td><strong>属性标签</strong></td> 
-   <td><strong>属性名称/密钥</strong></td> 
+   <td><strong>属性名称/键</strong></td> 
    <td><strong>必填</strong></td> 
    <td><strong>数据类型</strong></td> 
    <td><strong>属性类型</strong><br /> </td> 
@@ -84,7 +81,7 @@ ht-degree: 7%
    <td>推荐</td> 
    <td>字符串</td> 
    <td>时间戳 — UTC</td> 
-   <td>事件开始日期时间，如果不指定此时间，则将事件时间假定为服务器收到该事件的时间</td> 
+   <td>事件开始日期时间，如果未指定此时间，则假定事件时间为服务器收到该事件的时间</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -106,12 +103,12 @@ ht-degree: 7%
   </tr>
   <tr>
    <td> </td> 
-   <td>主数据库类别</td> 
+   <td>主要数据挖掘类别</td> 
    <td>event.category</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>主要类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型分组 —  <strong>我们发送播放器</strong></td> 
+   <td>主类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型分组 —  <strong>播放器已发送</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,16 +117,16 @@ ht-degree: 7%
    <td>推荐</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>子类别 — 工作流的部分或屏幕区域等。 （最近使用的文件、CC文件、移动设备创建等。）</td> 
+   <td>子类别 — 工作流的部分、屏幕的区域等。 （最近使用的文件、CC文件、移动设备创建等。）</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>事件/操作类型</td> 
    <td>event.type</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>事件类型（渲染、点击、捏合、缩放） — 主要用户操作</td> 
+   <td>事件类型（渲染、单击、捏合、缩放） — 主用户操作</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ ht-degree: 7%
    <td>推荐</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>事件子类型（创建、更新、删除、发布等）  — 用户操作的其他详细信息</td> 
+   <td>事件子类型（创建、更新、删除、发布等） — 用户操作的更多详细信息</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -174,16 +171,16 @@ ht-degree: 7%
    <td>可选</td> 
    <td>字符串<br /> </td> 
    <td>UUID</td> 
-   <td>标识设备GUID（例如，计算机ID或IP地址哈希+子网掩码+网络ID +用户代理） — 我们将在此处发送在注册时生成的播放器的用户名。</td> 
+   <td>标识设备GUID（例如，计算机ID或IP地址哈希+子网掩码+网络ID +用户代理） — 此处发送注册时生成的播放器用户名。</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>计数</td> 
+   <td>数量</td> 
    <td>event.count</td> 
    <td>可选</td> 
    <td>数字</td> 
    <td> </td> 
-   <td>事件发生的次数 — 我们在此处发送视频持续时间</td> 
+   <td>事件发生的次数 — 发送视频持续时间</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -192,7 +189,7 @@ ht-degree: 7%
    <td>可选</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>事件的值（例如，设置on/off）</td> 
+   <td>事件的值（例如，设置打开/关闭）</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -243,7 +240,7 @@ ht-degree: 7%
    <td><strong><em>来源/原始产品</em></strong></td> 
    <td>名称</td> 
    <td>source.name</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>应用程序名称(AEM Screens)</td> 
@@ -252,7 +249,7 @@ ht-degree: 7%
    <td> </td> 
    <td>版本</td> 
    <td>source.version</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>固件版本</td> 
@@ -261,7 +258,7 @@ ht-degree: 7%
    <td> </td> 
    <td>Platform</td> 
    <td>source.platform</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -288,14 +285,14 @@ ht-degree: 7%
    <td><strong><em>内容</em></strong></td> 
    <td>操作</td> 
    <td>content.action</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>资源（包括实际播放的演绎版）的URL</td> 
+   <td>资源（包括已播放的演绎版）的URL</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Mime类型</td> 
+   <td>Mime 类型</td> 
    <td>content.mimetype</td> 
    <td>可选</td> 
    <td>字符串</td> 
@@ -306,7 +303,7 @@ ht-degree: 7%
    <td><strong><em>交易</em></strong></td> 
    <td>交易编号</td> 
    <td>trn.number</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td>UUID</td> 
    <td>优选遵守UUID v4的唯一ID</td> 
@@ -315,7 +312,7 @@ ht-degree: 7%
    <td> </td> 
    <td>产品描述</td> 
    <td>trn.product</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>资产的URL（不包括演绎版）</td> 
@@ -324,7 +321,7 @@ ht-degree: 7%
    <td> </td> 
    <td>数量</td> 
    <td>trn.quantity</td> 
-   <td>必需</td> 
+   <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
    <td>播放持续时间</td> 

@@ -1,21 +1,17 @@
 ---
 title: AEM Screens通知服务
-seo-title: AEM Screens Notifications Service
-description: 请阅读本页，详细了解如何监测设备活动。
-seo-description: Follow this page to learn more about how you can monitor device activity.
-uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
+description: 详细了解如何监控AEM Screens的设备活动。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens通知服务***，介绍用于监控设备活动的功能。
+***AEM Screens通知服务*** 描述了监控设备活动。
 
 本节涵盖以下主题：
 
@@ -33,15 +29,16 @@ ht-degree: 0%
 * **电子邮件通知**
 * **示例用例**
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->此AEM Screens功能仅在安装了AEM 6.3.2 Feature Pack 3或AEM 6.4.1 Screens Feature Pack 1时才可用。
+>This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->要访问此功能包，您必须联系Adobe支持部门并请求获取访问权限。 一旦您拥有权限，就可以从包共享下载它。
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## 概述 {#overview}
 
-***AEM Screens通知服务***，允许管理员在AEM screens播放器未在可配置的时间段ping时收到电子邮件。
+***AEM Screens通知服务*** 如果AEM Screens播放器在可配置的时间段内未执行ping操作，管理员将收到电子邮件。
 
 可在OSGi Web控制台中配置此服务。
 
@@ -54,56 +51,56 @@ ht-degree: 0%
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
-1. 定义以下字段以配置电子邮件的设置：
+1. 定义以下字段，以便配置电子邮件的设置：
 
    **设备路径** 输入要监视的屏幕项目的路径。 路径通常为 `/home/users/screens/<Name of your project>`.
 
-   例如，如果您的项目是 **We.Retail**，您会将项目路径用作 ***/home/users/screens/we-retail***.
+   例如，如果项目为 **`We.Retail`**，使用项目路径作为 ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >指定设备用户所在的项目路径。
 
-   **计划频率** 以小时为单位指定此监视器应发送电子邮件的时间（例如，5:00下午或17:00）或频率（例如，1）。
+   **计划频率**  — 指定此监视器应发送电子邮件的时间（例如，下午5:00或17:00）或频率（以小时为单位，例如，1）。
 
-   **Ping超时** 这指定间隔（以分钟为单位），在此间隔后，设备应被视为不可访问。
+   **Ping超时**  — 以分钟为单位指定间隔，在此间隔后设备应被视为不可访问。
 
-   **SMTP服务器** 指定用于发送电子邮件的SMTP服务器。
+   **SMTP服务器**  — 指定用于发送电子邮件的SMTP服务器。
 
-   **SMTP端口** 输入SMTP端口。
+   **SMTP端口**  — 输入SMTP端口。
 
-   **使用TLS** 传输层安全性(TLS)使您能够使用与SMTP服务器的安全通信。
+   **使用TLS**  — 传输层安全性(TLS)允许您使用与SMTP服务器的安全通信。
 
-   建议使用TLS安全地连接到公司邮件服务器。 请与邮件管理员联系以获取适当的值。
+   Adobe建议您使用TLS安全地连接到公司邮件服务器。 请与邮件管理员联系以获取相应的值。
 
-   **用户名** 指定用于发送电子邮件的用户名。
+   **用户名**  — 指定用于发送电子邮件的用户名。
 
-   **密码** 指定发送电子邮件的密码。
+   **密码**  — 指定发送电子邮件的密码。
 
-   **收件人** 指定收件人的电子邮件地址。
+   **收件人**  — 指定收件人的电子邮件地址。
 
    >[!NOTE]
    >
    >您只能输入一个电子邮件地址。 要发送批量电子邮件，请创建包含相关用户的组或通讯组列表。
 
-1. 单击 **保存** 以通过电子邮件为AEM Screens设备配置监视器活动。
+1. 选择 **保存** 要通过电子邮件为AEM Screens设备配置监视器活动，请执行以下操作。
 
 ## 电子邮件通知 {#email-notification}
 
-设置电子邮件通知的配置后，您将收到一封电子邮件通知，其中包含指向被报告为不活动的实际设备的链接。
+在设置电子邮件通知的配置后，您将收到一封电子邮件通知，其中包含指向报告为不活动状态的实际设备的链接。
 
 访问该链接会将您直接导航到设备仪表板。
 
-仅当至少有一台设备在给定的ping超时内未执行ping操作且在生成电子邮件时仍未执行ping操作时，才会发送电子邮件。
+仅当至少有一台设备在给定的ping超时期间未发出ping命令，且在生成电子邮件时仍未ping命令时，才会发送电子邮件。
 
 ### 示例用例 {#example-use-cases}
 
-以下示例介绍了一些场景，以供从Screens设备电子邮件监视服务配置属性时参考。
+以下示例介绍了一些可供参考的情况，以配置来自Screens设备电子邮件监视服务的属性。
 
-**场景1**：
+**场景1**
 
-如果将计划频率设置为凌晨1:00，将ping超时设置为60，那么如果Screens设备在晚上12:00到下午1:00之间未执行ping操作，则您将收到一封电子邮件通知，确认设备处于非活动状态。
+将计划频率设置为1:00 A.M. ， ping超时设置为60。 然后，如果您的AEM Screens设备在下午12:00到1:00之间未执行ping操作，则会收到电子邮件通知，确认设备处于非活动状态。
 
-**场景2**：
+**场景2**
 
-如果将计划频率设置为1，将ping超时设置为60，那么如果您的Screens设备在一天的任何特定时间都未执行一次ping操作，则您将收到一封电子邮件通知，确认设备处于非活动状态。
+将计划频率设置为1，将ping超时设置为60。 然后，如果您的AEM Screens设备没有在一天的任何特定时间执行一次Ping操作，您将收到一封电子邮件通知，确认设备处于非活动状态。
