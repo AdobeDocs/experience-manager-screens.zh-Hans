@@ -2,9 +2,9 @@
 title: 测试和质量保证
 description: 在最佳实践指南中了解AEM Screens的测试和质量保证。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ AEM Screens包括设备控制中心模块，用于管理Screens播放器应用�
 1. 管理内容下载
 1. 管理应用程序重新启动问题
 
-详细了解 ***设备控制中心***，请参阅 [设备控制中心故障排除](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 在 **AEM Screens用户指南**.
+详细了解 ***设备控制中心***，请参见 [设备控制中心故障排除](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 在 **AEM Screens用户指南**.
 
 >[!CAUTION]
 >

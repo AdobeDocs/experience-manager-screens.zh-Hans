@@ -1,7 +1,7 @@
 ---
 title: 脱机渠道
 seo-title: Offline Channels
-description: AEM Screens播放器利用ContentSync技术为渠道提供离线支持。 阅读本页内容，了解有关更新处理程序和为渠道启用脱机配置的更多信息。
+description: AEM Screens播放器利用ContentSync技术为渠道提供离线支持。 按照此页面了解更多有关更新处理程序和启用渠道的脱机配置的信息。
 seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
@@ -62,10 +62,10 @@ Screens播放器利用 ***ContentSync*** 技术。
   <tr>
    <td>clientlib</td> 
    <td>收集指定的客户端库</td> 
-   <td>[extension="]：可以是css或js，以仅收集前一个或仅收集后一个</td> 
+   <td>[extension="]：可以是css或js，以仅收集前者，或仅收集后者</td> 
   </tr>
   <tr>
-   <td>资源趋势</td> 
+   <td>asseditions</td> 
    <td>收集资源演绎版</td> 
    <td>[renditions=[]]：要收集的演绎版列表。 默认为原始演绎版</td> 
   </tr>
@@ -85,20 +85,20 @@ Screens播放器利用 ***ContentSync*** 技术。
 1. 在列表中选择您的配置
 1. 单击清除缓存
 1. 单击更新缓存
-1. 单击Download Full
+1. 单击“下载完整部分”
 1. 解压缩zip文件
 1. 在提取的文件夹中启动本地服务器
 1. 打开您的起始页并检查您的应用程序状态
 
 ## 启用渠道的脱机配置 {#enabling-offline-config-for-a-channel}
 
-按照以下步骤启用渠道的脱机配置：
+请按照以下步骤启用渠道的脱机配置：
 
-1. Inspect渠道内容，并检查是否从AEM实例（联机）请求该内容。
+1. Inspect渠道内容，并检查是否从AEM实例（联机）请求该渠道。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. 导航到渠道仪表板并单击 **...** 在 **渠道信息** 用于更改属性的面板。
+1. 导航到渠道功能板并单击 **...** 在 **渠道信息** 用于更改属性的面板。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -114,10 +114,10 @@ Screens播放器利用 ***ContentSync*** 技术。
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspect渠道内容，并检查是否从本地播放器缓存中请求该内容。
+1. Inspect渠道内容，并检查它是否从本地播放器缓存中请求。
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->要了解有关自定义离线资源处理程序的模板以及中的最低要求的更多信息，请参阅 `pom.xml` 有关特定项目，请参阅 [自定义处理程序的模板](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 在 **开发AEM Screens的自定义组件**.
+>要了解有关自定义离线资源处理程序模板以及中最低要求的更多信息，请参阅 `pom.xml` 有关特定项目，请参阅 [自定义处理程序模板](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 在 **为AEM Screens开发自定义组件**.

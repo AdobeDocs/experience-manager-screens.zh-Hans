@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
   AEM Screens播放器现在包括向Adobe Experience Manager (AEM)发送设备名称的功能。
 默认情况下，当使用批量注册来注册设备时，系统生成的用户名会输入到标题字段中。 作为替代方法，客户可以使用资源标记或其他友好名称，以便在AEM中可见且更易于分配适当的内容。
 
-  请参阅以下文档以了解如何在每个受支持的操作系统中配置名称：
+  请参阅以下文档，了解如何在每个受支持的操作系统中配置名称：
 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)

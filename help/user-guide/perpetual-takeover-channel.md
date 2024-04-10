@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 1%
    * **计划**：输入您希望此渠道运行显示的计划的文本。 此文本位于 **计划** 本示例中提及的是 *星期三14:00至16:00之间*.
 
      >[!NOTE]
-     >要了解有关可以添加到中的表达式的更多信息，请 **计划**，请参阅 [表达式示例](#example-expressions) 部分。
+     >要了解有关可以添加到中的表达式的更多信息，请 **计划**，请参见 [表达式示例](#example-expressions) 部分。
    * **保持活动状态起始日期**：开始日期和时间。
    * **保持活动状态结束日期**：结束日期和时间。
 

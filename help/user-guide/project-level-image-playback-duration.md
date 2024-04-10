@@ -2,9 +2,9 @@
 title: 项目级图像播放持续时间
 description: 了解如何在项目级别定义图像播放持续时间。
 contentOwner: jsyal
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -14,17 +14,15 @@ ht-degree: 1%
 
 ## 概述 {#overview}
 
-利用此功能，可在项目级别定义图像播放持续时间。 默认情况下，所有图像都将继承此播放持续时间。 如果在项目级别未定义持续时间，则将继续默认播放8秒。
+此功能允许您在项目级别定义图像播放持续时间。 默认情况下，所有图像都将继承此播放持续时间。 如果在项目级别未定义持续时间，则默认播放8秒将继续进行。
 
 ### 先决条件 {#prerequisites}
 
-在使用此功能之前，请确保将项目设置为开始实施此功能的先决条件。 例如，
+在使用此功能之前，请将项目设置为开始实施此功能的先决条件。 例如，
 
-1. 创建一个AEM Screens项目(在此示例中， **ProjectLevelPlayback**)
-
-1. 创建序列渠道为 **PlayBackChannel** 下 **渠道** 文件夹
-
-1. 将内容添加到 **PlayBackChannel**
+1. 创建一个AEM Screens项目(在此示例中， **ProjectLevelPlayback**)。
+1. 创建序列渠道为 **PlayBackChannel** 下 **渠道** 文件夹。
+1. 将内容添加到 **PlayBackChannel**.
 
    ![资产](assets/image_playback1.png)
 
@@ -48,11 +46,11 @@ ht-degree: 1%
 1. 导航到您的项目 **ProjectLevelPlayback** 并单击 **属性** 从操作栏中。
    ![资产](assets/image_playback3.png)
 
-1. 选择渠道中的所有图像，然后单击左上角的扳手图标（如下图所示）以打开“渠道级别配置”对话框。
+1. 选择渠道中的所有图像，然后单击左上角的扳手图标（如下图所示），以打开“渠道级别配置”对话框。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **页面** 对话框打开。
+1. 此 **页面** 对话框打开。
 
    >[!NOTE]
    >
@@ -60,13 +58,13 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** 从8000 (ms)到3000 (ms)，即3秒。 单击右上角的复选标记 **页面** 对话框以保存更改。
+   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 单击右上角的复选标记 **页面** 对话框，以保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### 查看结果 {#viewing-the-result}
 
-更新渠道播放持续时间后（在本例中是所有三个图像），您会注意到现在播放的图像将为3秒而不是8秒（默认值）。
+更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放的图像时长为3秒，而不是8秒（默认值）。
 
 ![channel_preview](assets/channel_preview.gif)
 

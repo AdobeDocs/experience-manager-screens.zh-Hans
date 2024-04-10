@@ -1,17 +1,16 @@
 ---
-source-git-commit: 186bc9f6c780434014c2c2806715d90d6cf79308
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '73'
-ht-degree: 0%
+source-wordcount: '72'
+ht-degree: 79%
 
 ---
 # Adobe Experience Manager Screens文档
 
-这是Adobe Experience Manager Screens文档的库。
+这是Adobe Experience Manager Screens文档的存储库。
 
-欢迎您对文档做出贡献。 请参阅以下资源：
+欢迎您贡献文档内容。请参阅以下资源：
 
-* [comtribiting.](contributing.md) md有关如何为文档做出贡献的概述。
-* [guidelines.](guidelines.md) md有关稿件中预期内容以及如何编写文档稿件的概述。
-* [code-of-cond.md有关](code-of-conduct.md) 我们在您为本文档项目做出贡献时所期待的行为标准的概述。
+* [contributing.md](contributing.md) 概述如何贡献文档内容。
+* [guidelines.md](guidelines.md) 概述应贡献哪些内容以及如何撰写文档贡献内容。
+* [code-of-conduct.md](code-of-conduct.md) 概述为文档项目贡献内容时应遵循的行为标准。

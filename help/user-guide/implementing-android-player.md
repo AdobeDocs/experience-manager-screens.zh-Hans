@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 执行以下步骤，在Android™播放器中允许批量配置：
 
 1. 创建名为的配置JSON文件 `player-config.default.json`.
-请参阅 [示例JSON策略](#example-json) 以及描述各种 [策略属性](#policy-attributes).
+查看 [示例JSON策略](#example-json) 以及描述各种 [策略属性](#policy-attributes).
 
 1. 使用MDM、ADB或Android™ Studio文件资源管理器将此策略JSON文件拖放到 *sdcard* ™文件夹。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 ```
 
 >[!NOTE]
->所有Android™设备都具有 `*sdcard*` 文件夹，无论实际是 `*sdcard*` 是否插入。 此文件在部署时将与Downloads文件夹处于同一级别。 一些MDM如Samsung Knox可能会引用此词 *sdcard* 文件夹位置 *内部存储*.
+>所有Android™设备都具有 `*sdcard*` 文件夹，无论实际是 `*sdcard*` 是否插入。 此文件在部署时将与Downloads文件夹处于同一级别。 一些MDM，如Samsung Knox，可能会看到这种情况 *sdcard* 文件夹位置 *内部存储*.
 
 ## 使用企业移动性管理批量预配Android™ Player {#bulk-provisioning}
 

@@ -2,9 +2,9 @@
 title: 自适应演绎版架构概述和配置
 description: 本页介绍了AEM Screens中自适应呈现版本的CRXDE Lite架构概述和配置。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---

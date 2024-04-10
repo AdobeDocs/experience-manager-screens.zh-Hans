@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 2%
    <td><strong>权限</strong></td>
   </tr>
   <tr>
-   <td>Screens管理员<br /> <em>screens-admin</em></td>
+   <td>Screens管理员<br /> <em><code>screens-admins</code></em></td>
    <td>对AEM Screens功能的管理员级别访问权限</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ ht-degree: 2%
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens用户<br /> <em>screens-users</em></td>
+   <td>Screens用户<br /> <em><code>screens-users</code></em></td>
    <td>在AEM Screens中创建和更新渠道和计划并分配给位置</td>
    <td>
     <ul>
      <li>撰稿人成员</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens运算符<br /> <em>screens — 操作员</em></td>
+   <td>Screens运算符<br /> <em><code>screens-operators</code></em></td>
    <td>在AEM Screens中创建和更新位置结构并注册播放器</td>
    <td>
     <ul>
      <li>撰稿人成员</li>
-     <li>jcr：all /home/users/screens</li>
-     <li>jcr：all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens播放器<br /> <em>屏幕 — &lt;project&gt; — 设备</em></td>
+   <td>Screens播放器<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>将所有播放器和所有播放器/设备自动分组为参与者。</td>
    <td><p> 撰稿人成员</p> </td>
   </tr>

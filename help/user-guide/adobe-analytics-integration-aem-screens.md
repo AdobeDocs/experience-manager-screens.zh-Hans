@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->仅当您安装了AEM 6.4.2 Feature Pack 2或AEM 6.3.3 Feature Pack 4的最低版本时，此AEM Screens功能才可用。 对于AEM Screens Cloud Service客户，请联系您的Adobe关系经理以在Screens Cloud中启用Adobe Analytics。
+>仅当您安装了AEM 6.4.2 Feature Pack 2或AEM 6.3.3 Feature Pack 4的最低版本时，此AEM Screens功能才可用。 对于AEM Screens Cloud Service客户，请联系您的Adobe关系经理，以在Screens Cloud中启用Adobe Analytics。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示
 
 >[!CAUTION]
 >
->在配置资产之前，请联系您的Adobe关系经理以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
+>在配置资产之前，请与Adobe关系经理联系以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
 
 ![]()
 
@@ -81,7 +81,7 @@ AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示
 
 >[!CAUTION]
 >
->在配置资产之前，请联系您的Adobe关系经理以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
+>在配置资产之前，请与Adobe关系经理联系以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
 
 下表重点列出了用于为AEM Screens配置Adobe Analytics的属性及其说明：
 

@@ -2,9 +2,9 @@
 title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要了解有关创作和发布架构概述以及如何在AEM Author实例上创作内容并将其转发到多个Publish实例的更多信息，请参阅 [创作和发布架构概述](author-publish-architecture-overview.md).
+>要了解有关创作和发布架构概述以及如何在AEM创作实例上创作内容并将其转发到多个Publish实例的更多信息，请参阅 [创作和发布架构概述](author-publish-architecture-overview.md).
 
 以下部分将介绍如何在创作和发布拓扑上设置复制代理。
 

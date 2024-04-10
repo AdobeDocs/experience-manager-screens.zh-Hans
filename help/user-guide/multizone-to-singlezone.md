@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >要了解有关在渠道中创建多区域布局的更多信息，请参阅 [多区域布局](multi-zone-layout-aem-screens.md).
+   >要详细了解如何在渠道中创建多区域布局，请参阅 [多区域布局](multi-zone-layout-aem-screens.md).
 
 
 1. 创建另一个标题为 **TakeoverChannel** 敬您的 **渠道** 文件夹。

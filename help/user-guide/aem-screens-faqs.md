@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Windows Player中没有窗口模式。 它始终为全屏模式。
 AEM Screens为产品使用的查询创建索引定义。
 如果存在 *查询遍历WARN* 在 `error.log`，为您的查询创建自定义索引。 请参阅 [配置索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) 以了解更多详细信息。
 
-您还可以参阅上的其他资源 [Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+您还可以在上查看其他资源 [Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3.配置v3清单需要什么？ {#configure-v3}
