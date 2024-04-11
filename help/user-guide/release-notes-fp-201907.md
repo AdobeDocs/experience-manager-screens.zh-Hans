@@ -1,23 +1,19 @@
 ---
 title: 功能包201907发行说明
-seo-title: Release Notes for Feature Pack 201907
-description: 请关注此页面，以获取2019年7月31日发布的AEM Screens功能包201907的信息。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: 了解2019年7月31日发布的AEM Screens功能包201907。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
 
 AEM Screens发布了AEM 6.4.5功能包5和AEM 6.5.1功能包1 ，其中包含以下详细信息。
 
@@ -61,21 +57,21 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 * **启动项**
 
-启动项允许内容作者创建渠道的未来版本。 借助启动项，作者可以预览启动项中的每个渠道，并且应该能够发起审查请求。 审批者组将收到通知，可以批准或拒绝请求。 当到达实时日期时，内容将在设备中播放。
+启动项允许内容作者创建渠道的未来版本。 借助Launches，作者可以预览启动项中的每个渠道，并且应该能够发起审查请求。 审批者组收到通知，可以批准或拒绝请求。 当到达实时日期时，内容将在设备中播放。
 请参阅 [启动次数](launches.md) 以了解更多详细信息。
 
 * **体验片段中的离线配置**
 
 现在，您可以在配置Screens体验片段时添加离线配置（客户端库和静态文件）。 请参阅 [使用体验片段](experience-fragments-in-screens.md) 以了解更多详细信息。
 
-### 已发布的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players
 
 已为AEM 6.4.5功能包5和AEM 6.5.1功能包1发布以下AEM Screens Player：
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [AEM Screens播放器下载](https://download.macromedia.com/screens/).
