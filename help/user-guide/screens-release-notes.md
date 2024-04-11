@@ -1,22 +1,18 @@
 ---
 title: 功能包201809发行说明
-seo-title: Release Notes for Feature Pack 201809
-description: 请阅读本页，以获取2018年10月1日发布的AEM Screens功能包201809的信息。
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
-uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
+description: 了解2018年10月1日发布的AEM Screens功能包201809。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
-discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 3%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
 
 AEM Screens发布了AEM 6.4.2功能包2和AEM 6.3.3功能包4 ，并提供以下详细信息。
 
@@ -36,24 +32,24 @@ AEM Screens功能包201809的发布日期为2018年10月1日。
 
 * **Adobe Analytics Proof of Play报告**：请参阅 [Adobe Analytics与AEM Screens集成](adobe-analytics-integration-aem-screens.md) 了解更多信息。
 
-* **Adobe Analytics允许播放器缓存播放事件并将其发送到Adobe Analytics**：请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 了解更多信息。
+* **Adobe Analytics允许播放器缓存和发送 `playback` Adobe Analytics的事件**：请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 了解更多信息。
 
-* **批量更新离线内容**：允许您批量更新所有渠道，并避免导航到特定渠道和更新内容带来的麻烦。 请参阅 [批量脱机更新](bulk-offline-update.md) 了解更多信息。
+* **批量更新离线内容**：可让您批量更新所有渠道，并避免导航到特定渠道和更新内容带来的麻烦。 请参阅 [批量脱机更新](bulk-offline-update.md) 了解更多信息。
 
-* **批量发布渠道以发布实例**
+* **将渠道批量发布到所有发布实例**
 * **增强的播放器日志记录机制**：您可以为AEM Screens播放器指定最大日志文件数。 请参阅 [使用AEM Screens播放器](working-with-screens-player.md) 以了解更多详细信息。
 
 * **创作/发布部署（强化）**
 
-### 已发布的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players
 
 已为AEM 6.4.2功能包2和AEM 6.3.3功能包4发布以下AEM Screens Player：
 
 * Chrome OS
 * Windows
-* Android
+* Android™
 * iOS
 
-#### AEM Screens播放器下载 {#aem-screens-player-downloads}
+#### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [AEM Screens播放器下载](https://download.macromedia.com/screens/).
