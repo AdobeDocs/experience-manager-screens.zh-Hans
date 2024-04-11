@@ -1,10 +1,9 @@
 ---
 title: 数据驱动事件
-description: null
+description: 空
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -22,10 +21,10 @@ AEM Screens通过Context Hub支持数据驱动事件。 Context Hub允许您实�
 
 ### 分类数据驱动事件 {#categorizing-data-driven-events}
 
-数据驱动事件分为四个不同的类别：
+数据驱动事件分为以下四个不同的类别：
 
 * 运行中的数据
-* 演示文稿中的数据
+* 呈现中的数据
 * 数据输出可操作
 * 数据输出呈现
 
@@ -33,7 +32,7 @@ AEM Screens通过Context Hub支持数据驱动事件。 Context Hub允许您实�
 
 这可以进一步归类为通道中断和占位符。
 
-#### 演示文稿中的数据 {#data-in-presentation}
+#### 呈现中的数据 {#data-in-presentation}
 
 数据在临时渠道中运行，触发后，会更改渠道中的资产。
 

@@ -1,22 +1,18 @@
 ---
 title: 行程中心温度激活
-seo-title: Travel Center Temperature Activation
-description: 以下用例演示了如何根据Google Sheets中填充的值激活旅行中心本地温度。
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: 使用AEM Screens，了解此用例如何根据Google Sheets中填充的值演示如何使用旅游中心本地温度激活。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ ht-degree: 0%
 
 ## 描述 {#description}
 
-对于此用例，如果Google工作表的值小于50，将显示热饮图像，如果该值大于或等于50，将显示冷饮图像。 如果存在其他值或没有值，播放器将显示默认图像。
+对于此用例，如果Google Sheets中的值小于50，则会显示包含热饮的图像。 如果该值大于或等于50，则会显示包含冷饮料的图像。 如果存在其他值或根本没有值，播放器将显示默认图像。
 
 ## 前提条件 {#preconditions}
 
@@ -42,7 +38,7 @@ ht-degree: 0%
 1. **填充Google工作表**
 
    1. 导航到ContextHubDemo Google工作表。
-   1. 添加列 **标题1** 具有相应温度的值。
+   1. 添加列 **`Heading1`** 具有相应温度的值。
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ ht-degree: 0%
 
    1. 选择 **工作表A1 1** 并单击 **编辑**.
 
-   1. 选择比较属性，然后单击配置图标以编辑属性。
+   1. 选择比较属性并单击配置图标。
    1. 选择 **google表/value/1/0** 从的下拉菜单中 **属性名称**
 
    1. 选择 **运算符** 作为 **大于或等于** 从下拉菜单中
@@ -61,7 +57,7 @@ ht-degree: 0%
 
    1. 同样，选择 **工作表A1 2** 并单击 **编辑**.
 
-   1. 选择 **比较属性 — 值** ，然后单击配置图标以编辑属性。
+   1. 选择 **比较属性 — 值** ，然后单击配置图标。
    1. 选择 **google表/value/1/0** 从的下拉菜单中 **属性名称**
 
    1. 选择 **运算符** 作为 **小于** 从下拉菜单中
@@ -89,6 +85,6 @@ ht-degree: 0%
 1. **检查预览**
 
    1. 单击 **预览。** 此外，打开您的Google工作表并更新其值。
-   1. 将该值更改为小于50，您应该能够查看夏季饮料的图像。 如果Google工作表中的值大于或等于，则应该能够查看热饮的图像。
+   1. 将该值更改为小于50。 您应该可以查看冷饮的图像。 如果Google Sheets中的值为50或更大，您应该会看到热饮的图像。
 
    ![result3](assets/result3.gif)
