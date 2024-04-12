@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 0%
@@ -74,8 +74,6 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 >[!CAUTION]
 >
 >在配置资产之前，请与Adobe关系经理联系以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
-
-![]()
 
 ### 配置属性 {#configuring-the-properties}
 
