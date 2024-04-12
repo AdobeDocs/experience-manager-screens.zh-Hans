@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics与AEM Screens集成
-description: 关注本页，了解AEM Screens与Adobe Analytics的现成集成，并为您提供播放证明。
+description: 了解AEM Screens与Adobe Analytics的现成集成，并为您提供使用证明。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 概述 {#overview}
 
-***AEM Screens*** 利用Adobe Analytics，借助该功能，您可以实现市场上独一无二的功能 — 跨渠道分析，即帮助将位置中显示的内容与其他数据源相关联。
+***AEM Screens*** 使用Adobe Analytics，借助该功能，您可以实现市场上独一无二的功能 — 跨渠道分析，帮助将位置中显示的内容与其他数据源相关联。
 
 AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用证明。
 
@@ -55,7 +55,7 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 
 ## 体系结构详细信息 {#architectural-details}
 
-AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示时间长短（汇总）。 这是标牌解决方案的常见功能。 AEM Screens不会构建我们自己的分析，而是将利用Adobe Analytics，借助它，我们可以实现市场上独一无二的东西 — 跨渠道分析，它有助于将位置中显示的内容与其他数据源相关联。
+一位AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示了多长时间（汇总）。 这是标牌解决方案的常见功能。 AEM Screens使用Adobe Analytics，而不是构建单独的分析应用程序。 通过组合，我们能够实现市场中的独特功能 — 跨渠道分析，这有助于将位置中显示的内容与其他数据源相关联。
 
 以下架构图介绍了Adobe Analytics与AEM Screens的集成：
 
@@ -65,7 +65,7 @@ AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示
 
 可以从OSGi控制台配置Adobe Analytics设置。
 
-导航到 **Adobe Experience Manager Web控制台配置** 要为AEM Screens配置Adobe Analytics，如下图所示：
+导航到 **Adobe Experience Manager Web控制台配置** 以便为AEM Screens配置Adobe Analytics。
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -121,7 +121,7 @@ AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示
 
 #### 在AEM Screens中使用Adobe Analytics服务 {#using-adobe-analytics-service-in-aem-screens}
 
-此场景通过固件和Instrument Screens核心组件中的Analytics服务中的REST调用调用Analytics API，以明确创建和发送特定于特定用例的事件，同时允许扩展，在这种情况下，任何自定义消息都可从自定义开发的渠道发送到Analytics。
+此方案通过来自固件中分析服务的REST调用调用Analytics API。 它还会检测AEM Screens核心组件，以明确创建和发送特定于特定用例的事件。 所有这些都支持可扩展性，任何自定义消息都可从自定义开发的渠道发送到Analytics。
 
 Analytics事件离线存储在indexedDB中，稍后进行分块并发送到云。
 

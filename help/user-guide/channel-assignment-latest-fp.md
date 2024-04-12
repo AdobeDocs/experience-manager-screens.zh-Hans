@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >请参阅 [创建和管理项目](creating-a-screens-project.md) 以了解如何创建AEM Screens项目。
+   >要了解如何创建AEM Screens项目，请参阅 [创建和管理项目](creating-a-screens-project.md).
 
 1. 创建标题为 **自助餐厅** 在 **渠道** 文件夹。
 
@@ -82,14 +82,14 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >请参阅 [渠道属性](#channel-properties) 部分以了解有关渠道分配属性的更多信息。
+   >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
 1. 从 **计划** 选项，选择 **激活窗口** 和 **周期性计划**.
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >请参阅 [渠道属性](#channel-properties) 部分以了解有关渠道分配属性的更多信息。
+   >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
 1. 单击 **保存** 配置您的首选项后。
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 此示例在Chrome播放器上展示了输出。 将渠道分配给显示区后，必须为播放器注册该设备。
 
-请参阅 [设备注册](device-registration.md) 以了解如何在AEM Screens播放器上注册设备。
+要了解如何在AEM Screens播放器上注册设备，请参阅 [设备注册](device-registration.md).
 
 您可以在选择的播放器上查看以下输出：
 

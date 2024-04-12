@@ -1,21 +1,17 @@
 ---
 title: 紧急渠道
-seo-title: Emergency Channel
-description: 遵循此用例示例，了解如何创建和管理紧急渠道，内容作者可以在前提条件下从序列渠道切换紧急渠道。
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: 了解如何创建和管理紧急渠道，如果存在前提条件，内容作者可以从序列渠道切换紧急渠道。
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 ## 用例描述 {#use-case-description}
 
-本节介绍一个用例示例，该示例重点介绍如何创建和管理紧急通道，内容作者可以在出现前提条件的情况下从序列通道切换紧急通道。
+本节介绍一个用例示例，该示例重点介绍如何创建和管理紧急渠道，内容作者可以在存在前提条件时从序列渠道切换紧急渠道。
 
 ### 前提条件 {#preconditions}
 
@@ -52,7 +48,7 @@ ht-degree: 0%
 
 1. **创建序列渠道**
 
-   1. 选择 **渠道** 文件夹并单击 **创建** 打开向导以创建渠道。
+   1. 选择 **渠道** 文件夹并单击 **创建**.
 
    1. 选择 **序列渠道** 并从向导中创建标题为 **MainAdChannel**.
 
@@ -61,14 +57,15 @@ ht-degree: 0%
 1. **向序列渠道添加内容**
 
    1. 选择渠道(**MainAdChannel**)。
-   1. 单击 **编辑** 以打开编辑器。 将几个资产拖放到您的渠道中。
+   1. 单击 **编辑** 从操作栏中。
+   1. 将几个资产拖放到您的渠道中。
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **创建紧急渠道**
 
    1. 选择 **渠道** 文件夹。
-   1. 单击 **创建** 打开向导以创建渠道。
+   1. 单击&#x200B;**创建**。
    1. 选择 **序列渠道** 并从向导中创建标题为 **紧急渠道**.
 
    >[!NOTE]
@@ -80,7 +77,8 @@ ht-degree: 0%
 1. **向紧急渠道添加内容**
 
    1. 选择渠道(**紧急通道)**.
-   1. 单击 **编辑** 以打开编辑器。 将要在紧急情况下运行的资产拖放到渠道中。
+   1. 单击 **编辑** 从操作栏中。
+   1. 将要在紧急情况下运行的资产拖放到渠道中。
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -93,14 +91,15 @@ ht-degree: 0%
 
 1. **在您的位置创建显示区**
 
-   导航到您的位置(**存储**)，然后单击 **创建** 从操作栏中。 按照向导创建两个 **显示** 标题为 **StoreFront** 和 **StoreRear**.
+   导航到您的位置(**存储**)，然后单击 **创建** 从操作栏中。 按照向导中的说明，创建两个 **显示** 标题为 **StoreFront** 和 **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **创建时间表**
 
    1. 导航到 **时间表** 文件夹。
-   1. 单击 **创建** 从操作栏中。 按照向导创建标题为 **StoreSchedule**.
+   1. 单击 **创建** 从操作栏中。
+   1. 按照该向导，创建标题为 **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -117,7 +116,7 @@ ht-degree: 0%
       1. 将支持的事件设置为 **初始加载** 和 **空闲屏幕**.
       1. 单击 **保存**
 
-      同样，您必须再次执行相同的步骤来分配 **紧急渠道** 并设置其 **优先级**.
+      同样，再次执行相同的步骤来分配 **紧急渠道** 并设置其 **优先级**.
 
    >[!NOTE]
    >
@@ -146,7 +145,7 @@ ht-degree: 0%
 
    1. 导航到每个显示区，如 **紧急渠道** > **位置** > **存储** >**StoreFront**.
 
-   1. 单击 **仪表板** 从操作中打开显示功能板。
+   1. 单击 **仪表板** 从操作栏中。
    1. 单击 **...** 从 **已分配的渠道和计划** 面板并进一步单击 **+分配计划**.
 
    1. 选择计划的路径(例如，此处， **紧急渠道** > **时间表** >**StoreSchedule**)。
@@ -158,13 +157,13 @@ ht-degree: 0%
 
 1. **设备注册**
 
-   完成设备注册过程，注册后，您可以在AEM Screens播放器上查看以下输出。
+   完成设备注册过程。 注册后，您可以在AEM Screens播放器上查看以下输出。
 
    ![new30](assets/new30.gif)
 
 ## 切换到紧急频道 {#switching-to-emergency-channel}
 
-发生紧急情况时，请执行以下步骤：
+如果出现紧急情况，请执行以下步骤：
 
 1. 导航到 **紧急渠道** > **时间表** > **StoreSchedule** 并选择 **仪表板** 从操作栏中。
 
@@ -178,7 +177,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. 一旦更新了渠道的优先级，所有AEM Screens播放器都会显示 **紧急渠道** 内容，如下所示。
+1. 更新渠道优先级后，所有AEM Screens播放器都会显示 **紧急渠道** 内容。
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
@@ -186,4 +185,4 @@ ht-degree: 0%
 
 此 **紧急渠道** 将继续显示其内容，直到内容作者将优先级值重置为1。
 
-一旦内容作者收到紧急事件已清除的指令，他/她应更新 **MainAdChannel** 这将导致恢复正常播放。
+当内容作者收到紧急情况已清除的说明时，他们应更新的 **MainAdChannel** 这会导致恢复正常播放。

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->大规模部署数字标牌的典型销售周期为9至18个月。 影响最终时间线的因素有很多，其中最重要的是最终客户在引入新解决方案时如何衡量成功以及他们的业务合作伙伴如何规避风险。
+>大规模部署数字标牌的典型销售周期为9到18个月。 影响最终时间线的因素有很多，其中最重要的是最终客户在引入新解决方案时如何衡量成功以及他们的业务合作伙伴如何规避风险。
 
 例如，零售环境中数字标牌项目的利益相关者可能包括以下内容：
 

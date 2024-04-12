@@ -1,12 +1,13 @@
 ---
 title: Screens功能包20240215的发行说明
-description: 请阅读本页，了解有关2024年2月15日发布的AEM Screens Feature Pack 20240215的信息。
+description: 了解关于2024年2月15日发布的AEM Screens功能包20240215的信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: d5b94814df33f00e23fcd22e85e50d6f02947d45
+exl-id: e4149f5b-42c0-43c8-b275-ecbe90104a98
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '151'
 ht-degree: 5%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 5%
 # 功能包20240215发行说明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->建议您升级到6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 我们可以从获取最新版本信息 [此处](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Adobe建议您升级到6.5 Adobe Experience Manager (AEM 6.5)的最新版本。 您可以从中获取最新版本信息 [此处](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## 可用性 {#availability}
 

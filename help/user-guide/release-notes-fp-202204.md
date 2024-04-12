@@ -1,21 +1,21 @@
 ---
 title: 功能包202204发行说明
-description: 请阅读本页，了解有关2022年4月26日发布的AEM Screens功能包202204的信息。
+description: 了解关于2022年4月26日发布的AEM Screens功能包202204的信息。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 4%
+source-wordcount: '298'
+ht-degree: 3%
 
 ---
 
 # 功能包202204发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
 
 ## 可用性 {#availability}
 
@@ -47,16 +47,16 @@ AEM Screens功能包202204的发布日期为2022年4月26日。
 
 * 播放器未能通过管理发布获取最新更新。 现已修复此问题。
 
-### 已发布的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players
 
 已为AEM 6.5 Feature Pack 11发布以下AEM Screens Player：
 
 * Chrome OS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**.

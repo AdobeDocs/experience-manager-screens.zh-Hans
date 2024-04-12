@@ -1,8 +1,8 @@
 ---
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 79%
+ht-degree: 54%
 
 ---
 # Adobe Experience Manager Screens文档
@@ -13,4 +13,4 @@ ht-degree: 79%
 
 * [contributing.md](contributing.md) 概述如何贡献文档内容。
 * [guidelines.md](guidelines.md) 概述应贡献哪些内容以及如何撰写文档贡献内容。
-* [code-of-conduct.md](code-of-conduct.md) 概述为文档项目贡献内容时应遵循的行为标准。
+* [code-of-conduct.md](code-of-conduct.md) 有关在为此文档项目贡献内容时Adobe所期望的行为标准的概述。
