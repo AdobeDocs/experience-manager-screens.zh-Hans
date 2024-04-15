@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 >
 >如果没有Dispatcher，请在OSGi组件列表中禁用注册servlet。
 
-在为AEM Screens项目配置Dispatcher之前，您必须先了解Dispatcher。
+在为AEM Screens项目配置Dispatcher之前，请先了解Dispatcher。
 请参阅 [配置Dispatch](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 以了解更多详细信息。
 
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
@@ -94,7 +94,7 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
 
 Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存播放器请求的 `channels/assets`.
 
-要为资产启用缓存，以便从Dispatcher缓存中提供资产，您必须：
+要为资产启用缓存，以便从Dispatcher缓存中提供资产，请执行以下操作：
 
 * 添加 `/allowAuthorization 1` 在 `/cache` 部分
 * 将以下规则添加到 `/rules` 部分 `/cache`

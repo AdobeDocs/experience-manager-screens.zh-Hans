@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 创建内容并将其添加到渠道后，下一步是创建一个位置，然后创建一个显示。 此外，必须将该渠道分配给显示。 请参阅本节末尾的以下资源。
+>创建内容并将其添加到渠道后，下一步是创建一个位置，然后创建一个显示。 此外，将该频道分配给显示器。 请参阅本节末尾的以下资源。
 
 ## 使用渠道 {#working-with-channels}
 

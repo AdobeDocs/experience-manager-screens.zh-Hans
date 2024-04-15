@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ## 前提条件 {#preconditions}
 
-在开始为AEM Screens项目配置Context Hub配置之前，必须设置Google工作表（用于演示目的）。
+在开始为AEM Screens项目配置Context Hub配置之前，请设置Google工作表（用于演示目的）。
 
 >[!IMPORTANT]
 >

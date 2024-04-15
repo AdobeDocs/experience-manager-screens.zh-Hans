@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ### 将渠道分配给显示 {#assigning-channel-to-display}
 
-项目设置完成后，必须将渠道分配给显示区，以查看内容。
+项目设置完成后，将渠道分配给显示区，以查看内容。
 
 1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 ## 时间线视图 {#timeline-view}
 
-将渠道分配给显示内容并设置周期性时间表后，您可以从以下位置查看时间线： **已分配的渠道和计划** 面板。
+当您将渠道分配给显示并设置循环计划时，您可以从以下位置查看时间线： **已分配的渠道和计划** 面板。
 
 按照以下步骤导航到时间线视图：
 

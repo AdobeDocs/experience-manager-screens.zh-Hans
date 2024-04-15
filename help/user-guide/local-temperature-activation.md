@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 前提条件 {#preconditions}
 
-在开始实施旅行中心本地温度激活之前，您必须了解如何设置 ***数据存储***， ***受众分段*** 和 ***为渠道启用定位*** 在AEM Screens项目中。
+在开始实施旅行中心本地温度激活之前，了解如何设置 ***数据存储***， ***受众分段*** 和 ***为渠道启用定位*** 在AEM Screens项目中。
 
 请参阅 [在AEM Screens中配置ContextHub](configuring-context-hub.md) 以了解详细信息。
 

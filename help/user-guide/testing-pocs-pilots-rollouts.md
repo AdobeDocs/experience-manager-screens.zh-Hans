@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ POC的目的在于获得有关解决方案关键功能的初始反馈。 它还�
 
 系统和软件集成测试从音频/视频集成商的IT工程团队开始。 IT工程团队参考经批准的系统设计，在音频/视频集成器的“实验室环境”中配置、实施和监督硬件组件的安装。 这允许针对质量控制对整个解决方案进行仔细审查和测试。
 
-QC测试完成后，IT工程团队会创建文档、工作流和培训，以供在第2天支持期间参考。 要测试的系统方面包括：
+QC测试完成后，IT工程团队会创建文档、工作流和培训，以供在第2天支持期间参考。 要测试的系统方面包括以下内容：
 
-* AEM实施者集成
-* 第三方系统集成
-* 软件
-* 硬件
-* 连接性
+* AEM实施者集成。
+* 第三方系统集成。
+* 软件。
+* 硬件。
+* 连接。
 * 内容部署工作流程，包括手动、自动化和条件部署。
 
 ## 第3部分：关于测试、POC、试点和转出的视频教程 {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ QC测试完成后，IT工程团队会创建文档、工作流和培训，以供�
 
 ## 下一步 {#the-next-step}
 
-在全面完成测试、概念验证、试点项目和推广后，请阅读下一篇教程，其中将深入介绍项目管理和相关流程。
+当您完成测试、概念验证、试点项目和推出时，请遵循下一个教程，深入了解项目管理和相关流程。
 
 导航到 **[第4部分：项目管理和部署](project-management-and-deployment.md)** 以了解更多详细信息。

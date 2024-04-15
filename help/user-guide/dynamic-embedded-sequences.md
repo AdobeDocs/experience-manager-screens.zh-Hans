@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >动态嵌入式序列类似于嵌入式序列，但允许用户遵循某个层次结构，在该层次结构中，对一个渠道所做的更改/更新会传播到相关的其他渠道中。 它遵循父子层次结构，并且还包括图像或视频等资产。
 >
->***动态嵌入式序列*** 允许您显示特定于位置的内容，而 ***嵌入式序列*** 仅显示内容的常规幻灯片。 此外，在设置动态嵌入式序列时，必须使用渠道角色和名称配置渠道。 请参阅以下步骤以进行实际实施。
+>***动态嵌入式序列*** 允许您显示特定于位置的内容，而 ***嵌入式序列*** 仅显示内容的常规幻灯片。 此外，在设置动态嵌入式序列时，请使用渠道角色和名称配置渠道。 请参阅以下步骤以进行实际实施。
 >
 >要了解有关实现嵌入序列的详细信息，请参阅 [嵌入式序列](embedded-sequences.md) 在AEM Screens中。
 

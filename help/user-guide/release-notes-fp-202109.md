@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * **支持V3清单**
 
-  您现在可以为清单版本v3配置Dispatcher。 要启用v3清单功能，您必须：
+  您现在可以为清单版本v3配置Dispatcher。 要启用v3清单，请执行以下操作：
 
    * 清除创作和已发布中的任何待处理脱机内容作业。
 

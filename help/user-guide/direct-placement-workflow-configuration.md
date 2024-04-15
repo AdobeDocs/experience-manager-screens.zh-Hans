@@ -1,9 +1,9 @@
 ---
 title: 直接放置工作流配置
 description: 本页重点介绍直接放置工作流配置。
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在开始配置之前，您必须安装 `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. 安装包后，您应该能够从AEM实例>工具（图标） >查看和访问包 **工作流** > **工作流模型**.
+>在开始配置之前，请安装 `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. 安装包后，您应该能够从AEM实例>工具（图标） >查看和访问包 **工作流** > **工作流模型**.
 
 请按照以下步骤配置直接放置工作流：
 

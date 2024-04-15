@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 简介 {#introduction}
 
-在组织中首次设置AEM Screens项目时，还必须创建所有位置。 如果您的项目涉及多个位置，则会导致繁琐的任务，包括在UI中多次单击和等待。
+在组织中首次设置AEM Screens项目时，也应创建所有位置。 如果您的项目涉及多个位置，则会导致繁琐的任务，包括在UI中多次单击和等待。
 
 此功能的目标是减少设置项目所需的时间，从而解决预算问题。
 

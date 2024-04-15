@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 先决条件 {#prereqs}
 
-在执行以下步骤以在渠道中启用定位之前，您必须了解 [在AEM Screens中配置的关键术语](configuring-context-hub.md) 了解AEM Screens中的ContextHub和定位时需要使用。
+在执行以下步骤以在渠道中启用定位之前，请了解 [在AEM Screens中配置的关键术语](configuring-context-hub.md) 了解AEM Screens中的ContextHub和定位时需要使用。
 
 >[!IMPORTANT]
 >

@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 例如，如果作者想要创建c1、c2（渠道）的未来版本，则会创建启动项并设置启用日期（例如，11月10日上午8:00）。 内容中的任何其他更新都会发送以供审查。
 
-在获得批准并上线日期（11月10日上午8:00）后，此发布将在设备或播放器上播放内容。
+在获得批准并上线日期（11月10日上午8:00）后，本次发布将在设备或播放器上播放内容。
 
 ## 要求 {#requirements}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ### 了解宽限期 {#understanding-grace-period}
 
-为了让播放器能够在设置的实时日期开始播放内容，您必须在实时日期之前开始之前的活动。
+为了让播放器能够在设置的实时日期开始播放内容，请在实时日期之前开始之前的活动。
 
 如果上线日期为 *11月24日，上午9点* 宽限期为 *24小时*，则上述操作序列将在（起始日期 — 宽限期）时开始，即11月23日服务器时间上午9:00。 这将有24小时来完成上述所有操作，以便内容可到达播放器。 播放器知道这是启动内容。 因此，内容不会立即播放，但播放器可以将此内容存储为未来版本，并让它在播放器时区的设置实时日期开始播放。
 

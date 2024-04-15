@@ -1,21 +1,17 @@
 ---
 title: 从ContentSync转换为SmartSync
-seo-title: Transitioning from ContentSync to SmartSync
-description: 按照本页了解SmartSync功能以及如何从ContentSync过渡到SmartSync。
-seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
-uuid: c0619b56-1f6f-465a-a428-6df28e40b555
+description: 了解有关SmartSync功能以及如何从ContentSync过渡到SmartSync的更多信息。
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -32,7 +28,7 @@ SmartSync是AEM Screens使用的最新机制。 它取代了当前用于缓存�
 
 **在服务器端**：
 
-* 渠道的内容（包括资产）缓存在中 */var/contentsync*.
+* 渠道的内容（包括资产）缓存在中 *`/var/contentsync`*.
 * 缓存通过描述用于显示的可用内容的清单向播放器公开。
 
 **在客户端**：
@@ -41,11 +37,11 @@ SmartSync是AEM Screens使用的最新机制。 它取代了当前用于缓存�
 
 ### 使用SmartSync的好处 {#benefits-of-using-smartsync}
 
-SmartSync功能为您的AEM Screens项目提供了许多好处。 它允许
+SmartSync功能可为您的AEM Screens项目提供以下几项好处：
 
-* 显着降低网络流量和服务器端存储需求
-* 仅当资产缺失或更改时，播放器才会智能地下载资产
-* 服务器端和客户端存储优化
+* 大大减少了网络流量和服务器端存储需求。
+* 仅当资产丢失或更改时，播放器才会智能地下载资产。
+* 服务器端和客户端存储优化。
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ SmartSync功能为您的AEM Screens项目提供了许多好处。 它允许
 
 | **平台** | **支持的播放器最低版本** |
 |---|---|
-| Android | 3.3.72 |
+| Android™ | 3.3.72 |
 | Chrome操作系统 | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -85,11 +81,11 @@ SmartSync功能为您的AEM Screens项目提供了许多好处。 它允许
 
 1. **Adobe Experience Manager Web控制台配置** 打开。 搜索 *offlinecontentservice*.
 
-   用于搜索 **Screens离线内容服务** 属性，按 **Command+F** 对象 **Mac** 和 **Control+F** 对象 **Windows**.
+   要搜索 **Screens离线内容服务** 属性，按 **Command+F** 对象 **Mac**、和 **Control+F** 对象 **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. 单击 **保存** 以启用 **Screens离线内容服务** 属性，因此使用SmartSync for AEM Screens。
-1. 启用SmartSync后，必须导航到您的项目并单击 **更新离线内容** *（从操作栏中），* 如下图所示。
+1. 启用SmartSync后，导航到您的项目并单击 **更新离线内容** *（从操作栏中），* 如下图所示。
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

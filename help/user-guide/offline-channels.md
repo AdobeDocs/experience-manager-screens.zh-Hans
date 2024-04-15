@@ -1,41 +1,37 @@
 ---
 title: 脱机渠道
-seo-title: Offline Channels
-description: AEM Screens播放器利用ContentSync技术为渠道提供离线支持。 按照此页面了解更多有关更新处理程序和启用渠道的脱机配置的信息。
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: 详细了解AEM Screens Player如何使用ContentSync技术为渠道提供离线支持。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '425'
+ht-degree: 0%
 
 ---
 
 # 脱机渠道 {#offline-channels}
 
-Screens播放器利用 ***ContentSync*** 技术。
+Screens播放器通过使用 ***ContentSync*** 技术。
 
 播放器使用本地http服务器来提供解压缩的内容。
 
-将渠道配置为运行时 *在线*，播放器通过访问AEM服务器来提供渠道资源，但渠道配置为运行时 *离线*，播放器会从本地http服务器提供渠道资源。
+将渠道配置为运行时 *在线*，播放器通过访问AEM服务器来提供渠道资源。 但是，当渠道配置为运行时 *离线*，播放器会从本地http服务器提供渠道资源。
 
-该进程的工作流如下所示：
+该进程的工作流如下：
 
-1. 解析所需页面
-1. 收集所有相关资源
-1. 将所有内容打包到zip文件中
-1. 下载zip文件并将其解压缩到本地
-1. 显示内容的本地副本
+1. 解析所需页面。
+1. 收集所有相关资源。
+1. 将所有内容打包到zip文件中。
+1. 下载zip文件并将其解压缩到本地。
+1. 显示内容的本地副本。
 
 ## 更新处理程序 {#update-handlers}
 
@@ -55,22 +51,22 @@ Screens播放器利用 ***ContentSync*** 技术。
    <td><strong>选项</strong></td> 
   </tr>
   <tr>
-   <td>渠道</td> 
+   <td><code>channels</code></td> 
    <td>收集渠道</td> 
    <td>扩展：要收集的资源的扩展<br /> [pathSuffix="]：要添加到渠道路径的后缀<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>收集指定的客户端库</td> 
    <td>[extension="]：可以是css或js，以仅收集前者，或仅收集后者</td> 
   </tr>
   <tr>
-   <td>asseditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>收集资源演绎版</td> 
    <td>[renditions=[]]：要收集的演绎版列表。 默认为原始演绎版</td> 
   </tr>
   <tr>
-   <td>复制</td> 
+   <td><code>copy</code></td> 
    <td>从路径复制指定的结构</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ Screens播放器利用 ***ContentSync*** 技术。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. 导航到渠道功能板并单击 **...** 在 **渠道信息** 用于更改属性的面板。
+1. 导航到渠道功能板。
+1. 单击 **...** 在 **渠道信息** 面板。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. 导航到渠道属性，并确保在 **渠道** 选项卡。 单击“**保存并关闭**”。
+1. 导航到渠道属性。
+1. 在(（渠道）)选项卡下，确保该复选框已禁用，然后单击 **保存并关闭**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 

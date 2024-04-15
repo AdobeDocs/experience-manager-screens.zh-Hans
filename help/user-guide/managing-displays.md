@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 显示器是彼此相邻放置的屏幕的虚拟分组。 该显示相对于安装是永久性的。 这是内容作者使用的对象，并始终引用为逻辑显示，而不是其物理计数器部分。
 
-创建位置后，必须创建位置的显示。
+在创建位置时，必须创建位置的显示。
 
 此页显示如何创建和管理屏幕显示。
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 >
 >**下一步**：
 >
->在为您的位置创建显示区时，必须为显示区分配一个渠道以使用内容。
+>在为您的位置创建显示区时，请为显示区分配一个渠道以使用内容。
 >
 >请参阅 [分配渠道](channel-assignment.md) 部分，以了解如何将渠道分配给显示。
 
@@ -74,11 +74,9 @@ ht-degree: 1%
 
 ![设备配置](assets/deviceconfig.gif)
 
-一旦将设备配置设置为您在该位置的显示屏，下一步就是为显示屏分配一个渠道。
-
 >[!NOTE]
 >
->一旦将设备配置设置为您在该位置的显示屏，下一步就是为显示屏分配一个渠道。
+>当设备配置设置为您在该位置的显示时，下一步是为您的显示分配一个渠道。
 >
 >如下图所示，如果设备配置在 **设备** 面板（如果未将渠道分配给该特定设备配置）。
 >

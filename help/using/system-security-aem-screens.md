@@ -1,10 +1,9 @@
 ---
 title: AEM Screens的安全核对清单
-description: 本页介绍了AEM Screens的安全核对清单。
-seo-description: The page describes Security Checklist for AEM Screens
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+description: 详细了解AEM Screens的安全核对清单。
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---

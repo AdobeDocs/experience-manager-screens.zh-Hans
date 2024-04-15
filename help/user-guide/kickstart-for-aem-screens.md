@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
    ![图像](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >创建项目后，您将返回到屏幕项目主页。 您现在可以选择您的项目。 在项目中，有五个标题为 **应用程序**， **渠道**， **设备**， **位置**、和 **时间表**.
+   >创建项目后，将返回到AEM Screens项目主页。 您现在可以选择您的项目。 在项目中，有五个标题为 **应用程序**， **渠道**， **设备**， **位置**、和 **时间表**.
 
 ### 创建渠道 {#creating-channel}
 
-创建AEM Screens项目后，必须创建一个用于管理内容的渠道。
+创建AEM Screens项目后，创建一个用于管理内容的渠道。
 
 请按照以下步骤为您的项目创建渠道：
 
@@ -146,7 +146,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 ### 分配渠道 {#assigning-channel}
 
-项目设置完成后，必须将渠道分配给显示区，以查看内容。
+项目设置完成后，将渠道分配给显示区，以查看内容。
 
 1. 从以下位置导航到所需的显示区 **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay**.
 
@@ -194,7 +194,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 >1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
 >1. 单击 **AEM Screens** 插件，以便您能够启动Chrome Player。 默认情况下，播放器将以全屏模式启动。 按 **Esc** 退出全屏模式。
 
-打开Chrome OS播放器后，请按照以下步骤注册Chrome设备。
+打开Chrome操作系统播放器后，请按照以下步骤注册Chrome设备。
 
 1. 导航至 **设备** 从AEM实例中删除项目文件夹。
 

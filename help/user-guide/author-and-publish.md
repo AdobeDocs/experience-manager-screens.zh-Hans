@@ -2,9 +2,9 @@
 title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此AEM Screens功能仅在您安装了AEM 6.4 Screens Feature Pack 2时才可用。 要访问此功能包，您必须联系Adobe支持部门并请求获取访问权限。 获得权限后，您可以从包共享下载它。
+>此AEM Screens功能仅在您安装了AEM 6.4 Screens Feature Pack 2时才可用。 要访问此功能包，请联系Adobe支持并请求获取访问权限。 获得权限后，您可以从包共享下载它。
 
 >[!IMPORTANT]
 >
->如果要将多个发布实例与Dispatcher一起使用，则必须更新Dispatcher。 请参阅 [启用粘性会话](dispatcher-configurations-aem-screens.md#enable-sticky-session) 以了解更多详细信息。
+>如果要对Dispatcher使用多个发布实例，请更新Dispatcher。 请参阅 [启用粘性会话](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## 配置作者和发布实例 {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 设置创作实例上的复制代理 {#setting-replication-agents}
 
-要创建复制代理，您必须了解如何创建标准复制代理。
+要创建复制代理，了解如何创建标准复制代理。
 
 Screens需要三个复制代理：
 

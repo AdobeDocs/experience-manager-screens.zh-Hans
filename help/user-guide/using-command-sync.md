@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 ### 正在与主要播放器同步 {#sync-up-primary}
 
-1. 将Chrome设备设置为主设备后，您可以同步其他设备（在本例中为Windows Player）以便与主设备同步。
-从中选择其他设备（在本例中为windows player） **设备** 面板并单击 **同步到主设备**，如下图所示。
+1. 将Chrome设备设置为主设备后，将另一设备（在本例中为Windows Player）同步到主设备。
+从中选择其他设备（在本例中为windows player） **设备** 面板并单击 **同步到主设备**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 正在与主要播放器取消同步 {#desync-up-primary}
 
-将一个或多个设备同步到主设备后，即可从该设备取消同步分配。
+将一个或多个设备同步到主设备后，可以从该设备取消同步分配。
 
 >[!NOTE]
 >

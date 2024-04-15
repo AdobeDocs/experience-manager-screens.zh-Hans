@@ -2,9 +2,9 @@
 title: AEM平台配置
 description: 本页介绍了AEM平台配置
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AE
 
    >[!NOTE]
    >
-   >此 `-strict -2` 必须是参数列表中的最后一个参数。 此外，在AEM 6.4中，您必须复制 */libs/settings/dam/video* 到 */conf/global/settings/dam/video* 如中所述 [视频演绎版](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >此 `-strict -2` 必须是参数列表中的最后一个参数。 此外，在AEM 6.4中，复制 */libs/settings/dam/video* 到 */conf/global/settings/dam/video* 如中所述 [视频演绎版](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. 验证是否正在进行视频转换以及是否正在创建演绎版。
 
 ## 密码限制 {#password-restrictions}

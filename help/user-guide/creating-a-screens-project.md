@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 查看属性 {#viewing-properties}
 
-创建屏幕项目后，选择该项目并单击 **属性** 从操作栏中编辑项目的属性。
+创建屏幕项目后，选择该项目并单击 **属性** 以编辑项目的属性。
 
 以下选项允许您编辑/更改的属性 **TestScreens**.
 

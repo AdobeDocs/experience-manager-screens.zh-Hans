@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 0%
    1. 选择&#x200B;**保存**。
 
       ![图像](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. 同样，您必须分配另外两个嵌入渠道(**`Zone1`** 和 **`Zone2`**)。
+   1. 同样，将其他两个嵌入渠道分配给(**`Zone1`** 和 **`Zone2`**)。
    1. 将三个渠道分配给 **大厅** ”时，您应该能够从“显示”功能板中查看分配的渠道。
 
       ![图像](/help/user-guide/assets/multi-zone/multizone-img8.png)

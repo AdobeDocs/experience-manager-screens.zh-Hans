@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
    >
    >此 **分配显示区** 允许您将设备直接添加到显示区。
 
-   如果您单击 **完成**，则必须将设备分配给显示。
+   如果您单击 **完成**，将设备分配给显示。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 ## 从设备管理器中搜索设备 {#search-device}
 
-将设备注册到播放器后，即可从设备管理器UI中查看所有设备。
+当您将设备注册到播放器后，可以从设备管理器UI中查看所有设备。
 
 1. 例如，从AEM Screens项目导航到设备管理器UI， **DemoScreens** > **设备**.
 

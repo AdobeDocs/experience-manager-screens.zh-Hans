@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ ht-degree: 0%
 
 ### 渠道和设备重新分配： {#channel-and-device-re-assignment}
 
-如果重新分配了设备，则一旦将设备重新分配给新显示，就必须发布初始显示和新显示。
+如果重新分配了设备，则在将该设备重新分配给新显示时，发布初始显示和新显示。
 
-同样，如果重新分配了渠道，在将渠道重新分配给新显示后，您必须发布初始显示和新显示。
+同样，如果重新分配了渠道，在将渠道重新分配给新显示后，发布初始显示和新显示。

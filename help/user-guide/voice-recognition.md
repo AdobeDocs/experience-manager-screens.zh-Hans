@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 > 语音识别功能仅在Chrome OS和Windows播放器上可用。
 
-要在AEM Screens项目中实施语音识别，必须为显示屏启用语音识别，并将每个渠道与唯一标记关联以触发渠道过渡。
+要在AEM Screens项目中实施语音识别，请启用显示器的语音识别，并将每个渠道与唯一标记关联以触发渠道过渡。
 
 以下部分介绍如何在AEM Screens项目中启用和使用语音识别功能。
 

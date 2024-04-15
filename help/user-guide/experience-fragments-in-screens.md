@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    >[!NOTE]
    >
-   >创建屏幕片段后，您可以编辑片段的属性。 选择片段并单击 **属性** 从操作栏中。
+   >创建AEM Screens片段后，可以编辑片段的属性。 选择片段并单击 **属性** 从操作栏中。
 
    **编辑屏幕片段的属性**
 

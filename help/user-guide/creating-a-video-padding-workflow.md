@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 创建视频填充工作流 {#creating-a-video-padding-workflow-1}
 
-要创建视频填充工作流，您必须为视频创建工作流，然后在AEM Screens项目渠道中使用相同工作流。
+要创建视频填充工作流，请为视频创建工作流，然后在AEM Screens项目渠道中使用相同工作流。
 
 请按照以下步骤创建并使用工作流：
 

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->在分配设备之前，必须先注册该设备。 有关更多信息，请参阅 [设备注册](device-registration.md).
+>在分配设备之前，请先注册该设备。 请参阅 [设备注册](device-registration.md).
 
 ## 设备分配 {#device-assignment}
 
@@ -69,6 +69,4 @@ ht-degree: 1%
 
 ### 后续步骤 {#the-next-steps}
 
-熟悉如何为显示分配渠道后，请参阅以下资源：
-
-* [监控和故障排除](monitoring-screens.md)
+熟悉将渠道分配给显示后，请参阅[监控和故障排除](monitoring-screens.md).

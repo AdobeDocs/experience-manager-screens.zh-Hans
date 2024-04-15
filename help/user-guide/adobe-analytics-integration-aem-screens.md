@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要访问这两个功能包中的任何一个，您必须联系Adobe支持部门并请求获取访问权限。 您可以从以下网站下载AEM Screens的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
+>要访问任何这些功能包，请与Adobe支持联系并请求获取访问权限。 您可以从以下网站下载AEM Screens的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
 
 本节涵盖以下主题：
 

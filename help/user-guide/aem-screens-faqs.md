@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ AEM Screens为产品使用的查询创建索引定义。
 
 ### 3.配置v3清单需要什么？ {#configure-v3}
 
-要启用v3清单，您必须：
+要启用v3清单，请执行以下操作：
 
 * 更新Dispatcher。
 请参阅 [为清单版本v3配置Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) 以了解更多详细信息。

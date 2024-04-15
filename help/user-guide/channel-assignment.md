@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1174'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >此部分重点介绍低于AEM 6.5.5 Screens版本的功能包的渠道分配和计划。
 
-设置显示后，必须为显示分配渠道以查看您的内容。
+设置显示后，将渠道分配给显示以查看您的内容。
 
 本页显示分配渠道给显示区。
 
