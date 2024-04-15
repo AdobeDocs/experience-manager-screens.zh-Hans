@@ -1,23 +1,21 @@
 ---
-title: 的UX依赖关系 [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: 该指南介绍了以下对象的UX依赖关系： [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: AEM Screens的UX依赖项
+description: 了解有关AEM Screens的UX依赖项的更多信息。
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
-# UX 依赖关系 {#ux-dependencies}
+# UX依赖关系 {#ux-dependencies}
 
 >[!NOTE]
 >
->此活动的典型利益相关者是营销/业务策略专家。
+>此活动的典型利益相关者是营销/业务策略师。
 
-UX依赖项定义内容战略化的位置和方式，以便产生最大的影响力。
+UX依赖项定义内容的战略化位置和方式，以便最具影响力。
 
 在定义硬件内容策略时，应考虑以下问题：
 
@@ -27,8 +25,8 @@ UX依赖项定义内容战略化的位置和方式，以便产生最大的影响
 
 1. 数字标牌的用途是什么？
 
-   * 它是用于产品配置吗？
-   * 是找路的吗？
+   * 是否用于产品配置？
+   * 是找路吗？
    * 它是否显示广告？
 
 1. 如何设置连接和网络布线？
@@ -37,6 +35,6 @@ UX依赖项定义内容战略化的位置和方式，以便产生最大的影响
 
 1. 夹具设计是否支持辅助功能？
 
-1. 一台显示器是否需要多台设备（例如，多区域、超大型主板）？
+1. 一个显示器是否需要多个设备（例如，多区域、超大型板）？
 
-1. 什么是环境考虑因素，例如亮度、温度和季节？
+1. 什么是环境因素，例如亮度、温度和季节？

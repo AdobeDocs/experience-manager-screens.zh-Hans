@@ -1,21 +1,21 @@
 ---
 title: 功能包202112发行说明
-description: 请阅读本页，了解有关2022年1月12日发布的AEM Screens功能包202112的信息。
+description: 进一步了解2022年1月12日发布的AEM Screens功能包202112。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '315'
+ht-degree: 3%
 
 ---
 
 # 功能包202112发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
 
 ## 可用性 {#availability}
 
@@ -29,7 +29,7 @@ AEM Screens功能包202112的发布日期是2022年1月12日。
 
 ### 新增功能 {#what-is-new}
 
-* Android应用程序更新现在针对Android 11（API级别30）。 目前，Android播放器处于Target API级别29。
+* Android™应用程序更新现在针对Android™ 11（API级别30）。 目前，Android™播放器处于Target API级别29。
 
 * 显示预览在前一个播放器配置上卡住
 
@@ -37,7 +37,7 @@ AEM Screens功能包202112的发布日期是2022年1月12日。
 
 * 修复SmartSync中的并发下载错误
 
-* 作为开发人员，您现在将查看仅作为清单中相应资产下的演绎版条目列出的资产演绎版，以确保清单处理的可扩展性、清晰性和便利性。
+* 作为开发人员，请查看您只希望作为演绎版条目列在清单中相应资产下的资产演绎版，以确保清单处理的可扩展性、清晰性和易用性。
 
 ### 错误修复 {#bug-fixes}
 
@@ -57,16 +57,16 @@ AEM Screens功能包202112的发布日期是2022年1月12日。
 
 * 修复SmartSync中的并发下载错误。
 
-### 已发布的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players
 
 已为AEM 6.5 Feature Pack 10发布以下AEM Screens Player：
 
 * Chrome OS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**.

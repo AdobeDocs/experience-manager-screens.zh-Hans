@@ -1,22 +1,18 @@
 ---
 title: 创建视频填充工作流
-seo-title: Creating a Video Padding Workflow
-description: 请按照此页面了解如何在资源的工作流中创建视频边距。
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: 详细了解如何在工作流程中为资源创建视频边距。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ ht-degree: 0%
 
 以下用例涉及在显示为1920 x 1080的通道中放置视频（示例：1280 x 720）并将视频放置在0x0（左上）处。 不应以任何方式拉伸或修改视频，也不得使用 **封面** 在视频组件中。
 
-视频将作为对象显示，从像素1到像素1280，从像素1到像素720，其余通道将为默认颜色。
+该视频在像素1至像素1280的横向显示和从像素1至像素720的纵向显示作为对象，并且通道的其余部分为缺省颜色。
 
 ## 先决条件 {#prerequisites}
 
@@ -61,7 +57,9 @@ ht-degree: 0%
 
 请按照以下步骤为您的视频创建工作流：
 
-1. 导航到AEM实例，然后单击侧边栏中的工具。 选择 **工作流** > **模型** 以创建新模型。
+1. 导航到您的AEM实例。
+1. 单击侧边栏中的工具。
+1. 选择 **工作流** > **模型** 这样就可以创建一个模型。
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -73,27 +71,27 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. 拖放 **命令行** 组件添加到工作流。
+1. 拖放 **`Command Line`** 组件添加到工作流。
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. 选择 **命令行** 组件并打开属性对话框。
+1. 选择 **`Command Line`** 组件并打开属性对话框。
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. 选择 **参数** 选项卡，以输入 **命令行 — 步骤属性** 对话框。
-
-   在 **Mime类型** (如 ***video/mp4***)和命令为(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920：height=1080：x=0：y=0：color=black&quot; cq5dam.video.fullhd-hp.mp4***)以在 **命令** 字段。
+1. 选择 **参数** 选项卡。
+1. 在 **命令行 — 步骤属性** 对话框中，在 **Mime类型** (如 ***video/mp4***)和命令为(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920：height=1080：x=0：y=0：color=black&quot; cq5dam.video.fullhd-hp.mp4***)。 此命令启动工作流于 **命令** 字段。
 
    有关详细信息，请参阅 **Mime类型** 和 **命令** ，如下所述。
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. 选择工作流(**VideoRenditions**)，然后单击 **启动工作流** 以打开 **运行工作流** 对话框。
+1. 选择工作流(**VideoRenditions**)。
+1. 单击 **启动工作流** 从操作栏中。
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. 在中选择资源的路径 **有效负荷** (如 ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)并输入 **标题** 作为 ***RunVideo*** 并单击 **运行**.
+1. 在 **运行工作流** 对话框中，选择资源的路径 **有效负荷** (如 ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***)并输入 **标题** 作为 ***RunVideo*** 并单击 **运行**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 

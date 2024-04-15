@@ -1,12 +1,10 @@
 ---
 title: 设备规格
-seo-title: Device Specifications
-description: 本页介绍了设备规格
-seo-description: The page describes device specifications
+description: 详细了解与AEM Screens相关的设备规范。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 * 播放器是否需要连接Internet才能将屏幕与AEM服务器同步？
 
-* 何时将更新播放器上的内容？
+* 播放器上的内容何时更新？
 
 * 如果您运行的是视频，请确保您了解设备的规格，以便正确显示内容。
 
@@ -40,4 +38,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->验证所选硬件的规格也很重要，以确保其能够支持正在开发的应用程序。 例如，如果应用程序打算同时运行五个高清视频，硬件是否支持它？
+>验证所选硬件的规格也很重要，以确保其能够支持正在开发的应用程序。 例如，如果应用程序要同时运行五个高清视频，硬件是否支持它？

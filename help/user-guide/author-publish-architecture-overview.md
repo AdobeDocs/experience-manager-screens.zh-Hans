@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -108,4 +108,4 @@ AEM Screens架构类似于传统的AEM Sites架构。 内容是在AEM创作实�
 
 ### 后续步骤 {#the-next-steps}
 
-了解AEM Screens中创作和发布设置的架构设计后，请参阅 [为AEM Screens配置创作和发布](author-and-publish.md) 以了解更多详细信息。
+当您了解AEM Screens中创作和发布设置的架构设计时，请参阅 [为AEM Screens配置创作和发布](author-and-publish.md) 以了解更多详细信息。

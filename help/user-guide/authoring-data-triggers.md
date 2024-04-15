@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 1. **[设置数据存储](configuring-context-hub.md)**
 1. **[设置受众分段](configuring-context-hub.md)**
 
-完成上述步骤后，您便可以在渠道中启用定位。
+完成上述步骤后，便可在渠道中启用定位。
 
 ## 使用Data Triggers创作概述 {#author-targeting}
 

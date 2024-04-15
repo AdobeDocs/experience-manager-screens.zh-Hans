@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >
 >此部分重点介绍AEM 6.5.5 Screens功能包及更高版本的渠道分配和计划。
 
-设置显示后，必须为显示分配渠道以查看您的内容。
+设置显示后，将渠道分配给显示以查看您的内容。
 
 本页显示将渠道分配给显示器、了解渠道属性以及日期分隔。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 ### 在Chrome播放器中查看内容 {#viewing-content-output}
 
-此示例在Chrome播放器上展示了输出。 将渠道分配给显示区后，必须为播放器注册该设备。
+此示例在Chrome播放器上展示了输出。 将渠道分配给显示区后，请将设备注册到播放器。
 
 要了解如何在AEM Screens播放器上注册设备，请参阅 [设备注册](device-registration.md).
 

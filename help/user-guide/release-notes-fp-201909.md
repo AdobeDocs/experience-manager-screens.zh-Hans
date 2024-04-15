@@ -1,13 +1,13 @@
 ---
 title: 功能包201909发行说明
-description: AEM Screens Feature Pack 201909发行说明，2019年7月31日发布。
+description: 进一步了解2019年7月31日发布的AEM Screens功能包201909。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 AEM Screens发布了AEM 6.4.6功能包6和AEM 6.5.2功能包2，其中包含以下详细信息。
 

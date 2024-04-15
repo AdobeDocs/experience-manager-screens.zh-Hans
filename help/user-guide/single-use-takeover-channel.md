@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # 单次使用接管渠道 {#single-use-takeover-channel}
 
 以下页面展示了一个用例，重点介绍如何设置一个项目，介绍如何创建一个在特定时间内播放一次的Single TakeOver渠道。
-
 
 ## 用例描述 {#use-case-description}
 

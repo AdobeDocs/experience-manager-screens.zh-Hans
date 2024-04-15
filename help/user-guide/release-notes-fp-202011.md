@@ -1,21 +1,21 @@
 ---
 title: 功能包202011发行说明
-description: “关注此页面，以获取2020年11月30日发布的AEM Screens功能包202011的信息。”
+description: 详细了解2020年11月30日发布的AEM Screens功能包202011。
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 3%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
 # 功能包202011发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 Screens提供对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
 
 ## 可用性 {#availability}
 
@@ -49,16 +49,16 @@ AEM Screens功能包202011的发布日期为2020年11月30日。
 
   在此版本中，默认的ping间隔现在设置为30秒。
 
-### 已发布的AEM Screens Players {#released-aem-screens-players}
+### 已发布的AEM Screens Players
 
 已为AEM 6.5 Feature Pack 6发布以下AEM Screens Player：
 
 * Chrome操作系统
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### AEM Screens播放器下载  {#aem-screens-player-downloads}
+#### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/index.html)**.
