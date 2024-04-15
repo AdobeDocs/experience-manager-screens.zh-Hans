@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1126'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 1%
 
 根据项目要求，有时您需要在一个渠道中拥有多个区域，并将它们编辑为一个完整的单元。 例如，在单个渠道的三个独立区域中运行的具有相关社交媒体馈送的产品序列。
 
+>[!NOTE]
+>在多区域渠道中，由于潜在的冲突和意外行为，不建议进行资产级计划。 如果需要进行资产级计划，建议创建一个单独的序列渠道并在该渠道中应用计划逻辑。 接下来，将序列通道嵌入到多区域通道中。
 
 ### 先决条件 {#prerequisites}
 
