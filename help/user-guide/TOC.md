@@ -4,14 +4,14 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 帮助
 breadcrumb-title: AEM Screens 指南
-user-guide-description: 了解如何使用数字标牌解决方案，该解决方案允许您发布动态的交互式数字体验和交互。
+user-guide-description: 了解如何使用数字标牌解决方案，让您发布动态的交互式数字体验与交互内容。
 feature-set: Experience Manager Screens
 feature: Content
 role: User
 source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
