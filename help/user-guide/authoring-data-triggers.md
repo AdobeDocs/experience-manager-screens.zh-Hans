@@ -1,14 +1,13 @@
 ---
 title: 使用Data Triggers创作
-seo-title: Authoring with Data Triggers
-description: 按照此页面了解如何使用数据触发器创作。
+description: 详细了解如何在AEM Screens渠道中使用数据触发器进行创作。
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -50,11 +49,11 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 选择 **个性化** 选项卡以设置ContextHub配置并选择ContextHub和区段路径。
+1. 选择 **个性化** 选项卡，以便您可以设置ContextHub配置并选择ContextHub和区段路径。
 
    1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并单击 **选择**.
 
-   1. 选择 **区段路径** 作为 **会议** > **We.Retail** > **设置** > **wcm** > **区段** 并单击 **选择**.
+   1. 选择 **区段路径** 作为 **会议** > **`We.Retail`** > **设置** > **wcm** > **区段** 并单击 **选择**.
 
    1. 单击“**保存并关闭**”。
 
@@ -68,7 +67,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果一切设置正确，您将看到 **定位** 选项，如下图所示。
+   >如果一切设置正确，您会看到 **定位** 选项，如下图所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

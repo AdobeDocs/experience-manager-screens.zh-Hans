@@ -2,10 +2,10 @@
 title: 关于本指南
 description: 了解AEM Screens项目计划和执行项目的最佳实践，从战略和设计简报到部署和支持后。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 34%
+source-wordcount: '255'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ AEM Screens“最佳实践指南”旨在提供有关如何成功规划和执行
 本文档的目标受众是：
 
 * *AEM 实施人员*
-* *AV 集成人员*
+* *音频/视频集成器*
 * *业务策划师*
 * *项目经理*
 * *顾问*

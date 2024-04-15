@@ -2,9 +2,9 @@
 title: 先决条件 [!UICONTROL AEM Screens]
 description: 了解在开始AEM Screens项目之前的先决条件。
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 * **[AEM Screens Implement Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**：提供指导教程，重点介绍AEM Screens实施的最重要方面。
 
-* **[关于数字标牌网络基础知识的视频](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**：提供五个基本视频，重点介绍A/V、数字标牌硬件、标牌网络以及与A/V集成商合作的关键要素。
-   * *[第1部分：项目角色和职责](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*：重点介绍旨在帮助团队成员更好地了解角色、责任和时间线的五部分系列的第1部分。 在数字标牌项目的销售和项目生命周期中，需要满足这些要求。 从较高层面涵盖Adobe、AEM实施人员和AV集成人员的项目角色和职责。
+* **[关于数字标牌网络基础知识的视频](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**：提供五个基本视频，重点介绍有关音频/视频、数字标牌硬件、标牌网络以及与Audio/Video集成商合作的关键要素。
+   * *[第1部分：项目角色和职责](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*：重点介绍旨在帮助团队成员更好地了解角色、责任和时间线的五部分系列的第1部分。 在数字标牌项目的销售和项目生命周期中，需要满足这些要求。 从较高层面涵盖Adobe、AEM实施人员和音频/视频集成商的项目角色和职责。
    * *[第2部分：关于项目适用范围的注意事项](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)*：重点介绍了第2部分（共5部分），旨在帮助团队成员更好地了解成功开发AEM Screens部署的售前环节。 涵盖了在项目发现过程中必须识别的元素以及利益相关者为评估项目和准备适当设计而提供的投入。
    * *[第3部分：测试、概念验证、试点和推广](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*：重点介绍了旨在帮助团队成员更好地了解关键术语的5部分系列的第3部分。 这些术语对于确保在推出之前开发成功的解决方案至关重要。 涵盖与硬件实验室测试和性能验证、概念验证（也称为POC）和试点计划相关的操作。
-   * *[第4部分：项目管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：重点介绍旨在涵盖项目管理和部署准备的5部分系列的第4部分。 它还定义了AV Integrator在项目管理和部署准备方面负责的关键因素。 包括项目预生产、项目启动和项目进度。
+   * *[第4部分：项目管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：重点介绍旨在涵盖项目管理和部署准备的5部分系列的第4部分。 它还界定了音频/视频集成商在项目管理和部署准备方面负责的关键因素。 包括项目预生产、项目启动和项目进度。
    * *[第5部分：支持注意事项](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*：重点介绍一个包含5个部分的系列的结尾部分，旨在帮助团队成员了解如何解决硬件、软件和连接问题。 本阶段探讨现场支持的成本估算和框架。 还介绍了SLA参数、运营预算和NOC移交的管理方式。

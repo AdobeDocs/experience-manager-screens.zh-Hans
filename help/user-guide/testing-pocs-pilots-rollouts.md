@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 ### 概念验证(POC) {#proof-of-concept-poc}
 
-POC的目的在于获得有关解决方案关键功能的初始反馈。 它还使最终客户和AV Integrator有机会确定需要改进的领域并准备有关劳动力需求和资源需求的假设。 POC还允许双方评估解决方案的性能，通常通过以下方式进行测量：
+POC的目的在于获得有关解决方案关键功能的初始反馈。 它还使最终客户和音频/视频集成商都有机会确定需要改进的领域并准备有关劳动力需求和资源需求的假设。 POC还允许双方评估解决方案的性能，通常通过以下方式进行测量：
 
 ### 质量控制 {#quality-control}
 
-系统和软件集成测试从AV Integrator的IT工程团队开始。 IT工程团队参考经批准的系统设计，在AV集成商设施的“实验室环境”中配置、实施和监督硬件组件的安装。 这允许针对质量控制对整个解决方案进行仔细审查和测试。
+系统和软件集成测试从音频/视频集成商的IT工程团队开始。 IT工程团队参考经批准的系统设计，在音频/视频集成器的“实验室环境”中配置、实施和监督硬件组件的安装。 这允许针对质量控制对整个解决方案进行仔细审查和测试。
 
 QC测试完成后，IT工程团队会创建文档、工作流和培训，以供在第2天支持期间参考。 要测试的系统方面包括：
 

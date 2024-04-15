@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 * 内容策略
 * 业务运营要求
 * IT和网络环境发现
-* AV要求
+* 音频/视频要求
 * 设备规格
 * 站点就绪性
 
@@ -67,7 +67,7 @@ I/O基于感测受众邻近度驱动有条件地播放内容。 例如，当传�
 
 在“内容战略”对话中，业务运营也非常重要地需要定义。 将最终客户的支持需求正规化有助于在部署后管理期望，确保支持工作得到适当衡量。
 
-### A/V要求 {#a-v-requirements}
+### 音频/视频要求 {#a-v-requirements}
 
 安装方案还需要定义，设备维护中有关设备访问的考虑事项也需要定义。 这不仅影响初始安装人力和设备建议，还决定持续的服务和支持需求。
 

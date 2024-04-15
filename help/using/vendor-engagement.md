@@ -2,7 +2,7 @@
 title: 供应商参与
 description: 了解AEM Screens最佳实践指南的供应商参与度。
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 供应商参与 {#vendor-engagement}
 
 >[!NOTE]
->此活动的典型利益相关者是A/V集成商。
+>本活动的典型利益相关者是音频/视频集成商。
 
 在本练习中，请务必确定组装和提供网络和任何合作伙伴依赖项所需的所有关键供应商：
 

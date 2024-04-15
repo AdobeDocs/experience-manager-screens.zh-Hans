@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 请按照以下步骤在Chrome播放器中配置名称：
 
-1. 您可以选择允许AV集成商或IT管理员在企业注册过程中设置资产ID和位置。
+1. 您可以选择允许音频/视频集成商或IT管理员在企业注册过程中设置资产ID和位置。
 
    ![图像](/help/user-guide/assets/chrome-device/chrome1.png)
 
