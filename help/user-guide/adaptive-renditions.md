@@ -2,10 +2,10 @@
 title: 自适应演绎版架构概述和配置
 description: 了解AEM Screens中自适应演绎版的CRXDE Lite中的架构概述和配置。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -58,11 +58,11 @@ ht-degree: 2%
 按照以下步骤在“节目映射”下添加节点：
 
 1. 导航到此路径 `/conf/screens/sling:configs/rendition-mapping` 从 **CRXDE Lite**.
-1. 在下创建节点 **演绎版映射**. 右键单击 **演绎版映射** 并单击 **创建** > **创建节点**，如下图所示。
+1. 在下创建节点 **演绎版映射**. 右键单击 **演绎版映射** 并选择 **创建** > **创建节点**，如下图所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 输入 **名称** 的映射规则，例如 **规则1** 和节点 **类型** 作为 **`nt:unstructured`** 在 **创建节点** 对话框。 单击&#x200B;**确定**。
+1. 输入 **名称** 的映射规则，例如 **规则1** 和节点 **类型** 作为 **`nt:unstructured`** 在 **创建节点** 对话框。 选择 **确定**.
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ ht-degree: 2%
    >[!NOTE]
    >请参阅 [使用媒体查询语法](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 了解更多信息。
 
-   单击 **规则1** 创建，然后输入 **表达式** 在 **名称** 和 **(orientation：landscape)** 在 **值**，如下所示。 单击 **添加**.
+   选择 **规则1** 创建，然后输入 **表达式** 在 **名称** 和 **(orientation：landscape)** 在 **值**，如下所示。 选择&#x200B;**添加**。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ ht-degree: 2%
    >[!NOTE]
    >pattern属性中定义的值与新资源演绎版匹配，如果表达式被计算为true，则选中该值。
 
-   要添加模式属性，请单击 **规则1** 创建，然后输入 **模式** 在 **名称** 和 **横向** 在 **值**，如下所示。 单击 **添加**.
+   要添加pattern属性，请选择 **规则1** 创建，然后输入 **模式** 在 **名称** 和 **横向** 在 **值**，如下所示。 选择&#x200B;**添加**。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. 单击 **全部保存** 并注意您在下创建的节点下的属性 **演绎版映射**.
+1. 选择 **全部保存** 并注意您在下创建的节点下的属性 **演绎版映射**.
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

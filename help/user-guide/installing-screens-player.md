@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -28,8 +28,8 @@ AEM Screens播放器适用于Android™、Chrome OS和Windows。
 >下载最新播放器后(*.exe*)，按照播放器上的步骤操作，以完成临时安装：
 >
 >1. 长按左上角以打开管理面板。
->1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并单击 **保存**.
->1. 单击 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
+>1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并选择 **保存**.
+>1. 选择 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
 
 ## 基本回放监控 {#playback-monitoring}
 

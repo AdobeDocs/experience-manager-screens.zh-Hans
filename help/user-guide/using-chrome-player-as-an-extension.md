@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ ht-degree: 0%
 
 有关将Chrome播放器作为浏览器扩展进行安装的信息，请参阅此页面。
 
-1. 单击 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
+1. 选择 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
 
 1. 解压缩并将其保存在磁盘上。
 
-1. 打开Chrome浏览器，单击3个圆点菜单并选择 **更多工具** 从 **扩展** 或直接导航到 `chrome://extensions`.
+1. 打开Chrome浏览器，选择3个圆点菜单，然后选择 **更多工具** 从 **扩展** 或直接导航到 `chrome://extensions`.
 
 1. 打开 **开发人员** 模式从右上角。
 
-1. 单击 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
+1. 选择 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
 
 1. 如果扩展列表中有AEM Screens Chrome播放器插件，请选中该插件。
 
-1. 打开新选项卡，然后单击左上角的“应用程序”图标，或直接导航到 `chrome://apps`.
+1. 打开新选项卡，然后从左上角选择应用程序图标，或直接导航到 `chrome://apps`.
 
-1. 单击 **AEM Screens插件** 以便您启动Chrome播放器。
+1. 选择 **AEM Screens插件** 以便您启动Chrome播放器。
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ ht-degree: 0%
 1. 重命名包含播放器文件的旧文件夹
 1. 在与旧文件夹相同的位置解压缩新的zip文件
 1. 启动Chrome并导航到 `chrome://extensions`
-1. 选中播放器图标，然后单击刷新或重新加载按钮
+1. 选中播放器图标并选择刷新或重新加载按钮

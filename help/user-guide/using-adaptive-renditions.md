@@ -2,7 +2,7 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 了解如何在AEM Screens中使用自适应演绎版。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -35,12 +35,12 @@ ht-degree: 0%
 1. 导航至 **资产** AEM文件夹。
 1. 创建更适合标牌显示的资源版本，例如， `seahorse.jpg`.
 1. 选择演绎版命名模式，例如`landscape`，与中定义的内容类似 **模式** 中的属性 **CRXDE Lite**. 请参阅 [添加节目映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) 以了解更多详细信息。
-1. 单击 **添加节目** 上传节目，如下图所示。
+1. 选择 **添加节目** 上传节目，如下图所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
 1. 选择重命名后的资源文件。 要添加的演绎版必须包含模式（在步骤3中定义），例如， `seahorse-landscape.png`.
-1. 添加资产后，选择资产并单击 **管理发布** 以发布资产。
+1. 添加资产后，选择资产并选择 **管理发布** 以发布资产。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

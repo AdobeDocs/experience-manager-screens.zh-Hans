@@ -2,7 +2,7 @@
 title: AEM Screens中对视频的缩略图支持
 description: 了解如何在AEM Screens中为视频添加缩略图支持。
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 导航到现有AEM Screens渠道或创建渠道。
 
-1. 选择渠道并单击 **编辑** 从操作栏中。
+1. 选择渠道并选择 **编辑** 从操作栏中。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 

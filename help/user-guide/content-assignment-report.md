@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 1. 导航到您的AEM Screens项目并选择该项目 **DemoScreens**.
 
-1. 单击 **内容分配报表** 从操作栏中。
+1. 选择 **内容分配报表** 从操作栏中。
 
    ![图像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ ht-degree: 2%
    >[!NOTE]
    >电子表格中显示的数据按字母顺序排序，格式易读。
 
-1. 单击中的任意渠道 **渠道** 列打开 **内容** 选项卡。 反过来，它会将您直接导航到该渠道，并为您提供与该特定渠道关联的资产（图像和视频）信息。
+1. 从中选择任意渠道 **渠道** 列打开 **内容** 选项卡。 反过来，它会将您直接导航到该渠道，并为您提供与该特定渠道关联的资产（图像和视频）信息。
 
    ![图像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

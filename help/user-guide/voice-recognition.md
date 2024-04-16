@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -57,7 +57,7 @@ ht-degree: 2%
 
    ![图像](assets/voice-recognition/vr-emb-1.png)
 
-1. 导航到每个渠道并添加内容。 例如，导航到 **语音演示** > **渠道** > **主要** 并选择渠道。 单击 **编辑** 之后，根据您的要求添加内容（图像/视频）。 同样，将内容添加到两者 **冷饮** 和 **热饮** 渠道。
+1. 导航到每个渠道并添加内容。 例如，导航到 **语音演示** > **渠道** > **主要** 并选择渠道。 选择 **编辑** 之后，根据您的要求添加内容（图像/视频）。 同样，将内容添加到两者 **冷饮** 和 **热饮** 渠道。
 
    渠道现在包含资产（图像），如下图所示。
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 1. 导航到每个渠道并添加内容。 例如，导航到 **语音演示** > **渠道** > **主要** 并选择渠道。
 
-1. 单击 **属性** 从操作栏中。
+1. 选择 **属性** 从操作栏中。
 
    ![图像](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
    ![图像](assets/voice-recognition/vr-emb-7.png)
 
-1. 单击 **保存并关闭** 等你完事了。
+1. 选择 **保存并关闭** 等你完事了。
 
 
 ### 创建标记 {#creating-tags}
@@ -116,18 +116,18 @@ ht-degree: 2%
 
 1. 导航到您的AEM实例。
 
-1. 单击工具图标> **标记**.
+1. 选择工具图标> **标记**.
    ![图像](assets/voice-recognition/vr-7.png)
 
-1. 单击 **创建** > **创建命名空间**.
+1. 选择 **创建** > **创建命名空间**.
    ![图像](assets/voice-recognition/vr-tag3.png)
 
-1. 输入项目的名称，例如， **语音演示** 并单击 **创建**.
+1. 输入项目的名称，例如， **语音演示** 并选择 **创建**.
 
-1. 选择 **语音演示** 项目并单击 **创建标记** 从操作栏中。
+1. 选择 **语音演示** 项目并选择 **创建标记** 从操作栏中。
    ![图像](assets/voice-recognition/vr-tag4.png)
 
-1. 输入标记的名称，然后单击 **提交**.
+1. 输入标记的名称，然后选择 **提交**.
    ![图像](assets/voice-recognition/vr-tag5.png)
 
 现在，您可以在您的AEM Screens项目中使用这些标记。

@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 选择设备(**NewTestDevice**)，然后单击 **仪表板** 从操作栏中。
+1. 选择设备(**NewTestDevice**)并选择 **仪表板** 从操作栏中。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 您可以从设备查看播放器屏幕截图 **播放器屏幕截图** 面板。
 
-单击(**...**)，然后选择 **刷新屏幕快照** 查看正在运行的播放器的快照。
+选择(**...**)，然后选择 **刷新屏幕快照** 查看正在运行的播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 1. 导航到 **Adobe Experience Manager Web 控制台配置**，即 `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
 1. **选中 allow.empty** 选项。
-1. 单击&#x200B;**保存**。
+1. 选择&#x200B;**保存**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 观看视频：
 
 1. 导航到您的视频，例如 `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 单击视频，展开左上角的菜单，然后单击 **节目**.
+1. 选择视频，展开左上角的菜单，然后选择 **节目**.
 
 应存在不同的演绎版（MP4或M4V）。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >如果没有格式副本，请确保在运行AEM的操作系统上安装了ffmpeg。
 >
->单击 [此处](https://www.ffmpeg.org/download.html) 以安装ffmpeg。
+>选择 [此处](https://www.ffmpeg.org/download.html) 以安装ffmpeg。
 
 ## 视频资产 {#video-assets}
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 ### 正在检查视频配置文件 {#checking-video-profile}
 
-1. 导航至 **视频配置文件**，即， `http://localhost:4502/etc/dam/video.html` 并单击 **上传测试视频**.
+1. 导航至 **视频配置文件**，即， `http://localhost:4502/etc/dam/video.html` 并选择 **上传测试视频**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 上传测试视频并单击 **确定** 这样你就可以开始转码了。
+1. 上传测试视频并选择 **确定** 这样你就可以开始转码了。
 
    如果转码视频失败，请展开ffmpeg输出以了解ffmpeg控制台输出中的任何错误。
 

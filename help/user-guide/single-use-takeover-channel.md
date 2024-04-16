@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![资产](assets/single-takeover2.png)
 
-1. 选择 **MainAdChannel** 并单击 **编辑** 从操作栏中。 将某些资产（图像、视频、嵌入式序列）拖放到渠道中。
+1. 选择 **MainAdChannel** 并选择 **编辑** 从操作栏中。 将某些资产（图像、视频、嵌入式序列）拖放到渠道中。
 
    ![资产](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 创建 **接管** 接收中内容的渠道 **MainAdChannel** 并且仅在特定的日期和时间播放。
 
-1. 选择 **接管** 并单击 **编辑** 从操作栏中。 将一些资产拖放到您的渠道中。 以下示例展示了添加到此渠道的单个区域图像。
+1. 选择 **接管** 并选择 **编辑** 从操作栏中。 将一些资产拖放到您的渠道中。 以下示例展示了添加到此渠道的单个区域图像。
 
    ![资产](assets/single-takeover4.png)
 
@@ -72,20 +72,20 @@ ht-degree: 0%
 
 **将渠道分配给显示**
 
-1. 选择显示区 **MainLobbyDisplay** 从 **位置** 文件夹。 单击 **分配渠道** 从操作栏中。
+1. 选择显示区 **MainLobbyDisplay** 从 **位置** 文件夹。 选择 **分配渠道** 从操作栏中。
 
    ![资产](assets/single-takeover6.png)
 
    >[!NOTE]
    >要了解如何将渠道分配给显示，请参阅 **[渠道分配](channel-assignment.md)**.
 
-1. 填充字段(**渠道路径**， **优先级**、和 **受支持的事件**)中的 **渠道分配** 对话框，然后单击 **保存**. 您现在已分配 **MainAdChannel** 到您的显示区。
+1. 填充字段(**渠道路径**， **优先级**、和 **受支持的事件**)中的 **渠道分配** 对话框并选择 **保存**. 您现在已分配 **MainAdChannel** 到您的显示区。
 
    ![资产](assets/single-takeover7.png)
 
-1. 选择显示区 **接管** 从 **位置** 文件夹。 单击 **分配渠道** 操作栏中，以便分配一次性接管渠道。
+1. 选择显示区 **接管** 从 **位置** 文件夹。 选择 **分配渠道** 操作栏中，以便分配一次性接管渠道。
 
-1. 分配 **接管** 在计划时间显示并填充以下字段的渠道 **渠道分配** 对话框，然后单击 **保存**：
+1. 分配 **接管** 在计划时间显示并填充以下字段的渠道 **渠道分配** 对话框并选择 **保存**：
 
    * **渠道路径**：选择接管渠道的路径
    * **优先级**：将此渠道的优先级设置为大于 **MainAdChannel**. 例如，本示例中设置的优先级为8。
@@ -97,7 +97,7 @@ ht-degree: 0%
 
      ![资产](assets/single-takeover8.png)
 
-     导航到显示区，从 **SingleUseTakeOver** > **位置** > **大厅** > **MainLobbyDisplay** 并单击 **仪表板** ，以便查看已分配渠道及其优先级，如下所示。
+     导航到显示区，从 **SingleUseTakeOver** > **位置** > **大厅** > **MainLobbyDisplay** 并选择 **仪表板** ，以便查看已分配渠道及其优先级，如下所示。
 
      >[!NOTE]
      >必须将接管渠道的优先级设置为最高。

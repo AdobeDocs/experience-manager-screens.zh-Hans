@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 将路径复制到项目，在本例中，路径为 `/apps/settings/wcm/designs/customstyle`.
 
-1. 导航到标题为 **DemoBrand** (在步骤(1)中创建)并单击 **属性** 从操作栏中选择渠道。
+1. 导航到标题为 **DemoBrand** (在步骤(1)中创建)并选择 **属性** 从操作栏中选择渠道。
 
 1. 导航至 **高级** 制表符并检查 **设计** 字段。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. 单击 **保存并关闭** 以更新设计路径。
+1. 选择 **保存并关闭** 以更新设计路径。
 
    >[!IMPORTANT]
    >您可以选择覆盖现有Screens模板，以默认注入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
@@ -108,9 +108,9 @@ ht-degree: 1%
 
 请按照以下步骤查看更新后的设计以文本覆盖：
 
-1. AEM Screens导航到标题为 **`customstyle`** > **渠道** > **DemoBrand**. 选择渠道并单击 **编辑** 从操作栏中。
+1. AEM Screens导航到标题为 **`customstyle`** > **渠道** > **DemoBrand**. 选择渠道并选择 **编辑** 从操作栏中。
 
-1. 由于您现在已将该设计添加到 **设计** 字段，如上所述，单击 **预览** 用于查看带文本覆盖的图像上的当前样式。
+1. 由于您现在已将该设计添加到 **设计** 字段，如上所述，选择 **预览** 用于查看带文本覆盖的图像上的当前样式。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

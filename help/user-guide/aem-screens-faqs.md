@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 
 1. 导航到 **Adobe Experience Manager Web控制台配置**
 1. 查看 **allow.empty** 选项。
-1. 单击&#x200B;**保存**。
+1. 选择&#x200B;**保存**。
 
 ### 3.如果在注册AEM Screens播放器时，设备显示故障，并且控制台日志显示ENAME_NOT_FOUND错误，如何进行故障排除？
 
@@ -133,13 +133,13 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 
 在开发人员模式下，可以将ChromeOS播放器安装为Chrome浏览器插件，而无需实际的Chrome播放器设备。 要安装，请执行以下步骤：
 
-1. 单击 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
+1. 选择 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
 1. 解压缩并将其保存在磁盘上。
 1. 打开Chrome浏览器并选择 **扩展** 或直接导航到 ***chrome://extensions***.
 1. 打开 **开发人员模式** 从右上角。
 1. 选择 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
 1. 如果扩展列表中存在，请选中 **AEM Screens Chrome Player** 插件。
-1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
+1. 打开新选项卡并选择 **应用程序** 图标，或直接导航到 ***chrome://apps***.
 1. 选择 **AEM Screens** 插件。 默认情况下，播放器将以全屏模式启动。 按 **Esc** 退出全屏模式。
 
 ### 2.如果Screens播放器无法通过使用自定义错误处理程序通过发布实例进行身份验证，如何进行故障排除？

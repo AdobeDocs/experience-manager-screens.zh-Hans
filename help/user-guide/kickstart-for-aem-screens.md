@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1270'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
    ![图像](assets/config/empty-ref2.png)
 
-1. 单击 **保存** 以启用Apache Sling引用过滤器允许为空。
+1. 选择 **保存** 以启用Apache Sling引用过滤器允许为空。
 
 ## 在5分钟内创建数字标牌体验 {#creating-a-digital-signage-experience-in-minutes}
 
@@ -54,10 +54,10 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 第一步是创建一个AEM Screens项目。
 
-1. 导航到您的Adobe Experience Manager (AEM)实例，然后单击 **Screens**. 或者，您可以直接从以下位置导航： `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. 导航到您的Adobe Experience Manager (AEM)实例，然后选择 **Screens**. 或者，您可以直接从以下位置导航： `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. 单击 **创建屏幕项目** 以便创建屏幕项目。
-1. 输入标题为 **DemoScreens**，然后单击 **保存**.
+1. 选择 **创建屏幕项目** 以便创建屏幕项目。
+1. 输入标题为 **DemoScreens**，然后选择 **保存**.
 
    ![图像](assets/kickstart/demo-1.png)
 
@@ -70,14 +70,14 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 请按照以下步骤为您的项目创建渠道：
 
-1. 创建项目后，选择 **DemoScreens** 项目并选择 **渠道** 文件夹，如下图所示。 单击 **+创建** 从操作栏中。
+1. 创建项目后，选择 **DemoScreens** 项目并选择 **渠道** 文件夹，如下图所示。 选择 **+创建** 从操作栏中。
 
    ![图像](assets/kickstart/demo-2.png)
 
-1. 选择 **序列渠道** 在向导中单击 **下一个**.
+1. 选择 **序列渠道** 从向导中选择 **下一个**.
    ![图像](assets/kickstart/demo-3.png)
 
-1. 输入 **标题** 作为 **TestChannel** 并单击 **创建**.
+1. 输入 **标题** 作为 **TestChannel** 并选择 **创建**.
 
    ![图像](assets/kickstart/demo-4.png)
 
@@ -93,11 +93,11 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 1. 导航至 **演示项目** 您已创建并选择 **TestChannel** 从 **渠道** 文件夹。
 
-1. 单击 **编辑** 从操作栏中（参见下图）。 的编辑器 **TestChannel** 打开。
+1. 选择 **编辑** 从操作栏中（参见下图）。 的编辑器 **TestChannel** 打开。
 
    ![图像](assets/kickstart/demo-6.png)
 
-1. 单击用于切换操作栏左侧的侧面板的图标以打开资源和组件。
+1. 选择用于切换操作栏左侧的侧面板的图标以打开资源和组件。
 
 1. 拖放要添加到渠道的组件。
 
@@ -113,9 +113,9 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 请按照以下步骤为您的项目创建位置：
 
 1. 导航至 **演示项目** 您已创建并选择 **位置** 文件夹。
-1. 单击 **+创建** 从操作栏中。
-1. 选择 **位置** 在向导中单击 **下一个**.
-1. 输入 **名称** (输入标题为 **TestLocation**)，然后单击 **创建**.
+1. 选择 **+创建** 从操作栏中。
+1. 选择 **位置** 从向导中选择 **下一个**.
+1. 输入 **名称** (输入标题为 **TestLocation**)并选择 **创建**.
 
 此 **TestLocation** 创建并添加到您的 **位置** 文件夹。
 
@@ -128,15 +128,15 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 >***显示*** 表示在一个或多个屏幕上运行的数字体验。
 
 1. 导航至 **TestLocation** 并选择它。
-1. 单击 **创建** 从操作栏中。
+1. 选择 **创建** 从操作栏中。
 
    ![图像](assets/kickstart/demo-disp1.png)
 
-1. 选择 **显示** 从 **创建** 向导并单击 **下一个**.
+1. 选择 **显示** 从 **创建** 向导并选择 **下一个**.
 
    ![图像](assets/kickstart/demo-disp2.png)
 
-1. 输入 **标题** 作为 **LobbyDisplay** 并单击 **创建**.
+1. 输入 **标题** 作为 **LobbyDisplay** 并选择 **创建**.
 
    ![图像](assets/kickstart/demo-disp3.png)
 
@@ -150,13 +150,13 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 1. 从以下位置导航到所需的显示区 **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay**.
 
-1. 点按/单击 **分配渠道** 从操作栏中。
+1. 选择 **分配渠道** 从操作栏中。
 
    ![图像](assets/kickstart/demo-assign1.png)
 
    或者，
 
-   点按/单击 **仪表板** 操作栏中，然后单击 **+指定渠道** 从 **已分配的渠道和计划** 面板。
+   选择 **仪表板** 从操作栏中选择 **+指定渠道** 从 **已分配的渠道和计划** 面板。
 
    ![图像](assets/kickstart/demo-assign2.png)
 
@@ -176,7 +176,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
    >此 *周期性计划* 允许您为渠道设置定期计划。 您可以为一个渠道设置多个周期性计划。
    >请参阅 [周期性计划](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) 以了解更多详细信息。
 
-1. 单击 **保存** 配置您的首选项后。
+1. 选择 **保存** 配置您的首选项后。
 
 ### 注册设备并将设备分配给显示器 {#registering-device}
 
@@ -185,43 +185,43 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 >[!IMPORTANT]
 >在开发人员模式下，Chrome操作系统播放器可以安装为Chrome浏览器插件，而无需实际的Chrome播放器设备。 要安装，请执行以下步骤：
 >
->1. 单击 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
+>1. 选择 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
 >1. 解压缩并将其保存在磁盘上。
 >1. 打开Chrome浏览器并选择 **扩展** 或直接导航到 ***chrome://extensions***.
 >1. 打开 **开发人员模式** 从右上角。
->1. 单击 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
+>1. 选择 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
 >1. Check **AEM Screens Chrome Player** 插件（如果在扩展列表中可用）。
->1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
->1. 单击 **AEM Screens** 插件，以便您能够启动Chrome Player。 默认情况下，播放器将以全屏模式启动。 按 **Esc** 退出全屏模式。
+>1. 打开新选项卡并选择 **应用程序** 图标，或直接导航到 ***chrome://apps***.
+>1. 选择 **AEM Screens** 插件，以便您能够启动Chrome Player。 默认情况下，播放器将以全屏模式启动。 按 **Esc** 退出全屏模式。
 
 打开Chrome操作系统播放器后，请按照以下步骤注册Chrome设备。
 
 1. 导航至 **设备** 从AEM实例中删除项目文件夹。
 
-1. 点按/单击 **设备管理器** 从操作栏中。
+1. 选择 **设备管理器** 从操作栏中。
 
    ![图像](assets/kickstart/demo-register1.png)
 
-1. 点按/单击 **设备注册** 从右上角。
+1. 选择 **设备注册** 从右上角。
 
-1. 选择所需的设备，然后点按/单击 **注册设备**.
+1. 选择所需的设备，然后选择 **注册设备**.
 
    ![图像](assets/kickstart/demo-register2.png)
 
 1. 等待设备发送其注册码，同时检查 **注册码** 从您的Chrome设备中。
    ![图像](assets/kickstart/demo-register3.png)
 
-1. 如果 **注册码** 两台计算机上相同，请点按/单击 **验证** 在AEM中。
+1. 如果 **注册码** 两台计算机上相同，请选择 **验证** 在AEM中。
 
-1. 将所需名称设置为 **ChromeDeviceforDemo** （对于设备），然后单击 **注册**.
+1. 将所需名称设置为 **ChromeDeviceforDemo** ，然后选择 **注册**.
 
    ![图像](assets/kickstart/demo-register4.png)
 
-1. 单击 **分配显示区** 从 **设备注册成功** 对话框。
+1. 选择 **分配显示区** 从 **设备注册成功** 对话框。
 
    ![图像](assets/kickstart/demo-register5.png)
 
-1. 选择显示方式 **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay** 并单击 **分配**.
+1. 选择显示方式 **DemoScreens** > **位置** > **TestLocation** > **LobbyDisplay** 并选择 **分配**.
 
    ![图像](assets/kickstart/demo-device6.png)
 

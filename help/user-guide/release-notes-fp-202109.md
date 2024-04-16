@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -60,7 +60,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
       * 在创作和发布中导航到CRXDE Lite。
 
-      * 单击“工具”>“查询”。
+      * 选择“工具”>“查询”。
 
       * 在查询中，使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

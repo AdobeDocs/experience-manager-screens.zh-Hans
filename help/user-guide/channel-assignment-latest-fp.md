@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
-1. 点按/单击 **分配渠道** 从操作栏中。
+1. 选择 **分配渠道** 从操作栏中。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或者，
 
-   点按/单击 **仪表板** 操作栏中，然后单击 **+指定渠道** 从 **已分配的渠道和计划** 面板。
+   选择 **仪表板** 从操作栏中选择 **+指定渠道** 从 **已分配的渠道和计划** 面板。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ ht-degree: 2%
    >
    >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
-1. 单击 **保存** 配置您的首选项后。
+1. 选择 **保存** 配置您的首选项后。
 
 ### 在Chrome播放器中查看内容 {#viewing-content-output}
 
@@ -111,11 +111,11 @@ ht-degree: 2%
 
 1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
-1. 点按/单击 **分配渠道** 从操作栏中。
+1. 选择 **分配渠道** 从操作栏中。
 
    或者，
 
-   点按/单击 **仪表板** 并单击 **时间线** 从 **已分配的渠道和计划** 面板。
+   选择 **仪表板** 并选择 **时间线** 从 **已分配的渠道和计划** 面板。
 
    ![图像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

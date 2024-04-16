@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -45,17 +45,17 @@ ht-degree: 1%
 
 1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用启用定位 **DataDrivenRetail** *（序列渠道）* 在AEM Screens渠道中创建。
 
-1. 选择渠道 **DataDrivenRetail** 并单击 **属性** 从操作栏中。
+1. 选择渠道 **DataDrivenRetail** 并选择 **属性** 从操作栏中。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. 选择 **个性化** 选项卡，以便您可以设置ContextHub配置并选择ContextHub和区段路径。
 
-   1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并单击 **选择**.
+   1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并选择 **选择**.
 
-   1. 选择 **区段路径** 作为 **会议** > **`We.Retail`** > **设置** > **wcm** > **区段** 并单击 **选择**.
+   1. 选择 **区段路径** 作为 **会议** > **`We.Retail`** > **设置** > **wcm** > **区段** 并选择 **选择**.
 
-   1. 单击“**保存并关闭**”。
+   1. 选择&#x200B;**保存并关闭**。
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 导航并选择 **DataDrivenRetail** 从 **DataDrivenAssets** > **渠道** 并单击 **编辑** 从操作栏中。 将资产拖放到渠道编辑器中。
+1. 导航并选择 **DataDrivenRetail** 从 **DataDrivenAssets** > **渠道** 并选择 **编辑** 从操作栏中。 将资产拖放到渠道编辑器中。
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 单击 **定位**.
+1. 选择 **定位**.
 
-1. 选择 **品牌** 和 **活动** 从下拉菜单中单击 **开始定位**.
+1. 选择 **品牌** 和 **活动** 从下拉菜单中选择 **开始定位**.
 
 ### 了解详情：示例用例 {#learn-more-example-use-cases}
 

@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -46,7 +46,7 @@ ht-degree: 1%
 1. 设置 **登录令牌Cookie的SameSite属性** 从 **Lax** 到 **无**.
    ![图像](/help/user-guide/assets/granite-updates.png)
 
-1. 单击&#x200B;**保存**。
+1. 选择&#x200B;**保存**。
 
 ### Ad Hoc方法 {#ad-hoc-method}
 
@@ -55,7 +55,7 @@ Ad-Hoc方法允许您安装最新的Windows Player (*.exe*)。 访问 [**AEM 6.5
 下载应用程序后，请按照播放器上的步骤完成临时安装：
 
 1. 长按左上角以打开管理面板。
-1. 导航到 **配置** 从左侧操作菜单中，输入要连接的AEM实例的位置（地址），然后单击 **保存**.
+1. 导航到 **配置** 从左侧操作菜单中，输入要连接的AEM实例的位置（地址），然后选择 **保存**.
 1. 导航至 **设备** **注册** 左侧操作菜单中的链接，以便您检查设备注册过程的状态。
 
 >[!NOTE]
@@ -73,7 +73,7 @@ Ad-Hoc方法允许您安装最新的Windows Player (*.exe*)。 访问 [**AEM 6.5
 
 按照以下步骤在Windows Player中配置该名称：
 
-1. 单击 **开始** > **运行**.
+1. 选择 **开始** > **运行**.
 1. 输入 `system.cpl`.
 1. 使用计算机名称选项卡设置计算机的主机名。
 

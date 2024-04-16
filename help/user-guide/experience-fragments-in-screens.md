@@ -10,7 +10,7 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -97,11 +97,11 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 1. **创建体验片段的活动副本**
 
    1. 导航到AEM主页。
-   1. 选择 **体验片段** 并突出显示 **Screensfragment** 并单击 **live-copy形式的变量**，如下图所示：
+   1. 选择 **体验片段** 并突出显示 **Screensfragment** 并选择 **live-copy形式的变量**，如下图所示：
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c.选择 **Screensfragment** 从 **创建Live Copy** 向导并单击 **下一个**.
+   c.选择 **Screensfragment** 从 **创建Live Copy** 向导并选择 **下一个**.
 
    d.输入 **标题** 和 **名称** 作为 **Screens**.
 
@@ -113,11 +113,11 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    >[!NOTE]
    >
-   >创建AEM Screens片段后，可以编辑片段的属性。 选择片段并单击 **属性** 从操作栏中。
+   >创建AEM Screens片段后，可以编辑片段的属性。 选择片段并选择 **属性** 从操作栏中。
 
    **编辑屏幕片段的属性**
 
-   1. 导航至 **Screensfragment** （在前面的步骤中创建）并单击 **属性** 从操作栏中。
+   1. 导航至 **Screensfragment** （在前面的步骤中创建的）并选择 **属性** 从操作栏中。
 
    1. 选择 **脱机配置** 选项卡，如下图所示。
 
@@ -128,9 +128,9 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 1. **在屏幕渠道中使用体验片段作为组件**
 
    1. 导航到要在其中使用 **Screens** 片段。
-   1. 选择 **TestChannel** 并单击 **编辑** 从操作栏中。
+   1. 选择 **TestChannel** 并选择 **编辑** 从操作栏中。
 
-   1. 单击侧选项卡中的组件图标。
+   1. 从侧选项卡中选择组件图标。
    1. 拖放 **体验片段** 到您的频道。
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -179,11 +179,11 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
 请按照以下步骤将更改从主渠道传播到您的目标渠道：
 
-1. 从中选择体验片段 **站点** （主要）页面上，然后单击铅笔图标，以便您可以编辑体验片段中的项目。
+1. 从中选择体验片段 **站点** （主要）页面并选择铅笔图标，以便您可以编辑体验片段中的项目。
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. 选择体验片段并单击扳手图标，以便打开对话框编辑图像。
+1. 选择体验片段并选择扳手图标，以便打开对话框编辑图像。
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -195,7 +195,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. 选择体验片段并单击转出图标，以使您可将更改传播到渠道中使用的片段。
+1. 选择体验片段并选择转出图标，以使您可将更改传播到渠道中使用的片段。
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -211,7 +211,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
 1. 导航至 **Screens** > **渠道** > **TestChannel**.
 
-1. 单击 **预览** 从操作栏中。
+1. 选择 **预览** 从操作栏中。
 
 下图说明了 **TestChannel**：\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

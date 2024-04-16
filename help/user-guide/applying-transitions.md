@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >创建AEM Screens项目 **测试项目** 与渠道 **TestTransition**. 此外，设置位置和显示以查看输出。
 
-1. 导航到渠道 **TestTransition** 并单击 **编辑** 从操作栏中。
+1. 导航到渠道 **TestTransition** 并选择 **编辑** 从操作栏中。
 
    ![image1](assets/transitions1.png)
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -33,11 +33,11 @@ ht-degree: 1%
 为Screens创建项目后，请按照以下步骤为Screens项目创建“位置” ：
 
 1. 选择Adobe Experience Manager链接（左上方），然后选择Screens。 或者，您可以直接导航到： `http://localhost:4502/screens.html/content/screens`.
-1. 导航到屏幕项目并单击 **位置**.
-1. 单击 **创建** 操作栏中加号图标旁边。
-1. 选择模板 **位置** 在向导中单击 **下一个**.
+1. 导航到屏幕项目并选择 **位置**.
+1. 选择 **创建** 操作栏中加号图标旁边。
+1. 选择模板 **位置** 从向导中选择 **下一个**.
 1. 输入属性 **标题和标记**， **更多标题和描述**， **开启/结束时间**、和 **虚URL**.
-1. 单击 **创建** 并创建位置并将其添加到您的位置文件夹。
+1. 选择 **创建** 并创建位置并将其添加到您的位置文件夹。
 
 请参阅以下步骤以了解如何为AEM Screens项目创建位置。 出于演示目的，将在下创建新位置(SanJose) *演示项目*.
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 要编辑/访问位置的属性，请执行以下操作：
 
 1. 选择位置。
-1. 单击 **属性** 从操作栏中。
+1. 选择 **属性** 从操作栏中。
 
 ![player3](assets/player3.gif)
 

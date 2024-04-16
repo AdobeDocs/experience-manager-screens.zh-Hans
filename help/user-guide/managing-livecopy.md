@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -31,13 +31,13 @@ A ***Live Copy*** 是特定站点内容的副本，其中与原始源保持实�
 
 1. 选择Adobe Experience Manager链接（左上方），然后 **Screens**. 或者，您可以直接转到： `http://localhost:4502/screens.html/content/screens`.
 
-1. 导航到屏幕项目并单击 **渠道**.
-1. 单击 **创建** 并选择 **Live Copy** 以便创建渠道的Live Copy。
-1. 选择目标并单击 **下一个**.
+1. 导航到屏幕项目并选择 **渠道**.
+1. 选择 **创建** 并选择 **Live Copy** 以便创建渠道的Live Copy。
+1. 选择目标并选择 **下一个**.
 1. 选择Live Copy可以驻留的位置。
 1. 输入 **标题** 和 **名称** 在 **创建Live Copy** 页面。
 
-1. 单击 **打开** 查看新Live Copy的内容或 **完成** 以返回主页。
+1. 选择 **打开** 查看新Live Copy的内容或 **完成** 以返回主页。
 
 或者，请参阅以下步骤来获取用于创建渠道的新Live Copy的可视表示法。
 
@@ -51,11 +51,11 @@ Live Copy是已存在的渠道的副本。
 
 要查看Live Copy的内容，请参阅以下步骤：
 
-1. 导航到屏幕项目，然后单击最初创建Live Copy的位置，如上面的部分所示。 (在此，选址为 **渠道** 文件夹)
+1. 导航到屏幕项目，并选择您最初创建Live Copy的位置，如上面的部分所示。 (在此，选址为 **渠道** 文件夹)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. 单击 **编辑** 从操作栏中。
+1. 选择 **编辑** 从操作栏中。
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -67,7 +67,7 @@ Live Copy是已存在的渠道的副本。
 
 此外，您还可以查看Live Copy渠道的属性。
 
-1. 导航到您的Live Copy渠道并单击 **属性** 从操作栏中。
+1. 导航到您的Live Copy渠道并选择 **属性** 从操作栏中。
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
@@ -79,7 +79,7 @@ Live Copy是已存在的渠道的副本。
 
 模式 **Live Copy状态**，如下图所示，允许您查看渠道中所有资源的关系状态。
 
-1. 单击 **编辑** 这样您就可以选择 **Live Copy状态** 和查看渠道内容与原始渠道（生成Live Copy的渠道）的关联。
+1. 选择 **编辑** 这样您就可以选择 **Live Copy状态** 和查看渠道内容与原始渠道（生成Live Copy的渠道）的关联。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -93,7 +93,7 @@ Live Copy是已存在的渠道的副本。
 
 您还可以取消从Live Copy的继承，以便内容独立于原始分支。
 
-以下示例显示您在编辑模式下选择图像，然后单击右上角的取消继承符号。
+以下示例显示您在编辑模式下选择图像并选择右上角的取消继承符号。
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Live Copy是已存在的渠道的副本。
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. 要将更改传播到Live Copy渠道，请导航到AEM功能板并选择Live Copy渠道，然后单击 **属性** 从操作栏中。
+1. 要将更改传播到Live Copy渠道，请导航到AEM功能板并选择Live Copy渠道，然后选择 **属性** 从操作栏中。
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 

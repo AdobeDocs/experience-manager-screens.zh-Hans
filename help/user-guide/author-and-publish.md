@@ -2,9 +2,9 @@
 title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -248,7 +248,7 @@ Screens需要三个复制代理：
 
 1. 导航到用户管理页面。 例如：`https://localhost:4502/useradmin`。
 1. 搜索 **`screens-devices-master`** 组。
-1. 右键单击该组，然后选择 **激活**.
+1. 右键单击该组并选择 **激活**.
 
 >[!CAUTION]
 >

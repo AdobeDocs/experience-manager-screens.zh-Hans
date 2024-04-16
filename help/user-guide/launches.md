@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![图像](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. 选择渠道 **Futurelaunch** 并单击 **创建启动项** 从操作栏中。
+1. 选择渠道 **Futurelaunch** 并选择 **创建启动项** 从操作栏中。
 
    ![图像](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. 此 **创建启动项** 向导将打开。 您可以选择已在向导中可见的渠道，或者单击 **+添加渠道** 以添加要为其创建启动项的渠道。
+1. 此 **创建启动项** 向导将打开。 您可以选择已在向导中可见的渠道，也可以选择 **+添加渠道** 以添加要为其创建启动项的渠道。
 
-1. 单击 **下一个** 从 **创建启动项** 向导。 此 **包括子页面** 默认情况下选中该选项。
+1. 选择 **下一个** 从 **创建启动项** 向导。 此 **包括子页面** 默认情况下选中该选项。
 
    ![图像](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >您可以使用 **+添加渠道** 选项以添加另一个要为其创建启动项的渠道。
 
-   使用 **添加渠道** 选项，导航到要为其创建启动项的渠道并单击 **选择**.
+   使用 **添加渠道** 选项，导航到要为其创建启动项的渠道并选择 **选择**.
 
    此 **选择** 如果尝试选择多个渠道或文件夹来添加启动项，则该选项处于禁用状态。
 
    ![图像](/help/user-guide/assets/launches-images/launches-14.png)
 
-   选择渠道/渠道后，单击 **下一个**.
+   选择渠道/渠道后，选择 **下一个**.
 
 
-1. 输入 **启动项标题** 作为 **SummerPromotions** 而且您无需设置 **启动日期**，如下图所示。 单击&#x200B;**创建**。
+1. 输入 **启动项标题** 作为 **SummerPromotions** 而且您无需设置 **启动日期**，如下图所示。 选择&#x200B;**创建**。
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![图像](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 选择启动项，然后单击 **启动项属性** 从 **待处理启动项** 面板。
+1. 选择启动项，然后选择 **启动项属性** 从 **待处理启动项** 面板。
 
    ![图像](/help/user-guide/assets/launches-images/launches-19.png)
 

@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -23,13 +23,13 @@ ht-degree: 1%
 
 ## 简介 {#introduction}
 
-在组织中首次设置AEM Screens项目时，也应创建所有位置。 如果您的项目涉及多个位置，则会导致繁琐的任务，包括在UI中多次单击和等待。
+在组织中首次设置AEM Screens项目时，也应创建所有位置。 如果您的项目涉及多个位置，则会导致一项繁琐的任务，包括在UI中进行大量选择和等待。
 
 此功能的目标是减少设置项目所需的时间，从而解决预算问题。
 
 通过让作者提供电子表格作为输入文件，并让系统在后端自动创建位置树，此功能：
 
-* *获得比通过UI手动点击更好的性能*
+* *获得比通过UI手动选择更好的性能*
 * *允许客户从自己的系统中导出其位置，并轻松地直接在AEM中导入这些位置*
 
 在初始项目设置期间或将现有AEM Screens扩展至新位置时，这样可节省时间和资金。
@@ -107,11 +107,11 @@ ht-degree: 1%
 
 1. 此 **导入** 此时将显示向导。 为项目选择包含位置的文件或选择文件(***最小文件.xls***)您已从 *先决条件* 部分。
 
-   选择文件后，单击 **下一个**.
+   选择文件后，选择 **下一个**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 从“导入”向导中验证文件的内容（位置），然后单击 **导入**.
+1. 从“导入”向导中验证文件的内容（位置）并选择 **导入**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

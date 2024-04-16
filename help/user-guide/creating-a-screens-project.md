@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -29,8 +29,8 @@ ht-degree: 1%
 ## 创建新屏幕项目
 
 1. 选择 **Screens** 从您的AEM实例中。
-1. 单击 **创建屏幕项目**.
-1. 输入标题为 **TestScreens** 并单击 **保存**.
+1. 选择 **创建屏幕项目**.
+1. 输入标题为 **TestScreens** 并选择 **保存**.
 
 项目随即会创建，并带您返回“屏幕项目”控制台。 您现在可以选择您的项目。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 查看属性 {#viewing-properties}
 
-创建屏幕项目后，选择该项目并单击 **属性** 以编辑项目的属性。
+创建屏幕项目后，选择该项目并选择 **属性** 以编辑项目的属性。
 
 以下选项允许您编辑/更改的属性 **TestScreens**.
 
@@ -63,10 +63,10 @@ ht-degree: 1%
 
 要创建自定义文件夹，请执行以下操作：
 
-1. 选择您的项目并单击 **创建** 位于操作栏中的加号图标旁边。
+1. 选择您的项目并选择 **创建** 位于操作栏中的加号图标旁边。
 1. 此 **创建** 向导将打开，并选择相应的选项。
-1. 单击&#x200B;**下一步**。
-1. 输入属性并单击 **创建**.
+1. 选择&#x200B;**下一步**。
+1. 输入属性并选择 **创建**.
 
 以下步骤显示了如何创建应用程序文件夹，以便 **应用程序** 主页面位于 **TestScreens**.
 

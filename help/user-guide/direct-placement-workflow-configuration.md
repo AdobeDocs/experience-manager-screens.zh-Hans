@@ -1,7 +1,7 @@
 ---
 title: 直接放置工作流配置
 description: 本页重点介绍直接放置工作流配置。
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 直接放置工作流配置将AEM Screens项目渠道映射到资源中的特定文件夹，并允许在该文件夹中放置任何资源。 Adobe建议您触发批量脱机更新以完成发布。
 
-或者，作为内容作者，您可以手动单击 **更新离线内容**.
+或者，作为内容作者，您可以手动选择 **更新离线内容**.
 
 >[!NOTE]
 >

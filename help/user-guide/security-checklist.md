@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -29,4 +29,4 @@ AEM Screens安全核对清单页面介绍了关键安全区域，并提供了问
 
 ### 下载安全核对清单 {#download-checklist}
 
-要下载AEM Screens安全核对清单，请单击 [此处](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
+要下载AEM Screens安全核对清单，请选择 [此处](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).

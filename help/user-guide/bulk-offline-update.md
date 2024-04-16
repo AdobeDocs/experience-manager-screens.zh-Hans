@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    **项目路径** 指定AEM Screens项目的路径。 路径通常为 `/content/screens/<Name of your project>`.
 
-   *例如*， `/content/screens/we-retail`. 您可以通过选择AEM Screens下的任何项目（不单击图标），在URL中找到此路径。
+   *例如*， `/content/screens/we-retail`. 您可以通过选择AEM Screens下的任何项目（不选择图标），在URL中找到此路径。
 
    >[!NOTE]
    >

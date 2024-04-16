@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,7 +77,7 @@ ht-degree: 0%
    >
    >确保在为显示分配渠道时添加用户交互事件。
 
-1. 单击 **编辑** 以编辑渠道的属性。
+1. 选择 **编辑** 以编辑渠道的属性。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
@@ -103,7 +103,7 @@ ht-degree: 0%
    请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 有关如何使用AEM Screens在Adobe Analytics中执行排序以及使用离线Adobe Analytics发送自定义事件的更多信息。
 
 1. 在所选的IDE/编辑器中编辑您的react应用程序（特别是要开始发送事件的文本组件或其他组件）。
-1. 在要捕获组件的单击事件或其他事件上，使用标准数据模型添加分析信息。
+1. 在要为组件捕获的选择事件或其他事件上，使用标准数据模型添加分析信息。
 
    请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以了解更多详细信息。
 

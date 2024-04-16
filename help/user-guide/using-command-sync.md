@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
    >要了解如何将渠道分配给显示，请参阅 [创建和管理显示区](/help/user-guide/managing-displays.md).
 
 1. 导航到 **设备** 文件夹。
-1. 单击 **设备管理器** 从操作栏中。
+1. 选择 **设备管理器** 从操作栏中。
 
    ![image1](assets/command-sync5.png)
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 ### 更新渠道设置
 
 1. 导航到 **ChannelLobby**.
-1. 单击 **编辑** 从操作栏中。
+1. 选择 **编辑** 从操作栏中。
 1. 选择整个通道，如下图所示。
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. 单击扳手图标。
+1. 选择扳手图标。
    ![image1](assets/command-sync/command-sync8-1.png)
 
 1. 在 **页面** 对话框中，输入 *已同步* 中的关键词 **策略** 字段。
@@ -90,15 +90,15 @@ ht-degree: 0%
 
 ### 设置主要播放器 {#setting-up-primary}
 
-1. 从导航到显示功能板 **CommandSyncDemo** > **位置**  > **大厅** > **LobbyDisplay** 并单击 **仪表板** 从操作栏中。
+1. 从导航到显示功能板 **CommandSyncDemo** > **位置**  > **大厅** > **LobbyDisplay** 并选择 **仪表板** 从操作栏中。
 请注意中的两个设备（chrome和windows player） **设备** 面板中，如以下所示：
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. 从 **设备** 面板中，选择要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主要设备。 单击 **设置为主设备**.
+1. 从 **设备** 面板中，选择要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主要设备。 选择 **设置为主设备**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. 在中输入IP地址 **设置为主设备** 并单击 **保存**.
+1. 在中输入IP地址 **设置为主设备** 并选择 **保存**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,11 +109,11 @@ ht-degree: 0%
 ### 正在与主要播放器同步 {#sync-up-primary}
 
 1. 将Chrome设备设置为主设备后，将另一设备（在本例中为Windows Player）同步到主设备。
-从中选择其他设备（在本例中为windows player） **设备** 面板并单击 **同步到主设备**.
+从中选择其他设备（在本例中为windows player） **设备** 面板并选择 **同步到主设备**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. 从列表中选择设备并单击 **保存**.
+1. 从列表中选择设备，然后选择 **保存**.
 
    >[注意：]
    > 此 **同步到主设备** 对话框显示主设备的列表。 选择首选的。
@@ -134,11 +134,11 @@ ht-degree: 0%
 
 1. 导航至 **设备** 面板并选择设备。
 
-1. 单击 **取消同步设备** 以便从主设备取消同步客户端。
+1. 选择 **取消同步设备** 以便从主设备取消同步客户端。
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. 单击 **确认** 以从主设备取消同步选定的设备。
+1. 选择 **确认** 以从主设备取消同步选定的设备。
 
    >[注意：]
    > 如果选择主设备并使用de-sync选项，则所有连接到主设备的设备都将一步骤取消同步。

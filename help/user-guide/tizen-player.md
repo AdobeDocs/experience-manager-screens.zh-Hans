@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 请按照以下步骤在Tizen播放器中配置名称：
 
-1. 单击遥控器上的菜单按钮。
+1. 选择遥控器上的菜单按钮。
 1. 导航到 **网络** > **设备名称** 以便为该播放器指定一个名称。
 
 ### 在Samsung设备上配置更新 {#config-updates}
@@ -55,11 +55,11 @@ ht-degree: 1%
 在Samsung设备上执行以下步骤，以便在该设备上完成AEM Screens播放器的安装：
 
 1. 导航到您的Samsung设备并打开。
-1. 单击 **菜单** 设备遥控器上的按钮，然后向下滚动到 **系统** 左侧导航栏中。
+1. 选择 **菜单** 设备遥控器上的按钮，然后向下滚动到 **系统** 左侧导航栏中。
 1. 向下滚动并选择 **播放方式** 选项并将其更改为 **URL启动器** 选项。
    ![图像](/help/user-guide/assets/tizen/rms-2.png)
 1. 设置URL启动器后，按 **主页** 遥控器上的按钮。
-1. 导航至 **URL启动器设置** 并输入本地主机服务器的IP地址，然后单击 **完成**.
+1. 导航至 **URL启动器设置** 并输入本地主机服务器的IP地址，然后选择 **完成**.
 
    >[!NOTE]
    >Tizen播放器应能够连接到http服务器。

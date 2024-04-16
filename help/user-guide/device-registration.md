@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >下载最新的Windows Player后(*.exe*)，从 [AEM 6.4播放器下载](https://download.macromedia.com/screens/) 页面，按照播放器上的步骤完成临时安装：
 >
 >1. 长按左上角以打开管理面板。
->1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并单击 **保存**.
+>1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并选择 **保存**.
 >1. 选择 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
 >
 
@@ -49,15 +49,15 @@ ht-degree: 0%
    >
    >要获取有关在AEM功能板中创建屏幕项目的更多信息，请参阅 [创建和管理Screens项目](creating-a-screens-project.md).
 
-1. 点按/单击 **设备管理器** 按钮进行更改。
+1. 选择 **设备管理器** 按钮进行更改。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 点按/单击 **设备注册** 按钮。
+1. 选择 **设备注册** 按钮。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 选择所需的设备（与步骤1相同）并点按/单击 **注册设备**.
+1. 选择所需的设备（与步骤1相同），然后选择 **注册设备**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果 **注册码** 两台计算机上相同，请点按/单击 **验证** AEM按钮，如步骤(6)中所示。
-1. 为设备设置所需的名称，然后单击 **注册**.
+1. 如果 **注册码** 两台计算机上相同，请选择 **验证** AEM按钮，如步骤(6)中所示。
+1. 为设备设置所需的名称，然后选择 **注册**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 点按/单击 **完成** 以完成注册流程。
+1. 选择 **完成** 以完成注册流程。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
    >
    >此 **分配显示区** 允许您将设备直接添加到显示区。
 
-   如果您单击 **完成**，将设备分配给显示。
+   如果您选择 **完成**，将设备分配给显示。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 如果尚未将设备分配给显示，请按照以下步骤将设备分配给AEM Screens项目中的显示：
 
-1. 选择设备并单击 **指定设备** 从操作栏中。
+1. 选择设备并选择 **指定设备** 从操作栏中。
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
@@ -104,15 +104,15 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 单击 **分配** 选择路径时。
+1. 选择 **分配** 选择路径时。
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 单击 **完成** 成功分配设备后，如下图所示。
+1. 选择 **完成** 成功分配设备后，如下图所示。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您还可以通过单击查看显示功能板 **完成**.
+   此外，您还可以在选择时查看显示仪表板 **完成**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 例如，从AEM Screens项目导航到设备管理器UI， **DemoScreens** > **设备**.
 
-1. 选择 **设备** 文件夹并单击 **设备管理器** 从操作栏中。
+1. 选择 **设备** 文件夹并选择 **设备管理器** 从操作栏中。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    或者，
 
-   单击 `/` （正斜杠）以调用搜索功能。
+   选择 `/` （正斜杠）以调用搜索功能。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-3.png)
 

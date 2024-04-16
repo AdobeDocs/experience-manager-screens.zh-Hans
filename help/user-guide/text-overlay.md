@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,11 +58,11 @@ ht-degree: 1%
 
 请按照以下步骤在AEM Screens渠道中使用文本叠加：
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 从操作栏中。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并选择 **编辑** 从操作栏中。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. 选择图像并单击 **配置** （扳手图标）以打开“属性”对话框。
+1. 选择图像并选择 **配置** （扳手图标）以打开“属性”对话框。
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 从操作栏中。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并选择 **编辑** 从操作栏中。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ ht-degree: 1%
    >[!NOTE]
    >如果尚未设置ContextHub配置，则会为您的项目禁用此选项。
 
-1. 输入 **值** 在 **占位符** 字段。 选择要从Google工作表中获取值的行 **ContextHub变量**. 在这种情况下，将从Google工作表中的行2和列1检索值。 现在，输入 **默认值** 作为 **20**，如下图所示。 完成后，单击复选标记。
+1. 输入 **值** 在 **占位符** 字段。 选择要从Google工作表中获取值的行 **ContextHub变量**. 在这种情况下，将从Google工作表中的行2和列1检索值。 现在，输入 **默认值** 作为 **20**，如下图所示。 完成后，选中复选标记。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

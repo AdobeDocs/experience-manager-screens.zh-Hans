@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -79,9 +79,9 @@ Screens播放器通过使用 ***ContentSync*** 技术。
 
 1. 打开 `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. 在列表中选择您的配置
-1. 单击清除缓存
-1. 单击更新缓存
-1. 单击“下载完整部分”
+1. 选择清除缓存
+1. 选择更新缓存
+1. 选择下载完整部分
 1. 解压缩zip文件
 1. 在提取的文件夹中启动本地服务器
 1. 打开您的起始页并检查您的应用程序状态
@@ -95,16 +95,16 @@ Screens播放器通过使用 ***ContentSync*** 技术。
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. 导航到渠道功能板。
-1. 单击 **...** 在 **渠道信息** 面板。
+1. 选择 **...** 在 **渠道信息** 面板。
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. 导航到渠道属性。
-1. 在(（渠道）)选项卡下，确保该复选框已禁用，然后单击 **保存并关闭**.
+1. 在(（渠道）)选项卡下，确保该复选框已禁用，然后选择 **保存并关闭**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   在将内容正确部署到设备之前，请单击 **更新离线内容**.
+   在将内容正确部署到设备之前，请选择 **更新离线内容**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

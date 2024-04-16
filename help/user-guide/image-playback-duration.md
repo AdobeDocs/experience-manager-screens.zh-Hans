@@ -2,7 +2,7 @@
 title: 图像播放持续时间
 description: 了解AEM Screens中的图像播放持续时间。
 contentOwner: jsyal
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 单击 **编辑** 从操作栏中。
+1. 选择 **编辑** 从操作栏中。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 单击右上角的复选标记 **页面** 对话框，以便保存更改。
+   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 选择右上角的复选标记 **页面** 对话框，以便保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
