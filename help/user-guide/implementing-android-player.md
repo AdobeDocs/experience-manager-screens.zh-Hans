@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 1. 设置 **登录令牌Cookie的SameSite属性** 从 **Lax** 到 **无**.
    ![图像](/help/user-guide/assets/granite-updates.png)
 
-1. 选择&#x200B;**保存**。
+1. 单击&#x200B;**保存**。
 
 
 ### Ad Hoc方法 {#ad-hoc-method}
@@ -55,7 +55,7 @@ ht-degree: 0%
 下载应用程序后，请按照播放器上的步骤完成临时安装：
 
 1. 长按左上角以打开管理面板。
-1. 导航到 **配置** 从左侧操作菜单中，输入要连接的AEM实例的位置（地址），然后选择 **保存**.
+1. 导航到 **配置** 从左侧操作菜单中，输入要连接的AEM实例的位置（地址），然后单击 **保存**.
 
 1. 导航至 **设备** **注册** 左侧操作菜单中的链接，以便您检查设备注册过程的状态。
 
@@ -193,7 +193,7 @@ ht-degree: 0%
 1. 确保Android™设备支持Google Play服务。
 1. 使用您喜爱的支持AppConfig的EMM解决方案注册您的Android™播放器设备。
 1. 登录到EMM控制台，然后从Google Play中提取AEM Screens Player应用程序。
-1. 选择托管配置或相关选项。
+1. 单击托管配置或相关选项。
 1. 您现在应该会看到可配置的播放器选项列表，例如服务器和批量注册代码。
 1. 配置这些参数，保存策略并将其部署到设备。
 

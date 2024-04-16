@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -192,7 +192,7 @@ ht-degree: 1%
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ ht-degree: 1%
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ ht-degree: 1%
 
    属性 `sling:hideChildren`= `"[linkURL,size]`”用于 `items` 节点，以确保 **linkURL** 和 **大小** 对话框中的字段是隐藏的。 仅从海报对话框中删除这些节点是不够的。 属性 `sling:hideResource="{Boolean}true"` “辅助功能”选项卡上用于隐藏整个选项卡。
 
-   对话框中添加了两个选择字段，作者可以控制标题和描述的文本位置和颜色。
+   对话框中添加了两个单击字段，作者可以控制标题和描述的文本位置和颜色。
 
    ![海报 — 最终对话框结构](assets/2018-05-03_at_4_49pm.png)
 

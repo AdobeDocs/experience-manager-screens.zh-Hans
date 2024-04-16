@@ -4,7 +4,7 @@ description: 详细了解AEM Screens播放器及其各自的AEM Screens版本。
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 7%
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 ### 下载链接 {#download-link}
 
-选择iOS Player的下载链接：
+单击iOS Player的下载链接：
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### 下载链接 {#download-link-1}
 
-选择Windows 10 Player的下载链接：
+单击Windows 10 Player的下载链接：
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### 下载链接 {#download-link-2}
 
-选择适用于Android™ Player的下载链接：
+单击适用于Android™ Player的下载链接：
 
 aem-screens-player-android-3.3.0.apk.zip
 

@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 请按照以下步骤实施播放器的自动注册：
 
-1. 登录到您的AEM实例，选择您的AEM Screens项目，然后选择 **属性** 从操作栏中。
-1. 选择 **高级** 选项卡，以便您查看 **设备注册** 部分。
+1. 登录到您的AEM实例，单击您的AEM Screens项目，然后单击 **属性** 从操作栏中。
+1. 单击 **高级** 选项卡，以便您查看 **设备注册** 部分。
 
 1. 在中指定自动注册代码 **批量注册代码** 字段和可选的默认显示 **默认显示分配** 以分配给自动注册的播放器。
 
    >[!NOTE]
-   >输入您选择的代码，并根据需要选择默认显示。
+   >输入您选择的代码，并根据需要单击默认显示。
 
    ![图像](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. 使用MDM或配置JSON文件为播放器配置相应的服务器URL和注册码。

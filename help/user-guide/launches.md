@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
    ![图像](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. 选择渠道 **Futurelaunch** 并选择 **创建启动项** 从操作栏中。
+1. 单击渠道 **Futurelaunch** 并单击 **创建启动项** 从操作栏中。
 
    ![图像](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. 此 **创建启动项** 向导将打开。 您可以选择已在向导中可见的渠道，也可以选择 **+添加渠道** 以添加要为其创建启动项的渠道。
+1. 此 **创建启动项** 向导将打开。 您可以单击已在向导中可见的渠道，也可以单击 **+添加渠道** 以添加要为其创建启动项的渠道。
 
-1. 选择 **下一个** 从 **创建启动项** 向导。 此 **包括子页面** 默认情况下选中该选项。
+1. 单击 **下一个** 从 **创建启动项** 向导。 此 **包括子页面** 默认情况下选中该选项。
 
    ![图像](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >您可以使用 **+添加渠道** 选项以添加另一个要为其创建启动项的渠道。
 
-   使用 **添加渠道** 选项，导航到要为其创建启动项的渠道并选择 **选择**.
+   使用 **添加渠道** 选项，导航到要为其创建启动项的渠道并单击 **选择**.
 
-   此 **选择** 如果尝试选择多个渠道或文件夹来添加启动项，则该选项处于禁用状态。
+   此 **选择** 如果尝试单击多个渠道或文件夹以添加启动项，则该选项处于禁用状态。
 
    ![图像](/help/user-guide/assets/launches-images/launches-14.png)
 
-   选择渠道/渠道后，选择 **下一个**.
+   单击渠道/渠道后，单击 **下一个**.
 
 
-1. 输入 **启动项标题** 作为 **SummerPromotions** 而且您无需设置 **启动日期**，如下图所示。 选择&#x200B;**创建**。
+1. 输入 **启动项标题** 作为 **SummerPromotions** 而且您无需设置 **启动日期**，如下图所示。 单击&#x200B;**创建**。
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
      >
      >启动起始日期遵循播放器/设备的时区，而不是服务器的时区。
 
-1. 请注意，您的启动项已创建。 您可以选择 **打开** 在编辑器中查看页面或选择 **完成** 以导航回您的项目。
+1. 请注意，您的启动项已创建。 您可以单击 **打开** 在编辑器中查看页面或单击 **完成** 以导航回您的项目。
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 请按照以下步骤编辑启动项属性：
 
-1. 导航到渠道 **Futurelaunch** *（待处理启动项）*，然后选择频道，如下图所示。
+1. 导航到渠道 **Futurelaunch** *（待处理启动项）*，然后单击频道，如下图所示。
 
    ![图像](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. 选择 **仪表板** 从操作栏中可以看到 **待处理启动项** 面板中。
+1. 单击 **仪表板** 从操作栏中可以看到 **待处理启动项** 面板中。
 
    ![图像](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. 选择启动项，然后选择 **启动项属性** 从 **待处理启动项** 面板。
+1. 单击启动项，然后单击 **启动项属性** 从 **待处理启动项** 面板。
 
    ![图像](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 创建启动项后，可以使用向现有启动项添加或删除渠道 **编辑启动项** 选项。
 
-完成后，选择 **保存** 以导航回 **Futurelaunch** 渠道。
+完成后，单击 **保存** 以导航回 **Futurelaunch** 渠道。
 
 ### 手动提升屏幕启动项{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    * **提升已修改的页面**  — 仅提升已修改的启动资源。 在不需要启动项审阅时使用此选项。
    * **提升批准的页面**  — 此选项要求启动项批准工作流在启动项渠道上运行。 只有经过批准的页面才会在设置的活动日期提升。
    * **提升当前页面**  — 此选项要求启动项批准工作流仅针对当前页面运行。
-1. 选择 **下一个** 在 **提升启动项** 向导。
-1. 选择 **提升** 以提升启动项。
+1. 单击 **下一个** 在 **提升启动项** 向导。
+1. 单击 **提升** 以提升启动项。
 
 ### 删除屏幕启动项
 

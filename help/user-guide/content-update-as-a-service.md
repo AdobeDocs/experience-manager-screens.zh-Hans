@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 请按照以下步骤对AEM Screens项目使用批量离线更新：
 
 1. 导航到您的AEM Screens项目。
-1. 选择项目并选择 **更新离线内容** 以手动更新渠道内容。
+1. 单击项目，然后单击 **更新离线内容** 以手动更新渠道内容。
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    **项目路径** 指定AEM Screens项目的路径。 路径通常为 `/content/screens/<Name of your project>`.
 
-   *例如*， `/content/screens/we-retail`. 您可以通过选择AEM Screens下的任何项目（不选择图标），在URL中找到此路径。
+   *例如*， `/content/screens/we-retail`. 您可以通过选择AEM Screens下的任何项目（不单击图标），在URL中找到此路径。
 
    >[!NOTE]
    >
@@ -71,4 +71,4 @@ ht-degree: 0%
 
    **计划频率** 指定一个时间，例如5:00 P.M.或17:00，此服务应在此时间更新离线内容。
 
-1. 选择 **保存** 以便保存设置。 您的所有内容将在指定时间更新。
+1. 单击 **保存** 以便保存设置。 您的所有内容将在指定时间更新。

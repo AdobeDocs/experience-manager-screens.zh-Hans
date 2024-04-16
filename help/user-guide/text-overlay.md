@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,15 +58,15 @@ ht-degree: 1%
 
 请按照以下步骤在AEM Screens渠道中使用文本叠加：
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并选择 **编辑** 从操作栏中。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 从操作栏中。
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. 选择图像并选择 **配置** （扳手图标）以打开“属性”对话框。
+1. 单击图像，然后单击 **配置** （扳手图标）以打开“属性”对话框。
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. 选择 **文本叠加** 对话框导航栏中的选项，如下图所示。
+1. 单击 **文本叠加** 对话框导航栏中的选项，如下图所示。
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ ht-degree: 1%
 
 在为项目设置所需的配置后，请按照以下步骤使用Google工作表中的值：
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并选择 **属性** 从操作栏中。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **属性** 从操作栏中。
 
-1. 选择 **个性化** 选项卡，以便设置ContextHub配置。
+1. 单击 **个性化** 选项卡，以便设置ContextHub配置。
 
-   1. 选择 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并选择 **选择**.
+   1. 单击 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并单击 **选择**.
 
-   1. 选择 **区段路径** 作为 **会议** > **屏幕** > **设置** > **wcm** > **区段** 并选择 **选择**.
+   1. 单击 **区段路径** 作为 **会议** > **屏幕** > **设置** > **wcm** > **区段** 并单击 **选择**.
 
-   1. 选择&#x200B;**保存并关闭**。
+   1. 单击“**保存并关闭**”。
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并选择 **编辑** 从操作栏中。
+1. 导航到 **TextOverlayDemo** > **渠道** > **文本示例** 并单击 **编辑** 从操作栏中。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. 将图像和文本叠加组件添加到图像，如中所述 [使用文本叠加](/help/user-guide/text-overlay.md#using-text-overlay) 部分。
 
-1. 选择于 **配置** （扳手图标）以打开 **图像** 对话框。
+1. 单击 **配置** （扳手图标）以打开 **图像** 对话框。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. 导航至 **ContextHub** 选项卡 **图像** 对话框。 选择&#x200B;**添加**。
+1. 导航至 **ContextHub** 选项卡 **图像** 对话框。 单击 **添加**.
 
    >[!NOTE]
    >如果尚未设置ContextHub配置，则会为您的项目禁用此选项。
 
-1. 输入 **值** 在 **占位符** 字段。 选择要从Google工作表中获取值的行 **ContextHub变量**. 在这种情况下，将从Google工作表中的行2和列1检索值。 现在，输入 **默认值** 作为 **20**，如下图所示。 完成后，选中复选标记。
+1. 输入 **值** 在 **占位符** 字段。 单击要用于从Google工作表中获取值的行 **ContextHub变量**. 在这种情况下，将从Google工作表中的行2和列1检索值。 现在，输入 **默认值** 作为 **20**，如下图所示。 完成后，单击复选标记。
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ ht-degree: 1%
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. 选择 **预览**.
+1. 单击 **预览**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -26,19 +26,19 @@ ht-degree: 0%
 请按照以下步骤为AEM Screens项目从创作到发布到设备交付内容更新：
 
 1. 导航到您的AEM Screens项目。
-1. 选择 **管理发布** 以将该项目发布到发布实例。
+1. 单击 **管理发布** 以将该项目发布到发布实例。
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. 此 **管理发布** 向导将打开。 您可以选择 **操作** 还可以安排现在或之后的发布时间。 选择&#x200B;**下一步**。
+1. 此 **管理发布** 向导将打开。 您可以单击 **操作** 还可以安排现在或之后的发布时间。 单击&#x200B;**下一步**。
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. 选中方框，以便您可以从中选择整个项目 **`Manage Publication`** 向导。
+1. 选中方框，以便您可以从以下位置单击整个项目： **`Manage Publication`** 向导。
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. 选择 **+包括子项** 从操作栏中取消选中所有选项，以便发布项目中的所有模块并选择 **添加** 以发布。
+1. 单击 **+包括子项** 并取消选中所有选项，以便发布项目中的所有模块并单击 **添加** 以发布。
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ ht-degree: 0%
    1. **仅包括已发布的页面**：利用此选项，您可以仅管理对之前发布的页面的更新。
 
 
-1. 从 **`Manage Publication wizard`**，选择 **Publish**.
+1. 从 **`Manage Publication wizard`**，单击 **Publish**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,9 +72,9 @@ ht-degree: 0%
    >    1. 如果作者在选择“ ”后未完成复制过程（内容仍在上载到发布实例），则工作流将不起作用 **Publish** 按钮。
 
    >[!CAUTION]
-   >如果作为作者或内容创建者，您希望查看附加到创作实例的设备中的更改，请选择 **更新离线内容** 通过渠道仪表板或选择项目。 在这种情况下，仅在创作实例中执行更新离线内容。
+   >如果作为作者或内容创建者，您希望查看附加到创作实例的设备中的更改，请单击 **更新离线内容** 通过渠道仪表板或选择项目。 在这种情况下，仅在创作实例中执行更新离线内容。
 
-1. 导航到项目并选择 **更新离线内容** 从操作栏中。 此操作会将相同的命令转发到发布实例，以便在发布实例上也创建离线ZIP。
+1. 导航到项目并单击 **更新离线内容** 从操作栏中。 此操作会将相同的命令转发到发布实例，以便在发布实例上也创建离线ZIP。
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -95,16 +95,16 @@ ht-degree: 0%
 >
 >仅当渠道中有更改时，才遵循此部分。 如果在上次更新离线内容后，渠道没有任何更改，则单个渠道的管理发布工作流将无法工作。
 
-1. 导航到您的AEM Screens项目并选择相应的渠道。
-1. 选择 **管理发布** 以将该渠道发布到发布实例。
+1. 导航到您的AEM Screens项目，然后单击渠道。
+1. 单击 **管理发布** 以将该渠道发布到发布实例。
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. 此 **管理发布** 向导将打开。 您可以选择 **操作** 还可以安排现在或之后的发布时间。 选择&#x200B;**下一步**。
+1. 此 **管理发布** 向导将打开。 您可以单击 **操作** 还可以安排现在或之后的发布时间。 单击&#x200B;**下一步**。
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. 选择 **Publish** 从 **`Manage Publication`** 向导。
+1. 单击 **Publish** 从 **`Manage Publication`** 向导。
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

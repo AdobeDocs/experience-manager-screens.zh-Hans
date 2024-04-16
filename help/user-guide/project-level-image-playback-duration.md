@@ -2,7 +2,7 @@
 title: 项目级图像播放持续时间
 description: 了解如何在项目级别定义图像播放持续时间。
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -43,10 +43,10 @@ ht-degree: 1%
 
 请按照以下步骤了解如何更新项目级图像播放持续时间：
 
-1. 导航到您的项目 **ProjectLevelPlayback** 并选择 **属性** 从操作栏中。
+1. 导航到您的项目 **ProjectLevelPlayback** 并单击 **属性** 从操作栏中。
    ![资产](assets/image_playback3.png)
 
-1. 选择渠道中的所有图像并选择左上角的扳手图标（如下图所示），以便打开“渠道级别配置”对话框。
+1. 单击渠道中的所有图像，然后单击左上角的扳手图标（如下图所示），以打开“渠道级别配置”对话框。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

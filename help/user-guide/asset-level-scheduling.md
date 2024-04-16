@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 请按照以下步骤执行资产层计划：
 
-1. 选择任意渠道，然后选择 **编辑** 从操作栏中。
+1. 单击任意渠道，然后单击 **编辑** 从操作栏中。
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ ht-degree: 1%
    >* 创建项目，请参见 [创建新项目](creating-a-screens-project.md).
    >* 创建内容并将其添加到渠道，请参阅 [管理渠道](managing-channels.md).
 
-1. 选择 **编辑** 因此，您可以打开渠道编辑器，并选择要将计划应用于的资产。
+1. 单击 **编辑** 因此，您可以打开渠道编辑器，然后单击要应用计划的资产。
 
    ![图像](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. 选择资源，然后选择左上方 **配置** （扳手图标）。
+1. 单击资产，然后单击左上方 **配置** （扳手图标）。
 
-   选择 **激活** 选项卡。
+   单击 **激活** 选项卡。
 
    ![图像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. 您可以使用以下方式指定日期选取器的日期 **保持活动状态起始日期** 和 **保持活动状态结束日期** 字段。
 
-   如果您选择 **保持活动状态起始日期** 和 **保持活动状态结束日期** 日期和时间，则资产将只显示开始日期/时间和结束日期/时间之间并循环。
+   如果您单击 **保持活动状态起始日期** 和 **保持活动状态结束日期** 日期和时间，则资产将只显示开始日期/时间和结束日期/时间之间并循环。
 
    ![图像](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ### 日划分 {#day-parting}
 
-1. 选择资产并选择 **配置** （扳手图标）以打开“属性”对话框。
+1. 单击资产，然后单击 **配置** （扳手图标）以打开“属性”对话框。
 
 1. 输入开始日期/时间和结束/日期时间后，可以使用表达式或自然文本版本指定循环计划。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ### WeekParting {#week-parting}
 
-1. 选择资源，然后选择 **配置** （扳手图标）。
+1. 单击资产，然后单击 **配置** （扳手图标）。
 
 1. 输入开始日期/时间和结束/日期时间后，可以使用表达式或自然文本版本指定循环计划。
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 ### MonthParting {#month-parting}
 
-1. 选择资源，然后选择 **配置** （扳手图标）。
+1. 单击资产，然后单击 **配置** （扳手图标）。
 
 1. 输入开始日期/时间和结束/日期时间后，可以使用表达式或自然文本版本指定循环计划。
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 ### 部件的组合 {#combined-parting}
 
-1. 选择资源，然后选择 **配置** （扳手图标）。
+1. 单击资产，然后单击 **配置** （扳手图标）。
 
 1. 输入开始日期/时间和结束/日期时间后，可以使用表达式或自然文本版本指定循环计划。
 
@@ -189,7 +189,7 @@ ht-degree: 1%
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***多资产激活*** 允许用户选择多个资源并将播放计划应用于所有选定的资源。
+***多资产激活*** 允许用户单击多个资源并将播放计划应用于所有选定资源。
 
 ### 先决条件 {#prerequisites}
 
@@ -200,21 +200,21 @@ ht-degree: 1%
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-请按照以下步骤选择多个资源并安排它们在AEM Screens项目中的显示：
+请按照以下步骤单击多个资源并计划将它们显示在AEM Screens项目中：
 
-1. 选择 **MultiAssetChannel**，然后选择 **编辑** 从操作栏中。
+1. 单击 **MultiAssetChannel**，然后单击 **编辑** 从操作栏中。
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. 从编辑器中选择多个资源，然后选择 **编辑激活** （左上角图标）。
+1. 单击编辑器中的多个资源，然后单击 **编辑激活** （左上角图标）。
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. 选择日期和时间 **保持活动状态起始日期** 和 **保持活动状态结束日期** 从 **组件激活** 对话框。 选择完计划后，选择复选标记图标。
+1. 单击中的日期和时间 **保持活动状态起始日期** 和 **保持活动状态结束日期** 从 **组件激活** 对话框。 选择完计划后，单击复选标记图标。
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. 选择刷新以检查应用了多资源计划的资源。
+1. 单击刷新可检查将应用多资源计划的资源。
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ ht-degree: 1%
 
 通用开始时间的全局覆盖是通过配置 **激活** 选项卡。 请按照以下步骤执行资产计划的全局覆盖：
 
-1. 选择任意渠道，然后选择 **编辑** 以添加或编辑渠道中的内容。
+1. 单击任意渠道，然后单击 **编辑** 以添加或编辑渠道中的内容。
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. 选择&#x200B;**编辑**。
-1. 在渠道编辑器中，选择要对其应用其计划的资产。
+1. 单击 **编辑**.
+1. 在渠道编辑器中，单击要对其应用计划的资产。
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * **自适应演绎版**
 
-  自适应演绎版允许设备根据客户定义的规则自动为设备选择最佳演绎版。
+  自适应演绎版允许设备根据客户定义的规则自动单击适合设备的最佳演绎版。
 
   作为AEM Screens开发人员，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅 [自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md) 以了解更多详细信息。
 
@@ -60,7 +60,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
       * 在创作和发布中导航到CRXDE Lite。
 
-      * 选择“工具”>“查询”。
+      * 单击“工具”>“查询”。
 
       * 在查询中，使用 `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
    >
    >您只能输入一个电子邮件地址。 要发送批量电子邮件，请创建包含相关用户的组或通讯组列表。
 
-1. 选择 **保存** 要通过电子邮件为AEM Screens设备配置监视器活动，请执行以下操作。
+1. 单击 **保存** 要通过电子邮件为AEM Screens设备配置监视器活动，请执行以下操作。
 
 ## 电子邮件通知 {#email-notification}
 

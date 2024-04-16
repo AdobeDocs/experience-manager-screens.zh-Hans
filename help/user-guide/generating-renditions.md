@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 请按照以下步骤自动生成全高清呈现版本：
 
-1. 选择Adobe Experience Manager链接（左上方），然后选择锤子图标以便您选择 **工作流**.
+1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便 **工作流**.
 
-   选择 **模型**.
+   单击 **模型**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 在工作流模型管理中，选择 **DAM更新资产** 模型和选择 **编辑** 从操作栏中。
+1. 在工作流模型管理中，单击 **DAM更新资产** 模型和点击 **编辑** 从操作栏中。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ ht-degree: 0%
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 选择 **进程** 选项卡。
+1. 单击 **进程** 选项卡。
 1. 将全高清配置文件输入列表 **参数** 如下所示：
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. 选择 **确定**.
+1. 单击&#x200B;**确定**。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 选择 **保存** 左侧的 **DAM更新资产** 屏幕。
+1. 单击 **保存** 左侧的 **DAM更新资产** 屏幕。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 导航到 **资产** 并上传新视频。 选择视频并打开演绎版边栏。 请注意两个全高清视频。
+1. 导航到 **资产** 并上传新视频。 单击视频，然后打开演绎版侧边栏。 请注意两个全高清视频。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ ht-degree: 0%
 
 请按照以下步骤手动生成全高清呈现版本：
 
-1. 选择Adobe Experience Manager链接（左上方）并选择锤子图标，以便您能够选择工具并选择 **工作流**.
+1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便您可以单击“tools（工具）” ，然后单击 **工作流**.
 
-   选择 **模型**.
+   单击 **模型**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 在工作流模型管理中，选择 **屏幕更新资产** 模型，并选择 **启动工作流** 以打开 **运行工作流** 对话框。
+1. 在工作流模型管理中，单击 **屏幕更新资产** 模型，然后单击 **启动工作流** 以打开 **运行工作流** 对话框。
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 在中选择所需的视频 **有效负荷** 并选择 **运行**.
+1. 单击中的所需视频 **有效负荷** 并单击 **运行**.
 
    ![步骤6_-_选择_所需视频](assets/step6_-_select_thedesiredvideo.png)
 
-1. 导航到 **资产**，向下钻取到您的资源，并将其选定。
+1. 导航到 **资产**，深入到您的资源，然后单击该资源。
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

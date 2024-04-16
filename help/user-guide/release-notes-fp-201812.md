@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -37,7 +37,7 @@ AEM Screens功能包201812的发布日期为2019年1月16日。
 
 * **多资产计划**：
 
-  多资产计划允许用户选择多个资产并将播放计划应用于所有选定的资产。 请参阅 **多资产计划**&#x200B;中的部分&#x200B;**[资产计划](asset-level-scheduling.md)**.
+  多资产计划允许用户单击多个资产并将播放计划应用于所有选定资产。 请参阅 **多资产计划**&#x200B;中的部分&#x200B;**[资产计划](asset-level-scheduling.md)**.
 
 * **多区域布局**：
 

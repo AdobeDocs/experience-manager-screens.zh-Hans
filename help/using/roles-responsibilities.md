@@ -2,7 +2,7 @@
 title: AEM Screens项目角色和职责
 description: 了解AEM Screens项目角色和职责。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -47,7 +47,7 @@ AEM实施人员通常会随着时间的推移分阶段将自定义功能部署�
 
 #### 考虑硬件合作伙伴 {#selecting-hardware-partner}
 
-选择合适的硬件合作伙伴至关重要。 必须考虑以下问题：
+单击正确的硬件合作伙伴至关重要。 必须考虑以下问题：
 
 1. 服务级别协议有哪些条款？
 

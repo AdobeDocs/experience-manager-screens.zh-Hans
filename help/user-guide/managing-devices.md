@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
@@ -36,26 +36,26 @@ ht-degree: 1%
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. 选择您的 **设备** 文件夹并选择 **设备管理器** 在操作栏中。 此时会显示已分配和未分配的设备。
+1. 单击您的 **设备** 文件夹并单击 **设备管理器** 在操作栏中。 此时会显示已分配和未分配的设备。
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 从列表中选择未分配的设备，然后选择 **指定设备** 在操作栏中。
+1. 在列表中单击未分配的设备，然后单击 **指定设备** 在操作栏中。
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. 从列表中选择要为其分配设备的显示，然后选择 **分配**.
+1. 在列表中单击要为其分配设备的显示，然后单击 **分配**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. 选择 **完成** 以完成分配流程。
+1. 单击 **完成** 以完成分配流程。
 
 
    显示功能板显示分配到的设备 **设备** 面板。
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   选择(**...**)的右上角 **设备** 面板以添加设备配置或更新设备。
+   单击(**...**)的右上角 **设备** 面板以添加设备配置或更新设备。
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

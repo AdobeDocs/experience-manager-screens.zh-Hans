@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 1%
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 1. **导航到AEM Screens > `We.Retail` 运行项目：**
 
-   从AEM开始菜单中，选择屏幕图标。 验证 `We.Retail` 看到“运行项目”。
+   从AEM的“开始”菜单中，单击屏幕图标图标。 验证 `We.Retail` 看到“运行项目”。
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ AEM Screens使用 [静态页面模板](https://experienceleague.adobe.com/en/doc
 
 Hello World组件用于序列频道。 要测试组件，将创建一个新的序列渠道。
 
-1. 从AEM的“开始”菜单中，导航到 **Screens** > **`We.Retail`运行** >并选择 **渠道**.
+1. 从AEM的“开始”菜单中，导航到 **Screens** > **`We.Retail`运行** >并单击 **渠道**.
 
-1. 选择 **创建** 按钮
+1. 单击 **创建** 按钮
 
    1. 选择 **创建实体**
 
@@ -435,9 +435,9 @@ Hello World组件用于序列频道。 要测试组件，将创建一个新的�
 
 1. 将页面模式切换到 **设计** 模式。
 
-   1. 选择 **扳手** 图标，以便您配置允许的组件。
+   1. 单击 **扳手** 图标，以便您配置允许的组件。
 
-   1. 选择 **Screens** 组和 **`We.Retail`运行 — 内容** 组。
+   1. 单击 **Screens** 组和 **`We.Retail`运行 — 内容** 组。
 
    ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 

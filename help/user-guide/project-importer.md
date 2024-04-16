@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -101,17 +101,17 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 选择项目，**DemoProjectImporter **>** 创建 **>** 导入位置**从侧栏中。
+1. 单击项目，**DemoProjectImporter **>** 创建 **>** 导入位置**从侧栏中。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. 此 **导入** 此时将显示向导。 为项目选择包含位置的文件或选择文件(***最小文件.xls***)您已从 *先决条件* 部分。
+1. 此 **导入** 此时将显示向导。 单击包含位置的项目的文件，或单击文件(***最小文件.xls***)您已从 *先决条件* 部分。
 
-   选择文件后，选择 **下一个**.
+   选择文件后，单击 **下一个**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. 从“导入”向导中验证文件的内容（位置）并选择 **导入**.
+1. 从“导入”向导中验证文件的内容（位置），然后单击 **导入**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
    ![资产](assets/health-check1.png)
 
 
-2. 选择 **执行选定的运行状况检查** 因此，您可以为上面列出的两个属性运行验证。
+2. 单击 **执行选定的运行状况检查** 因此，您可以为上面列出的两个属性运行验证。
 
    如果已启用这两个过滤器，则 **Screens配置运行状况服务** 显示 **结果** 作为 **确定** 将两个配置都启用后。
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
    ![图像](assets/config/empty-ref2.png)
 
-1. 选择 **保存** 以启用Apache Sling引用过滤器允许为空。
+1. 单击 **保存** 以启用Apache Sling引用过滤器允许为空。
 
 
 #### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![图像](assets/config/config-1.png)
 
-1. 选择 **保存** 以启用 *http* 服务。
+1. 单击 **保存** 以启用 *http* 服务。
 
 #### 为AEM Screens启用Touch UI {#enable-touch-ui-for-aem-screens}
 

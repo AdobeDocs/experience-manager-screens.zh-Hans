@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -32,11 +32,11 @@ ht-degree: 2%
 
    ![图像](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. 选择 **分配渠道** 在操作栏中。
+1. 单击 **分配渠道** 在操作栏中。
 
    或，
 
-   选择 **仪表板** 并选择 **+指定渠道** 从 **已分配渠道** 面板，以便您打开 **渠道分配** 对话框。
+   单击 **仪表板** 并单击 **+指定渠道** 从 **已分配渠道** 面板，以便您打开 **渠道分配** 对话框。
 
    ![图像](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 作为内容作者，请指定渠道中断的时间，以便您能够选择切断非关键内容，还可以选择让重要内容在因计划而切断播放之前播放。
 
-从以下选项中选择一个选项，这些选项可用于设置中断方法 **渠道分配** 对话框：
+单击以下选项之一，这些选项可用于设置中断方法 **渠道分配** 对话框：
 
 * **立即**  — 每当激活计划或收到更新时，您都可以中断播放并立即刷新或播放新内容。
 * **在当前项目结束时**  — 激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放。 只有在这之后，您才能刷新或播放新内容。

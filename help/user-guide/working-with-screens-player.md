@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. 从项目中导航到设备功能板，例如， ***测试项目*** > ***设备***.
 
-   选择 **设备** 和 **设备管理器** 从操作栏中。
+   单击 **设备** 和 **设备管理器** 从操作栏中。
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. 选择设备，以便打开设备仪表板。
+1. 单击设备，以便打开设备仪表板。
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 #### 访问配置菜单选项 {#configuration-options}
 
-如果您选择 **配置** 侧菜单中的选项，如下图所示：
+如果您单击 **配置** 侧菜单中的选项，如下图所示：
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 您可以从AEM Screens播放器的管理员UI中清除渠道和应用程序的缓存。
 
-选择 **内容缓存** 以更新缓存。
+单击 **内容缓存** 以更新缓存。
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

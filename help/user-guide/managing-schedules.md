@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 请按照以下步骤为您的渠道创建计划：
 
-1. 选择Adobe Experience Manager链接（左上方），然后选择Screens。 或者，您可以直接转到： `http://localhost:4502/screens.html/content/screens`.
-1. 导航到屏幕项目并选择 **时间表**.
-1. 选择 **创建** 从操作栏中。
-1. 选择 **计划** 从 **创建** 向导并选择 **下一个**.
+1. 单击Adobe Experience Manager链接（左上方），然后单击Screens。 或者，您可以直接转到： `http://localhost:4502/screens.html/content/screens`.
+1. 导航到屏幕项目并单击 **时间表**.
+1. 单击 **创建** 从操作栏中。
+1. 单击 **计划** 从 **创建** 向导并单击 **下一个**.
 
-1. 输入 **名称** 和 **标题** 并选择 **创建**.
+1. 输入 **名称** 和 **标题** 并单击 **创建**.
 
 您可以在项目中看到一个具有指定名称和标题的计划文件夹。
 
@@ -52,14 +52,14 @@ ht-degree: 0%
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. 选择 **仪表板** 从操作栏中。
+1. 单击 **仪表板** 从操作栏中。
 
    您可以查看三个不同的面板，例如 **时间表信息**， **已分配渠道**、和 **已分配显示区**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **计划信息面板** 从“计划信息”面板右上角选择“属性”以查看/更改计划的属性。
+   **计划信息面板** 单击“计划信息”面板右上角的属性以查看/更改计划的属性。
 
-   **已分配渠道面板** 从“分配的渠道”面板右上角选择+分配渠道，打开“渠道分配”对话框。
+   **已分配渠道面板** 从“分配的渠道”面板右上角单击+分配渠道，打开“渠道分配”对话框。
 
-   **已分配显示面板** 从“指定的显示”面板中选择任意显示以打开显示仪表板。
+   **已分配显示面板** 从“指定的显示”面板中单击任意显示以打开显示操控板。

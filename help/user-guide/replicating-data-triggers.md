@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ### 步骤1：复制ContextHub配置 {#replicating-contexthub-configurations}
 
-1. 导航到 **工具** > **部署** > **分布** > **发布代理** 并选择发布代理，以便配置设置。
+1. 导航到 **工具** > **部署** > **分布** > **发布代理** ，然后单击发布代理，以便您配置设置。
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ ht-degree: 1%
    >
    >或者，您可以使用 `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` 直接导航到屏幕以配置和测试连接。
 
-1. 选择 **测试连接** 从操作栏中，验证作者与发布实例的通信，如下所示：
+1. 单击 **测试连接** 从操作栏中，验证作者与发布实例的通信，如下所示：
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -46,9 +46,9 @@ ht-degree: 1%
    >
    >如果测试失败，请修复创作实例和发布实例之间的复制代理配置。 请参阅 [测试连接疑难解答](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) 以了解更多详细信息。
 
-1. 选择 **添加** 从 **分发代理** 屏幕树并选择项目的配置路径，例如， `/conf/screens/settings/cloudsettings/configuration`.
+1. 单击 **添加** 从 **分发代理** 屏幕树并单击项目的配置路径，例如， `/conf/screens/settings/cloudsettings/configuration`.
 
-1. 选择&#x200B;**提交**。
+1. 单击&#x200B;**“提交”。**
 
 ### 复制受众 {#replicating-audiences}
 
@@ -58,11 +58,11 @@ ht-degree: 1%
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
-1. 从用户界面中选择所有受众和区段。
+1. 单击用户界面中的所有受众和区段。
 
-1. 选择 **管理发布** 从操作栏中。
+1. 单击 **管理发布** 从操作栏中。
 
-1. 选择 **下一个** 和 **Publish**.
+1. 单击 **下一个** 和 **Publish**.
 
 ### 复制活动  {#replicating-activities}
 
@@ -70,11 +70,11 @@ ht-degree: 1%
 
 1. 深入到您的项目文件夹，即， `/content/campaigns/screens/…`.
 
-1. 从用户界面中选择所有活动。
+1. 单击用户界面中的所有活动。
 
-1. 选择 **管理发布** 从操作栏中。
+1. 单击 **管理发布** 从操作栏中。
 
-1. 选择 **下一个** 和 **Publish**.
+1. 单击 **下一个** 和 **Publish**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 1. 导航到工具> **部署** > **分布** > **发布代理**.
 
-1. 选择 **编辑** 并确保中的端点URL **导入程序终端** 字段还指向分发代理中的发布服务器URL。
+1. 单击 **编辑** 并确保中的端点URL **导入程序终端** 字段还指向分发代理中的发布服务器URL。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果不使用默认管理员凭据，则必须使用其他用户名和密码配置分发代理。
@@ -110,10 +110,10 @@ ht-degree: 1%
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. 选择 **保存**
+   1. 单击 **保存**
    1. 使用 `Cmd +F` 以搜索 **Apache Sling分发代理 — 转发代理工厂** 打开配置并搜索 **传输密钥提供程序**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. 更新 `(name=default)` 替换为 `(name=slingTransportSecretProvider)`.
-   1. 选择 **保存** 并从重新运行测试连接 **分发代理** 从AEM实例中再次筛选。
+   1. 单击 **保存** 并从重新运行测试连接 **分发代理** 从AEM实例中再次筛选。

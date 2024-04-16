@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
  }
 ```
 
-如果您有一个发布实例由一个Dispatcher承载，则在Dispatcher上启用粘性没有帮助，因为负载平衡器可能会将每个请求发送到Dispatcher。 在这种情况下，选择 **启用** 在 **粘性** 字段以将其在负载平衡器级别启用，如下图所示：
+如果您有一个发布实例由一个Dispatcher承载，则在Dispatcher上启用粘性没有帮助，因为负载平衡器可能会将每个请求发送到Dispatcher。 在这种情况下，请单击 **启用** 在 **粘性** 字段以将其在负载平衡器级别启用，如下图所示：
 
 ![图像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

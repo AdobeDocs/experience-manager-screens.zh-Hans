@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 请按照以下步骤在Tizen播放器中配置名称：
 
-1. 选择遥控器上的菜单按钮。
+1. 单击遥控器上的菜单按钮。
 1. 导航到 **网络** > **设备名称** 以便为该播放器指定一个名称。
 
 ### 在Samsung设备上配置更新 {#config-updates}
@@ -55,11 +55,11 @@ ht-degree: 1%
 在Samsung设备上执行以下步骤，以便在该设备上完成AEM Screens播放器的安装：
 
 1. 导航到您的Samsung设备并打开。
-1. 选择 **菜单** 设备遥控器上的按钮，然后向下滚动到 **系统** 左侧导航栏中。
-1. 向下滚动并选择 **播放方式** 选项并将其更改为 **URL启动器** 选项。
+1. 单击 **菜单** 设备遥控器上的按钮，然后向下滚动到 **系统** 左侧导航栏中。
+1. 向下滚动，然后单击 **播放方式** 选项并将其更改为 **URL启动器** 选项。
    ![图像](/help/user-guide/assets/tizen/rms-2.png)
 1. 设置URL启动器后，按 **主页** 遥控器上的按钮。
-1. 导航至 **URL启动器设置** 并输入本地主机服务器的IP地址，然后选择 **完成**.
+1. 导航至 **URL启动器设置** 并输入本地主机服务器的IP地址，然后单击 **完成**.
 
    >[!NOTE]
    >Tizen播放器应能够连接到http服务器。
@@ -145,29 +145,29 @@ Tizen播放器在启动时（以及每次重新启动）安装并应用 `config.
 
 1. 导航到服务器地址并键入MagicInfo URL access ，然后按键 **完成**.
 
-1. 设置TLS（如有必要）。 导航到端口并从服务器中选择端口号，然后选择 **保存**.
+1. 设置TLS（如有必要）。 导航到端口，然后单击服务器上的端口号，然后单击 **保存**.
 
-1. 导航至 **设备** 选项卡，然后检查您配置的设备。 找到设备后，选中该复选框，然后选择 **批准**.
+1. 导航至 **设备** 选项卡，然后检查您配置的设备。 找到设备后，单击复选框，然后单击 **批准**.
 
    >![图像](/help/user-guide/assets/tizen/rms-3.png)
 
-1. 填写所需信息并选择设备组。 选择 **确定**.
+1. 填写所需信息并单击设备组。 单击&#x200B;**确定**。
 
    >![图像](/help/user-guide/assets/tizen/rms-7.png)
 
-1. 设备获得批准后，就会出现在“Device List（设备列表）”中。 选择 *信息* ，如下所示。
+1. 设备获得批准后，就会出现在“Device List（设备列表）”中。 单击 *信息* ，如下所示。
 
    >![图像](/help/user-guide/assets/tizen/rms-6.png)
 
-1. 将显示“设备信息”对话框。 选择 **设备信息** 选项卡并选择 **编辑**.
+1. 将显示“设备信息”对话框。 单击 **设备信息** 选项卡，然后单击 **编辑**.
 
    >![图像](/help/user-guide/assets/tizen/rms-5.png)
 
-1. 编辑设备选项并选择 **设置** 选项卡。 导航到 **URL启动器** 部分，然后输入托管wgt的URL和 `SSSP config file` 这样您就可以安装 `SSSP` 应用程序，如下图所示。
+1. 编辑设备选项，然后单击 **设置** 选项卡。 导航到 **URL启动器** 部分，然后输入托管wgt的URL和 `SSSP config file` 这样您就可以安装 `SSSP` 应用程序，如下图所示。
 
    ![图像](/help/user-guide/assets/tizen/rms-9.png)
 
-1. 选择&#x200B;**保存**。
+1. 单击&#x200B;**保存**。
 
 ### 使用Screens遥控器 {#using-remote-control}
 

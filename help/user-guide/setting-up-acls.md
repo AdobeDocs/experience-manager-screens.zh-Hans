@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -30,19 +30,19 @@ ht-degree: 2%
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 选择 **组** 并输入ID（例如，Acme）。
+1. 单击 **组** 并输入ID（例如，Acme）。
 
    或者，使用此链接， `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   接下来，选择 **保存**.
+   接下来，单击 **保存**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 选择 **参与者** 从列表中并双击它。
+1. 单击 **参与者** ，然后双击该列表。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 添加 **Acme** （您创建的项目）到 **将成员添加到组**. 选择&#x200B;**保存**。
+1. 添加 **Acme** （您创建的项目）到 **将成员添加到组**. 单击&#x200B;**保存**。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 1. 设置组的权限 **Acme** 使用此 `(http://localhost:4502/useradmin)`.
 
-   选择组 **Acme** 并选择 **权限**.
+   单击组 **Acme** 然后单击 **权限**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

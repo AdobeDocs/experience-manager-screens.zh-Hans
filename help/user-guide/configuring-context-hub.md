@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 1. **导航到ContextHub**
 
-   导航到您的AEM实例，然后从左侧边栏中选择工具图标。 选择 **站点** > **ContextHub**，如下图所示。
+   导航到您的AEM实例，然后单击左侧边栏中的工具图标。 单击 **站点** > **ContextHub**，如下图所示。
 
    ![图像](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -81,16 +81,16 @@ ht-degree: 1%
 
    1. 导航到标题为的配置容器 **屏幕**.
 
-   1. 选择 **创建** > **创建配置容器** 并输入标题为 **ContextHubDemo**.
+   1. 单击 **创建** > **创建配置容器** 并输入标题为 **ContextHubDemo**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **导航** 到 **ContextHubDemo** > **创建** **ContentHub配置** 并选择 **保存**.
+   1. **导航** 到 **ContextHubDemo** > **创建** **ContentHub配置** 并单击 **保存**.
 
       >[!NOTE]
-      > 选择后 **保存**，您处于 **ContextHub配置** 屏幕。
+      > 单击之后 **保存**，您处于 **ContextHub配置** 屏幕。
 
-   1. 从 **ContextHub配置** 屏幕，选择 **创建** > **ContentHub存储配置**
+   1. 从 **ContextHub配置** 屏幕，单击 **创建** > **ContentHub存储配置**
 
    ![图像](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -110,14 +110,14 @@ ht-degree: 1%
    >
    >在升级之前或之后，请按照创作和发布中的以下步骤操作。
 
-   1. 输入 **标题** 作为 **Google工作表**， **存储名称** 作为 **`googlesheets`**、和 **存储类型** 作为 **c`ontexthub.generic-jsonp`** 并选择 **下一个**.
+   1. 输入 **标题** 作为 **Google工作表**， **存储名称** 作为 **`googlesheets`**、和 **存储类型** 作为 **c`ontexthub.generic-jsonp`** 并单击 **下一个**.
 
       >[!CAUTION]
       >如果您使用的是Adobe Experience Manager (AEM) 6.4，请输入 **配置标题** 作为 **`googlesheets`** 和 **存储类型** 作为 **c`ontexthub.generic-jsonp`**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. 输入特定的json配置。 例如，您可以将以下json用于演示目的，然后选择 **保存**. 您会看到标题为 **Google工作表** 在ContextHub配置中。
+   1. 输入特定的json配置。 例如，您可以将以下json用于演示目的，然后单击 **保存**. 您会看到标题为 **Google工作表** 在ContextHub配置中。
 
       >[!IMPORTANT]
       >确保将代码替换为 `*<Sheet ID>*` 和 `*<API Key>*`，在设置Google工作表时获取的数据。
@@ -154,7 +154,7 @@ ht-degree: 1%
 
       ![图像](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. 选择 **下一个** 然后 **保存**.
+   1. 单击 **下一个** 然后 **保存**.
 
       >[!NOTE]
       >跳过定义json的过程，并将其留空。
@@ -166,16 +166,16 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到 **个性化** > **受众** > **屏幕**.
 
-   1. 选择 **创建** > **创建上下文中心区段。** 此 **新ContextHub区段** 对话框打开。
+   1. 单击 **创建** > **创建上下文中心区段。** 此 **新ContextHub区段** 对话框打开。
 
-   1. 输入 **标题** 作为 `**Higherthan50**` 并选择 **创建**. 同样，创建另一个标题为 `**Lowerthan50**`.
+   1. 输入 **标题** 作为 `**Higherthan50**` 并单击 **创建**. 同样，创建另一个标题为 `**Lowerthan50**`.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. 选择区段 `**Higherthan50**` 并选择 **属性** 从操作栏中。
+   1. 单击区段 `**Higherthan50**` 并单击 **属性** 从操作栏中。
       ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. 选择 **个性化** 选项卡 **区段属性**. 设置 **ContextHub路径** 到 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **区段路径** 到 `/conf/screens/settings/wcm/segments` 并选择 **保存**，如下图所示。
+   1. 单击 **个性化** 选项卡 **区段属性**. 设置 **ContextHub路径** 到 `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` 和 **区段路径** 到 `/conf/screens/settings/wcm/segments` 并单击 **保存**，如下图所示。
 
    ![图像](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -189,11 +189,11 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到 **个性化** > **活动**.
 
-   1. 选择 **创建** > **创建品牌**.
+   1. 单击 **创建** > **创建品牌**.
 
-   1. 选择 **品牌** 从 **创建页面** 向导并选择 **下一个**.
+   1. 单击 **品牌** 从 **创建页面** 向导并单击 **下一个**.
 
-   1. 输入 **标题** 作为 **ScreensBrand** 并选择 **创建**. 您的品牌现已创建，如下所示。
+   1. 输入 **标题** 作为 **ScreensBrand** 并单击 **创建**. 您的品牌现已创建，如下所示。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -208,13 +208,13 @@ ht-degree: 1%
 
    请按照以下步骤在品牌中创建区域：
 
-   1. 选择 **创建** 然后 **创建区域**.
+   1. 单击 **创建** 然后 **创建区域**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. 选择 **面积图** 从 **创建页面** 向导并选择 **下一个**.
+   1. 单击 **面积图** 从 **创建页面** 向导并单击 **下一个**.
 
-   1. 输入 **标题** 作为 **Screens值** 并选择 **创建**.
+   1. 输入 **标题** 作为 **Screens值** 并单击 **创建**.
 即会在您的品牌中创建区域。
 
 ## 步骤5：在活动中创建区段 {#step-setting-up-audience-segmentation}
@@ -225,21 +225,21 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到 **个性化** > **活动** > **ScreensBrand** >**Screens值**.
 
-   1. 选择 **创建** > **创建活动。** 此 **配置活动向导** 打开。
+   1. 单击 **创建** > **创建活动。** 此 **配置活动向导** 打开。
 
-   1. 输入 **标题** 作为 **ValueCheck50** 和 **名称** 作为 **valuecheck50**. 选择 **定位引擎** 作为 **ContextHub (AEM)** 从下拉列表中选择 **下一个**.
+   1. 输入 **标题** 作为 **ValueCheck50** 和 **名称** 作为 **valuecheck50**. 单击 **定位引擎** 作为 **ContextHub (AEM)** 从下拉菜单中单击 **下一个**.
 
       ![图像](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. 选择 **添加体验** 从 `**Configure Activity**` 向导。
+   1. 单击 **添加体验** 从 `**Configure Activity**` 向导。
 
-   1. 从 **受众**，选择 `**Higherthan50**` 并选择 **添加体验** 并输入 **标题** 作为 `**higherthan50**` **名称** 作为 `**higherthan50**`. 选择 **确定**.
+   1. 从 **受众**，单击 `**Higherthan50**` 并单击 **添加体验** 并输入 **标题** 作为 `**higherthan50**` **名称** 作为 `**higherthan50**`. 单击 **确定**.
 
-   1. 从 **受众**，选择 `**Lowerthan50**` 并选择 **添加体验** 并输入 **标题** 作为 `**lowerthan50**` **名称** 作为 `**lowerthan50**`. 选择 **确定**.
+   1. 从 **受众**，单击 `**Lowerthan50**` 并单击 **添加体验** 并输入 **标题** 作为 `**lowerthan50**` **名称** 作为 `**lowerthan50**`. 单击 **确定**.
 
    ![图像](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. 选择 **下一个** 然后 **保存**. `**ValueCheck50**` 现已创建并配置活动。
+   1. 单击 **下一个** 然后 **保存**. `**ValueCheck50**` 现已创建并配置活动。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -249,20 +249,20 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到 **个性化** > **受众** > **屏幕**.
 
-   1. 选择区段 `**Higherthan50**`，并选择 **编辑** 从操作栏中。
+   1. 单击区段 `**Higherthan50**`，然后单击 **编辑** 从操作栏中。
 
    1. 拖放 **比较：属性 — 值** 组件添加到编辑器中。
 
-   1. 选择扳手图标，以打开 **比较属性和值** 对话框。
+   1. 单击扳手图标，以打开 **比较属性和值** 对话框。
 
-   1. 选择 **google表/value/1/0** 从的下拉菜单中 **属性名称**.
+   1. 单击 **google表/value/1/0** 从的下拉菜单中 **属性名称**.
 
       >[!NOTE]
       > 此 **google表/value/1/0** 引用中填充的行2和列 `google` 工作表：
 
       ![图像](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. 选择 **运算符** 作为 **大于** 从下拉菜单中。
+   1. 单击 **运算符** 作为 **大于** 从下拉菜单中。
 
    1. 输入 **值** 作为 **70**.
 
@@ -276,11 +276,11 @@ ht-degree: 1%
 
    1. 拖放 **比较：属性 — 值** 组件添加到编辑器中。
 
-   1. 选择扳手图标。
+   1. 单击扳手图标。
 
-   1. 在 **比较属性和值** 对话框，选择 **google表/value/1/0** 从的下拉菜单中 **属性名称**.
+   1. 在 **比较属性和值** 对话框中，单击 **google表/value/1/0** 从的下拉菜单中 **属性名称**.
 
-   1. 选择 **运算符** 作为 **小于** 从下拉菜单中。
+   1. 单击 **运算符** 作为 **小于** 从下拉菜单中。
 
    1. 输入 **值** 作为 **50**.
 
@@ -291,16 +291,16 @@ ht-degree: 1%
 
 1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用启用定位 **DataDrivenChannel** 在AEM Screens渠道中创建。
 
-1. 选择渠道 **TargetChannel** 并选择 **属性** 从操作栏中。
+1. 单击渠道 **TargetChannel** 并单击 **属性** 从操作栏中。
 
    ![图像](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. 选择 **个性化** 选项卡，以便设置ContextHub配置。
+1. 单击 **个性化** 选项卡，以便设置ContextHub配置。
 
    1. 设置 **ContextHub路径** 到 `/conf/screens/settings/wcm/segments` 和 **区段路径** 到 `/conf/screens/settings/wcm/segments`.
    1. 将品牌设置为 **ScreensBrand** 从下拉菜单和 **设置区域引用** 到 **Screens值**.
 
-   1. 选择&#x200B;**保存并关闭**。
+   1. 单击“**保存并关闭**”。
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ ht-degree: 1%
 
       ![图像](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. 导航并选择 **TargetChannel** 渠道和选择 **编辑** 从操作栏中。
+   1. 导航并单击 **TargetChannel** 渠道并单击 **编辑** 从操作栏中。
 
       >[!NOTE]
       >

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -45,9 +45,9 @@ ht-degree: 2%
 
 按照以下说明下载内容分配报表：
 
-1. 导航到您的AEM Screens项目并选择该项目 **DemoScreens**.
+1. 导航到您的AEM Screens项目，然后单击该项目 **DemoScreens**.
 
-1. 选择 **内容分配报表** 从操作栏中。
+1. 单击 **内容分配报表** 从操作栏中。
 
    ![图像](/help/user-guide/assets/content-assignment-report/can-download.png)
 

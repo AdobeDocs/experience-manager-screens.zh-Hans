@@ -2,7 +2,7 @@
 title: AEM Screens中对视频的缩略图支持
 description: 了解如何在AEM Screens中为视频添加缩略图支持。
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 导航到现有AEM Screens渠道或创建渠道。
 
-1. 选择渠道并选择 **编辑** 从操作栏中。
+1. 单击渠道，然后单击 **编辑** 从操作栏中。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. 选择视频，然后选择 *扳手* 图标。
+1. 单击视频，然后单击 *扳手* 图标。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ ht-degree: 2%
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. 将图像从资产选取器拖放到 **缩略图** 放置区域并选择 **完成**.
+1. 将图像从资产选取器拖放到 **缩略图** 放置区域并单击 **完成**.
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. 选择 **预览**.
+1. 单击 **预览**.
 
 1. 如果已在组件上设置视频，则会播放视频。 如果未设置并且设置了缩略图，则会播放缩略图。 否则，该组件被视为未配置并被跳过。
 

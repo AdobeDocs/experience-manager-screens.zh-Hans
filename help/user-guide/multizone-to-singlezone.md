@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -43,8 +43,8 @@ ht-degree: 1%
 
 1. **创建多区域Screens频道**
 
-   1. 选择 **渠道** 文件夹并选择 **创建** 并打开向导，以便创建渠道。
-   1. 选择 **左L栏分屏渠道** 并从向导中创建标题为 **MultiZoneLayout**.
+   1. 单击 **渠道** 文件夹并单击 **创建** 并打开向导，以便创建渠道。
+   1. 单击 **左L栏分屏渠道** 并从向导中创建标题为 **MultiZoneLayout**.
    1. 向渠道添加内容。 将资源拖放到每个区域。 以下示例显示了 **MultiZoneLayout** 包含视频、图像和文本横幅（以嵌入顺序）的频道，如下所示。
 
    ![资产](assets/mz-to-sz2.png)
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    ![资产](assets/mz-to-sz3.png)
 
-1. 选择 **编辑** 以向此渠道添加内容。 添加 **渠道** 要为此渠道切换到的组件和图像资源，如下图所示：
+1. 单击 **编辑** 以向此渠道添加内容。 添加 **渠道** 要为此渠道切换到的组件和图像资源，如下图所示：
 
    ![资产](assets/mz-to-sz4.png)
 

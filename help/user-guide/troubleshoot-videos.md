@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 观看视频：
 
 1. 导航到您的视频，例如 `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. 选择视频，展开左上角的菜单，然后选择 **节目**.
+1. 单击视频，展开左上角的菜单，然后单击 **节目**.
 
 应存在不同的演绎版（MP4或M4V）。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >如果没有格式副本，请确保在运行AEM的操作系统上安装了ffmpeg。
 >
->选择 [此处](https://www.ffmpeg.org/download.html) 以安装ffmpeg。
+>单击 [此处](https://www.ffmpeg.org/download.html) 以安装ffmpeg。
 
 ## 视频资产 {#video-assets}
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 ### 正在检查视频配置文件 {#checking-video-profile}
 
-1. 导航至 **视频配置文件**，即， `http://localhost:4502/etc/dam/video.html` 并选择 **上传测试视频**.
+1. 导航至 **视频配置文件**，即， `http://localhost:4502/etc/dam/video.html` 并单击 **上传测试视频**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. 上传测试视频并选择 **确定** 这样你就可以开始转码了。
+1. 上传测试视频并单击 **确定** 这样你就可以开始转码了。
 
    如果转码视频失败，请展开ffmpeg输出以了解ffmpeg控制台输出中的任何错误。
 
@@ -73,14 +73,14 @@ ht-degree: 0%
 
 如果视频组件配置不正确，请检查页面设计中的配置文件列表。
 
-1. 导航到您的渠道，然后选择 **设计** 模式。
+1. 导航到您的渠道，然后单击 **设计** 模式。
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. 选择视频并打开 **编辑** 对话框。 打开 **配置文件** 选项卡。
+1. 单击视频并打开 **编辑** 对话框。 打开 **配置文件** 选项卡。
 
    >[!NOTE]
-   >选择不同的配置文件（至少应存在“高质量H.264”配置文件）。
+   >单击不同的配置文件（至少应存在“高质量H.264”配置文件）。
 
 ### 在Web播放器中检查视频 {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ ht-degree: 0%
 要使用DAM工作流创建FullHD呈现版本，请执行以下操作：
 
 1. 导航至 *工作流模型管理员* 那是 `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. 选择 **屏幕更新资产** 模型。
-1. 选择 **启动工作流** 从操作栏中。
-1. 从 **运行工作流** 对话框中，选择您的视频资产 **有效负荷**.
-1. 选择 **运行**.
+1. 单击 **屏幕更新资产** 模型。
+1. 单击 **启动工作流** 从操作栏中。
+1. 从 **运行工作流** 对话框中，单击位于页面顶部的 **有效负荷**.
+1. 单击 **运行**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 请按照以下步骤设置绝对策略：
 
-1. 导航到渠道作者，然后选择序列组件，如下图所示。
+1. 导航到渠道作者，然后单击序列组件，如下图所示。
 1. 打开其配置对话框。
 1. 编辑 **策略** 并添加绝对。
 

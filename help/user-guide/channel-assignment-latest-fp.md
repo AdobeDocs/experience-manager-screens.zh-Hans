@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 1. 创建标题为 **自助餐厅** 在 **渠道** 文件夹。
 
-1. 选择渠道，然后选择 **编辑** 从操作栏中。
+1. 单击渠道，然后单击 **编辑** 从操作栏中。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
-1. 选择 **分配渠道** 从操作栏中。
+1. 单击 **分配渠道** 从操作栏中。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    或者，
 
-   选择 **仪表板** 从操作栏中选择 **+指定渠道** 从 **已分配的渠道和计划** 面板。
+   单击 **仪表板** 操作栏中，然后单击 **+指定渠道** 从 **已分配的渠道和计划** 面板。
 
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ ht-degree: 2%
    >
    >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
-1. 从 **计划** 选项，选择 **激活窗口** 和 **周期性计划**.
+1. 从 **计划** 选项，单击 **激活窗口** 和 **周期性计划**.
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
-1. 选择 **保存** 配置您的首选项后。
+1. 单击 **保存** 配置您的首选项后。
 
 ### 在Chrome播放器中查看内容 {#viewing-content-output}
 
@@ -111,11 +111,11 @@ ht-degree: 2%
 
 1. 导航到所需的显示，例如， **DemoScreens** > **位置** > **圣何塞** > **大厅**.
 
-1. 选择 **分配渠道** 从操作栏中。
+1. 单击 **分配渠道** 从操作栏中。
 
    或者，
 
-   选择 **仪表板** 并选择 **时间线** 从 **已分配的渠道和计划** 面板。
+   单击 **仪表板** 并单击 **时间线** 从 **已分配的渠道和计划** 面板。
 
    ![图像](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 ### 循环计划 {#recurrence-schedule}
 
-周期性时间表允许您为内容设置周期性时间表。 选择 **+添加计划** 以向渠道中添加周期性计划。
+周期性时间表允许您为内容设置周期性时间表。 单击 **+添加计划** 以向渠道中添加周期性计划。
 
 >[!NOTE]
 >您可以向渠道添加多个周期性计划。
