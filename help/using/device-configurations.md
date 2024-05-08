@@ -2,9 +2,9 @@
 title: 设备规格
 description: 详细了解与AEM Screens相关的设备规范。
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本活动的典型利益相关者是音频/视频集成商。
+>此活动的典型利益相关者是音频/视频集成商。
 
 根据在 *第0天*，请在开始开发之前确认以下信息：
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * 显示设备上必须安装哪些软件和操作系统？
 
-* 播放器是否需要连接Internet才能将屏幕与AEM服务器同步？
+* 播放器是否需要连接互联网才能将屏幕与AEM服务器同步？
 
 * 播放器上的内容何时更新？
 

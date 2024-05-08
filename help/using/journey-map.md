@@ -2,9 +2,9 @@
 title: 历程图
 description: 了解AEM Screens的历程图。
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---

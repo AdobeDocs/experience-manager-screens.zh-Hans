@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1404'
 ht-degree: 5%
 
 ---
@@ -235,7 +235,7 @@ An **嵌入式页面** 允许您将嵌入页面添加到项目中。 例如，�
 
 使用过渡组件，可以向屏幕项目添加过渡。
 
-下图显示了编辑器中的过渡组件（通过拖放添加）。
+下图显示了编辑器中的过渡组件（通过拖放方式添加）。
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 

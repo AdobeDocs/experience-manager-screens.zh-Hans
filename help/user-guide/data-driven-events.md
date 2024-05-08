@@ -3,9 +3,9 @@ title: 数据驱动事件
 description: 空
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ AEM Screens通过Context Hub支持数据驱动事件。 Context Hub允许您实�
 
 #### 运行中的数据 {#data-in-operational}
 
-这可以进一步归类为通道中断和占位符。
+此事件可进一步分为通道中断和占位符。
 
 #### 呈现中的数据 {#data-in-presentation}
 

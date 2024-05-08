@@ -1,16 +1,16 @@
 ---
-source-git-commit: 8330c85b68e9fd3877a04455f38b908459036805
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 34%
+source-wordcount: '173'
+ht-degree: 69%
 
 ---
 # MIT 许可证
 
 © Copyright 2021 Adobe. All rights reserved.
 
-免费向获得本软件副本和相关文档文件（“软件”）的任何人授予不受限制地处理本软件的许可。 这包括但不限于使用、复制、编辑、合并、发布、分发、再许可和/或销售软件副本的权利。 此外，允许配备本软件的人员这样做，但须符合以下条件：
+任何获得此软件和相关文档文件（“软件”）副本的人，均可免费无限制地处理该软件。本许可证包括但不限于使用、复制、编辑、合并、发布、分发、再许可和/或销售软件副本的权利。 并且，允许向其提供软件的人员这样做，但须遵守以下条件：
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 对于任何索赔、损害或其他责任，作者或版权持有人概不负责。 在合同行为、侵权行为或其他行为中，由本软件引起、产生或与本软件有关的行为。 或软件的使用或其他交易。
+本软件按“原样”提供，不提供任何形式的明示或暗示担保，包括但不限于对适销性、特定用途的适用性和非侵权的担保。 在任何情况下，作者或版权所有者均不承担任何索赔、损害或其他责任。无论是因软件引起、产生于软件或与软件相关的合同、侵权或其他行为。或对软件的使用或其他处理。

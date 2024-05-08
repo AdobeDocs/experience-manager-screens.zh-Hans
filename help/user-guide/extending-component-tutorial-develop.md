@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -339,7 +339,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    此 `categories` 属性是用于标识客户端库的字符串。 此 `cq.screens.components` 类别在编辑和预览/生产模式下均使用。 因此，在中定义的任何CSS/JS `shared` clientlib在所有模式下加载。
 
-   最佳做法是，切勿在生产环境中直接向/apps公开任何路径。 此 `allowProxy` 属性确保通过前缀引用客户端库CSS和JS `/etc.clientlibs`. 欲知关于 [可以在此处找到allowProxy属性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   最佳做法是，切勿在生产环境中直接向/apps公开任何路径。 此 `allowProxy` 属性确保通过的前缀引用客户端库CSS和JS `/etc.clientlibs`. 欲知关于 [可以在此处找到allowProxy属性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 创建名为的文件 `css.txt` 在共享文件夹下。
 
@@ -412,7 +412,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    >[!NOTE]
    >
-   >GoogleWeb Fonts用于字体系列。 Web Fonts需要连接Internet，并且并非所有AEM Screens实施都有可靠的连接。 规划离线模式是AEM Screens部署的一个重要考虑事项。
+   >GoogleWeb Fonts用于字体系列。 Web Fonts需要互联网连接，并且并非所有AEM Screens实施都有可靠的连接。 规划离线模式是AEM Screens部署的一个重要考虑事项。
 
 1. 复制 `shared` 客户端库文件夹。 将其粘贴为同级并重命名为 `production`.
 

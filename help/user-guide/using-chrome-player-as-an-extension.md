@@ -5,16 +5,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # 将Chrome播放器用作扩展 {#using-chrome-player}
 
-在开发人员模式下，可以将ChromeOS播放器安装为Chrome浏览器插件，而无需实际的Chrome播放器设备。
+在开发人员模式下，ChromeOS播放器可作为Chrome浏览器插件安装，而无需实际的Chrome播放器设备。
 
 >[!CAUTION]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 打开Chrome浏览器，单击3个圆点菜单，然后单击 **更多工具** 从 **扩展** 或直接导航到 `chrome://extensions`.
 
-1. 打开 **开发人员** 模式从右上角。
+1. 打开 **开发人员** 模式。
 
 1. 单击 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 打开新选项卡，然后单击左上角的“应用程序”图标，或直接导航到 `chrome://apps`.
 
-1. 单击 **AEM Screens插件** 以便您启动Chrome播放器。
+1. 单击 **AEM Screens插件** 以便启动Chrome播放器。
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果上述URL不起作用，则表示未向播放器分配显示内容，或者内容未成功下载。 检查播放器配置JSON的“网络”选项卡，查看播放器是否获取了正确的详细信息，以及下载过程中出现的任何网络问题。
+   > 如果上述URL不起作用，则表示未向播放器分配显示内容，或者内容未成功下载。 检查播放器配置JSON的“网络”选项卡，查看播放器是否获取了正确的详细信息以及下载中是否有任何网络问题。
 
 1. 右键单击并检查Chrome播放器的三层。
    **调试内容**：右键单击并检查内容以调试正在运行的内容(上下文菜单中应有一个名为“Inspect”的项目)
@@ -66,4 +66,4 @@ ht-degree: 0%
 1. 重命名包含播放器文件的旧文件夹
 1. 在与旧文件夹相同的位置解压缩新的zip文件
 1. 启动Chrome并导航到 `chrome://extensions`
-1. 选中播放器图标，然后单击刷新或重新加载按钮
+1. 选中播放器图标并单击刷新或重新加载按钮

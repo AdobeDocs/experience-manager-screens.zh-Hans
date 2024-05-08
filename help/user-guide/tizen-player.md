@@ -1,26 +1,26 @@
 ---
-title: Tizen Player
-description: 本页介绍Tizen Player的安装和工作。
+title: Tizen播放器
+description: 了解Tizen播放器的安装和工作。
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
 
-# 实施Tizen Player {#tizen-player}
+# 实施Tizen播放器 {#tizen-player}
 
 ## 安装Tizen播放器 {#installing-tizen-player}
 
-请按照以下步骤为AEM Screens实施Tizen Player：
+请按照以下步骤实施AEM Screens的Tizen播放器：
 
-1. 导航至 [AEM Screens播放器下载](https://download.macromedia.com/screens/) 页面，以便您下载Tizen Player。
+1. 导航至 [AEM Screens播放器下载](https://download.macromedia.com/screens/) 页面，以便您下载Tizen播放器。
 
-1. 安装Tizen播放器 *(.zip)* 来自本地计算机的文件。
+1. 安装Tizen播放器 *(.zip)* 从本地计算机中获取文件。
 
 ## 设置http服务器 {#setting-local-server}
 
@@ -40,12 +40,12 @@ ht-degree: 1%
 
 ### 命名Tizen播放器 {#name-tizen}
 
-您可以为Tizen播放器分配一个用户友好的设备名称，然后将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Tizen播放器命名，还允许您轻松分配适当的内容。
+您可以为Tizen播放器分配一个用户友好的设备名称，然后将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Tizen播放器命名，还允许您轻松分配相应的内容。
 
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。
 
-请按照以下步骤在Tizen播放器中配置名称：
+按照以下步骤在Tizen播放器中配置名称：
 
 1. 单击遥控器上的菜单按钮。
 1. 导航到 **网络** > **设备名称** 以便为该播放器指定一个名称。
@@ -56,13 +56,13 @@ ht-degree: 1%
 
 1. 导航到您的Samsung设备并打开。
 1. 单击 **菜单** 设备遥控器上的按钮，然后向下滚动到 **系统** 左侧导航栏中。
-1. 向下滚动，然后单击 **播放方式** 选项并将其更改为 **URL启动器** 选项。
+1. 向下滚动，然后单击 **通过播放** 选项，并将其更改为 **URL启动器** 选项。
    ![图像](/help/user-guide/assets/tizen/rms-2.png)
 1. 设置URL启动器后，按 **主页** 遥控器上的按钮。
 1. 导航至 **URL启动器设置** 并输入本地主机服务器的IP地址，然后单击 **完成**.
 
    >[!NOTE]
-   >Tizen播放器应能够连接到http服务器。
+   >Tizen播放器应能够连接到HTTP服务器。
 
 1. AEM Screens Player会自动在您的Samsung设备上安装和启动。
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 1. AEM重新启动后，转到 `/system/console/configMgr` 和搜索 **Granite令牌身份验证处理程序Adobe**. 设置值 **SameSite** 值至 **无**.
 
-1. 您应该会看到一个新选项 *`User agents to be exempted from samesite attribute`*. 使用与用户代理对应的正则表达式填充此变量，该用户代理与 *SameSite=None* 属性。
+1. 您应该会看到一个新选项 *`User agents to be exempted from samesite attribute`*. 使用对应于用户代理的正则表达式填充此选项，该用户代理与 *SameSite=None* 属性。
 
    >[!NOTE]
    >
@@ -93,11 +93,11 @@ ht-degree: 1%
 
 ## 远程配置Tizen播放器 {#remote-provisioning}
 
-远程配置Tizen Player可让您轻松部署成百上千的Samsung Tizen显示器。 它避免手动为每个播放器配置服务器URL和批量注册代码或其他参数。 如果有AEM Screensas a Cloud Service，则配置云模式和云令牌。
+通过远程配置Tizen播放器，您可以轻松部署成百上千个Samsung Tizen显示器。 它避免手动为每个播放器配置服务器URL和批量注册代码或其他参数。 如果有AEM Screensas a Cloud Service，则配置云模式和云令牌。
 
 此功能允许您远程配置Tizen播放器，并在必要时集中更新这些配置。 您只需使用 `HTTP` 用于托管Tizen应用程序的服务器 `(wgt and xml file)` 和文本编辑器以保存 `config.json` 以及相应的参数。
 
-确保您已在Tizen设备上配置URL启动器地址，即“主页”按钮> URL启动器设置。
+确保您已在Tizen设备上配置URL启动器地址。 单击“Home”（主页）按钮>“URL Launcher settings”（URL启动器设置）。
 在 `HTTP` 装载Tizen应用程序的服务器，放置文件 `config.json` 与相同的位置 `wgt` 文件。 文件名必须为 `config.json`.
 Tizen播放器在启动时（以及每次重新启动）安装并应用 `config.json` 文件。
 
@@ -118,7 +118,7 @@ Tizen播放器在启动时（以及每次重新启动）安装并应用 `config.
 下表总结了策略及其功能。
 
 >[!NOTE]
->策略配置是严格强制实施的，不会在播放器的管理员UI中手动覆盖。 要允许为特定策略手动配置播放器，请不要在策略配置中指定该策略。
+>播放器的管理员UI策略配置是严格强制的，不会手动覆盖。 要允许为特定策略手动配置播放器，请不要在策略配置中指定该策略。
 >例如，如果要允许手动配置重新启动计划，请不要指定键 `rebootSchedule` 在策略配置中。 每次重新加载播放器时都会读取策略配置。
 
 | **策略名称** | **用途** |

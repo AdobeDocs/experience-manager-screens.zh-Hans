@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 #### 允许空反向链接请求 {#allow-empty-referrer-requests}
 
-1. 导航到 **Adobe Experience Manager Web控制台配置** 通过AEM实例>锤子图标> **操作** > **Web控制台**.
+1. 导航到 **Adobe Experience Manager Web控制台配置** 通过AEM实例> hammer图标> **操作** > **Web控制台**.
 
    ![图像](assets/config/empty-ref1.png)
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 #### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
 
-1. 导航到 **Adobe Experience Manager Web控制台配置** 通过AEM实例>锤子图标> **操作** > **Web控制台**.
+1. 导航到 **Adobe Experience Manager Web控制台配置** 通过AEM实例> hammer图标> **操作** > **Web控制台**.
 
    ![图像](assets/config/empty-ref1.png)
 

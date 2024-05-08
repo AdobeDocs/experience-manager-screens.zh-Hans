@@ -2,9 +2,9 @@
 title: Analytics与AEM Screens
 description: 了解带Adobe Experience Manager Screens的Adobe Analytics。
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
