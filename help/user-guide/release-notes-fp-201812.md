@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ AEM Screens功能包201812的发布日期为2019年1月16日。
 
 * **在渠道中的资产上叠加文本**：
 
-  文本叠加是AEM Screens中提供的功能，它通过在图像上方提供标题或描述而在序列渠道中创建引人入胜的体验。 请参阅 [**文本叠加**](text-overlay.md).
+  文本叠加是AEM Screens中一项可用的功能。 它通过在图像上方提供标题或描述，让您在序列渠道中创建引人入胜的体验。 请参阅 [**文本叠加**](text-overlay.md).
 
 * **多资产计划**：
 

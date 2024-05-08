@@ -1,6 +1,6 @@
 ---
 title: 配置和部署AEM Screens
-description: AEM Screens播放器可用于Android&trade；、Chrome操作系统、iOS和Windows。 了解AEM Screens的配置和部署。
+description: AEM Screens Player适用于Android&trade；、Chrome操作系统、iOS和Windows。 了解AEM Screens的配置和部署。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## 运行状况检查框架 {#health-check-framework}
 
-运行状况检查框架允许用户在运行AEM Screens项目之前检查是否设置了两个必要的配置。
+运行状况检查框架让用户在运行AEM Screens项目之前检查是否设置了两个必要的配置。
 
 它允许用户验证以下两项配置检查以运行AEM Screens项目，即检查以下两个筛选器的状态：
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![图像](assets/config/config-1.png)
 
-1. 单击 **保存** 以启用 *http* 服务。
+1. 单击 **保存** 以启用 *Http* 服务。
 
 #### 为AEM Screens启用Touch UI {#enable-touch-ui-for-aem-screens}
 
@@ -116,7 +116,7 @@ AEM Screens需要使用TOUCH UI，不能用于Adobe Experience Manager (AEM)的�
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`。
 
-这是AEM Screens Player播放在线渠道所必需的。
+AEM Screens Player需要移除该选项才能播放在线渠道。
 
 #### 密码限制 {#password-restrictions}
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -251,27 +251,27 @@ ht-degree: 1%
 
 ## 查看结果 {#viewing-the-results}
 
-完成渠道设置并显示后，启动AEM Screens播放器以查看内容。
+完成渠道设置并显示后，启动AEM Screens Player以查看内容。
 
 >[!NOTE]
 >
 >要了解AEM Screens Player，请参阅以下资源：
 >
->* [下载AEM Screens播放器](https://download.macromedia.com/screens/)
+>* [下载AEM Screens Player](https://download.macromedia.com/screens/)
 >* [使用AEM Screens Player](working-with-screens-player.md)
 
 
-以下输出根据显示路径，确认您在AEM Screens播放器中的渠道内容。
+以下输出根据显示路径，确认您在AEM Screens Player中的渠道内容。
 
 **场景1**：
 
-如果将显示路径分配为 **演示** > **位置** > **区域A** > **商店1** > **`Store1Display`**，则您的AEM Screens播放器上会显示以下内容。
+如果将显示路径分配为 **演示** > **位置** > **区域A** > **商店1** > **`Store1Display`**，则您的AEM Screens播放器上显示以下内容。
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **场景1**：
 
-如果将显示路径分配为 **演示** > **位置** > **区域B** > **商店3** > **`Store3Display`**，则您的AEM Screens播放器上会显示以下内容。
+如果将显示路径分配为 **演示** > **位置** > **区域B** > **商店3** > **`Store3Display`**，则您的AEM Screens播放器上显示以下内容。
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 

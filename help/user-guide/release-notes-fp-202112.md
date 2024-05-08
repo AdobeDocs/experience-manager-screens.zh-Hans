@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens发布了AEM 6.5功能包10。
 
-您可以从以下网站下载AEM Screens 6.5.10版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5屏幕FP10**.
+您可以从以下网站下载AEM Screens 6.5.10版本的最新功能包 [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航至 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5屏幕FP10**.
 
 ## 发布日期 {#release-date}
 
@@ -37,7 +37,7 @@ AEM Screens功能包202112的发布日期是2022年1月12日。
 
 * 修复SmartSync中的并发下载错误
 
-* 作为开发人员，请查看您只希望作为演绎版条目列在清单中相应资产下的资产演绎版，以确保清单处理的可扩展性、清晰性和易用性。
+* 作为开发人员，查看您只希望作为演绎版条目列在清单中相应资产下的资产演绎版。 这样做可确保清单处理的可扩展性、清晰性和易用性。
 
 ### 错误修复 {#bug-fixes}
 
@@ -45,11 +45,11 @@ AEM Screens功能包202112的发布日期是2022年1月12日。
 
 * 收集内部部署播放器日志并分析黑屏。
 
-* 现已修复使用分屏渠道显示空白屏幕的播放器
+* 修复了使用分屏渠道显示空白屏幕的播放器问题
 
-* 通过在公共maven上添加核心捆绑包修复了自定义处理程序文档。
+* 通过在公共maven上添加核心捆绑包来修复自定义处理程序文档。
 
-* 播放器在升级后未更新固件版本。 现已修复此问题。
+* 升级后，播放器未更新固件版本。 此错误现已修复。
 
 * 显示预览在前一个播放器配置上卡住。
 

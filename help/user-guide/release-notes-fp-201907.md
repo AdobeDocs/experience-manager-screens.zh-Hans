@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,8 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 * **Data Trigger推动AEM Screens渠道中的资源变更**
 
-当接收到由紧急系统触发的事件时，播放器切换到显示紧急信息的频道。 该频道仅在紧急状况结束之前播放。
+播放器切换到显示紧急信息的频道。 紧急系统在收到事件时发送此信息。 该频道仅在紧急状况结束之前播放。
+
 
 请参阅 [紧急渠道](emergency-channel.md) 实施用例。
 
@@ -41,7 +42,7 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 现在可以为AEM Screens项目中使用的资源启用定位。
 
-要详细了解如何在AEM Screens项目中启用资源定位，请参阅 [在AEM Screens中配置ContextHub](configuring-context-hub.md).
+要详细了解如何在AEM Screens项目中启用资产定位，请参阅 [在AEM Screens中配置ContextHub](configuring-context-hub.md).
 
 为AEM Screens项目配置ContextHub后，请按照不同的用例了解数据触发的资源如何在不同行业中发挥重要作用：
 

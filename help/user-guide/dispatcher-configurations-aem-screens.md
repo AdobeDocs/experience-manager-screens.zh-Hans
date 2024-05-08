@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
 
 ### 为segments.js添加失效规则 {#invalidsegmentjs}
 
-如果您要在AEM Screens中使用定向促销活动，则 `segments.js file` 当您在AEM上添加和发布新区段时，由Dispatcher提供的服务必须失效。 如果没有此失效规则，新的定向营销活动将无法在AEM Screens播放器上正常运行（它会显示默认内容）。
+如果您要在AEM Screens中使用定向促销活动，则 `segments.js file` 当您在AEM上添加和发布新区段时，由Dispatcher提供的服务必须失效。 如果没有此失效规则，新的定向营销活动将无法在AEM Screens Player上正常运行（它会显示默认内容）。
 
 * 添加失效规则到 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 以下是要添加的规则：
 

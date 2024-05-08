@@ -1,6 +1,6 @@
 ---
-title: 实施Windows 10 Player
-description: 了解如何配置AEM Screens Windows 10 Player。
+title: 实施Windows Player
+description: 了解如何在AEM Screens中配置Windows Player。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
 
-# 实施Windows 10 Player {#implementing-windows-player}
+# 实施Windows Player {#implementing-windows-player}
 
-本节介绍如何配置AEM Screens Windows 10 Player。 它提供了有关配置文件和可用选项的信息，以及开发和测试时要使用的设置的建议。
+本节介绍如何在AEM Screens中配置Windows Player。 它提供了有关配置文件和可用选项的信息，以及开发和测试时要使用的设置的建议。
 
 ## 安装Windows Player {#installing-windows-player}
 
@@ -28,12 +28,12 @@ ht-degree: 1%
 访问 [**AEM 6.5播放器下载**](https://download.macromedia.com/screens/) 页面。
 
 >[!NOTE]
->Windows Player中没有窗口模式。 它始终为全屏模式。
+>Windows Player中没有窗口模式。 它始终处于全屏模式。
 
 ### 为AEM Screens 6.5.5 Service Pack设置环境 {#fp-environment-setup}
 
 >[!NOTE]
->如果您使用AEM Screens 6.5.5 Service Pack，请为Windows Player设置环境。
+>如果您使用AEM Screens 6.5.5 Service Pack，请设置Windows Player环境。
 
 设置 **登录令牌Cookie的SameSite属性** 从 **Lax** 到 **无** 从 **Adobe Experience Manager Web控制台配置** 在所有AEM创作和发布实例上。
 
@@ -66,7 +66,7 @@ Ad-Hoc方法允许您安装最新的Windows Player (*.exe*)。 访问 [**AEM 6.5
 
 ## 命名Windows Player {#name-windows}
 
-您可以为Windows播放器分配一个用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Windows播放器命名，还允许您轻松分配适当的内容。
+您可以为Windows Player分配一个用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Windows Player命名，还允许您轻松分配适当的内容。
 
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。
@@ -84,7 +84,7 @@ Ad-Hoc方法允许您安装最新的Windows Player (*.exe*)。 访问 [**AEM 6.5
 ## 使用CLI进行安装(PowerShell) {#install-powershell}
 
 1. 创建自定义位置 **专用** 例如，对于Screens播放器：
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. 安装
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. 打开
@@ -148,7 +148,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 >[!CAUTION]
 >
->Adobe建议使用设备管理解决方案来为Windows启用Kiosk。 如果您没有设备管理解决方案来启用Kiosk模式，请按照以下步骤操作。 此方法使用Windows 10企业版和Edu中提供的Shell启动器功能。 对于非UWP应用程序，Microsoft推荐的任何其他方法也可以应用于启用Kiosk，尤其是在Windows的其他版本上。
+>Adobe建议使用设备管理解决方案来为Windows启用Kiosk。 如果您没有设备管理解决方案来启用Kiosk模式，请按照以下步骤操作。 此方法使用Windows 10 Enterprise和Edu中提供的Shell启动器功能。 对于非UWP应用程序，Microsoft推荐的任何其他方法也可以应用于启用Kiosk，尤其是在Windows的其他版本上。
 
 请按照以下步骤启用Kiosk模式：
 
@@ -160,7 +160,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
    请参阅 ***配置Shell启动器*** 在 **[Shell启动器](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** Microsoft®Windows支持页面，以了解更多信息。
 
-1. 创建一个非管理用户（如果您还没有该用户）以用于自助订餐亭。 这可以是本地或域用户。
+1. 创建一个非管理用户（如果您还没有该用户）以用于自助订餐亭。 它可以是本地或域用户。
 1. 从为该Kiosk用户安装Windows Player [AEM Screens播放器下载](https://download.macromedia.com/screens/) 页面。
 1. 请参阅 [使用Shell启动器创建Windows 10网亭](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) 修改PowerShell脚本以获取更多信息。
 

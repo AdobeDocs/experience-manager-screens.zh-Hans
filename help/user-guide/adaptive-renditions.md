@@ -2,9 +2,9 @@
 title: 自适应演绎版架构概述和配置
 description: 了解AEM Screens中自适应演绎版的CRXDE Lite中的架构概述和配置。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 2%
 
 ## 简介 {#introduction}
 
-自适应演绎版允许设备根据客户定义的规则自动单击适合设备的最佳演绎版。 这些设备会根据这些规则自动下载并播放最合适的资源演绎版，从而让客户只需专注于设计 *主要* 体验。
+自适应演绎版允许设备根据客户定义的规则自动单击设备的最佳演绎版。 设备根据这些规则自动下载并播放最合适的资源演绎版，从而让客户专注于设计 *主要* 仅限体验。
 
 ## 目标 {#objective}
 
-作为AEM Screens开发人员，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。 在内容作者能够在AEM Screens渠道中使用此功能之前，配置自适应演绎版。
+作为AEM Screens开发人员，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。 在内容作者能够在AEM Screens渠道中使用此功能之前配置自适应演绎版。
 
 ## 架构概述 {#architectural-overview}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
    >![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您安装了最新的功能包202109，您会看到 **演绎版映射** 在中预填充的节点结构 `/conf/screens/sling:configs/rendition-mapping` CRXDE Lite中。 请参阅 [功能包202109发行说明](/help/user-guide/release-notes-fp-202109.md) 以了解有关最新功能包的详细信息。
+   >如果您安装了最新的功能包202109，您会看到 **演绎版映射** 在中预填充的节点结构 `/conf/screens/sling:configs/rendition-mapping` CRXDE Lite中。 请参阅 [功能包202109发行说明](/help/user-guide/release-notes-fp-202109.md) 获取有关最新功能包的详细信息。
    >对于现有项目，请确保屏幕项目具有 **演绎版映射** 关联的配置。 请参阅 [将演绎版映射添加到现有项目](#rendition-mapping-existing) 部分以了解更多信息。
 
 ### 将演绎版映射属性添加到现有项目 {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ ht-degree: 2%
    >[!NOTE]
    >请参阅 [使用媒体查询语法](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) 了解更多信息。
 
-   单击 **规则1** 创建，然后输入 **表达式** 在 **名称** 和 **(orientation：landscape)** 在 **值**，如下所示。 单击 **添加**.
+   单击 **规则1** ，然后输入 **表达式** 在 **名称** 和 **(orientation：landscape)** 在 **值**，如下所示。 单击 **添加**.
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ ht-degree: 2%
    >[!NOTE]
    >pattern属性中定义的值与新资源演绎版匹配，如果表达式被计算为true，则选中该值。
 
-   要添加模式属性，请单击 **规则1** 创建，然后输入 **模式** 在 **名称** 和 **横向** 在 **值**，如下所示。 单击 **添加**.
+   要添加模式属性，请单击 **规则1** ，然后输入 **模式** 在 **名称** 和 **横向** 在 **值**，如下所示。 单击 **添加**.
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ ht-degree: 2%
 
 ## 后续步骤 {#next-steps}
 
-在添加演绎版映射属性和规则后，作为内容作者，您可以配置资源。 为此，您需要使用自适应演绎版，并且还要为大型网络迁移设备，以便在AEM Screens渠道中使用此功能。 请参阅 [在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md) 以了解更多信息。
+在添加演绎版映射属性和规则后，作为内容作者，您可以配置资源。 您可以使用自适应演绎版，还可以为大型网络迁移设备，以便在AEM Screens渠道中使用此功能。 请参阅 [在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md) 以了解更多信息。

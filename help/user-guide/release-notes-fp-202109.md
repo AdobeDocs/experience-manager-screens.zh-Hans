@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens发布了AEM 6.5功能包9。
 
-您可以从以下网站下载AEM Screens 6.5.9版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP9**.
+您可以从以下网站下载AEM Screens 6.5.9的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航至 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP9**.
 
 ## 发布日期 {#release-date}
 
@@ -31,7 +31,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * **视频的缩略图支持**
 
-  AEM Screens现在支持视频缩略图。 内容作者为视频定义缩略图，这样该图像就可以用作占位符。 他们还正确测试内容回放和定位，而实际视频由相应的团队最终确定。 在视频播放失败时，也可以使用该图像。
+  AEM Screens现在支持视频缩略图。 内容作者为视频定义缩略图，这样该图像就可以用作占位符。 他们还正确测试内容播放和定位，而相应的团队会最终确定实际视频。 在视频播放失败时，也可以使用该图像。
 请参阅 [视频的缩略图支持](/help/user-guide/thumbnail-support.md) 以了解更多详细信息。
 
 * **基本回放监控**
@@ -41,12 +41,12 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * **内容分配报表的更新**
 
-  内容分配报表现已通过增强的用户体验得到优化和改进。 可下载的报表在一个电子表格选项卡中显示改进的播放器相关实体（如位置、显示区和设备），并在另一个选项卡中显示内容提供商信息（如渠道和资产）。
+  内容分配报表现已通过增强的用户体验得到优化和改进。 可下载的报告显示了经过改进的播放器相关实体。 此类实体在一个电子表格选项卡中包括位置、显示器和设备。 它还包括内容提供商信息，例如其他选项卡中的渠道和资产。
 请参阅 [内容分配报表](/help/user-guide/content-assignment-report.md) 以了解更多详细信息。
 
 * **自适应演绎版**
 
-  自适应演绎版允许设备根据客户定义的规则自动单击适合设备的最佳演绎版。
+  自适应演绎版允许设备根据客户定义的规则自动单击设备的最佳演绎版。
 
   作为AEM Screens开发人员，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。 请参阅 [自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md) 以了解更多详细信息。
 
@@ -97,7 +97,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * 已将映射转换为演绎版密钥列表。
 
-* 已移除对的访问权限 `cmd.exe` 和 `reg.exe` 在windows player中。
+* 已移除对的访问权限 `cmd.exe` 和 `reg.exe` 在Windows Player中。
 
 * 播放器必须报告其上一个成功播放事件。
 
@@ -130,9 +130,9 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * 删除的设备现在不会阻止Screens复制队列。
 
-* 清单不包含目标内容或站点嵌入页面。 现已修复此问题。
+* 清单不包含目标内容或站点嵌入页面。 此错误现已修复。
 
-* 新的核心图像组件现已添加到渠道清单中。
+* 现在，新的核心图像组件已添加到渠道清单中。
 
 * 现在支持通过SmartSync下载优化的演绎版。
 
@@ -140,13 +140,13 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
 * 添加了对多种内容提供程序类型的支持
 
-* 嵌入式序列播放策略已损坏，现已修复此问题。
+* 嵌入式序列播放策略已损坏，此错误现已修复。
 
 * 使用请求参数的脱机清单 `wcmmode` 用于html条目，使其不可缓存。
 
 * 空的动态嵌入序列有时会导致出现空白屏幕。
 
-* 播放器现在报告其播放状态。
+* 播放器现在会报告其播放状态。
 
 * 正在播放视频 `Tiny mode` 而不是作为全屏视频在设备上播放，问题现已修复。
 

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens发布了AEM 6.5功能包8。
 
-您可以从以下网站下载AEM Screens 6.5.8版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP8**.
+您可以从以下网站下载AEM Screens 6.5.8的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航至 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
 >安装最低版本的AEM 6.5 Feature Pack 8，以便在安装包后使AMS连接器正常工作 `screens-cloud-ams-pkg-0.0.20`， `screens-cloud-ams-pkg-0.0.16`，和 `screens core bundles`.
@@ -34,7 +34,7 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
 
 * **在AEM Screens渠道中锁定页面**
 
-  AEM Screens现在支持 *锁定页面*，已在AEM Sites中实施。 Adobe Experience Manager (AEM)允许您锁定页面，这样其他人就无法修改页面内容。 当您要对某个特定页面进行大量编辑，或者必须冻结页面一段时间时，此功能非常有用。
+  AEM Screens现在支持 *锁定页面*，已在AEM Sites中实施。 Adobe Experience Manager (AEM)允许您锁定页面，这样其他人就无法编辑其内容。 当您对一个特定页面进行大量编辑时，或者当您必须冻结页面一段时间时，此功能非常有用。
 
 * **命名AEM Screens Player设备**
 
@@ -54,8 +54,8 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
 
 ### 错误修复 {#bug-fixes}
 
-* 当切换到包含动态嵌入序列的渠道时，播放器显示一个黑屏。
-* Screens播放器现在阻止切换到任何中断的频道，这进一步避免了404错误或包含错误消息的页面。
+* 当切换到包含动态嵌入序列的频道时，播放器显示黑屏。
+* Screens播放器现在阻止切换到任何中断的频道，这进一步避免了404错误或带有错误消息的页面。
 
 ### 已发布的AEM Screens Players
 

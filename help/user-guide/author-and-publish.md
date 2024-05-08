@@ -2,7 +2,7 @@
 title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Screens需要三个复制代理：
 
 >[!NOTE]
 >
->您可以使用下载的AEM Screens应用程序或Web浏览器打开AEM Screens播放器。
+>您可以使用下载的AEM Screens应用程序或Web浏览器打开AEM Screens Player。
 
 #### 步骤2：在创作实例上注册设备 {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ Screens需要三个复制代理：
 
 >[!NOTE]
 >
->或者，在激活设备后，也可以编辑或更新服务器URL。 单击 **编辑服务器URL** 然后，您的更改会传播到AEM Screens播放器，如下图所示。
+>或者，在激活设备后，也可以编辑或更新服务器URL。 单击 **编辑服务器URL** 之后，您的更改将传播到AEM Screens播放器，如下图所示。
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 

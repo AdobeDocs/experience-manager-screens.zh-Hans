@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ### 在Samsung设备上配置更新 {#config-updates}
 
-在Samsung设备上执行以下步骤，以便在该设备上完成AEM Screens播放器的安装：
+在Samsung设备上执行以下步骤，以便在该设备上完成AEM Screens Player的安装：
 
 1. 导航到您的Samsung设备并打开。
 1. 单击 **菜单** 设备遥控器上的按钮，然后向下滚动到 **系统** 左侧导航栏中。

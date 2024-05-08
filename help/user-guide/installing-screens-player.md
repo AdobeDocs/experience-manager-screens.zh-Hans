@@ -6,20 +6,20 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
 
 # 安装AEM Screens Player {#installing-player}
 
-本页介绍如何安装AEM Screens播放器。
+本页介绍如何安装AEM Screens Player。
 
 ## 可用的Screens播放器 {#available-players}
 
-AEM Screens播放器适用于Android™、Chrome OS和Windows。
+AEM Screens Player适用于Android™、Chrome OS和Windows。
 
 下载 **AEM Screens Player**，请访问 [AEM 6.5播放器下载](https://download.macromedia.com/screens/) 页面。
 
@@ -33,9 +33,9 @@ AEM Screens播放器适用于Android™、Chrome OS和Windows。
 
 ## 基本回放监控 {#playback-monitoring}
 
-播放器报告各种回放量度，每种 `ping` 默认为30秒。 基于这些量度，它可以检测各种边缘情况，例如卡住体验、空白屏幕和计划问题。 这有助于我们了解并排除设备上的问题，从而加快与您开展的调查和纠正措施。
+播放器报告各种回放量度，每种 `ping` 默认为30秒。 基于这些量度，它可以检测各种边缘情况，例如卡住体验、空白屏幕和计划问题。 它让我们能够了解并排除设备上的问题，从而为您加快调查和纠正措施。
 
-AEM Screens播放器中的基本回放监控允许您执行以下操作：
+AEM Screens Player中的基本回放监控允许您执行以下操作：
 
 * 远程监控（如果播放器正在正确播放内容）。
 
@@ -69,11 +69,11 @@ AEM Screens播放器中的基本回放监控允许您执行以下操作：
 
 * 播放器会向服务器报告自身的播放状态，因此需要活动连接。
 
-* 此 `isContentRendering` 用于检查GPU的属性占用太多资源，默认情况下无法启用，并且需要从播放器首选项中明确选择加入。 Adobe建议您不要将其用于生产中的视频。
+* 此 `isContentRendering` 默认情况下，用于检查GPU的属性会占用更多资源，并且需要从播放器首选项中明确选择加入。 Adobe建议您不要将其用于生产中的视频。
 
 * 仅序列渠道支持此功能，并且尚不涵盖交互式渠道(SPA)用例。
 
-* 这些量度尚未完全向客户公开，Adobe正在努力尽快启用类似功能板的报告和警报机制。
+* 这些量度尚未完全向客户公开，但Adobe正在努力尽快启用类似功能板的报告和警报机制。
 
 ### 其他资源 {#additional-resources}
 

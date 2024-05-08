@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 1%
@@ -141,7 +141,7 @@ ht-degree: 1%
 
 ## 查看结果 {#viewing-the-results}
 
-完成渠道设置并显示后，启动AEM Screens播放器以查看内容。
+完成渠道设置并显示后，启动AEM Screens Player以查看内容。
 
 播放器显示的内容 **MainAdChannel** 而且刚好在晚上11点59分（按照日程安排） **targetedsingleplay** 渠道显示其内容直到凌晨12:05，然后 **MainAdChannel** 再次继续播放其内容。
 

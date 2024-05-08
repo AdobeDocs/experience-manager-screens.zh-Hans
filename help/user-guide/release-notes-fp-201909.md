@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ AEM Screens功能包201909的发布日期为2019年10月7日。
 
 * **增强了用于创建屏幕项目的UI更新**
 
-  现在提供了用于创建AEM Screens项目的更新用户界面。 只需单击几下即可创建屏幕项目。 此外，每个项目的属性选项卡现在都有一个更直观的用户界面。
+  现在提供了用于创建AEM Screens项目的更新用户界面。 只需单击几下，即可创建屏幕项目。 此外，每个项目的属性选项卡现在都有一个更直观的用户界面。
 
   请参阅 [创建新屏幕项目](creating-a-screens-project.md) 以了解更多详细信息。
 

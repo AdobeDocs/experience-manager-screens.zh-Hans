@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 AEM Screens架构类似于传统的AEM Sites架构。 内容是在AEM创作实例上创作的，然后转发到多个发布实例。 AEM Screens上的设备现在可以通过负载平衡器连接到AEM发布场。 可以添加多个AEM发布实例以继续扩展发布场。
 
-*例如*，AEM Screens内容作者在特定设备的创作系统上发出命令。 该设备被配置为与发布场或AEM Screens内容作者交互，后者获取有关配置为与发布场交互的设备的信息。
+*例如*，AEM Screens内容作者将在创作系统上为特定设备发出命令。 该设备配置为与发布场或AEM Screens内容作者交互，后者获取有关配置为与发布场交互的设备的信息。
 
 下图说明了创作环境和发布环境。
 

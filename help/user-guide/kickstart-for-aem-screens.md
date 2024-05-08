@@ -1,30 +1,30 @@
 ---
 title: Kickstart指南
-description: 了解如何创建演示AEM Screens项目。 它可帮助您创建数字标牌体验，从安装和设置新项目开始，一直到在AEM Screens播放器中查看内容。
+description: 了解如何创建演示AEM Screens项目。 它可帮助您创建数字标牌体验，从安装和设置新项目开始，一直到在AEM Screens Player中查看内容为止。
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
 
 # Kickstart指南 {#kickstart-guide}
 
-AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将指导您逐步建立基本的数字标牌体验，并向每个渠道添加内容（如资产和/或视频），然后进一步将内容发布到AEM Screens播放器。
+AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将指导您逐步建立基本的数字标牌体验，并向每个渠道添加内容（如资产和/或视频），然后将内容进一步发布到AEM Screens播放器。
 
 >[!NOTE]
->在处理项目详细信息之前，请确保已安装了适用于AEM Screens的最新功能包。 您可以从以下网站下载最新的功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
+>在处理项目详细信息之前，请确保已安装了适用于AEM Screens的最新功能包。 您可以从以下位置下载最新的功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
 
 ## 先决条件 {#prerequisites}
 
 请按照以下步骤为AEM Screens创建一个示例项目，然后将内容进一步发布到Screens播放器。
 
 >[!NOTE]
->以下教程展示了如何在Chrome OS播放器中播放渠道的内容。
+>以下教程展示了如何在Chrome操作系统播放器中播放渠道的内容。
 
 >[!IMPORTANT]
 >**osgi配置设置**
@@ -87,7 +87,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 ### 向渠道添加内容 {#adding-content}
 
-设置好渠道后，将内容添加到AEM Screens播放器可以显示的渠道。
+设置好渠道后，将内容添加到AEM Screens Player可以显示的渠道。
 
 请按照以下步骤将内容添加到渠道(**TestChannel**)：
 
@@ -162,7 +162,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 1. 此 **渠道分配** 对话框打开。
 
-1. 从 **设置** 选项，选择渠道 **按路径**  和 **受支持的事件** 作为 **初始加载** 和 **空闲屏幕**.
+1. 从 **设置** 选项，选择渠道 **按路径** 和 **受支持的事件** 例如 **初始加载** 和 **空闲屏幕**.
 
    >[!NOTE]
    >
@@ -183,7 +183,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 使用AEM仪表板注册设备。
 
 >[!IMPORTANT]
->在开发人员模式下，Chrome操作系统播放器可以安装为Chrome浏览器插件，而无需实际的Chrome播放器设备。 要安装，请执行以下步骤：
+>Chrome操作系统播放器可以作为Chrome浏览器插件安装在开发人员模式下，而无需实际的Chrome播放器设备。 要安装，请执行以下步骤：
 >
 >1. 单击 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
 >1. 解压缩并将其保存在磁盘上。

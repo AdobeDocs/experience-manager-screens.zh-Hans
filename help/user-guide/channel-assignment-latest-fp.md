@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 此示例在Chrome播放器上展示了输出。 将渠道分配给显示区后，请将设备注册到播放器。
 
-要了解如何在AEM Screens播放器上注册设备，请参阅 [设备注册](device-registration.md).
+要了解如何在AEM Screens Player中注册设备，请参阅 [设备注册](device-registration.md).
 
 您可以在选择的播放器上查看以下输出：
 

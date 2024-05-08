@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 用例描述 {#use-case-description}
 
-本节介绍一个用例示例，该示例重点介绍如何创建和管理紧急渠道，内容作者可以在存在前提条件时从序列渠道切换紧急渠道。
+本节介绍一个用例示例，重点介绍如何创建和管理紧急渠道，内容作者可以在存在前提条件时从序列渠道切换紧急渠道。
 
 ### 前提条件 {#preconditions}
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 1. **设备注册**
 
-   完成设备注册过程。 注册后，您可以在AEM Screens播放器上查看以下输出。
+   完成设备注册过程。 注册后，您可以在AEM Screens Player上查看以下输出。
 
    ![new30](assets/new30.gif)
 

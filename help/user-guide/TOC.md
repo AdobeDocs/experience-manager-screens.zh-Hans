@@ -8,7 +8,7 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 11%

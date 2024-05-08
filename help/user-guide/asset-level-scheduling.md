@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -228,7 +228,7 @@ ht-degree: 1%
 
 通常，播放由任何给定播放器的本地时间确定，但通过全局覆盖，可以使用特定的通用开始时间来启动资源的播放。
 
-这允许内容作者将特定资源的播放指定为在特定日期/时间发生，而不管具有所分配内容的任何播放器上的本地时钟为何。
+这允许内容作者将特定资源的播放指定为在特定日期/时间发生，而不考虑已分配内容的任何播放器上的本地时钟。
 
 通用开始时间的全局覆盖是通过配置 **激活** 选项卡。 请按照以下步骤执行资产计划的全局覆盖：
 

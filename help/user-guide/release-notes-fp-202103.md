@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens发布了AEM 6.5功能包7。
 
-您可以从以下网站下载AEM Screens 6.5.7版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP7**.
+您可以从以下网站下载AEM Screens 6.5.7版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航至 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP7**.
 
 ## 发布日期 {#release-date}
 
@@ -38,7 +38,7 @@ AEM Screens功能包202103的发布日期是2021年3月5日。
 
 * **使用企业移动性管理批量预配Android™ Player**
 
-  批量部署Android™播放器时，手动向AEM注册每个播放器会变得繁琐起来。 强烈建议使用EMM（企业移动性管理）解决方案，例如 `VMWare Airwatch`， `MobileIron`，或 `Samsung Knox` 以远程配置和管理您的部署。 AEM Screens Android™播放器支持行业标准EMM AppConfig以允许远程配置。
+  批量部署Android™播放器时，手动向AEM注册每个播放器会变得繁琐起来。 强烈建议使用EMM（企业移动性管理）解决方案，例如 `VMWare Airwatch`， `MobileIron`，或 `Samsung Knox` 远程配置和管理部署。 AEM Screens Android™播放器支持行业标准EMM AppConfig以允许远程配置。
 
   请参阅 [使用企业移动性管理批量预配Android™ Player](/help/user-guide/implementing-android-player.md#implementation) 以了解更多详细信息。
 
@@ -57,9 +57,9 @@ AEM Screens功能包202103的发布日期是2021年3月5日。
 
 * 更新离线内容失败，出现查询异常。
 
-* 现在，交互式体验中的交互期间，过渡之间的时间延迟已得到修复。
+* 现在，交互式体验中交互期间过渡之间的时间延迟已得到修复。
 
-* 失败的配置更新请求导致出现空白屏幕。
+* 失败的配置更新请求导致屏幕空白。
 
 ### 已发布的AEM Screens Players
 

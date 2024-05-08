@@ -1,7 +1,7 @@
 ---
 title: 播放器设备的硬件选择准则
-description: 了解AEM Screens播放器设备的硬件选择准则。
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+description: 了解AEM Screens Player设备的硬件选择准则。
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # 播放器设备的硬件选择准则 {#hardware-selection}
 
-以下部分提供了AEM Screens播放器的硬件选择指南。
+以下部分提供了AEM Screens Player的硬件选择指南。
 
 ## 重要注意事项 {#important-considerations}
 

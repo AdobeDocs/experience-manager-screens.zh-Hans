@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens发布了AEM 6.5功能包3。
 
-您可以从以下网站下载AEM Screens 6.5.3版本的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航到 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP3**.
+您可以从以下网站下载AEM Screens 6.5.3的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。 导航至 **Adobe Experience Manager** 选项卡和搜索 **Screens** 获取标题为 **AEM 6.5 Screens FP3**.
 
 ## 发布日期 {#release-date}
 
@@ -35,7 +35,7 @@ AEM Screens功能包202001的发布日期为2020年1月31日。
 命令同步允许跨不同播放器同步播放。 播放器可以播放不同的内容，但每个资源必须具有相同的持续时间。
 要了解有关Command Sync以及如何设置主服务器和客户端的更多信息，请参见 [使用命令同步](using-command-sync.md).
 
-* **用于显示https状态并允许空反向链接的运行状况检查框架**
+* **运行状况检查框架以显示https的状态并允许空反向链接**
 
 运行状况检查框架让用户在运行AEM Screens项目之前检查是否设置了两个必要的配置（允许空反向链接请求和基于Apache Felix Jetty的HTTP服务）。
 

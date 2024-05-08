@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -66,11 +66,11 @@ ht-degree: 0%
 
 * 重置 **固件**， **偏好设置**，或 **到工厂** 从该对话框中删除。
 
-* 指定要为AEM Screens播放器保留的最大日志文件数 **最大数量 要保留的日志文件**.
+* 指定您要为AEM Screens播放器保留的最大日志文件数 **最大数量 要保留的日志文件**.
 
 * 启用或禁用 **管理员菜单**， **渠道切换器**、和 **活动UI** 用于屏幕播放器。
 
-  如果 **活动UI** 已启用 **配置** 菜单，AEM Screens播放器会显示 *播放器活动通知* 播放器右上角的位置，如下图所示。
+  如果 **活动UI** 已启用 **配置** 菜单，AEM Screens Player将显示 *播放器活动通知* 播放器右上角的位置，如下图所示。
 
   ![图像](/help/user-guide/assets/activity_ui.png)
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 #### 访问内容缓存菜单选项 {#content-cache-options}
 
-您可以从AEM Screens播放器的管理员UI中清除渠道和应用程序的缓存。
+您可以从AEM Screens Player的管理界面中清除渠道和应用程序的缓存。
 
 单击 **内容缓存** 以更新缓存。
 

@@ -2,9 +2,9 @@
 title: 测试和质量保证
 description: 在最佳实践指南中了解AEM Screens的测试和质量保证。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 AEM Screens包括设备控制中心模块，用于管理Screens播放器应用程序端点。
 
 这是指任何 *播放器* 已安装屏幕播放器应用程序并注册到AEM实例的硬件设备。
-此模块允许您：
+通过此模块，您可以：
 
 1. 监控播放器应用程序错误日志
 1. 管理远程屏幕截图

@@ -1,6 +1,6 @@
 ---
 title: 设备控制中心故障排除
-description: 了解如何使用设备仪表板监控AEM Screens播放器活动和设备的性能并排除其故障。
+description: 了解如何使用设备仪表板监测和对AEM Screens Player活动和设备的性能进行故障排除。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # 设备控制中心故障排除 {#troubleshooting-device-control-center}
 
-您可以使用设备仪表板监控AEM Screens播放器活动和设备的性能并排除其故障。 此页提供有关如何监视和排除所感知的Screens播放器和所分配设备的性能问题的信息。
+您可以使用设备仪表板监控AEM Screens Player活动和设备的性能并排除其故障。 此页提供有关如何监视和排除所感知的Screens播放器和所分配设备的性能问题的信息。
 
 ## 从设备控制中心进行监控和故障排除 {#monitor-and-troubleshoot-from-device-control-center}
 
-您可以使用Device Dashboard监控该活动，从而排除AEM Screens播放器的故障。
+您可以使用Dashboard监控该活动，从而排除AEM Screens Player故障。
 
 ### 设备功能板 {#device-dashboard}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ### 监控设备活动 {#monitor-device-activity}
 
-此 **活动** 面板显示带有时间戳的AEM Screens播放器的最后一次ping。 上次ping对应于设备上次与服务器联系的时间。
+此 **活动** 面板显示带有时间戳的AEM Screens Player的最后一次Ping。 上次ping对应于设备上次与服务器联系的时间。
 
 ![chlimage_1](assets/chlimage_1.png)
 

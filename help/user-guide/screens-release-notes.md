@@ -9,9 +9,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ AEM Screens功能包201809的发布日期为2018年10月1日。
 * **批量更新离线内容**：可让您批量更新所有渠道，并避免导航到特定渠道和更新内容带来的麻烦。 请参阅 [批量脱机更新](bulk-offline-update.md) 了解更多信息。
 
 * **将渠道批量发布到所有发布实例**
-* **增强的播放器日志记录机制**：您可以为AEM Screens播放器指定最大日志文件数。 请参阅 [使用AEM Screens播放器](working-with-screens-player.md) 以了解更多详细信息。
+* **增强的播放器日志记录机制**：您可以指定AEM Screens播放器的日志文件数量上限。 请参阅 [使用AEM Screens播放器](working-with-screens-player.md) 以了解更多详细信息。
 
 * **创作/发布部署（强化）**
 

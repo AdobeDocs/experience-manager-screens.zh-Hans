@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 ## 空白屏幕问题 {#blank-screen}
 
 >[!NOTE]
->列出的强制检查，在引发问题之前应由主要支持或客户端支持尝试。
+>列出的强制检查在引发问题之前是否应该尝试主要支持或客户端支持。
 
 ### 1.对于面对黑屏或未播放内容的客户，应该采取哪些急救故障排除步骤？ {#troubleshooting-blank-screen}
 
 * 检查渠道预览是否有效。
 * 检查显示预览是否有效
-* 尝试将播放器注册为系统上的浏览器扩展，以使其使用该显示器，并检查此操作是否有效。
+* 尝试将播放器注册为系统上的浏览器扩展，以使其使用该显示屏，并检查其是否正常工作。
 * 在系统上运行播放器后，导航至 `http://localhost:24502`. 检查是否正确下载了所有内容。
 * 检查资源，以便您可以确保已创建相应的演绎版并且正在播放正确的演绎版。
 * 检查任何计划内容以及时间是否正确。 检查播放器中设置的时间是否正确。
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 2.如何通过创建默认渠道或计划来解决AEM Screens中的灰屏问题？
 
-要避免出现字段中的空白或灰色屏幕，请创建一个默认全局渠道或计划，将其分配给优先级最低的每个显示器1。 如果内容更新出现问题（由于网络、播放器、服务器或复制），因为播放器已在光盘上缓存了此内容，播放应该可以正常进行，并避免出现灰屏。
+要避免出现字段中的空白或灰色屏幕，请创建一个默认全局渠道或计划，将其分配给优先级最低的每个显示器1。 如果内容更新出现问题，因为播放器已在磁盘上缓存此内容。 它应该可以正常播放，避免出现灰色屏幕。
 
 所有其他内容（例如渠道或计划）的优先级大于1，因此其他内容具有优先级，并且全局渠道或计划内容（优先级为1）仅作为回退选项播放。
 
@@ -62,11 +62,11 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 1. 显示的父位置有一个与引用的渠道名称匹配的子节点
 1. 显示器的父级位置有一个与引用的渠道名称匹配的子节点
 
-等等，直到您访问位置文件夹并在此时停止（例如，您不能引用将位于渠道文件夹中的渠道，而只能引用位置子树中的渠道）。
+等等，直到您访问位置文件夹。 此时在此处停止（以便不能引用位于渠道文件夹中的渠道，例如，仅引用位置子树中的渠道）。
 
 ### 5.如何在AEM Screens渠道中设置自定义clientlib离线配置？
 
-使用内置的自定义客户端代码时 `clientlib` 在AEM Screens渠道中，需要执行以下步骤来确保 `clientlib` 文件在渠道中加载成功(`manifest.json`)并包含 `clientlib`.
+使用内置的自定义客户端代码时 `clientlib` 在AEM Screens渠道中，必须执行以下步骤。 这些步骤确保 `clientlib` 文件在渠道中加载成功(`manifest.json`)并包含 `clientlib`.
 
 在渠道编辑器中执行以下步骤：
 
@@ -77,17 +77,17 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 
 ## 设备注册 {#device-registration}
 
-### 1.如果发现端点（如设备载入和注册请求），则可以编写许多设备的脚本并注册这些设备。 除了将此锁定到分支Wi-Fi之外，是否可以保护这些请求？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1.如果发现端点（如设备载入和注册请求），则可以编写许多设备的脚本并注册这些设备。 除了将其锁定在分支Wi-Fi上之外，是否可以保护这些请求？ {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 当前只能在创作实例上注册。 尽管注册服务未经身份验证，但它仅在AEM中创建挂起设备，实际上并不注册该设备或分配任何显示。
 
-要注册设备(在AEM中为设备创建用户)，请向AEM进行身份验证，当前请手动按照注册向导完成注册。 理论上，恶意用户可以创建多个挂起的设备，但若没有AEM登录则无法注册任何设备。
+要注册设备(在AEM中为设备创建用户)，请向AEM进行身份验证并手动按照注册向导完成注册。 理论上，恶意用户可以创建多个挂起的设备，但如果没有AEM登录，则无法注册任何设备。
 
 ### 2.是否有办法通过某种形式的身份验证将HTTPGET请求转换为HTTPPOST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 注册请求是POST请求。
 
-建议从会话中获取设备ID，而不是作为参数传递。 这将清理服务器日志、浏览器缓存等。 这不是安全问题。 语义上。 当服务器上没有状态更改时使用GET，而状态更改时使用POST。
+建议从会话中获取设备ID，而不是将其作为参数传递。 这样做会清理服务器日志、浏览器缓存等。 这不是安全问题。 语义上。 当服务器上没有状态更改时使用GET，而状态更改时使用POST。
 
 ### 3.是否可以拒绝设备注册请求？ {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -95,7 +95,7 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 
 ## 设备监控和运行状况报告 {#device-monitoring-and-health-reports}
 
-### 1.如果我的AEM Screens播放器显示空白屏幕，我如何进行故障排除？
+### 1.如果我的AEM Screens Player显示空白屏幕，如何进行故障排除？
 
 检查以下是否可能解决空白屏幕问题：
 
@@ -105,13 +105,13 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 
 ### 2.如果AEM Screens Player无法注册且其状态显示为“失败”，我该怎么做？
 
-启用Apache Sling引用过滤器允许为空。 要在AEM Screens Player和AEM Screens服务器之间优化控制协议的操作，需要此项。
+启用Apache Sling引用过滤器允许为空。 在AEM Screens Player和AEM Screens服务器之间优化控制协议操作所需。
 
 1. 导航到 **Adobe Experience Manager Web控制台配置**
 1. 查看 **allow.empty** 选项。
 1. 单击&#x200B;**保存**。
 
-### 3.如果在注册AEM Screens播放器时，设备显示故障，并且控制台日志显示ENAME_NOT_FOUND错误，如何进行故障排除？
+### 3.如果在注册AEM Screens Player时，设备显示“失败”，且控制台日志显示“ENAME_NOT_FOUND”错误，如何进行故障排除？
 
 如果播放器无法找到AEM Screens服务器DNS，则可能会发生此问题。 您可以尝试使用IP地址进行连接。 要获取服务器的IP，请使用： *arp &lt;server_dns_name>*.
 
@@ -131,20 +131,20 @@ An ***线上渠道*** 在实时环境中显示更新的内容，而 ***脱机渠
 
 ### 1.如何将ChromeOS播放器安装为Chrome浏览器插件？ {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-在开发人员模式下，可以将ChromeOS播放器安装为Chrome浏览器插件，而无需实际的Chrome播放器设备。 要安装，请执行以下步骤：
+在开发人员模式下，ChromeOS播放器可作为Chrome浏览器插件安装，而无需实际的Chrome播放器设备。 要安装，请执行以下步骤：
 
 1. 单击 [此处](https://download.macromedia.com/screens/) 以下载最新的Chrome播放器。
 1. 解压缩并将其保存在磁盘上。
 1. 打开Chrome浏览器并单击 **扩展** 或直接导航到 ***chrome://extensions***.
 1. 打开 **开发人员模式** 从右上角。
 1. 单击 **加载已解压缩** 从左上角，加载解压的Chrome播放器。
-1. 如果扩展列表中存在，请选中 **AEM Screens Chrome Player** 插件。
+1. 如果在扩展列表中可用，请检查 **AEM Screens Chrome Player** 插件。
 1. 打开新选项卡，然后单击 **应用程序** 图标，或直接导航到 ***chrome://apps***.
 1. 单击 **AEM Screens** 插件。 默认情况下，播放器将以全屏模式启动。 按 **Esc** 退出全屏模式。
 
-### 2.如果Screens播放器无法通过使用自定义错误处理程序通过发布实例进行身份验证，如何进行故障排除？
+### 2.如果Screens播放器无法通过使用自定义错误处理程序来发布实例来进行身份验证，如何进行故障排除？
 
-AEM Screens播放器启动时，会向 ***/content/screens/svc.ping.json***，播放器收到404错误时。 播放器发起身份验证请求，以针对发布实例进行身份验证。 如果发布实例中存在自定义错误处理程序，请确保您在上返回匿名用户的404状态代码。 ***/content/screens/svc.ping.json***.
+AEM Screens Player启动时，会向 ***/content/screens/svc.ping.json***，播放器收到404错误时。 播放器发起身份验证请求，以针对发布实例进行身份验证。 如果发布实例中存在自定义错误处理程序，请确保您在上返回匿名用户的404状态代码。 ***/content/screens/svc.ping.json***.
 
 ### 3.如何在Android™ Player中设置设备屏幕？ {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -157,13 +157,13 @@ AEM Screens播放器启动时，会向 ***/content/screens/svc.ping.json***，�
 
 ### 4.如何为Windows Player启用窗口模式？{#enable-player}
 
-Windows Player中没有窗口模式。 它始终为全屏模式。
+Windows Player中没有窗口模式。 它始终处于全屏模式。
 
-### 5.如果AEM Screens播放器持续发送登录请求，如何进行故障排除？
+### 5.如果AEM Screens Player持续发送登录请求，如何进行故障排除？
 
-请按照以下步骤对持续向发送请求的AEM Screens播放器排除故障 `/content/screens/svc.json` 和 `/libs/granite/core/content/login.validate/j_security_check`：
+请按照以下步骤对持续向发送请求的AEM Screens Player进行故障排除 `/content/screens/svc.json` 和 `/libs/granite/core/content/login.validate/j_security_check`：
 
-1. AEM Screens播放器启动时，会请求 `/content/screens/svc.json`. 当播放器在响应中获得404状态代码时，它会使用启动身份验证请求 `/libs/granite/core/content/login.validate/j_security_check` 针对 *发布* 实例。 如果中存在自定义错误处理程序，则 *发布* 实例中，请确保返回匿名用户的404状态代码 `/content/screens/svc.json` 或 `/content/screens/svc.ping.json`.
+1. AEM Screens Player启动时，会请求 `/content/screens/svc.json`. 当播放器在响应中获得404状态代码时，它会使用启动身份验证请求 `/libs/granite/core/content/login.validate/j_security_check` 针对 *发布* 实例。 如果中存在自定义错误处理程序，则 *发布* 实例中，请确保返回匿名用户的404状态代码 `/content/screens/svc.json` 或 `/content/screens/svc.ping.json`.
 
 1. 检查您的Dispatcher配置是否允许在 `/filters`.
 
@@ -173,7 +173,7 @@ Windows Player中没有窗口模式。 它始终为全屏模式。
 
 1. 检查您是否拥有 `/etc/map` 规则 *作者* 或 *发布* 实例和屏幕路径与 `sling:match` 并在内部重定向到其他路径。 解析中的确切url `/system/console/jcrresolver` 帮助识别 *发布* 实例正在将这些URL重写为任何其他路径。
 
-1. 检查Apache Sling资源解析器工厂配置是否导致内部重写。
+1. 检查Apache Sling Resource Resolver Factory配置是否导致内部重写。
 
 ### 6.如何从播放器API获取显示器和设备的详细信息？
 
@@ -209,7 +209,7 @@ Windows Player中没有窗口模式。 它始终为全屏模式。
 
    * 在CRXDE Lite中，导航到 `/etc/importers/polling/livefyre-poller/jcr:content`.
    * 添加属性 *已启用* type *布尔型*.
-   * 设置 **启用的属性** 到 **false**.
+   * 设置 **启用的属性** 成为 **false**.
 
 ### 2.如何添加Oak索引信息？ {#add-oak-index-info}
 
@@ -241,7 +241,7 @@ AEM Screens为产品使用的查询创建索引定义。
 
 ### 4.如果在软件包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心包已安装但未处于活动状态，您应该怎么做？
 
-安装AEM 6.5 Feature Pack 8的最低版本以便AMS连接器正常工作。 请参阅 [可用性](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) 以便获取AEM Screens功能包的最低版本。
+安装AEM 6.5 Feature Pack 8的最低版本以便AMS连接器正常工作。 请参阅 [可用性](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) 以便获取AEM Screens Feature Pack的最低版本。
 
 ### 5.如何在Screens中配置CQ Link Externalizer服务？
 

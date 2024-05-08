@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。
 
-请按照以下步骤在Chrome播放器中配置名称：
+执行以下步骤，在Chrome播放器中配置名称：
 
 1. 您可以选择允许音频/视频集成商或IT管理员在企业注册过程中设置资产ID和位置。
 

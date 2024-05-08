@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 * 允许按资产提供播放报表的证明
 * 确保捕获所有播放器事件并为其添加时间戳
 * 如果播放未连接到网络，请确保所有播放器事件都存储在本地
-* 允许创建反馈循环，以跟踪一段时间内的播放事件
-* 允许系统根据内容作者定义的成功标准修改内容和布局
+* 可以创建反馈循环，以跟踪随时间变化的播放事件
+* 允许系统根据内容作者定义的成功标准编辑内容和布局
 
 因此，Adobe Analytics与AEM Screens的集成强制执行以下操作 *目标*：
 
@@ -55,7 +55,7 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 
 ## 体系结构详细信息 {#architectural-details}
 
-一位AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示了多长时间（汇总）。 这是标牌解决方案的常见功能。 AEM Screens使用Adobe Analytics，而不是构建单独的分析应用程序。 通过组合，我们能够实现市场中的独特功能 — 跨渠道分析，这有助于将位置中显示的内容与其他数据源相关联。
+一位AEM Screens客户想要了解在哪个时间显示了哪些内容，以及显示了多长时间（汇总）。 这种必要性是标牌解决方案的一种通用功能。 AEM Screens使用Adobe Analytics，而不是构建单独的分析应用程序。 通过组合，我们能够实现市场中的独特功能 — 跨渠道分析，这有助于将位置中显示的内容与其他数据源相关联。
 
 以下架构图介绍了Adobe Analytics与AEM Screens的集成：
 
@@ -119,7 +119,7 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 
 #### 在AEM Screens中使用Adobe Analytics服务 {#using-adobe-analytics-service-in-aem-screens}
 
-此方案通过来自固件中分析服务的REST调用调用Analytics API。 它还会检测AEM Screens核心组件，以明确创建和发送特定于特定用例的事件。 所有这些都支持可扩展性，任何自定义消息都可从自定义开发的渠道发送到Analytics。
+此方案通过来自固件中分析服务的REST调用调用Analytics API。 它还会设置AEM screens核心组件的工具，以创建并发送特定于特定用例的事件。 所有这些功能，同时支持可扩展性，任何自定义消息都可从自定义开发的渠道发送到Analytics。
 
 Analytics事件离线存储在indexedDB中，稍后进行分块并发送到云。
 

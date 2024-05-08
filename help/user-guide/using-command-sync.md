@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
    >
    >要了解如何注册设备，请参阅 [设备注册](/help/user-guide/device-registration.md)
 
-1. 为演示起见，此示例将Chrome设备和Windows Player显示为两个单独的设备。 两台设备指向同一个显示器。
+1. 为了演示，此示例将Chrome设备和Windows Player显示为两个单独的设备。 两台设备指向同一个显示器。
    ![image1](assets/command-sync6.png)
 
 ### 更新渠道设置
@@ -91,7 +91,7 @@ ht-degree: 0%
 ### 设置主要播放器 {#setting-up-primary}
 
 1. 从导航到显示功能板 **CommandSyncDemo** > **位置**  > **大厅** > **LobbyDisplay** 并单击 **仪表板** 从操作栏中。
-请注意中的两个设备（chrome和windows player） **设备** 面板中，如以下所示：
+请注意中的两个设备（chrome和Windows Player） **设备** 面板中，如以下所示：
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. 从 **设备** 单击要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主要设备。 单击 **设置为主设备**.
@@ -109,7 +109,7 @@ ht-degree: 0%
 ### 正在与主要播放器同步 {#sync-up-primary}
 
 1. 将Chrome设备设置为主设备后，将另一设备（在本例中为Windows Player）同步到主设备。
-单击中的另一个设备（在本例中为windows player） **设备** 面板并单击 **同步到主设备**.
+单击中的其它设备（在本例中为Windows Player） **设备** 面板并单击 **同步到主设备**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 

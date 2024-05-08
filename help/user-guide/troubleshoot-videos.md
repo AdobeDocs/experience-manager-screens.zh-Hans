@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 #### 自动播放策略标志疑难解答 {#troubleshooting-autoplay-policy-flag}
 
-如果AEM Screens播放器拿起视频但未显示，请对“Autoplay Policy（自动播放策略）”标记进行故障诊断。
+如果AEM Screens Player拿起视频但未显示，请对“Autoplay Policy（自动播放策略）”标记进行故障排除。
 
 请按照以下步骤对Google的自动播放策略标记问题进行故障诊断：
 

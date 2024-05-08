@@ -1,12 +1,12 @@
 ---
 title: 永久接管渠道
-description: 遵循此用例创建永久接管渠道。
+description: 请按照此用例创建永久接管渠道。
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
