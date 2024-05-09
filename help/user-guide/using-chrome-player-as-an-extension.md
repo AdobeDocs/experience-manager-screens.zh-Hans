@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 如果发布了播放器的新版本，请按照以下步骤升级播放器扩展。 您还可以按照以下说明测试升级方案：
 
-1. 关闭任何正在运行的chrome和播放器实例
+1. 关闭任何正在运行的Chrome和播放器实例
 1. 重命名包含播放器文件的旧文件夹
 1. 在与旧文件夹相同的位置解压缩新的zip文件
 1. 启动Chrome并导航到 `chrome://extensions`

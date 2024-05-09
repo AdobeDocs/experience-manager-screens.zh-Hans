@@ -2,7 +2,7 @@
 title: 支持监控
 description: 了解AEM Screens支持监控最佳实践指南。
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 1. 如果遇到空白屏幕问题：
 
    * 查看 *预览* 以便您查看渠道是否显示黑屏。
-   * 注册 *本地chrome播放器* （作为扩展）访问该显示屏，并查看它是否显示黑屏。
+   * 注册 *本地Chrome播放器* （作为扩展）访问该显示屏，并查看它是否显示黑屏。
    * 右键单击并检查 *适用的日志*.
 
    此外，如果本地播放器上未出现问题，但设备出现问题：

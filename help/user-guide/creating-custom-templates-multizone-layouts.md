@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -30,12 +30,12 @@ ht-degree: 1%
 
 1. **命名约定**：
 
-   在了解如何创建要在AEM Screens项目中使用的自定义多区域模板之前，请了解您要创建的模板的语言。
+   它有助于了解如何创建要在AEM Screens项目中使用的自定义多区域模板。 但首先，您必须了解要创建的模板的措辞。
 
    | **布局名称** | **描述** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | 三区域横向布局允许您创建三个区域：<br>*区域1为水平屏幕和垂直屏幕左侧的20%<br>*区域2为水平屏幕的80%和垂直屏幕的20%右对齐<br>*区域3为水平屏幕100%，垂直屏幕80%，长宽比为16:9 |
-   | `Upper20-PortraitHD2Zone` | 双区纵向模板，从上到下占屏面的20%，长宽比为16:9 |
+   | `Left20-LandscapeHD3Zone` | 三区域横向布局允许您创建三个区域：<br>*区域1为水平屏幕和垂直屏幕左侧的20%<br>*第2区水平筛的80%和垂直筛的20%向右对齐<br>*第3区100%水平和80%垂直屏幕。 长宽比为16:9 |
+   | `Upper20-PortraitHD2Zone` | 双区域纵向模板，从顶部覆盖20%的屏幕，长宽比为16:9 |
    | `Right20-LandscapeSD3Zone` | 一个三区模板，从右侧覆盖20%的屏幕，长宽比为4:3 |
 
    >[!IMPORTANT]
@@ -90,11 +90,11 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. 参照复制左侧lbar模板的步骤(4)，您可以在下面查看三个响应式网格 `my-custom-layout/jcr:content`. 将自定义css类添加到中的每个响应式网格 *`cq:cssClass`* 属性，例如， *my-custom-layout — 左上方* 对象 *r1c1* 节点。
+1. 参照复制左侧lbar模板的步骤(4)，您可以在下面查看三个响应式网格 `my-custom-layout/jcr:content`. 将自定义css类添加到中的每个响应式网格 *`cq:cssClass`* 属性，例如， *my-custom-layout-top* 对象 *r1c1* 节点。
 
    ![图像](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   同样，添加 *my-custom-layout — 右上方* 对象 *r1c2*  和， *my-custom-layout — 底部* 对象 *r2c1* 节点。
+   同样，添加 *my-custom-layout-top* 对象 *r1c2* 和 *my-custom-layout-bottom* 对象 *r2c1* 节点。
 
    >[!NOTE]
    >这些自定义类在css中用于设置这些响应式网格的宽度/高度。
@@ -134,7 +134,7 @@ ht-degree: 1%
 1. 导航到 `/apps/<project>/templates/my-custom-layout/jcr:content` 并更新属性 *`cq:designPath`* 到 `/apps/settings/wcm/designs/customtemplate-designs` 以便加载在static.css中配置的样式。
 
    >[!NOTE]
-   >键入所有样式，而不是复制或粘贴，因为这样可能会导致空格导致css样式问题。
+   >键入所有样式而不是复制或粘贴，这可能会导致空格导致css样式问题。
 
 ## 查看结果 {#viewing-result}
 
@@ -152,13 +152,13 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## 插入图像作为背景图层  {#inserting-image}
+## 插入图像作为背景图层 {#inserting-image}
 
 您可以将图像作为背景图层插入到布局中：
 
 您可以调整CSS规则以使用“data-uri”并直接内联图像(`Base64` (encoded)的任意位置，然后在所创建的CSS文件中（步骤13）， *static.css*.
 
-具体操作如下：
+此安排如下：
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 或者，您也可以执行以下步骤：

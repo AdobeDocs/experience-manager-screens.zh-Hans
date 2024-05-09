@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
    ![图像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >必须在企业注册中注册Chrome播放器，并且必须通过Chrome管理控制台部署Chrome播放器，否则资产ID将返回空白（例如，将chrome作为扩展）。 设备名称仅在注册时记录。 Adobe Experience Manager (AEM)不会接受将来的更改。
+   >必须在企业注册中注册Chrome播放器，并且必须通过Chrome管理控制台部署Chrome播放器，否则资产ID将返回空白（例如，将Chrome作为扩展）。 设备名称仅在注册时记录。 Adobe Experience Manager (AEM)不会接受将来的更改。
 
 ### 启用Kiosk模式 {#enabling-kiosk-mode}
 

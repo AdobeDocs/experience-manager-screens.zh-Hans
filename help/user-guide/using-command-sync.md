@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ## 概述 {#overview}
 
-数字标牌解决方案必须支持视频墙和同步播放，才能支持新年倒计时，或分割为多个屏幕播放的大型视频等场景，这正是发挥命令同步功能的地方。
+数字标牌解决方案必须支持视频墙和同步播放。 如果您尝试支持“新年倒计时”或大视频分段在多个屏幕中播放等场景，则此场景为true。 在这种情况下，命令同步将发挥作用。
 
-要使用Command Sync，一个播放器将充当 *主要* 发送命令，其他所有播放器 *客户端* 当他们收到命令时播放。
+要使用Command Sync，一个播放器将充当 *主要* 并发送命令，而所有其他播放器 *客户端* 当他们收到命令时播放。
 
-此 *主要* 将要开始播放项目时，向所有注册的客户端发送命令。 其有效负载可以是要播放的项目的索引和/或要播放的元素的外部HTML。
+此 *主要* 将要开始播放项目时，向所有注册的客户端发送命令。 此操作的有效负载可以是要播放项目的索引、要播放的元素的外部html或两者。
 
 ## 实施命令同步 {#using-command-sync}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    >
    >要了解如何将渠道分配给显示，请参阅 [创建和管理显示区](/help/user-guide/managing-displays.md).
 
-1. 导航到 **设备** 文件夹。
+1. 导航至 **设备** 文件夹。
 1. 单击 **设备管理器** 从操作栏中。
 
    ![image1](assets/command-sync5.png)
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 ### 设置主要播放器 {#setting-up-primary}
 
-1. 从导航到显示功能板 **CommandSyncDemo** > **位置**  > **大厅** > **LobbyDisplay** 并单击 **仪表板** 从操作栏中。
-请注意中的两个设备（chrome和Windows Player） **设备** 面板中，如以下所示：
+1. 从导航到显示功能板 **CommandSyncDemo** > **位置**  > **大厅** > **LobbyDisplay**. 然后单击 **仪表板** 从操作栏中。
+请注意中的两个设备（Chrome和Windows Player） **设备** 面板中，如以下所示：
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. 从 **设备** 单击要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主要设备。 单击 **设置为主设备**.
+1. 从 **设备** 单击要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击 **设置为主设备**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
