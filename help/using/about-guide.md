@@ -2,10 +2,10 @@
 title: 关于本指南
 description: 了解AEM Screens项目计划和执行项目的最佳实践，从战略和设计简报到部署和支持后。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 33%
+source-wordcount: '254'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ AEM Screens“最佳实践指南”旨在提供有关如何成功规划和执行
 本文档的目标受众是：
 
 * *AEM 实施人员*
-* *音频/视频集成器*
+* *音频 — 视频集成器*
 * *业务策划师*
 * *项目经理*
 * *顾问*
@@ -25,7 +25,7 @@ AEM Screens“最佳实践指南”旨在提供有关如何成功规划和执行
 
 AEM Screens是Adobe Experience Manager (AEM)的一项新扩展。 由于这些工具是新的，其潜在应用程序也各不相同，因此确定开发和部署AEM Screens过程中涉及的重要考虑因素和常见风险因素至关重要。
 
-本指南为您的数字标牌实施提供了详尽见解和实用建议，以便构想、设计和引入创意客户体验。 它还指导您如何在AEM Screens中部署数字标牌项目时，使用一些遵循的最佳实践对您的业务产生积极影响。
+本指南为您的数字标牌实施提供了详尽见解和实用建议，以便构想、设计和引入创意客户体验。 它还可以指导您使用在 AEM Screens 中部署数字标牌项目时遵循的一些最佳实践对您的业务产生积极影响。
 
 >[!IMPORTANT]
 >

@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-此 ***排序过程*** 从激活Adobe Analytics服务的数据存储服务开始。 渠道内容使用工资单发送Adobe Analytics事件，即将数据测试捕获发送到Windows I/O，并触发保持事件。 这些事件被保存到索引DB中，并进一步被放入对象存储中。 它根据管理员设置的计划从对象存储中剪切数据，然后进一步在块存储中传输这些数据。 连接后，它会尝试发送最大数量的数据。
+此 ***排序过程*** 从激活Adobe Analytics服务的数据存储服务开始。 渠道内容使用工资单发送Adobe Analytics事件，即将数据测试捕获发送到Windows I/O，并触发保持事件。 这些事件被保存到索引DB中，并进一步被放入对象存储中。 它根据管理员设置的计划从对象存储中剪切数据，然后进一步在区块存储中传输这些数据。 连接后，它会尝试发送最大数量的数据。
 
 ### 排序图 {#sequencing-diagram}
 
@@ -81,7 +81,7 @@ ht-degree: 10%
    <td>推荐</td> 
    <td>字符串</td> 
    <td>时间戳 — UTC</td> 
-   <td>事件开始日期时间，如果未指定此时间，则假定事件时间为服务器收到该事件的时间</td> 
+   <td>事件开始日期时间，如果未指定此时间，则事件时间将被假定为服务器收到该事件的时间。</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,7 +144,7 @@ ht-degree: 10%
    <td>可选</td> 
    <td>布尔型</td> 
    <td> </td> 
-   <td>操作脱机/联机时生成了事件(true/false)</td> 
+   <td>在操作脱机/联机(true/false)时生成了事件</td> 
   </tr>
   <tr>
    <td> </td> 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 概念验证(POC) {#proof-of-concept-poc}
 
-POC的目的在于获得有关解决方案关键功能的初始反馈。 它还使最终客户和音频/视频集成商都有机会确定需要改进的领域并准备有关劳动力需求和资源需求的假设。 POC还允许双方评估解决方案的性能，通常通过以下方式进行测量：
+POC的目的在于获得有关解决方案关键功能的初始反馈。 它还使最终客户和音频 — 视频集成商都有机会确定需要改进的领域并准备有关劳动力需求和资源需求的假设。 POC还允许双方评估解决方案的性能，通常通过以下方式进行测量：
 
 ### 质量控制 {#quality-control}
 

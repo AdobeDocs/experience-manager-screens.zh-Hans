@@ -2,9 +2,9 @@
 title: 测试和质量保证
 description: 在最佳实践指南中了解AEM Screens的测试和质量保证。
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 测试和质量保证 {#testing-quality}
 
 >[!NOTE]
->此活动的典型利益相关者是音频/视频集成商。
+>本活动的典型利益相关者是音频/视频集成商。
 
 随着数字标牌网络的部署日益临近，请制定一个测试和QA计划，以解决网络的每个元素的问题，包括所有硬件组件、所有软件组件和所有网络组件。
 在这个阶段，应该构建整个测试系统并进行全面测试。

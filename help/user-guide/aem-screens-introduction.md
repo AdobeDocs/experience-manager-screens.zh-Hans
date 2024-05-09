@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ## 概述 {#overview}
 
-**Experience Manager Screens** 是建立在以下坚实的基础之上 ***Experience Manager Sites***. 它使营销人员和IT人员能够在多个数字屏幕上创建和管理体验，这些体验将影响店内/实地目标，进而打造品牌和推动需求。 将Experience Manager Screens与Sites集成使您能够重复使用现有内容，并有效地提供一致而一致的客户解决方案。 这提供了一种简化的工作流程，可创建极具成本效益且可用的专用数字体验。 它还有助于影响品牌认知和影响决策，从而提高购买率和参与度。
+**Experience Manager Screens** 是建立在以下坚实的基础之上 ***Experience Manager Sites***. 它使营销人员和IT人员能够在多个数字屏幕上创建和管理体验，这些体验将影响店内/实地目标，进而打造品牌和推动需求。 将Experience Manager Screens与Sites集成使您能够重复使用现有内容，并有效地提供一致而一致的客户解决方案。 此工作流经过简化，可创建极具成本效益和可用性的专用数字体验。 它还有助于影响品牌认知和影响决策，从而提高购买率和参与度。
 
-Experience Manager Screens是一个功能强大的基于Web的解决方案，通过它可创建专用的数字菜单展示板、产品推荐器和背景生活方式图片，从而扩大客户互动。 它可帮助您从同一个Experience Manager平台将统一且实用的品牌体验投放到实体场所，例如商店、酒店、银行、医疗保健和教育机构等。 屏幕提供了许多独特的应用程序，例如交互式显示、路径查找、品牌推广，以及根据部署的域为客户和员工营造氛围。
+Experience Manager Screens是一个功能强大的基于Web的解决方案，通过它可创建专用的数字菜单展示板、产品推荐器和背景生活方式图片，从而扩大客户互动。 它可帮助您从同一个Experience Manager平台将统一且实用的品牌体验投放到实体场所，例如商店、酒店、银行、医疗保健和教育机构等。 屏幕提供了许多独特的应用程序。 例如，交互式显示、路径查找、品牌推广，并根据客户和员工部署的域为其环境增添氛围。
 
 使用Experience Manager Screens创建和管理应用程序既简单又直观。 An *应用程序* 托管由客户或实施合作伙伴为Experience Manager Screens构建的网页。 *位置* 管理预定义层次结构并包含 *显示*. 每个显示屏都有一个功能板，用于显示所附带的不同设备和屏幕。 Experience Manager Screens的内容管理位置 *渠道*. Experience Manager Screens播放器可以将渠道内呈现的内容呈现到显示内容中。
 
-要了解与Experience Manager Screens关联的关键术语，请参阅 [术语表](screens-glossary.md).
+要了解与Experience Manager Screens相关的关键术语，请参阅 [术语表](screens-glossary.md).
 
 ### Screens播放器的架构
 
@@ -61,7 +61,7 @@ Experience Manager Screens是一个功能强大的基于Web的解决方案，通
 
 * **Experience Manager Screens项目的“最佳实践指南”**
 
-  关注 **[Experience Manager Screens项目的“最佳实践指南”](/help/using/about-guide.md)** 该指南旨在识别实施Experience Manager Screens项目时的常见陷阱。 该材料主要侧重于项目角色和职责、适用于不同角色的RACI图表Experience Manager平台配置以及支持和监控。
+  请遵循 **[Experience Manager Screens项目的“最佳实践指南”](/help/using/about-guide.md)** 该指南旨在识别实施Experience Manager Screens项目时的常见陷阱。 该材料主要侧重于项目角色和职责。 它重点介绍了RACI图表，以说明各种角色、Experience Manager平台配置以及支持和监控。
 
 <!-- DEAD LINK * **New Adobe Customer Support Experience**
 

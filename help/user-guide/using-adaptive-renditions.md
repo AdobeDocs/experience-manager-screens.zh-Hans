@@ -2,9 +2,9 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 了解如何在AEM Screens中使用自适应演绎版。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ## 简介 {#introduction}
 
-自适应演绎版允许设备根据客户定义的规则自动单击适合设备的最佳演绎版。 这些设备会根据这些规则自动下载并播放最合适的资源演绎版，从而让客户只需专注于设计 *主要* 体验。
+自适应演绎版允许设备根据客户定义的规则自动为设备单击最佳演绎版。 设备将根据这些规则自动下载并播放最合适的资源演绎版。 它让客户能够专注于设计 *主要* 体验。
 
 ## 目标 {#objective}
 
-作为AEM Screens内容作者，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。
-开发人员添加演绎版映射属性和规则后，您便可以将演绎版映射应用于资源，然后将这些资源包含在AEM Screens渠道中。
+作为AEM Scrßens内容作者，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。
+开发人员添加演绎版映射属性和规则后，您便可以将演绎版映射应用于资源，然后将其包含在AEM Screens渠道中。
 
 >[!IMPORTANT]
 >在开始在AEM Screens渠道中使用自适应演绎版之前，Adobe建议您了解此功能的架构概述和配置。 请参阅 [自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md).
@@ -26,11 +26,11 @@ ht-degree: 0%
 ## 在渠道中使用自适应演绎版 {#using-adaptive-renditions}
 
 >[!NOTE]
->添加后 [rendition-mapping属性到Screens项目](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [节目映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，作为内容作者，您现在可以将演绎版应用于资源。
+>添加 [rendition-mapping属性到Screens项目](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) 和 [节目映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)，作为内容作者，您现在可以将演绎版应用于资源。
 
 ### 将演绎版应用到资源 {#apply-renditions-assets}
 
-要将演绎版应用到要在导览屏幕渠道中使用的资产，请执行以下操作。
+要将演绎版应用到要在“导览屏幕”渠道中使用的资产，请执行以下操作。
 
 1. 导航至 **资产** AEM文件夹。
 1. 创建更适合标牌显示的资源版本，例如， `seahorse.jpg`.
