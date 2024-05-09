@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您还可以在选择时查看显示仪表板 **完成**.
+   此外，您还可以通过选择查看显示仪表板 **完成**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -141,22 +141,22 @@ ht-degree: 0%
 
 ### 搜索功能的限制 {#limitations}
 
-* 用户能够搜索中存在的任何单词 *设备ID* 或 *设备名称*.
+* 用户能够搜索 *设备Id* 或 *设备名称*.
 
   >[!NOTE]
-  >建议您用多个词创建设备名称，例如 *波士顿商店大厅* 而不是一个单身 *BostonStoreLobby*.
+  >建议您用多个词创建设备名称，例如 *`Boston Store Lobby`* 而不是一个单身 *`BostonStoreLobby`*.
 
-* 如果您创建设备名称，例如 *波士顿商店大厅*，它会搜索任意单词 *波士顿*， *存储*，或 *大厅*. 但是，如果设备名称为 *BostonStoreLobby*，然后搜索 *波士顿* 不显示任何结果。
+* 如果您创建了设备名称，例如 *`Boston Store Lobby`*，它会搜索任意单词 *`boston`*， *`store`*，或 *`lobby`*. 但是，如果设备名称为 *`BostonStoreLobby`*，然后搜索 *`boston`* 不显示任何结果。
 
-* 通配符， `*` 支持搜索。 如果您希望查找所有名称以开头的设备， *波士顿*，您可以使用 *波士顿**.
+* 通配符， `*` 支持搜索。 如果您希望查找所有名称以开头的设备， *`boston`*，您可以使用*`boston`**。
 
-* 如果设备名称为 *BostonStoreLobby* 并搜索 *波士顿* 不返回结果，则使用 *波士顿**会返回结果。
+* 如果设备名称为 *`BostonStoreLobby`* 并搜索 *`boston`* 不返回结果，则使用 *`boston`**会返回结果。
 
 ## Device Registration的限制 {#limitations-on-device-registration}
 
 系统范围的用户密码限制可能会导致设备注册失败。 设备注册使用随机生成的密码来创建设备用户。
 
-如果密码受 *AuthorizableActionProvider* 配置，创建设备用户可能会失败。
+如果 *AuthorizableActionProvider* 配置限制密码，创建设备用户可能会失败。
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他资源 {#additional-resources}
 
-要了解AEM Screens Player，请参阅 [AEM Screens Player](working-with-screens-player.md).
+要了解有关AEM Screens Player的更多信息，请参阅 [AEM Screens Player](working-with-screens-player.md).

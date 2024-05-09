@@ -1,31 +1,31 @@
 ---
 title: 为文本叠加应用自定义品牌和样式
-description: 了解如何在AEM Screens渠道中将文本叠加的自定义品牌和样式应用于资源。
+description: 了解如何在AEM Screens渠道中为应用于资产的文本叠加应用自定义品牌和样式。
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # 文本叠加图的自定义品牌和样式 {#creating-custom-branding-styling}
 
-了解如何在AEM Screens渠道中将文本叠加的自定义品牌和样式应用于您的资源。
+了解如何在AEM Screens渠道中为应用于资源的文本叠加应用自定义品牌和样式。
 
 ## 为文本叠加图创建自定义品牌和样式 {#steps-custom-branding}
 
 请按照以下步骤为文本叠加创建自定义品牌和样式：
 
-1. 创建一个AEM Screens项目。 此示例通过创建名为的项目来展示功能 **`customstyle`** 和一个标题为 **DemoBrand** ，如下图所示。
+1. 创建一个AEM Screens项目。 此示例通过创建名为的项目来展示功能 **`customstyle`** 和一个标题为 **DemoBrand**，如下图所示。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. 在编辑器中，拖放图像并将文本覆盖添加到资源。
+1. 从编辑器中，拖放图像并向资源添加文本叠加。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 ### 更新ACL {#updating-acls}
 
-更新这些设计的ACL，以便播放器可以下载它们。
+更新这些设计的ACL，以便播放器可以下载。
 
 1. 导航到用户管理员，然后选择 `screens-<project>-devices group` 并为其授予对自定义设计路径的读取权限。
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. 此外，您还可以从删除最后两个代码块 *static.css* 文件以移除文本覆盖周围的盒装样式。
+1. 此外，您还可以从以下位置删除最后两个代码块： *static.css* 文件以移除文本覆盖周围的盒装样式。
 
 ![图像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

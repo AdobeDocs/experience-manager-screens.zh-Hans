@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # 创建和管理显示区 {#creating-and-managing-displays}
 
-显示器是彼此相邻放置的屏幕的虚拟分组。 该显示相对于安装是永久性的。 这是内容作者使用的对象，并始终引用为逻辑显示，而不是其物理计数器部分。
+显示器是彼此相邻放置的屏幕的虚拟分组。 该显示相对于安装是永久性的。 它是内容作者所使用并始终引用的对象作为逻辑显示，而不是其物理计数器部分。
 
 在创建位置时，必须创建位置的显示。
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 1. 导航到相应的位置，例如 `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. 单击您的位置文件夹，然后单击 **创建** 位于操作栏中的加号图标旁边。
 1. 单击 **显示** 从 **创建** 向导，然后单击 **下一个**.
-1. 输入 **名称** 和 **标题** 显示位置的信息。
+1. 输入您的 **名称** 和 **标题** 显示位置的信息。
 1. 在 **显示** 选项卡，选择布局的详细信息。 选择所需的 **分辨率**，例如 **全高清**. 选择水平和垂直设备数量。
 1. 单击&#x200B;**创建**。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 ## 显示功能板 {#display-dashboard}
 
-显示仪表板为您提供不同的面板，用于管理显示设备和设备的设备配置。
+显示仪表板为您提供了用于管理显示设备的不同面板。 它还允许您配置设备。
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ ht-degree: 1%
 
 单击 **属性** 以便查看或更改显示的属性。
 
-此外，您还可以在中调整交互式渠道的事件计时器值 **空闲超时** 下的属性 **显示** 选项卡。 默认值设置为 *300秒*.
+此外，您还可以在以下位置调整交互式渠道的事件计时器值 **显示** 选项卡。 默认值设置为 *300秒*.
 
-使用 **CRXDE Lite**，以访问 **idleTimeout** 属性，也就是说， `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+使用 **CRXDE Lite**，以访问 **idleTimeout** 属性，也就是说， `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### 已分配渠道面板 {#assigned-channels-panel}
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 ### “设备”面板 {#devices-panel}
 
-此 **设备** 面板提供有关设备配置的信息。
+此 **设备** 面板提供了有关设备配置的信息。
 
 单击(**...**)的右上角 **设备** 面板，以便添加设备配置和更新设备。
 

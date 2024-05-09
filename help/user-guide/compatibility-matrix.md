@@ -4,9 +4,9 @@ description: 详细了解AEM Screens播放器及其各自的AEM Screens版本。
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '309'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72</strong>  — 可在Apple商店中获取</p> <p> </p> </td> 
+   <td><p><strong>3.2.72</strong>  — 可在Apple商店中找到</p> <p> </p> </td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
@@ -109,23 +109,23 @@ aem-screens-player-android-3.3.0.apk.zip
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72 - </strong>可在Apple Store上获取</p> <p><strong>3.3.0</strong>  — 不起作用</p> <p> </p> </td> 
+   <td><p><strong>3.2.72 - </strong>可在Apple商店中获取</p> <p><strong>3.3.0</strong>  — 不起作用</p> <p> </p> </td> 
    <td><strong>1.0.12</strong> -(在Macromedia上提供)</td> 
-   <td><p><strong>1.0.30 -</strong> 可在Chrome Store上获取。</p> <p>功能包1不支持</p> </td> 
+   <td><p><strong>1.0.30 -</strong> 可在Chrome Store上找到。</p> <p>功能包1不支持</p> </td> 
    <td><strong>3.2.68 -</strong> (可在Macromedia网站上找到)和Google Play Store</td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>将在Apple Store上发布</p> <p> </p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即将在Apple Store上发布</p> <p> </p> </td> 
    <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>将在Chrome Store上发布</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>即将在Chrome Store上发布</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>将在Apple Store上发布</p> </td> 
+   <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>即将在Apple Store上发布</p> </td> 
    <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>将在Chrome Store上发布</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>即将在Chrome Store上发布</p> </td> 
    <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
  </tbody>

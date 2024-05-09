@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 ## 概述 {#overview}
 
-文本叠加是AEM Screens中提供的功能，它通过在图像上方提供标题或描述而在序列渠道中创建引人入胜的体验。
+文本叠加是AEM Screens中一项可用的功能。 它通过在图像上方提供标题或描述，让您在序列渠道中创建引人入胜的体验。
 
 要了解如何创建自己的自定义组件，请参阅 **扩展AEM Screens组件**.
 
-本节仅显示如何在AEM Screens项目中使用和应用海报组件，并将其用作某个序列渠道中的文本叠加。
+本节仅显示如何在AEM Screens项目中使用和应用海报组件。 它还展示了如何在一个序列渠道中将其用作文本叠加。
 
 ## 使用文本叠加 {#using-text-overlay}
 
@@ -48,11 +48,11 @@ ht-degree: 1%
 
 * 创建一个AEM Screens项目(在此示例中， **TextOverlayDemo**)
 
-* 创建标题为 **文本示例** 下 **渠道** 文件夹
+* 创建标题为 **文本示例** 在 **渠道** 文件夹
 
 * 将内容添加到您的 **文本示例** 渠道
 
-下图显示了 **TextOverlayDemo** 使用的项目 **文本示例** 中的频道 **渠道** 文件夹。
+下图显示了 **TextOverlayDemo** 使用的项目 **文本示例** 中的渠道 **渠道** 文件夹。
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要正确使用细粒度工具，请确保使用(px)作为后缀来识别正确的像素位置，例如200像素。 此表达式的结果是从起点算起的200像素。
+>使用细粒度工具时，请确保使用作为后缀的(px)以像素为单位标识正确的位置，例如200像素。 此表达式的结果是从起点算起的200像素。
 
 ## 在文本覆盖中使用ContextHub值 {#using-text-overlay-context-hub}
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. 将图像和文本叠加组件添加到图像，如中所述 [使用文本叠加](/help/user-guide/text-overlay.md#using-text-overlay) 部分。
+1. 将图像和文本叠加组件添加到图像，如 [使用文本叠加](/help/user-guide/text-overlay.md#using-text-overlay) 部分。
 
 1. 单击 **配置** （扳手图标）以打开 **图像** 对话框。
 
