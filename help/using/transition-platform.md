@@ -2,9 +2,9 @@
 title: 过渡到平台
 description: 了解AEM Screens中的过渡到平台。
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >此活动的典型利益相关者是AEM实施者。
 
-随着项目从战略愿景走向线框现实，您现在应该开始准备在AEM中实际创建可部署的Screens项目所需的任务。
+随着您的项目从战略愿景走向线框现实，您应该为在AEM中实际创建可部署的Screens项目做好准备。
 
 此项目包括特定于平台的配置与原型制作阶段中定义的宽松要求的映射。
 

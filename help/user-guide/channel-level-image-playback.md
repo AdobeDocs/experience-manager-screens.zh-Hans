@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 概述 {#overview}
 
-创建序列渠道并向其中添加图像时，默认情况下，所有图像都采用渠道级别配置中定义的播放持续时间。 任何单个图像仍可以覆盖默认值，并且播放持续时间也不同，这是通过编辑特定图像组件的播放持续时间来实现的。
+创建序列渠道并向其中添加图像时，默认情况下，所有图像都采用渠道级别配置中定义的播放持续时间。 任何单个图像仍可以覆盖默认值，并且具有不同的播放持续时间。 此功能通过编辑特定图像组件的播放持续时间来完成。
 
 ### 先决条件 {#prerequisites}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 1. 创建一个AEM Screens项目示例， **ChannelLevelPlayback**.
 
-1. 创建序列渠道为 **PlaybackChannel** 下 **渠道** 文件夹。
+1. 创建序列渠道为 **PlaybackChannel** 在 **渠道** 文件夹。
 
 1. 将内容添加到 **PlaybackChannel**.
 
@@ -70,6 +70,6 @@ ht-degree: 1%
 
 ### 查看结果 {#viewing-the-result}
 
-更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放的图像时长为3秒，而不是8秒（默认值）。
+更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放图像的时间是3秒而不是8秒（默认值）。
 
 ![channel_preview](assets/channel_preview.gif)

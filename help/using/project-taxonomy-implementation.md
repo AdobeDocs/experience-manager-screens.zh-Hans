@@ -2,9 +2,9 @@
 title: 项目分类
 description: 了解有关项目分类法的更多信息，因为它与AEM Screens相关。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ ht-degree: 0%
 * **计划**
 * **预览内容**
 
-要了解这些术语，请参阅 [术语表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+要了解有关这些术语的更多信息，请参见 [术语表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >最好考虑使用：
 >
 >* 用于自动填充Screens项目的硬件资产数据库
->* 文本配置文件，用于自动将每个播放器指向AEM的特定实例
+>* 文本配置文件自动将每个播放器指向AEM的特定实例
 
 ## 实施AEM Screens项目 {#creating-a-project}
 
