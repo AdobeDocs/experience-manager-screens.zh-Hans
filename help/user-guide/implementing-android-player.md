@@ -1,6 +1,6 @@
 ---
-title: 实施Android&trade；播放器
-description: 了解Android&trade； Watchdog的实施，该解决方案允许您从崩溃中恢复Android&trade；播放器。
+title: 实施Android Player
+description: 了解Android Watchdog的实施，该解决方案允许您将Android播放器从崩溃中恢复。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 本节介绍如何配置Android™播放器。 它提供了有关配置文件和可用选项的信息，以及开发和测试时要使用的设置的建议。
 
-另外， **监视程序** 是一个用于从崩溃中恢复播放器的解决方案。 应用程序必须向监视程序服务注册自己，然后定期向服务发送其处于活动状态的消息。 如果watchdog服务在规定的时间内未收到保持活动状态消息，该服务将尝试重新启动设备以进行干净恢复（如果它有足够的权限）或重新启动应用程序。
+另外， **监视程序** 是一个用于从崩溃中恢复播放器的解决方案。 应用程序必须向监视程序服务注册自己，然后定期向服务发送其处于活动状态的消息。 如果监视程序服务在规定的时间内未收到保持活动状态消息，则该服务将尝试重新启动设备。 此操作可用于执行干净恢复（如果它有足够的权限）或重新启动应用程序。
 
 ## 安装Android™ Player {#installing-android-player}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 实施Android™ Watchdog {#implementing-android-watchdog}
 
-由于Android™的架构，重新启动设备要求应用程序具有系统权限。 为此，请使用制造商的签名密钥对应用程序进行签名，否则，监视程序将重新启动播放器应用程序而不重新启动设备。
+由于Android™的架构，重新启动设备要求应用程序具有系统权限。 使用制造商的签名密钥对应用程序进行签名，否则，监视程序可以重新启动播放器应用程序而不重新启动设备。
 
 ### Android™标牌 `apks` 使用制造商密钥 {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -84,9 +84,9 @@ ht-degree: 0%
 1. 从Google Play或下载应用程序 [AEM Screens播放器下载](https://download.macromedia.com/screens/) 页面
 1. 从制造商处获取平台密钥，以便您可以 *pk8* 和 *pem* 文件
 
-1. 找到 `apksigner` Android™ sdk中使用查找的工具 `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. 找到 `apksigner` Android™ SDK中的工具（使用“查找”） `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. 在Android™ sdk中查找zip对齐工具的路径
+1. 在Android™ SDK中查找zip对齐工具的路径
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. 安装 ***aemscreensaligned.apk*** 将adb install用于设备
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 **1. 初始化**  — 在初始化Cordova插件时，将检查权限以查看您是否具有系统权限，从而是否具有Reboot权限。 如果满足这两个条件，则会创建挂起的重启意图，否则会创建挂起的重启应用程序意图（基于其启动活动）。
 
-**2. 保持活动状态计时器**  — 保持活动状态计时器用于每15秒触发一次事件。 在该事件中，取消现有的挂起意图（重新启动或重新启动应用程序）并在以后的60秒内注册新的挂起意图（实际上推迟重新启动）。
+**2. 保持活动状态计时器**  — 保持活动状态计时器用于每15秒触发一次事件。 在该事件中，取消现有的挂起意图（重新启动或重新启动应用程序）并在以后的60秒内注册新的挂起意图（实际上延迟了重新启动）。
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 批量配置Android™ Player {#bulk-provision-android-player}
 
-批量推出Android™播放器时，需要配置播放器以指向AEM实例并配置其他属性，而无需在管理员UI中手动输入这些属性。
+批量推出Android™播放器时，需要配置播放器以指向AEM实例并配置其他属性，而无需在管理员UI中手动输入它们。
 
 >[!NOTE]
 >Android™播放器42.0.372上提供此功能。
@@ -139,7 +139,7 @@ ht-degree: 0%
 | *resolution* | 设备的分辨率。 |
 | *rebootSchedule* | 重新启动计划适用于所有平台。 |
 | *enableAdminUI* | 启用管理UI以在站点上配置设备。 设置为 *false* 在完全配置并投入生产后。 |
-| *enableOSD* | 为用户启用通道切换器UI以在设备上切换通道。 考虑将设置为 *false* 在完全配置并投入生产后。 |
+| *enableOSD* | 为用户启用通道切换器UI以在设备上切换通道。 考虑将其设置为 *false* 在完全配置并投入生产之后。 |
 | *enableActivityUI* | 如果要显示下载和同步等活动的进度，则启用此选项。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
 | *enableNativeVideo* | 如果要使用本机硬件加速进行视频播放，则启用(仅限Android™)。 |
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 ## 使用企业移动性管理批量预配Android™ Player {#bulk-provisioning}
 
-批量部署Android™播放器时，手动向AEM注册每个播放器会变得繁琐起来。 强烈建议使用EMM（企业移动性管理）解决方案，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、 MobileIron或Samsung Knox ，用于远程配置和管理您的部署。 AEM Screens Android™播放器支持行业标准EMM AppConfig以允许远程配置。
+批量部署Android™播放器时，手动向AEM注册每个播放器会变得繁琐起来。 使用EMM（企业移动性管理）解决方案，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)、 MobileIron或Samsung Knox ，因此您可以远程配置和管理您的部署。 AEM Screens Android™播放器支持行业标准EMM AppConfig以允许远程配置。
 
 ## 命名Android™ Player {#name-android}
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。
 
-请按照以下步骤在Android™播放器中配置名称：
+执行以下步骤，在Android™播放器中配置名称：
 
 1. 导航到 **设置** > **关于设备**
 1. 编辑设备名称并将其设置为命名您的Android™播放器
@@ -198,7 +198,7 @@ ht-degree: 0%
 1. 配置这些参数，保存策略并将其部署到设备。
 
    >[!NOTE]
-   >设备应接收应用程序以及配置，并使用选定的配置指向正确的AEM服务器。 如果您选择配置批量注册代码并将其与AEM中配置的代码相同，则播放器应该能够自动注册自身。 如果您配置了默认显示，则它还可以下载并显示某些默认内容（这些内容以后可以根据您的方便进行更改）。
+   >设备应该会收到应用程序以及配置。 它应指向具有所选配置的正确AEM服务器。 如果您选择配置批量注册代码并将其与AEM中配置的代码相同，则播放器应该能够自动注册自身。 如果您配置了默认显示，则它还可以下载并显示某些默认内容（这些内容以后可以根据您的方便进行更改）。
 
 此外，您还应就AppConfig支持问题与EMM供应商联系。 最受欢迎的内容，例如 [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm)， [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm)， [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm)， [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm)， [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm)、和 [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) 其中也支持此行业标准。
 

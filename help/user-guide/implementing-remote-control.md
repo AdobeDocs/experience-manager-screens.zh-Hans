@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# 使用Screens遥控器  {#implementing-remote-control}
+# 使用Screens遥控器 {#implementing-remote-control}
 
-利用远程控制功能，可以更轻松地访问管理员UI、渠道切换器或清除缓存和重新加载等功能。 此外，它还为您提供了查看播放器上的本地固件版本和系统信息的方法。 这特别有用，因为连接鼠标和操作超出范围的生产设备可能会很困难，播放器与AEM失去连接时更是如此。 使用Samsung RMS时，这也很有用，因为分辨率的差异可能会使查找和使用鼠标打开管理员UI变得困难。
+利用远程控制功能，可以更轻松地访问管理员UI、渠道切换器或清除缓存和重新加载等功能。 此外，它还为您提供了查看播放器上的本地固件版本和系统信息的方法。 此功能特别有用，因为连接鼠标可能会很困难。 或者，在无法访问的生产设备上操作，如果播放器已断开与AEM的连接，则更是如此。 它在使用Samsung RMS时也很有用，因为分辨率的差异使得查找和使用鼠标打开管理员UI变得困难。
 
 ## 通用遥控器按键组合 {#using-common-remote-control}
 

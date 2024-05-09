@@ -9,14 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# 实施Chrome操作系统播放器  {#implementing-chrome-os-player}
+# 实施Chrome操作系统播放器 {#implementing-chrome-os-player}
 
 本节介绍如何使用Chrome管理控制台实施Chrome OS Player。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 请按照以下步骤设置Chrome管理控制台：
 
 1. 注册Chrome管理控制台。 您必须获取Chrome管理控制台的许可证。 联系人 [Google支持](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) 管理Chrome设备设置，以了解更多信息。
-1. 将Chrome操作系统设备注册到域，等待15分钟，以便设备与Chrome管理控制台同步。 要了解有关注册Chrome设备的更多信息，请单击 [此处](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. 将您的Chrome操作系统设备注册到域中，并等待15分钟以使设备与Chrome管理控制台同步。 要了解有关注册Chrome设备的更多信息，请单击 [此处](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome网络商店中提供了Chrome播放器。
 
 >[!NOTE]
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 命名Chrome OS播放器 {#name-chrome}
 
-您可以为Chrome播放器分配一个用户友好的设备名称，然后将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Chrome播放器命名，而且允许您轻松分配适当的内容。
+您可以为Chrome播放器分配一个用户友好的设备名称，然后将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Chrome播放器命名，而且还允许您轻松分配相应的内容。
 
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    ![图像](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. 您可以在Chrome管理控制台中将资产ID设置为企业注册的一部分。
+1. 您可以在Chrome Management Console中将资产ID设置为企业注册的一部分。
 
    ![图像](/help/user-guide/assets/chrome-device/chrome3.png)
 
@@ -150,7 +150,7 @@ AEM Screens播放器是一个支持Kiosk的应用程序，它还为Chrome操作�
 
 >[!NOTE]
 >
->策略配置是严格强制实施的，不会在播放器的管理员UI中手动覆盖。 要允许为特定策略手动配置播放器，请勿在 ***策略配置***. 例如，如果要允许手动配置重新启动计划，请不要指定键 ***rebootSchedule*** 在策略配置中。
+>策略配置是严格强制实施的，播放器的管理UI不会手动覆盖。 要允许为特定策略手动配置播放器，请勿在 ***策略配置***. 例如，如果要允许手动配置重新启动计划，请不要指定键 ***rebootSchedule*** 在策略配置中。
 
 ### 使用Screens遥控器 {#using-remote-control}
 

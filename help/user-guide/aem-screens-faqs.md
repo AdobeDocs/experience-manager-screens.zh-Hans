@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ AEM Screens为产品使用的查询创建索引定义。
 
 该服务用于定义创作实例和发布实例的公共主机名，然后使用这些值更新设备服务器URL并用于ContextHub定位。
 
-Screens中的CQ Link Externalizer服务可通过以下方式配置：
+可以通过以下方式配置Screens中的CQ Link Externalizer服务：
 
 1. 导航到 `http://localhost:4502/system/console/configMgr`
 1. Day CQ链接外部化器
