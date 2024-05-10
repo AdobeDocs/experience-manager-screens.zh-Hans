@@ -2,14 +2,14 @@
 title: AEM平台配置
 description: 本页介绍了AEM平台配置
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-# AEM平台配置  {#platform-configurations}
+# AEM平台配置 {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如果只有一个“作者”和一个“发布”，则您只需执行下的步骤 **设置创作实例上的复制代理** 在 [在AEM Screens中配置创作和发布](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 页面。
+>如果只有一个“作者”和一个“发布”，则您只能执行下的步骤 **设置创作实例上的复制代理** 在 [在AEM Screens中配置创作和发布](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) 页面。
 
 ## Dispatcher 配置 {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AE
 
 ## 密码限制 {#password-restrictions}
 
-必须在AMS实例上禁用AEM的密码策略。 这可以使用Screens设备服务在Web控制台中交替配置 *com.adobe.cq.screens.device.impl.DeviceService*
+必须在AMS实例上禁用AEM的密码策略。 也可以使用Screens设备服务在Web控制台中交替配置它 *com.adobe.cq.screens.device.impl.DeviceService*
 请参阅 **密码限制** 中的部分[在AEM Screens中配置创作和发布](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## 设置环境 {#setting-up-environments}

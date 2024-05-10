@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2161'
 ht-degree: 1%
 
 ---
@@ -84,11 +84,11 @@ ht-degree: 1%
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   此资源包包含项目所需的起始内容和配置结构。 **`/conf/we-retail-run`** 包含的所有配置 `We.Retail` 运行项目。 **`/content/dam/we-retail-run`** 包括为项目启动数字资产。 **`/content/screens/we-retail-run`** 包含Screens内容结构。 所有这些路径下的内容主要在AEM中更新。 为了提高环境（本地、开发、暂存、生产）之间的一致性，通常将基本内容结构保存在源代码控制中。
+   此资源包包含项目所需的起始内容和配置结构。 **`/conf/we-retail-run`** 包含的所有配置 `We.Retail` 运行项目。 **`/content/dam/we-retail-run`** 包括为项目启动数字资产。 **`/content/screens/we-retail-run`** 包含Screens内容结构。 所有这些路径的内容主要在AEM中更新。 为了提高环境（本地、开发、暂存、生产）之间的一致性，通常将基本内容结构保存在源代码控制中。
 
 1. **导航到AEM Screens > `We.Retail` 运行项目：**
 
-   从AEM的“开始”菜单中，单击屏幕图标图标。 验证 `We.Retail` 看到“运行项目”。
+   从AEM“开始”菜单中，单击“屏幕”图标。 验证 `We.Retail` 看到“运行项目”。
 
    ![we-retail-run-starter](assets/we-retaiul-run-starter.png)
 
@@ -116,7 +116,7 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
 
    /apps/weretail-run/components/content/helloworld的属性
 
-   此 **《你好世界》** 组件扩展 **foundation/components/parbase** 组件，以便能够在序列通道中正确使用它。
+   此 **《你好世界》** 组件扩展 **基础，组件，参数** 组件，以便能够在序列渠道中正确使用它。
 
 1. 在下创建文件 `/apps/weretail-run/components/content/helloworld` 已命名 `helloworld.html.`
 
@@ -158,7 +158,7 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
    </div>
    ```
 
-   以上是Hello World组件的生产标记。 A `data-duration` 属性包含在内，因为组件在序列渠道中被使用。 此 `data-duration` 属性由序列渠道用来了解序列项目显示的时间。
+   以上是Hello World组件的生产标记。 A `data-duration` 属性包含在内，因为组件在序列渠道中被使用。 此 `data-duration` 属性由序列渠道用来了解序列项目的显示时间。
 
    该组件会呈现 `div` 和 `h1` 标记文本。 `${properties.message}` 是HTL脚本的一部分，用于输出名为的JCR属性的内容 `message`. 稍后将创建一个对话框，允许用户输入 `message` 属性文本。
 
@@ -198,11 +198,11 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
    最简单的方法是从现有对话框开始，然后进行修改。
 
    1. 从以下位置复制对话框： `/libs/screens/core/components/content/image/cq:dialog`
-   1. 将对话框粘贴到下 `/apps/weretail-run/components/content/helloworld`
+   1. 将对话框粘贴到下方 `/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **更新Hello World对话框以包含消息的选项卡。**
+1. **更新Hello World对话框以包含消息选项卡。**
 
    更新对话框，使其与以下内容匹配。 JCR节点结构的最后一个对话框以XML形式展示如下：
 
@@ -272,7 +272,7 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
 
 客户端库提供了一种机制，用于组织和管理AEM实施所需的CSS和JavaScript文件。
 
-AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所不同。 创建了两个客户端库：一个用于编辑模式，另一个用于预览/生产模式。
+AEM Screens组件在编辑模式与预览 — 生产模式中的呈现方式有所不同。 创建了两个客户端库：一个用于编辑模式，另一个用于预览生产模式。
 
 1. 为Hello World组件的客户端库创建文件夹。
 
@@ -294,9 +294,9 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    /apps/weretail-run/components/content/helloworld/clientlibs/shared的属性
 
-   categories属性是一个用于标识客户端库的字符串。 cq.screens.componentscategory在“编辑”和“预览/生产”模式下使用。 因此，在sharedclientlib中定义的任何CSS/JS都将以所有模式加载。
+   categories属性是一个用于标识客户端库的字符串。 cq.screens.componentscategory在“编辑”和“预览 — 生产”模式下均使用。 因此，在sharedclientlib中定义的任何CSS或JS都将以所有模式加载。
 
-   最佳做法是，切勿在生产环境中直接向/apps公开任何路径。 allowProxy属性确保通过前缀of/etc.clientlibs引用客户端库CSS和JS。
+   作为最佳实践，任何直接 `/apps` 在生产环境中，绝不应该公开。 allowProxy属性确保通过前缀引用客户端库CSS和JS `/etc.clientlibs`.
 
 1. 创建名为的文件 `css.txt` 在共享文件夹下。
 
@@ -342,7 +342,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
 1. 更新 `categories` 要成为的生产客户端库的属性 `cq.screens.components.production.`
 
-   这可确保仅在“预览”/“生产”模式下加载样式。
+   这样做可确保仅在“预览 — 生产”模式下加载样式。
 
    ![/apps/weretail-run/components/content/helloworld/clientlibs/production的属性](assets/2018-04-30_at_5_04pm.png)
 
@@ -394,7 +394,7 @@ AEM Screens使用 [静态页面模板](https://experienceleague.adobe.com/en/doc
    | 名称 | 类型 | 价值 |
    |---|---|---|
    | `jcr:title` | 字符串 | `We.Retail` 运行 |
-   | `sling:resourceType` | 字符串 | wcm/core/components/designer |
+   | `sling:resourceType` | 字符串 | `wcm`， `core`， `components`， `designer` |
    | `cq:doctype` | 字符串 | html_5 |
 
    ![位于/apps/settings/wcm/designs/we-retail-run的设计页面](assets/2018-05-07_at_1219pm.png)
@@ -403,7 +403,7 @@ AEM Screens使用 [静态页面模板](https://experienceleague.adobe.com/en/doc
 
 ## 创建序列渠道 {#create-sequence-channel}
 
-Hello World组件用于序列频道。 要测试组件，将创建一个新的序列渠道。
+Hello World组件用于Sequence频道。 要测试组件，将创建一个新的序列渠道。
 
 1. 从AEM的“开始”菜单中，导航到 **Screens** > **`We.Retail`运行** >并单击 **渠道**.
 
@@ -453,11 +453,11 @@ Hello World组件用于序列频道。 要测试组件，将创建一个新的�
 
 ## 自定义处理程序模板 {#custom-handlers}
 
-如果您的自定义组件使用外部资源，如资产（图像、视频、字体和图标）、特定资产演绎版或客户端库（css和js），则这些资源不会自动添加到离线配置中。 原因是默认情况下只捆绑HTML标记。
+如果您的自定义组件使用外部资源，如资产（图像、视频、字体和图标）、特定资产演绎版或客户端库（css和js），则这些资源不会自动添加到离线配置。 原因是默认情况下只捆绑HTML标记。
 
-为了让您自定义和优化下载到播放器的确切资源，Adobe为自定义组件提供了一个扩展机制，以向AEM Screens中的离线缓存逻辑公开其依赖项。
+为了让您自定义和优化已下载到播放器的确切资源，Adobe提供了一个扩展机制。 此机制用于自定义组件向AEM Screens中的离线缓存逻辑公开其依赖项。
 
-以下部分展示了自定义离线资源处理程序的模板以及 `pom.xml` 用于特定项目。
+以下部分显示了自定义脱机资源处理程序的模板。 它还显示了 `pom.xml` 用于特定项目。
 
 ```java
 package …;
@@ -546,7 +546,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
       </dependencies>
 ```
 
-**注意** ：对于AEMaaCS，请在中使用以下依赖项 `pom.xml` 用于特定项目。
+**注意** ：如果存在AEMas a Cloud Service，请在中使用以下依赖项 `pom.xml` 用于特定项目。
 
 ```css
    <dependencies>
@@ -574,7 +574,7 @@ public class MyCustomHandler extends AbstractResourceHandler {
 1. 而不是直接扩展 `foundation/components/parbase`，则必须扩展 `screens/core/components/content/page` 或 `screens/core/components/content/experiencefragment`
 2. 用于引用嵌入内容的属性的名称必须 `pagePath`.
 
-使用这两个Screens核心组件还提供了额外的好处，即它们可以绑定您需要的一些依赖项（客户端库、字体等）。 执行此操作的方式是使用“组件”对话框中的脱机配置选项，这样可以减少您需要用于此的任何自定义脱机处理程序的责任。 有时，它甚至可以完全消除在最初使用密钥的需要。
+使用这两个Screens核心组件还提供了额外的好处，即它们可以绑定您需要的一些依赖项（客户端库、字体等）。 此功能可通过它们在组件对话框中的离线配置选项来完成。 然后，它可以减少您必须用于它的任何自定义离线处理程序的责任。 有时，它甚至可以完全消除在最初使用密钥的需要。
 
 ## 完成的代码 {#finished-code}
 

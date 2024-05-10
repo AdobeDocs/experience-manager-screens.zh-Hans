@@ -1,9 +1,9 @@
 ---
 title: AEM Screens的安全核对清单
 description: 详细了解AEM Screens的安全核对清单。
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # AEM Screens的系统安全注意事项 {#security-checklist}
 
 >[!IMPORTANT]
->这是内部Git资源。
+>内部Git资源。
 
 本页重点介绍了AEM Screens的系统安全注意事项。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## AEM Screens安全性常见问题解答 {#faqs-screens}
 
-以下常见问题解答采用已验证的注册播放器架构，该架构使用HTTPS作为播放器与AEM Server之间的通信协议。
+以下常见问题解答采用经过身份验证的注册播放器架构。 它使用HTTPS作为播放器与AEM Server之间的通信协议。
 
 ### 常见问题解答1 {#faq1}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 **回答**
 
-使用HTTP。 如果您担心安全问题，这是必需的。 使用HTTPs，播放器与服务器之间的通信将被加密，并且无法拦截内容或对其进行修改。
+使用HTTP。 如果您担心安全性，则必须使用此协议。 使用HTTPs，播放器与服务器之间的通信将被加密，并且无法拦截内容或对其进行修改。
 
 
 ### 常见问题解答3 {#faq3}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **回答**
 
-每个资产都由服务器签名(SHA)，然后由播放器验证相同的哈希以确保完整性。
+每个资产都由服务器签名(SHA)。 然后，播放器使用相同的哈希对其进行验证以确保完整性。
 如果哈希不匹配，软件将尝试重新验证三次。 经过三次尝试后，下载命令被视为无效。
 
 
@@ -73,7 +73,7 @@ AEM Server是否安全？
 
 最好将装置放在固定的容器中，用电缆固定。 同时禁用任何IR远程端口。
 
-如果设备操作系统未定期更新，则操作系统可能会暴露在安全漏洞中，并允许通过网络进行远程攻击。
+如果设备OS未定期更新，则OS可能会暴露在安全漏洞中，并允许通过网络进行远程攻击。
 
 >[!NOTE]
 >

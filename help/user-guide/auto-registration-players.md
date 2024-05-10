@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 登录到您的AEM实例，单击您的AEM Screens项目，然后单击 **属性** 从操作栏中。
 1. 单击 **高级** 选项卡，以便您查看 **设备注册** 部分。
 
-1. 在中指定自动注册代码 **批量注册代码** 字段和可选的默认显示 **默认显示分配** 以分配给自动注册的播放器。
+1. 在中指定自动注册代码 **批量注册代码** 字段。 然后，中会显示一个可选的默认值 **默认显示分配** 以分配给自动注册的播放器。
 
    >[!NOTE]
    >输入您选择的代码，并根据需要单击默认显示。
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 * 确保注册代码不被破坏 — 在开始批量注册之前在AEM中配置代码，完成后，清除该字段并保存在AEM中。
 
-* 您可以配置路径 `/bin/screens/registration` 仅在已知IP范围中可访问（如果可能）。
+* 您可以配置路径 `/bin/screens/registration` 因此，如果可能，只能从已知IP范围进行访问。
 
 * 考虑使用MDM为播放器配置配置。
 
 * 始终使用 `HTTPS` 而非 `HTTP` 用于与AEM进行播放器通信。
 
   >[!NOTE]
-  >默认显示分配当前仅适用于批量注册，不适用于没有注册代码的手动注册。
+  >默认显示分配当前仅适用于批量注册。 当注册码不可用时，它不适用于手动注册。

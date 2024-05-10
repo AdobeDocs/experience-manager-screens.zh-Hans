@@ -2,9 +2,9 @@
 title: 直接访问Internet
 description: 直接访问Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * `http (TCP Port 80)`，如果您的特定用例不需要该级别的安全性。
 
-端口可能会因专用AEM配置设置的配置而异。 在此设置中，所有设备都直接连接到Internet路由器，如下图所示。
+端口可能会因您的专用AEM配置设置的配置而异。 在此设置中，所有设备都直接连接到Internet路由器，如下图所示。
 
 ![](/help/assets/direct-access-2.png)
 
@@ -38,8 +38,8 @@ ht-degree: 0%
    >* DHCP
    >* 手动IP配置
 
-1. 确保网络适配器设置与路由器设置匹配；检查是否未达到网络中可用IP地址的最大数目。
-1. 检查路由器是否已正确连接到ISP广域网（Internet链路）。 这也可以使用标准路由器上的信号LED进行识别。
+1. 确保网络适配器设置与您的路由器设置相匹配；检查是否未达到网络中可用IP地址的最大数目。
+1. 检查路由器是否已正确连接到ISP广域网（Internet链路）。 或者，也可以使用标准路由器上的信号LED进行识别。
 1. 如果URL调用成功，您可以继续安装AEM Screens并注册。 启动AEM Screens。
 
    >[!NOTE]
@@ -59,17 +59,17 @@ Direct Internet Network在逻辑上分为两个块：
 
 ### 广域网 {#wan-connection}
 
-除了网络可达性之外，Internet连接的性能还在于提供足够的带宽来运行AEM Screens。
+Internet连接的性能除了网络可达性之外，还在于提供足够的带宽来运行AEM Screens。
 
-*足够* 取决于连接的AEM屏幕的数量以及网络内其他消费者的使用情况，例如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络。
+*足够* 取决于连接的AEM Screens的数量。 它还取决于网络中其他消费者的使用情况，如智能手机、平板电脑、收银机、计算机或访客Wi-Fi网络。
 
 >[!NOTE]
 >
->上述设备可同时访问Internet连接，当您将更多消费者或计算机添加到网络时，带宽会线性减少。
+>上述设备可以并行访问Internet连接，当您将更多消费者或计算机添加到网络时，带宽会线性减少。
 
 ### 局域网 {#lan-connection}
 
-局域网(LAN)的性能除了网络的可达性外，还提供了足够的带宽来运行AEM Screens。
+局域网(LAN)的性能除了网络的可达性外，还在于提供足够的带宽来运行AEM Screens。
 
 LAN网络通常至少与100-Mbps网络匹配，因此有足够的带宽将许多性能良好的设备连接到系统。
 如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议使用如下现代Wi-Fi标准 `IEEE 802.11g` 最起码。 此标准支持高达54 Mbps的连接。 任何 *较新* 标准赞 `802.11h-n` 质量更好。
@@ -90,6 +90,6 @@ AEM Screens为数字标牌用户提供了显着的优势。 它下载并在本�
 
 >[!NOTE]
 >
->通过此信息，可查看网络中请求和下载Internet源的每台设备的使用情况。 其中每个请求都会增加并延长下载时间。
+>该信息允许您通过请求和下载Internet源来查看网络中每台设备的使用情况。 其中每个请求都会增加并延长下载时间。
 
 ![](/help/assets/download-times-direct.png)
