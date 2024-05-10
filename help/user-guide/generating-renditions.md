@@ -9,26 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # 视频演绎版 {#video-renditions}
 
-您可以生成手动和自动全高清呈现版本。 以下部分介绍了将演绎版添加到资源的工作流。
+您可以生成手动和自动的全高清呈现。 以下部分介绍了将演绎版添加到资源的工作流。
 
-## 自动生成全高清呈现版本  {#automatically-generating-full-hd-renditions}
+## 自动生成全高清呈现版本 {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->如果AEM Screens视频演绎版无法在您的设备上以最佳方式播放，请联系硬件供应商以了解视频的规格。 这有助于在设备上获得最佳性能，从而创建您自己的自定义视频配置文件，您可以在其中提供合适的FFMPEG参数来生成演绎版。 然后，使用以下步骤将自定义视频配置文件添加到配置文件列表。
+>如果AEM Screens视频演绎版无法在您的设备上以最佳方式播放，请联系硬件供应商以了解视频的规格。 这样做有助于在设备上获得最佳性能。 它可帮助您创建自己的自定义视频配置文件，您可以在其中为FFMPEG提供相应的参数以生成演绎版。 然后，使用以下步骤将自定义视频配置文件添加到配置文件列表。
 >
 >另请参阅 [视频疑难解答](troubleshoot-videos.md) 对渠道中的视频播放进行调试和故障排除。
 
-请按照以下步骤自动生成全高清呈现版本：
+请按照以下步骤自动生成全高清呈现：
 
 1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便 **工作流**.
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 手动生成全高清呈现版本 {#manually-generating-full-hd-renditions}
 
-请按照以下步骤手动生成全高清呈现版本：
+请按照以下步骤手动生成全高清呈现：
 
 1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便您可以单击“tools（工具）” ，然后单击 **工作流**.
 

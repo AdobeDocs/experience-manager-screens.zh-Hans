@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 #### 正在检查远程设备状态 {#checking-remote-device-status}
 
 1. 登录到Chrome开发人员控制台。
-1. 浏览至 **设备管理** > **Chrome设备** 然后单击要控制的设备。
+1. 浏览至 **设备管理** > **Chrome设备** 并单击要控制的设备。
 1. 单击 **系统活动和故障排除**.
 1. 查看 **重新启动设备** 和 **屏幕截图** 设备的属性。 您还可以检查设备状态和运行状况信息。
 

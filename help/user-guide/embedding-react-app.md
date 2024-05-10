@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-您可以使用REACT(或Angular)嵌入交互式单页应用程序。 您可以使用由AEM中的业务专业人士配置的AEM SPA编辑器来执行此操作。 您还可以了解如何将交互式应用程序与离线Adobe Analytics集成。
+您可以使用REACT(或Angular)嵌入交互式单页应用程序。 您可以使用AEM SPA中的业务专业人员配置的AEM编辑器来执行此操作。 您还可以了解如何将交互式应用程序与离线Adobe Analytics集成。
 
 ## 使用AEM SPA编辑器 {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 要编辑REACT应用程序中的内容，请执行以下操作：
 
 1. 导航到 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (替换主机名、端口和项目名称（如果适用）。
-1. 您应该能够编辑Hello world应用程序中显示的文本。
+1. 能够编辑Hello World应用程序中显示的文本。
 
 ### 将交互式REACT应用程序添加到AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 拖放 **嵌入式页面** 组件中，或者重新使用应用程序渠道中的现有组件，然后单击mysamplespa应用程序下的主页，例如， ***/content/mysamplespa/en/home***.
+1. 拖放 **嵌入式页面** 组件或重用应用程序渠道中的现有组件，然后单击mysamplespa应用程序下的主页，例如， ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ ht-degree: 0%
    >[!NOTE]
    >确保在为显示分配渠道时添加用户交互事件。
 
-1. 注册此项目的播放器并将其分配给显示区。 现在，您应该能够看到交互式应用程序在AEM Screens上运行。
+1. 注册此项目的播放器并将其分配给显示区。 您现在可以看到交互式应用程序正在AEM Screens上运行。
 
    请参阅 [设备注册](device-registration.md) 有关注册设备的详细信息。
 
@@ -102,8 +102,8 @@ ht-degree: 0%
 
    请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 有关如何使用AEM Screens在Adobe Analytics中执行排序以及使用离线Adobe Analytics发送自定义事件的更多信息。
 
-1. 在所选的IDE/编辑器中编辑您的react应用程序（特别是要开始发送事件的文本组件或其他组件）。
-1. 在要捕获组件的单击事件或其他事件上，使用标准数据模型添加分析信息。
+1. 在所选的IDE/编辑器中编辑react应用程序（特别是文本组件或要开始发送事件的其他组件）。
+1. 在您要为组件捕获的单击事件或其他事件上，使用标准数据模型添加分析信息。
 
    请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以了解更多详细信息。
 
