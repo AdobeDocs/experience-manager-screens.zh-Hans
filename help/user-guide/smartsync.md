@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ SmartSync是AEM Screens使用的最新机制。 它取代了当前用于缓存�
 
 它同时在服务器端和客户端执行。
 
-**在服务器端**：
+**在服务器端**
 
 * 渠道的内容（包括资产）缓存在中 *`/var/contentsync`*.
 * 缓存通过描述用于显示的可用内容的清单向播放器公开。
 
-**在客户端**：
+**在客户端**
 
 * 播放器会根据上面生成的清单更新其内容。
 
