@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ ht-degree: 0%
 
 应存在不同的演绎版（MP4或M4V）。
 
-如果没有格式副本，请确保在运行AEM的操作系统上安装了ffmpeg。
+如果没有格式副本，请确保在运行AEM的操作系统上安装了FFMPEG。
 
 >[!CAUTION]
 >
->如果没有格式副本，请确保在运行AEM的操作系统上安装了ffmpeg。
+>如果没有格式副本，请确保在运行AEM的操作系统上安装了FFMPEG。
 >
->单击 [此处](https://www.ffmpeg.org/download.html) 以安装ffmpeg。
+>单击 [此处](https://www.ffmpeg.org/download.html) 以安装FFMPEG。
 
 ## 视频资产 {#video-assets}
 
 如果在视频下未看到源属性，则可能是视频未进行反编码。 如果视频进行了正确转码，它将显示在功能板中，如下所示：
 
-请检查ffmpeg是否已安装以及视频配置文件。
+检查是否已安装FFMPEG以及视频配置文件。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 上传测试视频并单击 **确定** 这样你就可以开始转码了。
 
-   如果转码视频失败，请展开ffmpeg输出以了解ffmpeg控制台输出中的任何错误。
+   如果转码视频失败，请展开FFMPEG输出以了解FFMPEG控制台输出中的任何错误。
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 使用 **Web播放器** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` 验证浏览器（Chrome和Safari）中的播放。 Chrome用于Android™设备，而Safari则用于OS X和iOS浏览器。
 
-如果视频未在Safari上运行，则它也不会在OS X和iOS播放器中运行。 这可能是编码问题，必须对视频重新编码。
+如果视频未在Safari上运行，则它也不会在OS X和iOS播放器中运行。 此问题可能是编码问题，必须对视频重新编码。
 
 要使用DAM工作流创建FullHD呈现版本，请执行以下操作：
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要详细了解在Chrome中使用新的自动播放策略获得良好用户体验的最佳实践，请参阅文档 *自动播放策略更改* 在 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>详细了解在Chrome中使用新自动播放策略获得良好用户体验的最佳实践。 请参阅 *自动播放策略更改* 在 `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### 在多个播放器之间同步视频 {#syncing-video-across-multiple-players}
 

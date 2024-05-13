@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    **计划频率**  — 指定此监视器应发送电子邮件的时间（例如，下午5:00或17:00）或频率（以小时为单位，例如，1）。
 
-   **Ping超时**  — 以分钟为单位指定间隔，在此间隔后设备应被视为不可访问。
+   **Ping超时**  — 此字段指定间隔（以分钟为单位），在此间隔后设备应被视为不可访问。
 
    **SMTP服务器**  — 指定用于发送电子邮件的SMTP服务器。
 
@@ -91,11 +91,14 @@ ht-degree: 0%
 
 访问该链接会将您直接导航到设备仪表板。
 
-仅当至少有一台设备在给定的ping超时期间未发出ping命令，且在生成电子邮件时仍未ping命令时，才会发送电子邮件。
+仅当满足以下条件时才发送电子邮件：
+
+* 在给定的ping超时内，至少有一个设备未执行ping操作，并且
+* 在生成电子邮件时仍未发出ping命令。
 
 ### 示例用例 {#example-use-cases}
 
-以下示例介绍了一些可供参考的情况，以配置来自Screens设备电子邮件监视服务的属性。
+以下示例介绍了一些场景，以供从Screens设备电子邮件监视服务配置属性时参考。
 
 **场景1**
 
@@ -103,4 +106,4 @@ ht-degree: 0%
 
 **场景2**
 
-将计划频率设置为1，将ping超时设置为60。 然后，如果您的AEM Screens设备没有在一天的任何特定时间执行一次Ping操作，您将收到一封电子邮件通知，确认设备处于非活动状态。
+将计划频率设置为1，将ping超时设置为60。 然后，如果您的AEM Screens设备没有在一天中的任意特定时间立即ping通，您将收到一封电子邮件通知，以确认设备处于非活动状态。

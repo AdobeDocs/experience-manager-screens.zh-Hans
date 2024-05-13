@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1102'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 概述 {#overview}
 
-An ***体验片段*** 是一个或多个组件的组，这些组件包括可在页面中引用的内容和布局。 体验片段可以包含任何组件，例如一个或多个组件，这些组件可以包含段落系统中被引用到完整体验或由第三个端点请求的任何内容。
+An ***体验片段*** 是一个或多个组件的组，这些组件包括可在页面中引用的内容和布局。 体验片段可以包含任何组件。 例如，它可以包含一个或多个组件，这些组件可以包含段落系统中被引用到完整体验或由第三个端点请求的任何内容。
 
 
 ## 在AEM Screens中使用体验片段 {#using-experience-fragments-in-aem-screens}
@@ -92,7 +92,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   注意：要单击更简单的选项，请单击字段右侧的复选标记，以便打开选择对话框。
+   要选择更简单的选项，请单击字段右侧的复选标记，以便打开选择对话框。
 
 1. **创建体验片段的活动副本**
 
@@ -107,7 +107,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    e.单击 **创建** 以便创建Live Copy。
 
-   f.单击 **完成** 这样你就可以移回 **Screensfragment** 页面。
+   f.单击 **完成** 这样您就可以移回 **Screensfragment** 页面。
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +121,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    1. 单击 **脱机配置** 选项卡，如下图所示。
 
-   您可以添加 **客户端库** (Java™和css)和 **静态文件** 到您的体验片段。
+   您可以添加 **客户端库** (Java™和CSS)和 **静态文件** 到您的体验片段。
 
    以下示例显示了作为静态文件的一部分向体验片段添加的客户端库和字体。  ![片段](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
    e.单击 **体验片段** 组件并单击左上角（扳手）图标，以打开 **体验片段** 对话框。
 
-   f.单击 **Screens** 您在中创建的片段的实时副本 *步骤3* 在 **路径**.
+   f.单击 **Screens** 您在中创建的片段的Live Copy *步骤3* 在 **路径**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f.单击 **Screens** 您在中创建的片段的实时副本 *步骤3* 在 **体验片段**.
+   f.单击 **Screens** 您在中创建的片段的Live Copy *步骤3* 在 **体验片段**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -171,7 +171,7 @@ A **TestChannel** 已添加到您的 **演示项目**.\
 
 ***Live Copy*** 指由转出配置定义的同步操作维护的（源的）副本。
 
-因为您创建的体验片段是来自的 **站点** 页面中，如果从主页面更改该特定片段，则可以在渠道中查看更改。 或者，查看您使用体验片段的目标。
+因为您创建的体验片段是来自的Live Copy **站点** 页面中，如果从主页面更改该特定片段，则可以在渠道中查看更改。 或者，查看您使用体验片段的目标。
 
 >[!NOTE]
 >

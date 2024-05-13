@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 对于此用例，Google工作表中填入了两个餐厅的预订百分比 **`Restaurant1`** 和 **`Restaurant2`**. 应用的公式基于以下值： `Restaurant1` 和 `Restaurant2` 根据公式，值1或2将分配给 **Adtarget** 列。
 
-如果值 **`Restaurant1`** > **`Restaurant2`**，则 **AdTarget** 已分配值 **1** 否则 **Adtarget** 已分配值 **2**. 值1生成 *牛排食品* 选项和值两个结果将显示 *泰国菜* 选项。
+如果值 **`Restaurant1`** > **`Restaurant2`**，则 **AdTarget** 已分配值 **1** 否则 **Adtarget** 已分配值 **2**. 值1生成 *牛排食品* 选项和值二显示为 *泰国菜* 选项。
 
 ## 前提条件 {#preconditions}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >您应该设置您的 **ContextHub** **配置** 使用渠道 **属性** > **个性化** 选项卡。
+   >您的 **ContextHub** **配置** 使用渠道 **属性** > **个性化** 选项卡此时应已设置。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

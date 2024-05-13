@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 * *获得比通过UI手动选择更好的性能*
 * *允许客户从自己的系统中导出其位置，并轻松地直接在AEM中导入这些位置*
 
-在初始项目设置期间或将现有AEM Screens扩展至新位置时，这样可节省时间和资金。
+在初始项目设置期间或将现有AEM Screens扩展到新位置时，此过程可节省时间和资金。
 
 ## 架构概述 {#architectural-overview}
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 因此，电子表格(CSV/XLS)文件需要以下列：
 
 * **路径 {string}**  — 要导入的位置的路径，其中路径的根是项目的位置文件夹(即 *`/foo`* 已导入到 *`/content/screens/<project>/locations/foo`*)
-* **模板 {string}**  — 用于新位置的模板，目前唯一允许的值是“location”，但未来将扩展到所有Screens模板(`display`， `sequencechannel`，等等)
+* **模板 {string}**  — 用于新位置的模板，目前唯一允许值为“location”，但此值将来会扩展到所有Screens模板(`display`， `sequencechannel`，等等)
 * **[。/*] {string}**  — 要在位置设置的任意可选属性(即， `./jcr:title`， `./jcr:description`， `./foo, ./bar`)。 当前版本不允许筛选。
 
 >[!NOTE]

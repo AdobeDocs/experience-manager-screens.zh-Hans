@@ -1,6 +1,6 @@
 ---
 title: 在AEM Screens中配置ContextHub
-description: 了解定位引擎中的ContextHub，以便您可以为数据触发器内容更改定义数据存储。
+description: 了解定位引擎中的ContextHub，以便您可以定义数据存储来触发内容更改。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 1%
 
 **受众**  — 定义规则。
 
-**区段**  — 为给定规则播放的资产版本。 例如，如果温度低于华氏50度，则屏幕显示热饮的图像，否则显示冷饮。
+**区段**  — 要为给定规则播放的资产版本。 例如，如果温度低于华氏50度，则屏幕显示热饮的图像，否则显示冷饮。
 
-下图直观地展示了ContextHub配置如何与活动、受众和渠道保持一致。
+下图直观地展示了ContextHub配置如何与“活动”、“受众”和“渠道”一致。
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## 前提条件 {#preconditions}
 
-在开始为AEM Screens项目配置Context Hub配置之前，请设置Google工作表（用于演示目的）。
+在开始为AEM Screens项目配置ContextHub配置之前，请设置Google工作表（用于演示目的）。
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 您可以将数据存储设置为本地I/O事件或本地数据库事件。
 
-以下资产级别数据触发器示例展示了设置数据存储的一个本地数据库事件，例如，一个Excel工作表，该工作表允许您使用ContextHub配置和段到AEM Screens渠道的路径。
+以下资产级别数据触发器示例展示了本地数据库事件。 事件会设置一个数据存储，例如Excel工作表，该工作表允许您使用ContextHub配置和到AEM Screens渠道的区段路径。
 
 在您设置 `google` 正确填写工作表，如下面的示例所示：
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->以下特定示例显示了google sheets作为数据存储，如果值大于100或小于50，则会触发资产更改。
+>以下特定示例将Google工作表显示为数据存储，如果值大于100或小于50，则会触发资产更改。
 
 ## 步骤2：设置存储配置 {#step-setting-store-configurations}
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 
       >[!CAUTION]
       >
-      >如果您在全局文件夹（例如，在您自己的项目文件夹中）之外创建Google Sheets存储配置，则定位将无法立即使用。
+      >如果您创建的Google工作表将配置存储在全局文件夹之外（例如，在您自己的项目文件夹中），则定位将无法立即使用。
 
 1. **设置商店分段**
 
@@ -166,7 +166,7 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到 **个性化** > **受众** > **屏幕**.
 
-   1. 单击 **创建** > **创建上下文中心区段。** 此 **新ContextHub区段** 对话框打开。
+   1. 单击 **创建** > **创建ContextHub区段。** 此 **新ContextHub区段** 对话框打开。
 
    1. 输入 **标题** 作为 `**Higherthan50**` 并单击 **创建**. 同样，创建另一个标题为 `**Lowerthan50**`.
 
@@ -304,7 +304,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >使用ContextHub和区段路径，您最初是在其中保存了Context Hub配置和区段。
+      >使用ContextHub和区段路径，您最初保存了ContextHub配置和区段。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub20New.png)
 

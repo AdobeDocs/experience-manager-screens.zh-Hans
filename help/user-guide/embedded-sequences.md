@@ -1,6 +1,6 @@
 ---
 title: 嵌入式序列
-description: 了解渠道的嵌入序列，利用这些序列可在父渠道中添加组件，还可以重用其他渠道的内容并将其嵌入父渠道。
+description: 了解渠道的嵌入式序列，这些序列允许您在父渠道中添加组件。 或者，重用其他渠道中的内容并将其嵌入到父渠道中。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->将嵌入顺序中使用的渠道分配给相同的显示。
+>将嵌入序列中使用的渠道分配给同一显示。
 >
 >在按照以下步骤将嵌入式序列添加到渠道后，请按照以下步骤操作：
 >
->1. 导航到显示区，然后从以下位置单击显示区 **位置** 文件夹。
+>1. 导航到显示区，然后从以下位置单击该显示区： **位置** 文件夹。
 >1. 单击 **仪表板** 从操作栏中。
 >1. 在显示功能板上，单击 **+分配渠道** 从 **已分配渠道和已计划面板** 这样您就可以打开 **“渠道分配”对话框**.
 >
->1. 单击您（按嵌入式顺序使用）所在渠道的路径 **渠道路径**.
+>1. 单击您在嵌入序列中使用的渠道的路径，在 **渠道路径**.
 >1. 确保 **优先级** 低于主通道。
 >
 >1. 不单击任何 **受支持的事件**.
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->***渠道角色*** 定义渠道角色定义显示的上下文。
+>***渠道角色*** 定义显示的上下文。
 >
 >要了解有关 *渠道角色*，请参见 [渠道分配](channel-assignment.md) 在创作屏幕中。
 

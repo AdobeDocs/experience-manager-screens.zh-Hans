@@ -2,9 +2,9 @@
 title: 数字标牌的基础知识 [!UICONTROL AEM Screens]
 description: 了解数字标牌项目的基础知识。
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 在深入探讨AEM Screens实施的最佳实践之前，务必要将该项目视为一个数字标牌项目，而不是传统的软件开发项目。
 
-本节提供了有关在实施AEM Screens项目之前至关重要的主要关键元素的建议。
+本节提供了有关对AEM Screens项目实施至关重要的主要关键元素的建议。
 
 ## 数字标牌中的关键元素 {#key-elements}
 
@@ -40,14 +40,14 @@ ht-degree: 0%
    连通性强调以下问题：
    * 网络（蜂窝或wi-fi）还是独立？
       * 是否必须允许USB内容更新？
-      * 是否必须允许收集使用情况数据？
+      * 是否必须允许使用数据收集？
 
 1. **安装**
 
    安装包括：
    * 显示：横向或纵向
    * 如何安装屏幕？
-      * 纵向与横向
+      * 纵向方向与横向方向
       * 全套住房
       * 盖板
    * 夹具支架

@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Screens播放器通过使用 ***ContentSync*** 技术。
   </tr>
   <tr>
    <td><code>copy</code></td> 
-   <td>从路径复制指定的结构</td> 
+   <td>从路径中复制指定的结构</td> 
    <td> </td> 
   </tr>
  </tbody>
@@ -77,14 +77,14 @@ Screens播放器通过使用 ***ContentSync*** 技术。
 
 请按照以下步骤测试ContentSync配置：
 
-1. 打开 `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. 单击列表中的配置
-1. 单击清除缓存
-1. 单击更新缓存
-1. 单击“下载完整部分”
-1. 解压缩zip文件
-1. 在提取的文件夹中启动本地服务器
-1. 打开您的起始页并检查您的应用程序状态
+1. 打开 `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. 单击列表中的配置。
+1. 单击 **清除缓存**.
+1. 单击 **更新缓存**.
+1. 单击 **下载完整部分**.
+1. 解压缩zip文件。
+1. 在提取的文件夹中启动本地服务器。
+1. 打开您的起始页，然后检查您的应用程序状态。
 
 ## 启用渠道的脱机配置 {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Screens播放器通过使用 ***ContentSync*** 技术。
 
 >[!NOTE]
 >
->要了解有关自定义离线资源处理程序模板以及中最低要求的更多信息，请参阅 `pom.xml` 有关特定项目，请参阅 [自定义处理程序模板](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 在 **为AEM Screens开发自定义组件**.
+>了解自定义脱机资源处理程序的模板。 另外，要了解关于最低要求的信息，请参见 `pom.xml` 用于项目。 请参阅 [自定义处理程序模板](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) 在 **为AEM Screens开发自定义组件**.

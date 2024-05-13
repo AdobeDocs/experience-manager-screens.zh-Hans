@@ -7,24 +7,24 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
 
 # 使用工作流自动更新AEM Screens渠道的资源 {#automate-channel-updates-workflow}
 
-了解如何创建工作流以自动处理上传到Adobe Experience Manager的资源并动态将其分配到Screens渠道。 在此示例中，将图像添加到特定文件夹时，会触发一个工作流，该工作流应用动态文本叠加（水印流程）并将图像分配到Screens渠道。 从本示例中汲取的经验教训可以应用于各种自动化场景。
+了解如何创建工作流以自动处理上传到Adobe Experience Manager的资源并动态将其分配到Screens渠道。 在此示例中，当将图像添加到特定文件夹时，会触发工作流。 该工作流应用动态文本叠加（水印流程）并将图像分配给Screens渠道。 从本示例中汲取的经验教训可以应用于各种自动化场景。
 
 ## 先决条件 {#prerequisites}
 
 要完成本教程，需要执行以下操作：
 
 1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65)
-1. [AEM Service Pack 8或更高版本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+1. [AEM Service Pack 8或更高版本](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)
 1. [AEM 6.5 Screens FP7或更高版本](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
 
 ## 快速设置 {#quick-setup}
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 ## 工作流模型 {#workflow-model}
 
-已创建自定义文件夹元数据架构，以捕获应添加图像的目标Screens渠道。 可使用两个工作流模型来自动处理资源。 此 **DAM更新资产** 修改工作流以调用自定义工作流， **Screens演示资产处理** ，可检查资产的包含文件夹以确定目标Screens渠道。 此 **Screens演示资产处理** 工作流还负责将水印应用到图像。
+已创建自定义文件夹元数据架构，以捕获应添加图像的目标Screens渠道。 可使用两个工作流模型来自动处理资源。 此 **DAM更新资产** 编辑工作流可调用自定义工作流**Screens演示资产处理，该工作流可检查资产的容器文件夹以确定目标Screens渠道。 此 **Screens演示资产处理** 工作流还负责将水印应用到图像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
