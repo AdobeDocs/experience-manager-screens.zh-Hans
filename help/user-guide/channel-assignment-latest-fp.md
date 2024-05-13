@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->此部分重点介绍AEM 6.5.5 Screens功能包及更高版本的渠道分配和计划。
+>此部分重点介绍AEM 6.5.5 Screens Feature Pack及更高版本的渠道分配和计划。
 
 设置显示后，将渠道分配给显示以查看您的内容。
 
@@ -82,14 +82,14 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
+   >要了解有关“渠道分配”属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
 1. 从 **计划** 选项，单击 **激活窗口** 和 **周期性计划**.
    ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >要了解有关渠道分配属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
+   >要了解有关“渠道分配”属性的更多信息，请参阅 [渠道属性](#channel-properties) 部分。
 
 1. 单击 **保存** 配置您的首选项后。
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 ## 时间线视图 {#timeline-view}
 
-当您将渠道分配给显示并设置循环计划时，您可以从以下位置查看时间线： **已分配的渠道和计划** 面板。
+当您将渠道分配给显示并设置重复计划时，您可以从以下位置查看时间线： **已分配的渠道和计划** 面板。
 
 按照以下步骤导航到时间线视图：
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 
 ### 渠道角色 {#role-channel}
 
-渠道角色定义显示的上下文。 该角色由各种操作定向，独立于履行该角色的实际渠道。
+渠道角色定义显示的上下文。 各种操作针对角色。 它与履行职责的实际渠道无关。
 
 ### 优先级 {#priority-channel}
 
@@ -185,11 +185,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >您可以向渠道添加多个周期性计划。
->周期性时间表引入 *DayParting* 此设置允许您设置一个全局计划，在一天中的特定时间运行多个渠道，并重复使用为全部显示设置的全局计划。
+>周期性时间表引入 *DayParting*. 您可以设置一个全局计划，让多个渠道在一天中的特定时间运行，然后一次性重新使用为所有的显示设置好的计划。
 
 您可以设置以下选项：
 
-* **名称**  — 周期性计划的标题。
+* **名称**  — 周期性时间表的标题。
 * **重复**  — 选择计划是否运行 **每日**， **每周**， **每月**，或 **每年**.
 * **开始**  — 计划的开始时间。
 * **结束**  — 计划的结束时间。 您可以按时间或持续时间进行设置。

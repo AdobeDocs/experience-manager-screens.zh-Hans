@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 11%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 11%
    + [第4部分：项目管理和部署](project-management-and-deployment.md)
    + [第5部分：支持注意事项](support-considerations.md)
 + 配置和管理 {#administering}
-   + [Screens服务器配置](configuring-screens-introduction.md)
+   + [配置Screens服务器](configuring-screens-introduction.md)
    + [设置Dispatcher配置](dispatcher-configurations-aem-screens.md)
    + [安装 Screens 播放器](installing-screens-player.md)
    + [连接Screens播放器](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [从ContentSync转换为SmartSync](smartsync.md)
    + [从文件新建项目导入程序](project-importer.md)
    + [将数据触发器复制到发布服务器](replicating-data-triggers.md)
-   + [配置Screens复制代理](configure-screens-replication.md)
+   + [在Screens上配置复制代理](configure-screens-replication.md)
    + 特定于客户端的注意事项 {#installing-client}
       + [Chrome操作系统播放器](implementing-chrome-os-player.md)
       + [使用Chrome播放器作为扩展进行故障排除](using-chrome-player-as-an-extension.md)
@@ -112,7 +112,7 @@ ht-degree: 11%
    + [为MultiZone布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [为文本叠加应用自定义品牌和样式](custom-branding-text-overlays.md)
    + [自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)
-+ 故障排除和常见问题 {#troubleshooting}
++ 疑难解答和常见问题解答 {#troubleshooting}
    + [AEM Screens常见问题解答](aem-screens-faqs.md)
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)

@@ -1,9 +1,9 @@
 ---
 title: 播放器设备的硬件选择准则
 description: 了解AEM Screens Player设备的硬件选择准则。
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 * 始终与为数字标牌市场提供服务的供应商接洽。
 * 始终考虑环境因素，如环境温度和相对湿度。
 * 始终查看电源要求和电源调节。
-* 仔细审查应用程序所需的性能需求和I/O端口。
+* 仔细查看应用程序所需的性能需求和I/O端口。
 
 ## 硬件配置 {#hardware-configurations}
 

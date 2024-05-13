@@ -1,9 +1,9 @@
 ---
 title: 直接放置工作流配置
 description: 本页重点介绍直接放置工作流配置。
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ ht-degree: 1%
 
 1. 从AEM实例导航到AEM Screens，并创建一个标题为 **资产工作流**.
 
-1. 创建标题为 **工作流 — 资产** 下 **渠道** 文件夹。
+1. 创建标题为 **工作流 — 资产** 在 **渠道** 文件夹。
 

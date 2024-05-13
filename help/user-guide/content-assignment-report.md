@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    ![图像](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. 下载的电子表格包含两个选项卡，例如 **位置** 和 **内容**. “位置”选项卡显示四列，例如 **位置**， **显示**， **渠道**、和 **设备** ，可用于进一步调查与您的AEM Screens项目相关的这四个实体。
+1. 下载的电子表格包含两个选项卡，例如 **位置** 和 **内容**. “位置”选项卡显示四列，例如 **位置**， **显示**， **渠道**、和 **设备** 这些资源可用于调查与您的AEM Screens项目相关的这四个实体。
 
    ![图像](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
