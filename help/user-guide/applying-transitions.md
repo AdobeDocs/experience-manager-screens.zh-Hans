@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >此 **TestTransition** 渠道中已有少量资产（图像和视频）。 例如， **TestTransition** 渠道包括三个图像和两个视频，如下所示：
+   >此 **TestTransition** 渠道中已有一些资产（图像和视频）。 例如， **TestTransition** 渠道包括三个图像和两个视频，如下所示：
 
    ![image2](assets/transitions2.png)
 
@@ -54,6 +54,6 @@ ht-degree: 0%
    >
    >默认情况下，过渡组件的属性 **类型** 设置为 **渐隐** 和 **持续时间** 设置为 *1600毫秒*. 此外，不建议设置比应用它的资产更长的过渡持续时间。
 
-1. 此外，如果您添加 **嵌入式序列** 组件（包括序列渠道）到此渠道编辑器中，您可以在末尾添加过渡组件。 这可确保内容以正确的顺序播放，如下图所示：
+1. 此外，如果您添加 **嵌入式序列** 组件（包括序列渠道）到此渠道编辑器中，您可以在末尾添加过渡组件。 这样做可确保内容以正确的顺序播放，如下图所示：
 
    ![image3](assets/transitions5.png)

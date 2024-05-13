@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 用例描述 {#use-case-description}
 
-本节介绍一个用例示例，该示例重点介绍如何设置与单区域布局渠道交替的多区域布局渠道。 多区域渠道具有图像/视频资产的排序功能，它显示了如何设置可在多区域与单区域之间进行交替的项目，反之亦然。
+本节介绍一个用例示例，该示例重点介绍如何设置与单区域布局渠道交替的多区域布局渠道。 多区域渠道具有图像/视频资产排序，它显示如何设置一个项目，该项目可在多区域与单区域之间交替使用，反之亦然。
 
 ### 前提条件 {#preconditions}
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 您可以在播放器中查看所需的输出，也可以通过选择 **预览** 从编辑器中删除。
 
-输出演示了多区域布局如何播放 *10000毫秒* 然后切换到播放持续时间的单区域布局 *3000毫秒* 然后切换回多区域布局。
+输出演示了多区域布局如何播放 *10000毫秒*. 然后，它将切换到播放持续时间的单个区域布局 *3000毫秒*. 最后，它切换回多区域布局。
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1417'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ AEM Screens提供了可在Screens项目中使用的各种AEM组件。
 
 ### 添加新组件 {#adding-a-new-component}
 
-AEM提供了其他几个组件。 您可以始终向项目添加其他组件（默认情况下不包括），只要这些组件与AEM Screens兼容。
+AEM提供了其他几个组件。 您始终可以向项目添加其他组件（默认情况下不包括），因为这些组件与AEM Screens兼容。
 
 以下示例显示如何向AEM Screens项目添加Livefyre组件：
 
@@ -137,7 +137,7 @@ An **嵌入式页面** 允许您将嵌入页面添加到项目中。 例如，�
 >
 >要详细了解嵌入序列，请参见 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下。
 
-嵌入式序列允许您在现有渠道（包含其他资源）中添加嵌入式序列渠道。
+嵌入式序列允许您在现有渠道（以及其他资源）中添加嵌入式序列渠道。
 
 嵌入式序列具有以下页面属性：
 
@@ -157,16 +157,16 @@ An **嵌入式页面** 允许您将嵌入页面添加到项目中。 例如，�
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将该值设置为 <strong>原有</strong> 表示子序列在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong>. 在每次运行中，此类值只显示子序列的一个项。 例如，第一个循环中的第一个项和第二个循环中的第二个项。</td>
+   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将值设置为 <strong>原有</strong> 表示子序列在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong>. 每次运行时，此类值只显示子序列的一个项。 例如，第一个循环中的第一个项和第二个循环中的第二个项。</td>
   </tr>
  </tbody>
 </table>
 
 ### 动态嵌入式序列 {#dynamic-embedded-sequence}
 
-动态嵌入式序列允许您添加与上述序列类似的序列，但按渠道角色除外。
+动态嵌入式序列允许您添加与上述序列类似的序列，但渠道角色除外。
 
-要了解嵌入序列，请参阅 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下。
+要了解有关嵌入序列的更多信息，请参阅 [嵌入式序列](embedded-sequences.md) 在创作屏幕部分下。
 
 动态嵌入式序列具有以下属性：
 
@@ -186,7 +186,7 @@ An **嵌入式页面** 允许您将嵌入页面添加到项目中。 例如，�
   </tr>
   <tr>
    <td><strong><em>战略</em></strong></td>
-   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将该值设置为 <strong>原有</strong> 表示子序列在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong>. 在每次运行中，此类值只显示子序列的一个项。 例如，第一个循环中的第一个项和第二个循环中的第二个项。</td>
+   <td>将其设置为 <strong>原有</strong> 或 <strong>单身</strong>. 将值设置为 <strong>原有</strong> 表示子序列在父序列的每个循环中完全运行。 另一个可能的值是 <strong>单身</strong>. 每次运行时，此类值只显示子序列的一个项。 例如，第一个循环中的第一个项和第二个循环中的第二个项。</td>
   </tr>
  </tbody>
 </table>
@@ -293,7 +293,7 @@ An **嵌入式页面** 允许您将嵌入页面添加到项目中。 例如，�
   </tr>
   <tr>
    <td><strong><em>保持活动状态结束日期</em></strong></td>
-   <td>描述过渡激活之前的时间戳。</td>
+   <td>时间戳描述过渡处于活动状态之前的各个时间。</td>
   </tr>
   <tr>
    <td><strong><em>计划</em></strong></td>

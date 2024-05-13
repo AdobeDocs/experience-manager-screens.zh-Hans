@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >默认情况下，所有复选框都处于选中状态，您必须手动取消选中这些复选框才能发布项目中的所有模块。
+   >默认情况下，所有复选框都处于选中状态，您必须手动取消选中这些复选框以发布项目中的所有模块。
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
    >    1. 如果作者在选择“ ”后未完成复制过程（内容仍在上载到发布实例），则工作流将不起作用 **Publish** 按钮。
 
    >[!CAUTION]
-   >如果作为作者或内容创建者，您希望查看附加到创作实例的设备中的更改，请单击 **更新离线内容** 通过渠道仪表板或选择项目。 在这种情况下，仅在创作实例中执行更新离线内容。
+   >作为内容创建者，如果您要查看附加到创作实例的设备中的更改，请单击 **更新离线内容** 从渠道功能板中选择项目。 在这种情况下，仅在Author实例中更新离线内容。
 
 1. 导航到项目并单击 **更新离线内容** 从操作栏中。 此操作会将相同的命令转发到发布实例，以便在发布实例上也创建离线ZIP。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >如果您有向创作服务器注册的播放器，则在创作实例中触发更新离线内容。 在发布实例中注册的播放器不需要更新离线内容。
+   >如果您有向创作服务器注册的播放器，则在创作实例中触发更新离线内容。 对于在发布实例中注册的播放器，不需要更新离线内容。
 
 ### 管理渠道的发布 {#managing-publication-for-a-channel}
 

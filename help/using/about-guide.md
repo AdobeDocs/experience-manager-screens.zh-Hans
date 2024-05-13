@@ -2,16 +2,16 @@
 title: 关于本指南
 description: 了解AEM Screens项目计划和执行项目的最佳实践，从战略和设计简报到部署和支持后。
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 45%
+source-wordcount: '257'
+ht-degree: 32%
 
 ---
 
 # 关于本指南 {#about-guide}
 
-AEM Screens“最佳实践指南”旨在提供有关如何成功规划和执行 AEM Screens 项目的指导。
+《AEM Screens最佳实践指南》旨在提供有关如何成功规划和完成AEM Screens项目的指导。
 
 本文档的目标受众是：
 
@@ -38,7 +38,7 @@ AEM Screens是Adobe Experience Manager (AEM)的一项新扩展。 由于这些�
 
 >[!NOTE]
 >
-> 本指南使用的术语（在 AEM Screens 的环境中）：
+> 本指南中使用的术语(在AEM Screens的上下文中)：
 >
 > * **UX** 用来指代交付给最终客户的数字标牌体验。
 > * **UI** 用来指代允许您在Screens中创建和管理项目的用户界面。

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 以下用例涉及在显示为1920 x 1080的通道中放置视频（示例：1280 x 720）并将视频放置在0x0（左上）处。 不应以任何方式拉伸或修改视频，也不得使用 **封面** 在视频组件中。
 
-该视频在像素1至像素1280的横向显示和从像素1至像素720的纵向显示作为对象，并且通道的其余部分为缺省颜色。
+该视频在像素1至像素1280之间跨像素1至像素720下显示为对象。 渠道的其余部分为默认颜色。
 
 ## 先决条件 {#prerequisites}
 
 在创建视频工作流之前，请完成以下先决条件：
 
-1. 上传视频于 **资产** AEM实例中的文件夹
+1. 在中上传视频 **资产** AEM实例中的文件夹
 1. 创建一个AEM Screens项目(例如， **TestVideoRendition**)和名为(**VideoRender**)，如下图所示：
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. 单击 **模型** > **创建** > **创建模型**. 输入 **标题** (如 **VideoRendition**)和 **名称** 在 **添加工作流模型**. 单击 **完成** 以添加工作流模型。
+1. 单击 **模型** > **创建** > **创建模型**. 输入 **标题** (例如 **VideoRendition**)和 **名称** 在 **添加工作流模型**. 单击 **完成** 以添加工作流模型。
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 

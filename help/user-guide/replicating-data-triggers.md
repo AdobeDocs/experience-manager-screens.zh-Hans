@@ -5,20 +5,20 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # 将数据触发器复制到发布服务器 {#replicating-data-triggers}
 
-使用ContextHub和AEM定位引擎根据创作/发布设置中的数据触发器自定义内容时，所有ContextHub和个性化相关配置在发布时不会自动与渠道一起复制。
+在创作/发布设置中使用ContextHub和AEM定位引擎根据数据触发器自定义内容时，在发布时所有与ContextHub和个性化相关的配置都不会自动与渠道一起复制。
 
 本页可帮助您了解单独发布这些配置所需的手动步骤。
 
-这基本上归结为手动发布：
+此过程基本上归结为手动发布以下内容：
 
 1. ContextHub存储和UI模块配置
 1. 个性化受众
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. 单击 **下一个** 和 **Publish**.
 
-### 复制活动  {#replicating-activities}
+### 复制活动 {#replicating-activities}
 
 1. 导航到您的AEM实例> **个性化** > **活动** 或使用 `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` 以直接导航。
 
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 如果复制ContextHub配置时测试连接失败，请按照以下部分解决此问题：
 
-1. 导航到工具> **部署** > **分布** > **发布代理**.
+1. 导航到 **工具** > **部署** > **分布** > **发布代理**.
 
-1. 单击 **编辑** 并确保中的端点URL **导入程序终端** 字段还指向分发代理中的发布服务器URL。
+1. 单击 **编辑** 并确保端点URL位于 **导入程序终端** 字段还指向分发代理中的发布服务器URL。
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果不使用默认管理员凭据，则必须使用其他用户名和密码配置分发代理。

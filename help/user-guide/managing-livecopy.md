@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '704'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Live Copy是已存在的渠道的副本。
 
 要查看Live Copy的内容，请参阅以下步骤：
 
-1. 导航到屏幕项目，然后单击最初创建Live Copy的位置，如上面的部分所示。 (在此，选址为 **渠道** 文件夹)
+1. 导航到屏幕项目，然后单击最初创建Live Copy的位置，如上面的部分所示。 (在此，选址是 **渠道** 文件夹)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Live Copy是已存在的渠道的副本。
 
 模式 **Live Copy状态**，如下图所示，允许您查看渠道中所有资源的关系状态。
 
-1. 单击 **编辑** 这样您就可以选择 **Live Copy状态** 和查看渠道内容与原始渠道（生成Live Copy的渠道）的关联。
+1. 单击 **编辑** 这样您就可以选择 **Live Copy状态**. 您还可以查看渠道内容与生成Live Copy的原始渠道的关联。
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ Live Copy是已存在的渠道的副本。
 
 ### 将更改传播到Live Copy渠道 {#propagating-changes-to-the-live-copy-channel}
 
-如果您在原始渠道中进行更改或更新，请将这些更改也传播到Live Copy渠道。
+如果您在原始渠道中进行更改或更新，则也会将这些更改传播到您的Live Copy渠道。
 
 请按照以下步骤操作，以确保将更改从原始渠道传播到Live Copy渠道：
 

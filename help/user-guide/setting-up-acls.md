@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 下节将介绍如何使用ACL隔离项目，以便每个个人或团队处理自己的项目。
 
-作为AEM管理员，您需要确保项目的团队成员不会干预其他项目，并根据项目要求为每个用户分配特定的角色。
+作为AEM管理员，您需要确保项目的团队成员不会干预其他项目。 每个用户都根据项目要求分配了特定的角色。
 
 ## 设置权限 {#setting-up-permissions}
 
@@ -69,9 +69,9 @@ ht-degree: 2%
 | `/apps/<project>` | 读取 | 提供对项目文件的访问权限（如果适用）。 |
 | `/content/dam/<project>` | 全部 | 提供在DAM中存储项目资产（如图像或视频）的访问权限。 |
 | `/content/screens/<project>` | 全部 | 删除对/content/screens下的所有其他项目的访问权限。 |
-| `/content/screens/svc` | 读取 | 提供对注册服务的访问。 |
+| `/content/screens/svc` | 读取 | 提供对注册服务的访问权限。 |
 | `/libs/screens` | 读取 | 提供对DCC的访问权限。 |
-| `/var/contentsync/content/screens/` | 全部 | 允许您更新项目的离线内容。 |
+| `/var/contentsync/content/screens/` | 全部 | 帮助您更新项目的脱机内容。 |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ ht-degree: 2%
   </tr>
   <tr>
    <td>Screens播放器<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>将所有播放器和所有播放器/设备自动分组为参与者。</td>
+   <td>所有播放器和所有播放器/设备会自动成为参与者的成员。</td>
    <td><p> 撰稿人成员</p> </td>
   </tr>
  </tbody>

@@ -4,9 +4,9 @@ description: 了解如何配置Screens复制代理。
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 目标 {#objective}
 
-Screens复制代理负责将命令数据 *用户*， *密码*， *rebootSchedule*， *maxNumberOfLogFilesToKeep*、以及更多此类值（从发布到创作）。 必须对此进行配置，以便作者可以显示设备ping。
+Screens复制代理负责将命令数据(例如 *用户*， *密码*， *rebootSchedule*， *maxNumberOfLogFilesToKeep*、以及更多此类值（从发布到创作）。 必须配置此代理，以便作者可以显示设备ping。
 
 >[!NOTE]
 >要了解有关Screens复制代理的更多信息，请参阅 [Screens复制代理和命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Screens复制代理负责将命令数据 *用户*， *密码*， *rebootSchedule
 >[!NOTE]
 >出于安全原因，建议避免对使用管理员密码 `screens-receiver-user`.
 
-1. 导航到您的AEM创作实例。
+1. 导航到您的AEM Author实例。
 
 1. 单击“工具”> **安全性** > **用户**.
 
@@ -129,4 +129,4 @@ Screens复制代理负责将命令数据 *用户*， *密码*， *rebootSchedule
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   如果连接验证成功，则表示您已经完成Screens复制代理的配置。
+   如果连接验证成功，则表示您已完成Screens复制代理的配置。
