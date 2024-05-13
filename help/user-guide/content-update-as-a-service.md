@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 使用批量脱机更新 {#using-bulk-offline-update}
 
-您可以从用户界面(UI)手动使用批量脱机更新，也可以计划从OSGi服务进行批量更新。
+您可以从用户界面(UI)手动使用批量脱机更新，或计划从OSGi服务进行批量更新。
 
 ### 使用AEM Screens用户界面 {#using-aem-screens-user-interface}
 

@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    ![资产](assets/single-takeover4.png)
 
-1. 设置渠道的位置和显示。 例如，以下 **大厅** 位置和  **MainLobbyDisplay** 已为此项目设置显示。
+1. 设置渠道的位置和显示。 例如，以下 **大厅** 位置和 **MainLobbyDisplay** 已为此项目设置显示。
 
    ![资产](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ ht-degree: 0%
      >[!NOTE]
      >优先级可以是高于正常播放渠道的优先级值的任意值。
    * **受支持的事件**：单击 **空闲屏幕** 和 **计时器**.
-   * **计划**：输入您希望此渠道运行显示的计划的文本。 例如，此文本允许在12月31日凌晨12:00之前播放内容2分钟直到凌晨12:01。此文本位于 **计划** 本示例中提及的是 *12月31日23:58后及1月1日00:01前*.
+   * **计划**：输入您希望此渠道在显示屏上运行的计划文本。 例如，此文本允许在12月31日凌晨12:00之前播放内容2分钟直到凌晨12:01。此文本位于 **计划** 本示例中提及的是 *12月31日23:58后及1月1日00:01前*.
 
      ![资产](assets/single-takeover8.png)
 
-     导航到显示区，从 **SingleUseTakeOver** > **位置** > **大厅** > **MainLobbyDisplay** 并单击 **仪表板** ，以便查看已分配渠道及其优先级，如下所示。
+     导航到显示区，从 **SingleUseTakeOver** > **位置** > **大厅** > **MainLobbyDisplay**. 单击 **仪表板** ，以便查看已分配渠道及其优先级，如下所示。
 
      >[!NOTE]
      >必须将接管渠道的优先级设置为最高。

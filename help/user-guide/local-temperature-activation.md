@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >您应该设置您的 **ContextHub** **配置** 使用渠道 **属性** > **个性化** 选项卡。
+   >您的 **ContextHub** **配置** 使用渠道 **属性** > **个性化** 选项卡应已设置。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ ht-degree: 0%
 1. **检查预览**
 
    1. 单击 **预览。** 此外，打开您的Google工作表并更新其值。
-   1. 将该值更改为小于50。 您应该可以查看冷饮的图像。 如果Google Sheets中的值为50或更大，您应该会看到热饮的图像。
+   1. 将该值更改为小于50。 您可以查看冷饮的图像。 如果Google Sheets中的值为50或更大，您应该会看到热饮的图像。
 
    ![result3](assets/result3.gif)

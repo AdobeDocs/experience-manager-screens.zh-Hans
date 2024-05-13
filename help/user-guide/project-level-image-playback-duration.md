@@ -2,9 +2,9 @@
 title: 项目级图像播放持续时间
 description: 了解如何在项目级别定义图像播放持续时间。
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 在使用此功能之前，请将项目设置为开始实施此功能的先决条件。 例如，
 
 1. 创建一个AEM Screens项目(在此示例中， **ProjectLevelPlayback**)。
-1. 创建序列渠道为 **PlayBackChannel** 下 **渠道** 文件夹。
+1. 创建序列渠道为 **PlayBackChannel** 在 **渠道** 文件夹。
 1. 将内容添加到 **PlayBackChannel**.
 
    ![资产](assets/image_playback1.png)
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ### 查看结果 {#viewing-the-result}
 
-更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放的图像时长为3秒，而不是8秒（默认值）。
+更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放图像的时间是3秒而不是8秒（默认值）。
 
 ![channel_preview](assets/channel_preview.gif)
 

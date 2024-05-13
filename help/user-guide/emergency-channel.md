@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 用例描述 {#use-case-description}
 
-本节介绍一个用例示例，重点介绍如何创建和管理紧急渠道，内容作者可以在存在前提条件时从序列渠道切换紧急渠道。
+本节介绍一个用例示例。 它强调创建和管理紧急通道，内容作者可以在有前提条件的情况下从顺序通道切换紧急通道。
 
 ### 前提条件 {#preconditions}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. **创建位置**
 
-   1. 导航到 **位置** 文件夹。
+   1. 导航至 **位置** 文件夹。
    1. 单击 **创建** 从操作栏创建名为的位置 **存储** 从向导中。
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ ht-degree: 0%
 
 此 **紧急渠道** 将继续显示其内容，直到内容作者将优先级值重置为1。
 
-当内容作者收到紧急情况已清除的说明时，他们应更新的 **MainAdChannel** 这会导致恢复正常播放。
+当内容作者收到紧急情况已清除的说明时，他们应更新的 **MainAdChannel**. 这样做会导致恢复正常播放。

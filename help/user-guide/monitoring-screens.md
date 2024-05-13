@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -144,12 +144,12 @@ AEM为以下对象提供内置监控：
 
 * *心率* 每5秒显示一次，以指示AEM Screens Player正在运行。
 * *屏幕快照* 播放器中的图标，用于显示播放器上显示的内容。
-* 此 *AEM Screens播放器固件* 版本。
+* 此 *AEM Screens播放器固件* 版本安装在播放器上。
 * *可用存储空间* 在播放器上。
 
 使用第三方软件实现远程监控的Recommendations：
 
-* 播放器上的CPU使用情况。
+* 播放器中的CPU使用情况。
 * 检查AEM Screens Player进程是否正在运行。
 * 远程重新启动/重新启动播放器。
 * 实时通知。

@@ -1,6 +1,6 @@
 ---
 title: 创建和管理时间表
-description: 了解可将渠道组织成可重复使用的组的计划，这样您就不必为要显示内容的每个显示分别重复其分配。
+description: 了解可将渠道组织到可重复使用的组中的计划，以便您不必分别重复其分配。
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # 创建和管理时间表 {#creating-and-managing-schedules}
 
-**时间表** 通过AEM Screens中的将渠道组织为可重复使用的组，您不必为要显示内容的每个显示分别重复其分配。
+**时间表** 通过AEM Screens中的将渠道整理到可重复使用的组中。 这样做意味着您不必对要显示内容的每个显示分别重复其分配。
 
 时间表，与组合使用 ***DayParting***，可让您设置一个全局计划，其中多个渠道在一天中的特定时间运行，并重复使用为全部显示设置的设置。
 

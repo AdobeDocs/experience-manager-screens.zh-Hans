@@ -1,7 +1,7 @@
 ---
 title: 体验片段激活
 description: 一个用例示例，可帮助您了解与AEM Screens相关的体验片段激活。
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 在AEM Screens项目中实施Experience Fragment {#experience-fragments-implementation}
 
-创建体验片段并将其应用于AEM Screens项目后， **演示项目** 您可以根据要求增强体验片段。
+创建体验片段并将其应用于AEM Screens项目后， **演示项目**，您可以根据自己的要求增强体验片段。
 
 ### 增加文本大小 {#increasing-text-size}
 

@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1700'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![自定义海报组件](assets/2018-05-07_at_4_09pm.png)
 
-通过扩展图像组件来创建自定义海报组件。
+A `Custom Poster` 组件通过扩展图像组件而创建。
 
 ## 先决条件 {#prerequisites}
 
@@ -240,7 +240,7 @@ ht-degree: 1%
 
    属性 `sling:hideChildren`= `"[linkURL,size]`”用于 `items` 节点，以确保 **linkURL** 和 **大小** 对话框中的字段是隐藏的。 仅从海报对话框中删除这些节点是不够的。 属性 `sling:hideResource="{Boolean}true"` “辅助功能”选项卡上用于隐藏整个选项卡。
 
-   对话框中添加了两个单击字段，作者可以控制标题和描述的文本位置和颜色。
+   对话框中添加了两个单击字段“文本位置”和“文本颜色”，以使作者能够控制文本的位置以及“标题”和“描述”的颜色。
 
    ![海报 — 最终对话框结构](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,7 +280,7 @@ ht-degree: 1%
 
    `The h1` 添加和h2标记后，会根据组件属性显示标题和描述： `${properties.jcr:title}` 和 `${properties.jcr:description}`.
 
-   围绕 `h1` 和 `h2` 标记是一个div包装器，其中包含三个CSS类，且变体为&quot; `cmp-poster__text`“。 的值 `textPosition` 和 `textColor` 属性用于根据作者的对话框选择更改渲染的CSS类。 在下一部分中，将写入客户端库中的CSS，以便在显示中启用这些更改。
+   围绕 `h1` 和 `h2` 标记是一个div包装器，其中包含三个CSS类，且变体为&quot;`cmp-poster__text`“ 的值 `textPosition` 和 `textColor` 属性用于根据作者的对话框选择更改渲染的CSS类。 在下一部分中，将写入客户端库中的CSS，以便在显示中启用这些更改。
 
    徽标还作为覆盖包含在组件中。 在此示例中，指向` We.Retail` 徽标在DAM中进行硬编码。 根据用例，可能更适合创建对话框字段，以将徽标路径设置为动态填充值。
 
@@ -308,7 +308,7 @@ ht-degree: 1%
    </div>
    ```
 
-   此 **编辑** 可直接在上方看到海报组件的标记。 HTL脚本覆盖 `/libs/screens/core/components/content/image/edit.html`. 标记类似于 `production.html` 标记，并在图像顶部显示标题和描述。
+   此 **编辑** “海报”组件的标记可直接在上方看到。 HTL脚本覆盖 `/libs/screens/core/components/content/image/edit.html`. 标记类似于 `production.html` 标记，并在图像顶部显示标题和描述。
 
    此 `aem-Screens-editWrapper`添加，以便组件不会在编辑器中全屏呈现。 此 `data-emptytext` 属性可确保在没有填充图像或内容时显示占位符。
 
@@ -339,7 +339,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    此 `categories` 属性是用于标识客户端库的字符串。 此 `cq.screens.components` 类别在编辑和预览/生产模式下均使用。 因此，在中定义的任何CSS/JS `shared` clientlib在所有模式下加载。
 
-   最佳做法是，切勿在生产环境中直接向/apps公开任何路径。 此 `allowProxy` 属性确保通过的前缀引用客户端库CSS和JS `/etc.clientlibs`. 欲知关于 [可以在此处找到allowProxy属性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   作为最佳实践，切勿将任何路径直接公开给 `/apps` 在生产环境中。 此 `allowProxy` 属性确保通过的前缀引用客户端库CSS和JS `/etc.clientlibs`. 欲知关于 [可以在此处找到allowProxy属性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 创建名为的文件 `css.txt` 在共享文件夹下。
 
@@ -362,7 +362,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -431,7 +431,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -491,9 +491,9 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
 ## 将海报组件添加到序列渠道 {#add-sequence-channel}
 
-海报组件用于序列渠道。 本教程的入门软件包包含一个“空闲通道”。 已预配置空闲通道，以允许组内的组件 **`We.Retail Run - Content`**. 海报组件的组设置为 `We.Retail Run - Content` 并且可以添加到渠道中。
+海报组件在序列渠道上使用。 本教程的入门软件包包含一个“空闲”通道。 已预配置空闲通道，以允许组内的组件 **`We.Retail Run - Content`**. 海报组件的组设置为 `We.Retail Run - Content` 并且可以添加到渠道中。
 
-1. 从以下位置打开空闲通道： `We.Retail` 运行项目： **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. 从以下位置打开“空闲”通道： `We.Retail` 运行项目： **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. 拖放的新实例 **海报** 组件从侧栏转到页面。
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
@@ -508,7 +508,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
 ## 融于一起 {#putting-it-all-together}
 
-以下视频介绍了已完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到位置显示中，并最终分配给Screens播放器。
+以下视频介绍了已完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到“位置”显示中，并最终分配给Screens播放器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
