@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ Adobe 要求所有针对文档贡献的内容都必须遵循特定的风格准�
 在文章中，始终按全名引用产品 **Adobe Experience Manager** 首次使用时。 此后，可以称为 **AEM**.
 
 除类名或引用 AEM 历史记录等无法避免的情况外，不应使用 Day、Day Software、CQ 和 CRX。
+
