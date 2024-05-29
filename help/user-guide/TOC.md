@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 11%
       + [渠道级别的批量图像播放持续时间](channel-level-image-playback.md)
       + [命令同步](using-command-sync.md)
       + [使用Data Triggers创作](authoring-data-triggers.md)
+      + [使用标记](tagging.md)
       + [语音识别](voice-recognition.md)
       + [内容分配报告](content-assignment-report.md)
       + [视频支持缩略图](thumbnail-support.md)
