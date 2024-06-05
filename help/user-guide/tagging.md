@@ -3,9 +3,9 @@ title: 在Screens云中标记
 description: 本页介绍如何在Screens Cloud上创建、管理和使用标记。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 创建和管理标记 {#create-and-manage-tags}
 
-![视频创建标记](assets/tagging/create-tag.mp4).
+![创建标记](assets/tagging/create-tag.gif).
 
 使用相同的操作菜单重命名或删除标记。
 
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 在“显示和播放器”中使用创建的标记。 您最多可以使用30个标记来标记一个。
 
-![视频管理标记分配](assets/tagging/assign-tags-to-players.mp4).
+![管理标记分配](assets/tagging/assign-tags-to-players.gif).
 
 ## 按标记过滤 {#filter-by-tags}
 
 选择标记以筛选显示区或播放器列表。
 
-![视频过滤器（按标记）](assets/tagging/filter-by-tags.mp4).
+![按标记过滤](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
