@@ -1,16 +1,16 @@
 ---
-title: 在Screens云中标记
+title: 在Screens Cloud上标记
 description: 本页介绍如何在Screens Cloud上创建、管理和使用标记。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# 在Screens云中标记 {#tagging-on-Screens-Cloud}
+# 在Screens Cloud上标记 {#tagging-on-Screens-Cloud}
 
 >[!CAUTION]
 >
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 简介 {#introduction}
 
-用户可以在Screens Cloud上创建标记，并使用它们为显示器和播放器分类。
+用户可以在Screens Cloud上创建标记，并使用这些标记对显示区和播放器进行分类。
 
 ## 创建和管理标记 {#create-and-manage-tags}
 
@@ -49,5 +49,5 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
-> 在Screens Cloud中定义的标记与AEM中定义的标记不相关/同步。
+> 在Screens Cloud上定义的标记与AEM中定义的标记无关/同步。
 > 

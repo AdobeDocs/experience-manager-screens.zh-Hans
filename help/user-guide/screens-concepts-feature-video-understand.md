@@ -7,9 +7,9 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 要观看视频，您需要满足以下条件：
 
-1. **AEM 6.4** 或**AEM 6.3*+ **屏幕功能包1**
+1. **AEM 6.4** 或**AEM 6.3*+ **Screens功能包1**
 
 1. Screens播放器
 
-要下载AEM Screens Player，请单击 [此处](https://download.macromedia.com/screens/). AEM Screens此外，还可在 [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+要下载AEM Screens Player，请单击 [此处](https://download.macromedia.com/screens/). 此外，AEM Screens在Google Play Store中提供。 <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 以下视频详细介绍如何创建新渠道、创作新内容以及将渠道添加到可重用计划。 它大致上跟随在上半年 [Screens Kickstart指南](kickstart-for-aem-screens.md).
 
