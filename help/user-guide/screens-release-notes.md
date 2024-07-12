@@ -30,16 +30,16 @@ AEM Screens功能包201809的发布日期为2018年10月1日。
 
 ### 新增功能 {#what-s-new}
 
-* **Adobe Analytics Proof of Play报告**：请参阅 [Adobe Analytics与AEM Screens集成](adobe-analytics-integration-aem-screens.md) 了解更多信息。
+* **Adobe Analytics Proof of Play报告**：请参阅[Adobe Analytics与AEM Screens的集成](adobe-analytics-integration-aem-screens.md)以了解详情。
 
-* **Adobe Analytics允许播放器缓存和发送 `playback` Adobe Analytics的事件**：请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 了解更多信息。
+* **Adobe Analytics使播放器能够缓存并将`playback`事件发送到Adobe Analytics**：请参阅[使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)以了解详情。
 
-* **批量更新离线内容**：可让您批量更新所有渠道，并避免导航到特定渠道和更新内容带来的麻烦。 请参阅 [批量脱机更新](bulk-offline-update.md) 了解更多信息。
+* **批量更新离线内容**：允许您批量更新所有渠道，并避免导航到特定渠道和更新内容的麻烦。 请参阅[批量脱机更新](bulk-offline-update.md)以了解详情。
 
-* **将渠道批量发布到所有发布实例**
-* **增强的播放器日志记录机制**：您可以指定AEM Screens播放器的日志文件数量上限。 请参阅 [使用AEM Screens播放器](working-with-screens-player.md) 以了解更多详细信息。
+* 将&#x200B;**Publish渠道批量发送到所有发布实例**
+* **增强的播放器日志记录机制**：您可以为AEM Screens播放器指定最大日志文件数。 有关更多详细信息，请参阅[使用AEM Screens播放器](working-with-screens-player.md)。
 
-* **创作/发布部署（强化）**
+* **Author/Publish部署（正在强化）**
 
 ### 已发布的AEM Screens Players
 
@@ -52,4 +52,4 @@ AEM Screens功能包201809的发布日期为2018年10月1日。
 
 #### AEM Screens播放器下载
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [AEM Screens播放器下载](https://download.macromedia.com/screens/).
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅[AEM Screens播放器下载](https://download.macromedia.com/screens/)。

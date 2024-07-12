@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ## 重要注意事项 {#important-considerations}
 
-* 始终源 ***商业*** 或 ***工业*** PC播放器、显示面板或投影仪的等级组件。
+* 始终为PC播放器和显示面板或投影仪提供&#x200B;***商业***&#x200B;或&#x200B;***工业***&#x200B;级组件。
 
 * 始终与为数字标牌市场提供服务的供应商接洽。
 * 始终考虑环境因素，如环境温度和相对湿度。
@@ -46,7 +46,7 @@ ht-degree: 3%
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>板载</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> 以太网/无线、<br /> 2个USB</td>
+   <td>DVI<br />以太网/无线，<br /> 2个USB</td>
    <td>
     <ul>
      <li>标准全屏循环<br /> </li>
@@ -60,10 +60,10 @@ ht-degree: 3%
    <td>128 GB</td>
    <td>板载</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI、HDMI<br /> 以太网/无线、<br /> 2个USB</td>
+   <td>DVI、HDMI<br />以太网/无线、<br /> 2个USB</td>
    <td>
     <ul>
-     <li>单一来源动态内容</li>
+     <li>单个Source动态内容</li>
      <li>简单交互式</li>
      <li>1-3区域布局</li>
     </ul> </td>
@@ -75,12 +75,12 @@ ht-degree: 3%
    <td>256 GB</td>
    <td>专用显卡GPU</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI、HDMI<br /> 以太网/无线、<br /> 4个USB</td>
+   <td>DVI、HDMI<br />以太网/无线、<br /> 4个USB</td>
    <td>
     <ul>
      <li>4个或更多内容区域，并行视频播放</li>
      <li>多页交互式</li>
-     <li>多源数据触发器</li>
+     <li>多Source数据触发器</li>
     </ul> </td>
   </tr>
  </tbody>

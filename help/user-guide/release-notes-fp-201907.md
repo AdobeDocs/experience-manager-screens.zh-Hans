@@ -31,39 +31,39 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 ### 新增功能 {#what-s-new}
 
-* **Data Trigger推动AEM Screens渠道中的资源变更**
+* **数据触发器驱动AEM Screens渠道中的资源更改**
 
 播放器切换到显示紧急信息的频道。 紧急系统在收到事件时发送此信息。 该频道仅在紧急状况结束之前播放。
 
 
-请参阅 [紧急渠道](emergency-channel.md) 实施用例。
+请参阅实施的[紧急渠道](emergency-channel.md)用例。
 
 * **为异步组件启用定位
 
 现在可以为AEM Screens项目中使用的资源启用定位。
 
-要详细了解如何在AEM Screens项目中启用资产定位，请参阅 [在AEM Screens中配置ContextHub](configuring-context-hub.md).
+要详细了解如何在AEM Screens项目中启用资产定位，请参阅[在AEM Screens中配置ContextHub](configuring-context-hub.md)。
 
 为AEM Screens项目配置ContextHub后，请按照不同的用例了解数据触发的资源如何在不同行业中发挥重要作用：
 
 **[零售库存目标激活](retail-inventory-activation.md)**
 
-**[行程中心温度激活](local-temperature-activation.md)**
+**[旅行中心温度激活](local-temperature-activation.md)**
 
-**[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
+**[酒店预订激活](hospitality-reservation-activation.md)**
 
-* **更新处理程序中的改进**
+* 更新处理程序中的&#x200B;**改进**
 
 更新处理程序现在分析体验片段并收集与其关联的任何图像、视频或产品。
 
 * **启动项**
 
 启动项允许内容作者创建渠道的未来版本。 借助Launches，作者可以预览启动项中的每个渠道，并且应该能够发起审查请求。 审批者组收到通知，可以批准或拒绝请求。 当到达实时日期时，内容将在设备中播放。
-请参阅 [启动次数](launches.md) 以了解更多详细信息。
+有关详细信息，请参阅[启动项](launches.md)。
 
-* **体验片段中的离线配置**
+* 体验片段中的&#x200B;**脱机配置**
 
-现在，您可以在配置Screens体验片段时添加离线配置（客户端库和静态文件）。 请参阅 [使用体验片段](experience-fragments-in-screens.md) 以了解更多详细信息。
+现在，您可以在配置Screens Experience Fragment时添加离线配置（客户端库和静态文件）。 有关更多详细信息，请参阅[使用体验片段](experience-fragments-in-screens.md)。
 
 ### 已发布的AEM Screens Players
 
@@ -75,4 +75,4 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 #### AEM Screens播放器下载
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [AEM Screens播放器下载](https://download.macromedia.com/screens/).
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅[AEM Screens播放器下载](https://download.macromedia.com/screens/)。

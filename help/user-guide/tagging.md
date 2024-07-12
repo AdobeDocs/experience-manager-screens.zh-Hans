@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->此 **标记** 仅当您的租户启用了功能时，该功能才可用。 请联系AEM Screens工程部以启用它。
+>**标记**&#x200B;功能仅在为租户启用时才可用。 请联系AEM Screens工程部以启用它。
 
 ## 简介 {#introduction}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 创建和管理标记 {#create-and-manage-tags}
 
-![创建标记](assets/tagging/create-tag.gif).
+![创建标记](assets/tagging/create-tag.gif)。
 
 使用相同的操作菜单重命名或删除标记。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 在“显示和播放器”中使用创建的标记。
 
-![管理标记分配](assets/tagging/assign-tags-to-players.gif).
+![管理标记分配](assets/tagging/assign-tags-to-players.gif)。
 
 >[!NOTE]
 > 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 选择标记以筛选显示区或播放器列表。
 
-![按标记过滤](assets/tagging/filter-by-tags.gif).
+![按标记筛选](assets/tagging/filter-by-tags.gif)。
 
 >[!NOTE]
 > 

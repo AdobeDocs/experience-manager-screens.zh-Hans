@@ -30,11 +30,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->下载最新的Windows Player后(*.exe*)，从 [AEM 6.4播放器下载](https://download.macromedia.com/screens/) 页面，按照播放器上的步骤完成临时安装：
+>从[AEM 6.4 Player下载](https://download.macromedia.com/screens/)页面下载最新的Windows Player (*.exe*)后，请按照播放器上的步骤完成临时安装：
 >
 >1. 长按左上角以打开管理面板。
->1. 导航到 **配置** 从左侧操作菜单中，输入AEM实例的位置地址 **服务器** 并单击 **保存**.
->1. 单击 **注册** 左侧操作菜单中的链接以及完成设备注册过程的以下步骤。
+>1. 从左侧操作菜单中导航到&#x200B;**配置**，输入&#x200B;**服务器**&#x200B;中AEM实例的位置地址，然后单击&#x200B;**保存**。
+>1. 单击左侧操作菜单中的&#x200B;**注册**&#x200B;链接及以下步骤以完成设备注册过程。
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -43,21 +43,21 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. 在AEM中，导航到 **设备** 文件夹中的任意位置。
+1. 在AEM中，导航到项目的&#x200B;**设备**&#x200B;文件夹。
 
    >[!NOTE]
    >
-   >要获取有关在AEM功能板中创建屏幕项目的更多信息，请参阅 [创建和管理Screens项目](creating-a-screens-project.md).
+   >要获取有关在AEM功能板中为Screens创建项目的更多信息，请参阅[创建和管理Screens项目](creating-a-screens-project.md)。
 
-1. 单击 **设备管理器** 按钮进行更改。
+1. 单击操作栏中的&#x200B;**设备管理器**&#x200B;按钮。
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. 单击 **设备注册** 按钮。
+1. 单击右上方的&#x200B;**设备注册**&#x200B;按钮。
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. 单击所需的设备（与步骤1相同），然后单击 **注册设备**.
+1. 单击所需的设备（与步骤1相同），然后单击&#x200B;**注册设备**。
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -65,54 +65,54 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. 在您的设备中，检查 **注册码**.
+1. 在您的设备中，检查&#x200B;**注册码**。
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. 如果 **注册码** 两台计算机上相同，请单击 **验证** AEM按钮，如步骤(6)中所示。
-1. 为设备设置所需的名称，然后单击 **注册**.
+1. 如果两台计算机上的&#x200B;**注册码**&#x200B;相同，请单击AEM中的&#x200B;**验证**&#x200B;按钮，如步骤(6)所示。
+1. 为设备设置所需的名称，然后单击&#x200B;**注册**。
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. 单击 **完成** 以完成注册流程。
+1. 单击&#x200B;**完成**&#x200B;以完成注册过程。
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >此 **新注册** 用于注册新设备。
+   >通过&#x200B;**注册新设备**，您可以注册新设备。
    >
-   >此 **分配显示区** 允许您将设备直接添加到显示区。
+   >通过&#x200B;**分配显示区**，您可以直接将设备添加到显示区。
 
-   如果您单击 **完成**，将设备分配给显示。
+   如果单击&#x200B;**完成**，请将设备分配给显示设备。
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >要了解有关为Screens项目创建和管理显示的更多信息，请参阅 [创建和管理显示区](managing-displays.md).
+   >要了解有关为您的Screens项目创建和管理显示的详细信息，请参阅[创建和管理显示](managing-displays.md)。
 
 ### 将设备分配给显示器 {#assigning-device-to-a-display}
 
 如果尚未将设备分配给显示，请按照以下步骤将设备分配给AEM Screens项目中的显示：
 
-1. 单击设备，然后单击 **指定设备** 从操作栏中。
+1. 单击设备，然后单击操作栏中的&#x200B;**指定设备**。
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. 单击中显示的路径 **显示器/设备配置路径**.
+1. 单击&#x200B;**显示/设备配置路径**&#x200B;中显示的路径。
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. 单击 **分配** 单击该路径时。
+1. 单击路径时，单击&#x200B;**分配**。
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. 单击 **完成** 成功分配设备后，如下图所示。
+1. 成功分配设备后，单击&#x200B;**完成**，如下图所示。
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   此外，您还可以通过选择查看显示仪表板 **完成**.
+   此外，您还可以通过选择&#x200B;**完成**&#x200B;来查看显示仪表板。
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -120,9 +120,9 @@ ht-degree: 0%
 
 当您将设备注册到播放器后，可以从设备管理器UI中查看所有设备。
 
-1. 例如，从AEM Screens项目导航到设备管理器UI， **DemoScreens** > **设备**.
+1. 从AEM Screens项目导航到设备管理器UI，例如&#x200B;**DemoScreens** > **设备**。
 
-1. 单击 **设备** 文件夹并单击 **设备管理器** 从操作栏中。
+1. 单击&#x200B;**设备**&#x200B;文件夹，然后单击操作栏中的&#x200B;**设备管理器**。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ ht-degree: 0%
 
    或者，
 
-   选择 `/` （正斜杠）以调用搜索功能。
+   选择`/`（正斜杠）以调用搜索功能。
 
    ![图像](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### 搜索功能的限制 {#limitations}
 
-* 用户能够搜索 *设备Id* 或 *设备名称*.
+* 用户可以搜索&#x200B;*设备ID*&#x200B;或&#x200B;*设备名称*&#x200B;中存在的任何单词。
 
   >[!NOTE]
-  >建议您用多个词创建设备名称，例如 *`Boston Store Lobby`* 而不是一个单身 *`BostonStoreLobby`*.
+  >建议您用多个单词（如&#x200B;*`Boston Store Lobby`*）创建设备名称，而不是用一个&#x200B;*`BostonStoreLobby`*&#x200B;创建。
 
-* 如果您创建了设备名称，例如 *`Boston Store Lobby`*，它会搜索任意单词 *`boston`*， *`store`*，或 *`lobby`*. 但是，如果设备名称为 *`BostonStoreLobby`*，然后搜索 *`boston`* 不显示任何结果。
+* 如果您创建了设备名称，如&#x200B;*`Boston Store Lobby`*，它将搜索任意单词&#x200B;*`boston`*、*`store`*&#x200B;或&#x200B;*`lobby`*。 但是，如果设备名称为&#x200B;*`BostonStoreLobby`*，则搜索&#x200B;*`boston`*&#x200B;不会显示任何结果。
 
-* 通配符， `*` 支持搜索。 如果您希望查找所有名称以开头的设备， *`boston`*，您可以使用*`boston`**。
+* 支持使用通配符`*`进行搜索。 如果要查找名称以&#x200B;*`boston`*&#x200B;开头的所有设备，可以使用*`boston`**。
 
-* 如果设备名称为 *`BostonStoreLobby`* 并搜索 *`boston`* 不返回结果，则使用 *`boston`**会返回结果。
+* 如果设备名称为&#x200B;*`BostonStoreLobby`*&#x200B;且搜索&#x200B;*`boston`*&#x200B;未返回结果，则在搜索条件中使用&#x200B;*`boston`**将返回结果。
 
 ## Device Registration的限制 {#limitations-on-device-registration}
 
 系统范围的用户密码限制可能会导致设备注册失败。 设备注册使用随机生成的密码来创建设备用户。
 
-如果 *AuthorizableActionProvider* 配置限制密码，创建设备用户可能会失败。
+如果&#x200B;*AuthorizableActionProvider*&#x200B;配置限制密码，则创建设备用户可能会失败。
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### 其他资源 {#additional-resources}
 
-要了解有关AEM Screens Player的更多信息，请参阅 [AEM Screens Player](working-with-screens-player.md).
+要了解有关AEM Screens Player的更多信息，请参阅[AEM Screens Player](working-with-screens-player.md)。

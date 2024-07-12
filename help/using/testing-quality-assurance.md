@@ -50,7 +50,7 @@ ht-degree: 0%
 
 AEM Screens包括设备控制中心模块，用于管理Screens播放器应用程序端点。
 
-它引用任何 *播放器* 已安装屏幕播放器应用程序并注册到AEM实例的硬件设备。
+它是指已安装Screens播放器应用程序并已注册到AEM实例的任何&#x200B;*播放器*硬件设备。
 通过此模块，您可以：
 
 1. 监控播放器应用程序错误日志
@@ -58,7 +58,7 @@ AEM Screens包括设备控制中心模块，用于管理Screens播放器应用�
 1. 管理内容下载
 1. 管理应用程序重新启动问题
 
-详细了解 ***设备控制中心***，请参见 [设备控制中心故障排除](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) 在 **AEM Screens用户指南**.
+若要详细了解&#x200B;***设备控制中心***，请参阅&#x200B;**AEM Screens用户指南**&#x200B;中的[设备控制中心疑难解答](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)。
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ AEM Screens包括设备控制中心模块，用于管理Screens播放器应用�
 >
 > Adobe建议在所有部署中都使用专用的第三方设备管理平台。
 
-选择的特定平台取决于多种因素，包括 ***目标操作系统***， ***项目要求***、和 ***端点数***.
+所选的特定平台取决于多个因素，包括&#x200B;***目标操作系统***、***项目要求***&#x200B;和&#x200B;***端点数***。
 
 以下是几个示例：
 

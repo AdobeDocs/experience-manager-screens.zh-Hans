@@ -18,7 +18,7 @@ AEM Screens需要多个包才能使项目正常运行。 所有环境都必须�
 1. 为您的Adobe Experience Manager版本运行以下包的最新版本：
 
    * **AEM Service Pack**
-   * **屏幕功能包**
+   * **Screens功能包**
    * **AEM累积修补程序包**
 
 1. 确定所需的任何开发包（例如WCM核心组件）或第三方工具包（例如SAP Hybris）。

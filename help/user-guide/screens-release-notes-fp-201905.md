@@ -35,25 +35,25 @@ AEM Screens功能包201905的发布日期为2019年5月16日。
 
 项目导入器是AEM Screens中一项可用的功能，通过该功能，您可以将CSV/XLS电子表格中的一组位置批量导入您的AEM Screens项目。
 
-请参阅 **[从文件新建项目导入程序](project-importer.md)** 以了解更多详细信息。
+有关更多详细信息，请参阅文件&#x200B;](project-importer.md)**中的**[&#x200B;新建项目导入程序。
 
-* **从ContentSync转换为SmartSync**
+* **从ContentSync转换到SmartSync**
 
 SmartSync可最大限度地减少服务器负载/存储和网络流量，从而降低成本。
 
-请参阅 **[从ContentSync转换为SmartSync](smartsync.md)** 以了解更多详细信息。
+有关更多详细信息，请参阅&#x200B;**[从ContentSync转换到SmartSync](smartsync.md)**。
 
-* **紧急渠道**
+* **紧急频道**
 
 此用例示例重点介绍如何创建和管理紧急渠道，如果存在前提条件，内容作者可以从序列渠道切换紧急渠道。
 
-请参阅 **[紧急渠道](emergency-channel.md)** 用例以了解更多详细信息。
+有关详细信息，请参阅&#x200B;**[紧急渠道](emergency-channel.md)**&#x200B;用例。
 
 * **使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成**
 
 本节介绍如何使用AEM SPA编辑器通过REACT(或Angular)嵌入交互式单页应用程序。 AEM中的业务专业人员可以配置编辑器。 它还介绍了如何将交互式应用程序与离线Adobe Analytics集成。
 
-请参阅 **[使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成](embedding-react-app.md)** 以了解更多详细信息。
+有关更多详细信息，请参阅&#x200B;**[使用AEM SPA编辑器嵌入REACT应用程序以及与AEM Screens Analytics集成](embedding-react-app.md)**。
 
 ### 已发布的AEM Screens Players
 
@@ -65,4 +65,4 @@ SmartSync可最大限度地减少服务器负载/存储和网络流量，从而�
 
 #### AEM Screens播放器下载
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 **[AEM Screens播放器下载](https://download.macromedia.com/screens/)**.
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;**[AEM Screens播放器下载](https://download.macromedia.com/screens/)**。

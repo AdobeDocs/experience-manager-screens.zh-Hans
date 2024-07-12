@@ -26,26 +26,26 @@ AEM Screens功能包201909的发布日期为2019年10月7日。
 
 ### 新增功能 {#what-s-new}
 
-* **增强了用于创建屏幕项目的UI更新**
+* **用于创建Screens项目的增强UI更新**
 
-  现在提供了用于创建AEM Screens项目的更新用户界面。 只需单击几下，即可创建屏幕项目。 此外，每个项目的属性选项卡现在都有一个更直观的用户界面。
+  现在提供了用于创建AEM Screens项目的更新用户界面。 只需单击几下，即可创建一个Screens项目。 此外，每个项目的属性选项卡现在都有一个更直观的用户界面。
 
-  请参阅 [创建新屏幕项目](creating-a-screens-project.md) 以了解更多详细信息。
+  有关更多详细信息，请参阅[创建新的Screens项目](creating-a-screens-project.md)。
 
-* **增强型设备功能板**
+* **增强型设备仪表板**
 
   设备仪表板显示设备信息、状态、屏幕快照、日志、首选项，以及允许您监视设备活动和功能的设备详细信息。 面板现已更新。
 
-  请参阅 [设备控制中心故障排除](monitoring-screens.md) 以了解更多详细信息。
+  有关更多详细信息，请参阅[设备控制中心疑难解答](monitoring-screens.md)。
 
 * **启用超时以允许键盘交互**
 
   将遥控设备作为触摸屏替代品启用。 通过触屏进行交互和活动超时，可处理键盘输入。
 
-* **体验片段中的离线配置**
+* 体验片段中的&#x200B;**脱机配置**
 
-  现在，您可以在配置Screens体验片段时添加离线配置（客户端库和静态文件）。
-请参阅 [使用体验片段](experience-fragments-in-screens.md) 以了解更多详细信息。
+  现在，您可以在配置Screens Experience Fragment时添加离线配置（客户端库和静态文件）。
+有关更多详细信息，请参阅[使用体验片段](experience-fragments-in-screens.md)。
 
 ### 已发布的AEM Screens Players
 
@@ -57,4 +57,4 @@ AEM Screens功能包201909的发布日期为2019年10月7日。
 
 #### AEM Screens播放器下载
 
-要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅 [**AEM Screens播放器下载**](https://download.macromedia.com/screens/).
+要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;[**AEM Screens播放器下载**](https://download.macromedia.com/screens/)。

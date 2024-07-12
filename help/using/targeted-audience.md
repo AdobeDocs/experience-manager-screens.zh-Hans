@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 目标受众 {#target-audience}
 
-作为经验丰富的AEM实施者，您可能已经了解了称为 *作者*， *开发人员*、和 *IT技术人员*.
+作为经验丰富的AEM实施者，您可能会看到称为&#x200B;*作者*、*开发人员*&#x200B;和&#x200B;*IT技术人员*&#x200B;的角色。
 
 在典型的AEM Screens项目中，角色会进一步细化，因为每个角色在项目中都具有重要作用。
 
@@ -65,4 +65,4 @@ Audio-Video Integrator是硬件供应商合作伙伴。 本方介绍零售设计
 项目经理通常会管理AEM Screens部署的整个部署。 项目经理是整个指定项目实施的联系人。 他们负责制定时间表、处理团队需求和进行沟通。 它们还应对挑战，确保实现目标。
 
 >[!NOTE]
->要详细了解数字标牌项目的不同角色和责任以及目标受众，请参阅 **[项目角色和职责](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>要详细了解数字标牌项目的不同角色和责任以及目标受众，请参阅&#x200B;**[项目角色和责任](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。

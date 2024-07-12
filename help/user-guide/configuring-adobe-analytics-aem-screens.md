@@ -28,12 +28,12 @@ ht-degree: 10%
 
 本节涵盖以下主题：
 
-* **使用AEM Screens在Adobe Analytics中排序**
+* 使用AEM Screens在Adobe Analytics中排序&#x200B;****
 * **使用离线Adobe Analytics发送自定义事件**
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
 
-此 ***排序过程*** 从激活Adobe Analytics服务的数据存储服务开始。 渠道内容使用工资单发送Adobe Analytics事件，即将数据测试捕获发送到Windows I/O，并触发保持事件。 这些事件被保存到索引DB中，并进一步被放入对象存储中。 它根据管理员设置的计划从对象存储中剪切数据，然后进一步在区块存储中传输这些数据。 连接后，它会尝试发送最大数量的数据。
+***排序流程***&#x200B;以激活Adobe Analytics服务的数据存储服务开始。 渠道内容使用工资单发送Adobe Analytics事件，即将数据测试捕获发送到Windows I/O，并触发保持事件。 这些事件被保存到索引DB中，并进一步被放入对象存储中。 它根据管理员设置的计划从对象存储中剪切数据，然后进一步在区块存储中传输这些数据。 连接后，它会尝试发送最大数量的数据。
 
 ### 排序图 {#sequencing-diagram}
 
@@ -99,7 +99,7 @@ ht-degree: 10%
    <td>推荐</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>工作流名称（屏幕）</td> 
+   <td>工作流名称(Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -108,7 +108,7 @@ ht-degree: 10%
    <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>主类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型分组 —  <strong>播放器已发送</strong></td> 
+   <td>主类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型分组 — <strong>已发送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -237,7 +237,7 @@ ht-degree: 10%
    <td>失败描述<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>来源/原始产品</em></strong></td> 
+   <td><strong><em>Source/原始产品</em></strong></td> 
    <td>名称</td> 
    <td>source.name</td> 
    <td>必填</td> 

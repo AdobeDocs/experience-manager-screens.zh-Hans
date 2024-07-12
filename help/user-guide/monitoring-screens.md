@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 设备控制中心故障排除 {#troubleshooting-device-control-center}
 
-您可以使用设备仪表板监控AEM Screens Player活动和设备的性能并排除其故障。 此页提供有关如何监视和排除所感知的Screens播放器和所分配设备的性能问题的信息。
+您可以使用设备仪表板监控AEM Screens Player活动和设备的性能并排除其故障。 本页提供了有关如何监视和排除Screens播放器和所分配设备的感知性能问题的信息。
 
 ## 从设备控制中心进行监控和故障排除 {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 按照以下步骤导航到设备功能板：
 
-1. 从项目中导航到设备功能板，例如， ***测试项目*** > ***设备***.
+1. 从您的项目导航到设备仪表板，例如，***测试项目*** > ***设备***。
 
-   单击 **设备** 和 **设备管理器** 从操作栏中。
+   从操作栏中单击&#x200B;**设备**&#x200B;和&#x200B;**设备管理器**。
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. 单击设备(**NewTestDevice**)，然后单击 **仪表板** 从操作栏中。
+1. 单击设备(**NewTestDevice**)，然后单击操作栏中的&#x200B;**仪表板**。
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -49,65 +49,65 @@ ht-degree: 0%
 
 ### 监控设备活动 {#monitor-device-activity}
 
-此 **活动** 面板显示带有时间戳的AEM Screens Player的最后一次Ping。 上次ping对应于设备上次与服务器联系的时间。
+**活动**&#x200B;面板显示带有时间戳的AEM Screens Player的最后一次Ping。 上次ping对应于设备上次与服务器联系的时间。
 
 ![chlimage_1](assets/chlimage_1.png)
 
-此外，单击 **收集日志** 从右上角 **活动** 面板以查看播放器的日志。
+此外，单击&#x200B;**活动**&#x200B;面板右上角的&#x200B;**收集日志**&#x200B;以查看播放器的日志。
 
 ### 更新设备详细信息 {#update-device-details}
 
-查看 **设备详细信息** 面板，以便您查看设备IP、存储使用情况、固件版本和播放器的正常运行时间。
+检查&#x200B;**设备详细信息**&#x200B;面板，以便查看设备的设备IP、存储使用情况、固件版本和播放器正常运行时间。
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-此外，单击 **清除缓存** 和 **更新** 清除设备的缓存并更新 [固件](screens-glossary.md) 版本。
+此外，单击&#x200B;**清除缓存**&#x200B;和&#x200B;**更新**&#x200B;可清除设备的缓存，并从此面板分别更新[固件](screens-glossary.md)版本。
 
-此外，单击 **...** 从右上角 **设备详细信息** 用于重新启动或刷新播放器状态的面板。
+此外，单击&#x200B;**设备详细信息**&#x200B;面板右上角的&#x200B;**...**&#x200B;以重新启动或刷新播放器的状态。
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### 更新设备信息 {#update-device-information}
 
-查看 **设备信息** 面板。 您可以在此处查看配置更新、设备型号、设备操作系统和shell信息。
+检查&#x200B;**设备信息**&#x200B;面板。 您可以在此处查看配置更新、设备型号、设备操作系统和shell信息。
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-此外，单击(**...**)，以查看属性或更新设备。
+另外，单击“设备信息”面板右上角的(**...**)以查看属性或更新设备。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-单击 **属性** 以便您查看 **设备属性** 对话框。 您可以编辑设备标题或选择用于配置更新的选项 **手动** 或 **自动**.
+单击&#x200B;**属性**，以便查看&#x200B;**设备属性**&#x200B;对话框。 您可以编辑设备标题或选择配置更新的选项，如&#x200B;**手动**&#x200B;或&#x200B;**自动**。
 
 >[!NOTE]
 >
->要了解有关设备自动更新或手动更新相关事件的更多信息，请参阅部分 ***从设备仪表板进行自动更新与手动更新*** 在 [管理渠道](managing-channels.md).
+>若要了解有关设备自动或手动更新相关事件的更多信息，请参阅[管理渠道](managing-channels.md)中设备仪表板&#x200B;***的***&#x200B;自动与手动更新部分。
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
 ### 查看播放器屏幕截图 {#view-player-screenshot}
 
-您可以从设备查看播放器屏幕截图 **播放器屏幕截图** 面板。
+您可以从&#x200B;**播放器屏幕快照**&#x200B;面板查看设备中的播放器屏幕快照。
 
-单击(**...**)，然后单击 **刷新屏幕快照** 查看正在运行的播放器的快照。
+单击“播放器屏幕快照”面板右上角的(**...**)，然后单击“**刷新屏幕快照**”以查看正在运行的播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
 ### 管理首选项 {#manage-preferences}
 
-此 **偏好设置** 允许用户更改首选项 **管理员UI**， **渠道切换器**、和 **远程调试** 设备名称。
+通过&#x200B;**PREFERENCES**&#x200B;面板，用户可以更改设备的&#x200B;**管理员UI**、**渠道切换器**&#x200B;和&#x200B;**远程调试**&#x200B;的首选项。
 
 >[!NOTE]
->要了解有关这些选项的更多信息，请参阅 [AEM Screens Player](working-with-screens-player.md).
+>若要了解有关这些选项的更多信息，请参阅[AEM Screens播放器](working-with-screens-player.md)。
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-此外，单击 **设置** 更新设备首选项。 您可以更新以下首选项：
+另外，单击右上角的&#x200B;**设置**&#x200B;以更新设备首选项。 您可以更新以下首选项：
 
 * **服务器URL**
 * **解决方法**
-* **重新引导计划**
-* **最大数量 要保留的日志文件**
+* **重新启动计划**
+* **最大数量 要保留的日志文件数量**
 * **日志级别**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -126,12 +126,12 @@ ht-degree: 0%
 
 启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。
 
-目前，这些功能中的某些功能仅在 *Apache Sling引用过滤器允许为空* 会在OSGi配置中启用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
+当前，仅当OSGi配置中启用了&#x200B;*Apache Sling反向链接筛选条件允许为空*&#x200B;时，这些功能中的某些功能才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
 
 执行以下步骤以启用Apache Sling反向链接过滤器允许为空
 
-1. 导航到 **Adobe Experience Manager Web控制台配置**，即， `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. 查看 **allow.empty** 选项。
+1. 导航到&#x200B;**Adobe Experience Manager Web控制台配置**，即`https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`。
+1. 选中&#x200B;**allow.empty**&#x200B;选项。
 1. 单击&#x200B;**保存**。
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
@@ -142,10 +142,10 @@ ht-degree: 0%
 
 AEM为以下对象提供内置监控：
 
-* *心率* 每5秒显示一次，以指示AEM Screens Player正在运行。
-* *屏幕快照* 播放器中的图标，用于显示播放器上显示的内容。
-* 此 *AEM Screens播放器固件* 版本安装在播放器上。
-* *可用存储空间* 在播放器上。
+* 每5秒&#x200B;*一次心率*，表示AEM Screens播放器正在运行。
+* 播放器中的&#x200B;*屏幕快照*，显示播放器上显示的内容。
+* 播放器上已安装&#x200B;*AEM Screens播放器固件*&#x200B;版本。
+* 播放器上的&#x200B;*可用存储空间*。
 
 使用第三方软件实现远程监控的Recommendations：
 
@@ -158,4 +158,4 @@ AEM为以下对象提供内置监控：
 
 #### 其他资源 {#additional-resources}
 
-请参阅 [视频播放配置和故障排除](troubleshoot-videos.md) 如果您想对渠道中播放的视频进行调试和故障排除。
+如果要对频道中播放的视频进行调试和故障排除，请参阅[视频播放配置和故障排除](troubleshoot-videos.md)。

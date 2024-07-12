@@ -21,17 +21,17 @@ ht-degree: 0%
 
 * **位置**
 * **MediaZones**
-* **显示**
+* **个显示区**
 * **计划**
 * **预览内容**
 
-要了解有关这些术语的更多信息，请参见 [术语表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+要了解有关这些术语的更多信息，请参阅[术语表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary)。
 
 >[!NOTE]
 >
 >最好考虑使用：
 >
->* 用于自动填充Screens项目的硬件资产数据库
+>* 用于自动填充Screens项目的硬件资源数据库
 >* 文本配置文件自动将每个播放器指向AEM的特定实例
 
 ## 实施AEM Screens项目 {#creating-a-project}
@@ -47,7 +47,7 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 * [创建AEM Screens项目](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
 * [创建渠道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
 * [将组件和资产添加到渠道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [创建时间表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [创建计划](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
 * [创建位置](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
 * [创建显示区](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [将渠道分配给显示区](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
@@ -55,4 +55,4 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 * [在AEM Screens播放器中查看内容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅 [从文件新建项目导入程序](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).
+>您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的[新建项目导入程序。

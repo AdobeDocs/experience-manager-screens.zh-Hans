@@ -29,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->尽快确定应用程序所需的数据，以及数据的来源。 在实施过程中会进行更深入的探讨。 但是，请确保在以下情况下需要花费一些时间： *第0天* 以了解客户端要使用哪些数据。 了解该数据当前存储在何处，以及正在构建的应用程序如何访问它。 在挑战出现之前通知开发团队有助于使实施更加顺利。
+>尽快确定应用程序所需的数据，以及数据的来源。 在实施过程中会进行更深入的探讨。 但是，请确保在&#x200B;*Day Zero*&#x200B;期间花一些时间了解客户端要使用哪些数据。 了解该数据当前存储在何处，以及正在构建的应用程序如何访问它。 在挑战出现之前通知开发团队有助于使实施更加顺利。
 
-观看视频 [关于项目适用范围的注意事项](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+观看视频[项目作用域时的注意事项](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)。

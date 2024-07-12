@@ -26,23 +26,23 @@ ht-degree: 2%
 
 以下步骤概述了为项目设置ACL的过程：
 
-1. 登录AEM并导航至 **工具** > **安全性**.
+1. 登录AEM并导航到&#x200B;**工具** > **安全**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. 单击 **组** 并输入ID（例如，Acme）。
+1. 单击&#x200B;**组**&#x200B;并输入ID（例如Acme）。
 
-   或者，使用此链接， `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   或者，使用此链接`http://localhost:4502/libs/granite/security/content/groupadmin.html`。
 
-   接下来，单击 **保存**.
+   接下来，单击&#x200B;**保存**。
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. 单击 **参与者** ，然后双击该列表。
+1. 单击列表中的&#x200B;**参与者**&#x200B;并双击它。
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. 添加 **Acme** （您创建的项目）到 **将成员添加到组**. 单击&#x200B;**保存**。
+1. 将&#x200B;**Acme** （您创建的项目）添加到&#x200B;**将成员添加到组**。 单击&#x200B;**保存**。
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -50,13 +50,13 @@ ht-degree: 2%
    >
    >如果您希望项目团队成员注册播放器（包括为每个播放器创建用户），请查找用户管理员组并将ACME组添加到用户管理员
 
-1. 添加所有正在处理的用户 **Acme** 项目目标位置 **Acme** 组。
+1. 将正在处理&#x200B;**Acme**&#x200B;项目的所有用户添加到&#x200B;**Acme**&#x200B;组。
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. 设置组的权限 **Acme** 使用此 `(http://localhost:4502/useradmin)`.
+1. 使用此`(http://localhost:4502/useradmin)`为组&#x200B;**Acme**&#x200B;设置权限。
 
-   单击组 **Acme** 然后单击 **权限**.
+   单击组&#x200B;**Acme**&#x200B;并单击&#x200B;**权限**。
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
@@ -83,9 +83,9 @@ ht-degree: 2%
 
 例如，您可以创建以下特定于项目的组：
 
-* 屏幕项目管理员
+* Screens项目管理员
 * Screens项目操作员（注册播放器，以及管理位置和设备）
-* 屏幕项目用户（处理渠道、时间表和渠道分配）
+* Screens项目用户（处理渠道、时间表和渠道分配）
 
 下表汇总了对AEM Screens项目具有描述和权限的组：
 
@@ -132,7 +132,7 @@ ht-degree: 2%
     </ul> </td>
   </tr>
   <tr>
-   <td>Screens播放器<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
+   <td>Screens Players<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>所有播放器和所有播放器/设备会自动成为参与者的成员。</td>
    <td><p> 撰稿人成员</p> </td>
   </tr>

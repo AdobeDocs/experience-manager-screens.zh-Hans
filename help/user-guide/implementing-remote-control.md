@@ -1,6 +1,6 @@
 ---
 title: 实施远程控制
-description: 了解AEM Screens中的Screens遥控功能。
+description: 了解AEM Screens中的Screens远程控制功能。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# 使用Screens遥控器 {#implementing-remote-control}
+# 使用Screens远程控制 {#implementing-remote-control}
 
 利用远程控制功能，可以更轻松地访问管理员UI、渠道切换器或清除缓存和重新加载等功能。 此外，它还为您提供了查看播放器上的本地固件版本和系统信息的方法。 此功能特别有用，因为连接鼠标可能会很困难。 或者，在无法访问的生产设备上操作，如果播放器已断开与AEM的连接，则更是如此。 它在使用Samsung RMS时也很有用，因为分辨率的差异使得查找和使用鼠标打开管理员UI变得困难。
 
 ## 通用遥控器按键组合 {#using-common-remote-control}
 
-在所有播放器上，您可以在Screens遥控器中使用以下组合键：
+在所有播放器上，您可以在Screens远程控制中使用以下组合键：
 
 1. 切换管理员UI - CTRL + 1
 1. 切换渠道切换器 — CTRL + 2
@@ -41,7 +41,7 @@ ht-degree: 0%
 ## 更多使用说明 {#using-additional-remote-control}
 
 1. 在管理UI打开的情况下，您可以使用向上和向下箭头来导航选项卡，以跨选项卡查看信息。
-1. 打开渠道切换器后，您可以使用向上和向下箭头键导航渠道。 您也可以按 `Enter` 键（或遥控器箭头中央的按钮）来切换通道。
+1. 打开渠道切换器后，您可以使用向上和向下箭头键导航渠道。 您还可以按`Enter`键（或遥控器箭头中央的按钮）来切换频道。
 
 下图说明了Samsung远程服务器上的主要用法：
 ![图像](assets/tizen/remote.png)

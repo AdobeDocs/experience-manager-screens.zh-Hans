@@ -32,7 +32,7 @@ AEM Screens是Adobe Experience Manager (AEM)的一项新扩展。 由于这些�
 > 本指南旨在识别实施 AEM Screens 项目期间的常见缺陷，其相关材料主要侧重于以下主题：
 >
 > * **[项目角色和职责](roles-responsibilities.md)**
-> * **[适用于不同角色的RACI图表](roles-responsibilities.md#raci-chart)**
+> * 不同角色的&#x200B;**[RACI图表](roles-responsibilities.md#raci-chart)**
 > * **[AEM 平台配置](aem-platform-configurations.md)**
 > * **[支持和监测](support-monitoring.md)**
 
@@ -41,4 +41,4 @@ AEM Screens是Adobe Experience Manager (AEM)的一项新扩展。 由于这些�
 > 本指南中使用的术语(在AEM Screens的上下文中)：
 >
 > * **UX** 用来指代交付给最终客户的数字标牌体验。
-> * **UI** 用来指代允许您在Screens中创建和管理项目的用户界面。
+> * **UI**&#x200B;是指允许您在Screens中创建和管理项目的用户界面。

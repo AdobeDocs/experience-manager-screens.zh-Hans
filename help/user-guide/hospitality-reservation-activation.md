@@ -23,57 +23,57 @@ ht-degree: 0%
 
 ## 描述 {#description}
 
-对于此用例，Google工作表中填入了两个餐厅的预订百分比 **`Restaurant1`** 和 **`Restaurant2`**. 应用的公式基于以下值： `Restaurant1` 和 `Restaurant2` 根据公式，值1或2将分配给 **Adtarget** 列。
+对于此用例，Google工作表中填充了两个餐厅&#x200B;**`Restaurant1`**&#x200B;和&#x200B;**`Restaurant2`**&#x200B;上的预订百分比。 应用公式时基于`Restaurant1`和`Restaurant2`的值，并根据公式将值1或2分配给&#x200B;**AdTarget**&#x200B;列。
 
-如果值 **`Restaurant1`** > **`Restaurant2`**，则 **AdTarget** 已分配值 **1** 否则 **Adtarget** 已分配值 **2**. 值1生成 *牛排食品* 选项和值二显示为 *泰国菜* 选项。
+如果值为&#x200B;**`Restaurant1`** > **`Restaurant2`**，则&#x200B;**AdTaget**&#x200B;被赋值为&#x200B;**1**，否则&#x200B;**AdTarget**&#x200B;被赋值为&#x200B;**2**。 值1生成一个&#x200B;*牛排食品*&#x200B;选项，值2则在您的显示屏上显示&#x200B;*泰式食品*&#x200B;选项。
 
 ## 前提条件 {#preconditions}
 
-在开始实施预订激活之前，了解如何设置 ***数据存储***， ***受众分段*** 和 ***为渠道启用定位*** 在AEM Screens项目中。
+在开始实施保留激活之前，了解如何在AEM Screens项目中设置&#x200B;***数据存储***、***受众分段***&#x200B;和&#x200B;***启用渠道定位***。
 
-请参阅 [在AEM Screens中配置ContextHub](configuring-context-hub.md) 以了解详细信息。
+有关详细信息，请参阅[在AEM Screens中配置ContextHub](configuring-context-hub.md)。
 
 ## 基本流量 {#basic-flow}
 
 请按照以下用例步骤为您的AEM Screens项目实施酒店预订激活：
 
-1. **填充Google工作表并添加公式**.
+1. **填充Google工作表并添加公式**。
 
-   例如，将公式应用于第三列 **Adtarget**，如下图所示。
+   例如，将该公式应用于第三列&#x200B;**AdTarget**，如下图所示。
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
-1. **根据要求在受众中配置区段**
+1. **根据要求配置受众中的区段**
 
-   1. 导航到受众中的区段(请参阅 ***步骤2：设置受众分段*** 在 **[在AEM Screens中配置ContextHub](configuring-context-hub.md)** 页面（了解更多详细信息）。
-   1. 单击 **工作表A1 1** 并单击 **编辑**.
-   1. 单击comparison属性并单击 **配置** 图标。
-   1. 单击 **google表/value/1/2** 从的下拉菜单中 **属性名称**.
-   1. 单击 **运算符** 作为 **等于** 从下拉菜单中。
-   1. 输入 **值** 作为 **1**.
-   1. 同样，单击 **工作表A1 2** 并单击 **编辑**.
-   1. 单击comparison属性并单击 **配置** 图标。
-   1. 单击 **google表/value/1/2** 从的下拉菜单中 **属性名称**.
-   1. 单击 **运算符** 作为 **2**.
+   1. 导航到受众中的区段(有关更多详细信息，请参阅&#x200B;**[在AEM Screens中配置ContextHub](configuring-context-hub.md)**&#x200B;页面中的&#x200B;***步骤2：设置受众分段***)。
+   1. 单击&#x200B;**工作表A1 1**，然后单击&#x200B;**编辑**。
+   1. 单击比较属性，然后单击&#x200B;**配置**&#x200B;图标。
+   1. 从&#x200B;**属性名称**&#x200B;中的下拉列表中单击&#x200B;**googleHeets/value/1/2**。
+   1. 从下拉菜单中单击&#x200B;**运算符**&#x200B;作为&#x200B;**等于**。
+   1. 输入&#x200B;**值**&#x200B;作为&#x200B;**1**。
+   1. 同样，单击&#x200B;**工作表A1 2**&#x200B;并单击&#x200B;**编辑**。
+   1. 单击比较属性，然后单击&#x200B;**配置**&#x200B;图标。
+   1. 从&#x200B;**属性名称**&#x200B;中的下拉列表中单击&#x200B;**googleHeets/value/1/2**。
+   1. 单击&#x200B;**运算符**&#x200B;作为&#x200B;**2**。
 
-1. 导航并单击您的渠道()，然后单击 **编辑** 从操作栏中。 在以下示例中， **DataDrivenRestaurant**，顺序渠道用于展示功能。
+1. 导航并单击您的频道()，然后单击操作栏中的&#x200B;**编辑**。 在下面的示例&#x200B;**DataDrivenRestaurant**&#x200B;中，顺序通道用于展示功能。
 
    >[!NOTE]
    >
-   >您的渠道应已具有默认图像，并且受众应已预配置，如中所述 [在AEM Screens中配置ContextHub](configuring-context-hub.md).
+   >您的渠道应已具有默认图像，并且应按照[在AEM Screens中配置ContextHub](configuring-context-hub.md)中所述，预配置受众。
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >您的 **ContextHub** **配置** 使用渠道 **属性** > **个性化** 选项卡此时应已设置。
+   >此时应该已经设置了使用渠道&#x200B;**属性** > **Personalization**&#x200B;选项卡的&#x200B;**ContextHub** **配置**。
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. 单击 **定位** 在编辑器中，单击 **品牌** 和 **活动** 从下拉菜单中单击 **开始定位**.
-1. **检查预览**
+1. 在编辑器中单击&#x200B;**定位**，然后从下拉菜单中单击&#x200B;**品牌**&#x200B;和&#x200B;**活动**，然后单击&#x200B;**开始定位**。
+1. **正在检查预览**
 
-   1. 单击 **预览。** 此外，打开您的Google工作表并更新其值。
-   1. 更新中的值 **`Restaurant1`** 和 **`Restaurant2`** 列。 如果 **`Restaurant1`** > **`Restaurant2`，** 您应该能够查看以下项目的图像 *牛排* 食物， *泰语* 食品图像显示在屏幕上。
+   1. 单击&#x200B;**预览。**&#x200B;此外，打开您的Google工作表并更新其值。
+   1. 更新&#x200B;**`Restaurant1`**&#x200B;和&#x200B;**`Restaurant2`**&#x200B;列中的值。 如果&#x200B;**`Restaurant1`** > **`Restaurant2`，**，您应该能够查看&#x200B;*牛排*&#x200B;食物的图像，否则，屏幕上将显示&#x200B;*泰语*&#x200B;食物的图像。
 
    ![结果5](assets/result5.gif)

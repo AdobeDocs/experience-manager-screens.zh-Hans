@@ -24,9 +24,9 @@ ht-degree: 0%
 
 数字标牌解决方案必须支持视频墙和同步播放。 如果您尝试支持“新年倒计时”或大视频分段在多个屏幕中播放等场景，则此场景为true。 在这种情况下，命令同步将发挥作用。
 
-要使用Command Sync，一个播放器将充当 *主要* 并发送命令，而所有其他播放器 *客户端* 当他们收到命令时播放。
+要使用命令同步，一个播放器充当&#x200B;*primary*&#x200B;并发送命令，而所有其他播放器充当&#x200B;*客户端*&#x200B;并在收到命令时播放。
 
-此 *主要* 将要开始播放项目时，向所有注册的客户端发送命令。 此操作的有效负载可以是要播放项目的索引、要播放的元素的外部html或两者。
+*primary*&#x200B;将在即将开始播放项目时向所有注册的客户端发送命令。 此操作的有效负载可以是要播放项目的索引、要播放的元素的外部html或两者。
 
 ## 实施命令同步 {#using-command-sync}
 
@@ -40,67 +40,67 @@ ht-degree: 0%
 
 在使用命令同步功能之前，请确保您有一个项目和一个渠道，其中包含为您的项目设置的内容。
 
-1. 以下示例展示了名为的演示项目 **CommandSyncDemo** 和序列渠道 **ChannelLobby**.
+1. 以下示例展示了名为&#x200B;**CommandSyncDemo**&#x200B;的演示项目和序列频道&#x200B;**ChannelLobby**。
 
-   ![image1](assets/command-sync/command-sync1-1.png)
+   ![图像1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >要了解如何创建渠道或向渠道添加内容，请参阅 [创建和管理渠道](/help/user-guide/managing-channels.md)
+   >要了解如何创建渠道或向渠道添加内容，请参阅[创建和管理渠道](/help/user-guide/managing-channels.md)
 
    该渠道包含以下内容，如下图所示。
 
-   ![image1](assets/command-sync/command-sync2-1.png)
+   ![图像1](assets/command-sync/command-sync2-1.png)
 
-1. 创建位置 **大厅** 然后显示标题为 **LobbyDisplay** 在 **位置** 文件夹，如下图所示。
-   ![image1](assets/command-sync/command-sync3-1.png)
+1. 创建位置&#x200B;**大厅**，然后在&#x200B;**位置**&#x200B;文件夹中创建标题为&#x200B;**大厅显示**的显示，如下图所示。
+   ![图像1](assets/command-sync/command-sync3-1.png)
 
-1. 分配渠道， **ChannelLobby** 敬您的 **LobbyDisplay**. 您现在可以从显示功能板中查看分配给显示的渠道。
-   ![image1](assets/command-sync/command-sync4-1.png)
-
-   >[!NOTE]
-   >
-   >要了解如何将渠道分配给显示，请参阅 [创建和管理显示区](/help/user-guide/managing-displays.md).
-
-1. 导航至 **设备** 文件夹。
-1. 单击 **设备管理器** 从操作栏中。
-
-   ![image1](assets/command-sync5.png)
+1. 将频道&#x200B;**ChannelLobby**&#x200B;分配给您的&#x200B;**LobbyDisplay**。 您现在可以从显示功能板中查看分配给显示的渠道。
+   ![图像1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >要了解如何注册设备，请参阅 [设备注册](/help/user-guide/device-registration.md)
+   >要了解如何将渠道分配给显示，请参阅[创建和管理显示](/help/user-guide/managing-displays.md)。
 
-1. 为了演示，此示例将Chrome设备和Windows Player显示为两个单独的设备。 两台设备指向同一个显示器。
-   ![image1](assets/command-sync6.png)
+1. 导航到&#x200B;**设备**&#x200B;文件夹。
+1. 单击操作栏中的&#x200B;**设备管理器**。
+
+   ![图像1](assets/command-sync5.png)
+
+   >[!NOTE]
+   >
+   >要了解如何注册设备，请参阅[设备注册](/help/user-guide/device-registration.md)
+
+1. 为了进行演示，此示例将Chrome设备和Windows Player显示为两个单独的设备。 两台设备指向同一个显示器。
+   ![图像1](assets/command-sync6.png)
 
 ### 更新渠道设置
 
-1. 导航到 **ChannelLobby**.
-1. 单击 **编辑** 从操作栏中。
+1. 导航到&#x200B;**ChannelLobby**。
+1. 单击操作栏中的&#x200B;**编辑**。
 1. 单击整个通道，如下图所示。
-   ![image1](assets/command-sync/command-sync7-1.png)
+   ![图像1](assets/command-sync/command-sync7-1.png)
 
 1. 单击扳手图标。
-   ![image1](assets/command-sync/command-sync8-1.png)
+   ![图像1](assets/command-sync/command-sync8-1.png)
 
-1. 在 **页面** 对话框中，输入 *已同步* 中的关键词 **策略** 字段。
-   ![image1](assets/command-sync/command-sync9-1.png)
+1. 在&#x200B;**页面**&#x200B;对话框中，在&#x200B;**策略**&#x200B;字段中输入&#x200B;*已同步*关键字。
+   ![图像1](assets/command-sync/command-sync9-1.png)
 
 
 ### 设置主要播放器 {#setting-up-primary}
 
-1. 从导航到显示功能板 **CommandSyncDemo** > **位置**  > **大厅** > **LobbyDisplay**. 然后单击 **仪表板** 从操作栏中。
-请注意中的两个设备（Chrome和Windows Player） **设备** 面板中，如以下所示：
-   ![image1](assets/command-sync/command-sync10-1.png)
+1. 从&#x200B;**CommandSyncDemo** > **位置** > **大厅** > **大厅显示**&#x200B;导航到显示仪表板。 然后单击操作栏中的&#x200B;**仪表板**。
+请注意**设备**面板中的两台设备(Chrome和Windows Player)，如以下所示：
+   ![图像1](assets/command-sync/command-sync10-1.png)
 
-1. 从 **设备** 单击要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击 **设置为主设备**.
+1. 在&#x200B;**设备**&#x200B;面板中，单击要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击&#x200B;**设置为主设备**。
 
-   ![image1](assets/command-sync/command-sync11-1.png)
+   ![图像1](assets/command-sync/command-sync11-1.png)
 
-1. 在中输入IP地址 **设置为主设备** 并单击 **保存**.
+1. 在&#x200B;**设置为主设备**&#x200B;中输入IP地址，然后单击&#x200B;**保存**。
 
-   ![image1](assets/command-sync/command-sync12-1.png)
+   ![图像1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
@@ -109,18 +109,18 @@ ht-degree: 0%
 ### 正在与主要播放器同步 {#sync-up-primary}
 
 1. 将Chrome设备设置为主设备后，将另一设备（在本例中为Windows Player）同步到主设备。
-单击中的其它设备（在本例中为Windows Player） **设备** 面板并单击 **同步到主设备**.
+单击**设备**&#x200B;面板中的其他设备（在本例中为Windows Player），然后单击&#x200B;**同步到主设备**。
 
-   ![image1](assets/command-sync/command-sync13-1.png)
+   ![图像1](assets/command-sync/command-sync13-1.png)
 
-1. 单击列表中的设备，然后单击 **保存**.
+1. 单击列表中的设备，然后单击&#x200B;**保存**。
 
-   >[注意：]
-   > 此 **同步到主设备** 对话框显示主设备的列表。 选择首选的。
+   >[注释：]
+   > **同步到主设备**&#x200B;对话框显示主设备列表。 选择首选的。
 
-1. 当设备(Windows Player)同步到主设备(Chrome Player)时，您会看到设备已在中同步 **设备** 面板。
+1. 当设备(Windows Player)同步到主设备(Chrome Player)时，您可以在&#x200B;**设备**&#x200B;面板中看到已同步的设备。
 
-   ![image1](assets/command-sync/command-sync14-1.png)
+   ![图像1](assets/command-sync/command-sync14-1.png)
 
 ### 正在与主要播放器取消同步 {#desync-up-primary}
 
@@ -132,13 +132,13 @@ ht-degree: 0%
 
 要从主设备删除同步，请执行以下步骤：
 
-1. 导航至 **设备** 面板并单击设备。
+1. 导航到&#x200B;**设备**&#x200B;面板，然后单击该设备。
 
-1. 单击 **取消同步设备** 以便从主设备取消同步客户端。
+1. 单击&#x200B;**取消同步设备**，以便从主设备取消同步客户端。
 
-   ![image1](assets/command-sync/command-sync15-1.png)
+   ![图像1](assets/command-sync/command-sync15-1.png)
 
-1. 单击 **确认** 以从主设备取消同步选定的设备。
+1. 单击&#x200B;**确认**&#x200B;将所选设备从主设备取消同步。
 
-   >[注意：]
+   >[注释：]
    > 如果单击主设备并使用de-sync选项，则所有连接到主设备的设备将一步骤中取消同步。

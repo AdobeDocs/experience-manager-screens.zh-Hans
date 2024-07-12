@@ -24,15 +24,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >**先决条件
->您必须预先了解体验片段的基础知识以及如何在AEM Screens项目中使用体验片段。 请参阅 [使用体验片段](/help/user-guide/experience-fragments-in-screens.md)
+>您必须预先了解体验片段的基础知识以及如何在AEM Screens项目中使用体验片段。 查看[使用体验片段](/help/user-guide/experience-fragments-in-screens.md)
 
 ### 设置演示项目 {#demo-project-setup}
 
-创建标题为 **演示项目** 和一个标题为 **TestChannel** 在AEM Screens中，如下图所示。
+在AEM Screens中创建标题为&#x200B;**DemoProject**&#x200B;的项目和标题为&#x200B;**TestChannel**&#x200B;的序列频道，如下图所示。
 
 ### 在AEM Screens项目中实施Experience Fragment {#experience-fragments-implementation}
 
-创建体验片段并将其应用于AEM Screens项目后， **演示项目**，您可以根据自己的要求增强体验片段。
+创建体验片段并将其应用于AEM Screens项目&#x200B;**DemoProject**&#x200B;后，您可以根据自己的要求增强体验片段。
 
 ### 增加文本大小 {#increasing-text-size}
 

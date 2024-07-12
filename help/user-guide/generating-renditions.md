@@ -26,42 +26,42 @@ ht-degree: 0%
 >
 >如果AEM Screens视频演绎版无法在您的设备上以最佳方式播放，请联系硬件供应商以了解视频的规格。 这样做有助于在设备上获得最佳性能。 它可帮助您创建自己的自定义视频配置文件，您可以在其中为FFMPEG提供相应的参数以生成演绎版。 然后，使用以下步骤将自定义视频配置文件添加到配置文件列表。
 >
->另请参阅 [视频疑难解答](troubleshoot-videos.md) 对渠道中的视频播放进行调试和故障排除。
+>另请参阅[视频疑难解答](troubleshoot-videos.md)，以调试和解决频道中的视频播放问题。
 
 请按照以下步骤自动生成全高清呈现：
 
-1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便 **工作流**.
+1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便您能够单击&#x200B;**工作流**。
 
-   单击 **模型**.
+   单击&#x200B;**模型**。
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. 在工作流模型管理中，单击 **DAM更新资产** 模型和点击 **编辑** 从操作栏中。
+1. 在工作流模型管理中，单击&#x200B;**DAM更新资产**&#x200B;模型，然后单击操作栏中的&#x200B;**编辑**。
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. 在 **DAM更新资产** 窗口中，双击 **FFmpeg转码** 步骤。
+1. 在&#x200B;**DAM更新资产**&#x200B;窗口中，双击&#x200B;**FFmpeg转码**&#x200B;步骤。
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. 单击 **进程** 选项卡。
-1. 将全高清配置文件输入列表 **参数** 如下所示：
+1. 单击&#x200B;**进程**&#x200B;选项卡。
+1. 在&#x200B;**参数**中向列表输入全高清配置文件，如下所示：
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. 单击&#x200B;**确定**。
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. 单击 **保存** 左侧的 **DAM更新资产** 屏幕。
+1. 单击&#x200B;**DAM更新资产**&#x200B;屏幕左上角的&#x200B;**保存**。
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. 导航到 **资产** 并上传新视频。 单击视频，然后打开演绎版侧边栏。 请注意两个全高清视频。
+1. 导航到&#x200B;**Assets**&#x200B;并上传新视频。 单击视频，然后打开演绎版侧边栏。 请注意两个全高清视频。
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
-1. 打开 **节目** 从侧边栏移出。
+1. 从侧边栏打开&#x200B;**呈现版本**。
 
-   ![step11_-_open_theridationssiderail](assets/step11_-_open_therenditionssiderail.png)
+   ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
 1. 请注意两个新的全高清呈现版本。
 
@@ -71,24 +71,24 @@ ht-degree: 0%
 
 请按照以下步骤手动生成全高清呈现：
 
-1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便您可以单击“tools（工具）” ，然后单击 **工作流**.
+1. 单击Adobe Experience Manager链接（左上方），然后单击锤子图标，以便您可以单击“工具”并单击“**工作流**”。
 
-   单击 **模型**.
+   单击&#x200B;**模型**。
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. 在工作流模型管理中，单击 **屏幕更新资产** 模型，然后单击 **启动工作流** 以打开 **运行工作流** 对话框。
+1. 在工作流模型管理中，单击&#x200B;**Screens更新资产**&#x200B;模型，然后单击&#x200B;**启动工作流**&#x200B;以打开&#x200B;**运行工作流**&#x200B;对话框。
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. 单击中的所需视频 **有效负荷** 并单击 **运行**.
+1. 单击&#x200B;**有效负载**&#x200B;中所需的视频，然后单击&#x200B;**运行**。
 
-   ![步骤6_-_选择_所需视频](assets/step6_-_select_thedesiredvideo.png)
+   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. 导航到 **资产**，深入到您的资源，然后单击该资源。
+1. 导航到&#x200B;**Assets**，深入到您的资源，然后单击该资源。
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. 打开 **节目** 侧边栏。 请注意新的全高清呈现版本。
+1. 打开&#x200B;**呈现形式**&#x200B;侧边栏。 请注意新的全高清呈现版本。
 
    ![step8_-_open_theridationssiderail](assets/step8_-_open_therenditionssiderail.png)

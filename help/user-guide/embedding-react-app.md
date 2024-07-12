@@ -25,7 +25,7 @@ ht-degree: 0%
 
 请按照以下步骤使用AEM SPA编辑器：
 
-1. 克隆AEM SPA Editor存储库： [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. 在[https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)处克隆AEM SPA Editor存储库
 
    >[!NOTE]
    >
@@ -46,42 +46,42 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >本文档使用 **组ID** 作为 ***com.adobe.aem.screens*** 和 **ArtifactId** 作为 ***我的示例SPA*** （这是默认设置）。 您可以根据需要选择自己的。
+   >此文档使用&#x200B;**GroupId**&#x200B;作为&#x200B;***com.adobe.aem.screens***，使用&#x200B;**ArtifactId**&#x200B;作为&#x200B;***我的示例SPA***（默认值）。 您可以根据需要选择自己的。
 
 1. 创建项目后，使用您选择的IDE或编辑器并导入生成的Maven项目。
-1. 使用命令部署到本地AEM实例 ***mvn全新安装 — PautoInstallPackage***.
+1. 使用命令&#x200B;***mvn clean install -PautoInstallPackage***&#x200B;部署到本地AEM实例。
 
 ### 在REACT应用程序中编辑内容 {#editing-content-in-the-react-app}
 
 要编辑REACT应用程序中的内容，请执行以下操作：
 
-1. 导航到 `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (替换主机名、端口和项目名称（如果适用）。
+1. 导航到`https://localhost:4502/editor.html/content/mysamplespa/en/home.html` （替换适用的主机名、端口和项目名称）。
 1. 能够编辑Hello World应用程序中显示的文本。
 
 ### 将交互式REACT应用程序添加到AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
 执行以下步骤，将交互式REACT应用程序添加到AEM Screens：
 
-1. 创建一个AEM Screens项目。 请参阅 [创建和管理项目](creating-a-screens-project.md) 以了解更多详细信息。
-1. 创建 **应用程序渠道** （优选地）（或1x1模板或多区域通道） **渠道** AEM Screens项目的文件夹。
+1. 创建一个AEM Screens项目。 有关详细信息，请参阅[创建和管理项目](creating-a-screens-project.md)。
+1. 在AEM Screens项目的&#x200B;**Channels**&#x200B;文件夹中创建一个&#x200B;**应用程序渠道**（最好是）（或1x1模板或多区域渠道）。
 
    >[!NOTE]
-   >**序列渠道** 对于此用例，我们建议您不要使用，因为它们本身会带有幻灯片放映逻辑，与体验的交互性质冲突。
-   >请参阅 [创建和管理渠道](managing-channels.md) 以了解更多详细信息。
+   >不建议在此使用案例中使用&#x200B;**序列渠道**，因为它们本身带有幻灯片放映逻辑，与体验的交互性质冲突。
+   >有关详细信息，请参阅[创建和管理渠道](managing-channels.md)。
 
 1. 编辑任意序列渠道并拖放嵌入的页面组件。
 
-   请参阅 [将组件添加到渠道](adding-components-to-a-channel.md) 以了解更多详细信息。
+   有关更多详细信息，请参阅[将组件添加到渠道](adding-components-to-a-channel.md)。
 
    >[!NOTE]
    >
    >确保在为显示分配渠道时添加用户交互事件。
 
-1. 单击 **编辑** 以编辑渠道的属性。
+1. 单击操作栏中的&#x200B;**编辑**，以便编辑渠道的属性。
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. 拖放 **嵌入式页面** 组件或重用应用程序渠道中的现有组件，然后单击mysamplespa应用程序下的主页，例如， ***/content/mysamplespa/en/home***.
+1. 拖放&#x200B;**嵌入式页面**&#x200B;组件，或在应用程序渠道中重用现有组件，然后单击mysamplespa应用程序下的主页，例如&#x200B;***/content/mysamplespa/en/home***。
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 注册此项目的播放器并将其分配给显示区。 您现在可以看到交互式应用程序正在AEM Screens上运行。
 
-   请参阅 [设备注册](device-registration.md) 有关注册设备的详细信息。
+   有关注册设备的详细信息，请参阅[设备注册](device-registration.md)。
 
 ## 通过AEM Screens将SPA与Adobe Analytics与离线功能集成 {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -100,12 +100,12 @@ ht-degree: 0%
 
 1. 在AEM Screens中配置Adobe Analytics。
 
-   请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 有关如何使用AEM Screens在Adobe Analytics中执行排序以及使用离线Adobe Analytics发送自定义事件的更多信息。
+   有关如何使用AEM Screens在Adobe Analytics中执行排序以及使用离线Adobe Analytics发送自定义事件的更多信息，请参阅[使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)。
 
 1. 在所选的IDE/编辑器中编辑react应用程序（特别是文本组件或要开始发送事件的其他组件）。
 1. 在您要为组件捕获的单击事件或其他事件上，使用标准数据模型添加分析信息。
 
-   请参阅 [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md) 以了解更多详细信息。
+   有关详细信息，请参阅[使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)。
 
 1. 调用AEM Screens Analytics API，以便您可以离线保存事件并将其突发发送到Adobe Analytics。
 

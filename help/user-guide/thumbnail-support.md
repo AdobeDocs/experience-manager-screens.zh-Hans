@@ -32,7 +32,7 @@ ht-degree: 2%
 
 1. 导航到现有AEM Screens渠道或创建渠道。
 
-1. 单击渠道，然后单击 **编辑** 从操作栏中。
+1. 单击频道，然后单击操作栏中的&#x200B;**编辑**。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,19 +40,19 @@ ht-degree: 2%
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. 单击视频，然后单击 *扳手* 图标。
+1. 单击视频，然后单击&#x200B;*扳手*&#x200B;图标。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. 此 **视频** 对话框打开，您可以在其中查看 **缩略图** 放置区域。
+1. 将打开&#x200B;**视频**&#x200B;对话框，您可以在其中查看&#x200B;**缩略图**&#x200B;拖放区域。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. 将图像从资产选取器拖放到 **缩略图** 放置区域并单击 **完成**.
+1. 将图像从资产选取器拖放到&#x200B;**缩略图**&#x200B;拖放区域，然后单击&#x200B;**完成**。
 
    ![图像](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. 单击 **预览**.
+1. 单击&#x200B;**预览**。
 
 1. 如果已在组件上设置视频，则会播放视频。 如果未设置并且设置了缩略图，则会播放缩略图。 否则，该组件被视为未配置并被跳过。
 

@@ -27,11 +27,11 @@ ht-degree: 1%
 
 在开始实施此功能之前，请确保已设置项目作为开始实施此功能的先决条件。 例如，
 
-1. 创建一个AEM Screens项目示例， **ChannelLevelPlayback**.
+1. 创建AEM Screens项目示例&#x200B;**ChannelLevelPlayback**。
 
-1. 创建序列渠道为 **PlaybackChannel** 在 **渠道** 文件夹。
+1. 在&#x200B;**Channels**&#x200B;文件夹下创建序列频道作为&#x200B;**PlaybackChannel**。
 
-1. 将内容添加到 **PlaybackChannel**.
+1. 将内容添加到&#x200B;**PlaybackChannel**。
 
 ## 编辑渠道级别图像播放持续时间分配 {#editing-channel-level-image-playback-duration-assignment}
 
@@ -41,11 +41,11 @@ ht-degree: 1%
 
 请按照以下步骤了解如何更新渠道级别图像播放持续时间分配：
 
-1. 导航到序列渠道 **PlaybackChannel**.
+1. 导航到序列频道&#x200B;**PlaybackChannel**。
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. 单击 **编辑** 从操作栏中。
+1. 单击操作栏中的&#x200B;**编辑**。
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -57,14 +57,14 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. 此 **页面** 对话框打开。
+1. 将打开&#x200B;**页面**&#x200B;对话框。
 
    >[!NOTE]
    >默认情况下，渠道中的图像设置为8秒的播放持续时间。
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 单击右上角的复选标记 **页面** 对话框，以便保存更改。
+   将&#x200B;**持续时间**&#x200B;从8000（毫秒）编辑为3000（毫秒），即3秒。 单击&#x200B;**页面**&#x200B;对话框右上角的复选标记，以便保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
@@ -72,4 +72,4 @@ ht-degree: 1%
 
 更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放图像的时间是3秒而不是8秒（默认值）。
 
-![channel_preview](assets/channel_preview.gif)
+![渠道预览](assets/channel_preview.gif)

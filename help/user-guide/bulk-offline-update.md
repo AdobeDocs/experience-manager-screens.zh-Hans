@@ -50,7 +50,7 @@ ht-degree: 0%
 请按照以下步骤对AEM Screens项目使用批量离线更新：
 
 1. 导航到您的AEM Screens项目。
-1. 单击项目，然后单击 **更新离线内容** 以手动更新渠道内容。
+1. 单击项目，然后单击操作栏中的&#x200B;**更新离线内容**，以便您可以手动更新渠道内容。
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -65,14 +65,14 @@ ht-degree: 0%
 
 1. 添加以下属性：
 
-   **项目路径** 指定AEM Screens项目的路径。 路径通常为 `/content/screens/<Name of your project>`.
+   **项目路径**&#x200B;指定AEM Screens项目的路径。 路径通常为`/content/screens/<Name of your project>`。
 
-   *例如*， `/content/screens/we-retail`. 您可以通过选择AEM Screens下的任何项目（不单击图标），在URL中找到此路径。
+   *例如*，`/content/screens/we-retail`。 您可以通过选择AEM Screens下的任何项目（不单击图标），在URL中找到此路径。
 
    >[!NOTE]
    >
    >指定相对于渠道的项目路径。
 
-   **计划频率** 指定一个时间，例如5:00 P.M.或17:00，此服务应在此时间更新离线内容。
+   **计划频率**&#x200B;指定此服务应更新脱机内容的时间，例如，下午5:00或17:00。
 
-1. 单击 **保存** 以保存您的设置。 您的内容将在指定时间更新。
+1. 单击&#x200B;**保存**&#x200B;以保存您的设置。 您的内容将在指定时间更新。

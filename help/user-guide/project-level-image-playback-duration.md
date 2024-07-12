@@ -20,15 +20,15 @@ ht-degree: 1%
 
 在使用此功能之前，请将项目设置为开始实施此功能的先决条件。 例如，
 
-1. 创建一个AEM Screens项目(在此示例中， **ProjectLevelPlayback**)。
-1. 创建序列渠道为 **PlayBackChannel** 在 **渠道** 文件夹。
-1. 将内容添加到 **PlayBackChannel**.
+1. 创建一个AEM Screens项目（在此示例中为&#x200B;**ProjectLevelPlayback**）。
+1. 在&#x200B;**Channels**&#x200B;文件夹下创建序列频道作为&#x200B;**PlayBackChannel**。
+1. 将内容添加到&#x200B;**PlayBackChannel**。
 
-   ![资产](assets/image_playback1.png)
+   ![资源](assets/image_playback1.png)
 
-   例如，下图显示了添加到 **PlayBackChannel** 编辑者：
+   例如，下图显示了添加到&#x200B;**PlayBackChannel**&#x200B;编辑器的图像：
 
-   ![资产](assets/image_playback2.png)
+   ![资源](assets/image_playback2.png)
 
 ## 编辑项目级别图像播放持续时间分配 {#editing-project-level-image-playback-duration-assignment}
 
@@ -39,18 +39,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果要更新图像或渠道级别的播放持续时间，请参阅 [渠道级别图像播放持续时间](channel-level-image-playback.md).
+>如果要更新图像或渠道级别的播放持续时间，请参阅[渠道级别的图像播放持续时间](channel-level-image-playback.md)。
 
 请按照以下步骤了解如何更新项目级图像播放持续时间：
 
-1. 导航到您的项目 **ProjectLevelPlayback** 并单击 **属性** 从操作栏中。
-   ![资产](assets/image_playback3.png)
+1. 导航到项目&#x200B;**ProjectLevelPlayback**，然后单击操作栏中的&#x200B;**属性**。
+   ![资源](assets/image_playback3.png)
 
 1. 单击渠道中的所有图像，然后单击左上角的扳手图标（如下图所示），以打开“渠道级别配置”对话框。
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. 此 **页面** 对话框打开。
+1. 将打开&#x200B;**页面**&#x200B;对话框。
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   编辑 **持续时间** 从8000（毫秒）到3000（毫秒），即3秒。 选择右上角的复选标记 **页面** 对话框，以保存更改。
+   将&#x200B;**持续时间**&#x200B;从8000（毫秒）编辑为3000（毫秒），即3秒。 选择&#x200B;**页面**&#x200B;对话框右上角的复选标记，以保存更改。
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
@@ -66,5 +66,5 @@ ht-degree: 1%
 
 更新渠道播放持续时间（在本例中是所有三个图像）后，请注意，现在播放图像的时间是3秒而不是8秒（默认值）。
 
-![channel_preview](assets/channel_preview.gif)
+![渠道预览](assets/channel_preview.gif)
 

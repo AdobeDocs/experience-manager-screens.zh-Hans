@@ -25,17 +25,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要访问任何这些功能包，请与Adobe支持联系并请求获取访问权限。 您可以从以下网站下载AEM Screens的最新功能包： [软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 使用您的Adobe ID。
+>要访问任何这些功能包，请与Adobe支持联系并请求获取访问权限。 您可以使用您的Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens的最新功能包。
 
 本节涵盖以下主题：
 
 * **概述**
-* **体系结构详细信息**
+* **架构详细信息**
 * **配置属性**
 
 ## 概述 {#overview}
 
-***AEM Screens*** 使用Adobe Analytics，借助该功能，您可以实现市场上独一无二的功能 — 跨渠道分析，帮助将位置中显示的内容与其他数据源相关联。
+***AEM Screens***&#x200B;使用Adobe Analytics，借助该工具，您可以实现市场上独一无二的功能 — 跨渠道分析，帮助将位置中显示的内容与其他数据源相关联。
 
 AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用证明。
 
@@ -48,7 +48,7 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 * 可以创建反馈循环，以跟踪随时间变化的播放事件
 * 允许系统根据内容作者定义的成功标准编辑内容和布局
 
-因此，Adobe Analytics与AEM Screens的集成强制执行以下操作 *目标*：
+因此，Adobe Analytics与AEM Screens的集成强制实施以下&#x200B;*目标*：
 
 * 实现数字标牌实施的ROI
 * 集成Analytics作为未来支持收集和分析使用信息的基础
@@ -65,21 +65,21 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 
 可以从OSGi控制台配置Adobe Analytics设置。
 
-导航到 **Adobe Experience Manager Web控制台配置** 以便为AEM Screens配置Adobe Analytics。
+导航到&#x200B;**Adobe Experience Manager Web控制台配置**，以便为AEM Screens配置Adobe Analytics。
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Screens Analytics：启用流 {#screens-analytics-enablement-flow}
+## Screens Analytics：启用流程 {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
->在配置资产之前，请与Adobe关系经理联系以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
+>在配置属性之前，请与Adobe关系经理联系以创建票证，以获取&#x200B;**Analytics API密钥**&#x200B;和&#x200B;**Analytics项目**，用于AEM Screens。
 
 ### 配置属性 {#configuring-the-properties}
 
 >[!CAUTION]
 >
->在配置资产之前，请与Adobe关系经理联系以创建票证以获取 **Analytics API密钥** 和 **Analytics项目** 用于AEM Screens。
+>在配置属性之前，请与Adobe关系经理联系以创建票证，以获取&#x200B;**Analytics API密钥**&#x200B;和&#x200B;**Analytics项目**，用于AEM Screens。
 
 下表重点列出了用于为AEM Screens配置Adobe Analytics的属性及其说明：
 
@@ -115,7 +115,7 @@ AEM Screens提供了与Adobe Analytics的现成集成，并为您提供了使用
 
 >[!NOTE]
 >
->默认情况下， **Analytics发送频率** 是15分钟。
+>默认情况下，**Analytics发送频率**&#x200B;为15分钟。
 
 #### 在AEM Screens中使用Adobe Analytics服务 {#using-adobe-analytics-service-in-aem-screens}
 
@@ -125,4 +125,4 @@ Analytics事件离线存储在indexedDB中，稍后进行分块并发送到云�
 
 >[!NOTE]
 >
->要了解有关 ***排序*** 和 ***事件的标准数据模型***，请参见 **[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**.
+>要了解有关&#x200B;***排序***&#x200B;和&#x200B;***事件标准数据模型***&#x200B;的更多信息，请参阅&#x200B;**[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。

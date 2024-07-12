@@ -17,10 +17,10 @@ ht-degree: 4%
 
 ## 目标 {#objective}
 
-Screens复制代理负责将命令数据(例如 *用户*， *密码*， *rebootSchedule*， *maxNumberOfLogFilesToKeep*、以及更多此类值（从发布到创作）。 必须配置此代理，以便作者可以显示设备ping。
+Screens复制代理负责将命令数据（如&#x200B;*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep*&#x200B;以及更多此类值）从发布到创作。 必须配置此代理，以便作者可以显示设备ping。
 
 >[!NOTE]
->要了解有关Screens复制代理的更多信息，请参阅 [Screens复制代理和命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>要了解有关Screens复制代理的更多信息，请参阅[Screens复制代理和命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
 
 如果要完成Screens复制代理的配置，请完成以下两个部分：
 
@@ -29,64 +29,64 @@ Screens复制代理负责将命令数据(例如 *用户*， *密码*， *rebootS
 
 ## 启用用户和更新密码 {#enable-users}
 
-执行以下步骤以启用用户并更新密码 `screens-receiver-user`：
+请按照以下步骤启用用户并更新`screens-receiver-user`的密码：
 
 >[!NOTE]
->出于安全原因，建议避免对使用管理员密码 `screens-receiver-user`.
+>出于安全原因，建议避免使用`screens-receiver-user`的管理密码。
 
 1. 导航到您的AEM Author实例。
 
-1. 单击“工具”> **安全性** > **用户**.
+1. 单击“工具”>“**安全性**”>“**用户**”。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
-1. 搜索 **`screens-receiver-user`**.
+1. 搜索&#x200B;**`screens-receiver-user`**。
 
-1. 单击 **`screens-receiver-user`** 并单击 **启用** 从操作栏中。
+1. 单击&#x200B;**`screens-receiver-user`**，然后单击操作栏中的&#x200B;**启用**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. 单击 **确定** 以确认。
+1. 单击&#x200B;**确定**&#x200B;确认。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
-   启用用户后，您会看到 **`screens-receiver-user`** 作为 **已启用** 在 **状态** 字段。
+   启用该用户后，您会在&#x200B;**状态**&#x200B;字段下看到&#x200B;**`screens-receiver-user`**&#x200B;为&#x200B;**已启用**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. 单击 **`screens-receiver-user`** 并单击 **属性** 从操作栏中。
+1. 单击&#x200B;**`screens-receiver-user`**，然后单击操作栏中的&#x200B;**属性**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. 单击 **更改密码** 下 **帐户设置** 从 **详细信息** 选项卡，如下图所示。
+1. 从&#x200B;**详细信息**&#x200B;选项卡中单击&#x200B;**帐户设置**&#x200B;下的&#x200B;**更改密码**，如下图所示。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. 在 **更改密码** 对话框，然后单击 **保存**.
+1. 在&#x200B;**更改密码**&#x200B;对话框中输入新密码，然后单击&#x200B;**保存**。
 
    >[!NOTE]
-   >在中输入现有的管理员用户密码 **您的密码** 字段。
+   >在&#x200B;**您的密码**&#x200B;字段中输入现有的管理员用户密码。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
 1. 单击“**保存并关闭**”。
 
-1. 单击 **`screens-receiver-user`** 并单击 **激活** 从操作栏中。
+1. 单击&#x200B;**`screens-receiver-user`**，然后单击操作栏中的&#x200B;**激活**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. 单击 **确定** 以确认。
+1. 单击&#x200B;**确定**&#x200B;确认。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. 单击 **`screens-receiver-user`** 并单击 **禁用** 从操作栏中。
+1. 单击&#x200B;**`screens-receiver-user`**，然后单击操作栏中的&#x200B;**禁用**。
 
    >[!IMPORTANT]
-   > 正在禁用 **`screens-receiver-user`** 仅从创作实例中禁用此用户，并且发布实例中的所有用户保持活动状态。 请勿单击 **取消激活** （从操作栏中），因为停用也会将用户从“发布”实例中删除。
+   > 禁用&#x200B;**`screens-receiver-user`**&#x200B;只会从创作实例中禁用此用户，并且发布实例中的所有用户都保持活动状态。 请勿在操作栏中单击&#x200B;**取消激活**，因为取消激活也会从发布实例中删除用户。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. 单击 **确定** 以确认。
+1. 单击&#x200B;**确定**&#x200B;确认。
 
 ## 更新Screens复制代理的设置 {#replicate-agent}
 
@@ -96,37 +96,37 @@ Screens复制代理负责将命令数据(例如 *用户*， *密码*， *rebootS
 >在所有现有AEM Screens复制代理上完成以下步骤。
 
 1. 导航到您的AEM实例。
-1. 单击“工具”> **部署** > **复制**.
+1. 单击“工具”>“**部署”**>“**复制”**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. 单击 **作者代理**.
+1. 单击作者上的&#x200B;**代理**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
 1. 搜索创作实例上的所有AEM Screens复制代理，然后单击链接，如下图所示。
 
    >[!NOTE]
-   >搜索所有AEM Screens复制代理。 Screens复制代理名称包含字母 **S** 在标题中。
+   >搜索所有AEM Screens复制代理。 Screens复制代理名称在标题中包含字母&#x200B;**S**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. 单击 **编辑**.
+1. 单击&#x200B;**编辑**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
-1. Check **已启用** 从 **设置** 选项卡。
+1. 从&#x200B;**设置**&#x200B;选项卡中选中&#x200B;**已启用**。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. 导航到 **传输** 选项卡 **代理设置** 对话框并更新 **用户** 到 **`screens-receiver-user`** 并输入您在步骤(8)之前设置的相同密码 [启用用户和更新密码](#enable-users).
+1. 从&#x200B;**代理设置**&#x200B;对话框中导航到&#x200B;**传输**&#x200B;选项卡，并将&#x200B;**用户**&#x200B;更新为&#x200B;**`screens-receiver-user`**，并输入您在[启用用户和更新密码](#enable-users)的步骤(8)中之前设置的相同密码。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
 1. 单击&#x200B;**确定**。
 
-1. 完成上述步骤后，单击 **测试连接** 以验证连接。
+1. 完成上述步骤后，单击&#x200B;**测试连接**&#x200B;以验证连接。
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   如果连接验证成功，则表示您已完成Screens复制代理的配置。
+   如果连接验证成功，则表示您已经完成Screens复制代理的配置。

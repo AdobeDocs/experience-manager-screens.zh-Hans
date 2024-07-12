@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 先决条件 {#prereqs}
 
-在执行以下步骤以在渠道中启用定位之前，请了解 [在AEM Screens中配置的关键术语](configuring-context-hub.md) 了解AEM Screens中的ContextHub和定位时需要使用。
+在执行以下步骤以在渠道中启用定位之前，请了解AEM Screens中的配置所需的[关键术语](configuring-context-hub.md)，以了解AEM Screens中的ContextHub和定位。
 
 >[!IMPORTANT]
 >
@@ -43,17 +43,17 @@ ht-degree: 1%
 
 执行以下步骤以在渠道中启用定位。
 
-1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用启用定位 **DataDrivenRetail** *（序列渠道）* 在AEM Screens渠道中创建。
+1. 导航到某个AEM Screens渠道。 以下步骤演示了如何使用在AEM Screens渠道中创建的&#x200B;**DataDrivenRetail** *（序列渠道）*&#x200B;启用定位。
 
-1. 单击渠道 **DataDrivenRetail** 并单击 **属性** 从操作栏中。
+1. 单击渠道&#x200B;**DataDrivenRetail**，然后单击操作栏中的&#x200B;**属性**。
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. 单击 **个性化** 选项卡，以便您可以设置ContextHub配置并单击ContextHub和区段路径。
+1. 单击&#x200B;**Personalization**&#x200B;选项卡，以便您可以设置ContextHub配置，然后单击ContextHub和区段路径。
 
-   1. 单击 **ContextHub路径** 作为 **库** > **设置** > **云设置** > **默认** > **ContextHub配置** 并单击 **单击**.
+   1. 单击&#x200B;**ContextHub路径**&#x200B;作为&#x200B;**libs** > **设置** > **cloudsettings** > **默认值** > **ContextHub配置**，然后单击&#x200B;**单击**。
 
-   1. 单击 **区段路径** 作为 **会议** > **`We.Retail`** > **设置** > **wcm** > **区段** 并单击 **单击**.
+   1. 单击&#x200B;**区段路径**&#x200B;作为&#x200B;**conf** > **`We.Retail`** > **设置** > **wcm** > **区段**，然后单击&#x200B;**单击**。
 
    1. 单击“**保存并关闭**”。
 
@@ -63,22 +63,22 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. 导航并单击 **DataDrivenRetail** 从 **DataDrivenAssets** > **渠道** 并单击 **编辑** 从操作栏中。 将资产拖放到渠道编辑器中。
+1. 导航并单击&#x200B;**DataDrivenAssets** > **渠道**&#x200B;中的&#x200B;**DataDrivenRetail**，然后单击操作栏中的&#x200B;**编辑**。 将资产拖放到渠道编辑器中。
 
    >[!NOTE]
    >
-   >如果一切设置正确，您会看到 **定位** 选项，如下图所示。
+   >如果一切设置正确，您会在编辑器的下拉列表中看到&#x200B;**定位**&#x200B;选项，如下图所示。
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. 单击 **定位**.
+1. 单击&#x200B;**定位**。
 
-1. 单击 **品牌** 和 **活动** 从下拉菜单中单击 **开始定位**.
+1. 从下拉菜单中单击&#x200B;**品牌**&#x200B;和&#x200B;**活动**，然后单击&#x200B;**开始定位**。
 
 ### 了解详情：示例用例 {#learn-more-example-use-cases}
 
 为AEM Screens项目配置ContextHub后，您可以按照不同的用例来了解数据触发的资源如何在不同的行业中发挥重要作用：
 
 1. **[零售库存目标激活](retail-inventory-activation.md)**
-1. **[行程中心温度激活](local-temperature-activation.md)**
-1. **[Hospitality Reservation Activation](hospitality-reservation-activation.md)**
+1. **[旅行中心温度激活](local-temperature-activation.md)**
+1. **[酒店预订激活](hospitality-reservation-activation.md)**

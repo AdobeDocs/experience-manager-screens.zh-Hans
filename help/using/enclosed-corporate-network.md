@@ -37,7 +37,7 @@ ht-degree: 0%
    >**疑难解答提示**
    >如果AEM Screens未正确连接并且未显示预期的内容：
    >
-   >1. 如果有任何相关限制，请检查Internet路由器防火墙 `TCP/IP Port 80/443`.
+   >1. 如果对`TCP/IP Port 80/443`有任何限制，请检查Internet路由器防火墙。
    >1. 确保允许使用所有必需的端口。
 
 ## 设置封闭式公司网络 {#requirements-enclosed-networks}
@@ -50,7 +50,7 @@ ht-degree: 0%
 ### 广域网 {#wan-connection}
 
 除了网络可达性之外，Internet连接的性能还必须提供足够的带宽来平稳地运行AEM Screens内容更新。
-*足够的带宽* 取决于连接的AEM Screens的数量。 它还取决于网络中其他消费者的使用情况，如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络。
+*足够的带宽*&#x200B;取决于连接的AEM Screens的数量。 它还取决于网络中其他消费者的使用情况，如智能手机、平板电脑、收银机、计算机或来宾Wi-Fi网络。
 
 >[!NOTE]
 >
@@ -69,10 +69,10 @@ ht-degree: 0%
 公司网络连接了多个设备，被分成多个子网，并且拥有冗余或多路Internet连接，为数千个并发访问提供足够的性能。
 此架构已得到简化，大多数情况下都适合客户端可用的环境。
 
-如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议使用如下现代Wi-Fi标准 `IEEE 802.11g` 最起码。 此标准支持高达54 Mbps的连接。 任何 *较新* 标准赞 `802.11h-n` 质量更好。 如果需要使用Wi-Fi中继器，Adobe推荐使用Google Nest Mesh Wi-Fi等网格Wi-Fi接入点技术或类似技术。
+如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议至少使用`IEEE 802.11g`等现代Wi-Fi标准。 此标准支持高达54 Mbps的连接。 任何&#x200B;*较新的*&#x200B;标准（如`802.11h-n`）的质量更好。 如果需要使用Wi-Fi中继器，Adobe推荐使用Google Nest Mesh Wi-Fi等网格Wi-Fi接入点技术或类似技术。
 其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
 
-## 正在下载媒体和资产 {#download}
+## 正在下载Media和Assets {#download}
 
 AEM Screens为数字标牌用户提供了显着的优势。 它下载并在本地保存所有必需的媒体文件，如图像和视频。 当有新内容需要显示在特定显示器上时，就会出现主要的网络流量。
 

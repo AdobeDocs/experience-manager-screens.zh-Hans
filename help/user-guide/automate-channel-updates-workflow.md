@@ -1,6 +1,6 @@
 ---
 title: 使用工作流自动更新AEM Screens渠道的资源
-description: 了解如何创建工作流以自动处理上传到Adobe Experience Manager的资源并动态将其分配到Screens渠道。
+description: 了解如何创建工作流以自动处理上传到Adobe Experience Manager的资源并将其动态分配到Screens渠道。
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: developing
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 使用工作流自动更新AEM Screens渠道的资源 {#automate-channel-updates-workflow}
 
-了解如何创建工作流以自动处理上传到Adobe Experience Manager的资源并动态将其分配到Screens渠道。 在此示例中，当将图像添加到特定文件夹时，会触发工作流。 该工作流应用动态文本叠加（水印流程）并将图像分配给Screens渠道。 从本示例中汲取的经验教训可以应用于各种自动化场景。
+了解如何创建工作流以自动处理上传到Adobe Experience Manager的资源并将其动态分配到Screens渠道。 在此示例中，当将图像添加到特定文件夹时，会触发工作流。 该工作流应用动态文本叠加（水印流程）并将图像分配给Screens渠道。 从本示例中汲取的经验教训可以应用于各种自动化场景。
 
 ## 先决条件 {#prerequisites}
 
@@ -38,19 +38,19 @@ ht-degree: 0%
 
 ## 工作流模型 {#workflow-model}
 
-已创建自定义文件夹元数据架构，以捕获应添加图像的目标Screens渠道。 可使用两个工作流模型来自动处理资源。 此 **DAM更新资产** 编辑工作流可调用自定义工作流**Screens演示资产处理，该工作流可检查资产的容器文件夹以确定目标Screens渠道。 此 **Screens演示资产处理** 工作流还负责将水印应用到图像。
+已创建自定义文件夹元数据架构，以捕获应添加图像的目标Screens渠道。 可使用两个工作流模型来自动处理资源。 编辑&#x200B;**DAM更新资产**&#x200B;工作流以调用自定义工作流**Screens演示资产处理，该工作流会检查资产的容器文件夹以确定目标Screens渠道。 **Screens演示资产处理**&#x200B;工作流还负责将水印应用于图像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
 ## 自定义工作流流程步骤 {#workflow-process-step}
 
-Inspect中用到的两个自定义工作流流程步骤 **Screens演示资产处理** 工作流。
+Inspect两个自定义工作流处理步骤，它们用作&#x200B;**Screens演示资产处理**&#x200B;工作流的一部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-此 `AssetProcessingCheck.java` 自定义工作流是对工作流的有效负载执行检查的进程。 它可确定有效负载是否为资源，以及包含文件夹是否配置为指向AEM Screens渠道。 如果满足要求，则流程步骤将保留两个属性： `screen-channel` 和 `asset-path`，更改为工作流的元数据。
+`AssetProcessingCheck.java`自定义工作流是对工作流的有效负荷执行检查的进程。 它可确定有效负载是否为资源，以及包含文件夹是否配置为指向AEM Screens渠道。 如果满足要求，则流程步骤会将两个属性`screen-channel`和`asset-path`保留到工作流的元数据中。
 
-此 `AddAssetToChannel.java` 自定义工作流是一个流程步骤，可检查工作流的元数据并更新AEM Screens渠道以引用图像。
+`AddAssetToChannel.java`自定义工作流是一个流程步骤，用于检查工作流的元数据并更新AEM Screens渠道以引用图像。
 
 1. 下载源代码： **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. 使用您喜爱的IDE解压缩并查看代码。

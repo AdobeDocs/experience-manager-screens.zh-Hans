@@ -16,29 +16,29 @@ ht-degree: 0%
 
 Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 
-以下页面提供了为AEM Screens项目配置Dispatcher的准则。
+以下页面提供了为AEM Screens项目配置Dispatcher的指南。
 
 >[!NOTE]
 >
 >如果Dispatcher可用，可以通过在Dispatcher规则中进行筛选来阻止与注册servlet的连接。
 >
->如果没有Dispatcher，请在OSGi组件列表中禁用注册servlet。
+>如果不存在Dispatcher，请在OSGi组件列表中禁用注册servlet。
 
 在为AEM Screens项目配置Dispatcher之前，请先了解Dispatcher。
-请参阅 [配置Dispatch](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) 以了解更多详细信息。
+有关详细信息，请参阅[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)。
 
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->以下Dispatcher配置仅适用于清单版本v2。 请参阅 [清单版本v3的Dispatcher配置](#configuring-dispatcherv3) 适用于清单版本v3。
+>以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3](#configuring-dispatcherv3)的[Dispatcher配置以了解清单版本v3。
 
 AEM Screens播放器或设备使用经过身份验证的会话来访问发布实例中的资源。 当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器或设备的所有请求有效。
 
-按照以下步骤为AEM Screens项目配置Dispatcher 。
+请按照以下步骤为AEM Screens项目配置Dispatcher。
 
 ### 启用粘性会话 {#enable-sticky-session}
 
-如果要使用由单个Dispatcher提前的多个发布实例，请更新 `dispatcher.any` 文件以启用粘性。
+如果要使用单个Dispatcher作为前导的多个发布实例，请更新`dispatcher.any`文件以启用粘性。
 
 ```xml
 /stickyConnections {
@@ -49,21 +49,21 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
  }
 ```
 
-如果您有一个发布实例由一个Dispatcher承载，则在Dispatcher上启用粘性没有帮助，因为负载平衡器可能会将每个请求发送到Dispatcher。 在这种情况下，请单击 **启用** 在 **粘性** 字段以将其在负载平衡器级别启用，如下图所示：
+如果您有一个发布实例由一个Dispatcher承载，则在Dispatcher中启用粘性没有帮助，因为负载平衡器可能会将每个请求发送到Dispatcher。 在这种情况下，请单击&#x200B;**粘性**&#x200B;字段中的&#x200B;**启用**&#x200B;以在负载平衡器级别将其打开，如下图所示：
 
 ![图像](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-例如，如果您使用的是AWS ALB，请参阅 [应用程序负载平衡器的目标组](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) 用于在ALB级别启用粘性。 启用一天的粘性。
+例如，如果您使用AWS ALB，请参阅[应用程序负载平衡器的目标组](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html)以在ALB级别启用粘性。 启用一天的粘性。
 
 ### 步骤1：配置客户端标头 {#step-configuring-client-headers}
 
-将以下内容添加到 `/clientheaders`部分：
+将以下内容添加到`/clientheaders`节：
 
-**X-Request-With**
+**X-Requested-With**
 
 **X-SET-HEARTBEAT**
 
-**X请求命令**
+**X-REQUEST-COMMAND**
 
 ### 步骤2：配置Screens过滤器 {#step-configure-screens-filters}
 
@@ -90,14 +90,14 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
 
 ### 步骤3：禁用Dispatcher缓存 {#step-disabling-dispatcher-cache}
 
-禁用的Dispatcher缓存 ***/content/screens路径***.
+禁用&#x200B;***/content/screens路径***&#x200B;的Dispatcher缓存。
 
-Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存播放器请求的 `channels/assets`.
+Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存`channels/assets`的任何screens播放器请求。
 
-要为资产启用缓存，以便从Dispatcher缓存中提供资产，请执行以下操作：
+要为资源启用缓存，以便从Dispatcher缓存中提供资源，请执行以下操作：
 
-* 添加 `/allowAuthorization 1` 在 `/cache` 部分
-* 将以下规则添加到 `/rules` 部分 `/cache`
+* 在`/cache`部分添加`/allowAuthorization 1`
+* 将以下规则添加到`/cache`的`/rules`部分
 
 ```xml
 /0000
@@ -129,15 +129,15 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
 
 ## 为清单版本v3配置Dispatcher{#configuring-dispatcherv3}
 
-确保在发布实例前面的调度程序中允许这些过滤器和缓存规则以便Screens正常工作。
+确保在面向发布实例的Dispatcher中允许这些过滤器和缓存规则，以便Screens能够正常运行。
 
 ### 清单版本v3的先决条件{#prerequisites3}
 
 在为AEM Screens配置Dispatcher（清单版本v3）之前，请遵循以下两个先决条件：
 
-* 确保您使用 `v3 manifests`. 导航到 `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` 并确保 `Enable ContentSync Cache` 未选中。
+* 确保您使用的是`v3 manifests`。 导航到`https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`并确保取消选中`Enable ContentSync Cache`。
 
-* 确保Dispatcher刷新代理配置在 `/etc/replication/agents.publish/dispatcher1useast1Agent` 在发布实例中。
+* 确保在发布实例中的`/etc/replication/agents.publish/dispatcher1useast1Agent`处配置Dispatcher刷新代理。
 
   ![图像](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -171,14 +171,14 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
 
 ### 缓存规则 {#cache-rules-v3}
 
-* 添加 `/allowAuthorized "1"` 到 `/cache` 中的部分 `publish_farm.any`.
+* 将`/allowAuthorized "1"`添加到`publish_farm.any`中的`/cache`分区。
 
 * 所有AEM Screens播放器都使用经过身份验证的会话连接到AEM（创作/发布）。 开箱即用的Dispatcher不会缓存这些URL，因此您应该启用它们。
 
-* 添加 `statfileslevel "10"` 到 `/cache` 中的部分 `publish_farm.any`
+* 将`statfileslevel "10"`添加到`publish_farm.any`中的`/cache`分区
 此规则支持从缓存docroot中缓存最多十个级别，并在发布内容时相应地使其失效，而不是使所有内容失效。 您可以根据内容结构的深度来更改此级别
 
-* 将以下内容添加到 `/invalidate section in publish_farm.any`
+* 将以下内容添加到`/invalidate section in publish_farm.any`
 
   ```
   /0003 {
@@ -187,7 +187,7 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
   }
   ```
 
-* 将以下规则添加到 `/rules` 中的部分 `/cache` 在 `publish_farm.any` 或包含在 `publish_farm.any`：
+* 将以下规则添加到`publish_farm.any`中`/cache`的`/rules`部分或从`publish_farm.any`包含的文件中：
 
   ```
   ## Don't cache CSRF login tokens
@@ -231,9 +231,9 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
 
 ### 为segments.js添加失效规则 {#invalidsegmentjs}
 
-如果您要在AEM Screens中使用定向促销活动，则 `segments.js file` 当您在AEM上添加和发布新区段时，由Dispatcher提供的服务必须失效。 如果没有此失效规则，新的定向营销活动将无法在AEM Screens Player上正常运行（它会显示默认内容）。
+如果您在AEM Screens中使用目标营销活动，则在AEM中添加和发布新区段时，由Dispatcher提供的`segments.js file`必须失效。 如果没有此失效规则，新的定向营销活动将无法在AEM Screens Player上正常运行（它会显示默认内容）。
 
-* 添加失效规则到 `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. 以下是要添加的规则：
+* 向`/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`添加失效规则。 以下是要添加的规则：
 
 ```
     /invalidate {
@@ -246,4 +246,4 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
                 }
 ```
 
-* 此规则确保 `segments.js` 文件失效，修改时获取最新文件。
+* 此规则确保`segments.js`文件失效，并在修改时获取最新文件。

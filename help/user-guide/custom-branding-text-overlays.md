@@ -21,7 +21,7 @@ ht-degree: 1%
 
 请按照以下步骤为文本叠加创建自定义品牌和样式：
 
-1. 创建一个AEM Screens项目。 此示例通过创建名为的项目来展示功能 **`customstyle`** 和一个标题为 **DemoBrand**，如下图所示。
+1. 创建一个AEM Screens项目。 此示例通过创建名为&#x200B;**`customstyle`**&#x200B;的项目和名为&#x200B;**DemoBrand**&#x200B;的渠道来展示功能，如下图所示。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -30,15 +30,15 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >要了解如何在渠道编辑器中向资源添加文本叠加，请参阅 [文本叠加](/help/user-guide/text-overlay.md).
+   >要了解如何在渠道编辑器中向资产添加文本叠加，请参阅[文本叠加](/help/user-guide/text-overlay.md)。
 
-1. 从AEM实例导航到CRXDE Lite>工具> **CRXDE Lite**.
+1. 从AEM实例导航到CRXDE Lite> tools > **CRXDE Lite**。
 
-1. 在中创建自定义设计 `/apps/settings/wcm/designs/<your-project>/`例如，在本例中，导航到 `/apps/settings/wcm/designs/customstyle/`
+1. 在`/apps/settings/wcm/designs/<your-project>/`中创建自定义设计，例如，在此例中，导航到`/apps/settings/wcm/designs/customstyle/`
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. 创建 *static.css* 并设置以下css规则。 另显示为css规则下图的示例。
+1. 创建&#x200B;*static.css*&#x200B;文件并设置以下css规则。 另显示为css规则下图的示例。
 
    ```shell
     //global styles
@@ -65,56 +65,56 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. 将路径复制到项目，在本例中，路径为 `/apps/settings/wcm/designs/customstyle`.
+1. 将路径复制到您的项目，在本例中，路径为`/apps/settings/wcm/designs/customstyle`。
 
-1. 导航到标题为 **DemoBrand** (在步骤(1)中创建)并单击 **属性** 从操作栏中选择渠道。
+1. 导航到标题为&#x200B;**DemoBrand**(在步骤(1)中创建)的频道，然后在选择该频道后，从操作栏中单击&#x200B;**属性**。
 
-1. 导航至 **高级** 制表符并检查 **设计** 字段。
+1. 导航到&#x200B;**高级**&#x200B;选项卡并检查&#x200B;**设计**字段。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >默认情况下， **设计** 字段显示指向libs文件夹中设计的路径。
+   >默认情况下，**设计**&#x200B;字段显示指向libs文件夹中设计的路径。
 
-1. 更新 **设计** 包含项目文件夹路径的字段。 在这种情况下，它是 `/apps/settings/wcm/designs/customstyle`.
+1. 使用项目文件夹的路径更新&#x200B;**设计**&#x200B;字段。 在这种情况下，它是`/apps/settings/wcm/designs/customstyle`。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. 单击 **保存并关闭** 以更新设计路径。
+1. 单击&#x200B;**保存并关闭**&#x200B;以更新设计路径。
 
    >[!IMPORTANT]
    >您可以选择覆盖现有Screens模板，以默认注入您自己的设计或完全创建您自己的模板。 有关更多详细信息，请参阅以下步骤。
 
-1. 要叠加现有Screens模板以默认注入您自己的设计，请执行以下操作：
+1. 要叠加现有Screens模板，以便在默认情况下注入您自己的设计，请执行以下操作：
 
-   1. 叠加 `/libs/screens/core/templates/sequencechannel` 在 `/apps/screens/core/templates/sequencechannel`.
-   1. 修改 *`cq:designPath`* 中的属性 `/apps/screens/core/templates/sequencechannel/jcr:content` 因此它指向了新设计。
+   1. 在`/apps/screens/core/templates/sequencechannel`中叠加`/libs/screens/core/templates/sequencechannel`。
+   1. 修改`/apps/screens/core/templates/sequencechannel/jcr:content`中的&#x200B;*`cq:designPath`*&#x200B;属性，使其指向新设计。
 
 1. 要创建您自己的模板，请执行以下操作：
-   1. 复制 `/libs/screens/core/templates/sequencechannel` 到 `/apps/customstyle/templates/styled-sequencechannel`.
-   1. 修改 *`cq:designPath`* 中的属性 `/apps/customstyle/templates/styled-sequencechannel/jcr:content` 因此它指向了新设计。
+   1. 将`/libs/screens/core/templates/sequencechannel`复制到`/apps/customstyle/templates/styled-sequencechannel`。
+   1. 修改`/apps/customstyle/templates/styled-sequencechannel/jcr:content`中的&#x200B;*`cq:designPath`*&#x200B;属性，使其指向新设计。
 
 
 ### 更新ACL {#updating-acls}
 
 更新这些设计的ACL，以便播放器可以下载。
 
-1. 导航到用户管理员，然后选择 `screens-<project>-devices group` 并为其授予对自定义设计路径的读取权限。
+1. 导航到用户管理员，然后选择`screens-<project>-devices group`并为其授予对自定义设计路径的读取权限。
 
-1. 提供 `screens-<project>-administrators` 组读取和修改此路径的权限。
+1. 为此路径提供`screens-<project>-administrators`组读取和修改权限。
 
 ## 查看结果 {#viewing-the-result}
 
-完成上述步骤后，您可以更新 *statis.css* 文件来源 **CRXDE Lite** 因此，您可以查看已添加到资产的文本叠加图更新。
+完成上述步骤后，您可以从&#x200B;**CRXDE Lite**&#x200B;中更新&#x200B;*statis.css*&#x200B;文件，从而查看已添加到资源的文本覆盖的更新。
 
 请按照以下步骤查看更新后的设计以文本覆盖：
 
-1. AEM Screens导航到标题为 **`customstyle`** > **渠道** > **DemoBrand**. 单击渠道，然后单击 **编辑** 从操作栏中。
+1. 导航到标题为&#x200B;**`customstyle`** > **渠道** > **演示品牌**&#x200B;的AEM Screens项目。 单击频道，然后单击操作栏中的&#x200B;**编辑**。
 
-1. 由于您现在已将该设计添加到 **设计** 字段，如上所述，单击 **预览** 用于查看带文本覆盖的图像上的当前样式。
+1. 由于您现在已将设计添加到&#x200B;**设计**&#x200B;字段，如上所述，请单击&#x200B;**预览**&#x200B;以查看带有文本覆盖的图像上的当前样式。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. 导航到 *static.css* 文件，并添加CRXDE Lite，例如 `font-family: "Lucida Console", Courier, monospace;` 添加到此文件，如下所示。
+1. 导航到CRXDE Lite为&#x200B;*static.css*&#x200B;的文件，并将字体（如`font-family: "Lucida Console", Courier, monospace;`）添加到该文件中，如下所示。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. 此外，您还可以从以下位置删除最后两个代码块： *static.css* 文件以移除文本覆盖周围的盒装样式。
+1. 此外，您可以从&#x200B;*static.css*&#x200B;文件中删除最后两个代码块，以删除文本覆盖周围的盒装样式。
 
 ![图像](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 环境 [!UICONTROL AEM Screens]
+title: '[!UICONTROL AEM Screens]的环境'
 description: 了解有关AEM Screens项目环境的更多信息。
 source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 环境 {#environments}
 
-提前确定客户端具有和期望您使用的AEM环境，两者都用于 *开发* 和 *部署*.
+提前确定客户端具有并期望您用于&#x200B;*开发*&#x200B;和&#x200B;*部署*&#x200B;的AEM环境。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 1. 为您的Adobe Experience Manager版本运行以下包的最新版本：
 
    * **AEM Service Pack**
-   * **屏幕功能包**
+   * **Screens功能包**
    * **AEM累积修补程序包**
 
 1. 确定所需的任何开发包（例如WCM核心组件）或第三方工具包（例如SAP Hybris）。

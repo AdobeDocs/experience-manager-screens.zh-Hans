@@ -26,19 +26,19 @@ ht-degree: 0%
 
 要观看视频，您需要满足以下条件：
 
-1. **AEM 6.4** 或**AEM 6.3*+ **Screens功能包1**
+1. **AEM 6.4**&#x200B;或**AEM 6.3*+ **Screens Feature Pack 1**
 
 1. Screens播放器
 
-要下载AEM Screens Player，请单击 [此处](https://download.macromedia.com/screens/). 此外，AEM Screens在Google Play Store中提供。 <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+要下载AEM Screens Player，请单击[此处](https://download.macromedia.com/screens/)。 此外，AEM Screens在Google Play Store中提供。<!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
-以下视频详细介绍如何创建新渠道、创作新内容以及将渠道添加到可重用计划。 它大致上跟随在上半年 [Screens Kickstart指南](kickstart-for-aem-screens.md).
+以下视频详细介绍如何创建新渠道、创作新内容以及将渠道添加到可重用计划。 大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的前半部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
 
 ## 显示分配和设备注册 — 第2部分 {#display-and-device-pt2}
 
-以下视频演示了位置、显示和设备配置的创建。 该视频还显示了注册设备和将设备分配给显示器的步骤。 大致上来说，这跟着 [Screens Kickstart指南](kickstart-for-aem-screens.md).
+以下视频演示了位置、显示和设备配置的创建。 该视频还显示了注册设备和将设备分配给显示器的步骤。 它大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的后半部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
 

@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # 实施Cloud Player {#implementing-cloud-player}
 
-AEM Screens传统上为各种平台(包括ChromeOS、Windows、Android™和 `Tizen`. 但是，为了响应用户不断变化的需求，Adobe引入了一种创新的解决方案，即AEM Screens Cloud Player。
+AEM Screens传统上为各种平台(包括ChromeOS、Windows、Android™和`Tizen`)提供独特的本机播放器应用程序。 但是，为了响应用户不断变化的需求，Adobe引入了一种创新的解决方案，即AEM Screens Cloud Player。
 
 Cloud Player与Adobe以前的本机应用程序有很大不同。 它是一个在服务器上托管的渐进式Web应用程序(PWA)。 这种变革性的方法为客户提供了一个直接在Web浏览器中运行的独立于平台的播放器。
 
-访问Cloud Player只需访问 `https://player.adobescreens.com`. 用户可以将其安装在设备上，而不管平台如何，并享受无缝的数字标牌体验。 Cloud Player的兼容性取决于支持PWA的现代浏览器的存在，从而确保跨各种设备的一致性能。 告别手动更新，向自动提供修复和功能的播放器问好，确保您随时都能拥有最新功能。 向基于PWA的Cloud Player的转变标志着Adobe数字标牌产品的一个令人振奋的进步，使其比以往任何时候都更易于访问、更通用、更便于使用。
+访问Cloud Player只需访问`https://player.adobescreens.com`即可。 用户可以将其安装在设备上，而不管平台如何，并享受无缝的数字标牌体验。 Cloud Player的兼容性取决于支持PWA的现代浏览器的存在，从而确保跨各种设备的一致性能。 告别手动更新，向自动提供修复和功能的播放器问好，确保您随时都能拥有最新功能。 向基于PWA的Cloud Player的转变标志着Adobe数字标牌产品的一个令人振奋的进步，使其比以往任何时候都更易于访问、更通用、更便于使用。
 
 本节介绍如何实施云播放器。
 
@@ -33,7 +33,7 @@ Cloud Player与Adobe以前的本机应用程序有很大不同。 它是一个�
 
 Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏览器的平台都可以通过执行以下步骤来运行云播放器应用程序：
 
-1. 打开浏览器并输入 [云播放器URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html) 地址栏中。
+1. 打开浏览器，并在地址栏中输入[云播放器URL](https://player.adobescreens.com/content/dam/universal-player/firmware.html)。
 1. 浏览器会检查Cloud Player是否可安装，然后在地址栏中显示安装图标。
 
    ![图像](/help/user-guide/assets/cloud-player-install.png)
@@ -61,30 +61,30 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 1. 您可以按照以下步骤将相同的配置应用到所有设备：
 
    1. 将config.json托管在服务器上，使其可访问，例如： `https://<config_server_host>/config.json`
-   1. 要安装云播放器并应用托管的配置，请使用云播放器URL，例如： `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. Cloud Player应用程序在根目录中查找config.json &lt;config_server_host>，然后解析config.json以获取自定义配置并应用这些配置。
+   1. 要安装云播放器并应用托管配置，请使用如下云播放器URL： `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
+   1. Cloud Player应用程序将在&lt;config_server_host>的根目录中查找config.json，然后解析config.json以获取自定义配置并应用这些配置。
    1. 这些配置将在播放器的每次重新加载时应用。
 
-## Chrome操作系统上的批量配置 {#bulk-provisioning-chrome}
+## 在Chrome OS上批量配置 {#bulk-provisioning-chrome}
 
-详细了解Chrome操作系统上的批量配置。 请参阅 [在Chrome操作系统上安装Cloud Player](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。 &lt;！— `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## AEM实例上所需的配置 {#bulk-provisioning-config-aem}
 
 根据AEM实例的类型，单击以下指南之一以启用AEM和Cloud Player上的CORS ：
 
-* [AEM On-Premises/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
 >
-## Google弃用Chrome应用程序
+## Chrome应用程序已被Google弃用
 >
 1. Chrome操作系统硬件上的Chrome应用程序：
 >
-Google一直在积极弃用Chrome应用程序而支持PWA应用程序，计划在2025年1月之前进行迁移。 因此，Chrome操作系统上的AEM Screens Player应用程序将无法根据共享时间线正常运行。 Adobe敦促当前在生产中使用Chrome播放器的用户计划转换到Screens云播放器。
+Google一直在积极弃用Chrome应用程序而支持PWA应用程序，计划在2025年1月之前进行迁移。 因此，Chrome操作系统上的AEM Screens Player应用程序将无法根据共享时间线正常运行。 Adobe敦促当前在生产中使用Chrome Player的用户计划迁移到Screens Cloud Player。
 >
 1. Mac、Windows和Linux®上的Chrome扩展播放器：
 >
@@ -115,4 +115,4 @@ fetch(externalUrl, {
 
 ## 反馈
 
-Adobe重视您的反馈。 通过此内容与我们分享您的想法 [表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).
+Adobe重视您的反馈。 通过此[表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u)与我们分享您的想法。

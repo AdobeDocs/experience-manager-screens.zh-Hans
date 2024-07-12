@@ -26,57 +26,57 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在开始本教程之前，建议先完成本教程： [为AEM Screens开发自定义组件](developing-custom-component-tutorial-develop.md).
+>在开始本教程之前，建议完成以下教程：[开发AEM Screens的自定义组件](developing-custom-component-tutorial-develop.md)。
 
 ![自定义海报组件](assets/2018-05-07_at_4_09pm.png)
 
-A `Custom Poster` 组件通过扩展图像组件而创建。
+通过扩展图像组件创建了`Custom Poster`组件。
 
 ## 先决条件 {#prerequisites}
 
 要完成本教程，您需要满足以下条件：
 
-1. AEM 6.5 +最新Screens功能包
+1. AEM 6.5 +最新的Screens功能包
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本地开发环境
 
-使用CRXDE-Lite执行教程步骤和屏幕截图。 [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) 或 [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE也可用于完成本教程。 有关使用IDE的详细信息 [使用AEM进行开发可在此处找到](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+使用CRXDE-Lite执行教程步骤和屏幕截图。 还可以使用[Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE来完成教程。 有关使用IDE [使用AEM进行开发的更多信息，请访问此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 ## 项目设置 {#project-setup}
 
-屏幕项目的源代码通常作为多模块Maven项目进行管理。 为了加快教程，使用预生成了一个项目 [AEM项目原型13](https://github.com/adobe/aem-project-archetype). 更多详细信息 [可在此处找到使用Maven AEM项目原型创建项目的内容](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
-1. 使用下载并安装以下包 **CRX包管理** `http://localhost:4502/crx/packmgr/index.jsp)r:`
+1. 使用&#x200B;**CRX package manager** `http://localhost:4502/crx/packmgr/index.jsp)r:`下载并安装以下包
 
 [获取文件](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [获取文件](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **（可选）** 如果使用Eclipse或其他IDE，请下载以下源包。 使用Maven命令将项目部署到本地AEM实例：
+   **或者，**&#x200B;如果正在使用Eclipse或其他IDE，请下载以下源包。 使用Maven命令将项目部署到本地AEM实例：
 
    **`mvn -PautoInstallPackage clean install`**
 
-   SRC开始屏幕 `We.Retail` 运行项目
+   SRC启动Screens `We.Retail`运行项目
 
 [获取文件](assets/start-poster-screens-weretail-run.zip)
 
-1. 在 **CRX包管理器** `http://localhost:4502/crx/packmgr/index.jsp` 以下两个软件包已安装：
+1. 在&#x200B;**CRX包管理器** `http://localhost:4502/crx/packmgr/index.jsp`中，安装了以下两个包：
 
    1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
    1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![Screens We.Retail通过CRX包管理器运行Ui.Apps和Ui.Content包](assets/crx-packages.png)
+   ![Screens We.Retail运行通过CRX包管理器安装的Ui.Apps和Ui.Content包](assets/crx-packages.png)
 
-   AEM Screens `We.Retail Run Ui.Apps` 和 `Ui.Content` 通过CRX包管理器安装的包
+   通过CRX包管理器安装的AEM Screens `We.Retail Run Ui.Apps`和`Ui.Content`包
 
 ## 创建海报组件 {#poster-cmp}
 
-海报组件可扩展现成的AEM Screens图像组件。 Sling的机制， `sling:resourceSuperType`，用于继承图像组件的核心功能，而无需复制和粘贴。 有关的基础知识的更多信息 [Sling请求处理可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+海报组件可扩展现成的AEM Screens图像组件。 Sling `sling:resourceSuperType`机制用于继承图像组件的核心功能，而无需复制和粘贴。 有关[Sling请求处理基础知识的更多信息可在此处找到。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 海报组件在预览/生产模式下全屏渲染。 在编辑模式下，请务必以不同方式呈现组件，以便于创作序列渠道。
 
-1. 在 **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` （或选择的IDE）到 `/apps/weretail-run/components/content`创建 `cq:Component` 已命名 `poster`.
+1. 在&#x200B;**CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` （或选择的IDE）中，在`/apps/weretail-run/components/content`下创建名为`poster`的`cq:Component`。
 
-   将以下属性添加到 `poster` 组件：
+   将以下属性添加到`poster`组件：
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -87,19 +87,19 @@ A `Custom Poster` 组件通过扩展图像组件而创建。
        componentGroup="We.Retail Run - Content"/>
    ```
 
-   ![/apps/weretail-run/components/content/poster的属性](assets/poster.png)
+   /apps/weretail-run/components/content/poster的![属性](assets/poster.png)
 
    /apps/weretail-run/components/content/poster的属性
 
-   通过设置 `sling:resourceSuperType`属性等于 `screens/core/components/content/image`，海报组件有效地继承了图像组件的所有功能。 在下找到的对等节点和文件 `screens/core/components/content/image` 可添加到下方 `poster` 覆盖和扩展功能的组件。
+   通过将`sling:resourceSuperType`属性设置为等于`screens/core/components/content/image`，海报组件有效地继承了图像组件的所有功能。 可以在`poster`组件下添加在`screens/core/components/content/image`下找到的等效节点和文件，以覆盖和扩展功能。
 
-1. 复制 `cq:editConfig` 节点在下 `/libs/screens/core/components/content/image`. 粘贴 `cq:editConfig` 在 `/apps/weretail-run/components/content/poster` 组件。
+1. 复制`/libs/screens/core/components/content/image`下的`cq:editConfig`节点。 将`cq:editConfig`粘贴到`/apps/weretail-run/components/content/poster`组件下。
 
-   在 `cq:editConfig/cq:dropTargets/image/parameters` 节点，更新 `sling:resourceType` 属性等于 `weretail-run/components/content/poster`.
+   在`cq:editConfig/cq:dropTargets/image/parameters`节点上，将`sling:resourceType`属性更新为等于`weretail-run/components/content/poster`。
 
-   ![edit-config](assets/edit-config.png)
+   ![编辑配置](assets/edit-config.png)
 
-   XML表示形式 `cq:editConfig` 列示如下：
+   `cq:editConfig`的XML表示形式如下所示：
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -122,20 +122,20 @@ A `Custom Poster` 组件通过扩展图像组件而创建。
    </jcr:root>
    ```
 
-1. 复制WCM Foundation `image` 对话框用于 `poster` 组件。
+1. 复制要用于`poster`组件的WCM Foundation `image`对话框。
 
    最简单的方法是从现有对话框开始，然后进行修改。
 
    1. 从以下位置复制对话框： `/libs/wcm/foundation/components/image/cq:dialog`
-   1. 将对话框粘贴到下 `/apps/weretail-run/components/content/poster`
+   1. 将对话框粘贴到`/apps/weretail-run/components/content/poster`下
 
    ![已将对话框从/libs/wcm/foundation/components/image/cq：dialog复制到/apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
-   对话框复制自 `/libs/wcm/foundation/components/image/cq:dialog` 到 `/apps/weretail-run/components/content/poster`
+   已将对话框从`/libs/wcm/foundation/components/image/cq:dialog`复制到`/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image` 组件是WCM Foundation的超类型 `image` 组件。 因此， `poster` 组件从两者继承功能。 海报组件的对话框由屏幕对话框和基础对话框的组合组成。 的功能 **Sling资源合并器** 用于隐藏从超类型组件继承的不相关的对话框字段和选项卡。
+   AEM Screens `image`组件是WCM Foundation `image`组件的超类型。 因此，`poster`组件从两者继承功能。 海报组件的对话框由Screens对话框和Foundation对话框的组合组成。 **Sling资源合并器**&#x200B;的功能用于隐藏从超类型组件继承的不相关对话框字段和选项卡。
 
-1. 更新 `cq:dialog` 下 `/apps/weretail-run/components/content/poster` 以XML表示以下更改：
+1. 使用以XML表示的以下更改更新`/apps/weretail-run/components/content/poster`下的`cq:dialog`：
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -238,7 +238,7 @@ A `Custom Poster` 组件通过扩展图像组件而创建。
    </jcr:root>
    ```
 
-   属性 `sling:hideChildren`= `"[linkURL,size]`”用于 `items` 节点，以确保 **linkURL** 和 **大小** 对话框中的字段是隐藏的。 仅从海报对话框中删除这些节点是不够的。 属性 `sling:hideResource="{Boolean}true"` “辅助功能”选项卡上用于隐藏整个选项卡。
+   属性`sling:hideChildren`= `"[linkURL,size]`”在`items`节点上使用，以确保从对话框中隐藏&#x200B;**linkURL**&#x200B;和&#x200B;**size**&#x200B;字段。 仅从海报对话框中删除这些节点是不够的。 辅助功能选项卡上的属性`sling:hideResource="{Boolean}true"`用于隐藏整个选项卡。
 
    对话框中添加了两个单击字段“文本位置”和“文本颜色”，以使作者能够控制文本的位置以及“标题”和“描述”的颜色。
 
@@ -246,13 +246,13 @@ A `Custom Poster` 组件通过扩展图像组件而创建。
 
    海报 — 最终对话框结构
 
-   此时， `poster` 组件可添加到 **空闲通道** 中的页面`We.Retail` 运行项目： `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   此时，可以将`poster`组件的实例添加到`We.Retail`运行项目中的&#x200B;**空闲通道**&#x200B;页面： `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`。
 
    ![海报对话框字段](assets/poster-dialog-full.png)
 
    海报对话框字段
 
-1. 在下创建文件 `/apps/weretail-run/components/content/poster` 已命名 `production.html.`
+1. 在`/apps/weretail-run/components/content/poster`下创建名为`production.html.`的文件
 
    使用以下内容填充文件：
 
@@ -276,17 +276,17 @@ A `Custom Poster` 组件通过扩展图像组件而创建。
    </div>
    ```
 
-   可直接在上方看到海报组件的生产标记。 HTL脚本覆盖 `screens/core/components/content/image/production.html`. 此 `image.js` 是创建类似POJO的图像对象的服务器端脚本。 然后，可以调用Image对象来渲染 `src` 作为内联样式背景图像。
+   可直接在上方看到海报组件的生产标记。 HTL脚本覆盖`screens/core/components/content/image/production.html`。 `image.js`是创建类似POJO的图像对象的服务器端脚本。 然后，可以调用Image对象将`src`渲染为内联样式背景图像。
 
-   `The h1` 添加和h2标记后，会根据组件属性显示标题和描述： `${properties.jcr:title}` 和 `${properties.jcr:description}`.
+   添加的`The h1`和h2标记根据组件属性显示标题和描述： `${properties.jcr:title}`和`${properties.jcr:description}`。
 
-   围绕 `h1` 和 `h2` 标记是一个div包装器，其中包含三个CSS类，且变体为&quot;`cmp-poster__text`“ 的值 `textPosition` 和 `textColor` 属性用于根据作者的对话框选择更改渲染的CSS类。 在下一部分中，将写入客户端库中的CSS，以便在显示中启用这些更改。
+   `h1`和`h2`标记周围是一个div包装器，其中包含三个变体为“`cmp-poster__text`”的CSS类。 `textPosition`和`textColor`属性的值用于更改基于作者的对话框选择呈现的CSS类。 在下一部分中，将写入客户端库中的CSS，以便在显示中启用这些更改。
 
-   徽标还作为覆盖包含在组件中。 在此示例中，指向` We.Retail` 徽标在DAM中进行硬编码。 根据用例，可能更适合创建对话框字段，以将徽标路径设置为动态填充值。
+   徽标还作为覆盖包含在组件中。 在此示例中，` We.Retail`徽标的路径在DAM中进行硬编码。 根据用例，可能更适合创建对话框字段，以将徽标路径设置为动态填充值。
 
-   另请注意，组件使用BEM（块元素修饰符）表示法。 BEM是一种CSS编码约定，它使创建可重用组件变得更容易。 BEM是使用的表示法 [AEM核心组件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   另请注意，组件使用BEM（块元素修饰符）表示法。 BEM是一种CSS编码约定，它使创建可重用组件变得更容易。 BEM是[AEM核心组件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的表示法。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
-1. 在下创建文件 `/apps/weretail-run/components/content/poster` 已命名 `edit.html.`
+1. 在`/apps/weretail-run/components/content/poster`下创建名为`edit.html.`的文件
 
    使用以下内容填充文件：
 
@@ -308,23 +308,23 @@ A `Custom Poster` 组件通过扩展图像组件而创建。
    </div>
    ```
 
-   此 **编辑** “海报”组件的标记可直接在上方看到。 HTL脚本覆盖 `/libs/screens/core/components/content/image/edit.html`. 标记类似于 `production.html` 标记，并在图像顶部显示标题和描述。
+   上面直接显示海报组件的&#x200B;**编辑**&#x200B;标记。 HTL脚本覆盖`/libs/screens/core/components/content/image/edit.html`。 该标记与`production.html`标记类似，在图像上方显示标题和描述。
 
-   此 `aem-Screens-editWrapper`添加，以便组件不会在编辑器中全屏呈现。 此 `data-emptytext` 属性可确保在没有填充图像或内容时显示占位符。
+   添加`aem-Screens-editWrapper`后，该组件不会在编辑器中全屏呈现。 `data-emptytext`属性可确保在没有填充图像或内容时显示占位符。
 
 ## 创建客户端库 {#clientlibs}
 
-客户端库提供了一种机制，用于组织和管理AEM实施所需的CSS和JavaScript文件。 有关使用的更多信息 [可以在此处找到客户端库。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+客户端库提供了一种机制，用于组织和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所不同。 将创建两组客户端库，一组用于编辑模式，另一组用于预览/生产模式。
 
 1. 为海报组件的客户端库创建文件夹。
 
-   下 `/apps/weretail-run/components/content/poster`，创建一个名为的文件夹 `clientlibs`.
+   在`/apps/weretail-run/components/content/poster`下创建名为`clientlibs`的文件夹。
 
    ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. 在 `clientlibs` 文件夹，创建名为的节点 `shared` 类型 `cq:ClientLibraryFolder.`
+1. 在`clientlibs`文件夹下，创建名为`shared`且类型为`cq:ClientLibraryFolder.`的节点
 
    ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
@@ -333,15 +333,15 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
    * `allowProxy` | 布尔型 | `true`
    * `categories` | 字符串[] | `cq.screens.components`
 
-   ![/apps/weretail-run/components/content/poster/clientlibs/shared的属性](assets/2018-05-03_at_1026pm-1.png)
+   /apps/weretail-run/components/content/poster/clientlibs/shared的![属性](assets/2018-05-03_at_1026pm-1.png)
 
    /apps/weretail-run/components/content/poster/clientlibs/shared的属性
 
-   此 `categories` 属性是用于标识客户端库的字符串。 此 `cq.screens.components` 类别在编辑和预览/生产模式下均使用。 因此，在中定义的任何CSS/JS `shared` clientlib在所有模式下加载。
+   `categories`属性是一个标识客户端库的字符串。 `cq.screens.components`类别同时在“编辑”和“预览/生产”模式下使用。 因此，在`shared` clientlib中定义的任何CSS/JS都将以所有模式加载。
 
-   作为最佳实践，切勿将任何路径直接公开给 `/apps` 在生产环境中。 此 `allowProxy` 属性确保通过的前缀引用客户端库CSS和JS `/etc.clientlibs`. 欲知关于 [可以在此处找到allowProxy属性。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
-1. 创建名为的文件 `css.txt` 在共享文件夹下。
+1. 在共享文件夹下创建名为`css.txt`的文件。
 
    使用以下内容填充文件：
 
@@ -351,13 +351,13 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
    styles.less
    ```
 
-1. 创建名为的文件夹 `css` 在 `shared` 文件夹。 添加名为的文件 `style.less` 在 `css` 文件夹。 客户端库的结构现在应如下所示：
+1. 在`shared`文件夹下创建名为`css`的文件夹。 在`css`文件夹下添加名为`style.less`的文件。 客户端库的结构现在应如下所示：
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   本教程不会直接编写CSS，而是使用LESS。 [更少](https://lesscss.org/) 是一个常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 Sass或其他预编译器可以使用，但必须在AEM之外编译。
+   本教程不会直接编写CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 Sass或其他预编译器可以使用，但必须在AEM之外编译。
 
-1. 填充 `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` ，如下所示：
+1. 使用以下内容填充`/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less`：
 
    ```css
    /*
@@ -414,19 +414,19 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
    >
    >GoogleWeb Fonts用于字体系列。 Web Fonts需要互联网连接，并且并非所有AEM Screens实施都有可靠的连接。 规划离线模式是AEM Screens部署的一个重要考虑事项。
 
-1. 复制 `shared` 客户端库文件夹。 将其粘贴为同级并重命名为 `production`.
+1. 复制`shared`客户端库文件夹。 将其粘贴为同级并重命名为`production`。
 
    ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
-1. 更新 `categories` 要成为的生产客户端库的属性 `cq.screens.components.production.`
+1. 将生产客户端库的`categories`属性更新为`cq.screens.components.production.`
 
-   此 `cq.screens.components.production` 类别可确保仅在“预览”/“生产”模式下加载样式。
+   `cq.screens.components.production`类别确保仅在预览/生产模式下加载样式。
 
-   ![/apps/weretail-run/components/content/poster/clientlibs/production的属性](assets/2018-04-30_at_5_04pm.png)
+   /apps/weretail-run/components/content/poster/clientlibs/production的![属性](assets/2018-04-30_at_5_04pm.png)
 
    /apps/weretail-run/components/content/poster/clientlibs/production的属性
 
-1. 填充 `/apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less` ，如下所示：
+1. 使用以下内容填充`/apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less`：
 
    ```css
    /*
@@ -481,7 +481,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    上述样式在屏幕上以绝对位置显示标题和描述。 显示的标题比描述大。 利用组件的BEM表示法，可以轻松地在cmp-poster类中仔细限定样式。
 
-第三个客户端库类别： `cq.screens.components.edit` 可用于将仅编辑特定样式添加到组件。
+第三个客户端库类别： `cq.screens.components.edit`可用于向组件添加“仅编辑”特定样式。
 
 | Clientlib类别 | 用途 |
 |---|---|
@@ -491,10 +491,10 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
 ## 将海报组件添加到序列渠道 {#add-sequence-channel}
 
-海报组件在序列渠道上使用。 本教程的入门软件包包含一个“空闲”通道。 已预配置空闲通道，以允许组内的组件 **`We.Retail Run - Content`**. 海报组件的组设置为 `We.Retail Run - Content` 并且可以添加到渠道中。
+海报组件在序列渠道上使用。 本教程的入门软件包包含一个“空闲”通道。 已预配置空闲通道以允许组&#x200B;**`We.Retail Run - Content`**&#x200B;的组件。 海报组件的组已设置为`We.Retail Run - Content`，可以将其添加到渠道中。
 
-1. 从以下位置打开“空闲”通道： `We.Retail` 运行项目： **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
-1. 拖放的新实例 **海报** 组件从侧栏转到页面。
+1. 从`We.Retail`运行项目打开空闲通道： **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. 将&#x200B;**Poster**&#x200B;组件的新实例从侧栏拖放到页面上。
 
    ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
@@ -508,18 +508,18 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
 ## 融于一起 {#putting-it-all-together}
 
-以下视频介绍了已完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到“位置”显示中，并最终分配给Screens播放器。
+以下视频介绍了已完成的组件以及如何将其添加到序列渠道。 然后，该渠道会添加到位置显示中，并最终分配给Screens播放器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
 
 ## 完成的代码 {#finished-code}
 
-以下是教程中完成的代码。 此 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** 和 **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** 是编译的AEM包。 此 **SRC-screens-weretail-run-0.0.1.zip** 是可以使用Maven部署的未编译的源代码。
+以下是教程中完成的代码。 **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**&#x200B;和&#x200B;**screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**&#x200B;是编译的AEM包。 **SRC-screens-weretail-run-0.0.1.zip**&#x200B;是可以使用Maven部署的未编译的源代码。
 
 [获取文件](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
 [获取文件](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-SRC最终AEM Screens `We.Retail` 运行项目
+SRC最终AEM Screens `We.Retail`运行项目
 
 [获取文件](assets/src-screens-weretail-run-001.zip)
