@@ -1,7 +1,7 @@
 ---
-title: Post-launch支持
-description: 在最佳实践指南中了解Post对AEM Screens的支持。
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+title: 启动后支持
+description: 在最佳实践指南中了解对AEM Screens的启动后支持。
+source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 4%
@@ -9,9 +9,9 @@ ht-degree: 4%
 ---
 
 
-# Post-launch支持 {#post-launch-support}
+# 启动后支持 {#post-launch-support}
 
-不要忽视早期阶段的Post-launch支持。
+不要忽视早期阶段的启动后支持。
 
 确保站点能够从硬件供应商获得充分的支持对于他们的业务运营而言至关重要。**音频 — 视频集成商**应与业务利益相关者紧密合作，并确定不同方面所需的要求。
 在启动后支持期间，请考虑以下要求：
@@ -21,7 +21,7 @@ ht-degree: 4%
 * 现场技术人员支持
 * 设备管理（保修支持和备用设备存储）
 
-此外，为长期成功做好准备，至关重要的是与音频 — 视频集成商合作制定第2天服务级别协议(SLA)。 SLA应详细说明所有部署后支持服务，以帮助准确设置客户期望。
+此外，为长期成功做好准备，至关重要的是与音频 — 视频集成商合作制定第2天服务水平协议(SLA)。 SLA应详细说明所有部署后支持服务，以帮助准确确定客户期望。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 4%
 >* 该应用程序是否对最终客户的执行领导高度可见？ 能见度高的网站可能适合不同的治疗。
 >* 该应用程序对业务运营（如快餐连锁店中的菜单板）是否至关重要？ 在这些情况下，最终客户端可能需要现场分辨率，并且响应时间短，并且回放硬件具有冗余。
 
-## 注意事项和Post Launch查询 {#considerations-queries}
+## 注意事项和Launch后查询 {#considerations-queries}
 
 可帮助您定义启动后支持的一些注意事项和问题：
 

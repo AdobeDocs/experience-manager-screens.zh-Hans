@@ -10,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
+source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 25%
+source-wordcount: '133'
+ht-degree: 24%
 
 ---
 
@@ -52,4 +52,5 @@ ht-degree: 25%
    + [供应商参与策略](vendor-engagement.md)
 + 支持和维护 {#ongoing-support}
    + [支持和监测](support-monitoring.md)
+   + [启动后支持](post-launch-support.md)
    + [Day Two平台支持和维护](day-two-support-maintenance.md)

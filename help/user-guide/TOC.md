@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 11%
 
 ---
@@ -21,8 +21,9 @@ ht-degree: 11%
 + [Screens简介](aem-screens-introduction.md)
 + 概述和Kickstart指南{#overview}
    + [Kickstart指南](kickstart-for-aem-screens.md)
-   + [Screens最佳实践指南](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + [Screens最佳实践指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/using/about-guide)
    + [关键术语](screens-glossary.md)
+   + [Screens术语和概念](screens-concepts-feature-video-understand.md)
 + 数字标牌网络基础知识{#digital-signage-network}
    + [第1部分：项目角色和职责](project-roles-responsibilities.md)
    + [第2部分：关于项目适用范围的注意事项](project-considerations.md)
