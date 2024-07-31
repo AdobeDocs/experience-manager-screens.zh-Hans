@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -57,6 +57,7 @@ AEM Screens Player中的基本回放监控允许您执行以下操作：
 | lastContentChange {string} | 上次内容更改的时间戳 |
 
 >[!NOTE]
+>
 >或者，也可以从播放器首选项（启用回放监控）启用更高级的属性，即：
 >
 >| 属性 | 描述 |
