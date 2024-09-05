@@ -2,9 +2,9 @@
 title: AEM Screens项目角色和职责
 description: 了解AEM Screens项目角色和职责。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ AEM实施人员通常会随着时间的推移分阶段将自定义功能部署�
 Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设计和站点准备的一方，包括硬件采购、配置和部署。 通常是签约的第三方，有权访问网络运营中心(NOC)。 通常，音频 — 视频集成商是项目所有者，因为它在发布后持续参与。
 
 音频/视频集成商负责与最终客户进行沟通以定义需求，确定设计、构建和有效管理数字标牌硬件部署的项目范围。
+
+>[!NOTE]
+>
+> 您必须拥有Audio Video Integrator才能在AEM Screens部署中使用。
 
 #### 考虑硬件合作伙伴 {#selecting-hardware-partner}
 
@@ -158,7 +162,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 | 零售入门培训计划 | I | I | C | RA |
 | 暂存用户验收测试 | I | C | RA |   |
 | 硬件批量配置 | RA | I | C | I |
-| 关于Post Launch支持的协议 | RA | C | RA | C |
+| 关于启动后支持的协议 | RA | C | RA | C |
 
 下表汇总了&#x200B;**第一天：第一天：项目实施（硬件）**：
 
@@ -173,7 +177,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 >[!NOTE]
 >
->第二天角色会发生变化(Post Launch支持)。
+>角色会在第二天发生更改（启动后支持）。
 
 * **作者**：内容管理+策略
 
@@ -181,11 +185,11 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 * **技术人员**：由音频/视频集成商签约或属于同一公司。
 
-下表汇总了&#x200B;**第二天： Post Launch支持RACI图表**：
+下表汇总了&#x200B;**第二天：启动后支持RACI图表**：
 
 | **阶段** | **作者** | **开发人员** | **技术人员** |
 |---|---|---|---|
-| *第二天：Post-Launch支持* |
+| *天：启动后支持* |
 | 角色和责任协议 | RA | RA | RA |
 | 第1层支持 | I | I | RA |
 | 第2层支持 | I | C | RA |
