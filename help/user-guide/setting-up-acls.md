@@ -1,6 +1,6 @@
 ---
 title: 设置ACL
-description: 了解如何使用ACL隔离项目，以便每个个人或团队处理自己的项目。
+description: 了解如何使用访问控制列表(ACL)分离项目，以便每个个人或团队处理自己的项目。
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
 
-# 设置ACL {#setting-up-acls}
+# 设置访问控制列表(ACL) {#setting-up-acls}
 
-下节将介绍如何使用ACL隔离项目，以便每个个人或团队处理自己的项目。
+以下部分将介绍如何使用访问控制列表(ACL)分离项目，以便每个个人或团队处理自己的项目。
 
 作为AEM管理员，您需要确保项目的团队成员不会干预其他项目。 每个用户都根据项目要求分配了特定的角色。
 
