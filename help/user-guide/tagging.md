@@ -3,9 +3,9 @@ title: 在Screens Cloud上标记
 description: 本页介绍如何在Screens Cloud上创建、管理和使用标记。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,8 @@ ht-degree: 0%
 ![管理标记分配](assets/tagging/assign-tags-to-players.gif)。
 
 >[!NOTE]
-> 
-> 一个显示或播放器最多可以有100个标记。
-> 一次最多可以标记30个项目。
+>  
+>一次最多可以标记30个项目。
 
 ## 按标记过滤 {#filter-by-tags}
 
