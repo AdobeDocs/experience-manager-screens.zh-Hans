@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [AEM Screens安全核对清单](security-checklist.md)
    + [从ContentSync转换为SmartSync](smartsync.md)
    + [从文件新建项目导入程序](project-importer.md)
-   + [将数据触发器复制到Publish服务器](replicating-data-triggers.md)
+   + [将数据触发器复制到发布服务器](replicating-data-triggers.md)
    + [在Screens上配置复制代理](configure-screens-replication.md)
    + 特定于客户端的注意事项{#installing-client}
       + [Chrome操作系统播放器](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 11%
       + [云播放器](implementing-cloud-player.md)
       + [播放器自动注册](auto-registration-players.md)
       + [使用遥控器](implementing-remote-control.md)
-   + 创作Publish {#author-publish}
+   + 作者发布{#author-publish}
       + [Author-Publish架构概述](author-publish-architecture-overview.md)
-      + [配置创作和Publish](author-and-publish.md)
+      + [配置作者和发布](author-and-publish.md)
    + Analytics与AEM Screens的集成{#analytics-integration}
       + [Adobe Analytics 集成](adobe-analytics-integration-aem-screens.md)
       + [使用AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 11%
    + [脱机渠道](offline-channels.md)
    + [扩展AEM Screens组件](extending-component-tutorial-develop.md)
    + [创建组件](creating-components.md)
-   + [使用AEM SPA编辑器嵌入REACT应用程序并将与AEM Screens Analytics集成](embedding-react-app.md)
+   + [使用AEM SPA Editor嵌入REACT应用程序并与AEM Screens Analytics集成](embedding-react-app.md)
    + [在AEM Screens中配置ContextHub](configuring-context-hub.md)
    + [为MultiZone布局创建自定义模板](creating-custom-templates-multizone-layouts.md)
    + [为文本叠加应用自定义品牌和样式](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包202401发行说明](release-notes-fp-20250215.md)
    + [功能包202401发行说明](release-notes-fp-202401.md)
    + [功能包20240116发行说明](release-notes-fp-20240116.md)
    + [功能包20240215发行说明](release-notes-fp-20240215.md)
