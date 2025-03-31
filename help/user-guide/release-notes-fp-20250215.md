@@ -4,7 +4,7 @@ description: 了解有关2025年3月27日发布的AEM Screens功能包20250327�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 206140ca131ccf4149c91e793eae9447f748549d
+source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%
@@ -42,4 +42,3 @@ AEM Screens功能包20250327的发布日期是2025年3月27日。
 * Service Pack 21和Screens功能包存在包冲突。 (SCRNS-4638)
 
 * Screens仪表板不起作用。 (SCRNS-4749)
-

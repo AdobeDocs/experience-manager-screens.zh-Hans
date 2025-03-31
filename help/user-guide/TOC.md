@@ -8,9 +8,9 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
+source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '550'
 ht-degree: 11%
 
 ---
@@ -119,6 +119,9 @@ ht-degree: 11%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包20250327发行说明](release-notes-fp-20250327.md)
+   + [功能包20250224发行说明](release-notes-fp-20250224.md)
+   + [功能包20240715发行说明](release-notes-fp-20240715.md)
    + [功能包202401发行说明](release-notes-fp-20250215.md)
    + [功能包202401发行说明](release-notes-fp-202401.md)
    + [功能包20240116发行说明](release-notes-fp-20240116.md)
