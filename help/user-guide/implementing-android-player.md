@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # 实施Android™ Player {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
 
 本节介绍如何配置Android™播放器。 它提供了有关配置文件和可用选项的信息，以及开发和测试时要使用的设置的建议。
 
@@ -34,13 +37,13 @@ ht-degree: 0%
 >[!NOTE]
 >如果您使用Android 6.5.5 Service Pack，请为AEM Screens™播放器设置环境。
 
-在所有AEM创作和发布实例上的&#x200B;**Adobe Experience Manager Web控制台配置**&#x200B;中，将登录令牌Cookie **的** SameSite属性从&#x200B;**Lax**&#x200B;设置为&#x200B;**None**。
+在所有AEM创作和发布实例上，将登录令牌Cookie **的** SameSite属性从&#x200B;**Lax**&#x200B;设置为&#x200B;**None**(从&#x200B;**Adobe Experience Manager Web控制台配置**)。
 
 应遵循以下步骤：
 
 1. 使用`http://localhost:4502/system/console/configMgr`导航到&#x200B;**Adobe Experience Manager Web控制台配置**。
 
-1. 搜索&#x200B;*AdobeGranite令牌身份验证处理程序*。
+1. 搜索&#x200B;*Adobe Granite令牌身份验证处理程序*。
 
 1. 将登录令牌Cookie **的** SameSite属性从&#x200B;**Lax**&#x200B;设置为&#x200B;**None**。
    ![图像](/help/user-guide/assets/granite-updates.png)
@@ -110,7 +113,7 @@ Ad-Hoc方法允许您安装最新的Android™播放器(*.exe*)。 访问&#x200B
 
 ## 批量配置Android™ Player {#bulk-provision-android-player}
 
-批量推出Android™播放器时，需要配置播放器以指向AEM实例并配置其他属性，而无需在管理员UI中手动输入它们。
+批量推出Android™播放器时，需要配置播放器以指向AEM实例，并配置其他资产，而无需在管理员UI中手动输入它们。
 
 >[!NOTE]
 >Android™播放器42.0.372提供此功能。
@@ -133,7 +136,7 @@ Ad-Hoc方法允许您安装最新的Android™播放器(*.exe*)。 访问&#x200B
 
 下表汇总了策略属性并提供了示例策略JSON以供参考：
 
-| **策略名称** | **目的** |
+| **策略名称** | **用途** |
 |---|---|
 | *server* | Adobe Experience Manager服务器的URL。 |
 | *分辨率* | 设备的分辨率。 |
