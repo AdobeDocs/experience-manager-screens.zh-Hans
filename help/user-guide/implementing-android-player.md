@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
+source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 # 实施Android™ Player {#implementing-android-player}
 
 >[!CAUTION]
->Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
+>基于Android的AEM Screens Player已正式弃用。 建议用户迁移到AEM Screens支持的其他操作系统。
 
 本节介绍如何配置Android™播放器。 它提供了有关配置文件和可用选项的信息，以及开发和测试时要使用的设置的建议。
 
