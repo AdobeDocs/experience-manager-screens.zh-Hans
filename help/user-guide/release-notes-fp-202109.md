@@ -37,7 +37,7 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 * **基本回放监控**
 
   AEM Screens现在支持基本回放监控。 播放器现在报告每次ping（默认为30秒）的各种回放指标。 它会根据量度检测各种边缘情况（卡住体验、空白屏幕、计划问题等）。 团队可以使用此功能远程监控播放器是否正确播放内容，并改善对空白屏幕或现场中断体验的反应性。 它还降低了向最终用户显示中断体验的风险。
-有关更多详细信息，请参阅[基本回放监控](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
+有关更多详细信息，请参阅[基本回放监控](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
 
 * **内容分配报告的更新**
 
@@ -77,8 +77,8 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
    * 更新自定义组件。
 
 
-   * 有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
-   * 如果您将自定义组件用作v3清单的一部分，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+   * 有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
+   * 如果您将自定义组件用作v3清单的一部分，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 
 ### 错误修复 {#bug-fixes}

@@ -37,7 +37,7 @@ AEM 文档涵盖标准用例。因此，未记录错误、错误产生的影响�
 
 如果您有关于改进 AEM 文档的任何想法，欢迎贡献内容。但是，任何评论、问题和拉取请求仅适用于&#x200B;*贡献内容*。它们不用于回答有关如何使用 AEM、实施 AEM 项目，或解决技术难题的问题。
 
-您可以报告有关AEM使用情况或技术错误的任何问题。 通过以下方式使用常规支持流程 [Experience Cloud企业支持门户](https://experienceleague.adobe.com/?support-solution=General#support) 或在 [Experience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+您可以报告有关AEM使用情况或技术错误的任何问题。 通过以下方式使用常规支持流程 [Experience Cloud企业支持门户](https://experienceleague.adobe.com/zh-hans?support-solution=General#support) 或在 [Experience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
 ***AEM 文档贡献内容不是 Adobe 客户服务的替代品***，任何试图获取支持相关问题答案的此类贡献内容都将遭到拒绝。
 

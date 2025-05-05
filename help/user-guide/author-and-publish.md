@@ -112,7 +112,7 @@ Screens需要三个复制代理：
 1. 为pub2创建一个AEM Screens复制代理。 复制pub1的Screens复制代理，并将pub2的端口更改为指向4504。
 
    >[!NOTE]
-   >要了解如何配置Screens复制代理，请参阅[配置Screens复制代理](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
+   >要了解如何配置Screens复制代理，请参阅[配置Screens复制代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
 
 #### 创建Screens反向复制代理 {#creating-screens-reverse-replication-agents}
 

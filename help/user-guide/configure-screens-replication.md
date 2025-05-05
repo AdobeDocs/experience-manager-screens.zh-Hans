@@ -20,7 +20,7 @@ ht-degree: 4%
 Screens复制代理负责将命令数据（如&#x200B;*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep*&#x200B;以及更多此类值）从发布到创作。 必须配置此代理，以便作者可以显示设备ping。
 
 >[!NOTE]
->要了解有关Screens复制代理的更多信息，请参阅[Screens复制代理和命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
+>要了解有关Screens复制代理的更多信息，请参阅[Screens复制代理和命令](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
 
 如果要完成Screens复制代理的配置，请完成以下两个部分：
 

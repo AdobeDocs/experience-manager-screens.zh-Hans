@@ -18,7 +18,7 @@ ht-degree: 0%
 
 使用[适用于AEM Screens的Kickstart ](kickstart-for-aem-screens.md)，开始使用简单的数字标牌体验并运行。
 
-要了解如何在Experience Manageras a Cloud Service中配置和创建Experience Manager Screens项目，请参阅[此处](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)。
+要了解如何在Experience Manageras a Cloud Service中配置和创建Experience Manager Screens项目，请参阅[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/using/about-guide)。
 
 ## 概述 {#overview}
 
@@ -57,7 +57,7 @@ Experience Manager Screens是一个功能强大的基于Web的解决方案，通
 
 * **引导式实施Essentials**
 
-  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
+  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hans?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
 
 * **Experience Manager Screens项目最佳实践指南**
 

@@ -30,7 +30,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->要详细了解AEM Screens项目开发和管理中的各种功能，请参阅&#x200B;**[AEM Screens用户指南](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**。
+>要详细了解AEM Screens项目开发和管理中的各种功能，请参阅&#x200B;**[AEM Screens用户指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/aem-screens-introduction)**。
 
 ## AEM Sites与AEM Screens {#aem-sites-screens}
 

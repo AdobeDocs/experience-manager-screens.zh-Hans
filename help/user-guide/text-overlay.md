@@ -94,7 +94,7 @@ ht-degree: 1%
 
 为您的AEM Screens项目设置ContextHub配置。
 
-要了解如何使用数据存储设置和管理数据驱动资源更改，请参阅[在AEM Screens中配置ContextHub](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub)。
+要了解如何使用数据存储设置和管理数据驱动资源更改，请参阅[在AEM Screens中配置ContextHub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/configuring-context-hub)。
 
 在为项目设置所需的配置后，请按照以下步骤使用Google工作表中的值：
 
