@@ -80,7 +80,7 @@ Day Zero包含八个关键步骤，涵盖项目管理升级的各个方面：
 
 ### 项目管理和部署
 
->[!VIDEO](https://video.tv.adobe.com/v/28408)
+>[!VIDEO](https://video.tv.adobe.com/v/32795?captions=chi_hans)
 
 *了解项目管理和部署准备（项目预生产、项目启动、项目进展）。*
 

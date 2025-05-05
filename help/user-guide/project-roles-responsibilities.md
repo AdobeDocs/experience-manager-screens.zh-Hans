@@ -56,7 +56,7 @@ AEM实施人员通常会随着时间的推移分阶段将自定义功能部署�
 
 ### 第1部分：项目角色和职责
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/32831?captions=chi_hans)
 
 *了解Adobe、音频/视频集成商和AEM实施者的角色和职责。*
 

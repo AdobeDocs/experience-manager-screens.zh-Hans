@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Screens术语和概念 {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/21353?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/40172?quality=9&captions=chi_hans)
 
 
 ## 创作渠道和计划 — 第1部分 {#channels-and-schedules-part-2}
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 以下视频详细介绍如何创建新渠道、创作新内容以及将渠道添加到可重用计划。 大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的前半部分。
 
->[!VIDEO](https://video.tv.adobe.com/v/21387?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39371?quality=9&captions=chi_hans)
 
 ## 显示分配和设备注册 — 第2部分 {#display-and-device-pt2}
 
 以下视频演示了位置、显示和设备配置的创建。 该视频还显示了注册设备和将设备分配给显示器的步骤。 它大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的后半部分。
 
->[!VIDEO](https://video.tv.adobe.com/v/21411?quality=9)
+>[!VIDEO](https://video.tv.adobe.com/v/39392?quality=9&captions=chi_hans)
 
