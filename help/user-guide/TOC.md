@@ -129,7 +129,7 @@ ht-degree: 11%
    + [功能包202204发行说明](release-notes-fp-202204.md)
    + [功能包202203发行说明](release-notes-fp-202203.md)
    + [功能包202112发行说明](release-notes-fp-202112.md)
-   + [功能包202109](release-notes-fp-202109.md)的发行说明
+   + [功能包202109的发行说明](release-notes-fp-202109.md)
    + [功能包202105发行说明](release-notes-fp-202105.md)
    + [功能包202103发行说明](release-notes-fp-202103.md)
    + [功能包202011发行说明](release-notes-fp-202011.md)

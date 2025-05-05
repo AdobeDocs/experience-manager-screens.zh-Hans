@@ -26,7 +26,7 @@ ht-degree: 0%
 
 要观看视频，您需要满足以下条件：
 
-1. **AEM 6.4**&#x200B;或**AEM 6.3*+ **Screens Feature Pack 1**
+1. **AEM 6.4**&#x200B;或&#x200B;**AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
 
 1. Screens播放器
 

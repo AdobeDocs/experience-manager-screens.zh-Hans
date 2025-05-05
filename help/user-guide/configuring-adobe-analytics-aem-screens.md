@@ -28,7 +28,7 @@ ht-degree: 10%
 
 本节涵盖以下主题：
 
-* 使用AEM Screens在Adobe Analytics中排序&#x200B;****
+* 使用AEM Screens在Adobe Analytics中排序&#x200B;**&#x200B;**
 * **使用离线Adobe Analytics发送自定义事件**
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}

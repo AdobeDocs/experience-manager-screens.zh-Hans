@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![图像1](assets/command-sync/command-sync2-1.png)
 
-1. 创建位置&#x200B;**大厅**，然后在&#x200B;**位置**&#x200B;文件夹中创建标题为&#x200B;**大厅显示**的显示，如下图所示。
+1. 创建位置&#x200B;**大厅**，然后在&#x200B;**位置**&#x200B;文件夹中创建标题为&#x200B;**大厅显示**&#x200B;的显示，如下图所示。
    ![图像1](assets/command-sync/command-sync3-1.png)
 
 1. 将频道&#x200B;**ChannelLobby**&#x200B;分配给您的&#x200B;**LobbyDisplay**。 您现在可以从显示功能板中查看分配给显示的渠道。
@@ -91,7 +91,7 @@ ht-degree: 0%
 ### 设置主要播放器 {#setting-up-primary}
 
 1. 从&#x200B;**CommandSyncDemo** > **位置** > **大厅** > **大厅显示**&#x200B;导航到显示仪表板。 然后单击操作栏中的&#x200B;**仪表板**。
-请注意**设备**面板中的两台设备(Chrome和Windows Player)，如以下所示：
+请注意&#x200B;**设备**&#x200B;面板中的两台设备(Chrome和Windows Player)，如以下所示：
    ![图像1](assets/command-sync/command-sync10-1.png)
 
 1. 在&#x200B;**设备**&#x200B;面板中，单击要设置为主设备的设备。 以下示例演示了如何将Chrome设备设置为主设备。 单击&#x200B;**设置为主设备**。
@@ -109,7 +109,7 @@ ht-degree: 0%
 ### 正在与主要播放器同步 {#sync-up-primary}
 
 1. 将Chrome设备设置为主设备后，将另一设备（在本例中为Windows Player）同步到主设备。
-单击**设备**&#x200B;面板中的其他设备（在本例中为Windows Player），然后单击&#x200B;**同步到主设备**。
+单击&#x200B;**设备**&#x200B;面板中的其他设备（在本例中为Windows Player），然后单击&#x200B;**同步到主设备**。
 
    ![图像1](assets/command-sync/command-sync13-1.png)
 

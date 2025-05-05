@@ -152,7 +152,7 @@ ht-degree: 0%
 
    1. 单击&#x200B;**保存**。
 
-   您可以从&#x200B;**StoreSchedule**仪表板查看分配给显示区的计划。
+   您可以从&#x200B;**StoreSchedule**&#x200B;仪表板查看分配给显示区的计划。
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **设备注册**

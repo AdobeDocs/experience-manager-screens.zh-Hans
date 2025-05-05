@@ -35,7 +35,7 @@ AEM Screens功能包201905的发布日期为2019年5月16日。
 
 项目导入器是AEM Screens中一项可用的功能，通过该功能，您可以将CSV/XLS电子表格中的一组位置批量导入您的AEM Screens项目。
 
-有关更多详细信息，请参阅文件&#x200B;](project-importer.md)**中的**[&#x200B;新建项目导入程序。
+有关更多详细信息，请参阅文件&#x200B;[&#128279;](project-importer.md)**中的**&#x200B;新建项目导入程序。
 
 * **从ContentSync转换到SmartSync**
 

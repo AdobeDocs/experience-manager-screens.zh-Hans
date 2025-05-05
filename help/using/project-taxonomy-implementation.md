@@ -55,4 +55,4 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 * [在AEM Screens播放器中查看内容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的[新建项目导入程序。
+>您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的新建项目导入程序。

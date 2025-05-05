@@ -101,7 +101,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 单击侧栏中的项目**DemoProjectImporter **>**&#x200B;创建&#x200B;**>**&#x200B;导入位置**。
+1. 单击侧栏中的项目&#x200B;**DemoProjectImporter &#x200B;**>**&#x200B;创建&#x200B;**>**&#x200B;导入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

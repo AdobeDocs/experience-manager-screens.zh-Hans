@@ -45,7 +45,7 @@ ht-degree: 0%
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
 1. 单击&#x200B;**进程**&#x200B;选项卡。
-1. 在&#x200B;**参数**中向列表输入全高清配置文件，如下所示：
+1. 在&#x200B;**参数**&#x200B;中向列表输入全高清配置文件，如下所示：
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. 单击&#x200B;**确定**。
 

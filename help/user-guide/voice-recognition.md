@@ -73,7 +73,7 @@ ht-degree: 2%
 
    ![图像](assets/voice-recognition/vr-2.png)
 
-   如果您在项目中添加了拆分Screens渠道，请导航到&#x200B;**拆分屏幕**&#x200B;并拖放两个嵌入的序列。 将路径添加到&#x200B;**ColdIndrings**&#x200B;和&#x200B;**HotIndrings**频道，如下图所示。
+   如果您在项目中添加了拆分Screens渠道，请导航到&#x200B;**拆分屏幕**&#x200B;并拖放两个嵌入的序列。 将路径添加到&#x200B;**ColdIndrings**&#x200B;和&#x200B;**HotIndrings**&#x200B;频道，如下图所示。
    ![图像](assets/voice-recognition/vr-emb-6.png)
 
 

@@ -173,6 +173,7 @@ ht-degree: 1%
       ![图像](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. 单击区段`**Higherthan50**`，然后单击操作栏中的&#x200B;**属性**。
+
       ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. 从&#x200B;**区段属性**&#x200B;中单击&#x200B;**Personalization**&#x200B;选项卡。 将&#x200B;**ContextHub路径**&#x200B;设置为`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`，将&#x200B;**区段路径**&#x200B;设置为`/conf/screens/settings/wcm/segments`，然后单击&#x200B;**保存**，如下图所示。

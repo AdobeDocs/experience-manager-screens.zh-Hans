@@ -30,7 +30,7 @@ Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3](#configuring-dispatcherv3)的[Dispatcher配置以了解清单版本v3。
+>以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3[&#128279;](#configuring-dispatcherv3)的Dispatcher配置以了解清单版本v3。
 
 AEM Screens播放器或设备使用经过身份验证的会话来访问发布实例中的资源。 当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器或设备的所有请求有效。
 
@@ -67,7 +67,7 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
 
 ### 步骤2：配置Screens过滤器 {#step-configure-screens-filters}
 
-要配置Screens筛选器，请将以下内容添加到***`/filter`***。
+要配置Screens筛选器，请将以下内容添加到&#x200B;***`/filter`***。
 
 ```
 ## AEM Screens Filters

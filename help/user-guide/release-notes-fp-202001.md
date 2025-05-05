@@ -42,7 +42,7 @@ AEM Screens功能包202001的发布日期为2020年1月31日。
 若要了解有关运行状况检查框架的更多信息，请参阅[运行状况检查框架](/help/user-guide/configuring-screens-introduction.md#health-check-framework)。
 
 * **默认过渡类型的更新**
-过渡组件（如**Type**）的属性现在设置为&#x200B;**Fade**，**Duration**&#x200B;默认设置为&#x200B;**1600毫秒**。
+过渡组件（如&#x200B;**Type**）的属性现在设置为&#x200B;**Fade**，**Duration**&#x200B;默认设置为&#x200B;**1600毫秒**。
 
   有关详细信息，请参阅[应用过渡](/help/user-guide/applying-transitions.md)用例。
 
