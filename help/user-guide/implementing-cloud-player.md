@@ -67,15 +67,15 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 
 ## 在Chrome OS上批量配置 {#bulk-provisioning-chrome}
 
-详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。 &lt;！— `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。 &lt;！— `https://www.adobe.com/go/aem_screens_cloud_player_cn` >
 
 ## AEM实例上所需的配置 {#bulk-provisioning-config-aem}
 
 根据AEM实例的类型，单击以下指南之一以启用AEM和Cloud Player上的CORS ：
 
-* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_cn` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_cn` -->
 
 
 >[!NOTE]
