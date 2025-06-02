@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 AEM Screens传统上为各种平台(包括ChromeOS、Windows、Android™和`Tizen`)提供独特的本机播放器应用程序。 但是，为了响应用户不断变化的需求，Adobe引入了一种创新的解决方案，即AEM Screens Cloud Player。
 
-Cloud Player与Adobe以前的本机应用程序有很大不同。 它是一个在服务器上托管的渐进式Web应用程序(PWA)。 这种变革性的方法为客户提供了一个直接在Web浏览器中运行的独立于平台的播放器。
+Cloud Player与Adobe之前的本机应用程序有重大不同。 它是一个在服务器上托管的渐进式Web应用程序(PWA)。 这种变革性的方法为客户提供了一个直接在Web浏览器中运行的独立于平台的播放器。
 
-访问Cloud Player只需访问`https://player.adobescreens.com`即可。 用户可以将其安装在设备上，而不管平台如何，并享受无缝的数字标牌体验。 Cloud Player的兼容性取决于支持PWA的现代浏览器的存在，从而确保跨各种设备的一致性能。 告别手动更新，向自动提供修复和功能的播放器问好，确保您随时都能拥有最新功能。 向基于PWA的Cloud Player的转变标志着Adobe数字标牌产品的一个令人振奋的进步，使其比以往任何时候都更易于访问、更通用、更便于使用。
+访问Cloud Player只需访问`https://player.adobescreens.com`即可。 用户可以将其安装在设备上，而不管平台如何，并享受无缝的数字标牌体验。 Cloud Player的兼容性取决于是否具有支持PWA的现代化浏览器，从而确保跨各种设备的一致性能。 告别手动更新，向自动提供修复和功能的播放器问好，确保您随时都能拥有最新功能。 迁移到基于PWA的Cloud Player标志着Adobe数字标牌服务的一个令人振奋的进步，使其比以往任何时候都更易于访问、更通用、更便于使用。
 
 本节介绍如何实施云播放器。
 
 >[!NOTE]
 >
->为了兼容Cloud Player，需要配备支持PWA的现代浏览器，以确保各种设备之间的性能一致。
+>为了兼容Cloud Player，需要具备PWA支持的现代化浏览器，以确保在各种设备上都提供一致的性能。
 
 ## 安装Cloud Player {#installing-cloud-player}
 
@@ -44,12 +44,12 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 >
 >### Cloud Player安装选项 {#cloud-player-install-option}
 >
->1. PWA的安装选项也称为“添加到主屏幕”或A2HS功能。 对从Web安装PWA的支持因浏览器和平台而异。
+>1. PWA的安装选项也称为添加到主屏幕或A2HS功能。 对从Web安装PWA的支持因浏览器和平台而异。
 >1. 每个浏览器都有不同的标准来检查PWA应用程序是否可安装。 通常，浏览器可以检查（此处提供了更多详细信息）：
 >
->* 如果应用程序有一个清单json文件，其中包含在平台上安装应用程序所需的最少键，即名称、图标、start_url、显示
->* 如果应用程序有一个带回迁事件侦听器的Service Worker文件
->* 应用程序必须通过https提供
+>    * 如果应用程序有一个清单json文件，其中包含在平台上安装应用程序所需的最少键，即名称、图标、start_url、显示
+>    * 如果应用程序有一个带回迁事件侦听器的Service Worker文件
+>    * 应用程序必须通过https提供
 >
 >1. 安装选项可能显示在不同浏览器和设备类型的不同位置。 某些浏览器可能会隐藏选项菜单栏中的安装图标。
 
@@ -67,15 +67,15 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 
 ## 在Chrome OS上批量配置 {#bulk-provisioning-chrome}
 
-详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。 &lt;！— `https://www.adobe.com/go/aem_screens_cloud_player_cn` >
+详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## AEM实例上所需的配置 {#bulk-provisioning-config-aem}
 
 根据AEM实例的类型，单击以下指南之一以启用AEM和Cloud Player上的CORS ：
 
-* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_cn` -->
+* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_cn` -->
+* [AEM云服务](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -84,11 +84,11 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 >
 >1. Chrome操作系统硬件上的Chrome应用程序：
 >
->Google一直在积极弃用Chrome应用程序而支持PWA应用程序，计划在2025年1月之前进行迁移。 因此，Chrome操作系统上的AEM Screens Player应用程序将无法根据共享时间线正常运行。 Adobe敦促当前在生产中使用Chrome Player的用户计划迁移到Screens Cloud Player。
+>   Google一直在积极弃用Chrome应用程序而支持PWA应用程序，计划在2025年1月之前进行迁移。 因此，Chrome操作系统上的AEM Screens Player应用程序将无法根据共享时间线正常运行。 Adobe敦促当前在生产中使用Chrome Player的用户计划迁移到Screens Cloud Player。
 >
 >1. Mac、Windows和Linux®上的Chrome扩展播放器：
 >
->由于Google的弃用过程，从Google Chrome版本114开始，不再支持Screens Chrome扩展播放器。 Adobe建议您过渡到其Screens Cloud Player，以满足所有开发和测试要求。
+>   由于Google的弃用过程，从Google Chrome版本114开始，不再支持Screens Chrome扩展播放器。 Adobe建议您过渡到其Screens Cloud Player，以满足所有开发和测试要求。
 
 ## 对外部内容检索的脱机支持 {#offline-support}
 
