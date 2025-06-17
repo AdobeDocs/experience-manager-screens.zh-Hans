@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 以下步骤概述了为项目设置ACL的过程：
 
-1. 登录AEM并导航到&#x200B;**工具** > **安全**。
+1. 登录AEM并导航到&#x200B;**工具** > **安全性**。
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->有时，您可以将创作功能（例如管理资产和创建渠道）与管理员功能（例如注册播放器）分开。 在此类场景中，创建两个组，并将作者组添加到参与者并将管理员组添加到参与者以及用户管理员。
+>有时，您可以将创作功能（例如管理资产和创建渠道）与管理员功能（例如注册播放器）分开。 在此类场景中，创建两个组，并将作者的组添加到参与者，将管理员组添加到参与者和用户管理员。
 
 ### 创建组 {#creating-groups}
 

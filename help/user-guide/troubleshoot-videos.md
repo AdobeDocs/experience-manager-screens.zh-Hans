@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 1. 在每个OS X框中打开&#x200B;**日期和时间**&#x200B;首选项
 1. 检查&#x200B;**自动设置日期和时间**
-1. 在下拉列表中粘贴值0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com，或者仅运行&#x200B;*sudo ntpdate -u -v 0.pool.ntp.org*
+1. 在下拉列表中粘贴值0.pool.ntp.org、1.pool.ntp.org、2.pool.ntp.org、3.pool.ntp.org、time.apple.com或仅运行&#x200B;*`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. 启动2个以上的播放器
 
 可能需要一些时间，玩家才会开始新的对齐序列。

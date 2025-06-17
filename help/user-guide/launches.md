@@ -1,5 +1,5 @@
 ---
-title: 使用Screens Launch更新内容
+title: 使用Screens Launch进行内容更新
 description: 了解如何创建渠道的未来版本（称为Launch），并设置启动项的上线日期以使内容在设备或播放器上线。
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
 
-# 使用Screens Launch更新内容 {#launches}
+# 使用Screens Launch进行内容更新 {#launches}
 
 内容作者可以创建渠道的未来版本，并进一步设置此启动项的启用日期。 此功能允许内容在指定的上线日期在设备或播放器中上线。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 因此，3小时56分钟(14160秒)。
 
-因此，无论何时安排任何启动直播，促销活动都会提前开始，并会将此偏移量考虑在内。 以上方程式中，多数项用时不大。 当知道服务器和任何播放器之间的最大时间差时，您可以像往常一样猜测此偏移。
+因此，无论何时安排任何启动直播，促销活动都会提前开始，并会将此偏移量考虑在内。 以上方程式中，多数项用时不大。 当您知道服务器和任何播放器之间的最大时间差时，可以像往常一样猜测此偏移。
 
 >[!NOTE]
 >

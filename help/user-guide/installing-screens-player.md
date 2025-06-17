@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ AEM Screens Player中的基本回放监控允许您执行以下操作：
 
 * 检查GPU的`isContentRendering`属性在默认情况下要启用更多的资源消耗，并且需要从播放器首选项中明确选择加入。 Adobe建议您不要将其用于生产中的视频。
 
-* 仅序列渠道支持此功能，并且尚不涵盖交互式渠道(SPA)用例。
+* 仅序列渠道支持此功能，尚未涵盖交互式渠道(SPA)用例。
 
 * 这些量度尚未完全向客户公开，但Adobe正在努力尽快启用类似功能板的报告和警报机制。
 

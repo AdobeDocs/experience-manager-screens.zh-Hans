@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. 从列表中单击未分配的设备，然后单击操作栏中的&#x200B;**分配设备**。
+1. 从列表中单击未分配的设备，然后在操作栏中单击&#x200B;**分配设备**。
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
@@ -62,8 +62,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >每次将第一台设备添加到新的Screens项目时，都会创建一个用户组。
->例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。
->该组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
+>>例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。
+>>该组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

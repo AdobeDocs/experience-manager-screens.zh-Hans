@@ -1,18 +1,18 @@
 ---
-title: 将数据触发器复制到Publish服务器
+title: 将数据触发器复制到发布服务器
 description: 了解如何将数据触发器复制到AEM Screens的发布服务器。
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
 
-# 将数据触发器复制到Publish服务器 {#replicating-data-triggers}
+# 将数据触发器复制到发布服务器 {#replicating-data-triggers}
 
 在创作/发布设置中使用ContextHub和AEM定位引擎根据数据触发器自定义内容时，在发布时所有与ContextHub和Personalization相关的配置都不会自动与渠道一起复制。
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 1. Personalization受众
 1. Personalization活动
 
-## 将数据触发器复制到Publish Server的步骤 {#replicating-data-triggers-publish}
+## 将数据触发器复制到发布服务器的步骤 {#replicating-data-triggers-publish}
 
 按照以下步骤将数据触发器复制到发布服务器。
 
 ### 步骤1：复制ContextHub配置 {#replicating-contexthub-configurations}
 
-1. 导航到&#x200B;**工具** > **部署** > **分发** > **Publish代理**，然后单击发布代理，以便您可以配置设置。
+1. 导航到&#x200B;**工具** > **部署** > **分发** > **发布代理**，然后单击发布代理，以便您可以配置设置。
 
    ![图像1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 单击操作栏中的&#x200B;**管理发布**。
 
-1. 单击&#x200B;**下一步**&#x200B;和&#x200B;**Publish**。
+1. 单击&#x200B;**下一步**&#x200B;和&#x200B;**发布**。
 
 ### 复制活动 {#replicating-activities}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 1. 单击操作栏中的&#x200B;**管理发布**。
 
-1. 单击&#x200B;**下一步**&#x200B;和&#x200B;**Publish**。
+1. 单击&#x200B;**下一步**&#x200B;和&#x200B;**发布**。
 
 >[!IMPORTANT]
 >
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 如果复制ContextHub配置时测试连接失败，请按照以下部分解决此问题：
 
-1. 导航到&#x200B;**工具** > **部署** > **分发** > **Publish代理**。
+1. 导航到&#x200B;**工具** > **部署** > **分发** > **发布代理**。
 
-1. 单击操作栏中的&#x200B;**编辑**，并确保&#x200B;**导入程序端点**&#x200B;字段中的端点URL也指向分发代理中的发布服务器URL。
+1. 单击操作栏中的&#x200B;**编辑**，并确保&#x200B;**导入程序端点**字段中的端点URL也指向分发代理中的发布服务器URL。
    ![图像1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. 如果不使用默认管理员凭据，则必须使用其他用户名和密码配置分发代理。
@@ -102,7 +102,7 @@ ht-degree: 1%
    应遵循以下步骤：
 
    1. 导航到“工具”>“**操作**”>“**Web控制台**”`http://localhost:4502/system/console/configMgr`，以便打开&#x200B;**Adobe Experience Manager Web控制台屏幕**。
-   1. 搜索&#x200B;**Apache Sling分发传输凭据 — 基于用户凭据的DistributionTransportSecretProvider**
+   1. 搜索&#x200B;**`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![图像1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 

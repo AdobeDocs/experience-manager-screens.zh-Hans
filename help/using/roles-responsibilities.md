@@ -2,9 +2,9 @@
 title: AEM Screens项目角色和职责
 description: 了解AEM Screens项目角色和职责。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### Adobe {#adobe-audience}
 
-Adobe包括AdobeManaged Services资源，如CSE（客户成功工程师）和Adobe支持。
+Adobe包括Adobe Managed Services资源，如CSE（客户成功工程师）和Adobe支持。
 
 ### AEM实施人员 {#aem-implementors}
 
@@ -53,7 +53,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 单击正确的硬件合作伙伴至关重要。 必须考虑以下问题：
 
-1. 服务级别协议有哪些条款？
+1. service level agreement的术语是什么？
 
 1. 什么是全球覆盖？
 
@@ -76,7 +76,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 创意和内容管理可能如下所示：
 
-* 创意代理或，
+* Creative代理或，
 * 品牌管理器
 
 ### 项目经理 {#project-managers}
@@ -85,7 +85,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 >[!NOTE]
 >
->要详细了解数字标牌项目的不同角色和责任以及目标受众，请访问&#x200B;**[项目角色和责任](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
+>要详细了解数字标牌项目的不同角色和责任以及目标受众，请访问&#x200B;**[项目角色和责任](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
 
 
 ## 项目阶段 {#project-stages}
@@ -100,7 +100,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 >
 >虽然本指南主要强调&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功运行数字标牌项目。
 >
->要了解项目预生产、项目启动和项目进展，请观看有关&#x200B;**[项目管理和部署](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的视频。
+>要了解项目预生产、项目启动和项目进展，请观看有关&#x200B;**[项目管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的视频。
 
 ## RACI图表 {#raci-chart}
 
@@ -114,7 +114,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 * **负责人**：完成任务所需的工作量。
 
-* **责任人**：代理人工作，并且是任务完成前最后审核的一方。
+* **责任人**：代理人工作，并且是任务完成前最后审核任务的一方。
 
 * **已咨询**：查看任务或交付项以提供输入。
 

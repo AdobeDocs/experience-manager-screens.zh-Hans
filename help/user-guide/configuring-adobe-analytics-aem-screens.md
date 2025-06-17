@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 本节涵盖以下主题：
 
-* 使用AEM Screens在Adobe Analytics中排序&#x200B;**&#x200B;**
+* 使用AEM Screens在Adobe Analytics中排序&#x200B;****
 * **使用离线Adobe Analytics发送自定义事件**
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
@@ -108,7 +108,7 @@ ht-degree: 10%
    <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>主类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型分组 — <strong>已发送播放器</strong></td> 
+   <td>主类别(桌面、移动设备、WEB、进程、SDK、服务、生态系统) — 事件类型分组 — <strong>已发送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -175,7 +175,7 @@ ht-degree: 10%
   </tr>
   <tr>
    <td> </td> 
-   <td>数量</td> 
+   <td>计数</td> 
    <td>event.count</td> 
    <td>可选</td> 
    <td>数字</td> 
@@ -184,7 +184,7 @@ ht-degree: 10%
   </tr>
   <tr>
    <td> </td> 
-   <td>价值</td> 
+   <td>值</td> 
    <td>event.value</td> 
    <td>可选</td> 
    <td>字符串</td> 
@@ -198,7 +198,7 @@ ht-degree: 10%
    <td>AA必需</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>Adobe Analytics支持自定义页面名称</td> 
+   <td>Adobe Analytics中支持自定义页面名称</td> 
   </tr>
   <tr>
    <td> </td> 

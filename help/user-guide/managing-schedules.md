@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# 创建和管理时间表 {#creating-and-managing-schedules}
+# 创建和管理计划 {#creating-and-managing-schedules}
 
 通过AEM Screens中的&#x200B;**计划**，您可以将渠道组织到可重复使用的组中。 这样做意味着您不必对要显示内容的每个显示分别重复其分配。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >此AEM Screens功能仅在您安装了AEM 6.3 Sites Feature Pack 1时才可用。 要访问此功能包，请联系Adobe支持并请求获取访问权限。 在获得必要的权限后，您可以从包共享中下载它。
 
-## 创建时间表 {#creating-a-schedule}
+## 创建计划 {#creating-a-schedule}
 
 您可以为Screens项目创建计划，以便管理用例的所有活动。
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **计划信息面板**&#x200B;单击“计划信息”面板右上角的“属性”以查看/更改计划的属性。
+   **计划信息面板** — 单击“计划信息”面板右上角的“属性”以查看/更改计划的属性。
 
-   **已分配的渠道面板**&#x200B;单击“已分配的渠道”面板右上角的+分配渠道，打开“渠道分配”对话框。
+   **已分配的渠道面板** — 单击“已分配的渠道”面板右上角的+分配渠道，打开“渠道分配”对话框。
 
-   **已分配显示面板**&#x200B;单击已分配显示面板中的任何显示以打开显示功能板。
+   **已分配显示面板** — 单击已分配显示面板中的任何显示以打开显示功能板。

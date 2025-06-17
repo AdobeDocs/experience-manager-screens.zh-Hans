@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. 在AEM中，等待设备发送其注册码。
+1. 在AEM中，等待设备发送其注册代码。
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -82,7 +82,7 @@ ht-degree: 0%
    >
    >通过&#x200B;**注册新设备**，您可以注册新设备。
    >
-   >通过&#x200B;**分配显示区**，您可以直接将设备添加到显示区。
+   >**分配显示区**&#x200B;允许您直接将设备添加到显示区。
 
    如果单击&#x200B;**完成**，请将设备分配给显示设备。
 

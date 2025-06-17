@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 >[!IMPORTANT]
 >**OSGi配置设置**
->必须启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。 目前，其中某些功能仅在OSGi配置中启用Apache Sling反向链接过滤器允许空后才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
->按照以下步骤启用&#x200B;***Apache Sling引用过滤器允许为空***：
+>>必须启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。 当前，这些功能中的某些功能仅在OSGi配置中启用`Apache Sling`反向链接筛选条件允许空后才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
+>>按照以下步骤启用&#x200B;***Apache Sling引用过滤器允许为空***：
 
 
 ## 允许空反向链接请求 {#allow-empty-referrer-requests}
 
-1. 通过AEM实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**Adobe Experience Manager Web控制台配置**。
+1. 通过Adobe Experience Manager实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**AEM Web控制台配置**。
 
    ![图像](assets/config/empty-ref1.png)
 
@@ -162,7 +162,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 1. **渠道分配**&#x200B;对话框打开。
 
-1. 从&#x200B;**设置**&#x200B;选项中，按路径&#x200B;**选择通道**&#x200B;和&#x200B;**支持的事件**，如&#x200B;**初始加载**&#x200B;和&#x200B;**空闲屏幕**。
+1. 从&#x200B;**设置**&#x200B;选项中，按路径&#x200B;**和**&#x200B;支持的事件&#x200B;**选择频道**，例如&#x200B;**初始加载**&#x200B;和&#x200B;**空闲屏幕**。
 
    >[!NOTE]
    >
@@ -211,7 +211,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 1. 等待设备发送其注册码，同时从Chrome设备检查&#x200B;**注册码**。
    ![图像](assets/kickstart/demo-register3.png)
 
-1. 如果两台计算机上的&#x200B;**注册码**&#x200B;相同，请在AEM中单击&#x200B;**验证**。
+1. 如果两台计算机上的&#x200B;**注册码**&#x200B;相同，请单击AEM中的&#x200B;**验证**。
 
 1. 将设备所需的名称设置为&#x200B;**ChromeDeviceforDemo**，然后单击&#x200B;**注册**。
 

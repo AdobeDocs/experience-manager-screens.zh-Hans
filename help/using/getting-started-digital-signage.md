@@ -2,9 +2,9 @@
 title: '[!UICONTROL AEM Screens]的数字标牌基础知识'
 description: 了解数字标牌项目的基础知识。
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---

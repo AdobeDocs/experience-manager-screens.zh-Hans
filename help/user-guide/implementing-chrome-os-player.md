@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 请按照以下步骤设置Chrome管理控制台：
 
-1. 注册Chrome管理控制台。 您必须获取Chrome管理控制台的许可证。 有关详细信息，请与[Google支持](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995)联系以管理Chrome设备设置。
+1. 注册Chrome管理控制台。 您必须获取Chrome管理控制台的许可证。 有关详细信息，请与[Google支持](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995)联系以管理Chrome设备设置。
 1. 将Chrome操作系统设备注册到域，并等待15分钟以使设备与Chrome管理控制台同步。 要了解有关注册Chrome设备的更多信息，请单击[此处](https://support.google.com/chrome/a/answer/1360534?hl=en)。
 1. Chrome Player位于Chrome Web Store中。
 
@@ -136,17 +136,17 @@ AEM Screens Player是一个支持Kiosk的应用程序，它还为Chrome OS播放
 
 下表总结了策略及其功能。
 
-| **策略名称** | **目的** |
+| **策略名称** | **用途** |
 |---|---|
 | 服务器 | Adobe Experience Manager (AEM)服务器的URL。 |
 | 注册密钥 | 用于使用预共享密钥批量注册设备。 |
 | 分辨率 | 设备的分辨率。 |
 | rebootSchedule | 重新启动播放器的计划。 |
 | enableAdminUI | 启用管理UI以在站点上配置设备。 在完全配置并投入生产后，设置为false。 |
-| enableOSD | 为用户启用通道切换器UI以在设备上切换通道。 完全配置并投入生产后，请考虑将设置为false 。 |
-| enableActivityUI | 启用，以便显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
-| 云模式 | 如果希望Chrome Player连接到Screensas a Cloud Service，则设置为true。 设置为false以连接到AMS或本地AEM。 |
-| cloudToken | 用于针对Screensas a Cloud Service进行注册的注册令牌。 |
+| enableOSD | 为用户启用通道切换器UI以在设备上切换通道。 在完全配置并投入生产后，请考虑将其设置为false 。 |
+| enableActivityUI | 启用，以便显示活动的进度，例如下载和同步。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
+| 云模式 | 如果希望Chrome Player连接到Screens as a Cloud Service，则设置为true。 设置为false以连接到AMS或本地AEM。 |
+| cloudToken | 注册令牌以针对Screens as a Cloud Service进行注册。 |
 
 >[!NOTE]
 >

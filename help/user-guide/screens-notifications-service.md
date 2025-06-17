@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 定义以下字段，以便配置电子邮件的设置：
 
-   **设备路径**&#x200B;输入要监视的Screens项目的路径。 路径通常为`/home/users/screens/<Name of your project>`。
+   **设备路径** — 输入要监视的Screens项目的路径。 路径通常为`/home/users/screens/<Name of your project>`。
 
    例如，如果您的项目是&#x200B;**`We.Retail`**，请将项目路径用作&#x200B;***/home/users/screens/we-retail***。
 

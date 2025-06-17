@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -61,7 +61,7 @@ Live Copy是已存在的渠道的副本。
 
    >[!NOTE]
    >
-   >在查看Live Copy渠道的内容时，您可在菜单中以&#x200B;**Live Copy状态**&#x200B;查看多余的项目。 有关更多详细信息，请参阅下面的部分。
+   >在查看Live Copy渠道的内容时，您可在菜单中以&#x200B;**Live Copy状态**&#x200B;查看多余的项目。 更多详细信息，请参阅以下部分。
 
 ### 查看Live Copy的属性 {#viewing-properties-of-a-live-copy}
 
@@ -93,7 +93,7 @@ Live Copy是已存在的渠道的副本。
 
 您还可以取消从Live Copy的继承，以便内容独立于原始分支。
 
-以下示例显示了在编辑模式下单击图像，然后单击右上角的取消继承符号。
+以下示例显示您在编辑模式下单击图像，然后单击右上角的&#x200B;**取消继承**&#x200B;图标。
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Live Copy是已存在的渠道的副本。
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. 要将更改传播到Live Copy渠道，请导航到AEM功能板，单击Live Copy渠道，然后单击操作栏中的&#x200B;**属性**。
+1. 要将更改传播到Live Copy渠道，请导航到AEM仪表板，单击Live Copy渠道，然后单击操作栏中的&#x200B;**属性**。
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 

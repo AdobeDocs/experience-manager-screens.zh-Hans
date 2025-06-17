@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >您可以单击以下任一日志级别：
+>
 >* **禁用**
 >* **调试**
 >* **信息**
@@ -126,7 +127,7 @@ ht-degree: 0%
 
 启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。
 
-当前，仅当OSGi配置中启用了&#x200B;*Apache Sling反向链接筛选条件允许为空*&#x200B;时，这些功能中的某些功能才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
+目前，这些功能中的某些功能仅在&#x200B;*`Apache Sling Referrer Filter Allow Empty`*&#x200B;在OSGi配置中启用时可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
 
 执行以下步骤以启用Apache Sling反向链接过滤器允许为空
 
@@ -140,16 +141,16 @@ ht-degree: 0%
 
 以下部分建议监控网络链接、服务器和播放器，以了解运行状况并对问题做出反应。
 
-AEM为以下对象提供内置监控：
+AEM提供针对以下各项的内置监控：
 
 * 每5秒&#x200B;*一次心率*，表示AEM Screens播放器正在运行。
 * 播放器中的&#x200B;*屏幕快照*，显示播放器上显示的内容。
 * 播放器上已安装&#x200B;*AEM Screens播放器固件*&#x200B;版本。
 * 播放器上的&#x200B;*可用存储空间*。
 
-使用第三方软件实现远程监控的Recommendations：
+对使用第三方软件进行远程监控的建议：
 
-* 播放器中的CPU使用情况。
+* 播放器中的CPU用法。
 * 检查AEM Screens Player进程是否正在运行。
 * 远程重新启动/重新启动播放器。
 * 实时通知。

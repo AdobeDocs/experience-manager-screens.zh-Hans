@@ -2,16 +2,16 @@
 title: 具有移动数据路由器和活动网络组件的移动网络
 description: 本页介绍带有移动数据路由器和活动网络组件的移动网络
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # 具有移动数据路由器和活动网络组件的移动网络 {#mobile-network-setup}
 
-AdobeAEM Screens播放器还可以使用运行至少3G网络的移动或蜂窝网络进行连接。
+Adobe AEM Screens Player还可以使用运行至少3G网络的移动或蜂窝网络进行连接。
 
 在AEM Screens中，所需的内容会以物理方式下载到播放器控制器或计算机，并正确存储在底层操作系统中。 因此，给定的带宽仅影响初始下载时间和内容更新，不影响正常播放显示器的性能。
 

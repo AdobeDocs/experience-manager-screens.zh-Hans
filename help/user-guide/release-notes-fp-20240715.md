@@ -4,10 +4,11 @@ description: 了解有关2024年7月15日发布的AEM Screens功能包20240715�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 971b3d3768602929e213abdf9ae407fe9015ab4b
+exl-id: 5a99f65f-c74a-4d0c-8609-ce6600369b96
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
->FeaturePack (FP)版本11.4与ServicePack (SP)兼容，最高版本为20。
+>>FeaturePack (FP)版本11.4与ServicePack (SP)兼容，最高版本为20。
 
 
 ## 可用性 {#availability}
@@ -30,8 +31,8 @@ AEM Screens功能包20240715的发布日期为2024年7月15日。
 
 ### 新增功能 {#what-is-new}
 
-* 此版本仅包含安全修复。
+此版本仅包含安全修复。
 
 ### 错误修复 {#bug-fixes}
 
-* /libs/screens/clientlibs/libs/scripts/scroll/tests/index.html上的XSS问题(SCRNS-4359)
+`/libs/screens/clientlibs/libs/scripts/scroll/tests/index.html`处的XSS问题(SCRNS-4359)

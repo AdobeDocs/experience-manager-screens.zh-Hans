@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 您可以对与AEM Screens Player（硬件和软件）相关的各种问题进行故障诊断：
 
-| **问题** | **Recommendations** |
+| **问题** | **推荐** |
 |---|---|
 | 播放器存储空间已满 | 消除不必要的文件 |
 | 播放器丢失网络 | 使用Cat-5或Cat-6电缆。 对于WiFi，缩短路由器与播放器设备之间的距离 |

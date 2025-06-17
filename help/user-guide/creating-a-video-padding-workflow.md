@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 本节涵盖以下主题：
 
 * **概述**
-* **前提条件**
+* **先决条件**
 * **创建视频填充工作流**
    * **创建工作流**
    * **在AEM Screens项目中使用工作流**
@@ -80,7 +80,7 @@ ht-degree: 0%
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. 单击&#x200B;**参数**&#x200B;选项卡。
-1. 在&#x200B;**命令行 — 步骤属性**&#x200B;对话框中，在&#x200B;**Mime类型**（作为&#x200B;***video/mp4***）中输入格式，命令为(***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920：height=1080：x=0：y=0：color=black&quot; cq5dam.video.fullhd-hp.mp4***)。 此命令在&#x200B;**命令**&#x200B;字段中启动工作流。
+1. 在&#x200B;**命令行 — 步骤属性**&#x200B;对话框中，在&#x200B;**Mime类型** （作为&#x200B;***video/mp4***）中输入格式，并以(***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***)输入命令。 此命令在&#x200B;**命令**&#x200B;字段中启动工作流。
 
    请在下面的注释中查看有关&#x200B;**Mime类型**&#x200B;和&#x200B;**命令**&#x200B;的详细信息。
 

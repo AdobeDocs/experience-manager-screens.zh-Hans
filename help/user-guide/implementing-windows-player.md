@@ -10,9 +10,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 1. 导航到&#x200B;**Adobe Experience Manager Web控制台
 使用`http://localhost:4502/system/console/configMgr`的配置**。
 
-1. 搜索&#x200B;*AdobeGranite令牌身份验证处理程序*。
+1. 搜索&#x200B;*Adobe Granite令牌身份验证处理程序*。
 
 1. 将登录令牌Cookie **的** SameSite属性从&#x200B;**Lax**&#x200B;设置为&#x200B;**None**。
    ![图像](/help/user-guide/assets/granite-updates.png)
@@ -67,7 +67,7 @@ Ad-Hoc方法允许您安装最新的Windows Player (*.exe*)。 访问&#x200B;[**
 
 ## 命名Windows Player {#name-windows}
 
-您可以为Windows Player分配一个用户友好的设备名称，从而将分配的设备名称发送到Adobe Experience Manager (AEM)。 此功能不仅允许您为Windows Player命名，还允许您轻松分配适当的内容。
+您可以为Windows Player分配一个用户友好的设备名称，从而向Adobe Experience Manager (AEM)发送分配的设备名称。 此功能不仅允许您为Windows Player命名，还允许您轻松分配适当的内容。
 
 >[!NOTE]
 >您只能在注册之前选择播放器名称。 注册播放器后，无法再更改播放器名称。
@@ -118,17 +118,17 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 下表汇总了策略属性并提供了示例策略JSON以供参考：
 
 
-| **策略名称** | **目的** |
+| **策略名称** | **用途** |
 |---|---|
 | 服务器 | Adobe Experience Manager (AEM)服务器的URL。 |
 | 注册密钥 | 用于使用预共享密钥批量注册设备。 |
 | 分辨率 | 设备的分辨率。 |
 | rebootSchedule | 重新启动播放器的计划。 |
 | enableAdminUI | 启用管理UI以在站点上配置设备。 在完全配置并投入生产后，设置为false。 |
-| enableOSD | 为用户启用通道切换器UI以在设备上切换通道。 完全配置并投入生产后，请考虑将设置为false 。 |
-| enableActivityUI | 启用，以便显示下载和同步等活动的进度。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
-| 云模式 | 如果希望Windows Player连接到Screensas a Cloud Service，则设置为true。 设置为false以连接到AMS或本地AEM。 |
-| cloudToken | 用于针对Screensas a Cloud Service进行注册的注册令牌。 |
+| enableOSD | 为用户启用通道切换器UI以在设备上切换通道。 在完全配置并投入生产后，请考虑将其设置为false 。 |
+| enableActivityUI | 启用，以便显示活动的进度，例如下载和同步。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
+| 云模式 | 如果希望Windows Player连接到Screens as a Cloud Service，则设置为true。 设置为false以连接到AMS或本地AEM。 |
+| cloudToken | 注册令牌以针对Screens as a Cloud Service进行注册。 |
 
 #### 示例策略JSON文件 {#example-policy-json-file}
 
@@ -159,11 +159,11 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 1. 启用Shell启动器。
 
-   有关其他信息，请参阅Microsoft® Windows支持在&#x200B;**[Shell启动器](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)**&#x200B;页中的&#x200B;***配置Shell启动器***。
+   有关其他信息，请参阅Microsoft® Windows支持在&#x200B;**[Shell启动器](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;页中的&#x200B;***配置Shell启动器***。
 
 1. 创建一个非管理用户（如果您还没有该用户）以用于自助订餐亭。 它可以是本地或域用户。
 1. 从[AEM Screens Player下载](https://download.macromedia.com/screens/)页面为该Kiosk用户安装Windows Player。
-1. 有关详细信息，请参阅[使用Shell启动器创建Windows 10信息亭](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune)以修改您的PowerShell脚本。
+1. 有关详细信息，请参阅[使用Shell启动器创建Windows 10信息亭](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune)以修改您的PowerShell脚本。
 
    修改PowerShell脚本，以便您能够将用户名替换为您创建的用户名。 确保应用程序可执行文件的路径正确。 这会为kiosk用户将自定义shell设置为Windows Player应用程序，并为其他用户将默认设置为explorer.exe。
 
@@ -182,7 +182,7 @@ Windows Player的默认安装路径为：
 
 >[!NOTE]
 >
->在某些Windows环境中，PowerShell脚本可能受策略限制（特别是未签名的脚本）。 要运行脚本，请暂时禁用并重新启用此限制以运行脚本。 打开PowerShell窗口并使用这些命令。
+>某些Windows环境会按策略限制PowerShell脚本，尤其是当脚本未签名时。 要运行脚本，请暂时禁用并重新启用此限制以运行脚本。 打开PowerShell窗口并使用这些命令。
 >
 >*`set-executionpolicy unrestricted`* — 临时删除限制。
 >

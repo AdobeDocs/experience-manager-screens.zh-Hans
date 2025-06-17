@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 1%
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本地开发环境
 
-使用CRXDE-Lite执行教程步骤和屏幕截图。 还可以使用[Eclipse](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE来完成教程。 有关使用IDE [使用AEM进行开发的更多信息，请访问此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+使用CRXDE-Lite执行教程步骤和屏幕截图。 还可以使用[Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE来完成教程。 有关使用IDE通过AEM进行[开发的更多信息，请参见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 ## 项目设置 {#project-setup}
 
-Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 1. 使用&#x200B;**CRX package manager** `http://localhost:4502/crx/packmgr/index.jsp)r:`下载并安装以下包
 
@@ -133,7 +133,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    已将对话框从`/libs/wcm/foundation/components/image/cq:dialog`复制到`/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image`组件是WCM Foundation `image`组件的超类型。 因此，`poster`组件从两者继承功能。 海报组件的对话框由Screens对话框和Foundation对话框的组合组成。 **Sling资源合并器**&#x200B;的功能用于隐藏从超类型组件继承的不相关对话框字段和选项卡。
+   AEM Screens `image`组件是WCM Foundation `image`组件的超类型。 因此，`poster`组件从两者继承功能。 海报组件的对话框由Screens对话框和Foundation对话框的组合组成。 **`Sling Resource Merger`**&#x200B;的功能用于隐藏从超类型组件继承的不相关对话框字段和选项卡。
 
 1. 使用以XML表示的以下更改更新`/apps/weretail-run/components/content/poster`下的`cq:dialog`：
 
@@ -284,7 +284,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    徽标还作为覆盖包含在组件中。 在此示例中，` We.Retail`徽标的路径在DAM中进行硬编码。 根据用例，可能更适合创建对话框字段，以将徽标路径设置为动态填充值。
 
-   另请注意，组件使用BEM（块元素修饰符）表示法。 BEM是一种CSS编码约定，它使创建可重用组件变得更容易。 BEM是[AEM核心组件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的表示法。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   另请注意，组件使用BEM（块元素修饰符）表示法。 BEM是一种CSS编码约定，它使创建可重用组件变得更容易。 BEM是[AEM的核心组件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的表示法。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. 在`/apps/weretail-run/components/content/poster`下创建名为`edit.html.`的文件
 
@@ -308,13 +308,13 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
    </div>
    ```
 
-   上面直接显示海报组件的&#x200B;**编辑**&#x200B;标记。 HTL脚本覆盖`/libs/screens/core/components/content/image/edit.html`。 该标记与`production.html`标记类似，在图像上方显示标题和描述。
+   直接在上面可以看到海报组件的&#x200B;**edited**&#x200B;标记。 HTL脚本覆盖`/libs/screens/core/components/content/image/edit.html`。 该标记与`production.html`标记类似，在图像上方显示标题和描述。
 
    添加`aem-Screens-editWrapper`后，该组件不会在编辑器中全屏呈现。 `data-emptytext`属性可确保在没有填充图像或内容时显示占位符。
 
 ## 创建客户端库 {#clientlibs}
 
-客户端库提供了一种机制，用于组织和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的详细信息可在此处找到。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+客户端库提供了一种机制，用于整理和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所不同。 将创建两组客户端库，一组用于编辑模式，另一组用于预览/生产模式。
 
@@ -339,7 +339,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    `categories`属性是一个标识客户端库的字符串。 `cq.screens.components`类别同时在“编辑”和“预览/生产”模式下使用。 因此，在`shared` clientlib中定义的任何CSS/JS都将以所有模式加载。
 
-   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 在共享文件夹下创建名为`css.txt`的文件。
 
@@ -355,7 +355,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   本教程不会直接编写CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 Sass或其他预编译器可以使用，但必须在AEM之外编译。
+   本教程不会直接编写CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 您可以使用Sass或其他预编译器，但必须在AEM之外编译它们。
 
 1. 使用以下内容填充`/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less`：
 
@@ -412,7 +412,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    >[!NOTE]
    >
-   >GoogleWeb Fonts用于字体系列。 Web Fonts需要互联网连接，并且并非所有AEM Screens实施都有可靠的连接。 规划离线模式是AEM Screens部署的一个重要考虑事项。
+   >Google Web Fonts用于字体系列。 Web Fonts需要互联网连接，并且并非所有AEM Screens实施都拥有可靠的连接。 规划离线模式是AEM Screens部署的一个重要考虑事项。
 
 1. 复制`shared`客户端库文件夹。 将其粘贴为同级并重命名为`production`。
 

@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Ad-Hoc方法允许您安装最新的Android™播放器(*.exe*)。 访问&#x200B
 
 ### Android的标牌™ `apks`使用制造商密钥 {#signage-of-android-apks-using-manufacturer-keys}
 
-要访问Android的某些特权API™如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*，请使用制造商的密钥对Android™ `apk`进行签名。
+要访问Android™的某些特权API，如&#x200B;*PowerManager*&#x200B;或&#x200B;*HDMIControlServices*，请使用制造商的密钥对Android™ `apk`进行签名。
 
 >[!CAUTION]
 >
@@ -143,7 +143,7 @@ Ad-Hoc方法允许您安装最新的Android™播放器(*.exe*)。 访问&#x200B
 | *rebootSchedule* | 重新启动计划适用于所有平台。 |
 | *enableAdminUI* | 启用管理UI以在站点上配置设备。 在完全配置并投入生产后，设置为&#x200B;*false*。 |
 | *启用OSD* | 为用户启用通道切换器UI以在设备上切换通道。 在完全配置并投入生产后，请考虑将其设置为&#x200B;*false*。 |
-| *enableActivityUI* | 如果要显示下载和同步等活动的进度，则启用此选项。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
+| *enableActivityUI* | 如果要显示活动的进度（例如下载和同步），则启用此选项。 在完全配置并投入生产后，启用以进行故障排除并禁用。 |
 | *enableNativeVideo* | 如果要使用本机硬件加速进行视频播放，请启用(仅限Android™)。 |
 
 ### 示例JSON策略 {#example-json}

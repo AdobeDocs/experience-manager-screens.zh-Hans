@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 添加以下属性：
 
-   **项目路径**&#x200B;指定AEM Screens项目的路径。 路径通常为`/content/screens/<Name of your project>`。
+   **项目路径** — 指定AEM Screens项目的路径。 路径通常为`/content/screens/<Name of your project>`。
 
    *例如*，`/content/screens/we-retail`。 您可以通过选择AEM Screens下的任何项目（不单击图标），在URL中找到此路径。
 
@@ -69,6 +69,6 @@ ht-degree: 0%
    >
    >指定相对于渠道的项目路径。
 
-   **计划频率**&#x200B;指定此服务应更新脱机内容的时间，例如，下午5:00或17:00。
+   **计划频率** — 指定此服务应更新脱机内容的时间，例如，下午5:00或17:00。
 
 1. 单击&#x200B;**保存**，以便保存您的设置。 您的所有内容将在指定时间更新。

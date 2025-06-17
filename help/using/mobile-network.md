@@ -2,9 +2,9 @@
 title: 直接移动网络
 description: 了解AEM Screens中的直接移动网络设置。
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ AEM Screens播放器还可以使用运行至少3G网络的移动或蜂窝网络�
 
 通过移动电话3/4/5G将AEM Screens播放器连接到您的移动服务数据提供商的好处是，移动路由器可以放置在优化的位置。 这样做可确保最佳的网络覆盖范围。 此位置通常处于高架和开放位置，周围混凝土或金属结构尽可能少。
 
-此设置使AEM Screen用户拥有极大的灵活性，因为无需使用固定电话连接到AEM Screens。 这种安排对于短暂或移动设置很有趣。
+这种设置使AEM Screen用户拥有极大的灵活性，因为无需固定电话连接即可连接到AEM Screens。 这种安排对于短暂或移动设置很有趣。
 
 下图显示了直接移动网络设置。 它由一个单一的网络连接段和每个播放器与移动或蜂窝数据网络的连接组成。
 

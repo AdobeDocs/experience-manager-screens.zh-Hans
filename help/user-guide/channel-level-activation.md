@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -114,7 +114,7 @@ ht-degree: 1%
    >
    >您还可以从显示功能板分配渠道。 导航到&#x200B;**渠道级别激活** > **位置** > **区域** > **区域显示**。 在操作栏上，选择&#x200B;**仪表板**。 在&#x200B;**分配的渠道和计划**&#x200B;面板中，单击&#x200B;**+分配渠道**。
 
-   同样，为显示分配渠道&#x200B;**TargetedSinglePlay**&#x200B;**：
+   同样，为显示分配渠道&#x200B;**TargetedSinglePlay****：
 
    1. 导航到&#x200B;**渠道级别激活** > **位置** > **区域** > **区域显示**，然后单击操作栏中的&#x200B;**分配渠道**。
    1. 在&#x200B;**渠道分配**&#x200B;对话框中，单击&#x200B;**按路径引用渠道**。
@@ -146,8 +146,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >要了解AEM屏幕播放器，请参阅以下资源：
->[AEM Screens播放器下载](https://download.macromedia.com/screens/)
->[使用AEM Screens Player](working-with-screens-player.md)
+>>[AEM Screens播放器下载](https://download.macromedia.com/screens/)
+>>[使用AEM Screens Player](working-with-screens-player.md)
 
 
 ## 在渠道中处理Assets的重复项 {#handling-recurrence-in-assets}

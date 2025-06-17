@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 因此，电子表格(CSV/XLS)文件需要以下列：
 
 * **路径{string}** — 要导入位置的路径，其中路径的根是项目的位置文件夹（即，*`/foo`*&#x200B;已导入到&#x200B;*`/content/screens/<project>/locations/foo`*）
-* **模板{string}** — 用于新位置的模板，目前唯一允许的值是“location”，但此值将来会扩展到所有Screens模板（`display`、`sequencechannel`等）
+* **模板{string}** — 用于新位置的模板，目前唯一允许值为“location”，但此值扩展到了将来所有`Screens`模板（`display`、`sequencechannel`等）
 * **[。/*] {string}** — 要在位置设置的任何可选属性（即，`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 当前版本不允许筛选。
 
 >[!NOTE]
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 单击侧栏中的项目&#x200B;**DemoProjectImporter &#x200B;**>**&#x200B;创建&#x200B;**>**&#x200B;导入位置**。
+1. 单击侧栏中的项目**DemoProjectImporter **>**&#x200B;创建&#x200B;**>**&#x200B;导入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

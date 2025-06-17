@@ -4,9 +4,10 @@ description: 了解有关2025年2月24日发布的AEM Screens功能包20250224�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 5%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
->FeaturePack (FP)版本11.5与ServicePack (SP)兼容，最高版本为21。
+>>FeaturePack (FP)版本11.5与ServicePack (SP)兼容，最高版本为21。
 
 
 ## 可用性 {#availability}
@@ -35,4 +36,4 @@ AEM Screens功能包20250224的发布日期为2025年2月24日。
 ### 错误修复 {#bug-fixes}
 
 * Service Pack 21和Screens功能包存在包冲突。 (SCRNS-4638)
-* Vuln fix at /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
+* 漏洞修复位于`/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js` (SCRNS-4607)

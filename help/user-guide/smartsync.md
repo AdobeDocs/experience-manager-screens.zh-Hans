@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,7 +45,7 @@ SmartSync功能可为您的AEM Screens项目提供以下几项好处：
 
 >[!NOTE]
 >
->Adobe强烈建议对AEM Screens项目使用SmartSync。
+>Adobe建议您对AEM Screens项目使用SmartSync。
 
 ## 从ContentSync迁移到SmartSync {#migrating-from-contentsync-to-smartsync}
 
@@ -53,7 +53,7 @@ SmartSync功能可为您的AEM Screens项目提供以下几项好处：
 >
 >如果您已安装AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3，则可以启用SmartSync for Assets以提高磁盘空间利用率。 要启用SmartSync，请按照以下部分从ContentSync过渡到SmartSync，从而启用SmartSync。
 >
->SmartSync适用于具有受支持的服务器AEM 6.4.3 FP3的Screens Player。
+>SmartSync适用于Screens Player，以及受支持的服务器AEM 6.4.3 FP3。
 >
 >查看[AEM Screens播放器下载](https://download.macromedia.com/screens/)以下载最新的播放器。 下表描述了每个平台所需的最低播放器版本：
 
@@ -75,7 +75,7 @@ SmartSync功能可为您的AEM Screens项目提供以下几项好处：
    >
    >在首次使用SmartSync之前，必须清除所有内容缓存。
 
-1. 通过AEM实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**Adobe Experience Manager Web控制台配置**。
+1. 通过Adobe Experience Manager实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**AEM Web控制台配置**。
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

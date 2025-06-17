@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
    >[!NOTE]
    >要了解如何在渠道编辑器中向资产添加文本叠加，请参阅[文本叠加](/help/user-guide/text-overlay.md)。
 
-1. 从AEM实例导航到CRXDE Lite> tools > **CRXDE Lite**。
+1. 从AEM实例导航到CRXDE Lite > tools > **CRXDE Lite**。
 
 1. 在`/apps/settings/wcm/designs/<your-project>/`中创建自定义设计，例如，在此例中，导航到`/apps/settings/wcm/designs/customstyle/`
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 1. 导航到标题为&#x200B;**DemoBrand**(在步骤(1)中创建)的频道，然后在选择该频道后，从操作栏中单击&#x200B;**属性**。
 
-1. 导航到&#x200B;**高级**&#x200B;选项卡并检查&#x200B;**设计**&#x200B;字段。
+1. 导航到&#x200B;**高级**&#x200B;选项卡并检查&#x200B;**设计**字段。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. 导航到CRXDE Lite为&#x200B;*static.css*&#x200B;的文件，并将字体（如`font-family: "Lucida Console", Courier, monospace;`）添加到该文件中，如下所示。
+1. 导航到CRXDE Lite中的&#x200B;*static.css*&#x200B;文件，并将字体（如`font-family: "Lucida Console", Courier, monospace;`）添加到此文件，如下所示。
 
    ![图像](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
