@@ -62,8 +62,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >每次将第一台设备添加到新的Screens项目时，都会创建一个用户组。
->>例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。
->>该组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
+>&#x200B;>例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。
+>&#x200B;>该组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

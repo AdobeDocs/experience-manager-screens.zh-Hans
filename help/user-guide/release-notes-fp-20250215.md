@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
->>Adobe建议您将FP11.6与SP(servicepack) >= 21一起使用。
+>&#x200B;>Adobe建议您将FP11.6与SP(servicepack) >= 21一起使用。
 
 ## 可用性 {#availability}
 
