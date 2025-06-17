@@ -40,11 +40,11 @@ ht-degree: 1%
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本地开发环境
 
-使用CRXDE-Lite执行教程步骤和屏幕截图。 还可以使用[Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE来完成教程。 有关使用IDE通过AEM进行[开发的更多信息，请参见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+使用CRXDE-Lite执行教程步骤和屏幕截图。 还可以使用[Eclipse](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE来完成教程。 有关使用IDE通过AEM进行[开发的更多信息，请参见此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 ## 项目设置 {#project-setup}
 
-Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 1. 使用&#x200B;**CRX package manager** `http://localhost:4502/crx/packmgr/index.jsp)r:`下载并安装以下包
 
@@ -314,7 +314,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
 ## 创建客户端库 {#clientlibs}
 
-客户端库提供了一种机制，用于整理和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+客户端库提供了一种机制，用于整理和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的详细信息可在此处找到。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所不同。 将创建两组客户端库，一组用于编辑模式，另一组用于预览/生产模式。
 
@@ -339,7 +339,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    `categories`属性是一个标识客户端库的字符串。 `cq.screens.components`类别同时在“编辑”和“预览/生产”模式下使用。 因此，在`shared` clientlib中定义的任何CSS/JS都将以所有模式加载。
 
-   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 在共享文件夹下创建名为`css.txt`的文件。
 

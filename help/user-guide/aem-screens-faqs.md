@@ -167,7 +167,7 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 
 1. 检查您的Dispatcher配置是否允许在`/filters`中处理这些请求。
 
-   有关详细信息，请参阅[配置Screens筛选器](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
+   有关详细信息，请参阅[配置Screens筛选器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
 
 1. 检查您的Dispatcher重写规则是否正在将任何屏幕路径重写为其他路径。
 
@@ -214,7 +214,7 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 ### 2.如何添加Oak索引信息？ {#add-oak-index-info}
 
 AEM Screens为产品使用的查询创建索引定义。
-如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。 有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。 有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您还可以在[Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他资源。
 
@@ -224,10 +224,10 @@ AEM Screens为产品使用的查询创建索引定义。
 要启用v3清单，请执行以下操作：
 
 * 更新Dispatcher。
-有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
+有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
 
 * 更新自定义组件。
-有关详细信息，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+有关详细信息，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中禁用ContentSync。
 
@@ -241,7 +241,7 @@ AEM Screens为产品使用的查询创建索引定义。
 
 ### 4.如果在软件包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心包已安装但未处于活动状态，您应该怎么做？
 
-安装最低版本的AEM 6.5 Feature Pack 8以便AMS连接器正常工作。 请参阅[可用性](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以便您可以获取AEM Screens Feature Pack的最低版本。
+安装最低版本的AEM 6.5 Feature Pack 8以便AMS连接器正常工作。 请参阅[可用性](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以便您可以获取AEM Screens Feature Pack的最低版本。
 
 ### 5.如何在Screens中配置CQ Link Externalizer服务？
 
