@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: 6cdf350fa4e45b816d50b64252b8ed6d5e0904d0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '244'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
->&#x200B;>Adobe建议您将FP11.6与SP(servicepack) >= 21一起使用。
+>>Adobe建议您将FP11.6与SP(servicepack) >= 21一起使用。
 
 ## 可用性 {#availability}
 
@@ -43,3 +43,5 @@ AEM Screens功能包20250327的发布日期是2025年3月27日。
 * Service Pack 21和Screens功能包存在包冲突。 (SCRNS-4638)
 
 * Screens Dashboard无法正常工作。 (SCRNS-4749)
+
+* /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js上的XSS问题(SCRNS-4761)
