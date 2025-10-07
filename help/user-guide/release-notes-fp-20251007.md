@@ -4,10 +4,9 @@ description: 了解有关2025年10月7日发布的AEM Screens功能包20251007�
 feature: Feature Pack
 role: Developer
 level: Intermediate
-exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 7ade4e2c50ecf4585bc11b25b0c2ac56597497cb
+source-git-commit: b7ce4b726e9e9a2d70d852f40af3b9681c96bbd1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -15,14 +14,14 @@ ht-degree: 5%
 # 功能包20251007发行说明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
->&#x200B;>使用带有SP(servicepack)版本22或更高版本的FP11.7。
+>Adobe建议您升级到Adobe Experience Manager的最新版本(AEM 6.5)。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
+>>使用带有SP(servicepack)版本22或更高版本的FP11.7。
 
 ## 可用性 {#availability}
 
 AEM Screens发布了AEM 6.5功能包11.7。
 
-您可以使用您的Adobe ID从6.5.11.7软件分发门户[下载AEM Screens &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)版本的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**Screens**，以获取标题为&#x200B;**AEM 6.5 Screens FP11.7**&#x200B;的最新功能包。
+您可以使用您的Adobe ID从6.5.11.7软件分发门户[下载AEM Screens ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)版本的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**Screens**，以获取标题为&#x200B;**AEM 6.5 Screens FP11.7**&#x200B;的最新功能包。
 
 ## 发布日期 {#release-date}
 
