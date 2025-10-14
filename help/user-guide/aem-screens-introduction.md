@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **Experience Manager Screens** — 一种数字标牌解决方案，可让您在全面的数字营销平台上发布涉及各种屏幕的动态交互式数字体验和交互。
 
-使用[适用于AEM Screens的Kickstart ](kickstart-for-aem-screens.md)，开始使用简单的数字标牌体验并运行。
+使用[适用于AEM Screens的Kickstart &#x200B;](kickstart-for-aem-screens.md)，开始使用简单的数字标牌体验并运行。
 
 要了解如何在Experience Manageras a Cloud Service中配置和创建Experience Manager Screens项目，请参阅[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/using/about-guide)。
 
