@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: AEM Screens项目的最佳实践
+user-guide-title: AEM Screens 项目的最佳实践
 breadcrumb-title: AEM Screens 最佳实践指南
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
@@ -13,12 +13,12 @@ role: User
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
 
-# AEM Screens项目的最佳实践 {#using}
+# AEM Screens 项目的最佳实践 {#using}
 
 + [关于本指南](about-guide.md)
 + 概述 {#overview}
