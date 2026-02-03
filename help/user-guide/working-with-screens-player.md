@@ -9,10 +9,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 0%
+source-wordcount: '1103'
+ht-degree: 1%
 
 ---
 
@@ -144,6 +144,10 @@ AEM Screens Player有两种类型的更新：
 
 ## 播放器设备的硬件选择准则 {#hardware-selection-guidelines-for-player-device}
 
+>[!NOTE]
+>
+>**已弃用：**&#x200B;此硬件选择指南已弃用，不应用于新部署。 硬件规格和建议应由合格的AV集成商根据您的特定部署要求和用例提供。
+
 以下部分提供了Screens项目的硬件选择准则：
 
 * 始终为PC播放器和显示面板或投影仪提供&#x200B;***商业***&#x200B;或&#x200B;***工业***&#x200B;级组件。
@@ -163,7 +167,7 @@ AEM Screens Player有两种类型的更新：
    <td>内存</td>
    <td>存储SSD</td>
    <td>GPU</td>
-   <td>显示区</td>
+   <td>显示器</td>
    <td>I/O</td>
    <td>典型用例</td>
   </tr>
