@@ -1,10 +1,10 @@
 ---
 title: 自适应演绎版架构概述和配置
-description: 了解AEM Screens中自适应演绎版的CRXDE Lite中的架构概述和配置。
+description: 了解CRXDE Lite中的架构概述和配置，以便在AEM Screens中使用自适应演绎版。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '639'
 ht-degree: 2%
 
 ---
@@ -12,6 +12,9 @@ ht-degree: 2%
 # 自适应演绎版：架构概述和配置 {#adaptive-renditions}
 
 ## 简介 {#introduction}
+
+>[!CAUTION]
+>仅AEM内部部署(AEM 6.5)支持此功能。 AEM as a Cloud Service不支持它。
 
 自适应演绎版允许设备根据客户定义的规则自动单击设备的最佳演绎版。 设备根据这些规则自动下载并播放最合适的资源演绎版，从而允许客户专注于设计&#x200B;*main*&#x200B;体验。
 
@@ -36,19 +39,19 @@ ht-degree: 2%
 
 请按照以下步骤配置设置：
 
-1. 导航到&#x200B;**CRXDE Lite**。 检查`/conf/screens/sling:configs/rendition-mapping`中是否存在&#x200B;**rendition-mapping**&#x200B;配置，如下图所示。
+1. 导航到&#x200B;**CRXDE Lite**。 检查&#x200B;**中是否存在** rendition-mapping`/conf/screens/sling:configs/rendition-mapping`配置，如下图所示。
 
    >![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您安装了最新的功能包202109，则会在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中预填充的&#x200B;**rendition-mapping**&#x200B;节点结构。 请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)的发行说明，以了解有关最新功能包的详细信息。
+   >如果您安装了最新的功能包202109，则会在CRXDE Lite中看到&#x200B;**中预先填充了** rendition-mapping`/conf/screens/sling:configs/rendition-mapping`节点结构。 请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)的发行说明，以了解有关最新功能包的详细信息。
    >对于现有项目，请确保Screens项目具有关联的&#x200B;**rendition-mapping**&#x200B;配置。 有关详细信息，请参阅[将演绎版映射添加到现有项目](#rendition-mapping-existing)部分。
 
 ### 将演绎版映射属性添加到现有项目 {#rendition-mapping-existing}
 
 1. 导航到&#x200B;**CRXDE Lite**。
 
-1. 通过将指向`/conf/screens`的`sling:configRef`属性添加到项目内容节点，显式定义格式副本映射关联，如下图所示。
+1. 通过将指向`sling:configRef`的`/conf/screens`属性添加到项目内容节点，显式定义格式副本映射关联，如下图所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -57,12 +60,12 @@ ht-degree: 2%
 
 按照以下步骤在“节目映射”下添加节点：
 
-1. 从&#x200B;**CRXDE Lite**&#x200B;导航到此路径`/conf/screens/sling:configs/rendition-mapping`。
+1. 从`/conf/screens/sling:configs/rendition-mapping`CRXDE Lite **导航到此路径**。
 1. 在&#x200B;**rendition-mapping**&#x200B;下创建节点。 右键单击&#x200B;**rendition-mapping**，然后单击&#x200B;**创建** > **创建节点**，如下图所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. 在&#x200B;**创建节点**&#x200B;对话框中输入映射规则的&#x200B;**名称**，例如&#x200B;**规则1**，节点&#x200B;**类型**&#x200B;为&#x200B;**`nt:unstructured`**。 单击&#x200B;**确定**。
+1. 在&#x200B;**创建节点**&#x200B;对话框中输入映射规则的&#x200B;**名称**，例如&#x200B;**规则1**，节点&#x200B;**`nt:unstructured`**&#x200B;类型&#x200B;**为**。 单击&#x200B;**确定**。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +75,7 @@ ht-degree: 2%
    >[!NOTE]
    >请参阅[使用媒体查询语法](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)以了解详情。
 
-   单击您创建的&#x200B;**规则1**，然后在&#x200B;**名称**&#x200B;中输入&#x200B;**表达式**，在&#x200B;**值**&#x200B;中输入&#x200B;**(orientation：landscape)**，如下所示。 单击&#x200B;**添加**。
+   单击您创建的&#x200B;**规则1**，然后在&#x200B;**名称**&#x200B;中输入&#x200B;**表达式**，在&#x200B;**值:landscape中输入**（方向&#x200B;**）**，如下所示。 单击&#x200B;**添加**。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
