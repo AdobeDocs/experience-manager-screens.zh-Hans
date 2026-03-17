@@ -1,5 +1,5 @@
 ---
-title: “第2部分：关于项目适用范围的注意事项”
+title: 第2部分：关于项目适用范围的注意事项
 description: 了解AEM Screens中的内容策略、I/O层、资源类型和受众分段。 了解日常部件、业务运营要求和站点准备注意事项。
 contentOwner: jsyal
 content-type: reference
@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ I/O基于感测受众邻近度驱动有条件地播放内容。 例如，当传�
 
 * 内容是从平面广告、电视广告还是Web广告活动中重新调整而来？
 * 内容是包含静态图像还是包含动态馈送组件的模板？
-* 动画是作为视频节目还是HTML节目播放？
+* 动画是否以视频或HTML程序播放？
 * 是否有来自内容订阅服务、社交媒体、RSS聚合服务或API调用的第三方集成？
 * 图像分辨率要求是什么？
 * 屏幕是标准的16:9宽高比还是自定义的？ 纵向还是横向？

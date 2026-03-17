@@ -1,5 +1,5 @@
 ---
-title: “第3部分：测试、概念验证、试点和推广”
+title: 第3部分：测试、概念验证、试点和推广
 description: 了解整个项目计划中涉及的关键术语，如项目周期、围绕硬件测试的操作、概念验证、试点和推广。
 contentOwner: jsyal
 content-type: reference
@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 以下部分概述了总体项目计划中所涉及的关键术语，关键术语包括项目周期、围绕硬件测试的操作、概念验证、试运行和推广。
 
-### 概念验证(POC) {#proof-of-concept-poc}
+### 概念验证（POC） {#proof-of-concept-poc}
 
 POC的目的在于获得有关解决方案关键功能的初始反馈。 它还使最终客户和音频 — 视频集成商都有机会确定需要改进的领域并准备有关劳动力需求和资源需求的假设。 POC还允许双方评估解决方案的性能，通常通过以下方式进行测量：
 
@@ -73,7 +73,7 @@ QC测试完成后，IT工程团队会创建文档、工作流和培训，以供�
 
 ### 测试、POC、试点和推广
 
->[!VIDEO](https://video.tv.adobe.com/v/32814?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *了解总体项目计划中涉及的关键术语，如项目周期、硬件测试相关操作、概念验证、试点和推广。*
 

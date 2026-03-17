@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ ht-degree: 0%
 * **电子邮件通知**
 * **示例用例**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## 概述 {#overview}
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
 **方案1**
 
-将计划频率设置为1:00 A.M. ， ping超时设置为60。 然后，如果您的AEM Screens设备在下午12:00到1:00之间未执行ping操作，则会收到电子邮件通知，确认设备处于非活动状态。
+您已将计划频率设置为上午1:00，Ping超时设置为60。 然后，如果您的AEM Screens设备在下午12:00到下午1:00之间未执行ping操作，则会收到一封确认设备不活动的电子邮件通知。
 
 **方案2**
 

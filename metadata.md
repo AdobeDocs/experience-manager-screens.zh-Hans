@@ -2,18 +2,20 @@
 cloud: Experience Cloud
 solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
-index: y
-git-repo: https://github.com/AdobeDocs/experience-manager-screens.zh-Hans
+index: true
+git-repo: https://github.com/AdobeDocs/experience-manager-screens.en
 recommendations: noDisplay
-source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 97%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
 
-# 内部使用的元数据
+# 元数据供内部使用
 
-metadata.md 文件中包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南 TOC.md 文件。如果要更改任何用户指南的 metadata.md 内容，请在相应的 TOC.md 文件中进行更改。
+metadata.md文件包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南TOC.md文件。 如果要更改任何用户指南的metadata.md内容，请在任何TOC.md文件中进行更改。

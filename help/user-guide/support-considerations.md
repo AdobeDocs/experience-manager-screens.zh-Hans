@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 * 在数字标牌行业发展的这个阶段，远程设备管理、服务台可用性和现场技术人员支持等需求实际上已经具备。 除了此基线需求之外，音频 — 视频集成商还应探索主动与被动监控和支持模型之间的成本变量。
 * 为长期成功做好准备，最重要的是与音频 — 视频集成商合作制定第2天支持级别协议（也称为“S.L.A.”）。 SLA详细说明了部署后支持的服务，并帮助设定客户端期望。
 * 成功管理多个网络的关键资源是知识库。 SharePoint是此类资源的常用平台。 该知识库包括可供NOC工程师遵循的预先编写脚本的问答，从而确保以一致的方式处理入站问题解决请求。 知识库通常包括系统配置和站点位置的参考资料。 知识库有时可能包括硬件剪贴簿和系统软件参考资料。
-* 监控和管理功能主要取决于媒体播放器操作系统和屏幕功能。 Windows操作系统提供了最高级别的详细信息。 对于在Android™或iOS设备上运行的部署，将采用移动设备管理（也称为MDM）。
+* 监控和管理功能主要取决于媒体播放器操作系统和屏幕功能。 Windows操作系统提供了最高级别的详细信息。 对于在™或iOS设备上运行的部署，将采用移动设备管理（也称为MDM）。
 * 一些屏幕制造商提供独立于媒体播放器的屏幕监视功能，而其他制造商则需要外部设备。
 * 音频/视频集成器使用多种技术，确保解决方案保持灵活，以最好地满足最终客户的需求。
 

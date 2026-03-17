@@ -1,13 +1,13 @@
 ---
-title: “第1部分：项目角色和责任”
+title: 第1部分：项目角色和职责
 description: 在本教程中，了解在数字标牌项目的销售和项目生命周期中所需的角色、职责和时间线。
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 概述 {#overview}
 
-以下教程从较高层面介绍了Adobe、AEM实施人员和音频/视频集成器的项目角色和职责。 您可以导航到后续剧集，全面了解如何成功开发AEM Screens机会并为长期成功定位部署。
+以下教程从较高层面介绍了Adobe、AEM实施人员以及音频/视频集成器的项目角色和职责。 您可以导航到后续剧集，全面了解如何成功开发AEM Screens机会并为长期成功定位部署。
 
 在以下三个主要组中参与投放流程：
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## 数字标牌项目涉及的角色摘要 {#summary-of-roles-involved-in-a-digital-signage-project}
 
-与Adobe、AEM Implementor和Audio/Visual Integrator合作定义应用程序用例参数可推动软件开发范围。 此过程可确保采用分阶段的方法，在整个项目中确定性能基准和成功量度。
+与Adobe、AEM Implementor和Audio/Visual Integrator合作定义应用程序用例参数，可推动软件开发范围。 此过程可确保采用分阶段的方法，在整个项目中确定性能基准和成功量度。
 
 ### Adobe {#adobe}
 
-Adobe包括AdobeManaged Services资源，如CSE（客户成功工程师）和Adobe支持。
+Adobe包括Adobe Managed Services资源，如CSE（客户成功工程师）和Adobe支持。
 
 #### AEM实施人员 {#aem-implementors}
 
@@ -56,9 +56,9 @@ AEM实施人员通常会随着时间的推移分阶段将自定义功能部署�
 
 ### 第1部分：项目角色和职责
 
->[!VIDEO](https://video.tv.adobe.com/v/32831?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*了解Adobe、音频/视频集成商和AEM实施者的角色和职责。*
+*了解Adobe、Audio/Visual集成商和AEM实施者的角色和职责。*
 
 ## 下一步 {#the-next-step}
 

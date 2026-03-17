@@ -3,7 +3,7 @@ title: 在Screens Cloud上标记
 description: 本页介绍如何在Screens Cloud上创建、管理和使用标记。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 一个显示区或播放器最多可以分配30个标记。
-> &#x200B;> 一次最多可以标记30个项目。
+> 一次最多可以标记30个项目。
 
 ## 按标记过滤 {#filter-by-tags}
 

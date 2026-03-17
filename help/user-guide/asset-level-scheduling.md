@@ -5,10 +5,10 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 1%
+source-wordcount: '1490'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +29,14 @@ ht-degree: 1%
 * 多资产激活
 * 通用开始时间的全局覆盖
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## 概述 {#overview}
 
@@ -81,7 +83,7 @@ ht-degree: 1%
 
 您可以根据需要安排资产按特定时间间隔重复使用，周期可以是每日、每周或每月。
 
-假设您只想在星期五下午1:00到晚上10:00显示图像。 您可以使用&#x200B;**激活**&#x200B;选项卡为资源设置所需的循环间隔。
+假设您只想在星期五下午1:00至下午10:00显示图像。您可以使用&#x200B;**激活**&#x200B;选项卡为资源设置所需的重复间隔。
 
 ### 日划分 {#day-parting}
 
@@ -100,14 +102,14 @@ ht-degree: 1%
 
 | **表达式** | **解释** |
 |---|---|
-| 上午8点之前。 | 渠道中的资产在每天上午8:00之前播放 |
-| 下午2点以后。 | 渠道中的资产在每日下午2:00之后播放 |
-| 12:15 至 12:45 期间 | 渠道中的资产在每日下午12:15之后播放30分钟 |
-| 12:15之前以及12:45之后 | 渠道中的资产在每天中午12:15之前播放，然后在中午12:45之后播放。 |
+| 上午8:00之前 | 渠道中的资产在每天上午8:00之前播放 |
+| 下午2:00之后 | 渠道中的资产在每天下午2:00点后播放 |
+| 12:15之后和12:45之前 | 渠道中的资产每天下午12:15后播放30分钟 |
+| 在12:15之前也在12:45之后 | 渠道中的资产在每天下午12:15之前播放，然后在下午12:45之后播放。 |
 
 >[!NOTE]
 >
->您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.*（下午2:00）。
+>您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.* （2:00下午）。
 
 ### WeekParting {#week-parting}
 
@@ -175,11 +177,11 @@ ht-degree: 1%
 | **表达式** | **解释** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | 从1月到3月底，周一和周三上午6点到下午6点之间，该资产会在渠道中播放 |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2点后开始播放，并在1月2日继续播放一整天，一直到1月3日凌晨3点 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2:00之后开始播放，继续播放直到1月2日凌晨3:00，然后在1月2日下午2:00重新开始播放，并继续播放直到1月3日凌晨3:00 |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2:00之后开始播放，从1月2日开始播放一整天，一直到1月3日凌晨3:00 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2:00之后开始播放，继续播放直到1月2日凌晨3:00，然后在1月2日下午2:00再次开始播放，并继续播放直到1月3日凌晨3:00 |
 
 >[!NOTE]
->在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。 此外，您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.*(2:00 P.M.)。
+>在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。 此外，您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.*（2:00下午）。
 
 
 ## 多资产激活 {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ ht-degree: 1%
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***多资源激活***&#x200B;允许用户单击多个资源并将播放计划应用于所有选定的资源。
 

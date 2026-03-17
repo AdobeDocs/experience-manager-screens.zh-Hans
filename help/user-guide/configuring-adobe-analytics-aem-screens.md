@@ -10,25 +10,27 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '631'
 ht-degree: 10%
 
 ---
 
 # 使用AEM Screens配置Adobe Analytics {#configuring-adobe-analytics-with-aem-screens}
 
-<!-- OBSOLETE NOTE>
+<!--
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. -->
+>To get access to either of these Feature Packs, contact Adobe Support and request access. When you have permissions, download it from Package Share. 
+-->
 
 本节涵盖以下主题：
 
-* 使用AEM Screens在Adobe Analytics中排序&#x200B;**&#x200B;**
+* 使用AEM Screens在Adobe Analytics中排序&#x200B;****
 * **使用离线Adobe Analytics发送自定义事件**
 
 ## 使用AEM Screens在Adobe Analytics中排序 {#sequencing-in-adobe-analytics-with-aem-screens}
@@ -51,7 +53,7 @@ ht-degree: 10%
    <td><strong>分区</strong></td> 
    <td><strong>属性标签</strong></td> 
    <td><strong>属性名称/键</strong></td> 
-   <td><strong>必填</strong></td> 
+   <td><strong>必需</strong></td> 
    <td><strong>数据类型</strong></td> 
    <td><strong>属性类型</strong><br /> </td> 
    <td><strong>描述</strong></td> 
@@ -59,7 +61,7 @@ ht-degree: 10%
   <tr>
    <td><strong><em>核心/事件</em></strong></td> 
    <td>事件GUID</td> 
-   <td>event.guid</td> 
+   <td>event.gui</td> 
    <td>推荐</td> 
    <td>字符串</td> 
    <td>UUID</td> 
@@ -104,11 +106,11 @@ ht-degree: 10%
   <tr>
    <td> </td> 
    <td>主要数据挖掘类别</td> 
-   <td>event.category</td> 
+   <td>事件类别</td> 
    <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
-   <td>主类别(桌面、移动设备、WEB、进程、SDK、服务、生态系统) — 事件类型分组 — <strong>已发送播放器</strong></td> 
+   <td>主类别（桌面、移动设备、WEB、进程、SDK、服务、生态系统） — 事件类型分组 — <strong>已发送播放器</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -158,7 +160,7 @@ ht-degree: 10%
   <tr>
    <td> </td> 
    <td>语言/区域设置</td> 
-   <td>event.language</td> 
+   <td>event.语言</td> 
    <td>推荐</td> 
    <td>字符串</td> 
    <td> </td> 
@@ -176,7 +178,7 @@ ht-degree: 10%
   <tr>
    <td> </td> 
    <td>计数</td> 
-   <td>event.count</td> 
+   <td>事件计数</td> 
    <td>可选</td> 
    <td>数字</td> 
    <td> </td> 
@@ -185,7 +187,7 @@ ht-degree: 10%
   <tr>
    <td> </td> 
    <td>值</td> 
-   <td>event.value</td> 
+   <td>event.值</td> 
    <td>可选</td> 
    <td>字符串</td> 
    <td> </td> 
@@ -256,8 +258,8 @@ ht-degree: 10%
   </tr>
   <tr>
    <td> </td> 
-   <td>Platform</td> 
-   <td>source.platform</td> 
+   <td>平台</td> 
+   <td>源平台</td> 
    <td>必填</td> 
    <td>字符串</td> 
    <td> </td> 
@@ -266,7 +268,7 @@ ht-degree: 10%
   <tr>
    <td> </td> 
    <td>设备</td> 
-   <td>source.device</td> 
+   <td>源设备</td> 
    <td>必需（包含例外）</td> 
    <td>字符串</td> 
    <td> </td> 

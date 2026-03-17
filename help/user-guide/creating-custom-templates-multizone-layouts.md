@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -64,14 +64,14 @@ ht-degree: 1%
 
    ![图像](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. 从您的AEMCRXDE Lite> “工具”>“**CRXDE Lite”**&#x200B;导航到&#x200B;**工具**。
+1. 从您的CRXDE Lite实例> “工具” > **CRXDE Lite**&#x200B;导航到&#x200B;**AEM**。
 
 1. 在&#x200B;**apps**&#x200B;下创建标题为&#x200B;**`customtemplate`**&#x200B;的文件夹。 同样，在&#x200B;**`customtemplate`**&#x200B;下创建另一个名为&#x200B;**template**&#x200B;的文件夹，如下图所示。
 
    ![图像](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >每次创建、编辑内容或将CRXDE Lite复制到任何节点时，在Node的操作栏中单击&#x200B;**全部保存**。 否则，您无法提交更新。
+   >每次创建、编辑内容或将内容复制到任何节点时，在CRXDE Lite的操作栏中单击&#x200B;**全部保存**。 否则，您无法提交更新。
 
 1. 将lbar-left模板从`/libs/screens/core/templates/splitscreenchannel/lbar-left`复制到`/apps/customtemplate/template`。
 
