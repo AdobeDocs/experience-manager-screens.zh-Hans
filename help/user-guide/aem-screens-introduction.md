@@ -57,7 +57,7 @@ Experience Manager Screens是一个功能强大的基于Web的解决方案，通
 
 * **引导式实施Essentials**
 
-  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
+  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hans?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
 
 * 适用于Experience Manager Screens项目的&#x200B;**最佳实践指南**
 
