@@ -73,7 +73,7 @@ QC测试完成后，IT工程团队会创建文档、工作流和培训，以供�
 
 ### 测试、POC、试点和推广
 
->[!VIDEO](https://video.tv.adobe.com/v/28405)
+>[!VIDEO](https://video.tv.adobe.com/v/32814?captions=chi_hans)
 
 *了解总体项目计划中涉及的关键术语，如项目周期、硬件测试相关操作、概念验证、试点和推广。*
 
