@@ -1,10 +1,16 @@
 ---
-source-git-commit: 10ec516edaf59ade3b59ebaa47bae171221363d9
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '7'
-ht-degree: 0%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
-# 已存档
+# Adobe Experience Manager Screens文档
 
-此存储库已迁移到<https://github.com/Adobe-Enterprise-Docs/experience-manager-screens.zh-Hans>
+此存储库适用于Adobe Experience Manager Screens文档。
+
+欢迎您贡献文档内容。 请参阅以下资源：
+
+* [contributing.md](contributing.md)概述如何贡献文档内容。
+* [guidelines.md](guidelines.md)概述应贡献哪些内容以及如何撰写文档贡献内容。
+* [code-of-conduct.md](code-of-conduct.md)概述Adobe期望在您参与此文档项目时的行为标准。
