@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 13%
@@ -15,6 +15,7 @@ ht-degree: 13%
 # 功能包20260318发行说明 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe建议您升级到Adobe Experience Manager的最新版本(AEM 6.5)。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
 >使用带有SP(servicepack)版本22或更高版本的FP11.8。
 
