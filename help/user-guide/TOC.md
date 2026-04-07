@@ -8,10 +8,10 @@ user-guide-description: 了解如何使用数字标牌解决方案，让您发�
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 11%
+source-wordcount: '581'
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 11%
    + 特定于客户端的注意事项 {#installing-client}
       + [Chrome操作系统播放器](implementing-chrome-os-player.md)
       + [使用Chrome Player作为扩展进行故障排除](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [™ Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [云播放器](implementing-cloud-player.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [设备控制中心故障排除](monitoring-screens.md)
    + [视频播放配置](troubleshoot-videos.md)
 + 发行说明 {#release-notes}
+   + [功能包20260318发行说明](release-notes-fp-20260318.md)
    + [功能包20251007发行说明](release-notes-fp-20251007.md)
    + [功能包20250327发行说明](release-notes-fp-20250327.md)
    + [功能包20250224发行说明](release-notes-fp-20250224.md)
@@ -142,3 +143,4 @@ ht-degree: 11%
    + [功能包201905发行说明](screens-release-notes-fp-201905.md)
    + [功能包201812发行说明](release-notes-fp-201812.md)
    + [功能包201809发行说明](screens-release-notes.md)
+
