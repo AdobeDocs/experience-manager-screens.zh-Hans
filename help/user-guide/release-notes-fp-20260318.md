@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 6b19d83f146abc95f5ad42f914f5f151c2ce4767
+source-git-commit: b742d7ebb26a7acd33e66e4d2c1adf2e365af8af
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 12%
@@ -27,7 +27,7 @@ AEM Screens发布了AEM 6.5功能包11.8。
 
 ## 发布日期 {#release-date}
 
-AEM Screens功能包20260318的发布日期为2026年3月18日。
+AEM Screens功能包20260318的发布日期是2026年3月18日。
 
 ### 新增功能 {#what-is-new}
 
