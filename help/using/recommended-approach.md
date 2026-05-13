@@ -2,9 +2,14 @@
 title: 推荐的方法
 description: 了解AEM Screens项目中推荐的方法。
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: 436
 ht-degree: 0%
 
 ---
@@ -53,4 +58,4 @@ ht-degree: 0%
 如果您的客户需要功能丰富的产品，请在项目早期提供部分计划功能，并安排其他功能供未来阶段使用。 功能繁多的首次交付项具有更大的风险，并且更难于与客户进行验证。
 
 * **了解自定义集成的范围**：
-具有触摸屏交互、运动传感器或RFID的交互式组件需要在实施方法中进行重要的自定义开发。 幻灯片放映、视频广告或静态菜单可以在Screens频道上作为图形内容或HTML投放。
+具有触摸屏交互、运动传感器或RFID的交互式组件需要在实施方法中进行重要的自定义开发。 幻灯片放映、视频广告或静态菜单可以在Screens渠道上作为图形内容或HTML投放。

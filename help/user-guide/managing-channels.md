@@ -5,10 +5,17 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/tMZVrwGVdqEg0NbOKvBMO5-dKLG1k1kiNT8E8xU9msc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 2%
+source-wordcount: 1256
+ht-degree: 3%
 
 ---
 
@@ -117,7 +124,7 @@ ht-degree: 2%
 
 “渠道信息”面板描述渠道属性，以及渠道的预览。 此外，它还为您提供有关渠道是离线还是在线的信息。
 
-单击&#x200B;**渠道信息**&#x200B;操作栏中的(**...**)，以便查看渠道的属性、编辑内容或更新缓存（脱机内容）。
+单击(**...**) 从&#x200B;**渠道信息**&#x200B;操作栏中，查看属性、编辑内容或更新渠道的缓存（脱机内容）。
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,7 +140,7 @@ ht-degree: 2%
 1. **将渠道设置为脱机**
    1. 单击频道，然后单击操作栏中的&#x200B;**属性**
    1. 导航到&#x200B;**渠道**&#x200B;选项卡，并确保取消选中&#x200B;**开发人员模式（强制渠道联机）**&#x200B;选项
-   1. 单击&#x200B;**保存并关闭**
+   1. 点击&#x200B;**保存并关闭**
 1. **更新脱机内容**
    1. 单击渠道，然后单击操作栏中的&#x200B;**仪表板**
    1. 导航到&#x200B;**渠道信息**&#x200B;面板，然后单击&#x200B;*...*

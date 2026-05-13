@@ -9,9 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3fsKNXC1TmtKmk8r3niVhITl18OKTlMV-9EeowuG8Fw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: 890
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建议使用设备管理解决方案(例如Chrome管理控制台)来部署和管理Chrome操作系统设备。 尽管本文档提供了Chrome管理控制台的实施，但其他供应商也声称提供了类似功能。 请与设备管理软件的供应商联系。
+>建议使用设备管理解决方案（例如Chrome管理控制台）来部署和管理Chrome操作系统设备。 尽管本文档提供了Chrome管理控制台的实施，但其他供应商也声称提供了类似功能。 请与设备管理软件的供应商联系。
 
 ## 命名Chrome OS Player {#name-chrome}
 
@@ -54,7 +59,7 @@ ht-degree: 0%
    ![图像](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >必须在企业注册中注册Chrome播放器，并且必须通过Chrome Management Console部署Chrome播放器，否则资产ID将返回空白(例如，将Chrome作为扩展)。 设备名称仅在注册时记录。 Adobe Experience Manager (AEM)不会接受将来的更改。
+   >必须在企业注册中注册Chrome播放器，并且必须通过Chrome Management Console部署Chrome播放器，否则资产ID将返回空白（例如，将Chrome作为扩展）。 设备名称仅在注册时记录。 Adobe Experience Manager (AEM)不会接受将来的更改。
 
 ### 启用Kiosk模式 {#enabling-kiosk-mode}
 
@@ -101,7 +106,7 @@ AEM Screens Player是一个支持Kiosk的应用程序，它还为Chrome OS播放
 1. 单击应用程序&#x200B;**AEM Screens Player**。
 1. 单击&#x200B;**网亭设置**，然后单击您的组织（*如果使用测试环境*）。
 1. 单击&#x200B;**上载配置文件**&#x200B;并上载配置策略（*JSon文件*）。
-1. 单击&#x200B;**保存**。重新启动设备，以便同步策略。
+1. 单击&#x200B;**保存**。 重新启动设备，以便同步策略。
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成
-description: 了解如何使用AEM SPA编辑器通过REACT(或Angular)嵌入交互式单页应用程序。
+description: 了解如何使用AEM SPA编辑器通过REACT（或Angular）嵌入交互式单页应用程序。
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,20 +10,24 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 0%
+source-wordcount: 688
+ht-degree: 1%
 
 ---
 
 # 使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成 {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-您可以使用REACT(或Angular)嵌入交互式单页应用程序。 您可以使用AEM SPA中的业务专业人员配置的AEM编辑器来执行此操作。 您还可以了解如何将交互式应用程序与离线Adobe Analytics集成。
+您可以使用REACT（或Angular）嵌入交互式单页应用程序。 为此，您可以使用AEM中的商业专业人士配置的AEM SPA编辑器。 您还可以了解如何将交互式应用程序与离线Adobe Analytics集成。
 
 ## 使用AEM SPA编辑器 {#using-the-aem-spa-editor}
 
-请按照以下步骤使用AEM SPA编辑器：
+请按照以下步骤使用AEM SPA Editor：
 
 1. 在[https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)处克隆AEM SPA Editor存储库
 
@@ -31,7 +35,7 @@ ht-degree: 0%
    >
    >此原型创建一个规模最小的Adobe Experience Manager项目作为您自己的SPA项目的起点。 使用此原型时必须提供的属性允许您根据需要命名此项目的所有部分。
 
-1. 要创建AEM SPA编辑器原型项目，请按照自述文件说明：
+1. 要创建AEM SPA Editor原型项目，请按照自述文件说明：
 
    ```
    mvn clean install archetype:update-local-catalog

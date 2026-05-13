@@ -9,9 +9,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
+TQID: https://experienceleague.adobe.com/IcNjhNopq8ep0ovZWrmJHBkcsj3h-Ws0xZ2qCu5aLQ0
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: 1124
 ht-degree: 1%
 
 ---
@@ -76,7 +81,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**更新固件**&#x200B;选项仅适用于Cordova，例如Android™播放器。
+>**更新固件**&#x200B;选项仅适用于Cordova，例如™播放器。
 
 >[!NOTE]
 >
@@ -106,7 +111,7 @@ ht-degree: 1%
 >
 >您还可以在Screens播放器中启用或禁用播放器的管理菜单和渠道切换器。
 >
->(请参阅以下部分中所述的&#x200B;*从Screens Player更改首选项*)。
+>（请参阅以下部分中所述的&#x200B;*从Screens Player更改首选项*）。
 
 ### 从AEM Screens播放器管理首选项
 

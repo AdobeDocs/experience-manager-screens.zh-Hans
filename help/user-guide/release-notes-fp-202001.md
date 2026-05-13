@@ -5,10 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/J-tjGLbbC0TT77elnAghVAyDx5nLjv8-ShcJKEv-EyE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 2%
+source-wordcount: 319
+ht-degree: 5%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 ## 可用性 {#availability}
 
@@ -42,18 +46,18 @@ AEM Screens功能包202001的发布日期为2020年1月31日。
 若要了解有关运行状况检查框架的更多信息，请参阅[运行状况检查框架](/help/user-guide/configuring-screens-introduction.md#health-check-framework)。
 
 * **默认过渡类型的更新**
-过渡组件（如&#x200B;**Type**）的属性现在设置为&#x200B;**Fade**，**Duration**&#x200B;默认设置为&#x200B;**1600毫秒**。
+过渡组件（如**Type**）的属性现在设置为&#x200B;**Fade**，**Duration**&#x200B;默认设置为&#x200B;**1600毫秒**。
 
   有关详细信息，请参阅[应用过渡](/help/user-guide/applying-transitions.md)用例。
 
 
 ### 已发布的AEM Screens Players
 
-已为AEM 6.4 Feature Pack 7和AEM 6.5 Feature Pack 3发布以下AEM Screens播放器：
+已为AEM Screens 6.4 Feature Pack 7和AEM 6.5 Feature Pack 3发布以下AEM Player：
 
 * Chrome OS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens播放器下载
 

@@ -9,9 +9,15 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+TQID: https://experienceleague.adobe.com/YXT-n3t6hQwrt8entuM0NCfRVpbMCOXPjF7Pxrreuc4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: 324
 ht-degree: 1%
 
 ---
@@ -24,7 +30,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >**导航提示：**
->您还可以使用光标键在AEM中的不同文件夹中导航。 此外，单击特定图元后，按空格键可编辑或查看该特定文件夹的属性。
+>您还可以使用光标键在AEM中的其他文件夹中导航。 此外，单击特定图元后，按空格键可编辑或查看该特定文件夹的属性。
 
 ## 创建新的Screens项目
 

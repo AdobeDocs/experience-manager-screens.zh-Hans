@@ -10,10 +10,15 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/fbTrzAj52dW2JuRe-6InIkh-dT52Au9pGgoAEjR7WW8
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 1%
+source-wordcount: 378
+ht-degree: 2%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 AEM Screens发布了AEM 6.4.5功能包5和AEM 6.5.1功能包1 ，其中包含以下详细信息。
 
@@ -67,11 +72,11 @@ AEM Screens功能包201907的发布日期为2019年7月31日。
 
 ### 已发布的AEM Screens Players
 
-已为AEM 6.4.5功能包5和AEM 6.5.1功能包1发布以下AEM Screens Player：
+已为AEM 6.4.5 Feature Pack 5和AEM Screens 6.5.1 Feature Pack 1发布以下AEM Player：
 
 * Chrome OS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens播放器下载
 

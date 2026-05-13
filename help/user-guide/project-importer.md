@@ -10,9 +10,13 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -59,7 +63,7 @@ ht-degree: 1%
 
 * **路径{string}** — 要导入位置的路径，其中路径的根是项目的位置文件夹（即，*`/foo`*&#x200B;已导入到&#x200B;*`/content/screens/<project>/locations/foo`*）
 * **模板{string}** — 用于新位置的模板，目前唯一允许值为“location”，但此值扩展到了将来所有`Screens`模板（`display`、`sequencechannel`等）
-* **[。/*] {string}** — 要在位置设置的任何可选属性（即，`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 当前版本不允许筛选。
+* **[./*] {string}** — 要在位置设置的任何可选属性（即，`./jcr:title`、`./jcr:description`、`./foo, ./bar`）。 当前版本不允许筛选。
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ ht-degree: 1%
 >限制：
 >
 >* 当前版本不支持CSV/XLS/XLSX扩展名以外的文件。
->* 对于导入的文件和任何以“”开头的文件，不存在属性过滤。“/”已导入。
+>* 对于导入的文件，不存在属性筛选，并且导入了任何以“。/”开头的。
 >
 
 ### 先决条件 {#prerequisites}
@@ -101,7 +105,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. 单击侧栏中的项目&#x200B;**DemoProjectImporter &#x200B;**>**&#x200B;创建&#x200B;**>**&#x200B;导入位置**。
+1. 单击侧栏中的项目&#x200B;**DemoProjectImporter**>**创建**>**导入位置**。
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

@@ -2,9 +2,13 @@
 title: 管理网络流量
 description: 本页介绍标准网络设置以及如何管理网络流量。
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Internet连接依赖于代理服务器的使用。 代理服务器是在计算�
 
 代理服务器的优点在于，其缓存可以为所有用户提供服务。 如果经常请求一个或多个Internet站点，则这些站点可能位于代理的缓存中。 这种缓存进一步提高了用户响应时间。 代理还可以记录其交互，这可用于进行故障排除。
 
-当代理服务器收到对Internet资源(如网页或连接到AEM发布程序时)的请求时，它会扫描其先前调用的url的本地缓存。 如果找到该页面，它会将其返回给用户，而不会将请求转发到Internet。 如果页面不在缓存中，代理服务器将代表用户充当客户端，并向Internet中的服务器请求页面。 返回内容后，代理服务器会将其与原始请求关联并将其转发给用户。
+当代理服务器收到对Internet资源（如网页或连接到AEM发布程序时）的请求时，它会扫描其先前调用的url的本地缓存。 如果找到该页面，它会将其返回给用户，而不会将请求转发到Internet。 如果页面不在缓存中，代理服务器将代表用户充当客户端，并向Internet中的服务器请求页面。 返回内容后，代理服务器会将其与原始请求关联并将其转发给用户。
 
 ## 了解标准网络设置 {#network-setups}
 

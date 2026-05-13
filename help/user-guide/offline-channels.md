@@ -10,10 +10,14 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/DbykjHEvhVlmBgM--hV4p707sv2FpTl1dZoUgJu2I0s
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: 430
+ht-degree: 2%
 
 ---
 
@@ -23,7 +27,7 @@ Screens播放器使用&#x200B;***ContentSync***&#x200B;技术为渠道提供脱�
 
 播放器使用本地http服务器来提供解压缩的内容。
 
-当通道配置为运行&#x200B;*online*&#x200B;时，播放器通过访问AEM服务器来提供通道资源。 但是，当渠道配置为运行&#x200B;*脱机*&#x200B;时，播放器将从本地http服务器提供渠道资源。
+当渠道配置为运行&#x200B;*online*&#x200B;时，播放器通过访问AEM服务器来提供渠道资源。 但是，当渠道配置为运行&#x200B;*脱机*&#x200B;时，播放器将从本地http服务器提供渠道资源。
 
 该进程的工作流如下：
 
@@ -77,7 +81,7 @@ Screens播放器使用&#x200B;***ContentSync***&#x200B;技术为渠道提供脱�
 
 请按照以下步骤测试ContentSync配置：
 
-1. 打开`https://localhost:4502/libs/cq/contentsync/content/console.html`。
+1. 打开 `https://localhost:4502/libs/cq/contentsync/content/console.html`。
 1. 单击列表中的配置。
 1. 单击&#x200B;**清除缓存**。
 1. 单击&#x200B;**更新缓存**。
@@ -90,7 +94,7 @@ Screens播放器使用&#x200B;***ContentSync***&#x200B;技术为渠道提供脱�
 
 请按照以下步骤启用渠道的脱机配置：
 
-1. Inspect渠道内容，并检查是否从AEM实例（联机）请求该渠道。
+1. 检查渠道内容，并检查是否从AEM实例（在线）请求该内容。
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -112,7 +116,7 @@ Screens播放器使用&#x200B;***ContentSync***&#x200B;技术为渠道提供脱�
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspect渠道内容，并检查它是否从本地播放器缓存中请求。
+1. 检查渠道内容，并检查它是否从本地播放器缓存中请求。
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 

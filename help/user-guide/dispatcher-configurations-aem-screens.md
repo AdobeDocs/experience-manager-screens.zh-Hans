@@ -5,10 +5,15 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: 662
+ht-degree: 2%
 
 ---
 
@@ -30,7 +35,7 @@ Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3[&#128279;](#configuring-dispatcherv3)的Dispatcher配置以了解清单版本v3。
+>以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3](#configuring-dispatcherv3)的[Dispatcher配置以了解清单版本v3。
 
 AEM Screens播放器或设备使用经过身份验证的会话来访问发布实例中的资源。 当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器或设备的所有请求有效。
 
@@ -67,7 +72,7 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
 
 ### 步骤2：配置Screens过滤器 {#step-configure-screens-filters}
 
-要配置Screens筛选器，请将以下内容添加到&#x200B;***`/filter`***。
+要配置Screens筛选器，请将以下内容添加到***`/filter`***。
 
 ```
 ## AEM Screens Filters
@@ -175,7 +180,7 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
 
 * 所有AEM Screens播放器都使用经过身份验证的会话连接到AEM（创作/发布）。 开箱即用的Dispatcher不会缓存这些URL，因此您应该启用它们。
 
-* 将`statfileslevel "10"`添加到`publish_farm.any`中的`/cache`分区
+* 将`statfileslevel "10"`添加到中的`/cache`分区 `publish_farm.any`
 此规则支持从缓存docroot中缓存最多十个级别，并在发布内容时相应地使其失效，而不是使所有内容失效。 您可以根据内容结构的深度来更改此级别
 
 * 将以下内容添加到`/invalidate section in publish_farm.any`

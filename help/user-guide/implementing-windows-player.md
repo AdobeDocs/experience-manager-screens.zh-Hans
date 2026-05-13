@@ -10,9 +10,14 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/B5n5-TaA7CoiLp51ReniPu--cQGLN9vYpj3-jgP62hM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: 1155
 ht-degree: 1%
 
 ---
@@ -159,7 +164,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 1. 启用Shell启动器。
 
-   有关其他信息，请参阅Microsoft® Windows支持在&#x200B;**[Shell启动器](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;页中的&#x200B;***配置Shell启动器***。
+   有关其他信息，请参阅® Windows支持在&#x200B;**[Shell启动器](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)**&#x200B;页中的&#x200B;***配置Shell启动器***。
 
 1. 创建一个非管理用户（如果您还没有该用户）以用于自助订餐亭。 它可以是本地或域用户。
 1. 从[AEM Screens Player下载](https://download.macromedia.com/screens/)页面为该Kiosk用户安装Windows Player。

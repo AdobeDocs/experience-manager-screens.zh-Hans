@@ -5,9 +5,14 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1295
 ht-degree: 2%
 
 ---
@@ -28,8 +33,8 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 >[!IMPORTANT]
 >**OSGi配置设置**
->&#x200B;>必须启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。 当前，这些功能中的某些功能仅在OSGi配置中启用`Apache Sling`反向链接筛选条件允许空后才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
->&#x200B;>按照以下步骤启用&#x200B;***Apache Sling引用过滤器允许为空***：
+>必须启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。 当前，这些功能中的某些功能仅在OSGi配置中启用`Apache Sling`反向链接筛选条件允许空后才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
+>按照以下步骤启用&#x200B;***Apache Sling引用过滤器允许为空***：
 
 
 ## 允许空反向链接请求 {#allow-empty-referrer-requests}

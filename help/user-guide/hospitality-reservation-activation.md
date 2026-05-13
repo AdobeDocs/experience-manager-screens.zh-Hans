@@ -10,9 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/WwFvV7ZVDRUPpsXWQUKYkz6-gmEjBcpkApcHxzx5vII
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -45,7 +52,7 @@ ht-degree: 0%
 
 1. **根据要求配置受众中的区段**
 
-   1. 导航到受众中的区段(有关更多详细信息，请参阅&#x200B;**[在AEM Screens中配置ContextHub](configuring-context-hub.md)**&#x200B;页面中的&#x200B;***步骤2：设置受众分段***)。
+   1. 导航到受众中的区段（有关更多详细信息，请参阅&#x200B;**[在AEM Screens中配置ContextHub](configuring-context-hub.md)**&#x200B;页面中的&#x200B;***步骤2：设置受众分段***）。
    1. 单击&#x200B;**工作表A1 1**，然后单击&#x200B;**编辑**。
    1. 单击比较属性，然后单击&#x200B;**配置**&#x200B;图标。
    1. 从&#x200B;**属性名称**&#x200B;中的下拉列表中单击&#x200B;**googleHeets/value/1/2**。
@@ -73,7 +80,7 @@ ht-degree: 0%
 1. 在编辑器中单击&#x200B;**定位**，然后从下拉菜单中单击&#x200B;**品牌**&#x200B;和&#x200B;**活动**，然后单击&#x200B;**开始定位**。
 1. **正在检查预览**
 
-   1. 单击&#x200B;**预览。**&#x200B;此外，打开您的Google工作表并更新其值。
+   1. 单击&#x200B;**预览。** 此外，打开您的Google工作表并更新其值。
    1. 更新&#x200B;**`Restaurant1`**&#x200B;和&#x200B;**`Restaurant2`**&#x200B;列中的值。 如果&#x200B;**`Restaurant1`** > **`Restaurant2`，**，您应该能够查看&#x200B;*牛排*&#x200B;食物的图像，否则，屏幕上将显示&#x200B;*泰语*&#x200B;食物的图像。
 
    ![结果5](assets/result5.gif)

@@ -9,10 +9,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 3%
+source-wordcount: 1846
+ht-degree: 2%
 
 ---
 
@@ -40,11 +46,11 @@ ht-degree: 3%
 1. [AEM Screens 播放器](/help/user-guide/aem-screens-introduction.md)
 1. 本地开发环境
 
-使用CRXDE-Lite执行教程步骤和屏幕截图。[Eclipse](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE也可用于完成本教程。 有关使用IDE通过AEM进行[开发的更多信息，请参见此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+使用CRXDE-Lite执行教程步骤和屏幕截图。 还可以使用[Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse)或[IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDE来完成教程。 有关使用IDE通过AEM进行[开发的更多信息，请参见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 ## 项目设置 {#project-setup}
 
-Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
+Screens项目的源代码通常作为多模块Maven项目进行管理。 为了加快本教程，已使用[AEM项目原型13](https://github.com/adobe/aem-project-archetype)预生成了一个项目。 有关[使用Maven AEM项目原型创建项目的更多详细信息见此处](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)。
 
 1. 使用&#x200B;**CRX package manager** `http://localhost:4502/crx/packmgr/index.jsp)r:`下载并安装以下包
 
@@ -258,9 +264,9 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/production.html
-
+   
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -292,11 +298,11 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/edit.html
-
+   
    */-->
-
+   
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">
        <img class="cmp-poster__image" src="${request.contextPath}${image.src @ context='uri'}" width="100%" />
        <div class="cmp-poster__text
@@ -314,7 +320,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
 ## 创建客户端库 {#clientlibs}
 
-客户端库提供了一种机制，用于整理和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的更多信息请参见此处。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+客户端库提供了一种机制，用于整理和管理AEM实施所需的CSS和JavaScript文件。 有关使用[客户端库的更多信息请参见此处。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所不同。 将创建两组客户端库，一组用于编辑模式，另一组用于预览/生产模式。
 
@@ -330,7 +336,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
 1. 将以下属性添加到共享客户端库：
 
-   * `allowProxy` |布尔值| `true`
+   * `allowProxy` |布尔型 | `true`
    * `categories` |字符串[] | `cq.screens.components`
 
    /apps/weretail-run/components/content/poster/clientlibs/shared的![属性](assets/2018-05-03_at_1026pm-1.png)
@@ -339,7 +345,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    `categories`属性是一个标识客户端库的字符串。 `cq.screens.components`类别同时在“编辑”和“预览/生产”模式下使用。 因此，在`shared` clientlib中定义的任何CSS/JS都将以所有模式加载。
 
-   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   作为最佳实践，切勿在生产环境中直接向`/apps`公开任何路径。 `allowProxy`属性确保通过前缀`/etc.clientlibs`引用客户端库CSS和JS。 有关[allowProxy属性的详细信息可在此处找到。](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. 在共享文件夹下创建名为`css.txt`的文件。
 
@@ -355,7 +361,7 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   本教程使用的是LESS，而不是直接写入CSS。[LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 您可以使用Sass或其他预编译器，但必须在AEM之外编译它们。
+   本教程不会直接编写CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 您可以使用Sass或其他预编译器，但必须在AEM之外编译它们。
 
 1. 使用以下内容填充`/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less`：
 

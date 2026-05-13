@@ -9,9 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: 2489
 ht-degree: 1%
 
 ---
@@ -69,9 +76,9 @@ ht-degree: 1%
 
 * 创建一个AEM Screens项目（在本例中为&#x200B;**演示**）。
 * 在&#x200B;**Channels**&#x200B;文件夹下创建一个&#x200B;**全局**&#x200B;频道。
-* 将内容添加到您的&#x200B;**全局**&#x200B;渠道（*检查&#x200B;**Resources.zip**&#x200B;以了解相关资源*）。
+* 将内容添加到您的&#x200B;**全局**&#x200B;渠道（*检查&#x200B;**Resources.zip**以了解相关资源*）。
 
-下图显示了&#x200B;**渠道**&#x200B;文件夹中具有&#x200B;**全局**&#x200B;渠道的&#x200B;**演示**&#x200B;项目。
+下图显示了&#x200B;**渠道**&#x200B;文件夹中具有&#x200B;**全局**&#x200B;渠道的&#x200B;**演示**项目。
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### 资源 {#resources}
@@ -145,7 +152,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >创建序列频道时，请务必遵守频道的&#x200B;**标题**&#x200B;要求，但&#x200B;**名称**&#x200B;在所有本地频道中应该是相同的。
+   >创建序列频道时，请务必遵守频道的&#x200B;**标题**&#x200B;要求，但&#x200B;**名称**在所有本地频道中应该是相同的。
    >在此示例中，**区域A**&#x200B;和&#x200B;**区域B**&#x200B;下的渠道将&#x200B;**名称**&#x200B;共享为&#x200B;**区域**，而&#x200B;**`Store 1`**、**`Store 2`**、**`Store 3`**&#x200B;和&#x200B;**`Store 4`**&#x200B;下的渠道将&#x200B;**名称**&#x200B;共享为&#x200B;**存储**。
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -157,7 +164,7 @@ ht-degree: 1%
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
-   按照上述步骤进行操作，以便您能够在&#x200B;**区域B**&#x200B;下的&#x200B;**`Store 3`**&#x200B;和&#x200B;**`Store 4`**&#x200B;中创建并显示渠道。 同样，请确保在创建频道&#x200B;**`Store3Channel`**&#x200B;和&#x200B;**`Store4Channel`**&#x200B;时分别使用相同的&#x200B;**Name**&#x200B;作为&#x200B;**store**。
+   按照上述步骤进行操作，以便您能够在&#x200B;**区域B**&#x200B;下的&#x200B;**`Store 3`**&#x200B;和&#x200B;**`Store 4`**&#x200B;中创建并显示渠道。同样，请确保在创建频道&#x200B;**`Store3Channel`**&#x200B;和&#x200B;**`Store4Channel`**&#x200B;时分别使用相同的&#x200B;**Name**&#x200B;作为&#x200B;**store**。
 
    下图显示了&#x200B;**`Store 3`**&#x200B;中的显示区和渠道。
 
@@ -374,11 +381,11 @@ ht-degree: 1%
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   以下内容显示区域用户同时具有&#x200B;**区域A**&#x200B;和&#x200B;**区域B**&#x200B;的访问权限。 访问所有四个商店，即&#x200B;**商店1**、**商店2**、**商店3**&#x200B;和&#x200B;**商店4**，但不访问&#x200B;**全局**&#x200B;渠道。
+   以下内容显示区域用户同时具有&#x200B;**区域A**&#x200B;和&#x200B;**区域B**&#x200B;的访问权限。访问所有四个商店，即&#x200B;**商店1**、**商店2**、**商店3**&#x200B;和&#x200B;**商店4**，但不访问&#x200B;**全局**&#x200B;渠道。
 
    ![区域](assets/region.gif)
 
-   存储作者：**&#x200B;**
+   存储作者：****
 
    1. 导航到&#x200B;**权限**&#x200B;选项卡。
    1. 导航到&#x200B;***/content/screens/demo***&#x200B;并仅检查&#x200B;**读取**&#x200B;权限。

@@ -5,9 +5,14 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
+TQID: https://experienceleague.adobe.com/bbQW2pnyxEfjm8d5SveI-CGuQN5RZCVmDt35iK3Ysxs
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: 579
 ht-degree: 2%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 2%
 
 **Experience Manager Screens** — 一种数字标牌解决方案，可让您在全面的数字营销平台上发布涉及各种屏幕的动态交互式数字体验和交互。
 
-使用[适用于AEM Screens的Kickstart &#x200B;](kickstart-for-aem-screens.md)，开始使用简单的数字标牌体验并运行。
+使用[适用于AEM Screens的Kickstart ](kickstart-for-aem-screens.md)，开始使用简单的数字标牌体验并运行。
 
 要了解如何在Experience Manager as a Cloud Service中配置和创建Experience Manager Screens项目，请参阅[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/using/about-guide)。
 
@@ -26,7 +31,7 @@ ht-degree: 2%
 
 Experience Manager Screens是一个功能强大的基于Web的解决方案，通过它可创建专用的数字菜单展示板、产品推荐器和背景生活方式图片，从而扩大客户互动。 它可帮助您从同一个Experience Manager平台将统一且实用的品牌体验投放到实体场所，例如商店、酒店、银行、医疗保健和教育机构等。 Screens提供了许多独特的应用程序。 例如，交互式显示、路径查找、品牌推广，并根据客户和员工部署的域为其环境增添氛围。
 
-使用Experience Manager Screens创建和管理应用程序既简单又直观。 *应用程序*&#x200B;托管客户或实施合作伙伴为Experience Manager Screens构建的网页。*位置*&#x200B;管理预定义的层次结构并包含&#x200B;*个显示区*。 每个显示屏都有一个功能板，用于显示所附带的不同设备和屏幕。 Experience Manager Screens的内容在&#x200B;*渠道*&#x200B;中进行管理。 Experience Manager Screens Player可将渠道内呈现的内容渲染到显示内容中。
+使用Experience Manager Screens创建和管理应用程序既简单又直观。 *应用程序*&#x200B;托管客户或实施合作伙伴为Experience Manager Screens构建的网页。 *位置*&#x200B;管理预定义的层次结构并包含&#x200B;*个显示区*。 每个显示屏都有一个功能板，用于显示所附带的不同设备和屏幕。 Experience Manager Screens的内容在&#x200B;*渠道*&#x200B;中进行管理。 Experience Manager Screens Player可将渠道内呈现的内容渲染到显示内容中。
 
 要了解与Experience Manager Screens相关的关键术语，请参阅[术语表](screens-glossary.md)。
 
@@ -57,7 +62,7 @@ Experience Manager Screens是一个功能强大的基于Web的解决方案，通
 
 * **引导式实施Essentials**
 
-  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hans?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
+  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
 
 * 适用于Experience Manager Screens项目的&#x200B;**最佳实践指南**
 

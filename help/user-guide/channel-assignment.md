@@ -5,9 +5,15 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d4878390-3838-4e80-8cb3-33bc1a01ea16id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: 1239
 ht-degree: 2%
 
 ---
@@ -58,7 +64,7 @@ ht-degree: 2%
 
 ### 优先级 {#priority-channel}
 
-优先级用于对分配进行排序，以防多个分配符合播放标准。 值最高的总是优先于较低的值。 例如，如果存在两个渠道A和B。A的优先级为1，B的优先级为2，然后显示信道B，因为它优先级高于A。
+优先级用于对分配进行排序，以防多个分配符合播放标准。 值最高的总是优先于较低的值。 例如，如果存在两个渠道A和B。 A的优先级为1，B的优先级为2，然后显示信道B，因为它优先级高于A。
 
 >[!NOTE]
 >如上所述，在&#x200B;**渠道分配**&#x200B;对话框中，渠道的优先级设置为数字（最小值为1）。 此外，分配的渠道根据降序优先级排序。
@@ -116,11 +122,11 @@ DayParting是指将一天划分为多个时段，并指定在所需时间播放�
 |---|---|---|---|
 | Menu_A | 早餐 |  | 6:00之后和11:00之前 |
 | 菜单B | 午餐 |  | 11:00之后和15:00之前 |
-| Menu_C | 晚餐 |  | 15:00至20:00期间 |
+| Menu_C | 晚餐 |  | 15:00之后和20:00之前 |
 
 #### 在一周中的特定日期播放内容 {#playing-content-on-a-particular-day-of-the-week}
 
-此示例显示了在赌场中实现的分日活动，该赌场的直播活动在每周末的下午8:00到下午10:00之间进行，并且在10:00到凌晨1:00之间可提供晚餐菜单上的特殊优惠。
+此示例显示了在赌场中实现的dayParting，该赌场的直播活动在每周末从晚上8:00点到晚上10:00点之间进行，并在晚上10:00点到凌晨1:00点之间提供晚餐菜单上的特别优惠。
 
 <table>
  <tbody>
@@ -174,5 +180,5 @@ DayParting是指将一天划分为多个时段，并指定在所需时间播放�
 >
 > 要了解有关DayParting的更多信息，请参阅以下部分：
 >
->* [在Assets中处理循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [在Assets中处理循环](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

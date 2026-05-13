@@ -9,10 +9,15 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+TQID: https://experienceleague.adobe.com/CMBKfHcJ62wYSd3s0FOAb1uza8PUVdNvMOBc11bU3QI
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 2%
+source-wordcount: 252
+ht-degree: 3%
 
 ---
 
@@ -20,9 +25,9 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
-AEM Screens发布了AEM 6.4.2功能包2和AEM 6.3.3功能包4 ，并提供以下详细信息。
+AEM Screens发布了AEM 6.4.2功能包2和AEM 6.3.3功能包4 ，其中包含以下详细信息。
 
 ## 发布日期 {#release-date}
 
@@ -36,18 +41,18 @@ AEM Screens功能包201809的发布日期为2018年10月1日。
 
 * **批量更新离线内容**：允许您批量更新所有渠道，并避免导航到特定渠道和更新内容的麻烦。 请参阅[批量脱机更新](bulk-offline-update.md)以了解详情。
 
-* 将&#x200B;**Publish渠道批量发送到所有发布实例**
+* **将渠道批量发布到所有发布实例**
 * **增强的播放器日志记录机制**：您可以为AEM Screens播放器指定最大日志文件数。 有关更多详细信息，请参阅[使用AEM Screens播放器](working-with-screens-player.md)。
 
-* **Author/Publish部署（正在强化）**
+* **创作/发布部署（正在强化）**
 
 ### 已发布的AEM Screens Players
 
-已为AEM 6.4.2功能包2和AEM 6.3.3功能包4发布以下AEM Screens Player：
+已为AEM Screens 6.4.2 Feature Pack 2和AEM 6.3.3 Feature Pack 4发布以下AEM Player：
 
 * Chrome OS
 * Windows
-* Android™
+* ™
 * iOS
 
 #### AEM Screens播放器下载

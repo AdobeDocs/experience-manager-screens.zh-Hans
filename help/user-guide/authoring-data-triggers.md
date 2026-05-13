@@ -5,9 +5,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/Iqb4pREvZNLalXSE6sNTZPV-uwqzBJKmztLuQtWfCW0
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aedid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 375
 ht-degree: 1%
 
 ---
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在AEM Screens渠道中支持数据触发器的最低版本是AEM 6.5.3 Feature Pack 3。
+>AEM Screens渠道中支持数据触发器的最低版本是AEM 6.5.3 Feature Pack 3。
 
 ## 先决条件 {#prereqs}
 
@@ -55,7 +62,7 @@ ht-degree: 1%
 
    1. 单击&#x200B;**区段路径**&#x200B;作为&#x200B;**conf** > **`We.Retail`** > **设置** > **wcm** > **区段**，然后单击&#x200B;**单击**。
 
-   1. 单击“**保存并关闭**”。
+   1. 单击&#x200B;**保存并关闭**。
 
    >[!NOTE]
    >

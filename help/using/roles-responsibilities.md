@@ -2,9 +2,14 @@
 title: AEM Screens项目角色和职责
 description: 了解AEM Screens项目角色和职责。
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
+TQID: https://experienceleague.adobe.com/4E0IiB-RKjq9MrHxvZcZsCAyzSlIZmRLlGe-9eItv2c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1303
 ht-degree: 0%
 
 ---
@@ -85,7 +90,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 
 >[!NOTE]
 >
->要详细了解数字标牌项目的不同角色和责任以及目标受众，请访问&#x200B;**[项目角色和责任](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
+>要详细了解数字标牌项目的不同角色和责任以及目标受众，请访问&#x200B;**[项目角色和责任](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**。
 
 
 ## 项目阶段 {#project-stages}
@@ -100,7 +105,7 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 >
 >虽然本指南主要强调&#x200B;*第一天*&#x200B;和&#x200B;*第二天*，但必须关注所有三个阶段才能成功运行数字标牌项目。
 >
->要了解项目预生产、项目启动和项目进展，请观看有关&#x200B;**[项目管理和部署](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的视频。
+>要了解项目预生产、项目启动和项目进展，请观看有关&#x200B;**[项目管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**&#x200B;的视频。
 
 ## RACI图表 {#raci-chart}
 

@@ -5,10 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/a-iBBktdUduSoZVzBdOWRKlZS5GeGwLWe0u92g7fXmw
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: 355
+ht-degree: 3%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 ## 可用性 {#availability}
 
@@ -58,7 +62,7 @@ AEM Screens功能包202008的发布日期为2020年9月3日。
 
 * 有关详细信息，请参阅[实施Windows 10 Player](implementing-windows-player.md#fp-environment-setup)。
 
-* 有关更多详细信息，请参阅[实施Android™ Player](implementing-android-player.md#fp-environment-setup)。
+* 有关更多详细信息，请参阅[实施™ Player](implementing-android-player.md#fp-environment-setup)。
 
 ### 已发布的AEM Screens Players
 
@@ -66,7 +70,7 @@ AEM Screens功能包202008的发布日期为2020年9月3日。
 
 * Chrome操作系统
 * Windows
-* Android™
+* ™
 
 #### AEM Screens播放器下载
 

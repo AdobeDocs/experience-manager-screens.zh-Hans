@@ -5,17 +5,22 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/x7dgY8u-SdWo2JRK1W2uqRWtHy2wtXdAnIcS0gRoxiY
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: 407
+ht-degree: 4%
 
 ---
 
 # 功能包202103发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 ## 可用性 {#availability}
 
@@ -31,16 +36,16 @@ AEM Screens功能包202103的发布日期是2021年3月5日。
 
 * **AEM Screens自动注册播放器**
 
-  手动批量注册数千个播放器非常麻烦，而且增加了时间和成本。 为简化此过程，播放器自动注册功能允许您在AEM中指定预共享密钥。 此密钥可以通过配置文件或移动设备管理(MDM)解决方案预配到播放器中。
+  手动批量注册数千个播放器非常麻烦，而且增加了时间和成本。 为简化此过程，可通过播放器自动注册功能在AEM中指定预共享密钥。 此密钥可以通过配置文件或移动设备管理(MDM)解决方案预配到播放器中。
 
   有关更多详细信息，请参阅[自动注册播放器](/help/user-guide/auto-registration-players.md)。
 
 
-* **使用Enterprise Mobility Management批量配置Android™ Player**
+* **使用Enterprise Mobility Management批量配置™ Player**
 
-  批量部署Android™播放器时，手动向AEM注册每个播放器会变得繁琐起来。 强烈建议使用EMM （企业移动性管理）解决方案（如`VMWare Airwatch`、`MobileIron`或`Samsung Knox`）来远程配置和管理您的部署。 AEM Screens Android™播放器支持行业标准EMM AppConfig以允许远程配置。
+  批量部署™播放器时，手动向AEM注册每个播放器会变得繁琐起来。 强烈建议使用EMM （企业移动性管理）解决方案（如`VMWare Airwatch`、`MobileIron`或`Samsung Knox`）来远程配置和管理您的部署。 AEM Screens Android™播放器支持行业标准EMM AppConfig以允许远程配置。
 
-  有关更多详细信息，请参阅[使用Enterprise Mobility Management批量配置Android™ Player](/help/user-guide/implementing-android-player.md#implementation)。
+  有关更多详细信息，请参阅[使用Enterprise Mobility Management批量配置™ Player](/help/user-guide/implementing-android-player.md#implementation)。
 
 
 ### 错误修复 {#bug-fixes}

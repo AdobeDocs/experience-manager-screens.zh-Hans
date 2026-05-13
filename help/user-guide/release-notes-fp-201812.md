@@ -10,10 +10,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/q9YVg4tWFAjPgKDfObgzgVItzxybnW66fKVjLYnnqig
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 2%
+source-wordcount: 257
+ht-degree: 3%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 AEM Screens发布了AEM 6.3功能包5和AEM 6.4功能包3，其中包含以下详细信息。
 
@@ -44,15 +48,15 @@ AEM Screens功能包201812的发布日期为2019年1月16日。
   通过多区域布局，您可以创建多区域内容并使用可以在单个屏幕中组合的各种资产，例如视频、图像和文本。 请参阅&#x200B;**[多区域布局](multi-zone-layout-aem-screens.md)**。
 
 * **将Assets智能同步到播放器**
-* **Author/Publish部署（正在强化）**
+* **创作/发布部署（正在强化）**
 
 ### 已发布的AEM Screens Players
 
-已为AEM 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3发布以下AEM Screens播放器：
+已为AEM Screens 6.3 Feature Pack 5和AEM 6.4 Feature Pack 3发布以下AEM Player：
 
 * Chrome OS
 * Windows
-* Android™
+* ™
 * iOS
 
 #### AEM Screens播放器下载

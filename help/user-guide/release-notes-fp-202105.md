@@ -5,17 +5,21 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 5%
 
 ---
 
 # 功能包202105发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>Adobe建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
 ## 可用性 {#availability}
 
@@ -24,7 +28,7 @@ AEM Screens发布了AEM 6.5功能包8。
 您可以使用您的Adobe ID从[软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)下载AEM Screens 6.5.8版本的最新功能包。 导航到&#x200B;**Adobe Experience Manager**&#x200B;选项卡并搜索&#x200B;**Screens**，以获取标题为&#x200B;**AEM 6.5 Screens FP8**&#x200B;的最新功能包。
 
 >[!IMPORTANT]
->安装AEM 6.5 Feature Pack 8的最低版本，以便在安装包`screens-cloud-ams-pkg-0.0.20`、`screens-cloud-ams-pkg-0.0.16`和`screens core bundles`之后使AMS连接器正常工作。
+>安装AEM 6.5 Feature Pack 8的最低版本，以便在安装包`screens-cloud-ams-pkg-0.0.20`、`screens-cloud-ams-pkg-0.0.16`和`screens core bundles`后使AMS连接器正常工作。
 
 ## 发布日期 {#release-date}
 
@@ -43,7 +47,7 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
 
   有关如何在每个支持的操作系统中配置名称的信息，请参阅以下文档：
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [™](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
    * [Chrome操作系统](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
@@ -64,7 +68,7 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
 * Chrome OS
 * Windows
 * Tizen
-* Android™
+* ™
 * Linux®
 
 #### AEM Screens播放器下载
