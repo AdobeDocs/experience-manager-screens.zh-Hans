@@ -34,7 +34,7 @@ ht-degree: 0%
 * **计划**
 * **预览内容**
 
-要了解有关这些术语的更多信息，请参阅[术语表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary)。
+要了解有关这些术语的更多信息，请参阅[术语表](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/overview/screens-glossary)。
 
 >[!NOTE]
 >
@@ -53,15 +53,15 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 
 作者通常通过以下方式开始AEM Screens项目：
 
-* [创建AEM Screens项目](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [创建渠道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [将组件和资产添加到渠道](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [创建时间表](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [创建位置](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [创建显示区](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [将渠道分配给显示区](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [创建AEM Screens项目](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [创建渠道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [将组件和资产添加到渠道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [创建时间表](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [创建位置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [创建显示区](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [将渠道分配给显示区](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [在AEM Screens播放器中查看内容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [在AEM Screens播放器中查看内容](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的新建项目导入程序。
+>您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/project-importer)中的新建项目导入程序。

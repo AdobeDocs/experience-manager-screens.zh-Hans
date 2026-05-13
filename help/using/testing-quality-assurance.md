@@ -66,7 +66,7 @@ AEM Screens包括设备控制中心模块，用于管理Screens播放器应用�
 1. 管理内容下载
 1. 管理应用程序重新启动问题
 
-若要详细了解&#x200B;***设备控制中心***，请参阅&#x200B;**AEM Screens用户指南**&#x200B;中的[设备控制中心疑难解答](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)。
+若要详细了解&#x200B;***设备控制中心***，请参阅&#x200B;**AEM Screens用户指南**&#x200B;中的[设备控制中心疑难解答](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens)。
 
 >[!CAUTION]
 >
