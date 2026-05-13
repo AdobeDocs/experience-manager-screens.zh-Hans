@@ -3,8 +3,11 @@ title: 启动后支持
 description: 在最佳实践指南中了解对AEM Screens的启动后支持。
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 390
@@ -16,7 +19,7 @@ ht-degree: 3%
 
 不要忽视早期阶段的启动后支持。
 
-确保站点能够从硬件供应商获得充分的支持对于他们的业务运营而言至关重要。 **音频 — 视频集成商**应与业务利益相关者紧密合作，并确定不同方面所需的要求。
+确保站点能够从硬件供应商获得充分的支持对于他们的业务运营而言至关重要。 **音频 — 视频集成商**&#x200B;应与业务利益相关者紧密合作，并确定不同方面所需的要求。
 在启动后支持期间，请考虑以下要求：
 
 * 远程设备管理

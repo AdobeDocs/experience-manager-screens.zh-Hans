@@ -3,9 +3,14 @@ title: 项目分类
 description: 了解有关项目分类法的更多信息，因为它与AEM Screens相关。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 TQID: https://experienceleague.adobe.com/z2YWTrwMKTcKYMKsAtgvL1ZP6Uv9svRAy1Xu58hKMKI
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 411
@@ -59,4 +64,4 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 * [在AEM Screens播放器中查看内容](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的[新建项目导入程序。
+>您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer)中的新建项目导入程序。
