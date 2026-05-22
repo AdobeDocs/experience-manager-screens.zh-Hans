@@ -5,9 +5,19 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -52,7 +62,7 @@ ht-degree: 0%
    > 如果上述URL不起作用，则表示未向播放器分配显示内容，或者内容未成功下载。 检查播放器配置JSON的“网络”选项卡，查看播放器是否获取了正确的详细信息以及下载中是否有任何网络问题。
 
 1. 右键单击并检查Chrome播放器的三层。
-   **调试内容**：右键单击并检查该内容以调试正在运行的内容(上下文菜单中应有一个名为“Inspect”的项)
+   **调试内容**：右键单击并检查该内容以调试正在运行的内容（上下文菜单中应有一个名为“Inspect”的项）
 
    **调试固件**：调出管理UI，然后右键单击并检查以调试固件（播放器）代码。 （应该有一个选项来检查和检查后台页面，并模拟浏览器重新启动。）
 

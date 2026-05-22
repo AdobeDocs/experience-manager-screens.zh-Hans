@@ -2,9 +2,15 @@
 title: 在AEM Screens中使用自适应演绎版
 description: 了解如何在AEM Screens中使用自适应演绎版。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: 584
 ht-degree: 1%
 
 ---
@@ -37,7 +43,7 @@ ht-degree: 1%
 
 1. 导航到AEM实例中的&#x200B;**Assets**&#x200B;文件夹。
 1. 创建更适合标牌显示的资源版本，例如`seahorse.jpg`。
-1. 选择与`landscape`CRXDE Lite **中的**&#x200B;模式&#x200B;**属性中定义的格式副本命名模式，例如**。 有关更多详细信息，请参阅[添加节目映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)。
+1. 选择与&#x200B;**CRXDE Lite**&#x200B;中的&#x200B;**模式**&#x200B;属性中定义的格式副本命名模式，例如`landscape`。 有关更多详细信息，请参阅[添加节目映射规则](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)。
 1. 单击&#x200B;**添加演绎版**&#x200B;以上传该演绎版，如下图所示。
 
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
@@ -53,7 +59,7 @@ ht-degree: 1%
 ## 迁移策略 {#migration-strategy}
 
 >[!IMPORTANT]
->对于大型网络，Adobe建议逐步完成迁移以减轻风险。 原因在于，该功能可能会引入清单和文件存储格式的更改。 将`sling:configRef`添加到整个项目包括将所有播放器更新到Feature Pack 6.5.9。如果您更新了一些播放器，请仅将`sling:configRef`添加到所有播放器都已更新到Feature Pack 6.5.9的显示、位置或渠道文件夹中。
+>对于大型网络，Adobe建议逐步完成迁移以减轻风险。 原因在于，该功能可能会引入清单和文件存储格式的更改。 将`sling:configRef`添加到整个项目包括将所有播放器更新到Feature Pack 6.5.9。 如果您更新了一些播放器，请仅将`sling:configRef`添加到所有播放器都已更新到Feature Pack 6.5.9的显示、位置或渠道文件夹中。
 
 下图描述了大型网络的迁移策略：
 

@@ -2,9 +2,18 @@
 title: AEM Screens的业务内容策略
 description: 详细了解与AEM Screens相关的营销和业务内容策略。
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 442
 ht-degree: 0%
 
 ---
@@ -17,7 +26,7 @@ ht-degree: 0%
 
 内容是推动参与的主要因素。 在售前阶段，定义业务内容策略很重要。 该策略考虑应用程序如何使用硬件、软件和连接资源为客户的客户提供预期价值。
 
-明确定义的业务内容策略确立了一条创建、分发和跟踪内容与购买者历程相关的使用情况的途径。 此外，它还会考虑销售漏斗中的营销接触点。 在正确的时间向正确的客户提供正确的信息至关重要。
+明确定义的业务内容策略确立了一条创建、分发和跟踪内容与购买者历程相关的使用情况的途径。 它还考虑了Sales funnel中的营销接触点。 在正确的时间向正确的客户提供正确的信息至关重要。
 
 考虑Screens应用程序如何帮助实现此策略，并确定KPI以帮助衡量应用程序交付该内容的成功程度。
 
@@ -33,7 +42,7 @@ ht-degree: 0%
 * 何时是吸引受众参与的理想时间？
 * 谁将创建内容？
 * 为什么目标受众应关注内容？
-* 内容帮助他们解决了哪些问题？ (例如，Screens应用程序是否可以帮助客户找到最适合用于极端登山的鞋子，或最适合新居的用具？)
+* 内容帮助他们解决了哪些问题？ （例如，Screens应用程序是否可以帮助客户找到最适合用于极端登山的鞋子，或最适合新居的用具？）
 * 客户如何与应用程序交互或者用户体验如何？
 * 您的更新和升级策略是什么？
 * 您预计会多久创建一次新的所需内容？

@@ -1,6 +1,6 @@
 ---
 title: 配置和部署AEM Screens
-description: AEM Screens Player适用于Android&amp；trade；、Chrome操作系统、iOS和Windows。 了解AEM Screens的配置和部署。
+description: AEM Screens Player适用于Android&trade；、Chrome操作系统、iOS和Windows。 了解AEM Screens的配置和部署。
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,17 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -24,7 +32,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要将AEM服务器配置为可用于AEM Screens，请通过允许空反向链接跳过反向链接过滤器。
+>AEM Screens播放器不使用跨站点请求伪造(CSRF)令牌。 因此，要配置AEM服务器以便用于AEM Screens，请通过允许空反向链接跳过反向链接过滤器。
 
 ## 运行状况检查框架 {#health-check-framework}
 
@@ -37,7 +45,7 @@ ht-degree: 1%
 
 请按照以下步骤检查是否已为AEM Screens启用这两个重要配置：
 
-1. 导航到[Adobe Experience Manager Web控制台Sling运行状况检查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)。
+1. 导航到[Adobe Experience Manager Web控制台Sling运行状况检查](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=)。
 
    ![资源](assets/health-check1.png)
 
@@ -64,7 +72,7 @@ ht-degree: 1%
 
 #### 允许空反向链接请求 {#allow-empty-referrer-requests}
 
-1. 通过AEM实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**Adobe Experience Manager Web控制台配置**。
+1. 通过Adobe Experience Manager实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**AEM Web控制台配置**。
 
    ![图像](assets/config/empty-ref1.png)
 
@@ -81,7 +89,7 @@ ht-degree: 1%
 
 #### 基于Apache Felix Jetty的HTTP服务 {#allow-apache-felix-service}
 
-1. 通过AEM实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**Adobe Experience Manager Web控制台配置**。
+1. 通过Adobe Experience Manager实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**AEM Web控制台配置**。
 
    ![图像](assets/config/empty-ref1.png)
 
@@ -99,7 +107,7 @@ ht-degree: 1%
 
 AEM Screens需要使用TOUCH UI，不能用于Adobe Experience Manager (AEM)的经典UI。
 
-1. 导航到`*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
+1. 导航至 `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. 确保&#x200B;**默认创作UI模式**&#x200B;设置为&#x200B;**触控**，如下图所示
 
 或者，您也可以使用AuthorInstance *>*&#x200B;工具（锤子图标）> **操作** > **Web控制台**&#x200B;执行相同的设置，并搜索&#x200B;**WCM创作UI模式服务**。
@@ -128,9 +136,9 @@ AEM Screens Player需要移除该选项才能播放在线渠道。
 
 按照以下步骤配置&#x200B;***DeviceServiceImpl***：
 
-1. 通过您的AEM实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**Adobe Experience Manager Web控制台配置**。
+1. 通过您的Adobe Experience Manager实例>锤子图标> **操作** > **Web控制台**&#x200B;导航到&#x200B;**AEM Web控制台配置**。
 
-1. **Adobe Experience Manager Web控制台配置**&#x200B;打开。 搜索`*deviceservice*`。 要搜索属性，请按&#x200B;**Command+F**&#x200B;键搜索macOS，按&#x200B;**Control+F**&#x200B;键搜索Microsoft® Windows。
+1. **Adobe Experience Manager Web控制台配置**&#x200B;打开。 搜索 `*deviceservice*`。 要搜索属性，请按&#x200B;**Command+F**&#x200B;键搜索macOS，按&#x200B;**Control+F**&#x200B;键搜索Microsoft® Windows。
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 

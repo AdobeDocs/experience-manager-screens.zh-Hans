@@ -5,10 +5,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+TQID: https://experienceleague.adobe.com/B2rcoQaYnCjZ-YidyuREEoPv6H0zGW3ufiwP4lnkt1A
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: 240
+ht-degree: 11%
 
 ---
 
@@ -16,7 +24,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >Adobe建议您升级到Adobe Experience Manager 6.5 (AEM 6.5)的最新版本。 您可以从[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)获取最新版本信息。
->&#x200B;>使用带有SP(servicepack)版本22或更高版本的FP11.6。
+>使用带有SP(servicepack)版本22或更高版本的FP11.6。
 
 ## 可用性 {#availability}
 

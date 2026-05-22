@@ -4,10 +4,20 @@ description: 了解如何配置Screens复制代理。
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 4%
+source-wordcount: 485
+ht-degree: 5%
 
 ---
 
@@ -40,7 +50,7 @@ Screens复制代理负责将命令数据（如&#x200B;*user*、*password*、*reb
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
-1. 搜索&#x200B;**`screens-receiver-user`**。
+1. 搜索 **`screens-receiver-user`**。
 
 1. 单击&#x200B;**`screens-receiver-user`**，然后单击操作栏中的&#x200B;**启用**。
 
@@ -69,7 +79,7 @@ Screens复制代理负责将命令数据（如&#x200B;*user*、*password*、*reb
 
    ![图像](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. 单击“**保存并关闭**”。
+1. 单击&#x200B;**保存并关闭**。
 
 1. 单击&#x200B;**`screens-receiver-user`**，然后单击操作栏中的&#x200B;**激活**。
 

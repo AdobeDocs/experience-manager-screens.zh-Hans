@@ -6,10 +6,23 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 0%
+source-wordcount: 626
+ht-degree: 1%
 
 ---
 
@@ -17,11 +30,11 @@ ht-degree: 0%
 
 以下页面展示了一个用例，重点介绍如何设置一个项目，介绍如何创建一个在特定时间内播放一次的Single TakeOver渠道。
 
-## 用例描述 {#use-case-description}
+## 用例说明 {#use-case-description}
 
 此用例说明如何为显示或显示组创建从正常播放渠道中&#x200B;*接管*&#x200B;的渠道。 接管仅发生一次，并且只发生在特定时间。
 
-例如，有一个单次接管渠道在星期五上午9:00到上午10:00播放。在此期间，不应播放其他渠道。 在此时间之前和之后，单次使用接管渠道不播放。 以下示例演示了如何创建一个单一接管渠道，以允许在12月31日凌晨12:00之前播放2分钟内容直到凌晨12:01。
+例如，在星期五上午9:00到上午10:00有一个单次接管渠道播放。在此期间，不应播放其他渠道。 在此时间之前和之后，单次使用接管渠道不播放。 以下示例演示了如何创建单个接管渠道，该渠道允许内容在12月31日凌晨12:00之前播放2分钟，直到凌晨12:01。
 
 ### 前提条件 {#preconditions}
 
@@ -93,8 +106,8 @@ ht-degree: 0%
      >[!NOTE]
      >优先级可以是高于正常播放渠道的优先级值的任意值。
    * **支持的事件**：单击&#x200B;**空闲屏幕**&#x200B;和&#x200B;**计时器**。
-   * **计划**：输入您希望此频道在显示上运行的计划的文本。 例如，此文本允许在12月31日凌晨12:00之前播放内容2分钟直到凌晨12:01。
-本示例中提到的&#x200B;**计划**&#x200B;中的文本是&#x200B;*，其日期为12月31日，即23:58之后，也为1月1日，即00.01*&#x200B;之前。
+   * **计划**：输入您希望此频道在显示上运行的计划的文本。 例如，此文本允许内容在12月31日凌晨12:00之前播放2分钟到凌晨12:01。
+本示例中提到的&#x200B;**计划**&#x200B;中的文本是&#x200B;*，其日期为12月31日，在23:58之后，并且也是1月1日，在00.01*&#x200B;之前。
 
      ![资源](assets/single-takeover8.png)
 

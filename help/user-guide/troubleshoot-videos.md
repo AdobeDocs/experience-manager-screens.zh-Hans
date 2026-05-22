@@ -9,10 +9,20 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: 805
+ht-degree: 1%
 
 ---
 
@@ -84,7 +94,7 @@ ht-degree: 0%
 
 ### 在Web播放器中检查视频 {#checking-the-video-in-the-web-player}
 
-使用&#x200B;**Web播放器** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`验证浏览器(Chrome和Safari)中的播放。 Chrome用于Android™设备，而Safari则用于OS X和iOS浏览器。
+使用&#x200B;**Web播放器** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0`验证浏览器（Chrome和Safari）中的播放。 Chrome用于Android™设备，而Safari则用于OS X和iOS浏览器。
 
 如果视频未在Safari上运行，则它也不会在OS X和iOS播放器中运行。 此问题可能是编码问题，必须对视频重新编码。
 

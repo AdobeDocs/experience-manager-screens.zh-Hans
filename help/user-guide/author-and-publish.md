@@ -2,13 +2,21 @@
 title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: 1974
 ht-degree: 0%
 
 ---
-
 
 # 在AEM Screens中配置创作和发布实例 {#configuring-author-and-publish-in-aem-screens}
 
@@ -44,9 +52,9 @@ ht-degree: 0%
 
 您可以设置一个简单示例，其中托管一个创作实例和两个发布实例：
 
-* 作者> localhost：4502
-* 发布1 (pub1) > localhost：4503
-* 发布2 (pub2) > localhost：4504
+* 作者> localhost:4502
+* 发布1 (pub1) > localhost:4503
+* 发布2 (pub2) > localhost:4504
 
 ## 在创作实例上设置复制代理 {#setting-replication-agents}
 
@@ -127,7 +135,7 @@ Screens需要三个复制代理：
 
 对于每个发布实例：
 
-1. 导航到`https://<host>:<port>/system/console/configMgr`
+1. 导航至 `https://<host>:<port>/system/console/configMgr`
 1. 单击&#x200B;**Apache Sling基于Oak的发现服务**&#x200B;配置。
 1. 更新拓扑连接器URL：添加符合以下条件的所有参与发布实例的URL：
    * `https://publish:4503/libs/sling/topology/connector`
@@ -159,7 +167,7 @@ Screens需要三个复制代理：
 >[!NOTE]
 >
 >密码应该以大括号开始和结束。 例如：
->&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### 步骤4：激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 

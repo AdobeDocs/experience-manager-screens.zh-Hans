@@ -10,10 +10,21 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/mb21H-Ky-ySuMvkF75Vhm8Zxzc4zRB65RBVu8hUrFHA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 0%
+source-wordcount: 781
+ht-degree: 1%
 
 ---
 
@@ -73,7 +84,7 @@ ht-degree: 0%
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-另外，单击“设备信息”面板右上角的(**...**)以查看属性或更新设备。
+另外，单击(**...**) 从“Device Information（设备信息）”面板的右上角查看属性或更新设备。
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -89,7 +100,7 @@ ht-degree: 0%
 
 您可以从&#x200B;**播放器屏幕快照**&#x200B;面板查看设备中的播放器屏幕快照。
 
-单击“播放器屏幕快照”面板右上角的(**...**)，然后单击“**刷新屏幕快照**”以查看正在运行的播放器的快照。
+单击(**...**) 播放器屏幕快照面板右上角单击&#x200B;**刷新屏幕快照**&#x200B;以查看正在运行的播放器的快照。
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 

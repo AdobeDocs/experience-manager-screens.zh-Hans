@@ -10,10 +10,18 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 1%
+source-wordcount: 314
+ht-degree: 2%
 
 ---
 
@@ -21,9 +29,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens提供了对AEM 6.3 Screens平台的维护支持。
+>建议您升级到Adobe Experience Manager (AEM)的最新版本。 AEM Screens为AEM 6.3 Screens平台提供维护支持。
 
-AEM Screens发布了AEM 6.3.3.3功能包6和AEM 6.4.4.0功能包4 ，并提供以下详细信息。
+AEM Screens发布了AEM 6.3.3.3功能包6和AEM 6.4.4.0功能包4，其详细信息如下。
 
 ## 发布日期 {#release-date}
 
@@ -49,19 +57,19 @@ SmartSync可最大限度地减少服务器负载/存储和网络流量，从而�
 
 有关详细信息，请参阅&#x200B;**[紧急渠道](emergency-channel.md)**&#x200B;用例。
 
-* **使用AEM SPA编辑器嵌入REACT应用程序并与AEM Screens Analytics集成**
+* **使用AEM SPA Editor嵌入REACT应用程序并与AEM Screens Analytics集成**
 
-本节介绍如何使用AEM SPA编辑器通过REACT(或Angular)嵌入交互式单页应用程序。 AEM中的业务专业人员可以配置编辑器。 它还介绍了如何将交互式应用程序与离线Adobe Analytics集成。
+本节介绍如何使用AEM SPA编辑器通过REACT（或Angular）嵌入交互式单页应用程序。 AEM中的业务专业人员可以配置编辑器。 它还介绍了如何将交互式应用程序与离线Adobe Analytics集成。
 
-有关更多详细信息，请参阅&#x200B;**[使用AEM SPA编辑器嵌入REACT应用程序以及与AEM Screens Analytics集成](embedding-react-app.md)**。
+有关更多详细信息，请参阅&#x200B;**[使用AEM SPA Editor嵌入REACT应用程序和与AEM Screens Analytics集成](embedding-react-app.md)**。
 
 ### 已发布的AEM Screens Players
 
-已为AEM 6.3.3.3功能包6和AEM 6.4.4.0功能包4发布以下AEM Screens Player：
+已为AEM 6.3.3.3 Feature Pack 6和AEM 6.4.4.0 Feature Pack 4发布以下AEM Screens Player：
 
 * Chrome OS
 * Windows
-* Android™
+* ™
 
 #### AEM Screens播放器下载
 

@@ -10,9 +10,24 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+TQID: https://experienceleague.adobe.com/IkYpLkG1zlxS5-YmCsyXLryXc7AsnZmuHj66Dh7NJSc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -41,7 +56,7 @@ ht-degree: 0%
 在开始实施此功能之前，请确保您对以下内容具有概念性知识：
 
 * [创建AEM Screens项目](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [创建显示区](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [创建显示](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [将渠道分配给显示](/help/user-guide/channel-assignment.md)
 
 ## 创建多区域布局 {#creating-multi-zone-layout}
@@ -175,7 +190,6 @@ ht-degree: 0%
 
    1. 如果标题与设备令牌匹配，请单击设备，然后单击操作栏中的&#x200B;**注册设备**。
    1. 如果注册码与Screens播放器&#x200B;**设备注册**&#x200B;选项卡中的代码匹配，请单击操作栏中的&#x200B;**验证**。
-
       ![图像](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. 输入&#x200B;**标题**&#x200B;作为&#x200B;**`Chrome-Device1`**，然后单击&#x200B;**注册**。
    1. 单击&#x200B;**指定显示区**，然后单击设备配置的路径。

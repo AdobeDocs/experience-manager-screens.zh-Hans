@@ -2,10 +2,18 @@
 title: AEM平台配置
 description: 本页介绍了AEM平台配置
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 3%
+source-wordcount: 545
+ht-degree: 4%
 
 ---
 
@@ -31,7 +39,7 @@ ht-degree: 3%
 
 ## Dispatcher 配置 {#dispatcher-configurations}
 
-Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AEM 的 Dispatcher 还有助于保护 AEM 服务器免受攻击。因此，您可以通过将Dispatcher与企业级Web服务器结合使用来提高AEM实例的安全性。
+Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AEM 的 Dispatcher 还有助于保护 AEM 服务器免受攻击。 因此，您可以通过将Dispatcher与企业级Web服务器结合使用来提高AEM实例的安全性。
 
 请参阅针对AEM Screens的&#x200B;**[Dispatcher配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)**，其中重点说明了为AEM Screens项目配置Dispatcher的指南。
 
@@ -40,7 +48,7 @@ Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AE
 按照相应操作系统（通常是RHEL）的步骤安装FFMpeg：
 
 1. 如果通过启用EPEL和RPMFusion进行安装，则可以安装所有gstreamer编解码器，以扩大对FFmpeg转换的支持
-1. 如果AAC编解码器标记为试验性的，则ffmpeg转换会失败。 要避免此问题，请将`-strict -2`添加到视频配置文件(AEM 6.3中的`/etc/dam/video`并移至`/libs/settings/dam/video in AEM 6.4`)
+1. 如果AAC编解码器标记为试验性的，则ffmpeg转换会失败。 要避免此问题，请将`-strict -2`添加到视频配置文件（AEM 6.3中的`/etc/dam/video`并移至`/libs/settings/dam/video in AEM 6.4`）
 
    >[!NOTE]
    >
@@ -49,7 +57,7 @@ Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AE
 
 ## 密码限制 {#password-restrictions}
 
-必须在AMS实例上禁用AEM的密码策略。 也可以使用Screens设备服务&#x200B;*com.adobe.cq.screens.device.impl.DeviceService*在Web控制台中交替配置它
+必须在AMS实例上禁用AEM的密码策略。 也可以使用Screens设备服务&#x200B;*com.adobe.cq.screens.device.impl.DeviceService在Web控制台中交替配置它*
 请参阅[在AEM Screens中配置作者和发布](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)中的&#x200B;**密码限制**&#x200B;部分
 
 ## 设置环境 {#setting-up-environments}

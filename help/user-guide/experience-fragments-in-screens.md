@@ -10,9 +10,22 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/hsBfnZKyaM96INkVmC94M2t39u-TzUIDPgdmHjjCHRc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
@@ -101,13 +114,13 @@ ht-degree: 1%
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c.从&#x200B;**创建Live Copy**&#x200B;向导中单击&#x200B;**ScreensFragment**，然后单击&#x200B;**下一步**。
+   c. 从&#x200B;**创建Live Copy**&#x200B;向导中单击&#x200B;**ScreensFragment**，然后单击&#x200B;**下一步**。
 
-   d.输入&#x200B;**标题**&#x200B;和&#x200B;**名称**&#x200B;作为&#x200B;**Screens**。
+   d. 输入&#x200B;**标题**&#x200B;和&#x200B;**名称**&#x200B;作为&#x200B;**Screens**。
 
-   e.单击&#x200B;**创建**&#x200B;以创建Live Copy。
+   e. 单击&#x200B;**创建**&#x200B;以创建Live Copy。
 
-   f.单击&#x200B;**完成**，以便您可以移回&#x200B;**ScreensFragment**&#x200B;页面。
+   f. 单击&#x200B;**完成**，以便您可以移回&#x200B;**ScreensFragment**&#x200B;页面。
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +134,7 @@ ht-degree: 1%
 
    1. 单击&#x200B;**脱机配置**&#x200B;选项卡，如下图所示。
 
-   您可以将&#x200B;**客户端库** (Java™和CSS)和&#x200B;**静态文件**&#x200B;添加到您的体验片段中。
+   您可以将&#x200B;**客户端库** （Java™和CSS）和&#x200B;**静态文件**&#x200B;添加到您的体验片段中。
 
    以下示例显示了作为静态文件的一部分向体验片段添加的客户端库和字体。  ![片段](assets/fragment.gif)
 
@@ -135,19 +148,19 @@ ht-degree: 1%
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e.单击&#x200B;**体验片段**&#x200B;组件，然后单击左上角（扳手）图标，以打开&#x200B;**体验片段**&#x200B;对话框。
+   e. 单击&#x200B;**体验片段**&#x200B;组件并单击左上角（扳手）图标，以便打开&#x200B;**体验片段**&#x200B;对话框。
 
-   f.单击您在&#x200B;**路径**&#x200B;中的&#x200B;*步骤3*&#x200B;中创建的&#x200B;**Screens**&#x200B;片段的Live Copy。
+   f. 单击您在&#x200B;**路径**&#x200B;中的&#x200B;*步骤3*&#x200B;中创建的&#x200B;**Screens**&#x200B;片段的Live Copy。
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f.单击您在&#x200B;**体验片段**&#x200B;中的&#x200B;*步骤3*&#x200B;中创建的&#x200B;**Screens**&#x200B;片段的Live Copy。
+   f. 单击您在&#x200B;**体验片段**&#x200B;中的&#x200B;*步骤3*&#x200B;中创建的&#x200B;**Screens**&#x200B;片段的Live Copy。
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h.输入&#x200B;**持续时间**&#x200B;的毫秒数。
+   h. 输入&#x200B;**持续时间**&#x200B;的毫秒数。
 
-   i.单击&#x200B;**体验片段**&#x200B;对话框中的&#x200B;**脱机配置**，以便您可以定义客户端库和静态文件。
+   i. 单击&#x200B;**体验片段**&#x200B;对话框中的&#x200B;**脱机配置**，以便您可以定义客户端库和静态文件。
 
    >[!NOTE]
    >
@@ -155,7 +168,7 @@ ht-degree: 1%
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j.单击复选标记，以便完成该流程。
+   j. 单击复选标记，以便完成该过程。
 
 ### 验证结果 {#validating-the-result}
 

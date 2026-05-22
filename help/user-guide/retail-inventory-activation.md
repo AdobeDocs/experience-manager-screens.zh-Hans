@@ -10,9 +10,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+TQID: https://experienceleague.adobe.com/RVv6pOsJlK-uDu7AfobsDvpYlKQJ6nj4Q0cKSbTlBv4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 590
 ht-degree: 0%
 
 ---
@@ -46,7 +63,7 @@ ht-degree: 0%
 
 1. **根据要求配置受众**
 
-   1. 导航到受众中的区段(有关更多详细信息，请参阅&#x200B;**[在AEM Screens中配置ContextHub](configuring-context-hub.md)**&#x200B;页面中的&#x200B;***步骤2：设置受众分段***)。
+   1. 导航到受众中的区段（有关更多详细信息，请参阅&#x200B;**[在AEM Screens中配置ContextHub](configuring-context-hub.md)**&#x200B;页面中的&#x200B;***步骤2：设置受众分段***）。
 
    1. 添加三个新区段&#x200B;**For_Red**、**For_Green**&#x200B;和&#x200B;**For_Blue**。
 
@@ -113,7 +130,7 @@ ht-degree: 0%
 
 1. **正在检查预览**
 
-   1. 单击&#x200B;**预览。**&#x200B;此外，打开您的Google工作表并更新其值。
+   1. 单击&#x200B;**预览。** 此外，打开您的Google工作表并更新其值。
    1. 更改所有三个不同列的值。 请注意显示图像会根据清单中的最高值更新。
 
    ![retail_result](assets/retail_result.gif)

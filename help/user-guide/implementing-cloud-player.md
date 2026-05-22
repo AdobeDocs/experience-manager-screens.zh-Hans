@@ -8,16 +8,26 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
+TQID: https://experienceleague.adobe.com/cqLg9YgSbzZMZ9q0C1ZheiZ-e3cN38EI69hL-l7Tgeg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 909
 ht-degree: 0%
 
 ---
 
 # 实施Cloud Player {#implementing-cloud-player}
 
-AEM Screens传统上为各种平台(包括ChromeOS、Windows、Android™和`Tizen`)提供独特的本机播放器应用程序。 但是，为了响应用户不断变化的需求，Adobe引入了一种创新的解决方案，即AEM Screens Cloud Player。
+AEM Screens传统上为各种平台（包括ChromeOS、Windows、Android™和`Tizen`）提供独特的本机播放器应用程序。 但是，为了响应用户不断变化的需求，Adobe引入了一种创新的解决方案，即AEM Screens Cloud Player。
 
 Cloud Player与Adobe之前的本机应用程序有重大不同。 它是一个在服务器上托管的渐进式Web应用程序(PWA)。 这种变革性的方法为客户提供了一个直接在Web浏览器中运行的独立于平台的播放器。
 
@@ -67,15 +77,15 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 
 ## 在Chrome OS上批量配置 {#bulk-provisioning-chrome}
 
-详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_cn` -->
+详细了解Chrome OS上的批量配置。 请参阅[在Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player)上安装Cloud Player。<!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## AEM实例上所需的配置 {#bulk-provisioning-config-aem}
 
 根据AEM实例的类型，单击以下指南之一以启用AEM和Cloud Player上的CORS ：
 
-* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_cn` -->
+* [AEM内部部署/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)<!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [AEM云服务](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_cn` -->
+* [AEM云服务](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -92,7 +102,7 @@ Cloud Player的安装可能因平台而异。 通常，任何具有现代化浏�
 
 ## 对外部内容检索的脱机支持 {#offline-support}
 
-在各种使用场景中，渠道可能需要从外部源(例如，天气小组件或Commerce集成的单页应用程序)检索内容，这些外部源本身无法提供离线支持。 为了为这些特定用例启用离线功能，Cloud Player提供对自定义标头的支持。
+在各种使用场景中，渠道可能需要从外部源（例如，天气小组件或Commerce集成的单页应用程序）检索内容，这些外部源本身无法提供离线支持。 为了为这些特定用例启用离线功能，Cloud Player提供对自定义标头的支持。
 
 Cloud Player采用网络优先缓存策略，这意味着它尝试从网络获取内容（然后使用最新更新缓存），回退到缓存的内容（如果可用）。 要为此内容检索实施离线支持，请求中必须包含自定义标头。 随后，带有自定义标头的请求缓存在播放器上，便于离线访问内容，同时保持网络优先缓存策略。
 

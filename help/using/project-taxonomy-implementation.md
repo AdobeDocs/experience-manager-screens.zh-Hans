@@ -2,9 +2,18 @@
 title: 项目分类
 description: 了解有关项目分类法的更多信息，因为它与AEM Screens相关。
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+TQID: https://experienceleague.adobe.com/z2YWTrwMKTcKYMKsAtgvL1ZP6Uv9svRAy1Xu58hKMKI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 411
 ht-degree: 0%
 
 ---
@@ -47,7 +56,7 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 * [创建AEM Screens项目](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
 * [创建渠道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
 * [将组件和资产添加到渠道](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [创建计划](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [创建时间表](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
 * [创建位置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
 * [创建显示区](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [将渠道分配给显示区](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)

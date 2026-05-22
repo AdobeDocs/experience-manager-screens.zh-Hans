@@ -9,9 +9,20 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/SSClqDvdUKva7LqeEJG9niJSXbaSwe2VMO2XssQaXLw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: 2364
 ht-degree: 2%
 
 ---
@@ -84,7 +95,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   此资源包包含项目所需的起始内容和配置结构。**`/conf/we-retail-run`** 包含`We.Retail`运行项目的所有配置。**`/content/dam/we-retail-run`** 包括为项目启动数字资产。**`/content/screens/we-retail-run`** 包含Screens内容结构。 所有这些路径的内容主要在AEM中进行更新。 为了提高环境（本地、开发、暂存、生产）之间的一致性，通常将基本内容结构保存在源代码控制中。
+   此资源包包含项目所需的起始内容和配置结构。 **`/conf/we-retail-run`**&#x200B;包含`We.Retail`运行项目的所有配置。 **`/content/dam/we-retail-run`**&#x200B;包括项目的开始数字资源。 **`/content/screens/we-retail-run`**&#x200B;包含Screens内容结构。 所有这些路径的内容主要在AEM中进行更新。 为了提高环境（本地、开发、暂存、生产）之间的一致性，通常将基本内容结构保存在源代码控制中。
 
 1. **导航到AEM Screens > `We.Retail`运行项目：**
 
@@ -128,10 +139,10 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
     /apps/weretail-run/components/content/helloworld/helloworld.html
 
    */-->
-
+   
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-
+   
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -160,7 +171,7 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
 
    以上是Hello World组件的生产标记。 由于该组件在序列渠道中被使用，因此包含`data-duration`特性。 序列渠道使用`data-duration`属性来了解序列项显示的时长。
 
-   该组件呈现带有文本的`div`和`h1`标记。`${properties.message}` 是HTL脚本的一部分，用于输出名为`message`的JCR属性的内容。 稍后将创建一个对话框，允许用户输入`message`属性文本的值。
+   该组件呈现带有文本的`div`和`h1`标记。 `${properties.message}`是HTL脚本的一部分，该脚本输出名为`message`的JCR属性的内容。 稍后将创建一个对话框，允许用户输入`message`属性文本的值。
 
    另请注意，组件使用BEM（块元素修饰符）表示法。 BEM是一种CSS编码约定，它使创建可重用组件变得更容易。 BEM是[AEM的核心组件](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions)使用的表示法。<!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
@@ -169,7 +180,6 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
    使用以下内容填充文件：
 
    ```xml
-
    <!--/*
 
     /apps/weretail-run/components/content/helloworld/edit.html
@@ -287,7 +297,7 @@ AEM Screens组件在编辑模式与预览 — 生产模式中的呈现方式有�
 
 1. 将以下属性添加到共享客户端库：
 
-   * `allowProxy` |布尔值| `true`
+   * `allowProxy` |布尔型 | `true`
 
    * `categories`|字符串[] | `cq.screens.components`
 
@@ -313,7 +323,7 @@ AEM Screens组件在编辑模式与预览 — 生产模式中的呈现方式有�
 
    ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
-   本教程使用的是LESS，而不是直接写入CSS。[LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 您可以使用Sass或其他预编译器，但必须在AEM之外编译它们。
+   本教程不会直接编写CSS，而是使用LESS。 [LESS](https://lesscss.org/)是一种常用的CSS预编译器，它支持CSS变量、mixin和函数。 AEM客户端库本身支持LESS编译。 您可以使用Sass或其他预编译器，但必须在AEM之外编译它们。
 
 1. 使用以下内容填充`/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less`：
 
@@ -392,7 +402,7 @@ AEM Screens使用[静态页面模板](https://experienceleague.adobe.com/zh-hans
 1. 在designs文件夹下创建一个名为`we-retail-run`且类型为`cq:Page`的节点。
 1. 在`we-retail-run`页面下，添加另一个名为`jcr:content`且类型为`nt:unstructured`的节点。 将以下属性添加到`jcr:content`节点：
 
-   | 名称 | 类型 | 价值 |
+   | 名称 | 类型 | 值 |
    |---|---|---|
    | `jcr:title` | 字符串 | `We.Retail`运行 |
    | `sling:resourceType` | 字符串 | `wcm`，`core`，`components`，`designer` |

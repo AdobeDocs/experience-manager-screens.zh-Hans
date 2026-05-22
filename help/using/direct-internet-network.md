@@ -2,16 +2,26 @@
 title: 直接访问Internet
 description: 直接访问Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # 直接互联网网络（有线/无线） {#direct-internet-access}
 
-直接Internet网络包含一个入口访问点，用于访问Internet，以访问AEM Screens必须连接到的AEMCloud Service。
+直接Internet网络包含一个入口访问点，用于访问Internet，以访问AEM Screens必须连接到的AEM云服务。
 
 用于AEM Screens通信的标准端口包括：
 
@@ -76,7 +86,7 @@ LAN网络通常至少与100-Mbps网络匹配，因此有足够的带宽将许多
 
 >[!NOTE]
 >
->如果需要使用Wi-Fi中继器，Adobe建议使用Google Nest Mesh Wi-Fi等网状无线网络接入点或类似接入点。 其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
+>如果需要Wi-Fi中继器，Adobe会推荐使用Google Nest Mesh Wi-Fi等网状无线网络接入点或类似接入点。 其他Wi-Fi重复技术最终导致整个网络的带宽大量丢失。
 
 ## 正在下载Media和Assets {#download}
 

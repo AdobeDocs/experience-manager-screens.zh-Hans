@@ -10,10 +10,23 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 1%
+source-wordcount: 1476
+ht-degree: 2%
 
 ---
 
@@ -45,7 +58,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在以下示例中，Google Sheets用作示例数据库系统，其中值是从中获取的，且仅用于教育目的。 对于将Google Sheets用于生产环境，Adobe不认可。
+>在以下示例中，Google Sheets用作示例数据库系统，其中值是从中获取的，且仅用于教育目的。 Adobe不支持在生产环境中使用Google Sheets。
 >
 >有关详细信息，请参阅Google文档中的[获取API密钥](https://developers.google.com/maps/documentation/javascript/get-api-key)。
 
@@ -108,7 +121,7 @@ ht-degree: 1%
    >1. 将`cloudsettings1`重命名为`cloudsettings`并保存。
    >1. 请注意，`/conf/screens/settings/cloudsettings`具有`jcr:primaryType`作为`sling:Folder`。
    >
-   >在升级之前或之后，请按照创作和Publish中的以下步骤操作。
+   >在升级之前或之后，请按照创作和发布中的以下步骤操作。
 
    1. 输入&#x200B;**标题**&#x200B;作为&#x200B;**Google工作表**，**存储名称**&#x200B;作为&#x200B;**`googlesheets`**，**存储类型**&#x200B;作为&#x200B;**c`ontexthub.generic-jsonp`**，然后单击&#x200B;**下一步**。
 
@@ -166,14 +179,13 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到&#x200B;**Personalization** > **受众** > **屏幕**。
 
-   1. 单击&#x200B;**创建** > **创建ContextHub区段。**&#x200B;将打开&#x200B;**新ContextHub区段**&#x200B;对话框。
+   1. 单击&#x200B;**创建** > **创建ContextHub区段。** 将打开&#x200B;**新ContextHub区段**&#x200B;对话框。
 
    1. 输入&#x200B;**标题**&#x200B;作为`**Higherthan50**`，然后单击&#x200B;**创建**。 同样，创建另一个标题为`**Lowerthan50**`的区段。
 
       ![图像](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. 单击区段`**Higherthan50**`，然后单击操作栏中的&#x200B;**属性**。
-
       ![图像](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. 从&#x200B;**区段属性**&#x200B;中单击&#x200B;**Personalization**&#x200B;选项卡。 将&#x200B;**ContextHub路径**&#x200B;设置为`/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations`，将&#x200B;**区段路径**&#x200B;设置为`/conf/screens/settings/wcm/segments`，然后单击&#x200B;**保存**，如下图所示。
@@ -203,7 +215,7 @@ ht-degree: 1%
       >
       >已知问题：
       >要添加区域，请从URL中删除主区域，例如
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **在您的品牌中创建区域**
 
@@ -226,7 +238,7 @@ ht-degree: 1%
 
    1. 从您的AEM实例导航到&#x200B;**Personalization** > **活动** > **ScreensBrand** >**ScreensValue**。
 
-   1. 单击&#x200B;**创建** > **创建活动。** **配置活动向导**&#x200B;打开。
+   1. 单击&#x200B;**创建** > **创建活动。** 将打开&#x200B;**配置活动向导**。
 
    1. 输入&#x200B;**Title**&#x200B;作为&#x200B;**ValueCheck50**，输入&#x200B;**Name**&#x200B;作为&#x200B;**valuecheck50**。 从下拉列表中单击&#x200B;**定位引擎**&#x200B;作为&#x200B;**ContextHub (AEM)**，然后单击&#x200B;**下一步**。
 
@@ -301,7 +313,7 @@ ht-degree: 1%
    1. 将&#x200B;**ContextHub路径**&#x200B;设置为`/conf/screens/settings/wcm/segments`，将&#x200B;**区段路径**&#x200B;设置为`/conf/screens/settings/wcm/segments`。
    1. 从下拉列表中将Brand设置为&#x200B;**ScreensBrand**&#x200B;并将Area Reference **设置为** ScreensValue **。**
 
-   1. 单击“**保存并关闭**”。
+   1. 单击&#x200B;**保存并关闭**。
 
       >[!NOTE]
       >

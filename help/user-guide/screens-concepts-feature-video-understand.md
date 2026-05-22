@@ -7,26 +7,32 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+exl-id: e2c8f5d6-5a70-45fa-a661-925f796a50f9
+TQID: https://experienceleague.adobe.com/I--6jVCUWNNGosI-eK-qCAVnVSW3O6lPeFmowhjOJyg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
+source-wordcount: 161
+ht-degree: 1%
 
 ---
-
 
 # AEM Screens概述视频 {#aem-screens-overview-video}
 
 ## Screens术语和概念 {#terminology-and-concepts}
 
->[!VIDEO](https://video.tv.adobe.com/v/40172?quality=9&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/40172?captions=chi_hans&quality=9)
 
 
 ## 创作渠道和计划 — 第1部分 {#channels-and-schedules-part-2}
 
 要观看视频，您需要满足以下条件：
 
-1. **AEM 6.4**&#x200B;或&#x200B;**AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
+1. **AEM 6.4**&#x200B;或&#x200B;**&#x200B; AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
 
 1. Screens播放器
 
@@ -34,11 +40,10 @@ ht-degree: 0%
 
 以下视频详细介绍如何创建新渠道、创作新内容以及将渠道添加到可重用计划。 大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的前半部分。
 
->[!VIDEO](https://video.tv.adobe.com/v/39371?quality=9&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/39371?captions=chi_hans&quality=9)
 
 ## 显示分配和设备注册 — 第2部分 {#display-and-device-pt2}
 
 以下视频演示了位置、显示和设备配置的创建。 该视频还显示了注册设备和将设备分配给显示器的步骤。 它大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的后半部分。
 
->[!VIDEO](https://video.tv.adobe.com/v/39392?quality=9&captions=chi_hans)
-
+>[!VIDEO](https://video.tv.adobe.com/v/39392?captions=chi_hans&quality=9)

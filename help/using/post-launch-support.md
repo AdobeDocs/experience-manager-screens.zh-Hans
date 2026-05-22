@@ -1,19 +1,25 @@
 ---
 title: 启动后支持
 description: 在最佳实践指南中了解对AEM Screens的启动后支持。
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: 390
+ht-degree: 3%
 
 ---
-
 
 # 启动后支持 {#post-launch-support}
 
 不要忽视早期阶段的启动后支持。
 
-确保站点能够从硬件供应商获得充分的支持对于他们的业务运营而言至关重要。**音频 — 视频集成商**&#x200B;应与业务利益相关者紧密合作，并确定不同方面所需的要求。
+确保站点能够从硬件供应商获得充分的支持对于他们的业务运营而言至关重要。 **音频 — 视频集成商**&#x200B;应与业务利益相关者紧密合作，并确定不同方面所需的要求。
 在启动后支持期间，请考虑以下要求：
 
 * 远程设备管理
@@ -21,11 +27,11 @@ ht-degree: 4%
 * 现场技术人员支持
 * 设备管理（保修支持和备用设备存储）
 
-此外，为长期成功做好准备，至关重要的是与音频 — 视频集成商合作制定第2天服务水平协议(SLA)。 SLA应详细说明所有部署后支持服务，以帮助准确确定客户期望。
+此外，为了准备取得长期成功，至关重要的是，要与Audio-Video集成商合作，建立第2天Service level agreement (SLA)。 SLA应详细说明所有部署后支持服务，以帮助准确确定客户期望。
 
 >[!NOTE]
 >
->尽早定义运营预算中包含的运营参数，并将这些职责与AEM实施人员和音频/视频集成商对应起来。
+>尽早定义包含在运营预算中的运营参数，并将这些职责与AEM实施人员和音频/视频集成商对应起来。
 >
 >* 该部署是否是一个Advertising网络，许多利益相关者都与盈利网络相关联？ 与公司通信网络相比，这种情况可能会要求更短的解析时间范围。
 >* 该应用程序是否对最终客户的执行领导高度可见？ 能见度高的网站可能适合不同的治疗。
