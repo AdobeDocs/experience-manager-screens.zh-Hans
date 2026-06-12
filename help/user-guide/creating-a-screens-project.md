@@ -24,8 +24,8 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 1%
+source-wordcount: 290
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >**导航提示：**
->您还可以使用光标键在AEM中的其他文件夹中导航。 此外，单击特定图元后，按空格键可编辑或查看该特定文件夹的属性。
+>您还可以使用光标键浏览AEM中的其他文件夹。此外，单击特定图元后，按空格键可编辑或查看该特定文件夹的属性。
 
 ## 创建新的Screens项目
 

@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 1846
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -271,9 +271,9 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/production.html
-
+   
    */-->
    <div data-sly-use.image="image.js"
         data-duration="${properties.duration}"
@@ -305,9 +305,9 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    ```xml
    <!--/*
-
+   
        /apps/weretail-run/components/content/poster/edit.html
-
+   
    */-->
    
    <div class="aem-Screens-editWrapper ${image.cssClass} cmp-poster" data-sly-use.image="image.js" data-emptytext="${'Poster' @ i18n, locale=request.locale}">

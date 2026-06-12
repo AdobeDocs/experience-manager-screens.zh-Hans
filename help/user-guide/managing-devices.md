@@ -26,8 +26,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 7%
+source-wordcount: 205
+ht-degree: 8%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 >
 >每次将第一台设备添加到新的Screens项目时，都会创建一个用户组。
 >例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。
->该组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
+>此组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

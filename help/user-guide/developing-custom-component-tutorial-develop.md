@@ -135,9 +135,9 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
 
    ```xml
    <!--/*
-
+   
     /apps/weretail-run/components/content/helloworld/helloworld.html
-
+   
    */-->
    
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
@@ -161,9 +161,9 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-
+   
    */-->
-
+   
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -181,18 +181,18 @@ AEM Screens具有一些有趣的限制，对于传统的WCM Sites组件未必是
 
    ```xml
    <!--/*
-
+   
     /apps/weretail-run/components/content/helloworld/edit.html
-
+   
    */-->
-
+   
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-
+   
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"
@@ -402,7 +402,7 @@ AEM Screens使用[静态页面模板](https://experienceleague.adobe.com/zh-hans
 1. 在designs文件夹下创建一个名为`we-retail-run`且类型为`cq:Page`的节点。
 1. 在`we-retail-run`页面下，添加另一个名为`jcr:content`且类型为`nt:unstructured`的节点。 将以下属性添加到`jcr:content`节点：
 
-   | 名称 | 类型 | 值 |
+   | 名称 | 类型 | 价值 |
    |---|---|---|
    | `jcr:title` | 字符串 | `We.Retail`运行 |
    | `sling:resourceType` | 字符串 | `wcm`，`core`，`components`，`designer` |

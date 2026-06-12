@@ -17,8 +17,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 2%
+source-wordcount: 1203
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
 
 >[!IMPORTANT]
 >**OSGi配置设置**
->必须启用空反向链接以允许设备向服务器发布数据。 例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。 当前，这些功能中的某些功能仅在OSGi配置中启用`Apache Sling`反向链接筛选条件允许空后才可用。 仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
+>必须启用空反向链接以允许设备向服务器发布数据。例如，如果禁用empty referrer属性，设备将无法张贴屏幕快照。当前，这些功能中的某些功能仅在OSGi配置中启用`Apache Sling`反向链接筛选条件允许空后才可用。仪表板可能会显示警告，指出安全设置可能会阻止这些功能中的某些功能正常工作。
 >按照以下步骤启用&#x200B;***Apache Sling引用过滤器允许为空***：
 
 
@@ -183,7 +183,7 @@ AEM Screens快速入门演示了如何设置和运行AEM Screens项目。 它将
    此外，您还可以单击&#x200B;**激活窗口**&#x200B;和&#x200B;**周期性计划**。
 
    >[!NOTE]
-   >*周期性计划*允许您为渠道设置周期性计划。 您可以为一个渠道设置多个周期性计划。
+   >*周期性计划*允许您为渠道设置周期性计划。您可以为一个渠道设置多个周期性计划。
    >有关详细信息，请参阅[周期性计划](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule)。
 
 1. 配置首选项后，单击&#x200B;**保存**。

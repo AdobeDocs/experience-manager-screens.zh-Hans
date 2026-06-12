@@ -25,7 +25,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1550
+source-wordcount: 1533
 ht-degree: 1%
 
 ---
@@ -134,7 +134,7 @@ Ad-Hoc方法允许您安装最新的™播放器(*.exe*)。 访问&#x200B;[**AEM
 执行以下步骤，在™播放器中允许批量配置：
 
 1. 创建名为`player-config.default.json`的配置JSON文件。
-查看[示例JSON策略](#example-json)和描述各种[策略属性](#policy-attributes)的使用的表。
+请参阅[示例JSON策略](#example-json)和描述各种[策略属性](#policy-attributes)的使用的表。
 
 1. 使用MDM、ADB或™ Studio文件资源管理器将此策略JSON文件拖放到Android™设备上的&#x200B;*sdcard*&#x200B;文件夹中。
 

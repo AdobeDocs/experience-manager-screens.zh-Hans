@@ -17,8 +17,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 1224
-ht-degree: 2%
+source-wordcount: 1128
+ht-degree: 1%
 
 ---
 
@@ -107,8 +107,8 @@ ht-degree: 2%
 
 此功能允许您远程配置Tizen播放器，并在必要时集中更新这些配置。 您只需要用于托管Tizen应用程序`(wgt and xml file)`的`HTTP`服务器和一个文本编辑器，以便使用适当的参数保存`config.json`。
 
-确保您已在Tizen设备上配置URL启动器地址。 单击“Home”（主页）按钮>“URL Launcher settings”（URL启动器设置）。
-在托管Tizen应用程序的`HTTP`服务器上，将文件`config.json`放在与`wgt`文件相同的位置。 文件名称必须为 `config.json`。
+确保您已在Tizen设备上配置URL启动器地址。单击“Home”（主页）按钮>“URL Launcher settings”（URL启动器设置）。
+在托管Tizen应用程序的`HTTP`服务器上，将文件`config.json`放在与`wgt`文件相同的位置。文件名必须为`config.json`。
 Tizen播放器在启动时（以及每次重新启动）安装并应用`config.json`文件中的设置。
 
 ### 示例JSON策略 {#example-json}
@@ -128,8 +128,8 @@ Tizen播放器在启动时（以及每次重新启动）安装并应用`config.j
 下表总结了策略及其功能。
 
 >[!NOTE]
->播放器的管理员UI策略配置是严格强制的，不会手动覆盖。 要允许为特定策略手动配置播放器，请不要在策略配置中指定该策略。
->例如，如果要允许手动配置重新启动计划，请不要在策略配置中指定键`rebootSchedule`。 每次重新加载播放器时都会读取策略配置。
+>播放器的管理员UI策略配置是严格强制的，不会手动覆盖。要允许为特定策略手动配置播放器，请不要在策略配置中指定该策略。
+>例如，如果要允许手动配置重新启动计划，请不要在策略配置中指定键`rebootSchedule`。每次重新加载播放器时都会读取策略配置。
 
 | **策略名称** | **用途** |
 |---|---|

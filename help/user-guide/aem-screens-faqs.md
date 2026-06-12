@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 2241
+source-wordcount: 2200
 ht-degree: 2%
 
 ---
@@ -98,11 +98,11 @@ ht-degree: 2%
 
 要注册设备（在AEM中为设备创建用户），请向AEM进行身份验证并手动按照注册向导完成注册。 理论上，恶意用户可能会创建多个挂起的设备，但如果没有AEM登录信息，则无法注册任何设备。
 
-### &#x200B;2. 是否有办法通过某种形式的身份验证将HTTP GET请求转换为HTTP POST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### &#x200B;2. 是否可以通过某种形式的身份验证将HTTP GET请求转换为HTTP POST？ {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 注册请求是POST请求。
 
-建议从会话中获取设备ID，而不是将其作为参数传递。 这样做会清理服务器日志、浏览器缓存等。 这不是安全问题。 语义上。 当服务器上没有状态更改时使用GET，而状态更改时使用POST。
+建议从会话中获取设备ID，而不是将其作为参数传递。 这样做会清理服务器日志、浏览器缓存等。 这不是安全问题。 语义上。 当服务器上没有状态更改时使用GET，当有状态更改时使用POST。
 
 ### &#x200B;3. 是否可以拒绝设备注册请求？ {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -229,7 +229,7 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 ### &#x200B;2. 如何添加Oak索引信息？ {#add-oak-index-info}
 
 AEM Screens为产品使用的查询创建索引定义。
-如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。 有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您还可以在[Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他资源。
 
