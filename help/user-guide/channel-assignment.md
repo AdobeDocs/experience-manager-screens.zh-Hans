@@ -189,5 +189,5 @@ DayParting是指将一天划分为多个时段，并指定在所需时间播放�
 >
 > 要了解有关DayParting的更多信息，请参阅以下部分：
 >
->* [在Assets中处理循环](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [在Assets中处理循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
