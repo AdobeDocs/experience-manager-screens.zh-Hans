@@ -10,9 +10,13 @@ role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
 TQID: https://experienceleague.adobe.com/0FSVmHOxse3eUn8eKvolCKk7-Wk9SGzA10iIcykLUs0
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 340
@@ -33,7 +37,7 @@ AEM组件用于保留、格式化和呈现网页上可用的内容。
 
 ## 创作渠道 {#authoring-channels}
 
-渠道是交付给一组显示器的内容的中心对象。 因此，内容作者通常会在编辑器中打开一个渠道来添加或修改内容。 由于该渠道是***`cq:Page`***，因此它遵循相同的传统UX模式在该渠道上添加和更改组件。
+渠道是交付给一组显示器的内容的中心对象。 因此，内容作者通常会在编辑器中打开一个渠道来添加或修改内容。 由于该渠道是&#x200B;***`cq:Page`***，因此它遵循相同的传统UX模式在该渠道上添加和更改组件。
 
 但是，由于渠道中的组件通常以全屏方式呈现，因此在尝试编辑单个组件或撰写新订单时，创作体验会受损。 因此，渠道依赖选择器来呈现组件的不同视图。 创作环境使用`edit`选择器激活自定义渠道渲染。
 
@@ -60,4 +64,4 @@ AEM组件用于保留、格式化和呈现网页上可用的内容。
 
 >[!NOTE]
 >
->要开发自定义组件，请使用***[AEM Screens示例组件模板](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
+>要开发自定义组件，请使用&#x200B;***[AEM Screens示例组件模板](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)***。
