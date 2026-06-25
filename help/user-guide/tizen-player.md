@@ -6,23 +6,21 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1174
 ht-degree: 1%
 
 ---
 
 # 实施Tizen播放器 {#tizen-player}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 ## 安装Tizen播放器 {#installing-tizen-player}
 
@@ -66,7 +64,7 @@ ht-degree: 1%
 
 1. 导航到您的Samsung设备并打开。
 1. 单击设备遥控器上的&#x200B;**菜单**&#x200B;按钮，然后从左侧导航栏向下滚动到&#x200B;**系统**。
-1. 向下滚动，单击&#x200B;**通过**&#x200B;播放选项，并将其更改为&#x200B;**URL启动器**&#x200B;选项。
+1. 向下滚动，单击&#x200B;**通过**&#x200B;播放选项，并将其更改为&#x200B;**URL启动器**选项。
    ![图像](/help/user-guide/assets/tizen/rms-2.png)
 1. 设置URL启动器后，按遥控器上的&#x200B;**主页**&#x200B;按钮。
 1. 导航到&#x200B;**URL启动器设置**，输入本地主机服务器的IP地址，然后单击&#x200B;**完成**。

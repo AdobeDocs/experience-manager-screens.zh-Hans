@@ -3,19 +3,19 @@ title: 自适应演绎版架构概述和配置
 description: 了解CRXDE Lite中的架构概述和配置，以便在AEM Screens中使用自适应演绎版。
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: 703
 ht-degree: 4%
 
 ---
 
 # 自适应演绎版：架构概述和配置 {#adaptive-renditions}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 ## 简介 {#introduction}
 
@@ -50,7 +50,7 @@ ht-degree: 4%
    >![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您安装了最新的功能包202109，则会在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中预先填充了&#x200B;**rendition-mapping**&#x200B;节点结构。 请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)的发行说明，以了解有关最新功能包的详细信息。
+   >如果您安装了最新的功能包202109，则会在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中预先填充了&#x200B;**rendition-mapping**&#x200B;节点结构。请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)的发行说明，以了解有关最新功能包的详细信息。
    >对于现有项目，请确保Screens项目具有关联的&#x200B;**rendition-mapping**&#x200B;配置。 有关详细信息，请参阅[将演绎版映射添加到现有项目](#rendition-mapping-existing)部分。
 
 ### 将演绎版映射属性添加到现有项目 {#rendition-mapping-existing}

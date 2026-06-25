@@ -3,19 +3,19 @@ title: 线框
 description: 了解如何在AEM Screens项目中使用线框。
 exl-id: 7aa16e3b-9ab6-4687-b897-8b1be4c2825d
 TQID: https://experienceleague.adobe.com/vZIM1FREMXC5FemQIbC5F5O27wTU6acsRyv5GP5zDEw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: 212
 ht-degree: 0%
 
 ---
 
 # 线框 {#wireframes}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >此活动的典型利益相关者是营销/业务策略师。
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 这有助于使项目从原型阶段更接近于实际部署阶段。
 
-从&#x200B;**资产级别视图**&#x200B;中，您应该创建定义各种内容布局选项和内容分组的线框。 这项工作有助于定义将多个内容片段组合为一个组时可能呈现的外观。
+从&#x200B;**资产级别视图**中，您应该创建定义各种内容布局选项和内容分组的线框。这项工作有助于定义将多个内容片段组合为一个组时可能呈现的外观。
 通常，在本练习中，您会使用实际的生产就绪图形、图像和视频。
 
 从&#x200B;**渠道级别视图**&#x200B;中，您应该创建线框以显示内容渠道如何在整体体验中链接在一起，包括嵌入式渠道的播放策略。 您还可以查看当数据触发器参与时可能发生的渠道过渡。

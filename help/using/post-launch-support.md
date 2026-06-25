@@ -3,23 +3,23 @@ title: 启动后支持
 description: 在最佳实践指南中了解对AEM Screens的启动后支持。
 exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
 TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 3%
+source-wordcount: 396
+ht-degree: 0%
 
 ---
 
 # 启动后支持 {#post-launch-support}
 
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+
 不要忽视早期阶段的启动后支持。
 
-确保站点能够从硬件供应商获得充分的支持对于他们的业务运营而言至关重要。 **音频 — 视频集成商**&#x200B;应与业务利益相关者紧密合作，并确定不同方面所需的要求。
+确保站点能够从硬件供应商获得充分的支持对于其业务运营至关重要。**音频 — 视频集成商**应与业务利益相关者紧密合作，并确定不同方面所需的要求。
 在启动后支持期间，请考虑以下要求：
 
 * 远程设备管理
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 可帮助您定义启动后支持的一些注意事项和问题：
 
-1. 该部署是否是一个Advertising网络，许多利益相关者都与盈利网络相关联？ 与公司通信网络相比，这种情况可能会要求更短的解析时间范围。
+1. 该部署是否是一个Advertising网络，许多利益相关者都与盈利网络相关联？与公司通信网络相比，这种情况可能会要求更短的解析时间范围。
  
    >[!NOTE]
    >

@@ -3,16 +3,10 @@ title: 直接访问Internet
 description: 直接访问Internet
 exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
 TQID: https://experienceleague.adobe.com/IM35QvUEU9ZfJAF5abHAIj4gNs88VE6PGz-TBT8ZAGI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
 source-wordcount: 706
 ht-degree: 0%
@@ -20,6 +14,9 @@ ht-degree: 0%
 ---
 
 # 直接互联网网络（有线/无线） {#direct-internet-access}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 直接Internet网络包含一个入口访问点，用于访问Internet，以访问AEM Screens必须连接到的AEM云服务。
 
@@ -82,7 +79,7 @@ Internet连接的性能除了网络可达性之外，还在于提供足够的带
 局域网(LAN)的性能除了网络的可达性外，还在于提供足够的带宽来运行AEM Screens。
 
 LAN网络通常至少与100-Mbps网络匹配，因此有足够的带宽将许多性能良好的设备连接到系统。
-如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议至少使用`IEEE 802.11g`等现代Wi-Fi标准。 此标准支持高达54 Mbps的连接。 任何&#x200B;*较新的*&#x200B;标准（如`802.11h-n`）的质量更好。
+如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议至少使用`IEEE 802.11g`等现代Wi-Fi标准。此标准支持高达54 Mbps的连接。任何&#x200B;*较新*&#x200B;标准（如`802.11h-n`）的质量都更高。
 
 >[!NOTE]
 >

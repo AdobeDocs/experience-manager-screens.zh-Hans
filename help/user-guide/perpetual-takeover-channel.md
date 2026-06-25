@@ -7,33 +7,29 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 857
 ht-degree: 1%
 
 ---
 
 # 永久接管渠道 {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+
 以下页面展示了一个用例，重点介绍如何设置一个项目，介绍如何创建一个在特定时间（一天到一整天）连续播放的永久接管渠道。
 
 ## 用例说明 {#use-case-description}
 
-此用例说明如何为显示或显示组创建从正常播放渠道中&#x200B;*接管*的渠道。 收购会在特定的日期和时间持续进行。
-例如，有一个永久TakeOver频道，它在每个星期五的上午9:00到上午10:00播放。在此期间，不应播放其他渠道。 以下示例演示如何创建永久接管渠道，该渠道允许内容从每周三下午2:00到下午4:00播放两个小时。
+此用例说明如何为显示或显示组创建从正常播放渠道中&#x200B;*接管*的渠道。收购会在特定的日期和时间持续进行。
+例如，有一个永久TakeOver频道，它在每个星期五的上午9:00到上午10:00播放。在此期间，不应播放其他渠道。以下示例演示如何创建永久接管渠道，该渠道允许内容从每周三下午2:00到下午4:00播放两个小时。
 
 ### 前提条件 {#preconditions}
 
