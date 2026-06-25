@@ -25,14 +25,17 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 703
 ht-degree: 0%
 
 ---
 
 # 第2部分：关于项目适用范围的注意事项 {#part-considerations-as-projects-are-scoped}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本页重点介绍一个由5部分组成的系列中的第2部分，该系列旨在帮助团队成员更好地了解成功开发AEM Screens部署的售前环节。
 

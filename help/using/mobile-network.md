@@ -10,14 +10,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 847
+source-wordcount: 837
 ht-degree: 0%
 
 ---
 
 # 直接移动网络 {#mobile-network-setup}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 AEM Screens播放器还可以使用运行至少3G网络的移动或蜂窝网络进行连接。
 
@@ -69,7 +72,7 @@ AEM Screens播放器还可以使用运行至少3G网络的移动或蜂窝网络�
 在考虑应使用哪个数据网络时，请考虑以下事项：
 
 可用的网络速度取决于特定的移动数据提供商计划以及在AEM Screens控制器位置可到达的可用覆盖范围。
-在执行此设置时，请考虑以下事项：除了可用带宽之外，某些移动数据提供商计划还会限制在特定时间内通过连接的可用数据量。 必须确保数据和带宽量有足够的容量。
+在执行此设置时，请考虑以下事项：除了可用带宽之外，某些移动数据提供商计划还会限制在特定时间内通过连接的可用数据量。必须确保数据和带宽量有足够的容量。
 作为后续操作，所需的数据包必须至少为：
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`

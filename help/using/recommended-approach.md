@@ -14,14 +14,17 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 482
 ht-degree: 0%
 
 ---
 
 # 推荐的方法 {#recommended-approach}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 最佳做法是将任何企业级AEM Screens项目视为一项长期任务。 项目持续时间可能达到一年或一年以上，尤其是在解决方案允许复杂的用户交互或部署到各种设备和位置的情况下。
 

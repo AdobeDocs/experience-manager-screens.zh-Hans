@@ -24,14 +24,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 593
 ht-degree: 0%
 
 ---
 
 # 第3部分：测试、概念验证、试点和推广 {#part-testing-pocs-pilots-rollouts}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本页重点介绍了5部分系列的第3部分，旨在帮助团队成员更好地了解关键术语，以确保在推出之前能够开发成功的解决方案。
 

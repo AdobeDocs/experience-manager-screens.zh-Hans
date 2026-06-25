@@ -18,14 +18,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: 835
 ht-degree: 0%
 
 ---
 
 # 按需内容更新 {#on-demand}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本节介绍用于管理出版物的按需内容。
 
@@ -60,7 +63,7 @@ ht-degree: 0%
 
    **了解包括子项对话框**
 
-   上述步骤显示了如何发布整个内容。 如果要使用其他三个可用的替代项，则必须选中该特定选项。
+   上述步骤显示了如何发布整个内容。如果要使用其他三个可用的替代项，则必须选中该特定选项。
 例如，下图显示了如何仅管理和更新项目中已修改的页面：
    ![图像](assets/author-publish-manage.png)
 

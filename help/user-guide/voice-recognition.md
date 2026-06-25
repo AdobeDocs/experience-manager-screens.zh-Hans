@@ -22,14 +22,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1132
 ht-degree: 2%
 
 ---
 
 # AEM Screens中的语音识别 {#voice-recognition}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!IMPORTANT]
 >
@@ -90,7 +93,7 @@ ht-degree: 2%
 
    ![图像](assets/voice-recognition/vr-2.png)
 
-   如果您在项目中添加了拆分Screens渠道，请导航到&#x200B;**拆分屏幕**&#x200B;并拖放两个嵌入的序列。 将路径添加到&#x200B;**ColdIndrings**&#x200B;和&#x200B;**HotIndrings**&#x200B;频道，如下图所示。
+   如果您在项目中添加了拆分Screens渠道，请导航到&#x200B;**拆分屏幕**&#x200B;并拖放两个嵌入的序列。将路径添加到&#x200B;**ColdDroups**&#x200B;和&#x200B;**HotDroups**&#x200B;频道，如下图所示。
    ![图像](assets/voice-recognition/vr-emb-6.png)
 
 

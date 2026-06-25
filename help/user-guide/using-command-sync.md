@@ -18,14 +18,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 743
 ht-degree: 0%
 
 ---
 
 # 命令同步 {#command-sync}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下页面介绍了如何使用“命令同步”。 命令同步允许跨不同播放器同步播放。 播放器可以播放不同的内容，但每个资源必须具有相同的持续时间。
 
@@ -68,7 +71,7 @@ ht-degree: 0%
 1. 创建位置&#x200B;**大厅**，然后在&#x200B;**位置**&#x200B;文件夹中创建标题为&#x200B;**大厅显示**&#x200B;的显示，如下图所示。
    ![图像1](assets/command-sync/command-sync3-1.png)
 
-1. 将频道&#x200B;**ChannelLobby**&#x200B;分配给您的&#x200B;**LobbyDisplay**。 您现在可以从显示功能板中查看分配给显示的渠道。
+1. 将频道&#x200B;**ChannelLobby**&#x200B;分配给您的&#x200B;**LobbyDisplay**。您现在可以从显示功能板中查看分配给显示的渠道。
    ![图像1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -84,7 +87,7 @@ ht-degree: 0%
    >
    >要了解如何注册设备，请参阅[设备注册](/help/user-guide/device-registration.md)
 
-1. 为了进行演示，此示例将Chrome设备和Windows Player显示为两个单独的设备。 两台设备指向同一个显示器。
+1. 为了进行演示，此示例将Chrome设备和Windows Player显示为两个单独的设备。两台设备指向同一个显示器。
    ![图像1](assets/command-sync6.png)
 
 ### 更新渠道设置
@@ -103,7 +106,7 @@ ht-degree: 0%
 
 ### 设置主要播放器 {#setting-up-primary}
 
-1. 从&#x200B;**CommandSyncDemo** > **位置** > **大厅** > **大厅显示**&#x200B;导航到显示仪表板。 然后单击操作栏中的&#x200B;**仪表板**。
+1. 从&#x200B;**CommandSyncDemo** > **位置** > **大厅** > **大厅显示**&#x200B;导航到显示仪表板。然后单击操作栏中的&#x200B;**仪表板**。
 请注意&#x200B;**设备**&#x200B;面板中的两台设备（Chrome和Windows Player），如以下所示：
    ![图像1](assets/command-sync/command-sync10-1.png)
 

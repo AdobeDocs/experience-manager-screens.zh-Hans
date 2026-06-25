@@ -11,14 +11,17 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: 532
 ht-degree: 0%
 
 ---
 
 # 管理网络流量 {#managing-network-traffic}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 网络设置可以有多种结构。 本节介绍组织内最常见的网络设置和一般方法。
 
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >**AEM Screens网络要求**
->AEM Screens直接与AEM as a Cloud Service通信，因此需要在两个节点之间建立稳定连接。 对于商业Internet访问，防火墙是必需的。 作为客户，了解在这些防火墙和其他与IT安全相关的网络组件中必须打开哪些通信端口。
+>AEM Screens直接与AEM as a Cloud Service通信，因此需要在两个节点之间建立稳定连接。对于商业Internet访问，防火墙是必需的。作为客户，了解在这些防火墙和其他与IT安全相关的网络组件中必须打开哪些通信端口。
 
 ## 代理服务器概述 {#proxy-servers}
 

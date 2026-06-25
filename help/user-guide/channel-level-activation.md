@@ -23,14 +23,17 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1845
 ht-degree: 0%
 
 ---
 
 # 渠道级别激活 {#channel-level-activation-single-event-playback}
+
+>[!IMPORTANT]
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本页介绍渠道中使用的资产的渠道级别激活。
 
@@ -162,7 +165,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要了解AEM屏幕播放器，请参阅以下资源：>[AEM Screens Player下载](https://download.macromedia.com/screens/)
+>要了解AEM屏幕播放器，请参阅以下资源：>[AEM Screens播放器下载](https://download.macromedia.com/screens/)
 >[使用AEM Screens Player](working-with-screens-player.md)
 
 
