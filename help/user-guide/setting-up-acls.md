@@ -29,7 +29,7 @@ ht-degree: 2%
 # 设置访问控制列表(ACL) {#setting-up-acls}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下部分将介绍如何使用访问控制列表(ACL)分离项目，以便每个个人或团队处理自己的项目。
 

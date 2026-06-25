@@ -28,7 +28,7 @@ ht-degree: 1%
 # 将数据触发器复制到发布服务器 {#replicating-data-triggers}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 在创作/发布设置中使用ContextHub和AEM定位引擎根据数据触发器自定义内容时，在发布时所有与ContextHub和Personalization相关的配置都不会自动与渠道一起复制。
 

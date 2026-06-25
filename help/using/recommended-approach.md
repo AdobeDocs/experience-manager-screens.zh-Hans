@@ -24,7 +24,7 @@ ht-degree: 0%
 # 推荐的方法 {#recommended-approach}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 最佳做法是将任何企业级AEM Screens项目视为一项长期任务。 项目持续时间可能达到一年或一年以上，尤其是在解决方案允许复杂的用户交互或部署到各种设备和位置的情况下。
 

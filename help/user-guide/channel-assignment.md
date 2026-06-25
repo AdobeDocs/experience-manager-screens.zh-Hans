@@ -36,7 +36,7 @@ ht-degree: 1%
 
 本页显示分配渠道给显示区。
 
-此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!NOTE]
 >您可以为显示分配多个渠道。
@@ -191,5 +191,5 @@ DayParting是指将一天划分为多个时段，并指定在所需时间播放�
 >
 > 要了解有关DayParting的更多信息，请参阅以下部分：
 >
->* [在Assets中处理循环](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [在Assets中处理循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

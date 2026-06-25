@@ -33,7 +33,7 @@ ht-degree: 1%
 # 创建和管理显示区 {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 显示器是彼此相邻放置的屏幕的虚拟分组。 该显示相对于安装是永久性的。 它是内容作者所使用并始终引用的对象作为逻辑显示，而不是其物理计数器部分。
 

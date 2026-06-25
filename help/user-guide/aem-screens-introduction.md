@@ -25,7 +25,7 @@ ht-degree: 2%
 # 什么是Adobe Experience Manager Screens？{#what-is-aem-screens}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 **Experience Manager Screens** — 一种数字标牌解决方案，可让您在全面的数字营销平台上发布涉及各种屏幕的动态交互式数字体验和交互。
 
@@ -70,7 +70,7 @@ Experience Manager Screens是一个功能强大的基于Web的解决方案，通
 
 * **引导式实施Essentials**
 
-  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
+  遵循引导式学习路径&#x200B;**[Experience Manager Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hans?launch=AEM-7a)**，该路径涵盖Experience Manager Screens支持的基础和高级功能。
 
 * 适用于Experience Manager Screens项目的&#x200B;**最佳实践指南**
 

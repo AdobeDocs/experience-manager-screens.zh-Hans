@@ -27,7 +27,7 @@ ht-degree: 0%
 # 使用Screens远程控制 {#implementing-remote-control}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 利用远程控制功能，可更轻松地访问管理员UI、渠道切换器或清除缓存和重新加载等功能。 此外，它还为您提供了查看播放器上的本地固件版本和系统信息的方法。 此功能特别有用，因为连接鼠标可能会很困难。 或者，在无法访问的生产设备上操作，如果播放器已断开与AEM的连接，则更是如此。 它在使用Samsung RMS时也很有用，因为分辨率的差异使得查找和使用鼠标打开管理员UI变得困难。
 
