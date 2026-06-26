@@ -3,17 +3,12 @@ title: 在AEM Screens中配置创作和发布实例
 description: 了解如何为AEM Screens配置创作实例和发布实例。
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -23,7 +18,7 @@ ht-degree: 0%
 本页重点介绍以下主题：
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 * **配置作者和发布实例**
 * **设置发布拓扑**
@@ -65,7 +60,7 @@ ht-degree: 0%
 
 Screens需要三个复制代理：
 
-1. **默认复制代理&#x200B;***（指定为&#x200B;***标准复制代理**）
+1. **默认复制代理&#x200B;***（指定为***标准复制代理**）
 1. **Screens复制代理**
 1. **反向复制代理**
 
@@ -123,7 +118,7 @@ Screens需要三个复制代理：
 1. 为pub2创建一个AEM Screens复制代理。 复制pub1的Screens复制代理，并将pub2的端口更改为指向4504。
 
    >[!NOTE]
-   >要了解如何配置Screens复制代理，请参阅[配置Screens复制代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
+   >要了解如何配置Screens复制代理，请参阅[配置Screens复制代理](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication)。
 
 #### 创建Screens反向复制代理 {#creating-screens-reverse-replication-agents}
 
@@ -155,8 +150,7 @@ Screens需要三个复制代理：
 
 #### 步骤3：设置ActiveMQ Artemis群集 {#step-setup-activemq-artemis-cluster}
 
-此步骤允许您为ActiveMQ Artemis群集创建加密密码。
-拓扑中所有发布实例的群集用户和密码必须相同。ActiveMQ Artemis配置的密码必须加密。由于每个实例都有自己的加密密钥，因此必须使用加密支持来创建加密的密码字符串。然后，可以在ActiveMQ的OSGi配置中使用加密密码。
+此步骤允许您为ActiveMQ Artemis群集创建加密密码。拓扑中所有发布实例的群集用户和密码必须相同。 ActiveMQ Artemis配置的密码必须加密。 由于每个实例都有自己的加密密钥，因此必须使用加密支持来创建加密的密码字符串。 然后，可以在ActiveMQ的OSGi配置中使用加密密码。
 
 在每个发布实例上：
 
@@ -169,8 +163,7 @@ Screens需要三个复制代理：
 
 >[!NOTE]
 >
->密码应该以大括号开始和结束。例如：
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>密码应该以大括号开始和结束。 例如：
 
 #### 步骤4：激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 

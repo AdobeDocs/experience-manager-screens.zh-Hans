@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
 TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 360
 ht-degree: 2%
@@ -28,7 +24,7 @@ ht-degree: 2%
 # 功能包201905发行说明 {#release-notes-for-feature-pack}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >
@@ -46,7 +42,7 @@ AEM Screens功能包201905的发布日期为2019年5月16日。
 
 项目导入器是AEM Screens中一项可用的功能，通过该功能，您可以将CSV/XLS电子表格中的一组位置批量导入您的AEM Screens项目。
 
-有关更多详细信息，请参阅文件&#x200B;[&#128279;](project-importer.md)**中的**&#x200B;新建项目导入程序。
+有关更多详细信息，请参阅文件&#x200B;](project-importer.md)**中的**[&#x200B;新建项目导入程序。
 
 * **从ContentSync转换到SmartSync**
 
@@ -77,3 +73,4 @@ SmartSync可最大限度地减少服务器负载/存储和网络流量，从而�
 #### AEM Screens播放器下载
 
 要下载最新的AEM Screens播放器并了解有关错误修复的更多信息，请参阅&#x200B;**[AEM Screens播放器下载](https://download.macromedia.com/screens/)**。
+

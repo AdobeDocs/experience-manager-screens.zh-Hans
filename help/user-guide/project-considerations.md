@@ -11,21 +11,12 @@ role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 TQID: https://experienceleague.adobe.com/KlRNE9SBHb1VaJJX2noHY-qzGoEOqFLKD22L3vDJ1K8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40did: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 0%
@@ -35,7 +26,7 @@ ht-degree: 0%
 # 第2部分：关于项目适用范围的注意事项 {#part-considerations-as-projects-are-scoped}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本页重点介绍一个由5部分组成的系列中的第2部分，该系列旨在帮助团队成员更好地了解成功开发AEM Screens部署的售前环节。
 
@@ -108,3 +99,4 @@ I/O基于感测受众邻近度驱动有条件地播放内容。 例如，当传�
 了解在项目发现过程中确定的元素以及利益相关者为评估项目并准备适当设计而提供的意见。 了解总体项目计划中涉及的关键术语。 这些术语包括项目周期、围绕硬件测试的操作、概念验证、试点和推广。
 
 导航到&#x200B;**[测试、POC、试点和转出](testing-pocs-pilots-rollouts.md)**&#x200B;以了解更多详细信息。
+

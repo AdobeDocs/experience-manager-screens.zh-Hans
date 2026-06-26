@@ -7,25 +7,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -33,7 +23,7 @@ ht-degree: 0%
 # 渠道级别激活 {#channel-level-activation-single-event-playback}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本页介绍渠道中使用的资产的渠道级别激活。
 
@@ -134,7 +124,7 @@ ht-degree: 0%
    >
    >您还可以从显示功能板分配渠道。 导航到&#x200B;**渠道级别激活** > **位置** > **区域** > **区域显示**。 在操作栏上，选择&#x200B;**仪表板**。 在&#x200B;**分配的渠道和计划**&#x200B;面板中，单击&#x200B;**+分配渠道**。
 
-   同样，为显示分配渠道&#x200B;**TargetedSinglePlay**&#x200B;**：
+   同样，为显示分配渠道&#x200B;**TargetedSinglePlay****：
 
    1. 导航到&#x200B;**渠道级别激活** > **位置** > **区域** > **区域显示**，然后单击操作栏中的&#x200B;**分配渠道**。
    1. 在&#x200B;**渠道分配**&#x200B;对话框中，单击&#x200B;**按路径引用渠道**。
@@ -165,8 +155,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要了解AEM屏幕播放器，请参阅以下资源：>[AEM Screens播放器下载](https://download.macromedia.com/screens/)
->[使用AEM Screens Player](working-with-screens-player.md)
+>要了解AEM屏幕播放器，请参阅以下资源：AEM Screens Player下载使用AEM Screens Player](working-with-screens-player.md)
 
 
 ## 在渠道中处理Assets的重复项 {#handling-recurrence-in-assets}
@@ -287,3 +276,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。 此外，您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.* （2:00下午）。
+

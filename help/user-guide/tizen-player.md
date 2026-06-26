@@ -6,26 +6,21 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 1%
+source-wordcount: 1274
+ht-degree: 2%
 
 ---
 
 # 实施Tizen播放器 {#tizen-player}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 ## 安装Tizen播放器 {#installing-tizen-player}
 
@@ -69,7 +64,7 @@ ht-degree: 1%
 
 1. 导航到您的Samsung设备并打开。
 1. 单击设备遥控器上的&#x200B;**菜单**&#x200B;按钮，然后从左侧导航栏向下滚动到&#x200B;**系统**。
-1. 向下滚动，单击&#x200B;**通过**&#x200B;播放选项，并将其更改为&#x200B;**URL启动器**&#x200B;选项。
+1. 向下滚动，单击&#x200B;**通过**&#x200B;播放选项，并将其更改为&#x200B;**URL启动器**选项。
    ![图像](/help/user-guide/assets/tizen/rms-2.png)
 1. 设置URL启动器后，按遥控器上的&#x200B;**主页**&#x200B;按钮。
 1. 导航到&#x200B;**URL启动器设置**，输入本地主机服务器的IP地址，然后单击&#x200B;**完成**。
@@ -110,9 +105,7 @@ ht-degree: 1%
 
 此功能允许您远程配置Tizen播放器，并在必要时集中更新这些配置。 您只需要用于托管Tizen应用程序`(wgt and xml file)`的`HTTP`服务器和一个文本编辑器，以便使用适当的参数保存`config.json`。
 
-确保您已在Tizen设备上配置URL启动器地址。单击“Home”（主页）按钮>“URL Launcher settings”（URL启动器设置）。
-在托管Tizen应用程序的`HTTP`服务器上，将文件`config.json`放在与`wgt`文件相同的位置。文件名必须为`config.json`。
-Tizen播放器在启动时（以及每次重新启动）安装并应用`config.json`文件中的设置。
+确保您已在Tizen设备上配置URL启动器地址。 单击“Home”（主页）按钮>“URL Launcher settings”（URL启动器设置）。在托管Tizen应用程序的`HTTP`服务器上，将文件`config.json`放在与`wgt`文件相同的位置。 文件名称必须为 `config.json`。Tizen播放器在启动时（以及每次重新启动）安装并应用`config.json`文件中的设置。
 
 ### 示例JSON策略 {#example-json}
 
@@ -131,8 +124,7 @@ Tizen播放器在启动时（以及每次重新启动）安装并应用`config.j
 下表总结了策略及其功能。
 
 >[!NOTE]
->播放器的管理员UI策略配置是严格强制的，不会手动覆盖。要允许为特定策略手动配置播放器，请不要在策略配置中指定该策略。
->例如，如果要允许手动配置重新启动计划，请不要在策略配置中指定键`rebootSchedule`。每次重新加载播放器时都会读取策略配置。
+>播放器的管理员UI策略配置是严格强制的，不会手动覆盖。 要允许为特定策略手动配置播放器，请不要在策略配置中指定该策略。例如，如果要允许手动配置重新启动计划，请不要在策略配置中指定键`rebootSchedule`。 每次重新加载播放器时都会读取策略配置。
 
 | **策略名称** | **用途** |
 |---|---|
@@ -185,3 +177,4 @@ Tizen播放器在启动时（以及每次重新启动）安装并应用`config.j
 ### 使用Screens远程控制 {#using-remote-control}
 
 AEM Screens提供远程控制功能。 在此处了解有关此功能的更多信息：[Screens远程控制](implementing-remote-control.md)
+

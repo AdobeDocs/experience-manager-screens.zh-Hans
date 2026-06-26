@@ -11,29 +11,22 @@ role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
 TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 2%
+source-wordcount: 1537
+ht-degree: 3%
 
 ---
 
 # 在AEM Screens中配置ContextHub {#configuring-contexthub-in-aem-screens}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本节重点介绍如何使用数据存储来创建和管理数据驱动的资源更改。
 
@@ -218,7 +211,7 @@ ht-degree: 2%
       >
       >已知问题：
       >要添加区域，请从URL中删除主区域，例如
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **在您的品牌中创建区域**
 
@@ -230,8 +223,7 @@ ht-degree: 2%
 
    1. 从&#x200B;**创建页面**&#x200B;向导中单击&#x200B;**区域**，然后单击&#x200B;**下一步**。
 
-   1. 输入&#x200B;**标题**&#x200B;作为&#x200B;**ScreensValue**，然后单击&#x200B;**创建**。
-即会在您的品牌中创建区域。
+   1. 输入&#x200B;**标题**&#x200B;作为&#x200B;**ScreensValue**，然后单击&#x200B;**创建**。即会在您的品牌中创建区域。
 
 ## 步骤5：在活动中创建区段 {#step-setting-up-audience-segmentation}
 
@@ -339,3 +331,4 @@ ht-degree: 2%
 1. **[零售库存目标激活](retail-inventory-activation.md)**
 1. **[旅行中心温度激活](local-temperature-activation.md)**
 1. **[酒店预订激活](hospitality-reservation-activation.md)**
+

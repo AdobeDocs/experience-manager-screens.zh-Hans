@@ -3,14 +3,11 @@ title: 在AEM Screens中使用自适应演绎版
 description: 了解如何在AEM Screens中使用自适应演绎版。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 1%
 
 ---
@@ -20,7 +17,7 @@ ht-degree: 1%
 ## 简介 {#introduction}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >仅AEM内部部署(AEM 6.x)支持此功能。 AEM as a Cloud Service不支持它。
@@ -29,8 +26,7 @@ ht-degree: 1%
 
 ## 目标 {#objective}
 
-作为AEM Screens内容作者，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。
-开发人员添加演绎版映射属性和规则后，您便可以将演绎版映射应用于资源，然后将其包含在AEM Screens渠道中。
+作为AEM Screens内容作者，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。开发人员添加演绎版映射属性和规则后，您便可以将演绎版映射应用于资源，然后将其包含在AEM Screens渠道中。
 
 >[!IMPORTANT]
 >Adobe建议您先了解此功能的架构概述和配置，然后再开始在AEM Screens渠道中使用自适应演绎版。 请参阅[自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)。
@@ -57,7 +53,7 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >请参阅[按需内容更新](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，了解有关管理出版物以及将内容更新从作者传递到发布到设备的详细信息。
+   >请参阅[按需内容更新](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，了解有关管理出版物以及将内容更新从作者传递到发布到设备的详细信息。
 
 ## 迁移策略 {#migration-strategy}
 
@@ -79,3 +75,4 @@ ht-degree: 1%
 
    >[!NOTE]
    >完成迁移后，请确保从渠道、显示区和位置中删除所有配置引用，并将一个配置引用添加到项目内容节点。
+

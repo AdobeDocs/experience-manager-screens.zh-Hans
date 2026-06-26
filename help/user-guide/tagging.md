@@ -3,9 +3,9 @@ title: 在Screens Cloud上标记
 description: 本页介绍如何在Screens Cloud上创建、管理和使用标记。
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 在Screens Cloud上标记 {#tagging-on-Screens-Cloud}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >
@@ -41,8 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 一个显示区或播放器最多可以分配30个标记。
-> 一次最多可以标记30个项目。
+> 一个显示区或播放器最多可以分配30个标记。一次最多可以标记30个项目。
 
 ## 按标记过滤 {#filter-by-tags}
 
@@ -54,3 +53,4 @@ ht-degree: 0%
 > 
 > 在Screens Cloud上定义的标记与AEM中定义的标记无关/同步。
 > 
+
