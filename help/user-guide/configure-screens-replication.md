@@ -24,7 +24,7 @@ ht-degree: 5%
 # 配置Screens复制代理 {#configuring-screens-replication-agent}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下页面介绍了如何配置Screens复制代理。
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 Screens复制代理负责将命令数据（如&#x200B;*user*、*password*、*rebootSchedule*、*maxNumberOfLogFilesToKeep*&#x200B;以及更多此类值）从发布到创作。 必须配置此代理，以便作者可以显示设备ping。
 
 >[!NOTE]
->要了解有关Screens复制代理的更多信息，请参阅[Screens复制代理和命令](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
+>要了解有关Screens复制代理的更多信息，请参阅[Screens复制代理和命令](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands)。
 
 如果要完成Screens复制代理的配置，请完成以下两个部分：
 

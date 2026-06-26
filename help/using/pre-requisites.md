@@ -20,7 +20,7 @@ ht-degree: 6%
 # 先决条件 {#prerequisites}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 在深入了解实施AEM Screens项目的详细信息之前，建议您遵循特定教程和阅读材料。
 
@@ -30,9 +30,9 @@ ht-degree: 6%
 
 请参阅以下教程和资源，以便您能够学习Adobe Experience Manager 6.5：
 
-* **[Adobe Experience Manager快速入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/overview/introduction)**：了解Adobe Experience Manager的入门文章和视频教程。
+* **[Adobe Experience Manager快速入门](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/overview/introduction)**：了解Adobe Experience Manager的入门文章和视频教程。
 
-* **[AEM 6.5教程和视频](https://experienceleague.adobe.com/en/docs/experience-manager-tutorials)**：教程和视频的集合，其中重点介绍了AEM 6.5版本中AEM Sites、Assets、Forms、Screens和Foundation新增功能和更新功能。
+* **[AEM 6.5教程和视频](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-tutorials)**：教程和视频的集合，其中重点介绍了AEM 6.5版本中AEM Sites、Assets、Forms、Screens和Foundation新增功能和更新功能。
 
 * **[作者的首要步骤](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/authoring/essentials/first-steps)**：本节概述了使用Adobe Experience Manager (AEM)开始创作内容时可以使用的主要任务。
 
@@ -44,12 +44,12 @@ ht-degree: 6%
 
 * **[AEM Screens用户指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/aem-screens-introduction)**：提供有关AEM Screens项目中使用的各种角色的特性和功能的详细文档。
 
-* **[AEM Screens Implementation Essentials](https://experienceleague.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**：提供引导式教程，重点介绍AEM Screens实施的最重要方面。
+* **[AEM Screens Implementation Essentials](https://experienceleague.adobe.com/zh-hans?launch=AEM-7a#recommended/solutions/experience-manager)**：提供引导式教程，重点介绍AEM Screens实施的最重要方面。
 
 * **[数字标牌网络基础知识视频](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/aem-screens-introduction)**：提供重点介绍音频视频和数字标牌硬件关键要素的基本视频。 还有一些关于标牌网络和与Audio-Video集成商合作的视频。
-   * *[第1部分：项目角色和职责](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*：重点介绍旨在帮助团队成员更好地了解角色、职责和时间表的第1部分（共5部分）。 在数字标牌项目的销售和项目生命周期中，需要满足这些要求。 从较高层面涵盖Adobe、AEM实施人员和Audio-Video集成商的项目角色和职责。
-   * *[第2部分：项目适用范围的注意事项](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)*：重点介绍一个由5个部分组成的系列中的第2部分，旨在帮助团队成员更好地了解成功开发AEM Screens部署的售前情况。 涵盖了在项目发现过程中必须识别的元素以及利益相关者为评估项目和准备适当设计而提供的投入。
-   * *[第3部分：测试、POC、试点和转出](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*：重点介绍旨在帮助团队成员更好地了解关键术语的5部分系列的第3部分。 这些术语对于确保在推出之前开发成功的解决方案至关重要。 涵盖与硬件实验室测试和性能验证、概念验证（也称为POC）和试点计划相关的操作。
-   * *[第4部分：项目管理和部署](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：突出显示旨在涵盖项目管理和部署准备的5部分系列的第4部分。 它还界定了音频/视频集成商在项目管理和部署准备方面负责的关键因素。 包括项目预生产、项目启动和项目进度。
-   * *[第5部分：支持注意事项](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*：重点介绍旨在帮助团队成员了解如何解决硬件、软件和连接问题的5部分系列的最后部分。 本阶段探讨现场支持的成本估算和框架。 它还介绍了SLA参数、运营预算和NOC移交的管理方式。
+   * *[第1部分：项目角色和职责](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)*：重点介绍旨在帮助团队成员更好地了解角色、职责和时间表的第1部分（共5部分）。 在数字标牌项目的销售和项目生命周期中，需要满足这些要求。 从较高层面涵盖Adobe、AEM实施人员和Audio-Video集成商的项目角色和职责。
+   * *[第2部分：项目适用范围的注意事项](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations)*：重点介绍一个由5个部分组成的系列中的第2部分，旨在帮助团队成员更好地了解成功开发AEM Screens部署的售前情况。 涵盖了在项目发现过程中必须识别的元素以及利益相关者为评估项目和准备适当设计而提供的投入。
+   * *[第3部分：测试、POC、试点和转出](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*：重点介绍旨在帮助团队成员更好地了解关键术语的5部分系列的第3部分。 这些术语对于确保在推出之前开发成功的解决方案至关重要。 涵盖与硬件实验室测试和性能验证、概念验证（也称为POC）和试点计划相关的操作。
+   * *[第4部分：项目管理和部署](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：突出显示旨在涵盖项目管理和部署准备的5部分系列的第4部分。 它还界定了音频/视频集成商在项目管理和部署准备方面负责的关键因素。 包括项目预生产、项目启动和项目进度。
+   * *[第5部分：支持注意事项](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*：重点介绍旨在帮助团队成员了解如何解决硬件、软件和连接问题的5部分系列的最后部分。 本阶段探讨现场支持的成本估算和框架。 它还介绍了SLA参数、运营预算和NOC移交的管理方式。
 

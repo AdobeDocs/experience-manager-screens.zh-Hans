@@ -20,7 +20,7 @@ ht-degree: 1%
 ## 简介 {#introduction}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 >[!CAUTION]
 >仅AEM内部部署(AEM 6.x)支持此功能。 AEM as a Cloud Service不支持它。
@@ -56,7 +56,7 @@ ht-degree: 1%
    ![图像](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >请参阅[按需内容更新](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，了解有关管理出版物以及将内容更新从作者传递到发布到设备的详细信息。
+   >请参阅[按需内容更新](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content)，了解有关管理出版物以及将内容更新从作者传递到发布到设备的详细信息。
 
 ## 迁移策略 {#migration-strategy}
 

@@ -20,7 +20,7 @@ ht-degree: 49%
 # AEM Screens简介 {#introduction}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 **AEM Screens**&#x200B;是一款数字标牌解决方案，可让您创作、发布和播放动态的交互式数字体验。 它涉及不同类型的实地显示屏幕，并结合全方位的全渠道数字营销战略。
 

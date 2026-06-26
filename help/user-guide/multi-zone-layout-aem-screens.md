@@ -35,7 +35,7 @@ ht-degree: 0%
 # 多区域布局 {#multi-zone-layout}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 以下页面介绍了多区域布局的使用情况，并涵盖了以下主题：
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 在开始实施此功能之前，请确保您对以下内容具有概念性知识：
 
-* [创建AEM Screens项目](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [创建显示](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [创建AEM Screens项目](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [创建显示](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [将渠道分配给显示](/help/user-guide/channel-assignment.md)
 
 ## 创建多区域布局 {#creating-multi-zone-layout}
