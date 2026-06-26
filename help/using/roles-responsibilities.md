@@ -16,7 +16,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1349
 ht-degree: 0%
@@ -213,3 +213,4 @@ Audio-Video Integrator是硬件供应商合作伙伴。 他们是负责零售设
 | 第3层支持 | I | RA | C |
 | 内容更新 | RA | I | I |
 | 评估UX成功并确定需要改进的方面 | RA | C | I |
+

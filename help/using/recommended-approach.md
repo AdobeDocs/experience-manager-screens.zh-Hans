@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -69,3 +69,4 @@ ht-degree: 0%
 
 * **了解自定义集成的范围**：
 具有触摸屏交互、运动传感器或RFID的交互式组件需要在实施方法中进行重要的自定义开发。 幻灯片放映、视频广告或静态菜单可以在Screens渠道上作为图形内容或HTML投放。
+

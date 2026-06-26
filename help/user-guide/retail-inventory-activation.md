@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 636
 ht-degree: 0%
@@ -137,3 +137,4 @@ ht-degree: 0%
    1. 更改所有三个不同列的值。 请注意显示图像会根据清单中的最高值更新。
 
    ![retail_result](assets/retail_result.gif)
+

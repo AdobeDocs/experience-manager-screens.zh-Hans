@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1892
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    [获取文件](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [获取文件](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack;获取文件
    **或者，**&#x200B;如果正在使用Eclipse或其他IDE，请下载以下源包。 使用Maven命令将项目部署到本地AEM实例：
 
    **`mvn -PautoInstallPackage clean install`**
@@ -539,3 +539,4 @@ AEM Screens组件在编辑模式与预览/生产模式中的呈现方式有所�
 SRC最终AEM Screens `We.Retail`运行项目
 
 [获取文件](assets/src-screens-weretail-run-001.zip)
+

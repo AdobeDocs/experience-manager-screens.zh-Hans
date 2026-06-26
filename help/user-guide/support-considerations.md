@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 677
 ht-degree: 0%
@@ -79,3 +79,4 @@ ht-degree: 0%
 ## 结论 {#conclusion}
 
 这些由五部分组成的系列重点关注对确保项目成功至关重要的关键注意事项。 有关实施详细信息，请参阅《AEM Screens用户指南》的其他部分。
+

@@ -20,7 +20,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1536
 ht-degree: 0%
@@ -263,5 +263,6 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. 对于全局覆盖，请在资源的&#x200B;**时区覆盖**&#x200B;部分中输入激活时间。 如果您没有在此区域输入任何内容，则应用的时区是播放器的时区。
+
 
 

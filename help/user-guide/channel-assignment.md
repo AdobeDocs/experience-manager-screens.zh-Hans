@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1285
 ht-degree: 1%
@@ -193,3 +193,4 @@ DayParting是指将一天划分为多个时段，并指定在所需时间播放�
 >
 >* [在Assets中处理循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
 >* [在渠道中处理Assets的循环](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+

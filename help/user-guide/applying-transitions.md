@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 322
 ht-degree: 0%
@@ -74,3 +74,4 @@ ht-degree: 0%
 1. 此外，如果将&#x200B;**嵌入式序列**&#x200B;组件（包括一个序列渠道）添加到此渠道编辑器，则可以在末尾添加过渡组件。 这样做可确保内容以正确的顺序播放，如下图所示：
 
    ![图像3](assets/transitions5.png)
+

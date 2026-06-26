@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -40,8 +40,7 @@ ht-degree: 1%
 或者，您可以直接导航到： `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**导航提示：**
->您还可以使用光标键浏览AEM中的其他文件夹。此外，单击特定图元后，按空格键可编辑或查看该特定文件夹的属性。
+>**导航提示：您还可以使用光标键在AEM中的其他文件夹中导航。 此外，单击特定图元后，按空格键可编辑或查看该特定文件夹的属性。
 
 ## 创建新的Screens项目
 
@@ -92,3 +91,4 @@ ht-degree: 1%
 ### 后续步骤 {#the-next-steps}
 
 创建自己的项目后，请参阅[渠道管理](managing-channels.md)创建和管理渠道中的内容。
+

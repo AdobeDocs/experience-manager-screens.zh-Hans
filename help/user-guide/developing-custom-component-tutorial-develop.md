@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2410
+source-wordcount: 2414
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Screens项目的源代码通常作为多模块Maven项目进行管理。 为了�
 
    [获取文件](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [获取文件](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack;获取文件
    **可选**&#x200B;如果使用Eclipse或其他IDE，请下载以下源包。 使用Maven命令将项目部署到本地AEM实例：
 
    **`mvn -PautoInstallPackage clean install`**
@@ -599,3 +599,4 @@ public class MyCustomHandler extends AbstractResourceHandler {
 [获取文件](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
 [获取文件](assets/screens-weretail-run.zip)
+

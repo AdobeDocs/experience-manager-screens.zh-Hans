@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -72,8 +72,7 @@ Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AE
 * AEM累积修补程序包
 
 除上述内容外，请确定任何开发包(例如WCM Core
-组件)或所需的第三方工具包（例如SAP Hybris）。
-在本地开发环境中安装相同的软件包。指示您的客户端在其所有QA、暂存和生产服务器上采用相同的配置。服务器配置不匹配会在部署和测试时造成问题。
+组件)或所需的第三方工具包（例如SAP Hybris）。在本地开发环境中安装相同的软件包。 指示您的客户端在其所有QA、暂存和生产服务器上采用相同的配置。 服务器配置不匹配会在部署和测试时造成问题。
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ Dispatcher是Adobe Experience Manager的缓存和负载平衡工具。 使用 AE
 设置ACL说明了如何分离项目，以便每个个人或团队处理自己的项目。
 
 有关详细信息，请参阅[设置ACL](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/setting-up-acls)。
+

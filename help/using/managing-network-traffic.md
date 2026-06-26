@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 587
 ht-degree: 0%
 
 ---
@@ -28,8 +28,7 @@ ht-degree: 0%
 本指南重点介绍代理服务器，以及不同组织内设置的各种网络结构。
 
 >[!NOTE]
->**AEM Screens网络要求**
->AEM Screens直接与AEM as a Cloud Service通信，因此需要在两个节点之间建立稳定连接。对于商业Internet访问，防火墙是必需的。作为客户，了解在这些防火墙和其他与IT安全相关的网络组件中必须打开哪些通信端口。
+>**AEM Screens网络要求AEM Screens直接与AEM as a Cloud Service通信，因此需要在两个节点之间建立稳定连接。 对于商业Internet访问，防火墙是必需的。 作为客户，了解在这些防火墙和其他与IT安全相关的网络组件中必须打开哪些通信端口。
 
 ## 代理服务器概述 {#proxy-servers}
 
@@ -58,3 +57,4 @@ Internet连接依赖于代理服务器的使用。 代理服务器是在计算�
 | **直接移动网络** | 易于安装<br>适合中型或大型安装的选项<br>良好的可扩展性<br>封装的Screens | 强制Internet连接 |
 | **带有移动数据路由器和活动网络组件的移动网络** | 易于安装<br>适合中型或大型安装的选择<br>可以封装专用网络<br>故障点少<br>相对便宜<br>良好的可扩展性 | 强制性互联网数据计划 |
 | **包含的公司网络（有线/无线）** | 高灵活性和可扩展性<br>由于不同的防线，所以高度安全<br>封装网络<br>易于监控和维护<br>可靠 | 为网络专家或系统集成商推荐复杂而昂贵的<br> |
+

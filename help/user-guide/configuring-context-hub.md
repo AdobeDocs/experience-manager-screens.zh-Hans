@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 2%
+source-wordcount: 1537
+ht-degree: 3%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 2%
       >
       >已知问题：
       >要添加区域，请从URL中删除主区域，例如
-      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+      >`http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`。
 
 1. **在您的品牌中创建区域**
 
@@ -230,8 +230,7 @@ ht-degree: 2%
 
    1. 从&#x200B;**创建页面**&#x200B;向导中单击&#x200B;**区域**，然后单击&#x200B;**下一步**。
 
-   1. 输入&#x200B;**标题**&#x200B;作为&#x200B;**ScreensValue**，然后单击&#x200B;**创建**。
-即会在您的品牌中创建区域。
+   1. 输入&#x200B;**标题**&#x200B;作为&#x200B;**ScreensValue**，然后单击&#x200B;**创建**。即会在您的品牌中创建区域。
 
 ## 步骤5：在活动中创建区段 {#step-setting-up-audience-segmentation}
 
@@ -339,3 +338,4 @@ ht-degree: 2%
 1. **[零售库存目标激活](retail-inventory-activation.md)**
 1. **[旅行中心温度激活](local-temperature-activation.md)**
 1. **[酒店预订激活](hospitality-reservation-activation.md)**
+

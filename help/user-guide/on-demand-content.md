@@ -18,9 +18,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: 872
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 0%
 
    **了解包括子项对话框**
 
-   上述步骤显示了如何发布整个内容。如果要使用其他三个可用的替代项，则必须选中该特定选项。
-例如，下图显示了如何仅管理和更新项目中已修改的页面：
-   ![图像](assets/author-publish-manage.png)
+   上述步骤显示了如何发布整个内容。 如果要使用其他三个可用的替代项，则必须选中该特定选项。例如，下图显示了如何仅管理和更新项目中已修改的页面：   ![图像](assets/author-publish-manage.png)
 
    请按照下面的解释进行操作，以便您了解可用的选项：
 
@@ -143,3 +141,4 @@ ht-degree: 0%
 如果重新分配了设备，则在将该设备重新分配给新显示时，发布初始显示和新显示。
 
 同样，如果重新分配了渠道，在将渠道重新分配给新显示后，发布初始显示和新显示。
+

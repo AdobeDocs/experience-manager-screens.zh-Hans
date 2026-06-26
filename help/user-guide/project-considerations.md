@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 0%
@@ -108,3 +108,4 @@ I/O基于感测受众邻近度驱动有条件地播放内容。 例如，当传�
 了解在项目发现过程中确定的元素以及利益相关者为评估项目并准备适当设计而提供的意见。 了解总体项目计划中涉及的关键术语。 这些术语包括项目周期、围绕硬件测试的操作、概念验证、试点和推广。
 
 导航到&#x200B;**[测试、POC、试点和转出](testing-pocs-pilots-rollouts.md)**&#x200B;以了解更多详细信息。
+

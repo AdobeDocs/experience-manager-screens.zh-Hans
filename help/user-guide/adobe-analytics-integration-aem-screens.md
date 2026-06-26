@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 739
 ht-degree: 1%
@@ -141,3 +141,4 @@ Analytics事件离线存储在indexedDB中，稍后进行分块并发送到云�
 >[!NOTE]
 >
 >要了解有关&#x200B;***排序***&#x200B;和&#x200B;***事件标准数据模型***&#x200B;的更多信息，请参阅&#x200B;**[为AEM Screens配置Adobe Analytics](configuring-adobe-analytics-aem-screens.md)**。
+

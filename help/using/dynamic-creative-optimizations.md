@@ -13,7 +13,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 0%
@@ -52,3 +52,4 @@ ht-degree: 0%
 
 * **本地数据触发器**：这些数据触发器是设备上的本地触发器。 例如，如果触摸屏幕，将激活一个传感器，触发本地数据资产或通道开关。
 * **远程数据触发器**：这涉及数据触发的通道切换或基于Web服务API返回值的资产切换。
+

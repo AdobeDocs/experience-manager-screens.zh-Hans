@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ AEM Screens播放器还可以使用运行至少3G网络的移动或蜂窝网络�
 
 在考虑应使用哪个数据网络时，请考虑以下事项：
 
-可用的网络速度取决于特定的移动数据提供商计划以及在AEM Screens控制器位置可到达的可用覆盖范围。
-在执行此设置时，请考虑以下事项：除了可用带宽之外，某些移动数据提供商计划还会限制在特定时间内通过连接的可用数据量。必须确保数据和带宽量有足够的容量。
-作为后续操作，所需的数据包必须至少为：
+可用的网络速度取决于特定的移动数据提供商计划以及在AEM Screens控制器位置可到达的可用覆盖范围。在执行此设置时，请考虑以下事项：除了可用带宽之外，某些移动数据提供商计划还会限制在特定时间内通过连接的可用数据量。 必须确保数据和带宽量有足够的容量。作为后续操作，所需的数据包必须至少为：
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +104,4 @@ AEM Screens为数字标牌用户提供了显着的优势。 它下载并在本�
 >所有信息是指网络中请求和下载Internet源的每个设备的消耗。 其中每个请求都会增加并延长下载时间。
 
 ![](/help/using/assets/download-times-mobile.png)
+

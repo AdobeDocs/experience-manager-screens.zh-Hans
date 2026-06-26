@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 4%
 
 ---
@@ -53,8 +53,7 @@ ht-degree: 4%
    >![图像](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >如果您安装了最新的功能包202109，则会在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中预先填充了&#x200B;**rendition-mapping**&#x200B;节点结构。请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)的发行说明，以了解有关最新功能包的详细信息。
-   >对于现有项目，请确保Screens项目具有关联的&#x200B;**rendition-mapping**&#x200B;配置。 有关详细信息，请参阅[将演绎版映射添加到现有项目](#rendition-mapping-existing)部分。
+   >如果您安装了最新的功能包202109，则会在CRXDE Lite中看到`/conf/screens/sling:configs/rendition-mapping`中预先填充了&#x200B;**rendition-mapping**&#x200B;节点结构。 请参阅[功能包202109](/help/user-guide/release-notes-fp-202109.md)的发行说明，以了解有关最新功能包的详细信息。   >对于现有项目，请确保Screens项目具有关联的&#x200B;**rendition-mapping**&#x200B;配置。 有关详细信息，请参阅[将演绎版映射添加到现有项目](#rendition-mapping-existing)部分。
 
 ### 将演绎版映射属性添加到现有项目 {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ ht-degree: 4%
 ## 后续步骤 {#next-steps}
 
 在添加演绎版映射属性和规则后，作为内容作者，您可以配置资源。 您可以使用自适应演绎版，还可以为大型网络迁移设备，以便在AEM Screens渠道中使用此功能。 有关详细信息，请参阅[在AEM Screens中使用自适应演绎版](/help/user-guide/using-adaptive-renditions.md)。
+

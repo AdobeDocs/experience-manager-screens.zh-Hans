@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 0%
@@ -108,3 +108,4 @@ ht-degree: 0%
    1. 将该值更改为小于50。 您可以查看冷饮的图像。 如果Google Sheets中的值为50或更大，您应该会看到热饮的图像。
 
    ![结果3](assets/result3.gif)
+

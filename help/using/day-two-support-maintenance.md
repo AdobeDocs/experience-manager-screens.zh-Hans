@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 1%
@@ -35,3 +35,4 @@ AEM Screens需要多个包才能使项目正常运行。 所有环境都必须�
 1. 将相同的软件包安装到本地开发环境中。
 
 1. 指示您的客户端在其所有QA、暂存和生产服务器上采用相同的配置。 服务器配置不匹配会在部署和测试时造成问题。
+

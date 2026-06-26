@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 1%
 
 ---
@@ -136,8 +136,7 @@ Ad-Hoc方法允许您安装最新的™播放器(*.exe*)。 访问&#x200B;[**AEM
 
 执行以下步骤，在™播放器中允许批量配置：
 
-1. 创建名为`player-config.default.json`的配置JSON文件。
-请参阅[示例JSON策略](#example-json)和描述各种[策略属性](#policy-attributes)的使用的表。
+1. 创建名为`player-config.default.json`的配置JSON文件。查看[示例JSON策略](#example-json)和描述各种[策略属性](#policy-attributes)的使用的表。
 
 1. 使用MDM、ADB或™ Studio文件资源管理器将此策略JSON文件拖放到Android™设备上的&#x200B;*sdcard*&#x200B;文件夹中。
 
@@ -224,3 +223,4 @@ Ad-Hoc方法允许您安装最新的™播放器(*.exe*)。 访问&#x200B;[**AEM
 ### 使用Screens远程控制 {#using-remote-control}
 
 AEM Screens提供远程控制功能。 在此处了解有关此功能的更多信息：[Screens远程控制](implementing-remote-control.md)
+

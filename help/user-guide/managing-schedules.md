@@ -24,7 +24,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 416
 ht-degree: 0%
@@ -81,3 +81,4 @@ ht-degree: 0%
    **已分配的渠道面板** — 单击“已分配的渠道”面板右上角的+分配渠道，打开“渠道分配”对话框。
 
    **已分配显示面板** — 单击已分配显示面板中的任何显示以打开显示功能板。
+

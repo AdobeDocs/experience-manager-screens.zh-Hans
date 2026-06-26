@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 6%
+source-wordcount: 288
+ht-degree: 5%
 
 ---
 
@@ -79,12 +79,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->每次将第一台设备添加到新的Screens项目时，都会创建一个用户组。
->例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。
->此组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
+>每次将第一台设备添加到新的Screens项目时，都会创建一个用户组。例如，如果项目节点名称为&#x200B;*we-retail*，则用户组名称为&#x200B;*screens-we-retail-devices*。该组已添加为&#x200B;**参与者**&#x200B;组的成员，如下图所示：
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### 后续步骤 {#the-next-steps}
 
 熟悉如何为显示分配渠道后，请参阅t[监视和疑难解答](monitoring-screens.md)。
+

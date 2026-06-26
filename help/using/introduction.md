@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 736
 ht-degree: 49%
@@ -67,3 +67,4 @@ AEM Screens 提供了一个框架，可以将内容部署到实体设备。 包�
 
 >[!NOTE]
 >许多 AEM Sites 组件与 AEM Screens 并不兼容。 AEM Screens 附带了许多现成的组件，您无需自定义即可构建数字体验。 如果项目要求允许，请尽可能使用内置的 AEM Screens 功能。
+

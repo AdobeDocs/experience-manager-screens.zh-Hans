@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -165,8 +165,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要了解AEM屏幕播放器，请参阅以下资源：>[AEM Screens播放器下载](https://download.macromedia.com/screens/)
->[使用AEM Screens Player](working-with-screens-player.md)
+>要了解AEM屏幕播放器，请参阅以下资源：AEM Screens Player下载使用AEM Screens Player&rbrack;(working-with-screens-player.md)
 
 
 ## 在渠道中处理Assets的重复项 {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。 此外，您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.* （2:00下午）。
+

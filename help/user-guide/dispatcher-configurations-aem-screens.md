@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: 709
 ht-degree: 2%
 
 ---
@@ -39,8 +39,7 @@ Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 >
 >如果不存在Dispatcher，请在OSGi组件列表中禁用注册servlet。
 
-在为AEM Screens项目配置Dispatcher之前，请先了解Dispatcher。
-有关详细信息，请参阅[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)。
+在为AEM Screens项目配置Dispatcher之前，请先了解Dispatcher。有关详细信息，请参阅[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)。
 
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
 
@@ -262,3 +261,4 @@ Screens播放器使用经过身份验证的会话，因此Dispatcher不会缓存
 ```
 
 * 此规则确保`segments.js`文件失效，并在修改时获取最新文件。
+

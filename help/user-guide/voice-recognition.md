@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ ht-degree: 2%
 
    ![图像](assets/voice-recognition/vr-2.png)
 
-   如果您在项目中添加了拆分Screens渠道，请导航到&#x200B;**拆分屏幕**&#x200B;并拖放两个嵌入的序列。将路径添加到&#x200B;**ColdDroups**&#x200B;和&#x200B;**HotDroups**&#x200B;频道，如下图所示。
-   ![图像](assets/voice-recognition/vr-emb-6.png)
+   如果您在项目中添加了拆分Screens渠道，请导航到&#x200B;**拆分屏幕**&#x200B;并拖放两个嵌入的序列。 将路径添加到&#x200B;**ColdIndrings**&#x200B;和&#x200B;**HotIndrings**&#x200B;频道，如下图所示。   ![图像](assets/voice-recognition/vr-emb-6.png)
 
 
 ### 为渠道设置标记 {#setting-tags}
@@ -204,3 +203,4 @@ ht-degree: 2%
 拆分Screens渠道所需的&#x200B;**输出**
 
 **Main**&#x200B;频道正在播放其内容。 但是，当您同时使用关键字&#x200B;**hot**&#x200B;和&#x200B;**cold**&#x200B;的单词时，例如&#x200B;*我想查看热饮和冷饮的菜单*，该频道播放&#x200B;**SplitScreen**&#x200B;频道的内容。 如果说&#x200B;*返回主菜单*，则它恢复为&#x200B;**Main**&#x200B;频道。
+

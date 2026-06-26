@@ -19,7 +19,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 0%
@@ -99,3 +99,4 @@ ht-degree: 0%
 ## 下一步 {#the-next-step}
 
 当您完成与AEM Screens部署的项目管理相关的关键注意事项时，请导航到&#x200B;**[第5部分：支持注意事项](support-considerations.md)**，以便您了解第2天支持和涉及的流程。
+

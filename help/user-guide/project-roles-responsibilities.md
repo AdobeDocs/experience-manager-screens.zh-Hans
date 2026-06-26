@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 0%
@@ -84,3 +84,4 @@ AEM实施人员通常会随着时间的推移分阶段将自定义功能部署�
 当您了解实施数字标牌项目时的项目角色和责任时，请按照下一个教程进行操作。 在开发AEM Screens销售机会时，由于项目的范围是限定的，因此该指南将深入探讨诸如测试和售前注意事项等主题。
 
 导航到&#x200B;**[第2部分：项目作用域时的注意事项](project-considerations.md)**&#x200B;以了解更多详细信息。
+

@@ -17,9 +17,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -40,8 +40,7 @@ ht-degree: 2%
 
 ### 先决条件 {#pre-reqs}
 
-在下载“内容分配报表”之前，请确保已使用“渠道”、“位置”和“设备”设置了AEM Screens项目。
-有关更多详细信息，请参阅以下资源：
+在下载“内容分配报表”之前，请确保已使用“渠道”、“位置”和“设备”设置了AEM Screens项目。有关更多详细信息，请参阅以下资源：
 
 1. [创建和管理项目](/help/user-guide/creating-a-screens-project.md)
 1. [创建和管理渠道](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ ht-degree: 2%
 1. 从&#x200B;**渠道**&#x200B;列中选择任何渠道可打开&#x200B;**内容**&#x200B;选项卡。 反过来，它会将您直接导航到该渠道，并为您提供与该特定渠道关联的资产（图像和视频）信息。
 
    ![图像](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

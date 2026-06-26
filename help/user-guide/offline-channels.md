@@ -18,7 +18,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 476
 ht-degree: 2%
@@ -130,3 +130,4 @@ Screens播放器使用&#x200B;***ContentSync***&#x200B;技术为渠道提供脱�
 >[!NOTE]
 >
 >了解自定义脱机资源处理程序的模板。 并且，在`pom.xml`中进一步了解项目的最低要求。 请参阅&#x200B;**为AEM Screens**&#x200B;开发自定义组件中的[自定义处理程序模板](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers)。
+

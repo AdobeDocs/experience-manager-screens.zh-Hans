@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -155,8 +155,7 @@ Screens需要三个复制代理：
 
 #### 步骤3：设置ActiveMQ Artemis群集 {#step-setup-activemq-artemis-cluster}
 
-此步骤允许您为ActiveMQ Artemis群集创建加密密码。
-拓扑中所有发布实例的群集用户和密码必须相同。ActiveMQ Artemis配置的密码必须加密。由于每个实例都有自己的加密密钥，因此必须使用加密支持来创建加密的密码字符串。然后，可以在ActiveMQ的OSGi配置中使用加密密码。
+此步骤允许您为ActiveMQ Artemis群集创建加密密码。拓扑中所有发布实例的群集用户和密码必须相同。 ActiveMQ Artemis配置的密码必须加密。 由于每个实例都有自己的加密密钥，因此必须使用加密支持来创建加密的密码字符串。 然后，可以在ActiveMQ的OSGi配置中使用加密密码。
 
 在每个发布实例上：
 
@@ -169,8 +168,7 @@ Screens需要三个复制代理：
 
 >[!NOTE]
 >
->密码应该以大括号开始和结束。例如：
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>密码应该以大括号开始和结束。 例如：
 
 #### 步骤4：激活ActiveMQ Artemis群集 {#step-activate-activemq-artemis-cluster}
 

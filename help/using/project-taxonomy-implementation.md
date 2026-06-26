@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 457
 ht-degree: 0%
@@ -68,3 +68,4 @@ AEM Screens作者负责使用AEM Screens中的可用组件创建和管理用户�
 
 >[!NOTE]
 >您还可以将一组位置从CSV/XLS电子表格批量导入到您的AEM Screens项目。 请参阅文件[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/project-importer)中的新建项目导入程序。
+

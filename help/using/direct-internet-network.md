@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 如果URL调用成功，您可以继续安装AEM Screens并注册。 启动AEM Screens。
 
    >[!NOTE]
-   >**疑难解答提示**
+   >**疑难解答提示
    >如果AEM Screens未正确连接并且未显示预期的内容：
    >
    >1. 如果对`TCP/IP Port 80/443`有任何限制，请检查Internet路由器防火墙。
@@ -84,8 +84,7 @@ Internet连接的性能除了网络可达性之外，还在于提供足够的带
 
 局域网(LAN)的性能除了网络的可达性外，还在于提供足够的带宽来运行AEM Screens。
 
-LAN网络通常至少与100-Mbps网络匹配，因此有足够的带宽将许多性能良好的设备连接到系统。
-如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议至少使用`IEEE 802.11g`等现代Wi-Fi标准。此标准支持高达54 Mbps的连接。任何&#x200B;*较新*&#x200B;标准（如`802.11h-n`）的质量都更高。
+LAN网络通常至少与100-Mbps网络匹配，因此有足够的带宽将许多性能良好的设备连接到系统。如果设想使用Wi-Fi解决方案将AEM Screens连接到Internet Link，则建议至少使用`IEEE 802.11g`等现代Wi-Fi标准。 此标准支持高达54 Mbps的连接。 任何&#x200B;*较新的*&#x200B;标准（如`802.11h-n`）的质量更好。
 
 >[!NOTE]
 >
@@ -106,3 +105,4 @@ AEM Screens为数字标牌用户提供了显着的优势。 它下载并在本�
 >该信息允许您通过请求和下载Internet源来查看网络中每台设备的使用情况。 其中每个请求都会增加并延长下载时间。
 
 ![](/help/assets/download-times-direct.png)
+

@@ -23,7 +23,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 710
 ht-degree: 1%
@@ -151,3 +151,4 @@ ht-degree: 1%
 在为您的位置创建显示区后，请为您的显示区分配一个渠道。
 
 有关更多详细信息，请参阅[分配渠道](channel-assignment.md)。
+

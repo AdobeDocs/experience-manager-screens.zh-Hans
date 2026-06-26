@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 * 确认所有交付项的交付&#x200B;*提前期*。 创建一个部署计划，该计划应从第一次所需安装的一个或多个所需安装日期开始向后调整所有提前期。
 
 完成所有上述步骤后，您现在应该已准备好执行全面的&#x200B;*第1天*&#x200B;部署计划。
+

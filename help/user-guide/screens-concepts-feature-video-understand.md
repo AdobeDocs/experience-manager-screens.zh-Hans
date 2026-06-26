@@ -14,7 +14,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 1%
@@ -49,3 +49,4 @@ ht-degree: 1%
 以下视频演示了位置、显示和设备配置的创建。 该视频还显示了注册设备和将设备分配给显示器的步骤。 它大致遵循[Screens Kickstart指南](kickstart-for-aem-screens.md)的后半部分。
 
 >[!VIDEO](https://video.tv.adobe.com/v/39392?captions=chi_hans&quality=9)
+

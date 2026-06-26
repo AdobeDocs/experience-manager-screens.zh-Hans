@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 442
 ht-degree: 2%
@@ -76,3 +76,4 @@ ht-degree: 2%
 * 同时具有视频（如果视频具有正确的演绎版）和缩略图集的视频组件将播放视频。
 
 * 如果存在播放错误，包含视频集的视频组件将播放缩略图，如果未配置缩略图，将跳过到下一项。
+

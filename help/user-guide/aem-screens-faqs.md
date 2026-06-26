@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2246
+source-wordcount: 2299
 ht-degree: 2%
 
 ---
@@ -231,8 +231,7 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 
 ### &#x200B;2. 如何添加Oak索引信息？ {#add-oak-index-info}
 
-AEM Screens为产品使用的查询创建索引定义。
-如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+AEM Screens为产品使用的查询创建索引定义。如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。 有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您还可以在[Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他资源。
 
@@ -241,11 +240,9 @@ AEM Screens为产品使用的查询创建索引定义。
 
 要启用v3清单，请执行以下操作：
 
-* 更新Dispatcher。
-有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
+* 更新Dispatcher。有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
 
-* 更新自定义组件。
-有关详细信息，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+* 更新自定义组件。有关详细信息，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中禁用ContentSync。
 

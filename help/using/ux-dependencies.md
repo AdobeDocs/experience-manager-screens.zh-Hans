@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 0%
@@ -50,3 +50,4 @@ UX依赖项定义内容的战略化位置和方式，以便最具影响力。
 1. 一个显示器是否需要多个设备（例如，多区域、超大型板）？
 
 1. 什么是环境因素，例如亮度、温度和季节？
+

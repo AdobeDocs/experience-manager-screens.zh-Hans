@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 0%
@@ -128,3 +128,4 @@ OBSOLETE NOTE>
 **方案2**
 
 将计划频率设置为1，将ping超时设置为60。 然后，如果您的AEM Screens设备没有在一天中的任意特定时间立即ping通，您将收到一封电子邮件通知，以确认设备处于非活动状态。
+

@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 **序列频道** — 序列频道是您可以创作的、包含组件并在幻灯片中逐一显示的页面。
 
 **区域** — 区域是用作通道的主要可寻址实体的显示区段。 在显示跨越多个屏幕的情况下，定义区域以匹配屏幕尺寸是有利的，尤其是当屏幕显示显著的物理边框时。
+

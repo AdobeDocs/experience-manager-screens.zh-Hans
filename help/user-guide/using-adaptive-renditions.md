@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 1%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 1%
 
 ## 目标 {#objective}
 
-作为AEM Screens内容作者，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。
-开发人员添加演绎版映射属性和规则后，您便可以将演绎版映射应用于资源，然后将其包含在AEM Screens渠道中。
+作为AEM Screens内容作者，您现在可以将特定于设备的资源呈现配置为自动下载和播放，而无需手动创建所有内容变体。开发人员添加演绎版映射属性和规则后，您便可以将演绎版映射应用于资源，然后将其包含在AEM Screens渠道中。
 
 >[!IMPORTANT]
 >Adobe建议您先了解此功能的架构概述和配置，然后再开始在AEM Screens渠道中使用自适应演绎版。 请参阅[自适应演绎版：架构概述和配置](/help/user-guide/adaptive-renditions.md)。
@@ -79,3 +78,4 @@ ht-degree: 1%
 
    >[!NOTE]
    >完成迁移后，请确保从渠道、显示区和位置中删除所有配置引用，并将一个配置引用添加到项目内容节点。
+

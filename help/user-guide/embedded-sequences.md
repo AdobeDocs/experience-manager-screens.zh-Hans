@@ -26,9 +26,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 825
 ht-degree: 0%
 
 ---
@@ -56,8 +56,7 @@ ht-degree: 0%
 您可以向渠道中添加嵌入式序列。 嵌入式序列是包含图像或视频等资产的另一个渠道。 添加嵌入式序列允许用户通过&#x200B;***渠道路径***&#x200B;将序列添加到渠道。
 
 >[!NOTE]
->***渠道路径***定义了对该渠道的显式引用。
->要了解有关&#x200B;*渠道路径*&#x200B;的更多信息，请参阅Screens创作中的[渠道分配](channel-assignment.md)。
+>***渠道路径***&#x200B;定义了对该渠道的显式引用。若要了解有关&#x200B;*渠道路径*&#x200B;的更多信息，请参阅Screens创作中的[渠道分配](channel-assignment.md)。
 
 请按照以下步骤向渠道中添加嵌入式序列：
 
@@ -119,3 +118,4 @@ ht-degree: 0%
 1. 单击序列中嵌入渠道的&#x200B;**序列**&#x200B;选项卡中的&#x200B;**持续时间（毫秒）**。
 
 ![最新](assets/latest.gif)
+

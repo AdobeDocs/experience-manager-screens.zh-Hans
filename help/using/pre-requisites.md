@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 6%
@@ -52,3 +52,4 @@ ht-degree: 6%
    * *[第3部分：测试、POC、试点和转出](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*：重点介绍旨在帮助团队成员更好地了解关键术语的5部分系列的第3部分。 这些术语对于确保在推出之前开发成功的解决方案至关重要。 涵盖与硬件实验室测试和性能验证、概念验证（也称为POC）和试点计划相关的操作。
    * *[第4部分：项目管理和部署](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*：突出显示旨在涵盖项目管理和部署准备的5部分系列的第4部分。 它还界定了音频/视频集成商在项目管理和部署准备方面负责的关键因素。 包括项目预生产、项目启动和项目进度。
    * *[第5部分：支持注意事项](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*：重点介绍旨在帮助团队成员了解如何解决硬件、软件和连接问题的5部分系列的最后部分。 本阶段探讨现场支持的成本估算和框架。 它还介绍了SLA参数、运营预算和NOC移交的管理方式。
+
