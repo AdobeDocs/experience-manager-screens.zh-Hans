@@ -3,8 +3,11 @@ title: 在AEM Screens中使用自适应演绎版
 description: 了解如何在AEM Screens中使用自适应演绎版。
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 630

@@ -3,9 +3,14 @@ title: 管理网络流量
 description: 本页介绍标准网络设置以及如何管理网络流量。
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
 TQID: https://experienceleague.adobe.com/toQExjYycmdyuJ18MzNczjmqjec2SQrXbnz4gxi01Tk
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 587

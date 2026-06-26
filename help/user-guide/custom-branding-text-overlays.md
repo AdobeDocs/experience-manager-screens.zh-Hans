@@ -7,9 +7,13 @@ role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
 TQID: https://experienceleague.adobe.com/7M6tMLxqCrYuwdLcMpep7YdQe4efLFjNGgGqVX1ewRE
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 630
@@ -76,7 +80,7 @@ ht-degree: 1%
 
 1. 导航到标题为&#x200B;**DemoBrand**(在步骤(1)中创建)的频道，然后在选择该频道后，从操作栏中单击&#x200B;**属性**。
 
-1. 导航到&#x200B;**高级**&#x200B;选项卡并检查&#x200B;**设计**字段。
+1. 导航到&#x200B;**高级**&#x200B;选项卡并检查&#x200B;**设计**&#x200B;字段。
    ![图像](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]

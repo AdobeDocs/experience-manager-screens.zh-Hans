@@ -3,9 +3,14 @@ title: AEM Screens的业务内容策略
 description: 详细了解与AEM Screens相关的营销和业务内容策略。
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
 TQID: https://experienceleague.adobe.com/r6DxWYdpFA9pG-d1daaSsNUdenVDbkl3eHsAzABmggQ
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
