@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 2%
-
 ---
-
 # 渠道分配 {#channel-assignment}
 
 >[!IMPORTANT]
@@ -142,7 +149,7 @@ ht-degree: 2%
 
 ![图像](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-### 选择一个渠道 {#select-channel}
+### 选择渠道 {#select-channel}
 
 通过选择渠道，您可以按渠道名称或渠道路径提供对所需渠道的引用。
 
@@ -171,7 +178,8 @@ ht-degree: 2%
 ### 中断方法 {#interruption-method-channel}
 
 >[!IMPORTANT]
-> 此选项仅在<!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4中可用。
+>
+>此选项仅在<!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4中可用。
 
 作为内容作者，您可以指定渠道中断的时间。 这样做可让您选择切断非关键内容。 但是，您还可以选择让重要内容在因日程安排而缩短内容之前完整播放。
 
@@ -180,13 +188,15 @@ ht-degree: 2%
 * **立即** — 每当计划激活或收到更新时，您都可以中断播放，并立即刷新或播放新内容
 * **当前项目结束** — 激活新计划或收到更新时，您可以选择等待序列中的当前项目完成播放。 之后，您才能刷新或播放新内容。
 
-  >[!NOTE]
-  >默认情况下，该选项处于选中状态。
+>[!NOTE]
+>
+>默认情况下，该选项处于选中状态。
 
 * **序列结束** — 激活新计划或收到更新时，您可以选择等待整个序列结束。 然后，就在所需的序列之前，您可以循环播放回第一个元素、刷新或播放新内容。
 
-  >[!NOTE]
-  >使用第二个或第三个选项可能会导致对分配定义的调度时间稍微延迟。 原因是播放器在刷新之前等待项目或序列的结束（在指定的时间之后）。 延迟取决于项目的播放持续时间。
+>[!NOTE]
+>
+>使用第二个或第三个选项可能会导致对分配定义的调度时间稍微延迟。 原因是播放器在刷新之前等待项目或序列的结束（在指定的时间之后）。 延迟取决于项目的播放持续时间。
 
 以下属性是通过&#x200B;**渠道分配**&#x200B;对话框中的&#x200B;**计划**&#x200B;选项设置的。
 
@@ -201,7 +211,8 @@ ht-degree: 2%
 周期性时间表允许您为内容设置周期性时间表。 单击&#x200B;**+添加计划**&#x200B;以将周期性计划添加到您的频道。
 
 >[!NOTE]
->您可以向渠道添加多个周期性计划。周期性时间表引入了&#x200B;*DayParting*。 您可以设置一个全局计划，让多个渠道在一天中的特定时间运行，然后一次性重新使用为所有的显示设置好的计划。
+>您可以向渠道添加多个周期性计划。
+>周期性时间表引入了&#x200B;*DayParting*。 您可以设置一个全局计划，让多个渠道在一天中的特定时间运行，然后一次性重新使用为所有的显示设置好的计划。
 
 您可以设置以下选项：
 
@@ -209,8 +220,8 @@ ht-degree: 2%
 * **重复** — 选择计划是运行&#x200B;**每日**、**每周**、**每月**&#x200B;还是&#x200B;**每年**。
 * **开始** — 计划的开始时间。
 * **结束** — 计划的结束时间。 您可以按时间或持续时间进行设置。
-   * **时间** — 计划将在指定的时间结束。
-   * **持续时间** — 计划运行特定持续时间（小时或分钟）。
+  * **时间** — 计划将在指定的时间结束。
+  * **持续时间** — 计划运行特定持续时间（小时或分钟）。
 
 ### DayParting {#dayparting}
 
@@ -226,18 +237,18 @@ ht-degree: 2%
 
 | **名称** | **重复** | **启动** | **结束** |
 |---|---|---|---|
-| 早餐 | 每日 | 上午6:00 | 上午11:00 |
+| 早餐 | 每日 | 清晨6点 | 上午11:00 |
 | 午餐 | 每日 | 上午11:00 | 下午3:00 |
-| 晚餐 | 每日 | 下午3:00 | 晚上8:00 |
+| 晚餐 | 每日 | 下午3:00 | 晚上8点 |
 
 #### 在一周中的特定日期播放内容 {#playing-content-on-a-particular-day-of-the-week}
 
-此示例显示了在赌场中实施的DayParting，该赌场中每个周末从晚上8:00到晚上10:00进行现场活动，并且晚上10:00到凌晨1:00的晚餐菜单上有特别优惠。
+此示例显示了在赌场中实施的DayParting，其中实时活动在每周末的下午8:00到下午10:00之间进行，并且在10:00到凌晨1:00之间可在晚餐菜单中找到特别优惠。
 
 | **名称** | **重复** | **启动** | **结束** |
 |---|---|---|---|
-| 周末 | 每周：星期六和星期日 | 晚上8:00 | 下午10:00 |
-| 特别计划 | 每日：星期一到星期五 | 下午10:00 | 上午1:00 |
+| 周末 | 每周：星期六和星期日 | 晚上8点 | 晚上10点 |
+| 特别计划 | 每日：星期一到星期五 | 晚上10点 | 凌晨1点 |
 
 >[!NOTE]
 >

@@ -8,25 +8,31 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: '1559'
 ht-degree: 0%
-
 ---
-
 # 资产级别激活 {#asset-level-scheduling}
 
 >[!IMPORTANT]
@@ -40,10 +46,10 @@ ht-degree: 0%
 * 激活窗口
 * 单个事件播放
 * 在Assets中处理循环
-   * DayParting
-   * WeekParting
-   * MonthParting
-   * 部件的组合
+  * DayParting
+  * WeekParting
+  * MonthParting
+  * 部件的组合
 * 多资产激活
 * 通用开始时间的全局覆盖
 
@@ -101,7 +107,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 您可以根据需要安排资产按特定时间间隔重复使用，周期可以是每日、每周或每月。
 
-假设您只想在星期五下午1:00至下午10:00显示图像。您可以使用&#x200B;**激活**&#x200B;选项卡为资源设置所需的重复间隔。
+假设您只想在星期五下午1:00到晚上10:00显示图像。您可以使用&#x200B;**激活**&#x200B;选项卡为资源设置所需的循环间隔。
 
 ### 日划分 {#day-parting}
 
@@ -120,14 +126,14 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 | **表达式** | **解释** |
 |---|---|
-| 上午8:00之前 | 渠道中的资产在每天上午8:00之前播放 |
-| 下午2:00之后 | 渠道中的资产在每天下午2:00点后播放 |
-| 12:15之后和12:45之前 | 渠道中的资产每天下午12:15后播放30分钟 |
-| 在12:15之前也在12:45之后 | 渠道中的资产在每天下午12:15之前播放，然后在下午12:45之后播放。 |
+| 上午8点之前。 | 渠道中的资产在每天上午8:00之前播放 |
+| 下午2点以后。 | 渠道中的资产在每日下午2:00之后播放 |
+| 12:15之后和12:45之前 | 渠道中的资产在每日下午12:15之后播放30分钟 |
+| 12:15之前以及12:45之后 | 渠道中的资产在每天中午12:15之前播放，然后在中午12:45之后播放。 |
 
 >[!NOTE]
 >
->您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.* （2:00下午）。
+>您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.*（下午2:00）。
 
 ### WeekParting {#week-parting}
 
@@ -175,6 +181,7 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | `on February-July` | 该资产从2月播放到7月底 |
 
 >[!NOTE]
+>
 >在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。
 
 ### 部件的组合 {#combined-parting}
@@ -183,8 +190,9 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 
 1. 输入开始日期/时间和结束/日期时间后，可以使用表达式或自然文本版本指定循环计划。
 
-   >[!NOTE]
-   >您可以根据需要跳过或包含&#x200B;**从**&#x200B;开始的活动和&#x200B;**到**&#x200B;的活动字段，并将表达式添加到“计划”字段。
+>[!NOTE]
+>
+>&#x200B;>您可以根据需要跳过或包含&#x200B;**从**&#x200B;开始的活动和&#x200B;**到**&#x200B;的活动字段，并将表达式添加到“计划”字段。
 
 1. 在&#x200B;**计划**&#x200B;中输入表达式，您的资产将以特定的日期和时间间隔显示。
 
@@ -195,11 +203,12 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 | **表达式** | **解释** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | 从1月到3月底，周一和周三上午6点到下午6点之间，该资产会在渠道中播放 |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2:00之后开始播放，从1月2日开始播放一整天，一直到1月3日凌晨3:00 |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2:00之后开始播放，继续播放直到1月2日凌晨3:00，然后在1月2日下午2:00再次开始播放，并继续播放直到1月3日凌晨3:00 |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2点后开始播放，并在1月2日继续播放一整天，一直到1月3日凌晨3点 |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | 渠道中的资产在1月1日下午2:00之后开始播放，继续播放直到1月2日凌晨3:00，然后在1月2日下午2:00重新开始播放，并继续播放直到1月3日凌晨3:00 |
 
 >[!NOTE]
->在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。 此外，您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.*（2:00下午）。
+>
+>在定义星期和月份时，您可以使用短写符号和全名符号，例如，周一/星期一和一月/一月。 此外，您还可以使用&#x200B;_军用时间_&#x200B;表示法(14:00)，而不是&#x200B;*A.M./P.M.*(2:00 P.M.)。
 
 
 ## 多资产激活 {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. 对于全局覆盖，请在资源的&#x200B;**时区覆盖**&#x200B;部分中输入激活时间。 如果您没有在此区域输入任何内容，则应用的时区是播放器的时区。
-
-
-
