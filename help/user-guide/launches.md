@@ -10,28 +10,37 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
+TQID: 'https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+  - id: 633abde6-4dea-52af-a785-d12d741851d7
+    internal-label: Launches
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+    internal-label: Screens Launch
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: '1636'
 ht-degree: 0%
-
 ---
-
 # 使用Screens Launch进行内容更新 {#launches}
 
 >[!IMPORTANT]
@@ -41,9 +50,9 @@ ht-degree: 0%
 
 在&#x200B;***Screens Launch***&#x200B;的帮助下，作者可以预览启动项中的每个渠道，并且应该能够发起审查请求。 审批者组收到通知，可以批准或拒绝请求。 当到达实时日期时，内容将在设备中播放。
 
-例如，如果作者想要创建c1、c2（渠道）的未来版本，则会创建启动项并设置上线日期（例如，11月10日上午8点:00）。 内容中的任何其他更新都会发送以供审查。
+例如，如果作者想要创建c1、c2（渠道）的未来版本，则会创建启动项并设置启用日期（例如，11月10日上午8:00）。 内容中的任何其他更新都会发送以供审查。
 
-在获得批准并在上线日期（11月10日上午8:00）上，此启动项将在设备或播放器上播放内容。
+在获得批准并上线日期（11月10日上午8:00）后，本次发布将在设备或播放器上播放内容。
 
 ## 要求 {#requirements}
 
@@ -65,7 +74,7 @@ ht-degree: 0%
 
 为了让播放器能够在设置的实时日期开始播放内容，请在实时日期之前开始之前的活动。
 
-如果上线日期是&#x200B;*11月24日，上午9:00点*，*24小时*&#x200B;是宽限期，则上述操作序列从（上线日期 — 宽限期）开始，即11月23日服务器时间上午9:00。 此设置有24小时来完成上述所有操作，以便内容可到达播放器。 播放器知道此时间段属于启动内容。 因此，内容不会立即播放，但播放器可以将此内容存储为未来版本，并让它在播放器时区的设置实时日期开始播放。
+如果起始日期是&#x200B;*11月24日，上午9:00*&#x200B;并且&#x200B;*24小时*&#x200B;是宽限期，则上述操作序列将从（起始日期 — 宽限期）开始，即11月23日服务器时间上午9:00。 此设置有24小时来完成上述所有操作，以便内容可到达播放器。 播放器知道此时间段属于启动内容。 因此，内容不会立即播放，但播放器可以将此内容存储为未来版本，并让它在播放器时区的设置实时日期开始播放。
 
 例如，服务器在PST中，设备在EST中。 最长时间差为3小时。 它假定促销活动需要1分钟，从创作到发布需要10分钟，播放器通常可在10-15分钟内下载资源。 然后宽限期=时间差（三个小时）：
 

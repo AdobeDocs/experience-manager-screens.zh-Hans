@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 5%
-
 ---
-
 # 功能包202105发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,14 +52,14 @@ AEM Screens功能包202105的发布日期是2021年6月4日。
 * **命名AEM Screens Player设备**
 
   AEM Screens播放器现在包括向Adobe Experience Manager (AEM)发送设备名称的功能。
-默认情况下，当使用批量注册来注册设备时，系统生成的用户名会输入到标题字段中。 作为替代方法，客户可以使用资源标记或其他友好名称，以便在AEM中可见且更易于分配适当的内容。
+  默认情况下，当使用批量注册来注册设备时，系统生成的用户名会输入到标题字段中。 作为替代方法，客户可以使用资源标记或其他友好名称，以便在AEM中可见且更易于分配适当的内容。
 
   有关如何在每个支持的操作系统中配置名称的信息，请参阅以下文档：
 
-   * [™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome操作系统](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [Chrome操作系统](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **清单生成**
 

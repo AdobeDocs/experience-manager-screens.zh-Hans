@@ -9,23 +9,34 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-TQID: https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk
+TQID: 'https://experienceleague.adobe.com/4MMy4-ShZOJ1C09ayJpXRFAeaUZDDbzhNmIifacUPPk'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: f367514d-25b6-5935-b3fe-9248ef8d72e2
+    internal-label: Interactive
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 1%
-
 ---
-
 # 视频播放配置和故障排除 {#video-playback-configuration-and-troubleshooting}
 
 >[!IMPORTANT]

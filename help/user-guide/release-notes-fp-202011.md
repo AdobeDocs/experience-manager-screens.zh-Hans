@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-TQID: https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo
+TQID: 'https://experienceleague.adobe.com/STGb-1noku974a5PHrLjLFBJpwlJZOhhwjPO3zP-fmo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '316'
 ht-degree: 5%
-
 ---
-
 # 功能包202011发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,18 +45,18 @@ AEM Screens功能包202011的发布日期为2020年11月30日。
 * **内容分配报告**
 
   内容分配报表功能允许AEM Screens管理员或作者以电子表格格式导出&#x200B;*内容分配报表*。
-有关更多详细信息，请参阅[内容分配报告](/help/user-guide/content-assignment-report.md)。
+  有关更多详细信息，请参阅[内容分配报告](/help/user-guide/content-assignment-report.md)。
 
 
 * **Tizen播放器**
 
   AEM Screens 6.5.6版本的最新功能包中引入了称为Tizen播放器的新播放器。
-有关更多详细信息，请参阅[实施Tizen播放器](/help/user-guide/tizen-player.md)。
+  有关更多详细信息，请参阅[实施Tizen播放器](/help/user-guide/tizen-player.md)。
 
 * 设备管理器中的&#x200B;**搜索功能**
 
   在AEM Screens 6.5.6版本的最新功能包中，设备管理器UI现在提供了新的搜索功能。
-有关更多详细信息，请参阅[从设备管理器搜索设备](/help/user-guide/device-registration.md#search-device)。
+  有关更多详细信息，请参阅[从设备管理器搜索设备](/help/user-guide/device-registration.md#search-device)。
 
 * **默认Ping间隔**
 
