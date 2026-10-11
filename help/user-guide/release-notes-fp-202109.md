@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-TQID: https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs
+TQID: 'https://experienceleague.adobe.com/INOW-DVlJkMChau5JzHRlHL-Sv1XglwVoCFMVDX2LLs'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '989'
 ht-degree: 1%
-
 ---
-
 # 功能包202109发行说明 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -40,17 +45,17 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 * 视频支持&#x200B;**缩略图**
 
   AEM Screens现在支持视频的缩略图。 内容作者为视频定义缩略图，这样该图像就可以用作占位符。 他们还正确测试内容播放和定位，而相应的团队会最终确定实际视频。 在视频播放失败时，也可以使用该图像。
-有关更多详细信息，请参阅[视频的缩略图支持](/help/user-guide/thumbnail-support.md)。
+  有关更多详细信息，请参阅[视频的缩略图支持](/help/user-guide/thumbnail-support.md)。
 
 * **基本回放监控**
 
   AEM Screens现在支持基本回放监控。 播放器现在报告每次ping（默认为30秒）的各种回放指标。 它会根据量度检测各种边缘情况（卡住体验、空白屏幕、计划问题等）。 团队可以使用此功能远程监控播放器是否正确播放内容，并改善对空白屏幕或现场中断体验的反应性。 它还降低了向最终用户显示中断体验的风险。
-有关更多详细信息，请参阅[基本回放监控](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
+  有关更多详细信息，请参阅[基本回放监控](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring)。
 
 * **内容分配报告的更新**
 
   内容分配报表现已通过增强的用户体验得到优化和改进。 可下载的报告显示了经过改进的播放器相关实体。 此类实体在一个电子表格选项卡中包括位置、显示器和设备。 它还包括内容提供商信息，例如其他选项卡中的渠道和资产。
-有关更多详细信息，请参阅[内容分配报告](/help/user-guide/content-assignment-report.md)。
+  有关更多详细信息，请参阅[内容分配报告](/help/user-guide/content-assignment-report.md)。
 
 * **自适应演绎版**
 
@@ -64,29 +69,29 @@ AEM Screens功能包202109的发布日期为2021年9月23日。
 
   您现在可以为清单版本v3配置Dispatcher。 要启用v3清单，请执行以下操作：
 
-   * 清除创作和已发布中的任何待处理脱机内容作业。
+  * 清除创作和已发布中的任何待处理脱机内容作业。
 
-      * 在创作和发布中导航到CRXDE Lite 。
+    * 在创作和发布中导航到CRXDE Lite 。
 
-      * 单击“工具”>“查询”。
+    * 单击“工具”>“查询”。
 
-      * 在查询中使用`/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`。
+    * 在查询中使用`/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`。
 
-      * 这将列出队列中当前正在运行或挂起的脱机内容作业。
+    * 这将列出队列中当前正在运行或挂起的脱机内容作业。
 
-      * 请等待，直到不再从查询返回离线内容作业。
+    * 请等待，直到不再从查询返回离线内容作业。
 
-   * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中禁用ContentSync。
+  * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中禁用ContentSync。
 
-   * 在`/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`中启用SmartSync。
+  * 在`/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`中启用SmartSync。
 
-   * 更新Dispatcher。
+  * 更新Dispatcher。
 
-   * 更新自定义组件。
+  * 更新自定义组件。
 
 
-   * 有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
-   * 如果您将自定义组件用作v3清单的一部分，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+  * 有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
+  * 如果您将自定义组件用作v3清单的一部分，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 
 ### 错误修复 {#bug-fixes}

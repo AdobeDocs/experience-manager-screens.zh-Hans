@@ -5,32 +5,48 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+TQID: 'https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: facbaac7-c94d-465b-aee8-c0e11fad102c
+    internal-label: Core product features
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
+subfeature_v2:
+  - id: b0723018-81e0-4ba1-b4be-7cf61cc8c2ce
+    internal-label: Digital signage
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: '2299'
 ht-degree: 2%
-
 ---
-
 # AEM Screens常见问题解答 {#aem-screens-faqs}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本主题提供了与AEM Screens项目相关的常见问题解答。
 
@@ -185,7 +201,7 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 
 1. 检查您的Dispatcher配置是否允许在`/filters`中处理这些请求。
 
-   有关详细信息，请参阅[配置Screens筛选器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
+   有关详细信息，请参阅[配置Screens筛选器](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters)。
 
 1. 检查您的Dispatcher重写规则是否正在将任何屏幕路径重写为其他路径。
 
@@ -202,14 +218,14 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 
   请按照以下步骤使用这些ContentHub存储值：
 
-   * 编辑渠道属性并将“个性化”选项卡中的ContextHub路径设置为值（如上所述）
-   * 在渠道JS中，您可以使用：
+  * 编辑渠道属性并将“个性化”选项卡中的ContextHub路径设置为值（如上所述）
+  * 在渠道JS中，您可以使用：
 
-     ```shell
-        ContextHub.getStore('screens-device');
-        ContextHub.getStore('screens-display');
-        ContextHub.getStore('screens-channels');
-     ```
+    ```shell
+       ContextHub.getStore('screens-device');
+       ContextHub.getStore('screens-display');
+       ContextHub.getStore('screens-channels');
+    ```
 
 ## 一般疑难解答提示 {#general-troubleshooting-tips}
 
@@ -231,7 +247,8 @@ Windows Player中没有窗口模式。 它始终处于全屏模式。
 
 ### &#x200B;2. 如何添加Oak索引信息？ {#add-oak-index-info}
 
-AEM Screens为产品使用的查询创建索引定义。如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。 有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
+AEM Screens为产品使用的查询创建索引定义。
+如果`error.log`中有任何&#x200B;*查询遍历WARN*，请为您的查询创建自定义索引。 有关详细信息，请参阅[配置索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes)。
 
 您还可以在[Oak文档](https://jackrabbit.apache.org/oak/docs/query/lucene.html)上看到其他资源。
 
@@ -240,9 +257,11 @@ AEM Screens为产品使用的查询创建索引定义。如果`error.log`中有�
 
 要启用v3清单，请执行以下操作：
 
-* 更新Dispatcher。有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
+* 更新Dispatcher。
+有关更多详细信息，请参阅[为清单版本v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3)配置Dispatcher 。
 
-* 更新自定义组件。有关详细信息，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
+* 更新自定义组件。
+有关详细信息，请参阅[自定义处理程序模板](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers)。
 
 * 在`/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`中禁用ContentSync。
 
@@ -256,7 +275,7 @@ AEM Screens为产品使用的查询创建索引定义。如果`error.log`中有�
 
 ### &#x200B;4. 如果在软件包screens-cloud-ams-pkg-0.0.20、screens-cloud-ams-pkg-0.0.16和screens核心包已安装但未处于活动状态，您应该怎么做？
 
-安装最低版本的AEM 6.5 Feature Pack 8以便AMS连接器正常工作。 请参阅[可用性](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以便您可以获取AEM Screens Feature Pack的最低版本。
+安装最低版本的AEM 6.5 Feature Pack 8以便AMS连接器正常工作。 请参阅[可用性](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability)，以便您可以获取AEM Screens Feature Pack的最低版本。
 
 ### &#x200B;5. 如何在Screens中配置CQ Link Externalizer服务？
 

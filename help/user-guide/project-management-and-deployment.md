@@ -10,26 +10,35 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-TQID: https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E
+TQID: 'https://experienceleague.adobe.com/HFEJGJVn70peZ4VRDH39uZKXkKiktLDAMSJgjQN1h-E'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: b844878e-e10f-4719-b9dc-dd9b362335de
+    internal-label: Configuration and administration
+subfeature_v2:
+  - id: d60b52d2-425a-4695-8bae-976f27c4fef5
+    internal-label: Overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Beginner
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '721'
 ht-degree: 0%
-
 ---
-
 # 第4部分：项目管理和部署 {#part-project-management-and-deployment}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 本页重点介绍了由5部分组成的系列项目的第4部分，该系列项目旨在涵盖项目管理和部署准备工作，并界定音频/视频集成商负责的项目管理和部署准备工作所涉及的关键因素。
 
@@ -92,7 +101,7 @@ ht-degree: 0%
 
 ### 项目管理和部署
 
->[!VIDEO](https://video.tv.adobe.com/v/32795?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *了解项目管理和部署准备（项目预生产、项目启动、项目进展）。*
 

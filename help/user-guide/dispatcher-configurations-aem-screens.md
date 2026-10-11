@@ -5,29 +5,37 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
+TQID: 'https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Security
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '709'
 ht-degree: 2%
-
 ---
-
 # 适用于AEM Screens的Dispatcher配置{#dispatcher-configurations-for-aem-screens}
 
 >[!IMPORTANT]
->此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
+>此内容对AEM on-premise/AMS（AEM 6.5LTS和AEM 6.5）有效。 有关AEM as a Cloud Service Screens的内容，请参阅[AEM as a Cloud Service指南](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction)。
 
 Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 
@@ -39,12 +47,13 @@ Dispatcher是Adobe Experience Manager的缓存和/或负载平衡工具。
 >
 >如果不存在Dispatcher，请在OSGi组件列表中禁用注册servlet。
 
-在为AEM Screens项目配置Dispatcher之前，请先了解Dispatcher。有关详细信息，请参阅[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)。
+在为AEM Screens项目配置Dispatcher之前，请先了解Dispatcher。
+有关详细信息，请参阅[配置Dispatcher](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration)。
 
 ## 为清单版本v2配置Dispatcher {#configuring-dispatcher}
 
 >[!IMPORTANT]
->以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3[&#128279;](#configuring-dispatcherv3)的Dispatcher配置以了解清单版本v3。
+>以下Dispatcher配置仅适用于清单版本v2。 请参阅清单版本v3](#configuring-dispatcherv3)的[Dispatcher配置以了解清单版本v3。
 
 AEM Screens播放器或设备使用经过身份验证的会话来访问发布实例中的资源。 当您有多个发布实例时，请求应始终转到同一发布实例，以便经过身份验证的会话对来自AEM Screens播放器或设备的所有请求有效。
 
@@ -81,7 +90,7 @@ AEM Screens播放器或设备使用经过身份验证的会话来访问发布实
 
 ### 步骤2：配置Screens过滤器 {#step-configure-screens-filters}
 
-要配置Screens筛选器，请将以下内容添加到&#x200B;***`/filter`***。
+要配置Screens筛选器，请将以下内容添加到***`/filter`***。
 
 ```
 ## AEM Screens Filters

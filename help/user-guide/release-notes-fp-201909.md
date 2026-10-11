@@ -5,23 +5,29 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-TQID: https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc
+TQID: 'https://experienceleague.adobe.com/4TMG64FERFMyH3b2QCogvAk1CPeuDA2xU-eDjTyJ4Xc'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '294'
 ht-degree: 3%
-
 ---
-
 # 功能包201909发行说明{#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -55,7 +61,7 @@ AEM Screens功能包201909的发布日期为2019年10月7日。
 * 体验片段中的&#x200B;**脱机配置**
 
   现在，您可以在配置Screens Experience Fragment时添加离线配置（客户端库和静态文件）。
-有关更多详细信息，请参阅[使用体验片段](experience-fragments-in-screens.md)。
+  有关更多详细信息，请参阅[使用体验片段](experience-fragments-in-screens.md)。
 
 ### 已发布的AEM Screens Players
 
